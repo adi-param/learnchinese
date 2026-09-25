@@ -35,13 +35,15 @@ The checks cover unique IDs, source bounds, lesson references, complete word seg
 
 ## Website
 
-- Browse and search words, phrases and sentences by lesson.
-- Flip word or phrase flashcards to reveal Pinyin and English.
-- Match Chinese words with English meanings, with gentle retry feedback.
-- Build the textbook sentences from their actual word tokens.
+The interface uses the Fredoka typeface from Google Fonts (falling back to the system rounded font offline), an illustrated SVG panda guide and SVG icons. Every word picture is a drawing in the same flat style (`src/illustrations.js`), so the whole site reads as one consistent set. Designed for a pre-reader playing alongside a parent: big picture-first buttons, a panda guide, lessons picked by picture, tap-anything-to-hear-it cards, reward chimes, confetti and a star counter that resets when the page closes. Picture hints are mapped in `src/pictures.js`; they are presentation only, not translations, and the curriculum's `image` field stays `null`. A picture must show the word itself, never one example of it (an elephant would teach "elephant", not 大). Qualities are shown by contrast: the same object twice, with the answer glowing under an arrow and the other faded. Family words highlight one person in the same family, actions show someone doing them, colours are shapeless paint blobs and shapes are colourless outlines. Every word the games use has a picture, and match rounds work through all of a lesson's words before repeating. Search, sources, draft preview and sound help sit in the **For grown-ups** drawer below each screen.
+
+- Browse words, phrases and sentences by lesson; tap a card to hear it.
+- Flip word or phrase cards to reveal a picture, Pinyin and English, and hear the word.
+- Match each Chinese word to its picture. Tapping a word only selects it; a separate speaker button plays it. An animated arrow joins each matched pair in its own colour, and finishing a round sets off a big celebration.
+- Build the textbook sentences from their actual word tokens; each tapped word is spoken.
 - Play bundled slow female Mandarin recordings, with visible loading/playing feedback. All 214 recordings live in `assets/audio/` and are served by GitHub Pages. They use the Tingting system voice at generation rate 100 and playback rate 0.85, with pitch preserved. They are synthetic pronunciations, not textbook recordings.
 
-Games start with approved content only. While the curriculum is in draft, enable **Parent preview: use draft material** to try the activities together. This setting lasts only for the current page session and does not approve content or assert mastery. There is no saved learning progress in this first version.
+Every game uses all of a lesson's words, phrases and sentences straight away; review status is shown only to grown-ups (the **For grown-ups** drawer can show sources and review status on cards). There is no saved learning progress in this first version.
 
 ### Local development
 

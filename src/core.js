@@ -9,3 +9,9 @@ export function matchingWords(items) {
 }
 export function sentenceComplete(expected, actual) { return expected.length===actual.length && expected.every((id,index)=>id===actual[index]); }
 export function sourceLabel(item,lessonId) {return [...new Set(item.occurrences.filter(o=>lessonId==='all'||o.lessonId===lessonId).map(o=>`${o.sourceId==='book-1'?'Book 1':'Book 2'} · PDF page ${o.pdfPage}`))].join('; ');}
+// Deals match rounds from a shuffled queue so every word gets a turn before any repeats.
+export function drawRound(queue, pool, size=4, random=Math.random) {
+  const next=queue.filter(item=>pool.includes(item));
+  if(next.length<size)next.push(...shuffle(pool.filter(item=>!next.includes(item)),random));
+  return {words:next.slice(0,size),queue:next.slice(size)};
+}

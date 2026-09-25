@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {lessonItems,matchingWords,sentenceComplete,shuffle} from '../src/core.js';
+import {lessonItems,matchingWords,sentenceComplete,shuffle,drawRound} from '../src/core.js';
 const library=JSON.parse(readFileSync(new URL('../data/library.json',import.meta.url)));
 test('lesson scope excludes instruction-only vocabulary and other lessons',()=>{
  const words=lessonItems(library,'lesson-34',{kind:'word'});
@@ -28,3 +28,8 @@ test('sentence checking respects repeated words, order and completeness',()=>{
  assert(!sentenceComplete(['a','b','a'],['a','b']));
 });
 test('shuffle preserves all tokens without mutating source',()=>{const a=['a','b','a','c'];const b=shuffle(a,()=>0);assert.deepEqual(a,['a','b','a','c']);assert.deepEqual([...b].sort(),[...a].sort());});
+test('match rounds give every word a turn before repeating',()=>{
+ const pool=matchingWords(lessonItems(library,'lesson-34',{kind:'word'}));let queue=[];const seen=new Set();
+ for(let round=0;round<Math.ceil(pool.length/4);round++){const dealt=drawRound(queue,pool);assert.equal(new Set(dealt.words).size,dealt.words.length);dealt.words.forEach(w=>seen.add(w.hanzi));queue=dealt.queue;}
+ assert.equal(seen.size,pool.length);assert(seen.has('大')&&seen.has('小'));
+});
