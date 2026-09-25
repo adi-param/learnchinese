@@ -1,3 +1,4 @@
+import {femaleMandarinVoice, PRONUNCIATION_RATE} from './speech.js';
 import {lessonItems,shuffle,matchingWords,sentenceComplete,sourceLabel} from './core.js';
 const root=document.querySelector('#app');
 const icons={library:'▤',flashcards:'▱',match:'⇄',sentences:'▦'};
@@ -8,13 +9,13 @@ const byId=new Map();
 const lesson=()=>library.lessons.find(l=>l.id===state.lesson);
 const scoped=opts=>lessonItems(library,state.lesson,opts);
 const practice=(kind='word')=>scoped({kind,approvedOnly:!state.drafts});
-const sound=(id)=>`<button class="sound" data-speak="${id}" aria-label="Listen to ${escape(byId.get(id).hanzi)}" title="Listen with device Mandarin voice">♪</button>`;
+const sound=(id)=>`<button class="sound" data-speak="${id}" aria-label="Listen to ${escape(byId.get(id).hanzi)}" title="Listen slowly with a female Mandarin voice">♪</button>`;
 function toast(message){document.querySelector('.toast')?.remove();const el=document.createElement('div');el.className='toast';el.setAttribute('role','status');el.textContent=message;document.body.append(el);setTimeout(()=>el.remove(),5500);}
 function speak(id){
  const item=byId.get(id); if(!('speechSynthesis' in window)){toast('Pronunciation is not supported in this browser. Use your audio pen.');return;}
- voiceList=speechSynthesis.getVoices();const voice=voiceList.find(v=>/^zh[-_]CN$/i.test(v.lang))||voiceList.find(v=>/^zh[-_](TW|SG)$/i.test(v.lang));
- if(!voice){toast('No Mandarin voice is available on this device. Use your audio pen for pronunciation.');return;}
- speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(item.hanzi);utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=.75;utterance.onerror=()=>toast('Audio could not play. Please try again or use your audio pen.');speechSynthesis.speak(utterance);
+ voiceList=speechSynthesis.getVoices();const voice=femaleMandarinVoice(voiceList);
+ if(!voice){toast('No recognised female Mandarin voice is available. Install a female Mandarin voice in your device’s speech settings, then reload this page.');return;}
+ speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(item.hanzi);utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=PRONUNCIATION_RATE;utterance.onerror=()=>toast('Audio could not play. Please try again or use your audio pen.');speechSynthesis.speak(utterance);
 }
 function toolbar(){return `<div class="toolbar"><div class="toolbar-top"><div class="field"><label for="lesson">${state.view==='library'?'Explore a lesson':'Practise a lesson'}</label><select id="lesson">${state.view==='library'?'<option value="all">All lessons</option>':''}${library.lessons.map(l=>`<option value="${l.id}" ${l.id===state.lesson?'selected':''}>${l.number} · ${escape(l.title)}${l.coverageStatus==='missing'?' (missing)':l.coverageStatus==='partial'?' (partial)':''}</option>`).join('')}</select></div>${state.view==='library'?`<div class="field grow"><label for="search">Find something</label><input id="search" type="search" placeholder="Search Chinese, Pinyin or English…" value="${escape(state.query)}"></div>`:''}</div>${state.view==='library'?`<div class="filters"><div class="tabs" aria-label="Content type">${[['word','Words'],['phrase','Phrases'],['sentence','Sentences']].map(([id,name])=>`<button data-kind="${id}" class="${state.kind===id?'active':''}" aria-pressed="${state.kind===id}">${name}</button>`).join('')}</div><label class="check"><input id="extra" type="checkbox" ${state.extra?'checked':''}> Include activity instructions</label></div>`:`<div class="filters">${state.view==='flashcards'?`<div class="field"><label for="flash-kind">Practise</label><select id="flash-kind"><option value="word" ${state.flashKind==='word'?'selected':''}>Words</option><option value="phrase" ${state.flashKind==='phrase'?'selected':''}>Phrases</option></select></div>`:''}<label class="check"><input id="drafts" type="checkbox" ${state.drafts?'checked':''}> Parent preview: use draft material</label></div>`}${lesson()?.notes.length?`<p class="lesson-note">${lesson().notes.map(escape).join(' ')}</p>`:''}</div>`;}
 function libraryContent(){

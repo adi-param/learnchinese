@@ -39,7 +39,7 @@ The checks cover unique IDs, source bounds, lesson references, complete word seg
 - Flip word or phrase flashcards to reveal Pinyin and English.
 - Match Chinese words with English meanings, with gentle retry feedback.
 - Build the textbook sentences from their actual word tokens.
-- Play device-provided Mandarin speech when available; otherwise use the audio pen. This is browser speech synthesis, not a textbook recording. Device voices can require connectivity.
+- Play slower device-provided female Mandarin speech (rate 0.5) when a recognised female voice is available; otherwise use the audio pen. This is browser speech synthesis, not a textbook recording. Device voices can require connectivity.
 
 Games start with approved content only. While the curriculum is in draft, enable **Parent preview: use draft material** to try the activities together. This setting lasts only for the current page session and does not approve content or assert mastery. There is no saved learning progress in this first version.
 
