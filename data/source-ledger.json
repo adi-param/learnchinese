@@ -1,0 +1,3207 @@
+[
+  {
+    "lesson": 32,
+    "kind": "phrase",
+    "hanzi": "长大了",
+    "pinyin": "zhǎng dà le",
+    "english": "have grown up",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 1
+      }
+    ],
+    "tokens": [
+      "长大",
+      "了"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 32,
+    "kind": "word",
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "english": "speak",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 1
+      }
+    ],
+    "tokens": [
+      "说"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 32,
+    "kind": "word",
+    "hanzi": "华语",
+    "pinyin": "huá yǔ",
+    "english": "Mandarin Chinese",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 1
+      }
+    ],
+    "tokens": [
+      "华语"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 32,
+    "kind": "phrase",
+    "hanzi": "还会",
+    "pinyin": "hái huì",
+    "english": "can also",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 1
+      }
+    ],
+    "tokens": [
+      "还",
+      "会"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 32,
+    "kind": "word",
+    "hanzi": "读",
+    "pinyin": "dú",
+    "english": "read",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 2
+      }
+    ],
+    "tokens": [
+      "读"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 32,
+    "kind": "word",
+    "hanzi": "故事书",
+    "pinyin": "gù shi shū",
+    "english": "storybook",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 2
+      }
+    ],
+    "tokens": [
+      "故事书"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 32,
+    "kind": "sentence",
+    "hanzi": "我长大了。",
+    "pinyin": "wǒ zhǎng dà le",
+    "english": "I have grown up.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 2
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 4
+      }
+    ],
+    "tokens": [
+      "我",
+      "长大",
+      "了"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 32,
+    "kind": "sentence",
+    "hanzi": "我会说华语，还会读故事书。",
+    "pinyin": "wǒ huì shuō huá yǔ, hái huì dú gù shi shū",
+    "english": "I can speak Mandarin and can also read storybooks.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 3
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 4
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 5
+      }
+    ],
+    "tokens": [
+      "我",
+      "会",
+      "说",
+      "华语",
+      "还",
+      "会",
+      "读",
+      "故事书"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 32,
+    "kind": "word",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "english": "I; me",
+    "scope": "illustration",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 4
+      }
+    ],
+    "tokens": [
+      "我"
+    ],
+    "origin": "illustration-label"
+  },
+  {
+    "lesson": 32,
+    "kind": "word",
+    "hanzi": "唱歌",
+    "pinyin": "chàng gē",
+    "english": "sing",
+    "scope": "illustration",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 4
+      }
+    ],
+    "tokens": [
+      "唱歌"
+    ],
+    "origin": "illustration-label"
+  },
+  {
+    "lesson": 32,
+    "kind": "word",
+    "hanzi": "喜欢",
+    "pinyin": "xǐ huan",
+    "english": "like",
+    "scope": "illustration",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 4
+      }
+    ],
+    "tokens": [
+      "喜欢"
+    ],
+    "origin": "illustration-label"
+  },
+  {
+    "lesson": 33,
+    "kind": "word",
+    "hanzi": "来",
+    "pinyin": "lái",
+    "english": "come",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 5
+      }
+    ],
+    "tokens": [
+      "来"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 33,
+    "kind": "word",
+    "hanzi": "草",
+    "pinyin": "cǎo",
+    "english": "grass",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 5
+      }
+    ],
+    "tokens": [
+      "草"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 33,
+    "kind": "word",
+    "hanzi": "黑",
+    "pinyin": "hēi",
+    "english": "black",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 5
+      }
+    ],
+    "tokens": [
+      "黑"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 33,
+    "kind": "word",
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "english": "horse",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 6
+      }
+    ],
+    "tokens": [
+      "马"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 33,
+    "kind": "word",
+    "hanzi": "黄",
+    "pinyin": "huáng",
+    "english": "yellow",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 6
+      }
+    ],
+    "tokens": [
+      "黄"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 33,
+    "kind": "word",
+    "hanzi": "鸭",
+    "pinyin": "yā",
+    "english": "duck",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 6
+      }
+    ],
+    "tokens": [
+      "鸭"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 33,
+    "kind": "phrase",
+    "hanzi": "吃草",
+    "pinyin": "chī cǎo",
+    "english": "eat grass",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 6
+      }
+    ],
+    "tokens": [
+      "吃",
+      "草"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 33,
+    "kind": "word",
+    "hanzi": "游泳",
+    "pinyin": "yóu yǒng",
+    "english": "swim",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 6
+      }
+    ],
+    "tokens": [
+      "游泳"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 33,
+    "kind": "sentence",
+    "hanzi": "来来来，来吃草，小黑马喜欢吃草。",
+    "pinyin": "lái lái lái, lái chī cǎo, xiǎo hēi mǎ xǐ huan chī cǎo",
+    "english": "Come, come, come and eat grass. The little black horse likes eating grass.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 7
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 8
+      }
+    ],
+    "tokens": [
+      "来",
+      "来",
+      "来",
+      "来",
+      "吃",
+      "草",
+      "小",
+      "黑",
+      "马",
+      "喜欢",
+      "吃",
+      "草"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 33,
+    "kind": "sentence",
+    "hanzi": "来来来，来游泳，小黄鸭喜欢游泳。",
+    "pinyin": "lái lái lái, lái yóu yǒng, xiǎo huáng yā xǐ huan yóu yǒng",
+    "english": "Come, come, come and swim. The little yellow duck likes swimming.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 7
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 9
+      }
+    ],
+    "tokens": [
+      "来",
+      "来",
+      "来",
+      "来",
+      "游泳",
+      "小",
+      "黄",
+      "鸭",
+      "喜欢",
+      "游泳"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 34,
+    "kind": "word",
+    "hanzi": "绿",
+    "pinyin": "lǜ",
+    "english": "green",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 10
+      }
+    ],
+    "tokens": [
+      "绿"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 34,
+    "kind": "phrase",
+    "hanzi": "绿绿的",
+    "pinyin": "lǜ lǜ de",
+    "english": "green (repeated for a vivid description)",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 10
+      }
+    ],
+    "tokens": [
+      "绿",
+      "绿",
+      "的"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 34,
+    "kind": "phrase",
+    "hanzi": "草地上",
+    "pinyin": "cǎo dì shàng",
+    "english": "on the grass",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 10
+      }
+    ],
+    "tokens": [
+      "草地",
+      "上"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 34,
+    "kind": "word",
+    "hanzi": "牛",
+    "pinyin": "niú",
+    "english": "cow; cattle",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 10
+      }
+    ],
+    "tokens": [
+      "牛"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 34,
+    "kind": "word",
+    "hanzi": "白",
+    "pinyin": "bái",
+    "english": "white",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 11
+      }
+    ],
+    "tokens": [
+      "白"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 34,
+    "kind": "word",
+    "hanzi": "羊",
+    "pinyin": "yáng",
+    "english": "sheep",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 11
+      }
+    ],
+    "tokens": [
+      "羊"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 34,
+    "kind": "word",
+    "hanzi": "在",
+    "pinyin": "zài",
+    "english": "at; marks an ongoing action",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 11
+      }
+    ],
+    "tokens": [
+      "在"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 34,
+    "kind": "sentence",
+    "hanzi": "绿绿的草地上，大黄牛在吃草，小白羊也在吃草。",
+    "pinyin": "lǜ lǜ de cǎo dì shàng, dà huáng niú zài chī cǎo, xiǎo bái yáng yě zài chī cǎo",
+    "english": "On the green grass, the big yellow cow is eating grass, and the little white sheep is eating grass too.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 12
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 11
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 13
+      }
+    ],
+    "tokens": [
+      "绿",
+      "绿",
+      "的",
+      "草地",
+      "上",
+      "大",
+      "黄",
+      "牛",
+      "在",
+      "吃",
+      "草",
+      "小",
+      "白",
+      "羊",
+      "也",
+      "在",
+      "吃",
+      "草"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 35,
+    "kind": "word",
+    "hanzi": "亮",
+    "pinyin": "liàng",
+    "english": "bright",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 14
+      }
+    ],
+    "tokens": [
+      "亮"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 35,
+    "kind": "word",
+    "hanzi": "红",
+    "pinyin": "hóng",
+    "english": "red",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 14
+      }
+    ],
+    "tokens": [
+      "红"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 35,
+    "kind": "phrase",
+    "hanzi": "红红的",
+    "pinyin": "hóng hóng de",
+    "english": "red (vivid description)",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 15
+      }
+    ],
+    "tokens": [
+      "红",
+      "红",
+      "的"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 35,
+    "kind": "word",
+    "hanzi": "太阳",
+    "pinyin": "tài yáng",
+    "english": "sun",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 15
+      }
+    ],
+    "tokens": [
+      "太阳"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 35,
+    "kind": "word",
+    "hanzi": "出来",
+    "pinyin": "chū lái",
+    "english": "come out",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 15
+      }
+    ],
+    "tokens": [
+      "出来"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 35,
+    "kind": "phrase",
+    "hanzi": "天亮了",
+    "pinyin": "tiān liàng le",
+    "english": "it is light now; day has broken",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 15
+      }
+    ],
+    "tokens": [
+      "天",
+      "亮",
+      "了"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 35,
+    "kind": "sentence",
+    "hanzi": "天亮了，红红的太阳出来了。",
+    "pinyin": "tiān liàng le, hóng hóng de tài yáng chū lái le",
+    "english": "Day has broken; the red sun has come out.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 16
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 17
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 18
+      }
+    ],
+    "tokens": [
+      "天",
+      "亮",
+      "了",
+      "红",
+      "红",
+      "的",
+      "太阳",
+      "出来",
+      "了"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 35,
+    "kind": "sentence",
+    "hanzi": "我们开开心心去学校。",
+    "pinyin": "wǒ men kāi kāi xīn xīn qù xué xiào",
+    "english": "We go to school happily.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 16
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 17
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 18
+      }
+    ],
+    "tokens": [
+      "我们",
+      "开开心心",
+      "去",
+      "学校"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 36,
+    "kind": "phrase",
+    "hanzi": "天黑了",
+    "pinyin": "tiān hēi le",
+    "english": "it is dark now",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 19
+      }
+    ],
+    "tokens": [
+      "天",
+      "黑",
+      "了"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 36,
+    "kind": "phrase",
+    "hanzi": "弯弯的",
+    "pinyin": "wān wān de",
+    "english": "curved",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 19
+      }
+    ],
+    "tokens": [
+      "弯",
+      "弯",
+      "的"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 36,
+    "kind": "word",
+    "hanzi": "月亮",
+    "pinyin": "yuè liang",
+    "english": "moon",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 19
+      }
+    ],
+    "tokens": [
+      "月亮"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 36,
+    "kind": "phrase",
+    "hanzi": "天上",
+    "pinyin": "tiān shàng",
+    "english": "in the sky",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 19
+      }
+    ],
+    "tokens": [
+      "天",
+      "上"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 36,
+    "kind": "word",
+    "hanzi": "像",
+    "pinyin": "xiàng",
+    "english": "be like; resemble",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 20
+      }
+    ],
+    "tokens": [
+      "像"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 36,
+    "kind": "phrase",
+    "hanzi": "小船",
+    "pinyin": "xiǎo chuán",
+    "english": "little boat",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 20
+      }
+    ],
+    "tokens": [
+      "小",
+      "船"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 36,
+    "kind": "sentence",
+    "hanzi": "天黑了，弯弯的月亮在天上。",
+    "pinyin": "tiān hēi le, wān wān de yuè liang zài tiān shàng",
+    "english": "It is dark; the curved moon is in the sky.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 20
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 21
+      }
+    ],
+    "tokens": [
+      "天",
+      "黑",
+      "了",
+      "弯",
+      "弯",
+      "的",
+      "月亮",
+      "在",
+      "天",
+      "上"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 36,
+    "kind": "sentence",
+    "hanzi": "弯弯的月亮像小船。",
+    "pinyin": "wān wān de yuè liang xiàng xiǎo chuán",
+    "english": "The curved moon looks like a little boat.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 21
+      },
+      {
+        "sourceId": "book-1",
+        "pdfPage": 22
+      }
+    ],
+    "tokens": [
+      "弯",
+      "弯",
+      "的",
+      "月亮",
+      "像",
+      "小",
+      "船"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 38,
+    "kind": "word",
+    "hanzi": "草莓",
+    "pinyin": "cǎo méi",
+    "english": "strawberry",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 22
+      }
+    ],
+    "tokens": [
+      "草莓"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 38,
+    "kind": "word",
+    "hanzi": "蛋糕",
+    "pinyin": "dàn gāo",
+    "english": "cake",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 22
+      }
+    ],
+    "tokens": [
+      "蛋糕"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 38,
+    "kind": "word",
+    "hanzi": "香",
+    "pinyin": "xiāng",
+    "english": "fragrant; appetising",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 23
+      }
+    ],
+    "tokens": [
+      "香"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 38,
+    "kind": "word",
+    "hanzi": "巧克力",
+    "pinyin": "qiǎo kè lì",
+    "english": "chocolate",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 23
+      }
+    ],
+    "tokens": [
+      "巧克力"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 38,
+    "kind": "word",
+    "hanzi": "甜",
+    "pinyin": "tián",
+    "english": "sweet",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 23
+      }
+    ],
+    "tokens": [
+      "甜"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 38,
+    "kind": "phrase",
+    "hanzi": "又香又甜",
+    "pinyin": "yòu xiāng yòu tián",
+    "english": "both fragrant and sweet",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 23
+      }
+    ],
+    "tokens": [
+      "又",
+      "香",
+      "又",
+      "甜"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 38,
+    "kind": "sentence",
+    "hanzi": "草莓蛋糕真香！",
+    "pinyin": "cǎo méi dàn gāo zhēn xiāng",
+    "english": "The strawberry cake smells so good!",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 24
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 1
+      }
+    ],
+    "tokens": [
+      "草莓",
+      "蛋糕",
+      "真",
+      "香"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 38,
+    "kind": "sentence",
+    "hanzi": "巧克力牛奶真甜！",
+    "pinyin": "qiǎo kè lì niú nǎi zhēn tián",
+    "english": "The chocolate milk is so sweet!",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 24
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 1
+      }
+    ],
+    "tokens": [
+      "巧克力",
+      "牛奶",
+      "真",
+      "甜"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 38,
+    "kind": "sentence",
+    "hanzi": "又香又甜我喜欢。",
+    "pinyin": "yòu xiāng yòu tián wǒ xǐ huan",
+    "english": "Fragrant and sweet—I like it.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 24
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 1
+      }
+    ],
+    "tokens": [
+      "又",
+      "香",
+      "又",
+      "甜",
+      "我",
+      "喜欢"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 39,
+    "kind": "word",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "english": "have",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 2
+      }
+    ],
+    "tokens": [
+      "有"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 39,
+    "kind": "word",
+    "hanzi": "还有",
+    "pinyin": "hái yǒu",
+    "english": "also have",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 2
+      }
+    ],
+    "tokens": [
+      "还有"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 39,
+    "kind": "word",
+    "hanzi": "圆形",
+    "pinyin": "yuán xíng",
+    "english": "circle",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 2
+      }
+    ],
+    "tokens": [
+      "圆形"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 39,
+    "kind": "word",
+    "hanzi": "正方形",
+    "pinyin": "zhèng fāng xíng",
+    "english": "square",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 2
+      }
+    ],
+    "tokens": [
+      "正方形"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 39,
+    "kind": "word",
+    "hanzi": "三角形",
+    "pinyin": "sān jiǎo xíng",
+    "english": "triangle",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 3
+      }
+    ],
+    "tokens": [
+      "三角形"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 39,
+    "kind": "word",
+    "hanzi": "饼干",
+    "pinyin": "bǐng gān",
+    "english": "biscuit; cracker",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 3
+      }
+    ],
+    "tokens": [
+      "饼干"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 39,
+    "kind": "sentence",
+    "hanzi": "我有圆形的饼干、正方形的饼干，还有三角形的饼干。",
+    "pinyin": "wǒ yǒu yuán xíng de bǐng gān, zhèng fāng xíng de bǐng gān, hái yǒu sān jiǎo xíng de bǐng gān",
+    "english": "I have round biscuits, square biscuits, and triangular biscuits too.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 3
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 4
+      }
+    ],
+    "tokens": [
+      "我",
+      "有",
+      "圆形",
+      "的",
+      "饼干",
+      "正方形",
+      "的",
+      "饼干",
+      "还有",
+      "三角形",
+      "的",
+      "饼干"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 40,
+    "kind": "sentence",
+    "hanzi": "桌子上有香香的菜、香香的肉，还有香香的白米饭。",
+    "pinyin": "zhuō zi shàng yǒu xiāng xiāng de cài, xiāng xiāng de ròu, hái yǒu xiāng xiāng de bái mǐ fàn",
+    "english": "On the table there are fragrant vegetables, fragrant meat, and fragrant white rice too.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 5
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 6
+      }
+    ],
+    "tokens": [
+      "桌子",
+      "上",
+      "有",
+      "香",
+      "香",
+      "的",
+      "菜",
+      "香",
+      "香",
+      "的",
+      "肉",
+      "还有",
+      "香",
+      "香",
+      "的",
+      "白米饭"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 41,
+    "kind": "phrase",
+    "hanzi": "圆圆的",
+    "pinyin": "yuán yuán de",
+    "english": "round",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "圆",
+      "圆",
+      "的"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 41,
+    "kind": "phrase",
+    "hanzi": "脸上",
+    "pinyin": "liǎn shàng",
+    "english": "on the face",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "脸",
+      "上"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 41,
+    "kind": "word",
+    "hanzi": "葡萄",
+    "pinyin": "pú tao",
+    "english": "grapes",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "葡萄"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 41,
+    "kind": "sentence",
+    "hanzi": "圆圆的月亮在天上。",
+    "pinyin": "yuán yuán de yuè liang zài tiān shàng",
+    "english": "The round moon is in the sky.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 8
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 9
+      }
+    ],
+    "tokens": [
+      "圆",
+      "圆",
+      "的",
+      "月亮",
+      "在",
+      "天",
+      "上"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 41,
+    "kind": "sentence",
+    "hanzi": "圆圆的眼睛在脸上。",
+    "pinyin": "yuán yuán de yǎn jing zài liǎn shàng",
+    "english": "The round eyes are on the face.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 8
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 9
+      }
+    ],
+    "tokens": [
+      "圆",
+      "圆",
+      "的",
+      "眼睛",
+      "在",
+      "脸",
+      "上"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 41,
+    "kind": "sentence",
+    "hanzi": "圆圆的葡萄在桌子上。",
+    "pinyin": "yuán yuán de pú tao zài zhuō zi shàng",
+    "english": "The round grapes are on the table.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 8
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 10
+      }
+    ],
+    "tokens": [
+      "圆",
+      "圆",
+      "的",
+      "葡萄",
+      "在",
+      "桌子",
+      "上"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 42,
+    "kind": "word",
+    "hanzi": "高",
+    "pinyin": "gāo",
+    "english": "tall; high",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 10
+      }
+    ],
+    "tokens": [
+      "高"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 42,
+    "kind": "word",
+    "hanzi": "长",
+    "pinyin": "cháng",
+    "english": "long",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 10
+      }
+    ],
+    "tokens": [
+      "长"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 42,
+    "kind": "phrase",
+    "hanzi": "大树",
+    "pinyin": "dà shù",
+    "english": "big tree",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 11
+      }
+    ],
+    "tokens": [
+      "大",
+      "树"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 42,
+    "kind": "word",
+    "hanzi": "火车",
+    "pinyin": "huǒ chē",
+    "english": "train",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 11
+      }
+    ],
+    "tokens": [
+      "火车"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 42,
+    "kind": "phrase",
+    "hanzi": "山上",
+    "pinyin": "shān shàng",
+    "english": "on the mountain",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 11
+      }
+    ],
+    "tokens": [
+      "山",
+      "上"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 42,
+    "kind": "phrase",
+    "hanzi": "山下",
+    "pinyin": "shān xià",
+    "english": "at the foot of the mountain",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 11
+      }
+    ],
+    "tokens": [
+      "山",
+      "下"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 42,
+    "kind": "sentence",
+    "hanzi": "高高的大树在山上。",
+    "pinyin": "gāo gāo de dà shù zài shān shàng",
+    "english": "The tall, big tree is on the mountain.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "高",
+      "高",
+      "的",
+      "大",
+      "树",
+      "在",
+      "山",
+      "上"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 42,
+    "kind": "sentence",
+    "hanzi": "轰隆隆，轰隆隆，长长的火车在山下。",
+    "pinyin": "hōng lóng lóng, hōng lóng lóng, cháng cháng de huǒ chē zài shān xià",
+    "english": "Rumble, rumble! The long train is at the foot of the mountain.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "轰隆隆",
+      "轰隆隆",
+      "长",
+      "长",
+      "的",
+      "火车",
+      "在",
+      "山",
+      "下"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 43,
+    "kind": "word",
+    "hanzi": "风儿",
+    "pinyin": "fēng ér",
+    "english": "wind",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 13
+      }
+    ],
+    "tokens": [
+      "风儿"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 43,
+    "kind": "phrase",
+    "hanzi": "小兔",
+    "pinyin": "xiǎo tù",
+    "english": "little rabbit",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 13
+      }
+    ],
+    "tokens": [
+      "小",
+      "兔"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 43,
+    "kind": "word",
+    "hanzi": "轻轻",
+    "pinyin": "qīng qīng",
+    "english": "gently",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 14
+      }
+    ],
+    "tokens": [
+      "轻轻"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 43,
+    "kind": "word",
+    "hanzi": "睡觉",
+    "pinyin": "shuì jiào",
+    "english": "sleep",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 14
+      }
+    ],
+    "tokens": [
+      "睡觉"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 43,
+    "kind": "word",
+    "hanzi": "安静",
+    "pinyin": "ān jìng",
+    "english": "quiet",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 14
+      }
+    ],
+    "tokens": [
+      "安静"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 43,
+    "kind": "sentence",
+    "hanzi": "风儿轻轻吹。",
+    "pinyin": "fēng ér qīng qīng chuī",
+    "english": "The wind blows gently.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 14
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 16
+      }
+    ],
+    "tokens": [
+      "风儿",
+      "轻轻",
+      "吹"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 43,
+    "kind": "sentence",
+    "hanzi": "小兔轻轻跳。",
+    "pinyin": "xiǎo tù qīng qīng tiào",
+    "english": "The little rabbit hops gently.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 15
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 16
+      }
+    ],
+    "tokens": [
+      "小",
+      "兔",
+      "轻轻",
+      "跳"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 43,
+    "kind": "sentence",
+    "hanzi": "我的妹妹在睡觉，请安静。",
+    "pinyin": "wǒ de mèi mei zài shuì jiào, qǐng ān jìng",
+    "english": "My younger sister is sleeping; please be quiet.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 15
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 17
+      }
+    ],
+    "tokens": [
+      "我",
+      "的",
+      "妹妹",
+      "在",
+      "睡觉",
+      "请",
+      "安静"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 44,
+    "kind": "phrase",
+    "hanzi": "在客厅",
+    "pinyin": "zài kè tīng",
+    "english": "in the living room",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 18
+      }
+    ],
+    "tokens": [
+      "在",
+      "客厅"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 44,
+    "kind": "phrase",
+    "hanzi": "在房间",
+    "pinyin": "zài fáng jiān",
+    "english": "in the room",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 18
+      }
+    ],
+    "tokens": [
+      "在",
+      "房间"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 44,
+    "kind": "sentence",
+    "hanzi": "爸爸和妈妈在客厅看书。",
+    "pinyin": "bà ba hé mā ma zài kè tīng kàn shū",
+    "english": "Dad and Mum are reading in the living room.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 18
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 19
+      }
+    ],
+    "tokens": [
+      "爸爸",
+      "和",
+      "妈妈",
+      "在",
+      "客厅",
+      "看",
+      "书"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 44,
+    "kind": "sentence",
+    "hanzi": "我和弟弟在房间玩积木。",
+    "pinyin": "wǒ hé dì di zài fáng jiān wán jī mù",
+    "english": "My younger brother and I are playing with building blocks in the room.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 18
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 19
+      }
+    ],
+    "tokens": [
+      "我",
+      "和",
+      "弟弟",
+      "在",
+      "房间",
+      "玩",
+      "积木"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 45,
+    "kind": "word",
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "english": "write",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 20
+      }
+    ],
+    "tokens": [
+      "写"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 45,
+    "kind": "phrase",
+    "hanzi": "只会",
+    "pinyin": "zhǐ huì",
+    "english": "can only",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 20
+      }
+    ],
+    "tokens": [
+      "只",
+      "会"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 45,
+    "kind": "word",
+    "hanzi": "穿",
+    "pinyin": "chuān",
+    "english": "put on; wear",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 20
+      }
+    ],
+    "tokens": [
+      "穿"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 45,
+    "kind": "word",
+    "hanzi": "鞋子",
+    "pinyin": "xié zi",
+    "english": "shoes",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 20
+      }
+    ],
+    "tokens": [
+      "鞋子"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 45,
+    "kind": "word",
+    "hanzi": "袜子",
+    "pinyin": "wà zi",
+    "english": "socks",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 20
+      }
+    ],
+    "tokens": [
+      "袜子"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 45,
+    "kind": "sentence",
+    "hanzi": "妹妹不会写，只会读。",
+    "pinyin": "mèi mei bù huì xiě, zhǐ huì dú",
+    "english": "Younger sister cannot write; she can only read.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 21
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 22
+      }
+    ],
+    "tokens": [
+      "妹妹",
+      "不",
+      "会",
+      "写",
+      "只",
+      "会",
+      "读"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 45,
+    "kind": "sentence",
+    "hanzi": "弟弟不会穿鞋子，只会穿袜子。",
+    "pinyin": "dì di bù huì chuān xié zi, zhǐ huì chuān wà zi",
+    "english": "Younger brother cannot put on shoes; he can only put on socks.",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 21
+      },
+      {
+        "sourceId": "book-2",
+        "pdfPage": 23
+      }
+    ],
+    "tokens": [
+      "弟弟",
+      "不",
+      "会",
+      "穿",
+      "鞋子",
+      "只",
+      "会",
+      "穿",
+      "袜子"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 46,
+    "kind": "word",
+    "hanzi": "沙发",
+    "pinyin": "shā fā",
+    "english": "sofa",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 24
+      }
+    ],
+    "tokens": [
+      "沙发"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 46,
+    "kind": "word",
+    "hanzi": "椅子",
+    "pinyin": "yǐ zi",
+    "english": "chair",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 24
+      }
+    ],
+    "tokens": [
+      "椅子"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 46,
+    "kind": "word",
+    "hanzi": "床",
+    "pinyin": "chuáng",
+    "english": "bed",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 24
+      }
+    ],
+    "tokens": [
+      "床"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 46,
+    "kind": "word",
+    "hanzi": "枕头",
+    "pinyin": "zhěn tou",
+    "english": "pillow",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 24
+      }
+    ],
+    "tokens": [
+      "枕头"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 46,
+    "kind": "word",
+    "hanzi": "没有",
+    "pinyin": "méi yǒu",
+    "english": "do not have; there is/are no",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 24
+      }
+    ],
+    "tokens": [
+      "没有"
+    ],
+    "origin": "printed-vocabulary"
+  },
+  {
+    "lesson": 34,
+    "kind": "sentence",
+    "hanzi": "点读笔，轻轻点。",
+    "pinyin": "diǎn dú bǐ, qīng qīng diǎn",
+    "english": "Tap gently with the audio reading pen.",
+    "scope": "instruction",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 14
+      }
+    ],
+    "tokens": [
+      "点读笔",
+      "轻轻",
+      "点"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 34,
+    "kind": "sentence",
+    "hanzi": "玩一玩，学一学。",
+    "pinyin": "wán yi wán, xué yi xué",
+    "english": "Play a little and learn a little.",
+    "scope": "instruction",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 14
+      }
+    ],
+    "tokens": [
+      "玩",
+      "一",
+      "玩",
+      "学",
+      "一",
+      "学"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 40,
+    "kind": "sentence",
+    "hanzi": "点读笔，轻轻点。",
+    "pinyin": "diǎn dú bǐ, qīng qīng diǎn",
+    "english": "Tap gently with the audio reading pen.",
+    "scope": "instruction",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "点读笔",
+      "轻轻",
+      "点"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 40,
+    "kind": "sentence",
+    "hanzi": "玩一玩，学一学。",
+    "pinyin": "wán yi wán, xué yi xué",
+    "english": "Play a little and learn a little.",
+    "scope": "instruction",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "玩",
+      "一",
+      "玩",
+      "学",
+      "一",
+      "学"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 42,
+    "kind": "sentence",
+    "hanzi": "点读笔，轻轻点。",
+    "pinyin": "diǎn dú bǐ, qīng qīng diǎn",
+    "english": "Tap gently with the audio reading pen.",
+    "scope": "instruction",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 13
+      }
+    ],
+    "tokens": [
+      "点读笔",
+      "轻轻",
+      "点"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 42,
+    "kind": "sentence",
+    "hanzi": "玩一玩，学一学。",
+    "pinyin": "wán yi wán, xué yi xué",
+    "english": "Play a little and learn a little.",
+    "scope": "instruction",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 13
+      }
+    ],
+    "tokens": [
+      "玩",
+      "一",
+      "玩",
+      "学",
+      "一",
+      "学"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 34,
+    "kind": "sentence",
+    "hanzi": "说说看，这些球是什么颜色？",
+    "pinyin": "shuō shuo kàn, zhè xiē qiú shì shén me yán sè",
+    "english": "Try saying it: what colours are these balls?",
+    "scope": "instruction",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 14
+      }
+    ],
+    "tokens": [
+      "说",
+      "说",
+      "看",
+      "这些",
+      "球",
+      "是",
+      "什么",
+      "颜色"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 40,
+    "kind": "sentence",
+    "hanzi": "我想要吃香香的肉，请帮我找出来吧！",
+    "pinyin": "wǒ xiǎng yào chī xiāng xiāng de ròu, qǐng bāng wǒ zhǎo chū lái ba",
+    "english": "I want to eat the fragrant meat. Please help me find it!",
+    "scope": "instruction",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "我",
+      "想要",
+      "吃",
+      "香",
+      "香",
+      "的",
+      "肉",
+      "请",
+      "帮",
+      "我",
+      "找出来",
+      "吧"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 42,
+    "kind": "sentence",
+    "hanzi": "玩具火车在哪里？请找一找。",
+    "pinyin": "wán jù huǒ chē zài nǎ lǐ? qǐng zhǎo yi zhǎo",
+    "english": "Where is the toy train? Please look for it.",
+    "scope": "instruction",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 13
+      }
+    ],
+    "tokens": [
+      "玩具",
+      "火车",
+      "在",
+      "哪里",
+      "请",
+      "找",
+      "一",
+      "找"
+    ],
+    "origin": "printed-passage"
+  },
+  {
+    "lesson": 32,
+    "kind": "phrase",
+    "hanzi": "我会",
+    "pinyin": "wǒ huì",
+    "english": "I can",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 3
+      }
+    ],
+    "tokens": [
+      "我",
+      "会"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 32,
+    "kind": "phrase",
+    "hanzi": "说华语",
+    "pinyin": "shuō huá yǔ",
+    "english": "speak Mandarin",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 3
+      }
+    ],
+    "tokens": [
+      "说",
+      "华语"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 32,
+    "kind": "phrase",
+    "hanzi": "读故事书",
+    "pinyin": "dú gù shi shū",
+    "english": "read storybooks",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 3
+      }
+    ],
+    "tokens": [
+      "读",
+      "故事书"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 33,
+    "kind": "phrase",
+    "hanzi": "小黑马",
+    "pinyin": "xiǎo hēi mǎ",
+    "english": "little black horse",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "小",
+      "黑",
+      "马"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 33,
+    "kind": "phrase",
+    "hanzi": "小黄鸭",
+    "pinyin": "xiǎo huáng yā",
+    "english": "little yellow duck",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "小",
+      "黄",
+      "鸭"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 33,
+    "kind": "phrase",
+    "hanzi": "喜欢吃草",
+    "pinyin": "xǐ huan chī cǎo",
+    "english": "like eating grass",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "喜欢",
+      "吃",
+      "草"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 33,
+    "kind": "phrase",
+    "hanzi": "喜欢游泳",
+    "pinyin": "xǐ huan yóu yǒng",
+    "english": "like swimming",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 7
+      }
+    ],
+    "tokens": [
+      "喜欢",
+      "游泳"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 34,
+    "kind": "phrase",
+    "hanzi": "大黄牛",
+    "pinyin": "dà huáng niú",
+    "english": "big yellow cow",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "大",
+      "黄",
+      "牛"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 34,
+    "kind": "phrase",
+    "hanzi": "小白羊",
+    "pinyin": "xiǎo bái yáng",
+    "english": "little white sheep",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "小",
+      "白",
+      "羊"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 34,
+    "kind": "phrase",
+    "hanzi": "在吃草",
+    "pinyin": "zài chī cǎo",
+    "english": "be eating grass",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "在",
+      "吃",
+      "草"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 34,
+    "kind": "phrase",
+    "hanzi": "也在吃草",
+    "pinyin": "yě zài chī cǎo",
+    "english": "be eating grass too",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "也",
+      "在",
+      "吃",
+      "草"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 34,
+    "kind": "phrase",
+    "hanzi": "绿绿的草地上",
+    "pinyin": "lǜ lǜ de cǎo dì shàng",
+    "english": "on the green grass",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "绿",
+      "绿",
+      "的",
+      "草地",
+      "上"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 35,
+    "kind": "phrase",
+    "hanzi": "红红的太阳",
+    "pinyin": "hóng hóng de tài yáng",
+    "english": "red sun",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 16
+      }
+    ],
+    "tokens": [
+      "红",
+      "红",
+      "的",
+      "太阳"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 35,
+    "kind": "phrase",
+    "hanzi": "去学校",
+    "pinyin": "qù xué xiào",
+    "english": "go to school",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 16
+      }
+    ],
+    "tokens": [
+      "去",
+      "学校"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 36,
+    "kind": "phrase",
+    "hanzi": "弯弯的月亮",
+    "pinyin": "wān wān de yuè liang",
+    "english": "curved moon",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 20
+      }
+    ],
+    "tokens": [
+      "弯",
+      "弯",
+      "的",
+      "月亮"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 36,
+    "kind": "phrase",
+    "hanzi": "在天上",
+    "pinyin": "zài tiān shàng",
+    "english": "in the sky",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 20
+      }
+    ],
+    "tokens": [
+      "在",
+      "天",
+      "上"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 38,
+    "kind": "phrase",
+    "hanzi": "草莓蛋糕",
+    "pinyin": "cǎo méi dàn gāo",
+    "english": "strawberry cake",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 24
+      }
+    ],
+    "tokens": [
+      "草莓",
+      "蛋糕"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 38,
+    "kind": "phrase",
+    "hanzi": "巧克力牛奶",
+    "pinyin": "qiǎo kè lì niú nǎi",
+    "english": "chocolate milk",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-1",
+        "pdfPage": 24
+      }
+    ],
+    "tokens": [
+      "巧克力",
+      "牛奶"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 39,
+    "kind": "phrase",
+    "hanzi": "圆形的饼干",
+    "pinyin": "yuán xíng de bǐng gān",
+    "english": "round biscuits",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 3
+      }
+    ],
+    "tokens": [
+      "圆形",
+      "的",
+      "饼干"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 39,
+    "kind": "phrase",
+    "hanzi": "正方形的饼干",
+    "pinyin": "zhèng fāng xíng de bǐng gān",
+    "english": "square biscuits",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 3
+      }
+    ],
+    "tokens": [
+      "正方形",
+      "的",
+      "饼干"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 39,
+    "kind": "phrase",
+    "hanzi": "三角形的饼干",
+    "pinyin": "sān jiǎo xíng de bǐng gān",
+    "english": "triangular biscuits",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 3
+      }
+    ],
+    "tokens": [
+      "三角形",
+      "的",
+      "饼干"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 40,
+    "kind": "phrase",
+    "hanzi": "桌子上",
+    "pinyin": "zhuō zi shàng",
+    "english": "on the table",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 5
+      }
+    ],
+    "tokens": [
+      "桌子",
+      "上"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 40,
+    "kind": "phrase",
+    "hanzi": "香香的",
+    "pinyin": "xiāng xiāng de",
+    "english": "fragrant; appetising",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 5
+      }
+    ],
+    "tokens": [
+      "香",
+      "香",
+      "的"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 40,
+    "kind": "phrase",
+    "hanzi": "香香的菜",
+    "pinyin": "xiāng xiāng de cài",
+    "english": "fragrant vegetables",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 5
+      }
+    ],
+    "tokens": [
+      "香",
+      "香",
+      "的",
+      "菜"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 40,
+    "kind": "phrase",
+    "hanzi": "香香的肉",
+    "pinyin": "xiāng xiāng de ròu",
+    "english": "fragrant meat",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 5
+      }
+    ],
+    "tokens": [
+      "香",
+      "香",
+      "的",
+      "肉"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 40,
+    "kind": "phrase",
+    "hanzi": "香香的白米饭",
+    "pinyin": "xiāng xiāng de bái mǐ fàn",
+    "english": "fragrant white rice",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 5
+      }
+    ],
+    "tokens": [
+      "香",
+      "香",
+      "的",
+      "白米饭"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 41,
+    "kind": "phrase",
+    "hanzi": "圆圆的月亮",
+    "pinyin": "yuán yuán de yuè liang",
+    "english": "round moon",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 8
+      }
+    ],
+    "tokens": [
+      "圆",
+      "圆",
+      "的",
+      "月亮"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 41,
+    "kind": "phrase",
+    "hanzi": "圆圆的眼睛",
+    "pinyin": "yuán yuán de yǎn jing",
+    "english": "round eyes",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 8
+      }
+    ],
+    "tokens": [
+      "圆",
+      "圆",
+      "的",
+      "眼睛"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 41,
+    "kind": "phrase",
+    "hanzi": "圆圆的葡萄",
+    "pinyin": "yuán yuán de pú tao",
+    "english": "round grapes",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 8
+      }
+    ],
+    "tokens": [
+      "圆",
+      "圆",
+      "的",
+      "葡萄"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 41,
+    "kind": "phrase",
+    "hanzi": "在桌子上",
+    "pinyin": "zài zhuō zi shàng",
+    "english": "on the table",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 8
+      }
+    ],
+    "tokens": [
+      "在",
+      "桌子",
+      "上"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 42,
+    "kind": "phrase",
+    "hanzi": "高高的",
+    "pinyin": "gāo gāo de",
+    "english": "tall; high",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "高",
+      "高",
+      "的"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 42,
+    "kind": "phrase",
+    "hanzi": "长长的",
+    "pinyin": "cháng cháng de",
+    "english": "long",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "长",
+      "长",
+      "的"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 42,
+    "kind": "phrase",
+    "hanzi": "高高的大树",
+    "pinyin": "gāo gāo de dà shù",
+    "english": "tall big tree",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "高",
+      "高",
+      "的",
+      "大",
+      "树"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 42,
+    "kind": "phrase",
+    "hanzi": "长长的火车",
+    "pinyin": "cháng cháng de huǒ chē",
+    "english": "long train",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 12
+      }
+    ],
+    "tokens": [
+      "长",
+      "长",
+      "的",
+      "火车"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 43,
+    "kind": "phrase",
+    "hanzi": "轻轻吹",
+    "pinyin": "qīng qīng chuī",
+    "english": "blow gently",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 14
+      }
+    ],
+    "tokens": [
+      "轻轻",
+      "吹"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 43,
+    "kind": "phrase",
+    "hanzi": "轻轻跳",
+    "pinyin": "qīng qīng tiào",
+    "english": "hop gently",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 15
+      }
+    ],
+    "tokens": [
+      "轻轻",
+      "跳"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 43,
+    "kind": "phrase",
+    "hanzi": "我的妹妹",
+    "pinyin": "wǒ de mèi mei",
+    "english": "my younger sister",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 15
+      }
+    ],
+    "tokens": [
+      "我",
+      "的",
+      "妹妹"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 43,
+    "kind": "phrase",
+    "hanzi": "在睡觉",
+    "pinyin": "zài shuì jiào",
+    "english": "be sleeping",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 15
+      }
+    ],
+    "tokens": [
+      "在",
+      "睡觉"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 43,
+    "kind": "phrase",
+    "hanzi": "请安静",
+    "pinyin": "qǐng ān jìng",
+    "english": "please be quiet",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 15
+      }
+    ],
+    "tokens": [
+      "请",
+      "安静"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 44,
+    "kind": "phrase",
+    "hanzi": "看书",
+    "pinyin": "kàn shū",
+    "english": "read a book",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 18
+      }
+    ],
+    "tokens": [
+      "看",
+      "书"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 44,
+    "kind": "phrase",
+    "hanzi": "玩积木",
+    "pinyin": "wán jī mù",
+    "english": "play with building blocks",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 18
+      }
+    ],
+    "tokens": [
+      "玩",
+      "积木"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 45,
+    "kind": "phrase",
+    "hanzi": "不会",
+    "pinyin": "bù huì",
+    "english": "cannot; do not know how to",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 21
+      }
+    ],
+    "tokens": [
+      "不",
+      "会"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 45,
+    "kind": "phrase",
+    "hanzi": "穿鞋子",
+    "pinyin": "chuān xié zi",
+    "english": "put on shoes",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 21
+      }
+    ],
+    "tokens": [
+      "穿",
+      "鞋子"
+    ],
+    "origin": "extracted-chunk"
+  },
+  {
+    "lesson": 45,
+    "kind": "phrase",
+    "hanzi": "穿袜子",
+    "pinyin": "chuān wà zi",
+    "english": "put on socks",
+    "scope": "core",
+    "sources": [
+      {
+        "sourceId": "book-2",
+        "pdfPage": 21
+      }
+    ],
+    "tokens": [
+      "穿",
+      "袜子"
+    ],
+    "origin": "extracted-chunk"
+  }
+]
