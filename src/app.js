@@ -2,7 +2,7 @@ import {createAudioPlayer} from './audio-player.js';
 import {showAudioHelp} from './audio-help.js';
 import {femaleMandarinVoice, PRONUNCIATION_RATE} from './speech.js';
 import {lessonItems,shuffle,matchingWords,sentenceComplete,sourceLabel,drawRound} from './core.js';
-import {lessonPictures,pictureFor,renderPicture} from './pictures.js';
+import {lessonPictures,pictureFor,picturesOf,renderPicture} from './pictures.js';
 import {chime} from './sfx.js';
 import {icon,mascot} from './icons.js';
 const root=document.querySelector('#app');
@@ -59,7 +59,8 @@ function celebrate(grand=false){
  if(grand)box.onclick=()=>box.remove();
  setTimeout(()=>box.remove(),grand?4200:2600);
 }
-const picture=(item,cls='stage')=>{const pic=pictureFor(item,byId);return `<span class="${cls}${pic?'':' blank'}" aria-hidden="true">${pic||'<span class="stage-glyph">字</span>'}</span>`;};
+// Phrases can borrow several pictures; they sit side by side as small tiles instead of one full tile.
+const picture=(item,cls='stage')=>{const pic=pictureFor(item,byId),multi=picturesOf(item,byId).length>1;return `<span class="${cls}${pic?'':' blank'}${multi?' multi':''}" aria-hidden="true">${pic||'<span class="stage-glyph">字</span>'}</span>`;};
 
 function lessonPicker(){
  const list=[...(state.view==='library'?[{id:'all',number:'All'}]:[]),...library.lessons];const current=lesson();
@@ -69,7 +70,7 @@ function grownups(){
  const current=lesson();
  const controls=state.view==='library'
   ?`<label class="field grow"><span>Find a word</span><span class="input-wrap">${icon('search','input-icon')}<input id="search" type="search" placeholder="Chinese, Pinyin or English" value="${escape(state.query)}"></span></label><label class="toggle"><input id="extra" type="checkbox" ${state.extra?'checked':''}><span class="switch"></span>Include activity instructions</label><label class="toggle"><input id="details" type="checkbox" ${state.details?'checked':''}><span class="switch"></span>Show sources and review status</label>`
-  :`${state.view==='flashcards'?`<label class="field"><span>Flip cards show</span><select id="flash-kind"><option value="word" ${state.flashKind==='word'?'selected':''}>Words</option><option value="phrase" ${state.flashKind==='phrase'?'selected':''}>Phrases</option></select></label>`:''}`;
+  :``;
  return `<details class="grownups" ${state.grownups?'open':''}><summary>${icon('grownups')}<span>For grown-ups</span>${icon('chevron','icon chevron')}</summary><div class="gu-body"><div class="gu-grid">${controls}</div>${current?.notes.length?`<p class="lesson-note">${current.notes.map(escape).join(' ')}</p>`:''}<p class="gu-note">Pinyin and meanings are drafts awaiting review. Recordings are slow synthetic female Mandarin, not textbook audio. Pictures are hints, not translations. Stars reset when the page closes.</p><p class="gu-links"><button class="text-button" id="open-audio-help">${icon('speaker')} Sound help</button><a class="text-button" href="./docs/library.md">Complete lesson library</a></p></div></details>`;
 }
 function card(i,n){
@@ -96,9 +97,10 @@ function initGame(){
  if(state.view==='sentences') nextSentence(false);
 }
 function flashContent(){
- const item=state.deck[state.index];if(!item)return empty('happy','No cards here yet','Pick another lesson above.');
+ const kinds=`<div class="segmented flash-kinds" role="group" aria-label="Cards to practise">${[['word','Words'],['phrase','Phrases']].map(([id,name])=>`<button data-flash-kind="${id}" class="${state.flashKind===id?'active':''}" aria-pressed="${state.flashKind===id}">${name}</button>`).join('')}</div>`;
+ const item=state.deck[state.index];if(!item)return kinds+empty('happy',`No ${state.flashKind==='word'?'words':'phrases'} here yet`,'Try the other cards or pick another lesson above.');
  const last=state.index===state.deck.length-1;
- return `<div class="progress-row"><div class="progress" role="img" aria-label="Card ${state.index+1} of ${state.deck.length}"><div class="progress-fill" style="width:${(state.index+1)/state.deck.length*100}%"></div></div><span class="progress-label">${state.index+1} / ${state.deck.length}</span></div>
+ return `${kinds}<div class="progress-row"><div class="progress" role="img" aria-label="Card ${state.index+1} of ${state.deck.length}"><div class="progress-fill" style="width:${(state.index+1)/state.deck.length*100}%"></div></div><span class="progress-label">${state.index+1} / ${state.deck.length}</span></div>
  <button class="flash ${state.revealed?'is-revealed':''}" id="flip"><span class="flash-inner"><span class="face front" ${state.revealed?'aria-hidden="true"':''}><span class="hanzi" lang="zh-Hans">${escape(item.hanzi)}</span><span class="flash-hint">Tap to flip</span></span><span class="face back" ${state.revealed?'':'aria-hidden="true"'}>${picture(item,'stage large')}<span class="hanzi" lang="zh-Hans">${escape(item.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(item.pinyin)}</span><span class="meaning">${escape(item.english)}</span></span></span></button>
  <div class="game-actions"><button class="round-button" id="previous" aria-label="Previous card" ${state.index===0?'disabled':''}>${icon('left')}</button><button class="round-button listen" data-speak="${item.id}" aria-label="Listen">${icon('speaker')}</button><button class="round-button go" id="next" aria-label="${last?'Finish and start again':'Next card'}">${icon(last?'flag':'right')}</button></div>`;
 }
@@ -163,13 +165,13 @@ function bind(){
  root.querySelector('#search')?.addEventListener('input',e=>{state.query=e.target.value;document.querySelector('#content').innerHTML=libraryContent();bindContent();});
  root.querySelector('#extra')?.addEventListener('change',e=>{state.extra=e.target.checked;render();});
  root.querySelector('#details')?.addEventListener('change',e=>{state.details=e.target.checked;render();});
- root.querySelector('#flash-kind')?.addEventListener('change',e=>{state.flashKind=e.target.value;initGame();render();});
  const row=root.querySelector('.lessons'),active=row.querySelector('.active');if(active)row.scrollLeft=active.offsetLeft-(row.clientWidth-active.offsetWidth)/2;
  bindContent();
 }
 function bindContent(){
  root.querySelectorAll('[data-speak]').forEach(b=>b.onclick=()=>{speak(b.dataset.speak);const card=b.closest('.word-card');if(card){card.classList.remove('boing');void card.offsetWidth;card.classList.add('boing');}});
  root.querySelectorAll('[data-kind]').forEach(b=>b.onclick=()=>{state.kind=b.dataset.kind;render();});
+ root.querySelectorAll('[data-flash-kind]').forEach(b=>b.onclick=()=>{state.flashKind=b.dataset.flashKind;initGame();render();});
  const on=(id,fn)=>{const el=document.getElementById(id);if(el)el.onclick=fn;};
  // Flip in place so the card turns over instead of being redrawn.
  on('flip',()=>{state.revealed=!state.revealed;const flip=document.getElementById('flip');flip.classList.toggle('is-revealed',state.revealed);

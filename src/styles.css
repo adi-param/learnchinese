@@ -20,6 +20,8 @@
  --r-sm:14px;--r-md:22px;--r-lg:30px;--r-xl:40px;
  --spring:cubic-bezier(.34,1.56,.64,1);
  font-family:var(--font);color:var(--ink);font-synthesis:none;-webkit-font-smoothing:antialiased;
+ /* Light only: opts out of browser auto-dark (Chrome, Samsung Internet) and dark form controls. */
+ color-scheme:only light;
 }
 .view-library{--accent:var(--violet);--accent-soft:var(--violet-soft)}
 .view-flashcards{--accent:var(--rose);--accent-soft:var(--rose-soft)}
@@ -154,6 +156,7 @@ a{color:inherit}
 .answer .hanzi{display:block;font-size:26px;color:var(--ink)}
 
 /* Flip cards */
+.flash-kinds{margin:0 auto 20px}
 .progress-row{display:flex;align-items:center;gap:14px;margin:0 0 22px}
 .progress{flex:1;height:12px;border-radius:99px;background:#efe7de;overflow:hidden}
 .progress-fill{height:100%;border-radius:99px;background:var(--accent);transition:width .45s var(--spring)}
@@ -243,6 +246,8 @@ a{color:inherit}
 .swatch{display:inline-block;width:1.1em;height:1em;background:var(--swatch);border:.03em solid #1f1b3a26;border-radius:58% 42% 55% 45%/48% 60% 40% 52%}
 .swatch.mini{width:.62em;height:.58em}
 .outline{width:62%;height:78%;color:var(--ink)}
+.stage.multi,.stage.large.multi{grid-auto-flow:column;width:auto;max-width:100%;aspect-ratio:auto;gap:10px;padding:10px;font-size:48px;background:#f7f2ec}
+.stage.multi>.pic{grid-area:auto;width:120px;height:96px;border-radius:16px;overflow:hidden;background:#fff}
 .stage.wide>.pic{grid-area:auto;width:112px;height:90px;border-radius:16px;overflow:hidden;background:#fff}
 .chip-pic .pic{border-radius:50%;overflow:hidden}
 .chip-pic .art{transform:scale(1.25)}
@@ -344,7 +349,8 @@ a{color:inherit}
  .match-tile .stage.small{height:70px}
  .tile-listen{top:6px;right:6px;width:36px;height:36px}
  .tile-listen .icon{width:18px;height:18px}
- .stage.wide>.pic{width:84px;height:68px}
+ .stage.wide>.pic,.stage.multi>.pic{width:84px;height:68px}
+ .stage.multi,.stage.large.multi{width:auto;gap:8px;padding:8px;font-size:38px}
  .caption{font-size:12px}
  .bubble{font-size:16px}
  .button{min-height:52px;padding:0 20px;font-size:16px}
