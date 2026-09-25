@@ -64,7 +64,7 @@ def load_and_validate():
 
 def render(library):
     out = ['# Chinese learning library', '',
-           'Draft extracted from the 48 supplied PDF pages. Chinese was visually checked; Pinyin and English are editorial and await parent/native-speaker review. These entries do not assert that Ira has learned or mastered them.', '',
+           'Draft extracted from the 48 supplied PDF pages. Chinese was visually checked; Pinyin and English are editorial and await parent/native-speaker review. These entries do not assert that the child has learned or mastered them.', '',
            'PDF page numbers below are **1-based file pages**, each usually containing a photographed two-page spread. English lesson titles are descriptive labels, not textbook titles.', '',
            'Words are lexical units: e.g. 葡萄 (pú tao, grapes) remains one word. Useful compound components are included where supported; individual characters are not automatically treated as words. Pinyin is syllable-spaced with dictionary tones and unmarked neutral tones. 不会 is written bù huì; the 不 is normally pronounced bú before huì in connected speech.', '',
            '## Coverage', '', '| Lesson | Topic | Coverage |', '| --- | --- | --- |']

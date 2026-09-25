@@ -1,12 +1,12 @@
-# Ira’s Chinese
+# Little Chinese learning games
 
 **Website: https://adi-param.github.io/learnchinese/**
 
 ## Why this exists
 
-This is a fun, homemade project to help my child learn Chinese. The words and sentences she meets at school are here too, turned into short games she can play at home: tap a picture to hear a word, flip a card, match words to pictures, and put the words of a sentence onto a train.
+This is a fun, homemade project to help my child learn Chinese. The words and sentences they meet at school are here too, turned into short games to play at home: tap a picture to hear a word, flip a card, match words to pictures, and put the words of a sentence onto a train.
 
-The goal is simple: make the learning engaging and interactive, and carry it beyond the classroom. A few minutes together on a phone or tablet, with a friendly panda, lots of pictures and a big celebration when she gets it right.
+The goal is simple: make the learning engaging and interactive, and carry it beyond the classroom. A few minutes together on a phone or tablet, with a friendly panda, lots of pictures and a big celebration when they get it right.
 
 It is built for a four-year-old who can’t read yet, so everything works through pictures and sound, with big buttons and no reading required to play. It is not a commercial product, has no accounts, ads or tracking, and saves nothing about who uses it.
 

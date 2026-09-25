@@ -1,6 +1,6 @@
 # Chinese learning library
 
-Draft extracted from the 48 supplied PDF pages. Chinese was visually checked; Pinyin and English are editorial and await parent/native-speaker review. These entries do not assert that Ira has learned or mastered them.
+Draft extracted from the 48 supplied PDF pages. Chinese was visually checked; Pinyin and English are editorial and await parent/native-speaker review. These entries do not assert that the child has learned or mastered them.
 
 PDF page numbers below are **1-based file pages**, each usually containing a photographed two-page spread. English lesson titles are descriptive labels, not textbook titles.
 

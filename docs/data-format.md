@@ -33,7 +33,7 @@ Each lesson includes an editorial English topic label, `itemIds`, `coverageStatu
 - `numberVerified`: whether the numbered lesson marker is visible in the scans.
 - `learningStatus`: initially `not-confirmed`; may later be explicitly set to `learning` or `covered` by the parent. It is not a mastery score.
 
-A future game should select a parent-chosen lesson, use approved items, and exclude instruction/illustration-only material unless explicitly enabled. A lesson appearing in a PDF is not evidence that Ira has studied it. No automatic mastery or progress values have been invented.
+Games use a parent-chosen lesson and exclude instruction/illustration-only material unless explicitly enabled. A lesson appearing in a PDF is not evidence that the child has studied it. No automatic mastery or progress values have been invented.
 
 ## Pinyin and review
 
