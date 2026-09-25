@@ -13,7 +13,7 @@ Each item has:
 - `occurrences`: lesson, source file, 1-based PDF page, scope and role. A source reference can support a component or chunk rather than display it in isolation. Some full passages are assembled from consecutive printed lines/spreads.
 - `reviewStatus`: `draft` or `approved`. Approval is an explicit content-review decision, separate from a child's learning progress.
 - `wordIds`: ordered lexical components for phrases and sentences. Repeated components remain repeated. Concatenation reproduces the Chinese after punctuation is removed.
-- `audio`, `image`: currently `null`. Future values should be repository-relative asset paths. Do not imply pronunciation audio exists until it does.
+- `audio`: repository-relative path to the bundled Mandarin recording. `image`: currently `null`. Audio generation provenance and content fingerprints are in `assets/audio/manifest.json`.
 
 ### Scope and role
 

@@ -27,6 +27,10 @@ def load_and_validate():
         assert not re.search(r'[0-9\u3400-\u9fff]', item['pinyin']), item['pinyin']
         assert item['reviewStatus'] in ('draft', 'approved'), item['id']
         assert item['occurrences'], item['id']
+        if item.get('audio'):
+            audio_path = (ROOT / item['audio']).resolve()
+            assert audio_path.is_relative_to(ROOT / 'assets/audio'), item['id']
+            assert audio_path.is_file() and audio_path.stat().st_size > 4500, item['id']
         for occurrence in item['occurrences']:
             assert occurrence['lessonId'] in lessons
             assert item['id'] in lessons[occurrence['lessonId']]['itemIds']

@@ -13,7 +13,7 @@ A phone-friendly Mandarin learning website and curriculum library, hosted entire
 
 The supplied material spans Lessons 32–46. Lesson 37 is absent. Lessons 40 and 44 lack their opening pages, so their numbers are inferred from the surrounding lessons. Lesson 46 contains only the opening vocabulary spread. This is an inventory of the **supplied excerpts**, not a claim that the complete textbooks are captured.
 
-Chinese text was visually inspected against the scanned pages. English meanings and tone-marked Pinyin were added editorially and remain drafts for review. No lesson is automatically marked learned, and no item is automatically approved for games. Audio and images are `null` until real assets are added.
+Chinese text was visually inspected against the scanned pages. English meanings and tone-marked Pinyin were added editorially and remain drafts for review. No lesson is automatically marked learned, and no item is automatically approved for games. Every learning item now has a bundled female Mandarin recording. Vocabulary images remain `null`.
 
 The original PDF scans and textbook artwork are not included in this repository. Source references use the original filenames and 1-based PDF page numbers. Duplicate photographed pages and repeated illustrated sentences are deduplicated.
 
@@ -39,7 +39,7 @@ The checks cover unique IDs, source bounds, lesson references, complete word seg
 - Flip word or phrase flashcards to reveal Pinyin and English.
 - Match Chinese words with English meanings, with gentle retry feedback.
 - Build the textbook sentences from their actual word tokens.
-- Play slower device-provided female Mandarin speech (rate 0.5) when a recognised female voice is available; otherwise use the audio pen. This is browser speech synthesis, not a textbook recording. Device voices can require connectivity.
+- Play bundled slow female Mandarin recordings, with visible loading/playing feedback. All 214 recordings live in `assets/audio/` and are served by GitHub Pages. They use the Tingting system voice at generation rate 100 and playback rate 0.85, with pitch preserved. They are synthetic pronunciations, not textbook recordings.
 
 Games start with approved content only. While the curriculum is in draft, enable **Parent preview: use draft material** to try the activities together. This setting lasts only for the current page session and does not approve content or assert mastery. There is no saved learning progress in this first version.
 
@@ -67,3 +67,9 @@ The workflow in `.github/workflows/pages.yml` validates the library, tests game 
 Website: https://adi-param.github.io/learnchinese/
 
 Source data lives in `data/library.json`; the site reads it directly. Add a lesson to the library and regenerate the review document to make it available in the site automatically.
+
+### Audio maintenance
+
+Run `python3 scripts/generate-audio.py` on a Mac with Tingting installed to generate audio for new or changed items. The manifest fingerprints the voice, speed and Chinese text; unchanged recordings are reused. This is a content-authoring step, not a website/backend dependency. Commit the generated files with the library update.
+
+Playback begins from the original tap and uses one audio element, cancelling earlier playback on rapid taps. Network/browser failures open a persistent help dialog with retry, optional device-voice fallback and official device setup instructions. Saved recordings do not require a Mandarin voice to be installed on the visitor’s device. A connection is required for files that have not been cached by the browser.

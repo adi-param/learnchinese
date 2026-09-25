@@ -1,0 +1,1500 @@
+{
+  "word-09b501876efe": {
+    "fingerprint": "0d2687eddfbae8306a1278c1036a842a6e00bb13fa05a12ed3eac58b095b6b18",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "长大",
+    "file": "assets/audio/word-09b501876efe.m4a"
+  },
+  "word-b4067be658a9": {
+    "fingerprint": "dd9ad809b1a6592945bb8a3a7005fe5900a44d582365b2a0ee1087976ff9f964",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "了",
+    "file": "assets/audio/word-b4067be658a9.m4a"
+  },
+  "phrase-6fc026eb14a8": {
+    "fingerprint": "4fe8575c79a979dd92c4bb5afd5c6d0b71ceea4cbc4b461250a0d671883a9750",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "长大了",
+    "file": "assets/audio/phrase-6fc026eb14a8.m4a"
+  },
+  "word-6c9c603261d7": {
+    "fingerprint": "8154788674988b21f6d5411a459de87906692405f6a1f07cde9ac6f1c39bab46",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "说",
+    "file": "assets/audio/word-6c9c603261d7.m4a"
+  },
+  "word-9fd6aa04eb0e": {
+    "fingerprint": "8c9f909762955ccc27573cf6b421ecc6edc5c927e4d2aa8aa593037ba3b30bf9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "华语",
+    "file": "assets/audio/word-9fd6aa04eb0e.m4a"
+  },
+  "word-afee2e64ef77": {
+    "fingerprint": "46072f5dbd3ea1ef091efe4803b5e98b7a889fad150c169492e03ba19a1335a4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "还",
+    "file": "assets/audio/word-afee2e64ef77.m4a"
+  },
+  "word-96af2254b280": {
+    "fingerprint": "f819312d44157fa277c5864ef26834bb12f146e85f9d09bf2f8bcf83c8f5b499",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "会",
+    "file": "assets/audio/word-96af2254b280.m4a"
+  },
+  "phrase-ffd41e4c4bc0": {
+    "fingerprint": "4d17c8df457622b2ab249b8e17be7f3c1f281f9ab7392b25406a58a9191e4a37",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "还会",
+    "file": "assets/audio/phrase-ffd41e4c4bc0.m4a"
+  },
+  "word-34f4e78c6dd4": {
+    "fingerprint": "e8fd2740aaf2ee8d11c523d71841bde34bf0980f15113969d3a55d9f4ae6829b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "读",
+    "file": "assets/audio/word-34f4e78c6dd4.m4a"
+  },
+  "word-2669ccfdc047": {
+    "fingerprint": "0c4ca0ec0a93aeeab7fa15941eebfbabf86acbd92d34cd889243262dbc6e4b85",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "故事书",
+    "file": "assets/audio/word-2669ccfdc047.m4a"
+  },
+  "word-64d354d405bb": {
+    "fingerprint": "e44616ec1836ec2fca0a1a5e1a9f79f9e31612ba205e466e1376650a1a833b80",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我",
+    "file": "assets/audio/word-64d354d405bb.m4a"
+  },
+  "sentence-411247491976": {
+    "fingerprint": "ad6894b3152cb3722a6cac0735f70576e0a657a1def0b06fabd3f67027690f85",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我长大了。",
+    "file": "assets/audio/sentence-411247491976.m4a"
+  },
+  "sentence-7293aea2675d": {
+    "fingerprint": "c7e982a24f8ce3682ac22b2e3ab36b65725d22f005ff85f3ec1e17d133bc1fe4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我会说华语，还会读故事书。",
+    "file": "assets/audio/sentence-7293aea2675d.m4a"
+  },
+  "word-e560b353a5ee": {
+    "fingerprint": "36803a0fba0cf968d6d7551454dd1d791c9609481f6343d29e616f8bc4268f2e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "唱歌",
+    "file": "assets/audio/word-e560b353a5ee.m4a"
+  },
+  "word-056001def0ac": {
+    "fingerprint": "221ecd0f97bc3730c1161ff2cf4d9d0b33d36e933e8774c8819ac15d509c4252",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "喜欢",
+    "file": "assets/audio/word-056001def0ac.m4a"
+  },
+  "word-658697091236": {
+    "fingerprint": "d79d0735b8eb07706ef8d56ff10175edfbda604b3fa4408eb84d6e4dad89150e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "来",
+    "file": "assets/audio/word-658697091236.m4a"
+  },
+  "word-5344ff79c6c4": {
+    "fingerprint": "c39b23384871cd38c6097efcebe10fd4dbcfa1e38832172b6cbd7bb075279636",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "草",
+    "file": "assets/audio/word-5344ff79c6c4.m4a"
+  },
+  "word-b7944551a170": {
+    "fingerprint": "0571c96575aff0f5b5e5f72311ef562d063d1a847482e03e00e3f8f69294015a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "黑",
+    "file": "assets/audio/word-b7944551a170.m4a"
+  },
+  "word-6a0f152ecfd3": {
+    "fingerprint": "3befd564904d102b23d96220e7f75a7b0101f89dd8ad0c636dca0443f087a62e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "马",
+    "file": "assets/audio/word-6a0f152ecfd3.m4a"
+  },
+  "word-64a5ccbd765f": {
+    "fingerprint": "f30d3772b1c73a2766335b5a2bccfb707dfc2a80edcd76ef4e6cb53f9ff165a8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "黄",
+    "file": "assets/audio/word-64a5ccbd765f.m4a"
+  },
+  "word-5e4efa1ee4fc": {
+    "fingerprint": "26bf8423a2d3d2bfc17e9cc8894ea4f6a4d7eb16bcbd6c8481f6872ea9c066b6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "鸭",
+    "file": "assets/audio/word-5e4efa1ee4fc.m4a"
+  },
+  "word-26aea8f4d583": {
+    "fingerprint": "9a72214b50cc38c25a062a4360ebc81c9df2f3ef0d4d4448f73f7d229a56f120",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "吃",
+    "file": "assets/audio/word-26aea8f4d583.m4a"
+  },
+  "phrase-8709b24a7344": {
+    "fingerprint": "ae7906667b49b0c0673fea40ffd7220258995b0bf8c811e757fa639bb53a57f3",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "吃草",
+    "file": "assets/audio/phrase-8709b24a7344.m4a"
+  },
+  "word-3175c41244ec": {
+    "fingerprint": "d4a31ba6dfe7990ea816d834eb76ce7b0f23413c1a17cb54033847b94cf0af4e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "游泳",
+    "file": "assets/audio/word-3175c41244ec.m4a"
+  },
+  "word-2bafadee60b3": {
+    "fingerprint": "b2bb9e2b0c5083abcbffbec26859dc85f90aa7f65271e78b7a4e099363e43c4c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "小",
+    "file": "assets/audio/word-2bafadee60b3.m4a"
+  },
+  "sentence-8d1bfb2e94e9": {
+    "fingerprint": "e193302ff611a2b98f4b23377c300ae3fec5452d730e041ca451244599880d12",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "来来来，来吃草，小黑马喜欢吃草。",
+    "file": "assets/audio/sentence-8d1bfb2e94e9.m4a"
+  },
+  "sentence-372ca5c2c867": {
+    "fingerprint": "762c4c74b5cfd52df6f4b9bb4f362282b38ba8e89a6b573a3ee348d1c2d54d28",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "来来来，来游泳，小黄鸭喜欢游泳。",
+    "file": "assets/audio/sentence-372ca5c2c867.m4a"
+  },
+  "word-a7f71ef3a3d0": {
+    "fingerprint": "057f5d3ddefd7d8c6d55b4fef317da8bb7d9cd7898707f7dd48a0dc8c4757580",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "绿",
+    "file": "assets/audio/word-a7f71ef3a3d0.m4a"
+  },
+  "word-706b146215d7": {
+    "fingerprint": "b3e01daa3e1672991283bf3ad95b102c1b0e7c4d86dde530820e4c56a0440d51",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "的",
+    "file": "assets/audio/word-706b146215d7.m4a"
+  },
+  "phrase-5bc3694ab366": {
+    "fingerprint": "9b1c5e7109562a383907b3e56dae6466dd6dacba6f74b2a930ce420f9b004795",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "绿绿的",
+    "file": "assets/audio/phrase-5bc3694ab366.m4a"
+  },
+  "word-d38f2b966d6c": {
+    "fingerprint": "01f6eb8d4d7a459b9fb9f1def7599891ba6e10b8fc03432c5b6beda2b25ca451",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "草地",
+    "file": "assets/audio/word-d38f2b966d6c.m4a"
+  },
+  "word-a9f039606285": {
+    "fingerprint": "0423ccc58ce7d7a369c14383838b6b1b102fbe53885aa465a04492cf47493ba2",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "上",
+    "file": "assets/audio/word-a9f039606285.m4a"
+  },
+  "phrase-63fc277b355f": {
+    "fingerprint": "9f2a090ac3234d54b0ca5412f21f2067316bc80468dd1e4304d7fdbe6b5aba77",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "草地上",
+    "file": "assets/audio/phrase-63fc277b355f.m4a"
+  },
+  "word-fab5d5fbd3d9": {
+    "fingerprint": "0d4020ec6347206c610c0992e6b3458c77056c7493967aa0fa42b3f534ef24b9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "牛",
+    "file": "assets/audio/word-fab5d5fbd3d9.m4a"
+  },
+  "word-05425e414113": {
+    "fingerprint": "8ac2f0fae622c37fbba5e6bf43a9e6222892dd65b8bfd9f1248b52d53f056711",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "白",
+    "file": "assets/audio/word-05425e414113.m4a"
+  },
+  "word-13b1d97af27e": {
+    "fingerprint": "147c0f16e7d2263cb225ff50acc8c72dffc896e04edc0fec639291c6276bab64",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "羊",
+    "file": "assets/audio/word-13b1d97af27e.m4a"
+  },
+  "word-6948784d3b11": {
+    "fingerprint": "194a200948e1aff9f6e5022438f83d5e864f85483cdaf9d46762e7fc94013472",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "在",
+    "file": "assets/audio/word-6948784d3b11.m4a"
+  },
+  "word-b83b12121e5b": {
+    "fingerprint": "d6eb3a3bdfbbbf22d30f08062bc2bd9a64edc7deefb83af64badc80a9735d794",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "大",
+    "file": "assets/audio/word-b83b12121e5b.m4a"
+  },
+  "word-eb1f33f896a4": {
+    "fingerprint": "a5ef0798d2a3f4937d8740c6e685c222da123d7f22ce111aa973b09aaa05e12f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "也",
+    "file": "assets/audio/word-eb1f33f896a4.m4a"
+  },
+  "sentence-1491611629fd": {
+    "fingerprint": "3b10f8b7993262b4409be476c8a7c1acd6c531003250bb4b91608041bdd66404",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "绿绿的草地上，大黄牛在吃草，小白羊也在吃草。",
+    "file": "assets/audio/sentence-1491611629fd.m4a"
+  },
+  "word-2d84625ebd4e": {
+    "fingerprint": "a9ebd2010a82249ba6b36360c251382c5f34039eeaecc5feae248b6adcc3acba",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "亮",
+    "file": "assets/audio/word-2d84625ebd4e.m4a"
+  },
+  "word-fea63bd3455e": {
+    "fingerprint": "496c8904a288df767cb2d547cb9d27f47cd533ac618e1cd8ef4d94512e65068d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "红",
+    "file": "assets/audio/word-fea63bd3455e.m4a"
+  },
+  "phrase-3ac1ca237bb5": {
+    "fingerprint": "2332df2ccba799f63e005015c825b68a150c1335f7848ea93289790c5027a28b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "红红的",
+    "file": "assets/audio/phrase-3ac1ca237bb5.m4a"
+  },
+  "word-39fcffb791b6": {
+    "fingerprint": "19e8f4e5cda3000aeef115a2604a2aa7ebbec641c440bd6a9f45062b7e8c45a8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "太阳",
+    "file": "assets/audio/word-39fcffb791b6.m4a"
+  },
+  "word-01f98b5b5346": {
+    "fingerprint": "b1ff4ad6c3037480d971e269a3180e764bb943cf0ee9f1a90f9b30be856570a8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "出来",
+    "file": "assets/audio/word-01f98b5b5346.m4a"
+  },
+  "word-89b0b8fb11e9": {
+    "fingerprint": "5691f60619bdf83b2f502bc5577f39ac9a85a991546f84a4c27c764bc3eb3cb7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "天",
+    "file": "assets/audio/word-89b0b8fb11e9.m4a"
+  },
+  "phrase-a4883c172ba9": {
+    "fingerprint": "c4e1a64fc971ac65e3e6a978c231dd2ead5cf1b731d2e371966a9191255c8206",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "天亮了",
+    "file": "assets/audio/phrase-a4883c172ba9.m4a"
+  },
+  "sentence-6030d13b2db7": {
+    "fingerprint": "3010a4d14467bb96c9ef6679984be39b87354a57f27d4eafe7f80fb9c485020e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "天亮了，红红的太阳出来了。",
+    "file": "assets/audio/sentence-6030d13b2db7.m4a"
+  },
+  "word-c18ab74fb2e8": {
+    "fingerprint": "0d9b97d7e5a0fd8f933a49f1bd291db739ca1d593c685c1c89cf6585182a5b42",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我们",
+    "file": "assets/audio/word-c18ab74fb2e8.m4a"
+  },
+  "word-ee0696f72785": {
+    "fingerprint": "fe9c4feea1a2a106cc9e8748977fbd33ed6deca971ce9f25d9faa619cc5f11bc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "开开心心",
+    "file": "assets/audio/word-ee0696f72785.m4a"
+  },
+  "word-c2fba87ff7a0": {
+    "fingerprint": "3cca38679ef854fa5d830690fc495b87710a989c511547a721a00f0a01c8ffce",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "去",
+    "file": "assets/audio/word-c2fba87ff7a0.m4a"
+  },
+  "word-85bb1b19cf8f": {
+    "fingerprint": "b1c2db370d7c4bd8fa47d3cc965dc681ae64620d4bf8fecef08088439bdc8492",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "学校",
+    "file": "assets/audio/word-85bb1b19cf8f.m4a"
+  },
+  "sentence-3421211f50ab": {
+    "fingerprint": "44998ed814bf96bd5c9e0df7fdec81ac05b315b8f8853a304e12e8a858f716ac",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我们开开心心去学校。",
+    "file": "assets/audio/sentence-3421211f50ab.m4a"
+  },
+  "phrase-39888264c1f3": {
+    "fingerprint": "0b609e4bda7163078354d9ed7f21c1495a6b475deb958f8ce01e21f6df5d0264",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "天黑了",
+    "file": "assets/audio/phrase-39888264c1f3.m4a"
+  },
+  "word-d40adf906f70": {
+    "fingerprint": "207d51b03d6e7701c208b8a4cd70105ceff52dd9fb4114a22c7a189569b571d9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "弯",
+    "file": "assets/audio/word-d40adf906f70.m4a"
+  },
+  "phrase-8e0f00f8392f": {
+    "fingerprint": "96364be4b368c932593f8b63b33627a94222188af3215a25859aee9c0077e340",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "弯弯的",
+    "file": "assets/audio/phrase-8e0f00f8392f.m4a"
+  },
+  "word-a04f6d86b54c": {
+    "fingerprint": "8c3f4b37bb602cb1778c94e80818db52092a9b3b3bf85a991c403dd537f9c32b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "月亮",
+    "file": "assets/audio/word-a04f6d86b54c.m4a"
+  },
+  "phrase-51b676c060ac": {
+    "fingerprint": "a99ca39da25b14337d56e9e2180b9f8e9a6468c4fa0d32c81e4242a322fcc96b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "天上",
+    "file": "assets/audio/phrase-51b676c060ac.m4a"
+  },
+  "word-77d613b2cfcd": {
+    "fingerprint": "76bcf5f6baf7e84f7f9d5bf93af835208d09960e221263650bc179bb74433a58",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "像",
+    "file": "assets/audio/word-77d613b2cfcd.m4a"
+  },
+  "word-166528fc33dc": {
+    "fingerprint": "f209d8b0fedc6c9b9ff318cf5c4c9f7fd908ab2824e3b68e29a6dbf5bc6b0613",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "船",
+    "file": "assets/audio/word-166528fc33dc.m4a"
+  },
+  "phrase-b14b3236af0e": {
+    "fingerprint": "d846647836fc6416321d52a11e1979368ed62162e4ac8ae67323ad272138ef35",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "小船",
+    "file": "assets/audio/phrase-b14b3236af0e.m4a"
+  },
+  "sentence-0f6cf43cc91b": {
+    "fingerprint": "d48421307becbd7ca6e54fea3944a6db1c33b7de987e7276f5829ea57045ab3d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "天黑了，弯弯的月亮在天上。",
+    "file": "assets/audio/sentence-0f6cf43cc91b.m4a"
+  },
+  "sentence-70524fd2e73d": {
+    "fingerprint": "bf80c6fdf60a8b1cca5f013f95ae34084b3587591d7db404ceed83d1890e3f0e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "弯弯的月亮像小船。",
+    "file": "assets/audio/sentence-70524fd2e73d.m4a"
+  },
+  "word-559cd001b871": {
+    "fingerprint": "c82babcc8bc01d164623c55684d76bc8662b3211218ecefe164b7572123900ea",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "草莓",
+    "file": "assets/audio/word-559cd001b871.m4a"
+  },
+  "word-082660872c70": {
+    "fingerprint": "40220c777ace6f3f0478ea86fb84d66ca62f8ce034ef6bf0b5255d9c831a6b3d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "蛋糕",
+    "file": "assets/audio/word-082660872c70.m4a"
+  },
+  "word-726294563ef4": {
+    "fingerprint": "25a0c12ac0a5d9866ca09f49c2b69814e6957aee47a0355da4c5f4d0d6dbf7ea",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "香",
+    "file": "assets/audio/word-726294563ef4.m4a"
+  },
+  "word-a75694705d7a": {
+    "fingerprint": "849104bc38a849eeacdb91804ceaefa10787ef4509e264c571e5debb6c143e5c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "巧克力",
+    "file": "assets/audio/word-a75694705d7a.m4a"
+  },
+  "word-e989977e6077": {
+    "fingerprint": "4477d1d1a4098ee22b249671b0651168924198305859ba1e48bb342c4de2b7c4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "甜",
+    "file": "assets/audio/word-e989977e6077.m4a"
+  },
+  "word-98ce14be44fc": {
+    "fingerprint": "c30d7f9632fc9c8daee02a7ceaa33612793796f35b034ff4db7d87bbc183b885",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "又",
+    "file": "assets/audio/word-98ce14be44fc.m4a"
+  },
+  "phrase-6757636d3037": {
+    "fingerprint": "8b53cf46534a5e580980746e33280a8a498116a1e9b2883fe7187ef80a01c8e5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "又香又甜",
+    "file": "assets/audio/phrase-6757636d3037.m4a"
+  },
+  "word-878a1cbed839": {
+    "fingerprint": "3820e5eb3c32448ed250661c7ce18a0fcf2d6115731b11259469194d07ebc50a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "真",
+    "file": "assets/audio/word-878a1cbed839.m4a"
+  },
+  "sentence-ef048470fb42": {
+    "fingerprint": "0abf9f89bf89d92dbf6c48141ccb65e6680e355bfdd90673e376e24cd079be41",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "草莓蛋糕真香！",
+    "file": "assets/audio/sentence-ef048470fb42.m4a"
+  },
+  "word-e63e3e16106f": {
+    "fingerprint": "e70da3f896293967ae9766ad76cdd6a0fc3a4df8f7c9c10539e3085f2d237899",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "牛奶",
+    "file": "assets/audio/word-e63e3e16106f.m4a"
+  },
+  "sentence-b36e82831408": {
+    "fingerprint": "5c27570f74a07e193335ce4a03d0082dcedc6a074ae75b0e402f0e70e6ab0b20",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "巧克力牛奶真甜！",
+    "file": "assets/audio/sentence-b36e82831408.m4a"
+  },
+  "sentence-7dcbf1212fa7": {
+    "fingerprint": "4dbe362f9ce03bc06ece81dedde65e166451efc221f329b2fca7b69e560b67d0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "又香又甜我喜欢。",
+    "file": "assets/audio/sentence-7dcbf1212fa7.m4a"
+  },
+  "word-740051dfbab9": {
+    "fingerprint": "b829b389b61e18971580f43d9b65c476ee5ba65ded1103649663849995b0d963",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "有",
+    "file": "assets/audio/word-740051dfbab9.m4a"
+  },
+  "word-c99d6c682449": {
+    "fingerprint": "aa4cbd69be4b3d2f1baaf37a206f53d6c3d240525c34d5c696e0d6ddb897a9db",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "还有",
+    "file": "assets/audio/word-c99d6c682449.m4a"
+  },
+  "word-9a3cb260d609": {
+    "fingerprint": "ed95a0158c84a5976d0b433bce397dd93dd7a69ca9ad94fc1c9ff6e9766502fd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆形",
+    "file": "assets/audio/word-9a3cb260d609.m4a"
+  },
+  "word-4bdde457ca87": {
+    "fingerprint": "1b21910551b05916cff8c983e3c927d5a79558e5bd4976f2eecdea8d373ab80c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "正方形",
+    "file": "assets/audio/word-4bdde457ca87.m4a"
+  },
+  "word-efdebe7dd25a": {
+    "fingerprint": "cb22b057cdd2c97c062de4471a30d3294f5bb1fbaa832d6ed0183963d36d2ba1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "三角形",
+    "file": "assets/audio/word-efdebe7dd25a.m4a"
+  },
+  "word-e88863de4748": {
+    "fingerprint": "c76b5c4f6d44138eab69ff06ad13435e9cff5417422d3d458c6d6a6c7c60532f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "饼干",
+    "file": "assets/audio/word-e88863de4748.m4a"
+  },
+  "sentence-536b1e20801c": {
+    "fingerprint": "b549eeef1a60eb6aad60f5a4fc5ab74ca4bf633ba4494ec0a72cc43c73b8c294",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我有圆形的饼干、正方形的饼干，还有三角形的饼干。",
+    "file": "assets/audio/sentence-536b1e20801c.m4a"
+  },
+  "word-79517622bdda": {
+    "fingerprint": "c29c4c027faab879b98597eb4e44b7ea3de5b371ba5e2e3f327178a280f6324a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "桌子",
+    "file": "assets/audio/word-79517622bdda.m4a"
+  },
+  "word-678ba85d28e7": {
+    "fingerprint": "a5301e6b3be48a36756c02ad528a5aecfc1cc09a5cef22dfb0cf34dc9c7ecedd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "菜",
+    "file": "assets/audio/word-678ba85d28e7.m4a"
+  },
+  "word-a9e42039a465": {
+    "fingerprint": "55cbc58c339a47d3edc787b2fb603f1767ebed9976b63a3010e3a16c46c1bbf8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "肉",
+    "file": "assets/audio/word-a9e42039a465.m4a"
+  },
+  "word-3dcc36d18dd7": {
+    "fingerprint": "1be79dd9d633fadd04f35b68b66a82e4980b8e4c0557ee4925422323b54e6ea1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "白米饭",
+    "file": "assets/audio/word-3dcc36d18dd7.m4a"
+  },
+  "sentence-5566d373398c": {
+    "fingerprint": "777107e8a7edb239dc7673fedd68ce268ae4bf23a8d2533a1f31ff1a054350e9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "桌子上有香香的菜、香香的肉，还有香香的白米饭。",
+    "file": "assets/audio/sentence-5566d373398c.m4a"
+  },
+  "word-9bdc470da235": {
+    "fingerprint": "258a6c79f53adb87d7c9df2038deb4ad3a996851afe169f436494ab0fa7bdf37",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆",
+    "file": "assets/audio/word-9bdc470da235.m4a"
+  },
+  "phrase-b54707f825fe": {
+    "fingerprint": "c00157624906cc81993aa55f5ee441add7d2042208c07b7e4df300bb2a9339db",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆圆的",
+    "file": "assets/audio/phrase-b54707f825fe.m4a"
+  },
+  "word-fb09d58c70e7": {
+    "fingerprint": "ca2f89b0ed469c8acd8f530130e521e74f93dc2b7b701894c37088ca47798fd8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "脸",
+    "file": "assets/audio/word-fb09d58c70e7.m4a"
+  },
+  "phrase-fe022a445fd5": {
+    "fingerprint": "4e416624e85ec12ecc1d3228931a21e721b9377e73977c3aa52e50f4112dfb11",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "脸上",
+    "file": "assets/audio/phrase-fe022a445fd5.m4a"
+  },
+  "word-6f7c1a38e193": {
+    "fingerprint": "6c5c03981fb628daf48a17fbfe85b9463b2aa39667a614479d85b6e0177e0172",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "葡萄",
+    "file": "assets/audio/word-6f7c1a38e193.m4a"
+  },
+  "sentence-949b457a3a08": {
+    "fingerprint": "46e977bed79df200704af30102f15ee39a5f1870846b09c13f8b6f1b0c1ceec4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆圆的月亮在天上。",
+    "file": "assets/audio/sentence-949b457a3a08.m4a"
+  },
+  "word-16afa2f34725": {
+    "fingerprint": "028e59d52c35d308b9c942be4e65421f2239a361aceaadaf54b1b69102b547ec",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "眼睛",
+    "file": "assets/audio/word-16afa2f34725.m4a"
+  },
+  "sentence-e70a1bb69012": {
+    "fingerprint": "fc10e1c16e3999c978ab450e8627515b11fabd99d5b817e96aac9d8486a1f928",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆圆的眼睛在脸上。",
+    "file": "assets/audio/sentence-e70a1bb69012.m4a"
+  },
+  "sentence-450dbb1d5851": {
+    "fingerprint": "9e3fc17c346e9123ed500adda7ace84e26b39a0daef8a865e33d182da7b60e74",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆圆的葡萄在桌子上。",
+    "file": "assets/audio/sentence-450dbb1d5851.m4a"
+  },
+  "word-bee90b36dafe": {
+    "fingerprint": "7cd4b0092e51600fc06d99d52fdf7474aea9a8c9a62bbdf7fa4ba3dee0fb4c55",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "高",
+    "file": "assets/audio/word-bee90b36dafe.m4a"
+  },
+  "word-247a5ebcff44": {
+    "fingerprint": "38a54ef5b7ec1defe378987321f3fb0a4f1e328404bf62f9dc2c077d4be3f86b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "长",
+    "file": "assets/audio/word-247a5ebcff44.m4a"
+  },
+  "word-dc87a0871d2b": {
+    "fingerprint": "acce1b1ec93e143c68237122cb44237e17c70b616e231a8a5ea5017a5e6e672c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "树",
+    "file": "assets/audio/word-dc87a0871d2b.m4a"
+  },
+  "phrase-4b4a47d1a882": {
+    "fingerprint": "32b55dc2cb1b96f42c414b0ba561c4cde78366aebdb3d8345a73ed5e7b3089ee",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "大树",
+    "file": "assets/audio/phrase-4b4a47d1a882.m4a"
+  },
+  "word-fbba56f5d5a8": {
+    "fingerprint": "1e2a7580b5ae760c28d714272b0b9f8bf4fbd848bd5fc62df511deaa06b1137b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "火车",
+    "file": "assets/audio/word-fbba56f5d5a8.m4a"
+  },
+  "word-ebd9a11fea6c": {
+    "fingerprint": "e311734f5b82a2c56b6ed9228cd9c90a0171d9eb1d80e12ee2e6c18fdf82f50f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "山",
+    "file": "assets/audio/word-ebd9a11fea6c.m4a"
+  },
+  "phrase-bf8a57302d46": {
+    "fingerprint": "32a695bdf2cb063cb730e598fe09ac49453e1d541733430d7b4d952eb5d7266f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "山上",
+    "file": "assets/audio/phrase-bf8a57302d46.m4a"
+  },
+  "word-b68721647e72": {
+    "fingerprint": "fbc0f6f99685e7410de61e28163c31d7b651fb3aad3dac7c6a9a757b03225490",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "下",
+    "file": "assets/audio/word-b68721647e72.m4a"
+  },
+  "phrase-8c6c7199b33c": {
+    "fingerprint": "35b1ceaed7526535ebe976851d594ca0a77e0947bdc0f2bb775e607b325ea006",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "山下",
+    "file": "assets/audio/phrase-8c6c7199b33c.m4a"
+  },
+  "sentence-6619e8732930": {
+    "fingerprint": "b3afb580e11ca23ead7129861052bce32c1fcbdd877cbb11a7bf6bc84e1f1ef8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "高高的大树在山上。",
+    "file": "assets/audio/sentence-6619e8732930.m4a"
+  },
+  "word-b0607cea6c36": {
+    "fingerprint": "d642be1e4709da319696bef5a0889bf2af5afd5273527a41d4455df071eae26e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "轰隆隆",
+    "file": "assets/audio/word-b0607cea6c36.m4a"
+  },
+  "sentence-430b0ca32fbd": {
+    "fingerprint": "cca12d5f2f77fbc40b9e860c6523fe699c4a76d9a4c7bedbb9738a5e771b5cd4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "轰隆隆，轰隆隆，长长的火车在山下。",
+    "file": "assets/audio/sentence-430b0ca32fbd.m4a"
+  },
+  "word-d97d45d432dc": {
+    "fingerprint": "04d8d00c280cda3c0279ea0fd30839c16ab09207d1a0a8f9f178f0be0a1d36f8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "风儿",
+    "file": "assets/audio/word-d97d45d432dc.m4a"
+  },
+  "word-0aec2b1a1a4c": {
+    "fingerprint": "caad607b4eb0b344c04ae02272396bc0305cd7ebb8dbcbf4a4da2e89fbe27037",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "兔",
+    "file": "assets/audio/word-0aec2b1a1a4c.m4a"
+  },
+  "phrase-c36f05c95a04": {
+    "fingerprint": "f51ebd1e991e3378074ffdaeab93c87bb71ba505d9919f4b722ce38891d66f75",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "小兔",
+    "file": "assets/audio/phrase-c36f05c95a04.m4a"
+  },
+  "word-e0d080fe0f88": {
+    "fingerprint": "0e168afbd872d269a5a40e32a4e97daa2b0c781865bb340d39e1390d080dc644",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "轻轻",
+    "file": "assets/audio/word-e0d080fe0f88.m4a"
+  },
+  "word-b25b380ce8f7": {
+    "fingerprint": "9f6edcc9bc9ac37656a7669ff66f60481637964e0f2843dda53689d94d2cb43d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "睡觉",
+    "file": "assets/audio/word-b25b380ce8f7.m4a"
+  },
+  "word-dd1615e93a3c": {
+    "fingerprint": "a8c4fec0d59a6220ffd2c222eee8a83b91f895cbeb257c08332897b082db10df",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "安静",
+    "file": "assets/audio/word-dd1615e93a3c.m4a"
+  },
+  "word-bdc2d9abf28e": {
+    "fingerprint": "684f14fd73e67d7f746d4d4a550f53f07f34fb19703f85f12178869a748f749b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "吹",
+    "file": "assets/audio/word-bdc2d9abf28e.m4a"
+  },
+  "sentence-ff05245fbe3d": {
+    "fingerprint": "a5f86fbae0fe84f4c80ed1fd1f4ba374cbd71fe80e92b7f200046b3cf165d8ee",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "风儿轻轻吹。",
+    "file": "assets/audio/sentence-ff05245fbe3d.m4a"
+  },
+  "word-3bc3e47276e6": {
+    "fingerprint": "0a1de37f566e3e1ceaec554f258a8856368cf8979213a26264d20835df3d2a92",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "跳",
+    "file": "assets/audio/word-3bc3e47276e6.m4a"
+  },
+  "sentence-536007f7ec4d": {
+    "fingerprint": "0299575d6a583beffb2950b132b7e5fbb329d848ba61bf7d8d01dd242d3f7a3b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "小兔轻轻跳。",
+    "file": "assets/audio/sentence-536007f7ec4d.m4a"
+  },
+  "word-ffa25b33e185": {
+    "fingerprint": "0da4732ddb5ee9bdf791884e2ae3d9212d2b6ea366636e0fe97f169c01cdb4e4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "妹妹",
+    "file": "assets/audio/word-ffa25b33e185.m4a"
+  },
+  "word-88b1b53abf1e": {
+    "fingerprint": "99f5e3e1ce68b86f4ab2ae476bc88e362ce51585234e7c4f8baf7d6715fae369",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "请",
+    "file": "assets/audio/word-88b1b53abf1e.m4a"
+  },
+  "sentence-d4203881fa4c": {
+    "fingerprint": "fb5a28ea060ff1e2d11adc248de065dff0350a52d394df353c5ded399ad709b0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我的妹妹在睡觉，请安静。",
+    "file": "assets/audio/sentence-d4203881fa4c.m4a"
+  },
+  "word-d2d794b7493b": {
+    "fingerprint": "c00ecdd01b3a9d60afe07ed1af035957999ecde3e8255cfd91bafa470d94827e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "客厅",
+    "file": "assets/audio/word-d2d794b7493b.m4a"
+  },
+  "phrase-0f2e6fae236c": {
+    "fingerprint": "f08cf62f8c948e0f8ca4dbeea51d8fc1f2a75b984c049d6b9c64d91062066e59",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "在客厅",
+    "file": "assets/audio/phrase-0f2e6fae236c.m4a"
+  },
+  "word-0b4893aa4c6b": {
+    "fingerprint": "24796b6f4b5eeb3b6eaa4fa78b9fb50c6df7aa107811256a5fe7884d7599c5fd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "房间",
+    "file": "assets/audio/word-0b4893aa4c6b.m4a"
+  },
+  "phrase-303b75d2355f": {
+    "fingerprint": "e956e4649868e5ac87c2006452c39f93724beb6f91c6084afade8d6aa392d59c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "在房间",
+    "file": "assets/audio/phrase-303b75d2355f.m4a"
+  },
+  "word-8661e3ec3373": {
+    "fingerprint": "d5848b6de8d6bb3cda57f166bd2cc526adce5546b0c00e542b2de222b96ca582",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "爸爸",
+    "file": "assets/audio/word-8661e3ec3373.m4a"
+  },
+  "word-a64cdd2ccab1": {
+    "fingerprint": "96d11cf07b6fdb1241a6b5f2b218102e45edd8ab0ae1dc180bc3a1bd8b78160a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "和",
+    "file": "assets/audio/word-a64cdd2ccab1.m4a"
+  },
+  "word-8161e00af5f6": {
+    "fingerprint": "fd56d43c90f4dd93114a23b35d74f4bb9c9252a1e920f631936407340bace277",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "妈妈",
+    "file": "assets/audio/word-8161e00af5f6.m4a"
+  },
+  "word-a0227b47e71a": {
+    "fingerprint": "522e34004be6577c252085a6e008cabebd73eeb36012ac9165317f3172627342",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "看",
+    "file": "assets/audio/word-a0227b47e71a.m4a"
+  },
+  "word-f41783418fc4": {
+    "fingerprint": "63cad60e045744783dc7d01fd65b23a3b769d666ca66e086cbc4e366dcadda75",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "书",
+    "file": "assets/audio/word-f41783418fc4.m4a"
+  },
+  "sentence-18aa9115a40e": {
+    "fingerprint": "1514c022a914e3e9a7caa11915724e44687348ca478675a16c0cf21ee2d7de8a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "爸爸和妈妈在客厅看书。",
+    "file": "assets/audio/sentence-18aa9115a40e.m4a"
+  },
+  "word-4d0ed7137fbc": {
+    "fingerprint": "4a15344dfbc3e8ebe39363980d879a9e7033067479be33deacd5fa3765eabeba",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "弟弟",
+    "file": "assets/audio/word-4d0ed7137fbc.m4a"
+  },
+  "word-47108e572b30": {
+    "fingerprint": "38e380d3fd9ef9482d8c41aeb313ae1495fb4ffcb5b1588229f269c6e84c7eeb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "玩",
+    "file": "assets/audio/word-47108e572b30.m4a"
+  },
+  "word-567dbdf2bae0": {
+    "fingerprint": "3bab4c4c6f48dcc8407659b77ca066a9cecb248a36c8fd74f806192116563e66",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "积木",
+    "file": "assets/audio/word-567dbdf2bae0.m4a"
+  },
+  "sentence-c5f3f59a5767": {
+    "fingerprint": "b041c8ce5db94ad9cb5c08c9415747112b6521f68981cb59498f64c119a1165b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我和弟弟在房间玩积木。",
+    "file": "assets/audio/sentence-c5f3f59a5767.m4a"
+  },
+  "word-b7fe1500b898": {
+    "fingerprint": "b234cf02866fea502ad587aa0d96691ffcad76764a2374e758bf133e327e7d20",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "写",
+    "file": "assets/audio/word-b7fe1500b898.m4a"
+  },
+  "word-77417a7931d9": {
+    "fingerprint": "d866e7b910ddfb74613b84d2889b94d7d288cfea1ce83ba21f1147474c54ab71",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "只",
+    "file": "assets/audio/word-77417a7931d9.m4a"
+  },
+  "phrase-e3b0034f6bf1": {
+    "fingerprint": "2510dcbdf681fff66f5514a805b53e88abe85d080107f585e6c50c431937a233",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "只会",
+    "file": "assets/audio/phrase-e3b0034f6bf1.m4a"
+  },
+  "word-75afb5609a5b": {
+    "fingerprint": "1bf9d2f650eb319fe54aea78285708dda1ddbe78d10780b466b7a082adff28e8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "穿",
+    "file": "assets/audio/word-75afb5609a5b.m4a"
+  },
+  "word-d24eb883d51e": {
+    "fingerprint": "73ca2a611464b5669e1816e3631af79f3fcadf694ff5d38314db954bf708430b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "鞋子",
+    "file": "assets/audio/word-d24eb883d51e.m4a"
+  },
+  "word-624f905ef255": {
+    "fingerprint": "b536d833b16903c003083fd2f000f6ec549217ffad83eb14fff2c060cad45946",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "袜子",
+    "file": "assets/audio/word-624f905ef255.m4a"
+  },
+  "word-091e097d8c14": {
+    "fingerprint": "1cc62e02941095a5c3047899967dd01a7556958b7549ff40a00b4819f9a38c40",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "不",
+    "file": "assets/audio/word-091e097d8c14.m4a"
+  },
+  "sentence-837ffa6b059e": {
+    "fingerprint": "0182f893b1a1a854ec3df672803c3c504a8b3b353ddb0dce832e7741551d7ebb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "妹妹不会写，只会读。",
+    "file": "assets/audio/sentence-837ffa6b059e.m4a"
+  },
+  "sentence-6ef1db2f5367": {
+    "fingerprint": "2e180c241934b117bb5ea550807d54feea784c7db322ef26b54bc087f858a534",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "弟弟不会穿鞋子，只会穿袜子。",
+    "file": "assets/audio/sentence-6ef1db2f5367.m4a"
+  },
+  "word-652815443c5a": {
+    "fingerprint": "cd9509fbf69d6c1f21f19a25f50ab77672abb394da3d80bcb44a2f694201b997",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "沙发",
+    "file": "assets/audio/word-652815443c5a.m4a"
+  },
+  "word-6b96fe843fbb": {
+    "fingerprint": "3dbbeb2c4372e937f99370bf926c4e773e8192efb6e8a0aa1e1dfa99e06e3a6b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "椅子",
+    "file": "assets/audio/word-6b96fe843fbb.m4a"
+  },
+  "word-7157f25a3af2": {
+    "fingerprint": "29f6e3bce30f3f8f7fc274ba9c303d53c826a543f6f37eed212d5ab3b31a71fb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "床",
+    "file": "assets/audio/word-7157f25a3af2.m4a"
+  },
+  "word-afee5dad69c4": {
+    "fingerprint": "368484282f175e709a5d5183cbc14c8946adc41ed0467947bd08543174344978",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "枕头",
+    "file": "assets/audio/word-afee5dad69c4.m4a"
+  },
+  "word-d24eb19770ac": {
+    "fingerprint": "1909a684933d95bd3f063774ef27033582e193fbb282cba3e76d35705bf016dc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "没有",
+    "file": "assets/audio/word-d24eb19770ac.m4a"
+  },
+  "word-2554fa643236": {
+    "fingerprint": "7efbcde3b62c38c90db313d818acb400523ef8da0d0c8bd0683fc5b7bd11b0d0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "点读笔",
+    "file": "assets/audio/word-2554fa643236.m4a"
+  },
+  "word-358bbf2d8cd9": {
+    "fingerprint": "732321d90959d7d253d3d0caed089dfdfb975e858f9428881cb213a45c848118",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "点",
+    "file": "assets/audio/word-358bbf2d8cd9.m4a"
+  },
+  "sentence-5110a588564d": {
+    "fingerprint": "af7dffd5cfe9ba740633bae2f1ba035cc29254301b4fb05e914b40d205dc499a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "点读笔，轻轻点。",
+    "file": "assets/audio/sentence-5110a588564d.m4a"
+  },
+  "word-4f69d9d39f4e": {
+    "fingerprint": "9dc50f54e1e4e972606be63732beda86907bcf2981082ce98c559a01e6b67f95",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "一",
+    "file": "assets/audio/word-4f69d9d39f4e.m4a"
+  },
+  "word-972fee5ddec8": {
+    "fingerprint": "329ad423331a920c7057912bf91428a7fa285e4fb05a38b97721f062f2dbb416",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "学",
+    "file": "assets/audio/word-972fee5ddec8.m4a"
+  },
+  "sentence-5be4db098d6a": {
+    "fingerprint": "22f271e212d560a3aaff7ba261bebe999969822bea9f04ddca52f58d8cf9fb01",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "玩一玩，学一学。",
+    "file": "assets/audio/sentence-5be4db098d6a.m4a"
+  },
+  "word-cd6bb76d423d": {
+    "fingerprint": "526fb5a3dec01b4c924b25b68b5744dcb7415d220969980c051bd65e725cc2b1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "这些",
+    "file": "assets/audio/word-cd6bb76d423d.m4a"
+  },
+  "word-bf68a9a65a3c": {
+    "fingerprint": "ea2de67303c812da1bc5f9739eed399563918303b915112049d263ae317b57f7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "球",
+    "file": "assets/audio/word-bf68a9a65a3c.m4a"
+  },
+  "word-d869fcbf074b": {
+    "fingerprint": "854aca7759f0937185e8333447f63fdfac50915125ce2ca91c33498ae2662711",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "是",
+    "file": "assets/audio/word-d869fcbf074b.m4a"
+  },
+  "word-483b7b8314b7": {
+    "fingerprint": "f4e0ffe73378d8596b559a63844f746047541421db7a31d306f9612f60c19223",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "什么",
+    "file": "assets/audio/word-483b7b8314b7.m4a"
+  },
+  "word-ffa3f08b9ec6": {
+    "fingerprint": "0a06fa678133af1b0929a4e957bb4d11568d8fe5399fab3a660235fae892a40e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "颜色",
+    "file": "assets/audio/word-ffa3f08b9ec6.m4a"
+  },
+  "sentence-e38f6a88d81c": {
+    "fingerprint": "c93583e5531802d3d50dfc3e76ec2e3c2bd6bdd82fafd6ad13954c35a0fef121",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "说说看，这些球是什么颜色？",
+    "file": "assets/audio/sentence-e38f6a88d81c.m4a"
+  },
+  "word-ae03b017fa1b": {
+    "fingerprint": "9435d4c6c235fe6512bac5465c7ca0dfff980682694e216901cd605adaf0393e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "想要",
+    "file": "assets/audio/word-ae03b017fa1b.m4a"
+  },
+  "word-d86eabd20c2e": {
+    "fingerprint": "b2e92a87037b8e0c2c76048e6d6224674ef91be287d13161cfe225ee8f5b1796",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "帮",
+    "file": "assets/audio/word-d86eabd20c2e.m4a"
+  },
+  "word-cfb7cf143fc9": {
+    "fingerprint": "9df4ef4e4dc9b61b9517f9163322010070f10f32cead9def2536ff8c9a55a0e7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "找出来",
+    "file": "assets/audio/word-cfb7cf143fc9.m4a"
+  },
+  "word-f1945082ca49": {
+    "fingerprint": "7e56c809758f3b5c034eb6eddb2fe2443250895e908fbd5ca9785fffca39209f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "吧",
+    "file": "assets/audio/word-f1945082ca49.m4a"
+  },
+  "sentence-cf73ee80e8f7": {
+    "fingerprint": "b95f6329c6e86910d361c6a9cfe945f45aca87dc4f80d626205c58e40796279f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我想要吃香香的肉，请帮我找出来吧！",
+    "file": "assets/audio/sentence-cf73ee80e8f7.m4a"
+  },
+  "word-fc17b9ad1300": {
+    "fingerprint": "1435aba439fa3f6415136f4a80e92b54910fac1cb5188d20088c89f3a05373a6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "玩具",
+    "file": "assets/audio/word-fc17b9ad1300.m4a"
+  },
+  "word-adad91085bcc": {
+    "fingerprint": "71077e17fd48fa1e6a82779d10a831e85c5c000e83593ce73123ad9c7430114e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "哪里",
+    "file": "assets/audio/word-adad91085bcc.m4a"
+  },
+  "word-4c504e514484": {
+    "fingerprint": "cd22cd4fc497880ab535ef55c635ca89a8f3682e54be1e1ed3577d18bd85b775",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "找",
+    "file": "assets/audio/word-4c504e514484.m4a"
+  },
+  "sentence-5cd6263b7535": {
+    "fingerprint": "217276152d70eb90263a3bb7ef4056415288a51ba4d28dd994fc0dc9b78d1369",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "玩具火车在哪里？请找一找。",
+    "file": "assets/audio/sentence-5cd6263b7535.m4a"
+  },
+  "phrase-46f9db7e1e08": {
+    "fingerprint": "23a5159e1e0c7cfc576c4a9f9f7c2ead1b1f86c2daa0ca8df37a5f81d0456721",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我会",
+    "file": "assets/audio/phrase-46f9db7e1e08.m4a"
+  },
+  "phrase-b0d9070f3842": {
+    "fingerprint": "0bc205fe3fb20a5f704af68a0805d59e07beb8fa08fe6c8d6ac77827502f3bbf",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "说华语",
+    "file": "assets/audio/phrase-b0d9070f3842.m4a"
+  },
+  "phrase-95f76449804e": {
+    "fingerprint": "1c0ff439d1549fc82fa6c23f7b9288a070ff6854fe4ed5176291a408956cc6aa",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "读故事书",
+    "file": "assets/audio/phrase-95f76449804e.m4a"
+  },
+  "phrase-a8893a7c4025": {
+    "fingerprint": "009f29ec787f829ceb2b64ec6680902e8131eaf1bbf6afee7bec0ea36b409b51",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "小黑马",
+    "file": "assets/audio/phrase-a8893a7c4025.m4a"
+  },
+  "phrase-9c1338b0fb34": {
+    "fingerprint": "bbd7dac82e6ff535deb41e865512df9c0e6e2389560c1954ee99ef8a14133309",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "小黄鸭",
+    "file": "assets/audio/phrase-9c1338b0fb34.m4a"
+  },
+  "phrase-d77df78ba561": {
+    "fingerprint": "d67b435a821d1cb950fee55713d2c56ab305222e57f17957d1d4c514ed4b46aa",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "喜欢吃草",
+    "file": "assets/audio/phrase-d77df78ba561.m4a"
+  },
+  "phrase-b5e09220e22f": {
+    "fingerprint": "e766de576c95d2f9ec60aeb23745ce2f8d23d85f6cd1496c9d53ea0658377e4d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "喜欢游泳",
+    "file": "assets/audio/phrase-b5e09220e22f.m4a"
+  },
+  "phrase-01dd14744749": {
+    "fingerprint": "825837ea84fbcd1c5200da2ec6d66aa28e0752e581e0cca4327ae29edd890b84",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "大黄牛",
+    "file": "assets/audio/phrase-01dd14744749.m4a"
+  },
+  "phrase-fc48ed71b36d": {
+    "fingerprint": "6fcb65ac2a5d09b3ba9965e32534e6f73109ccd06447b14370f53e923d92086f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "小白羊",
+    "file": "assets/audio/phrase-fc48ed71b36d.m4a"
+  },
+  "phrase-f380b20d43b0": {
+    "fingerprint": "3f2763f8cfac3e242ec4a339c86a43abde4e106deab08d451e7c46619c07c110",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "在吃草",
+    "file": "assets/audio/phrase-f380b20d43b0.m4a"
+  },
+  "phrase-ccc995bfc7c0": {
+    "fingerprint": "e5b1c38468bc94958bb8e51d4af04f4651b28d3332c32145992b3c403b1c046f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "也在吃草",
+    "file": "assets/audio/phrase-ccc995bfc7c0.m4a"
+  },
+  "phrase-6cbf71ec5c3b": {
+    "fingerprint": "c7b83643fdcc625091ecb1cce62b39f91f0cebb62e2c8d2ca439b952a114722c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "绿绿的草地上",
+    "file": "assets/audio/phrase-6cbf71ec5c3b.m4a"
+  },
+  "phrase-e7d699ed3e13": {
+    "fingerprint": "24224a32606eb4c957cb6abb73f0e6b58123f9c01a786e72a42db1353c66d80a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "红红的太阳",
+    "file": "assets/audio/phrase-e7d699ed3e13.m4a"
+  },
+  "phrase-e807c3ff1545": {
+    "fingerprint": "b5ca5d93ee7e896227d660ce169abfb589ce62c12bde1c1886f80c284095d5e9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "去学校",
+    "file": "assets/audio/phrase-e807c3ff1545.m4a"
+  },
+  "phrase-87c36164a2a4": {
+    "fingerprint": "b9321343fb59534eca7ef1fea1584f94b2fac1b12374189de5a2d77aa13a0843",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "弯弯的月亮",
+    "file": "assets/audio/phrase-87c36164a2a4.m4a"
+  },
+  "phrase-8218846d5cb1": {
+    "fingerprint": "b2b73856d64ae0c6854962115cbb2b8109701df54176b7d511a3fe9d3aa0dfe0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "在天上",
+    "file": "assets/audio/phrase-8218846d5cb1.m4a"
+  },
+  "phrase-5f9d22eae021": {
+    "fingerprint": "2d616db87b4e8b0c904d97b760a9307a6d8fe86c519e4091180dd12a445fcf5f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "草莓蛋糕",
+    "file": "assets/audio/phrase-5f9d22eae021.m4a"
+  },
+  "phrase-94ccb2ee3be3": {
+    "fingerprint": "7efebe97ee181c2421c30ff69dfe74316bed834b6e9fea87e079a206d24520b1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "巧克力牛奶",
+    "file": "assets/audio/phrase-94ccb2ee3be3.m4a"
+  },
+  "phrase-d102f2f82f3f": {
+    "fingerprint": "7848be2a09b4667ebd50d8fc49448b0d3b4177d81492478d224a466d985bfa71",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆形的饼干",
+    "file": "assets/audio/phrase-d102f2f82f3f.m4a"
+  },
+  "phrase-3ae2d360d39f": {
+    "fingerprint": "874fc13e23cb582f169a73523e230e927e590d32270aed4cd2a6419e58ef015d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "正方形的饼干",
+    "file": "assets/audio/phrase-3ae2d360d39f.m4a"
+  },
+  "phrase-dcdc917f827d": {
+    "fingerprint": "9ca2c5be8a87da75cbabb43b1ce46e7336d084e1cb864ec332dc20a820bf9a47",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "三角形的饼干",
+    "file": "assets/audio/phrase-dcdc917f827d.m4a"
+  },
+  "phrase-680e18c1ca42": {
+    "fingerprint": "a176a030b4771ab895ceee401efaa561a9e555d3728d1102d2fbf9ac9e47c00f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "桌子上",
+    "file": "assets/audio/phrase-680e18c1ca42.m4a"
+  },
+  "phrase-6e57237ca9cb": {
+    "fingerprint": "4801bdc0f7dab887d925ac23cadbf9bdcb7e2f10a7d172aeff91a59558fe80e5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "香香的",
+    "file": "assets/audio/phrase-6e57237ca9cb.m4a"
+  },
+  "phrase-af13b8a9fc8f": {
+    "fingerprint": "aa47c6274a5ff5fb35d9bde4fcec12e472e9ed1cb419af0b9b08f9ef354b027c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "香香的菜",
+    "file": "assets/audio/phrase-af13b8a9fc8f.m4a"
+  },
+  "phrase-d394837f05ef": {
+    "fingerprint": "27dab3343f021c43b606c9df91368167e2d041a0abba6ac247de1888c1a6cd60",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "香香的肉",
+    "file": "assets/audio/phrase-d394837f05ef.m4a"
+  },
+  "phrase-6990f86bfb5b": {
+    "fingerprint": "026041f91aaf524a62c1b1068e3e6868384a80e2a1976647f4b3b378757f8e67",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "香香的白米饭",
+    "file": "assets/audio/phrase-6990f86bfb5b.m4a"
+  },
+  "phrase-5409e8a9f127": {
+    "fingerprint": "45f34b0c639fc784a6f9a19cb38e984d9401d4f800bac5b325e71bd895874f7f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆圆的月亮",
+    "file": "assets/audio/phrase-5409e8a9f127.m4a"
+  },
+  "phrase-5c03986fec4c": {
+    "fingerprint": "fadc7a2d933a098d786acc540acbe7e469d31adbcbf589c633295792c3d1e5ca",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆圆的眼睛",
+    "file": "assets/audio/phrase-5c03986fec4c.m4a"
+  },
+  "phrase-c378f10f9092": {
+    "fingerprint": "6accbd84291d1975227516858a6f294124b35c7af886407249e991450ea3ab54",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "圆圆的葡萄",
+    "file": "assets/audio/phrase-c378f10f9092.m4a"
+  },
+  "phrase-cadad421ca9f": {
+    "fingerprint": "df8c8fab6b6761017ba2ba41bb2f2b0d0bb87ba48d56936aa637ad856b60eadf",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "在桌子上",
+    "file": "assets/audio/phrase-cadad421ca9f.m4a"
+  },
+  "phrase-7dff019e7a36": {
+    "fingerprint": "96a83557e5e8b82e2e13e8b0eb89370587624c97f3abc83835cbf4ef3ed3111b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "高高的",
+    "file": "assets/audio/phrase-7dff019e7a36.m4a"
+  },
+  "phrase-ff69f72ac4be": {
+    "fingerprint": "6ca721e6f3aa56bafa56dd0b3b5355751fa4a3573532b9c62f0ecb56ce9b61c1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "长长的",
+    "file": "assets/audio/phrase-ff69f72ac4be.m4a"
+  },
+  "phrase-9b69e601d9ce": {
+    "fingerprint": "9215ae1480a752ad4ac5c6ff0e70fb2f971aa458854e860c2493282ca5d3d181",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "高高的大树",
+    "file": "assets/audio/phrase-9b69e601d9ce.m4a"
+  },
+  "phrase-3a893a38cc7f": {
+    "fingerprint": "0d15a6a30e38f9adbbd77e74c82819bdddb8e7d38002a54da22d12418fda460c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "长长的火车",
+    "file": "assets/audio/phrase-3a893a38cc7f.m4a"
+  },
+  "phrase-6f14e6dab7de": {
+    "fingerprint": "18689a65880fbafe9978c7565dcbe8f9e02e414133e419d8d3a80e7b05a9a74d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "轻轻吹",
+    "file": "assets/audio/phrase-6f14e6dab7de.m4a"
+  },
+  "phrase-d83112414136": {
+    "fingerprint": "848749710bf705cfe72d1c672a24893eaf1285493bb48b3f8340fcb84db46464",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "轻轻跳",
+    "file": "assets/audio/phrase-d83112414136.m4a"
+  },
+  "phrase-04caf00b7628": {
+    "fingerprint": "e9eafc76870492c8b7d43a27e4fef953889f4f30ffffada3af0d8f039c18e525",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "我的妹妹",
+    "file": "assets/audio/phrase-04caf00b7628.m4a"
+  },
+  "phrase-ab7198fe4b56": {
+    "fingerprint": "ce67c295f82c578f4768b18ae5ce5621108c6f06db9f6c229d801f9a0c0cefc6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "在睡觉",
+    "file": "assets/audio/phrase-ab7198fe4b56.m4a"
+  },
+  "phrase-fa472daedd52": {
+    "fingerprint": "ca08f4e157e863931cd3b1403122c80aa0fba59411300a7b516cb96ddc3ce04f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "请安静",
+    "file": "assets/audio/phrase-fa472daedd52.m4a"
+  },
+  "phrase-86ea7d4fdb9b": {
+    "fingerprint": "76f12d09ceccf1e28421ddaecf723eda18406c50b677207ece6cabc16841cc84",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "看书",
+    "file": "assets/audio/phrase-86ea7d4fdb9b.m4a"
+  },
+  "phrase-a3db6fb1715a": {
+    "fingerprint": "511fce2de86a016eafc34e9113decd494f9d1da70c0a0c2ae3b2170a92eb4c1b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "玩积木",
+    "file": "assets/audio/phrase-a3db6fb1715a.m4a"
+  },
+  "phrase-9de3501bf60a": {
+    "fingerprint": "87c53ca7e0c4511281af358f963afa563445580bcc2d23bfa0e0029bd64dc6a3",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "不会",
+    "file": "assets/audio/phrase-9de3501bf60a.m4a"
+  },
+  "phrase-fda05e90c0b1": {
+    "fingerprint": "58e6095f648c50bb1372dc84da916b7e2ffb29f41d3f3beb561de234e40b1b64",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "穿鞋子",
+    "file": "assets/audio/phrase-fda05e90c0b1.m4a"
+  },
+  "phrase-762abf3c23d7": {
+    "fingerprint": "c2fb1108feb861390ce8afcce3051af09e45834a63f480a70c09437ad0a05a86",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "穿袜子",
+    "file": "assets/audio/phrase-762abf3c23d7.m4a"
+  }
+}

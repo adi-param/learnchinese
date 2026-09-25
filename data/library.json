@@ -520,7 +520,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-09b501876efe.m4a",
       "image": null
     },
     {
@@ -603,7 +603,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-b4067be658a9.m4a",
       "image": null
     },
     {
@@ -623,7 +623,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-6fc026eb14a8.m4a",
       "image": null,
       "wordIds": [
         "word-09b501876efe",
@@ -689,7 +689,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-6c9c603261d7.m4a",
       "image": null
     },
     {
@@ -744,7 +744,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-9fd6aa04eb0e.m4a",
       "image": null
     },
     {
@@ -785,7 +785,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-afee2e64ef77.m4a",
       "image": null
     },
     {
@@ -868,7 +868,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-96af2254b280.m4a",
       "image": null
     },
     {
@@ -888,7 +888,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-ffd41e4c4bc0.m4a",
       "image": null,
       "wordIds": [
         "word-afee2e64ef77",
@@ -961,7 +961,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-34f4e78c6dd4.m4a",
       "image": null
     },
     {
@@ -1016,7 +1016,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-2669ccfdc047.m4a",
       "image": null
     },
     {
@@ -1148,7 +1148,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-64d354d405bb.m4a",
       "image": null
     },
     {
@@ -1175,7 +1175,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-411247491976.m4a",
       "image": null,
       "wordIds": [
         "word-64d354d405bb",
@@ -1214,7 +1214,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-7293aea2675d.m4a",
       "image": null,
       "wordIds": [
         "word-64d354d405bb",
@@ -1251,7 +1251,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-e560b353a5ee.m4a",
       "image": null
     },
     {
@@ -1320,7 +1320,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-056001def0ac.m4a",
       "image": null
     },
     {
@@ -1368,7 +1368,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-658697091236.m4a",
       "image": null
     },
     {
@@ -1451,7 +1451,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-5344ff79c6c4.m4a",
       "image": null
     },
     {
@@ -1520,7 +1520,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-b7944551a170.m4a",
       "image": null
     },
     {
@@ -1568,7 +1568,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-6a0f152ecfd3.m4a",
       "image": null
     },
     {
@@ -1644,7 +1644,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-64a5ccbd765f.m4a",
       "image": null
     },
     {
@@ -1692,7 +1692,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-5e4efa1ee4fc.m4a",
       "image": null
     },
     {
@@ -1768,7 +1768,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-26aea8f4d583.m4a",
       "image": null
     },
     {
@@ -1788,7 +1788,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-8709b24a7344.m4a",
       "image": null,
       "wordIds": [
         "word-26aea8f4d583",
@@ -1840,7 +1840,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-3175c41244ec.m4a",
       "image": null
     },
     {
@@ -1951,7 +1951,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-2bafadee60b3.m4a",
       "image": null
     },
     {
@@ -1978,7 +1978,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-8d1bfb2e94e9.m4a",
       "image": null,
       "wordIds": [
         "word-658697091236",
@@ -2019,7 +2019,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-372ca5c2c867.m4a",
       "image": null,
       "wordIds": [
         "word-658697091236",
@@ -2086,7 +2086,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-a7f71ef3a3d0.m4a",
       "image": null
     },
     {
@@ -2323,7 +2323,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-706b146215d7.m4a",
       "image": null
     },
     {
@@ -2343,7 +2343,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-5bc3694ab366.m4a",
       "image": null,
       "wordIds": [
         "word-a7f71ef3a3d0",
@@ -2396,7 +2396,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-d38f2b966d6c.m4a",
       "image": null
     },
     {
@@ -2542,7 +2542,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-a9f039606285.m4a",
       "image": null
     },
     {
@@ -2562,7 +2562,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-63fc277b355f.m4a",
       "image": null,
       "wordIds": [
         "word-d38f2b966d6c",
@@ -2621,7 +2621,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-fab5d5fbd3d9.m4a",
       "image": null
     },
     {
@@ -2676,7 +2676,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-05425e414113.m4a",
       "image": null
     },
     {
@@ -2731,7 +2731,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-13b1d97af27e.m4a",
       "image": null
     },
     {
@@ -2891,7 +2891,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-6948784d3b11.m4a",
       "image": null
     },
     {
@@ -2953,7 +2953,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-b83b12121e5b.m4a",
       "image": null
     },
     {
@@ -2994,7 +2994,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-eb1f33f896a4.m4a",
       "image": null
     },
     {
@@ -3028,7 +3028,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-1491611629fd.m4a",
       "image": null,
       "wordIds": [
         "word-a7f71ef3a3d0",
@@ -3103,7 +3103,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-2d84625ebd4e.m4a",
       "image": null
     },
     {
@@ -3165,7 +3165,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-fea63bd3455e.m4a",
       "image": null
     },
     {
@@ -3185,7 +3185,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-3ac1ca237bb5.m4a",
       "image": null,
       "wordIds": [
         "word-fea63bd3455e",
@@ -3245,7 +3245,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-39fcffb791b6.m4a",
       "image": null
     },
     {
@@ -3293,7 +3293,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-01f98b5b5346.m4a",
       "image": null
     },
     {
@@ -3376,7 +3376,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-89b0b8fb11e9.m4a",
       "image": null
     },
     {
@@ -3396,7 +3396,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-a4883c172ba9.m4a",
       "image": null,
       "wordIds": [
         "word-89b0b8fb11e9",
@@ -3435,7 +3435,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-6030d13b2db7.m4a",
       "image": null,
       "wordIds": [
         "word-89b0b8fb11e9",
@@ -3480,7 +3480,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-c18ab74fb2e8.m4a",
       "image": null
     },
     {
@@ -3514,7 +3514,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-ee0696f72785.m4a",
       "image": null
     },
     {
@@ -3555,7 +3555,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-c2fba87ff7a0.m4a",
       "image": null
     },
     {
@@ -3596,7 +3596,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-85bb1b19cf8f.m4a",
       "image": null
     },
     {
@@ -3630,7 +3630,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-3421211f50ab.m4a",
       "image": null,
       "wordIds": [
         "word-c18ab74fb2e8",
@@ -3656,7 +3656,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-39888264c1f3.m4a",
       "image": null,
       "wordIds": [
         "word-89b0b8fb11e9",
@@ -3709,7 +3709,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-d40adf906f70.m4a",
       "image": null
     },
     {
@@ -3729,7 +3729,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-8e0f00f8392f.m4a",
       "image": null,
       "wordIds": [
         "word-d40adf906f70",
@@ -3810,7 +3810,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-a04f6d86b54c.m4a",
       "image": null
     },
     {
@@ -3830,7 +3830,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-51b676c060ac.m4a",
       "image": null,
       "wordIds": [
         "word-89b0b8fb11e9",
@@ -3875,7 +3875,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-77d613b2cfcd.m4a",
       "image": null
     },
     {
@@ -3909,7 +3909,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-166528fc33dc.m4a",
       "image": null
     },
     {
@@ -3929,7 +3929,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-b14b3236af0e.m4a",
       "image": null,
       "wordIds": [
         "word-2bafadee60b3",
@@ -3960,7 +3960,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-0f6cf43cc91b.m4a",
       "image": null,
       "wordIds": [
         "word-89b0b8fb11e9",
@@ -3999,7 +3999,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-70524fd2e73d.m4a",
       "image": null,
       "wordIds": [
         "word-d40adf906f70",
@@ -4056,7 +4056,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-559cd001b871.m4a",
       "image": null
     },
     {
@@ -4104,7 +4104,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-082660872c70.m4a",
       "image": null
     },
     {
@@ -4173,7 +4173,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-726294563ef4.m4a",
       "image": null
     },
     {
@@ -4221,7 +4221,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-a75694705d7a.m4a",
       "image": null
     },
     {
@@ -4262,7 +4262,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-e989977e6077.m4a",
       "image": null
     },
     {
@@ -4296,7 +4296,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-98ce14be44fc.m4a",
       "image": null
     },
     {
@@ -4316,7 +4316,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-6757636d3037.m4a",
       "image": null,
       "wordIds": [
         "word-98ce14be44fc",
@@ -4349,7 +4349,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-878a1cbed839.m4a",
       "image": null
     },
     {
@@ -4376,7 +4376,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-ef048470fb42.m4a",
       "image": null,
       "wordIds": [
         "word-559cd001b871",
@@ -4416,7 +4416,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-e63e3e16106f.m4a",
       "image": null
     },
     {
@@ -4443,7 +4443,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-b36e82831408.m4a",
       "image": null,
       "wordIds": [
         "word-a75694705d7a",
@@ -4476,7 +4476,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-7dcbf1212fa7.m4a",
       "image": null,
       "wordIds": [
         "word-98ce14be44fc",
@@ -4539,7 +4539,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-740051dfbab9.m4a",
       "image": null
     },
     {
@@ -4594,7 +4594,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-c99d6c682449.m4a",
       "image": null
     },
     {
@@ -4642,7 +4642,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-9a3cb260d609.m4a",
       "image": null
     },
     {
@@ -4690,7 +4690,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-4bdde457ca87.m4a",
       "image": null
     },
     {
@@ -4731,7 +4731,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-efdebe7dd25a.m4a",
       "image": null
     },
     {
@@ -4772,7 +4772,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-e88863de4748.m4a",
       "image": null
     },
     {
@@ -4799,7 +4799,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-536b1e20801c.m4a",
       "image": null,
       "wordIds": [
         "word-64d354d405bb",
@@ -4868,7 +4868,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-79517622bdda.m4a",
       "image": null
     },
     {
@@ -4902,7 +4902,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-678ba85d28e7.m4a",
       "image": null
     },
     {
@@ -4943,7 +4943,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-a9e42039a465.m4a",
       "image": null
     },
     {
@@ -4977,7 +4977,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-3dcc36d18dd7.m4a",
       "image": null
     },
     {
@@ -5004,7 +5004,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-5566d373398c.m4a",
       "image": null,
       "wordIds": [
         "word-79517622bdda",
@@ -5070,7 +5070,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-9bdc470da235.m4a",
       "image": null
     },
     {
@@ -5090,7 +5090,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-b54707f825fe.m4a",
       "image": null,
       "wordIds": [
         "word-9bdc470da235",
@@ -5129,7 +5129,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-fb09d58c70e7.m4a",
       "image": null
     },
     {
@@ -5149,7 +5149,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-fe022a445fd5.m4a",
       "image": null,
       "wordIds": [
         "word-fb09d58c70e7",
@@ -5201,7 +5201,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-6f7c1a38e193.m4a",
       "image": null
     },
     {
@@ -5228,7 +5228,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-949b457a3a08.m4a",
       "image": null,
       "wordIds": [
         "word-9bdc470da235",
@@ -5271,7 +5271,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-16afa2f34725.m4a",
       "image": null
     },
     {
@@ -5298,7 +5298,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-e70a1bb69012.m4a",
       "image": null,
       "wordIds": [
         "word-9bdc470da235",
@@ -5334,7 +5334,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-450dbb1d5851.m4a",
       "image": null,
       "wordIds": [
         "word-9bdc470da235",
@@ -5384,7 +5384,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-bee90b36dafe.m4a",
       "image": null
     },
     {
@@ -5425,7 +5425,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-247a5ebcff44.m4a",
       "image": null
     },
     {
@@ -5459,7 +5459,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-dc87a0871d2b.m4a",
       "image": null
     },
     {
@@ -5479,7 +5479,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-4b4a47d1a882.m4a",
       "image": null,
       "wordIds": [
         "word-b83b12121e5b",
@@ -5531,7 +5531,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-fbba56f5d5a8.m4a",
       "image": null
     },
     {
@@ -5558,7 +5558,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-ebd9a11fea6c.m4a",
       "image": null
     },
     {
@@ -5578,7 +5578,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-bf8a57302d46.m4a",
       "image": null,
       "wordIds": [
         "word-ebd9a11fea6c",
@@ -5609,7 +5609,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-b68721647e72.m4a",
       "image": null
     },
     {
@@ -5629,7 +5629,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-8c6c7199b33c.m4a",
       "image": null,
       "wordIds": [
         "word-ebd9a11fea6c",
@@ -5653,7 +5653,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-6619e8732930.m4a",
       "image": null,
       "wordIds": [
         "word-bee90b36dafe",
@@ -5683,7 +5683,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-b0607cea6c36.m4a",
       "image": null
     },
     {
@@ -5703,7 +5703,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-430b0ca32fbd.m4a",
       "image": null,
       "wordIds": [
         "word-b0607cea6c36",
@@ -5755,7 +5755,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-d97d45d432dc.m4a",
       "image": null
     },
     {
@@ -5789,7 +5789,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-0aec2b1a1a4c.m4a",
       "image": null
     },
     {
@@ -5809,7 +5809,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-c36f05c95a04.m4a",
       "image": null,
       "wordIds": [
         "word-2bafadee60b3",
@@ -5889,7 +5889,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-e0d080fe0f88.m4a",
       "image": null
     },
     {
@@ -5937,7 +5937,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-b25b380ce8f7.m4a",
       "image": null
     },
     {
@@ -5985,7 +5985,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-dd1615e93a3c.m4a",
       "image": null
     },
     {
@@ -6019,7 +6019,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-bdc2d9abf28e.m4a",
       "image": null
     },
     {
@@ -6046,7 +6046,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-ff05245fbe3d.m4a",
       "image": null,
       "wordIds": [
         "word-d97d45d432dc",
@@ -6085,7 +6085,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-3bc3e47276e6.m4a",
       "image": null
     },
     {
@@ -6112,7 +6112,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-536007f7ec4d.m4a",
       "image": null,
       "wordIds": [
         "word-2bafadee60b3",
@@ -6166,7 +6166,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-ffa25b33e185.m4a",
       "image": null
     },
     {
@@ -6214,7 +6214,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-88b1b53abf1e.m4a",
       "image": null
     },
     {
@@ -6241,7 +6241,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-d4203881fa4c.m4a",
       "image": null,
       "wordIds": [
         "word-64d354d405bb",
@@ -6284,7 +6284,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-d2d794b7493b.m4a",
       "image": null
     },
     {
@@ -6304,7 +6304,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-0f2e6fae236c.m4a",
       "image": null,
       "wordIds": [
         "word-6948784d3b11",
@@ -6342,7 +6342,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-0b4893aa4c6b.m4a",
       "image": null
     },
     {
@@ -6362,7 +6362,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-303b75d2355f.m4a",
       "image": null,
       "wordIds": [
         "word-6948784d3b11",
@@ -6393,7 +6393,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-8661e3ec3373.m4a",
       "image": null
     },
     {
@@ -6420,7 +6420,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-a64cdd2ccab1.m4a",
       "image": null
     },
     {
@@ -6447,7 +6447,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-8161e00af5f6.m4a",
       "image": null
     },
     {
@@ -6488,7 +6488,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-a0227b47e71a.m4a",
       "image": null
     },
     {
@@ -6522,7 +6522,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-f41783418fc4.m4a",
       "image": null
     },
     {
@@ -6549,7 +6549,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-18aa9115a40e.m4a",
       "image": null,
       "wordIds": [
         "word-8661e3ec3373",
@@ -6599,7 +6599,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-4d0ed7137fbc.m4a",
       "image": null
     },
     {
@@ -6654,7 +6654,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-47108e572b30.m4a",
       "image": null
     },
     {
@@ -6688,7 +6688,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-567dbdf2bae0.m4a",
       "image": null
     },
     {
@@ -6715,7 +6715,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-c5f3f59a5767.m4a",
       "image": null,
       "wordIds": [
         "word-64d354d405bb",
@@ -6765,7 +6765,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-b7fe1500b898.m4a",
       "image": null
     },
     {
@@ -6806,7 +6806,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-77417a7931d9.m4a",
       "image": null
     },
     {
@@ -6826,7 +6826,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-e3b0034f6bf1.m4a",
       "image": null,
       "wordIds": [
         "word-77417a7931d9",
@@ -6878,7 +6878,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-75afb5609a5b.m4a",
       "image": null
     },
     {
@@ -6926,7 +6926,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-d24eb883d51e.m4a",
       "image": null
     },
     {
@@ -6974,7 +6974,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-624f905ef255.m4a",
       "image": null
     },
     {
@@ -7015,7 +7015,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-091e097d8c14.m4a",
       "image": null
     },
     {
@@ -7042,7 +7042,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-837ffa6b059e.m4a",
       "image": null,
       "wordIds": [
         "word-ffa25b33e185",
@@ -7078,7 +7078,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-6ef1db2f5367.m4a",
       "image": null,
       "wordIds": [
         "word-4d0ed7137fbc",
@@ -7116,7 +7116,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-652815443c5a.m4a",
       "image": null
     },
     {
@@ -7143,7 +7143,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-6b96fe843fbb.m4a",
       "image": null
     },
     {
@@ -7170,7 +7170,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-7157f25a3af2.m4a",
       "image": null
     },
     {
@@ -7197,7 +7197,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-afee5dad69c4.m4a",
       "image": null
     },
     {
@@ -7224,7 +7224,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-d24eb19770ac.m4a",
       "image": null
     },
     {
@@ -7258,7 +7258,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-2554fa643236.m4a",
       "image": null
     },
     {
@@ -7292,7 +7292,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-358bbf2d8cd9.m4a",
       "image": null
     },
     {
@@ -7326,7 +7326,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-5110a588564d.m4a",
       "image": null,
       "wordIds": [
         "word-2554fa643236",
@@ -7365,7 +7365,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-4f69d9d39f4e.m4a",
       "image": null
     },
     {
@@ -7399,7 +7399,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-972fee5ddec8.m4a",
       "image": null
     },
     {
@@ -7433,7 +7433,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-5be4db098d6a.m4a",
       "image": null,
       "wordIds": [
         "word-47108e572b30",
@@ -7461,7 +7461,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-cd6bb76d423d.m4a",
       "image": null
     },
     {
@@ -7481,7 +7481,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-bf68a9a65a3c.m4a",
       "image": null
     },
     {
@@ -7501,7 +7501,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-d869fcbf074b.m4a",
       "image": null
     },
     {
@@ -7521,7 +7521,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-483b7b8314b7.m4a",
       "image": null
     },
     {
@@ -7541,7 +7541,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-ffa3f08b9ec6.m4a",
       "image": null
     },
     {
@@ -7561,7 +7561,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-e38f6a88d81c.m4a",
       "image": null,
       "wordIds": [
         "word-6c9c603261d7",
@@ -7591,7 +7591,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-ae03b017fa1b.m4a",
       "image": null
     },
     {
@@ -7611,7 +7611,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-d86eabd20c2e.m4a",
       "image": null
     },
     {
@@ -7631,7 +7631,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-cfb7cf143fc9.m4a",
       "image": null
     },
     {
@@ -7651,7 +7651,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-f1945082ca49.m4a",
       "image": null
     },
     {
@@ -7671,7 +7671,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-cf73ee80e8f7.m4a",
       "image": null,
       "wordIds": [
         "word-64d354d405bb",
@@ -7705,7 +7705,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-fc17b9ad1300.m4a",
       "image": null
     },
     {
@@ -7725,7 +7725,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-adad91085bcc.m4a",
       "image": null
     },
     {
@@ -7745,7 +7745,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/word-4c504e514484.m4a",
       "image": null
     },
     {
@@ -7765,7 +7765,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/sentence-5cd6263b7535.m4a",
       "image": null,
       "wordIds": [
         "word-fc17b9ad1300",
@@ -7795,7 +7795,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-46f9db7e1e08.m4a",
       "image": null,
       "wordIds": [
         "word-64d354d405bb",
@@ -7819,7 +7819,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-b0d9070f3842.m4a",
       "image": null,
       "wordIds": [
         "word-6c9c603261d7",
@@ -7843,7 +7843,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-95f76449804e.m4a",
       "image": null,
       "wordIds": [
         "word-34f4e78c6dd4",
@@ -7867,7 +7867,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-a8893a7c4025.m4a",
       "image": null,
       "wordIds": [
         "word-2bafadee60b3",
@@ -7892,7 +7892,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-9c1338b0fb34.m4a",
       "image": null,
       "wordIds": [
         "word-2bafadee60b3",
@@ -7917,7 +7917,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-d77df78ba561.m4a",
       "image": null,
       "wordIds": [
         "word-056001def0ac",
@@ -7942,7 +7942,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-b5e09220e22f.m4a",
       "image": null,
       "wordIds": [
         "word-056001def0ac",
@@ -7966,7 +7966,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-01dd14744749.m4a",
       "image": null,
       "wordIds": [
         "word-b83b12121e5b",
@@ -7991,7 +7991,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-fc48ed71b36d.m4a",
       "image": null,
       "wordIds": [
         "word-2bafadee60b3",
@@ -8016,7 +8016,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-f380b20d43b0.m4a",
       "image": null,
       "wordIds": [
         "word-6948784d3b11",
@@ -8041,7 +8041,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-ccc995bfc7c0.m4a",
       "image": null,
       "wordIds": [
         "word-eb1f33f896a4",
@@ -8067,7 +8067,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-6cbf71ec5c3b.m4a",
       "image": null,
       "wordIds": [
         "word-a7f71ef3a3d0",
@@ -8094,7 +8094,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-e7d699ed3e13.m4a",
       "image": null,
       "wordIds": [
         "word-fea63bd3455e",
@@ -8120,7 +8120,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-e807c3ff1545.m4a",
       "image": null,
       "wordIds": [
         "word-c2fba87ff7a0",
@@ -8144,7 +8144,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-87c36164a2a4.m4a",
       "image": null,
       "wordIds": [
         "word-d40adf906f70",
@@ -8170,7 +8170,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-8218846d5cb1.m4a",
       "image": null,
       "wordIds": [
         "word-6948784d3b11",
@@ -8195,7 +8195,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-5f9d22eae021.m4a",
       "image": null,
       "wordIds": [
         "word-559cd001b871",
@@ -8219,7 +8219,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-94ccb2ee3be3.m4a",
       "image": null,
       "wordIds": [
         "word-a75694705d7a",
@@ -8243,7 +8243,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-d102f2f82f3f.m4a",
       "image": null,
       "wordIds": [
         "word-9a3cb260d609",
@@ -8268,7 +8268,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-3ae2d360d39f.m4a",
       "image": null,
       "wordIds": [
         "word-4bdde457ca87",
@@ -8293,7 +8293,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-dcdc917f827d.m4a",
       "image": null,
       "wordIds": [
         "word-efdebe7dd25a",
@@ -8318,7 +8318,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-680e18c1ca42.m4a",
       "image": null,
       "wordIds": [
         "word-79517622bdda",
@@ -8342,7 +8342,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-6e57237ca9cb.m4a",
       "image": null,
       "wordIds": [
         "word-726294563ef4",
@@ -8367,7 +8367,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-af13b8a9fc8f.m4a",
       "image": null,
       "wordIds": [
         "word-726294563ef4",
@@ -8393,7 +8393,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-d394837f05ef.m4a",
       "image": null,
       "wordIds": [
         "word-726294563ef4",
@@ -8419,7 +8419,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-6990f86bfb5b.m4a",
       "image": null,
       "wordIds": [
         "word-726294563ef4",
@@ -8445,7 +8445,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-5409e8a9f127.m4a",
       "image": null,
       "wordIds": [
         "word-9bdc470da235",
@@ -8471,7 +8471,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-5c03986fec4c.m4a",
       "image": null,
       "wordIds": [
         "word-9bdc470da235",
@@ -8497,7 +8497,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-c378f10f9092.m4a",
       "image": null,
       "wordIds": [
         "word-9bdc470da235",
@@ -8523,7 +8523,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-cadad421ca9f.m4a",
       "image": null,
       "wordIds": [
         "word-6948784d3b11",
@@ -8548,7 +8548,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-7dff019e7a36.m4a",
       "image": null,
       "wordIds": [
         "word-bee90b36dafe",
@@ -8573,7 +8573,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-ff69f72ac4be.m4a",
       "image": null,
       "wordIds": [
         "word-247a5ebcff44",
@@ -8598,7 +8598,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-9b69e601d9ce.m4a",
       "image": null,
       "wordIds": [
         "word-bee90b36dafe",
@@ -8625,7 +8625,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-3a893a38cc7f.m4a",
       "image": null,
       "wordIds": [
         "word-247a5ebcff44",
@@ -8651,7 +8651,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-6f14e6dab7de.m4a",
       "image": null,
       "wordIds": [
         "word-e0d080fe0f88",
@@ -8675,7 +8675,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-d83112414136.m4a",
       "image": null,
       "wordIds": [
         "word-e0d080fe0f88",
@@ -8699,7 +8699,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-04caf00b7628.m4a",
       "image": null,
       "wordIds": [
         "word-64d354d405bb",
@@ -8724,7 +8724,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-ab7198fe4b56.m4a",
       "image": null,
       "wordIds": [
         "word-6948784d3b11",
@@ -8748,7 +8748,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-fa472daedd52.m4a",
       "image": null,
       "wordIds": [
         "word-88b1b53abf1e",
@@ -8772,7 +8772,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-86ea7d4fdb9b.m4a",
       "image": null,
       "wordIds": [
         "word-a0227b47e71a",
@@ -8796,7 +8796,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-a3db6fb1715a.m4a",
       "image": null,
       "wordIds": [
         "word-47108e572b30",
@@ -8820,7 +8820,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-9de3501bf60a.m4a",
       "image": null,
       "wordIds": [
         "word-091e097d8c14",
@@ -8844,7 +8844,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-fda05e90c0b1.m4a",
       "image": null,
       "wordIds": [
         "word-75afb5609a5b",
@@ -8868,7 +8868,7 @@
         }
       ],
       "reviewStatus": "draft",
-      "audio": null,
+      "audio": "assets/audio/phrase-762abf3c23d7.m4a",
       "image": null,
       "wordIds": [
         "word-75afb5609a5b",
