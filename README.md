@@ -8,15 +8,21 @@ This is a fun, homemade project to help my child learn Chinese. The words and se
 
 The goal is simple: make the learning engaging and interactive, and carry it beyond the classroom. A few minutes together on a phone or tablet, with a friendly panda, lots of pictures and a big celebration when they get it right.
 
-It is built for a four-year-old who can’t read yet, so everything works through pictures and sound, with big buttons and no reading required to play. It is not a commercial product, has no accounts, ads or tracking, and saves nothing about who uses it.
+It is built for a four-year-old who can’t read yet, so everything works through pictures and sound, with big buttons and no reading required to play. It is not a commercial product and has no accounts, ads or tracking. Game progress stays in the browser on the device that plays.
 
 ## What’s inside
 
 - **Words:** browse a lesson’s words, phrases and sentences; tap any card to hear it.
 - **Flip cards:** switch between Words and Phrases, say it together, then flip to see the picture, Pinyin and English.
-- **Match:** tap a Chinese word, then its picture. A separate speaker button plays the word only when you want it. An animated arrow joins each matched pair in its own colour, and finishing a round sets off a big celebration.
+- **Games → Pairs:** tap a Chinese word, then its picture. Tapping only selects; a separate speaker button plays the word when wanted. A correct pair says the word, the panda cheers in Mandarin (对了！真棒！好厉害！) and an animated arrow joins the pair in its own colour. Each round ends with a big celebration, a recap of the words just learned, and a new sticker for the sticker book (tap the star).
+  - **Levels:** rounds start at 3 pairs and grow to 4 and 6 after two perfect rounds, stepping back after a hard one. Every other round is reversed (pictures on the left, find the character).
+  - **Games → Balloon pop:** the panda says a word and she pops the balloon carrying its character (3 balloons, 4 from level 2). After the right pop, the word's picture, Pinyin and meaning appear. A wrong balloon floats away and the word is repeated; the 🔊 button replays it any time. Levels, streaks, hints, stickers and the recap work the same as in Pairs.
+  - **Help:** after two misses the right partner glows, and mixed-up words come back first in later rounds.
+  - **Streaks:** three perfect rounds in a row win the panda a new hat, chosen in the sticker book.
+  - **Mix:** in Games, turn on Mix in the lesson row to play words from several lessons together.
+  - **For grown-ups:** choose exactly which words play, and see which characters are known, still being practised or tricky.
 - **Build:** put the textbook sentence’s words in order on the train. **Word by word** plays each word and lights up its tile.
-- Stars, chimes and confetti for rewards. Stars reset when the page closes; there is no saved progress.
+- Stars, chimes and confetti for rewards. Stars reset when the page closes. Stickers, hats, game levels and the character list are saved in the browser on that device only; nothing is sent anywhere.
 
 Every word picture is a drawing in one flat, friendly style that matches the panda (`src/illustrations.js`). A picture must show the word itself, never one example of it (an elephant would teach “elephant”, not 大). Qualities are shown by contrast: the same object twice, with the answer glowing under an arrow and the other faded. Family words highlight one person in the same family, actions show someone doing them, colours are shapeless paint blobs and shapes are colourless outlines. Picture choices are mapped in `src/pictures.js`; they are hints, not translations.
 

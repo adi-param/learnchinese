@@ -1496,5 +1496,40 @@
     "rate": 90,
     "text": "穿袜子",
     "file": "assets/audio/phrase-762abf3c23d7.m4a"
+  },
+  "praise-right-1": {
+    "fingerprint": "d288227aac5fd059d6e5d66d41f7609ccc002f64929070a4c21ada9c595ebcd1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "对了！",
+    "file": "assets/audio/praise-right-1.m4a"
+  },
+  "praise-right-2": {
+    "fingerprint": "b22f1f58c553c886c09c15be162c12c964242280f39008ec294a95031dbcd9bd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "真棒！",
+    "file": "assets/audio/praise-right-2.m4a"
+  },
+  "praise-right-3": {
+    "fingerprint": "c04c0a05a2914e17497f5b98f3675fe366012150f31ab52e38d6c159abce2d90",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "好厉害！",
+    "file": "assets/audio/praise-right-3.m4a"
+  },
+  "praise-again": {
+    "fingerprint": "fee136465abb3bff516295d2a2964817972aaf9321dae78140ff1da174eba9ef",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "再试试！",
+    "file": "assets/audio/praise-again.m4a"
+  },
+  "praise-done": {
+    "fingerprint": "bae56d876665d5d1950dbed1a695ca62adc7cfc738a756711e844c7d3f44632f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 100,
+    "text": "太棒了！",
+    "file": "assets/audio/praise-done.m4a"
   }
 }
