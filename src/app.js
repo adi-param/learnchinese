@@ -3,15 +3,16 @@ import {showAudioHelp} from './audio-help.js';
 import {femaleMandarinVoice, PRONUNCIATION_RATE} from './speech.js';
 import {lessonItems,shuffle,matchingWords,sentenceComplete,sourceLabel,drawRound,MATCH_LEVELS,nextLevel,balloonOptions,recordMatch} from './core.js';
 import {loadProgress,saveProgress} from './progress.js';
-import {illustrations} from './illustrations.js';
+import {fill,slotsOf,optionOf} from './sentences.js';
+import {illustrations,animal} from './illustrations.js';
 import {lessonPictures,pictureFor,picturesOf,renderPicture} from './pictures.js';
 import {chime} from './sfx.js';
 import {icon,mascot,HATS} from './icons.js';
 const root=document.querySelector('#app');
 const views=[['library','Words'],['flashcards','Flip cards'],['match','Games'],['sentences','Build']];
 views.icons={library:'words',flashcards:'cards',match:'match',sentences:'build'};
-const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',match:'Find the pairs',balloons:'Pop the right balloon',sentences:'Put the words on the train'};
-let library; let voiceList=[];let lastSpoken=null;let voiceRequest=0;
+const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',match:'Find the pairs',balloons:'Pop the right balloon',sentences:'Put the words on the train',swap:'Swap a word, make a new sentence',silly:'Spin a silly sentence'};
+let library;let patterns; let voiceList=[];let lastSpoken=null;let voiceRequest=0;
 const audio=document.createElement('audio');audio.id='pronunciation-audio';audio.preload='auto';document.body.append(audio);
 const audioStatus=document.createElement('div');audioStatus.className='audio-status';audioStatus.hidden=true;audioStatus.setAttribute('role','status');document.body.append(audioStatus);
 const player=createAudioPlayer(audio,{onState(status){audioStatus.hidden=status==='idle';audioStatus.textContent=status==='loading'?'Getting the sound…':status==='playing'?'🔊 Listen!':'';},onFailure(){openAudioHelp();}});
@@ -29,7 +30,7 @@ async function deviceSpeak(id,status){
  speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(byId.get(id).hanzi);utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=PRONUNCIATION_RATE;
  utterance.onstart=()=>{status.textContent='Playing with '+voice.name+'.';};utterance.onend=()=>{status.textContent='Finished. You can close this guide.';};utterance.onerror=()=>{if(current===voiceRequest)status.textContent='The device voice could not play. Try the saved recording or open this page in another browser.';};speechSynthesis.speak(utterance);
 }
-const state={view:'library',lesson:'lesson-34',kind:'word',flashKind:'word',query:'',extra:false,details:false,grownups:false,stars:0,pop:false,deck:[],index:0,revealed:false,round:null,sentence:null,selected:[],feedback:'',awarded:false,wrong:null,justMatched:null,matchQueue:[],matchKey:null,matchMode:'pairs',roundsDone:0,coachReact:null,sayNext:false};
+const state={view:'library',lesson:'lesson-34',kind:'word',flashKind:'word',query:'',extra:false,details:false,grownups:false,stars:0,pop:false,deck:[],index:0,revealed:false,round:null,sentence:null,selected:[],feedback:'',awarded:false,wrong:null,justMatched:null,matchQueue:[],matchKey:null,matchMode:'pairs',roundsDone:0,coachReact:null,sayNext:false,buildMode:'train',swap:null,silly:null,made:new Set()};
 const progress=loadProgress();
 // The panda wears whichever hat was chosen in the sticker book.
 const panda=(mood,cls)=>mascot(mood,cls,progress.hat);
@@ -79,7 +80,20 @@ function grownups(){
  const controls=state.view==='library'
   ?`<label class="field grow"><span>Find a word</span><span class="input-wrap">${icon('search','input-icon')}<input id="search" type="search" placeholder="Chinese, Pinyin or English" value="${escape(state.query)}"></span></label><label class="toggle"><input id="extra" type="checkbox" ${state.extra?'checked':''}><span class="switch"></span>Include activity instructions</label><label class="toggle"><input id="details" type="checkbox" ${state.details?'checked':''}><span class="switch"></span>Show sources and review status</label>`
   :state.view==='match'?`<div class="gu-section"><h3>Words in play</h3><p class="gu-hint">Tap a word to leave it out of the games. Turn on Mix above to add more lessons.</p><div class="word-toggles">${matchPool({all:true}).map(w=>{const off=progress.excluded.includes(w.id);return `<button class="word-toggle ${off?'off':''}" data-exclude="${w.id}" aria-pressed="${!off}"><span class="hanzi" lang="zh-Hans">${escape(w.hanzi)}</span><small>${escape(w.english.split(';')[0])}</small></button>`;}).join('')}</div></div><div class="gu-section"><h3>How it’s going</h3>${progressTable()}</div>`:``;
- return `<details class="grownups" ${state.grownups?'open':''}><summary>${icon('grownups')}<span>For grown-ups</span>${icon('chevron','icon chevron')}</summary><div class="gu-body"><div class="gu-grid">${controls}</div>${current?.notes.length?`<p class="lesson-note">${current.notes.map(escape).join(' ')}</p>`:''}<p class="gu-note">Pinyin and meanings are drafts awaiting review. Recordings are slow synthetic female Mandarin, not textbook audio. Pictures are hints, not translations. Stars reset when the page closes; stickers, hats and game progress are saved on this device only.</p><p class="gu-links"><button class="text-button" id="open-audio-help">${icon('speaker')} Sound help</button><a class="text-button" href="./docs/library.md">Complete lesson library</a></p></div></details>`;
+ return `<details class="grownups" ${state.grownups?'open':''}><summary>${icon('grownups')}<span>For grown-ups</span>${icon('chevron','icon chevron')}</summary><div class="gu-body"><div class="gu-grid">${controls}</div>${current?.notes.length?`<p class="lesson-note">${current.notes.map(escape).join(' ')}</p>`:''}<p class="gu-note">Pinyin and meanings are drafts awaiting review. Recordings are slow synthetic female Mandarin, not textbook audio. Pictures are hints, not translations. Stars reset when the page closes; stickers, hats and game progress are saved on this device only.</p>${installSection()}<p class="gu-links"><button class="text-button" id="open-audio-help">${icon('speaker')} Sound help</button><a class="text-button" href="./docs/library.md">Complete lesson library</a></p></div></details>`;
+}
+// Using it like an app: Android offers an install prompt; iPhone and iPad need Share, then Add to Home Screen.
+let installPrompt=null;
+addEventListener('beforeinstallprompt',event=>{event.preventDefault();installPrompt=event;if(state.grownups)render();});
+addEventListener('appinstalled',()=>{installPrompt=null;if(state.grownups)render();});
+const installed=()=>matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+const appleDevice=()=>/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+function installSection(){
+ const body=installed()?'<p class="gu-hint">Installed on this device. It opens full screen and works offline.</p>'
+  :installPrompt?'<button class="button primary" id="install-app">Add to home screen</button>'
+  :appleDevice()?`<ol class="install-steps"><li>Open this page in <b>Safari</b>.</li><li>Tap the <b>Share</b> button ${icon('share','inline-icon')}.</li><li>Choose <b>Add to Home Screen</b>, then <b>Add</b>.</li></ol>`
+  :'<p class="gu-hint">Open your browser menu and choose <b>Install app</b> or <b>Add to Home screen</b>.</p>';
+ return `<div class="gu-section install"><h3>Use it like an app</h3><p class="gu-hint">Add it to the home screen to open it full screen, with the words and recordings saved for offline play.</p>${body}</div>`;
 }
 function card(i,n){
  const meta=state.details?`<div class="card-meta"><span>${[...new Set(i.occurrences.filter(o=>state.lesson==='all'||o.lessonId===state.lesson).map(o=>'Lesson '+o.lessonId.split('-')[1]))].join(' · ')} · ${i.reviewStatus==='draft'?'Draft':'Reviewed'} · ${escape(i.category)}</span><span>${escape(sourceLabel(i,state.lesson))}</span></div>`:'';
@@ -179,8 +193,10 @@ function recapContent(){
  const sticker=w.sticker?`<div class="reward">${`<span class="reward-art">${illustrations[w.sticker]}</span>`}<div><strong>New sticker!</strong><span>Tap the star to see your sticker book.</span></div></div>`:'';
  const hat=w.hat?`<div class="reward">${mascot('cheer','mascot reward-panda',w.hat)}<div><strong>The panda won a new hat!</strong><span>Three perfect rounds in a row.</span></div></div>`
   :w.streakLeft?`<p class="streak-note">${progress.streak} perfect round${progress.streak>1?'s':''} in a row. ${w.streakLeft} more for a surprise!</p>`:'';
- return `<div class="recap"><h2>You learned</h2><div class="recap-cards">${r.words.map((i,n)=>`<div class="recap-card" data-recap="${n}"><span class="stage small" aria-hidden="true">${pictureFor(i,byId)}</span><span class="hanzi" lang="zh-Hans">${escape(i.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(i.pinyin)}</span></div>`).join('')}</div>${sticker}${hat}<div class="game-actions"><button class="button secondary" id="recap-again">${icon('speaker')}Hear them again</button><button class="button primary" id="new-round">${icon('shuffle')}Play again</button></div></div>`;
+ return `<div class="recap"><h2>You learned</h2><div class="game-actions recap-actions"><button class="button primary big" id="new-round">${icon('shuffle')}Play again</button><button class="button secondary" id="recap-again">${icon('speaker')}Hear them again</button></div><div class="recap-cards">${r.words.map((i,n)=>`<div class="recap-card" data-recap="${n}"><span class="stage small" aria-hidden="true">${pictureFor(i,byId)}</span><span class="hanzi" lang="zh-Hans">${escape(i.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(i.pinyin)}</span></div>`).join('')}</div>${sticker}${hat}</div>`;
 }
+// Brings the recap's top (with Play again) into view, clear of the header, on any screen size.
+function showRecap(){const recap=root.querySelector('.recap');if(recap)scrollTo({top:recap.getBoundingClientRect().top+scrollY-12,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
 // The recap shows each matched word in turn as it is spoken.
 function playRecap(){
  const cards=[...root.querySelectorAll('[data-recap]')];cards.forEach(c=>c.classList.remove('shown'));
@@ -229,7 +245,7 @@ function finishRound(){
  saveProgress(progress);
  r.reward={sticker,hat,streakLeft:r.mistakes===0&&!hat?3-progress.streak:0};
  celebrate(true);
- setTimeout(()=>{if(state.round===r&&state.view==='match'){r.recap=true;render();playRecap();}},4300);
+ setTimeout(()=>{if(state.round===r&&state.view==='match'){r.recap=true;render();showRecap();playRecap();}},4300);
 }
 function openAlbum(){
  document.querySelector('#album')?.remove();
@@ -257,12 +273,67 @@ function sentenceContent(){
  ${coach(won?'cheer':'happy',state.feedback||'Tap each word to hear it and add it to the train.',won?`<span class="answer"><span class="hanzi" lang="zh-Hans">${escape(s.hanzi)}</span><span lang="zh-Latn">${escape(s.pinyin)}</span></span>`:'')}
  <div class="game-actions"><button class="button secondary" id="reset-sentence">${icon('again')}Again</button><button class="button primary" id="check-sentence">${icon('check')}Check</button><button class="button secondary" id="next-sentence">Next${icon('right')}</button></div><p class="counter">Sentence ${state.index+1} of ${state.deck.length}</p>`;
 }
-function content(){if(state.view==='library')return libraryContent();const gate=practiceGate();return `<div class="game-wrap">${gate||`${state.view==='flashcards'?flashContent():state.view==='match'?matchContent():sentenceContent()}`}</div>`;}
+// Swap it and the Silly machine: new sentences from lesson patterns (data/patterns.json).
+const patternById=id=>patterns.patterns.find(p=>p.id===id);
+const patternAudio=sentence=>new URL('../'+sentence.audio,import.meta.url).href;
+function sceneArt(pattern,choice){
+ const pick=slot=>optionOf(patterns,slot,choice[slot]),art=name=>illustrations[name]||'';
+ const tile=(inner,cls='')=>`<span class="scene-tile ${cls}">${inner}</span>`;
+ switch(pattern.scene){
+  case 'eat':return tile(art(pick('who').art))+tile(art(pattern.relation),'small')+tile(art(pick('food').art));
+  case 'on':{const place=pick('place');return tile(`<span class="on-place">${art(place.art)}</span><span class="on-thing" style="bottom:${place.surface}%">${art(pick('who').art)}</span>`,'on');}
+  case 'hobby':return tile(art(pick('doer').art))+tile(art(pick('activity').art));
+  case 'tasty':return tile(art(pick('food').art))+tile(art('fragrant'),'small')+tile(art('sweet'),'small');
+  // A fixed tuft of grass beside the animal shows whether it is big or little.
+  case 'creature':return tile(`<span class="ref">${art('grass')}</span><span class="beast">${animal(pick('animal').key,pick('colour').swatch)}</span>`,`creature ${pick('size').key}`);
+ }
+ return '';
+}
+const optionFace=option=>`<span class="stage small" aria-hidden="true">${option.art?illustrations[option.art]:`<span class="swatches"><span class="swatch" style="--swatch:${option.swatch}"></span></span>`}</span><span class="hanzi" lang="zh-Hans">${escape(option.hanzi)}</span>`;
+const chunkLine=(sentence,swappable)=>sentence.parts.map(part=>part.slot&&swappable
+ ?`<button class="chunk slot ${state.swap.open===part.slot?'open':''} ${state.swap.popped===part.slot?'pop':''}" data-swap-slot="${part.slot}" aria-expanded="${state.swap.open===part.slot}"><span class="hanzi" lang="zh-Hans">${escape(part.hanzi)}</span><span class="chunk-pinyin" lang="zh-Latn">${escape(part.pinyin)}</span><span class="swap-badge" aria-hidden="true">${icon('shuffle')}</span></button>`
+ :`<span class="chunk ${part.slot?'filled':''}"><span class="hanzi" lang="zh-Hans">${escape(part.hanzi)}</span><span class="chunk-pinyin" lang="zh-Latn">${escape(part.pinyin)}</span></span>`).join('');
+function starterRow(attr,active){
+ return `<div class="starters" role="group" aria-label="Sentences">${patterns.patterns.map(p=>{const base=fill(patterns,p,p.base);return `<button class="starter ${p.id===active?'active':''}" ${attr}="${p.id}" aria-pressed="${p.id===active}" aria-label="${escape(base.hanzi)}"><span class="starter-scene" aria-hidden="true">${sceneArt(p,p.base)}</span><span class="hanzi" lang="zh-Hans">${escape(base.hanzi)}</span></button>`;}).join('')}</div>`;
+}
+function swapContent(){
+ const w=state.swap,p=patternById(w.pattern),s=fill(patterns,p,w.choice),isBase=slotsOf(p).every(k=>w.choice[k]===p.base[k]);
+ const lessonNumber=library.lessons.find(l=>l.id===p.lesson)?.number;
+ const tray=w.open?`<div class="swap-tray" role="group" aria-label="Choose a new word">${patterns.slots[w.open].map(o=>`<button class="swap-option ${w.choice[w.open]===o.key?'active':''}" data-swap-pick="${o.key}">${optionFace(o)}</button>`).join('')}</div>`:'';
+ return `${starterRow('data-starter',p.id)}<div class="sentence-card"><span class="sentence-tag ${isBase?'':'new'}">${isBase?`From Lesson ${lessonNumber}`:'Your new sentence!'}</span><div class="scene" aria-hidden="true">${sceneArt(p,w.choice)}</div><div class="chunks">${chunkLine(s,true)}</div>${tray}<p class="sentence-english">${escape(s.english)}</p><div class="sentence-actions"><button class="round-button listen" id="say-sentence" aria-label="Hear the sentence">${icon('speaker')}</button>${isBase?'':`<button class="button secondary" id="swap-reset">${icon('again')}Lesson sentence</button>`}</div></div>
+ ${coach(state.coachReact==='dance'?'cheer':'happy',state.feedback||(w.open?'Pick a new word!':'Tap a word with the swap sign to change it.'))}`;
+}
+function sillyContent(){
+ const m=state.silly,p=patternById(m.pattern),s=fill(patterns,p,m.choice);
+ const reels=p.parts.map(part=>part.slot?`<button class="reel" data-reel="${part.slot}" aria-label="Spin this reel" ${m.spinning?'disabled':''}><span class="reel-window" id="reel-${part.slot}">${optionFace(optionOf(patterns,part.slot,m.choice[part.slot]))}</span></button>`:`<span class="reel-fixed"><span class="hanzi" lang="zh-Hans">${escape(part.hanzi)}</span></span>`).join('');
+ const result=m.spun?`<div class="sentence-card silly"><div class="scene" aria-hidden="true">${sceneArt(p,m.choice)}</div><div class="chunks">${chunkLine(s,false)}</div><p class="sentence-english">${escape(s.english)}</p><div class="sentence-actions"><button class="round-button listen" id="say-sentence" aria-label="Hear the sentence">${icon('speaker')}</button></div></div>`:'';
+ return `${starterRow('data-silly-pattern',p.id)}<div class="machine"><div class="reels">${reels}</div><button class="button primary big" id="spin" ${m.spinning?'disabled':''}>${icon('shuffle')}Spin!</button></div>${result}
+ ${coach(m.spun?'cheer':'happy',state.feedback||'Pull the lever for a silly sentence, or tap one reel to spin it.')}`;
+}
+function buildContent(){
+ const bar=`<div class="match-bar"><div class="segmented" role="group" aria-label="Game">${[['train','Train'],['swap','Swap it'],['silly','Silly machine']].map(([id,name])=>`<button data-build-mode="${id}" class="${state.buildMode===id?'active':''}" aria-pressed="${state.buildMode===id}">${name}</button>`).join('')}</div></div>`;
+ return bar+(state.buildMode==='swap'?swapContent():state.buildMode==='silly'?sillyContent():sentenceContent());
+}
+// Every sentence she makes that she has not made before earns a star.
+function madeSentence(sentence){if(state.made.has(sentence.audio))return false;state.made.add(sentence.audio);award();return true;}
+function spinReels(slots){
+ const m=state.silly,p=patternById(m.pattern);m.spinning=true;state.feedback='';render();
+ const target={...m.choice};for(const slot of slots){const options=patterns.slots[slot].filter(o=>o.key!==m.choice[slot]);target[slot]=options[Math.floor(Math.random()*options.length)].key;}
+ let stopped=0;chime('ding');
+ slots.forEach((slot,n)=>{
+  const windowEl=document.getElementById('reel-'+slot);windowEl?.classList.add('spinning');
+  const timer=setInterval(()=>{const options=patterns.slots[slot];if(windowEl)windowEl.innerHTML=optionFace(options[Math.floor(Math.random()*options.length)]);},80);
+  setTimeout(()=>{clearInterval(timer);if(windowEl){windowEl.classList.remove('spinning');windowEl.innerHTML=optionFace(optionOf(patterns,slot,target[slot]));}
+   if(++stopped===slots.length){m.choice=target;m.spinning=false;m.spun=true;const s=fill(patterns,p,target);madeSentence(s);state.feedback=`<span lang="zh-Hans">哈哈！</span> ${escape(s.english)}`;state.coachReact='dance';render();player.play(patternAudio(s));}
+  },650+n*380);
+ });
+}
+function content(){if(state.view==='library')return libraryContent();if(state.view==='sentences'&&state.buildMode!=='train')return `<div class="game-wrap">${buildContent()}</div>`;const gate=practiceGate();return `<div class="game-wrap">${gate||`${state.view==='flashcards'?flashContent():state.view==='match'?matchContent():buildContent()}`}</div>`;}
 function render(){
  const current=lesson();
  root.innerHTML=`<div class="backdrop" aria-hidden="true"></div><div class="app view-${state.view}"><header class="topbar"><a class="brand" href="#library" aria-label="Ira’s Chinese, home">${panda('happy','brand-mark')}<span class="brand-text"><strong>Ira’s Chinese</strong><small lang="zh-Hans">一起学中文</small></span></a><nav class="nav" aria-label="Main navigation">${views.map(([id,name])=>`<button data-view="${id}" class="nav-${id} ${state.view===id?'active':''}" ${state.view===id?'aria-current="page"':''}>${icon(views.icons[id],'nav-icon')}<span>${name}</span></button>`).join('')}</nav><button class="stars ${state.pop?'pop':''}" id="open-album" aria-label="${state.stars} ${state.stars===1?'star':'stars'}. Open the sticker book">${icon('star','star-icon')}<b>${state.stars}</b><span class="sticker-count" aria-hidden="true">${progress.stickers.length}</span></button></header>
- <main class="main"><section class="hero">${panda('happy','mascot hero-mascot')}<div class="hero-text"><h1>${says[state.view==='match'&&state.matchMode==='balloons'?'balloons':state.view]}</h1><p class="hero-sub">${state.view==='match'&&progress.mix?`Mixing lessons ${progress.mixLessons.map(id=>library.lessons.find(l=>l.id===id).number).sort((a,b)=>a-b).join(', ')}`:current?`Lesson ${current.number} · ${current.coverageStatus==='missing'?'Not in the books yet':escape(current.title)}${current.coverageStatus==='partial'?' · some pages missing':''}`:'All lessons'}</p></div></section>${lessonPicker()}<section id="content" aria-label="${state.view==='library'?'Word library':'Game'}">${content()}</section>${grownups()}</main><footer class="footer">Made with love for a curious little learner</footer></div>`;
- state.pop=false;state.wrong=null;state.justMatched=null;state.coachReact=null;
+ <main class="main"><section class="hero">${panda('happy','mascot hero-mascot')}<div class="hero-text"><h1>${says[state.view==='match'&&state.matchMode==='balloons'?'balloons':state.view==='sentences'&&state.buildMode!=='train'?state.buildMode:state.view]}</h1><p class="hero-sub">${state.view==='sentences'&&state.buildMode!=='train'?'Using words from your lessons':state.view==='match'&&progress.mix?`Mixing lessons ${progress.mixLessons.map(id=>library.lessons.find(l=>l.id===id).number).sort((a,b)=>a-b).join(', ')}`:current?`Lesson ${current.number} · ${current.coverageStatus==='missing'?'Not in the books yet':escape(current.title)}${current.coverageStatus==='partial'?' · some pages missing':''}`:'All lessons'}</p></div></section>${state.view==='sentences'&&state.buildMode!=='train'?'':lessonPicker()}<section id="content" aria-label="${state.view==='library'?'Word library':'Game'}">${content()}</section>${grownups()}</main><footer class="footer">Made with love for a curious little learner</footer></div>`;
+ state.pop=false;state.wrong=null;state.justMatched=null;state.coachReact=null;if(state.swap)state.swap.popped=null;
  bind();
  if(state.view==='match')drawLinks();
  // Balloon pop asks its question out loud as each word comes up.
@@ -286,7 +357,7 @@ function bind(){
  root.querySelector('#search')?.addEventListener('input',e=>{state.query=e.target.value;document.querySelector('#content').innerHTML=libraryContent();bindContent();});
  root.querySelector('#extra')?.addEventListener('change',e=>{state.extra=e.target.checked;render();});
  root.querySelector('#details')?.addEventListener('change',e=>{state.details=e.target.checked;render();});
- const row=root.querySelector('.lessons'),active=row.querySelector('.active');if(active)row.scrollLeft=active.offsetLeft-(row.clientWidth-active.offsetWidth)/2;
+ const row=root.querySelector('.lessons'),active=row?.querySelector('.active');if(active)row.scrollLeft=active.offsetLeft-(row.clientWidth-active.offsetWidth)/2;
  bindContent();
 }
 function bindContent(){
@@ -338,6 +409,20 @@ function bindContent(){
  on('balloon-next',()=>state.round.balloon?.advance?.());
  root.querySelectorAll('[data-match-mode]').forEach(b=>b.onclick=()=>{state.matchMode=b.dataset.matchMode;initGame();render();});
  on('recap-again',playRecap);
+ root.querySelectorAll('[data-build-mode]').forEach(b=>b.onclick=()=>{state.buildMode=b.dataset.buildMode;state.feedback='';initGame();render();});
+ root.querySelectorAll('[data-starter]').forEach(b=>b.onclick=()=>{const p=patternById(b.dataset.starter);Object.assign(state.swap,{pattern:p.id,choice:{...p.base},open:null});state.feedback='';render();player.play(patternAudio(fill(patterns,p,p.base)));});
+ root.querySelectorAll('[data-swap-slot]').forEach(b=>b.onclick=()=>{state.swap.open=state.swap.open===b.dataset.swapSlot?null:b.dataset.swapSlot;render();});
+ root.querySelectorAll('[data-swap-pick]').forEach(b=>b.onclick=()=>{
+  const w=state.swap,p=patternById(w.pattern),slot=w.open;w.choice={...w.choice,[slot]:b.dataset.swapPick};w.open=null;w.popped=slot;
+  const s=fill(patterns,p,w.choice),isBase=slotsOf(p).every(k=>w.choice[k]===p.base[k]);
+  if(!isBase&&madeSentence(s)){state.feedback=`<span lang="zh-Hans">真棒！</span> A new sentence!`;state.coachReact='dance';chime('ding');}else state.feedback='';
+  render();player.play(patternAudio(s));});
+ on('swap-reset',()=>{const p=patternById(state.swap.pattern);Object.assign(state.swap,{choice:{...p.base},open:null});state.feedback='';render();player.play(patternAudio(fill(patterns,p,p.base)));});
+ on('say-sentence',()=>{const mode=state.buildMode==='swap'?state.swap:state.silly;player.play(patternAudio(fill(patterns,patternById(mode.pattern),mode.choice)));});
+ root.querySelectorAll('[data-silly-pattern]').forEach(b=>b.onclick=()=>{if(state.silly.spinning)return;const p=patternById(b.dataset.sillyPattern);Object.assign(state.silly,{pattern:p.id,choice:{...p.base},spun:false});state.feedback='';render();});
+ on('spin',()=>{if(!state.silly.spinning)spinReels(slotsOf(patternById(state.silly.pattern)));});
+ root.querySelectorAll('[data-reel]').forEach(b=>b.onclick=()=>{if(!state.silly.spinning)spinReels([b.dataset.reel]);});
+ on('install-app',async()=>{if(!installPrompt)return;installPrompt.prompt();await installPrompt.userChoice.catch(()=>{});installPrompt=null;render();});
  root.querySelectorAll('[data-exclude]').forEach(b=>b.onclick=()=>{
   const id=b.dataset.exclude,off=progress.excluded.includes(id);
   progress.excluded=off?progress.excluded.filter(x=>x!==id):[...progress.excluded,id];saveProgress(progress);initGame();render();});
@@ -360,7 +445,7 @@ function bindContent(){
   render();});
 }
 function navigate(view){state.view=view;if(state.lesson==='all'&&view!=='library')state.lesson='lesson-34';initGame();render();window.scrollTo({top:0});}
-async function start(){try {const response=await fetch(new URL('../data/library.json',import.meta.url));if(!response.ok)throw new Error('Library unavailable');library=await response.json();library.items.forEach(i=>byId.set(i.id,i));initGame();render();}catch(error){root.innerHTML='<div class="empty"><h1>The library could not open.</h1><p>Please check your connection and reload the page.</p><button class="button" id="reload">Try again</button></div>';document.getElementById('reload').onclick=()=>location.reload();}}
+async function start(){try {const response=await fetch(new URL('../data/library.json',import.meta.url));if(!response.ok)throw new Error('Library unavailable');library=await response.json();library.items.forEach(i=>byId.set(i.id,i));patterns=await (await fetch(new URL('../data/patterns.json',import.meta.url))).json();const first=patterns.patterns[0];state.swap={pattern:first.id,choice:{...first.base},open:null,popped:null};state.silly={pattern:first.id,choice:{...first.base},spun:false,spinning:false};initGame();render();}catch(error){root.innerHTML='<div class="empty"><h1>The library could not open.</h1><p>Please check your connection and reload the page.</p><button class="button" id="reload">Try again</button></div>';document.getElementById('reload').onclick=()=>location.reload();}}
 function registerLibraryTool(){
  const context=document.modelContext;if(!context?.registerTool)return;
  const lifecycle=new AbortController();window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});
@@ -370,3 +455,5 @@ function registerLibraryTool(){
  }},{signal:lifecycle.signal})).catch(()=>{});}catch{}
 }
 start().then(()=>{if(library)registerLibraryTool();});
+// Offline support for the installed app (and a faster start for everyone).
+if('serviceWorker' in navigator)navigator.serviceWorker.register(new URL('../sw.js',import.meta.url)).catch(()=>{});

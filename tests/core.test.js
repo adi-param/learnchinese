@@ -62,3 +62,11 @@ test('progress survives a reload and falls back when storage is unavailable',()=
  const p=defaultProgress();p.stickers.push('cow');saveProgress(p,storage);assert.deepEqual(loadProgress(storage).stickers,['cow']);
  assert.deepEqual(loadProgress({getItem(){throw new Error('blocked')}}),defaultProgress());
 });
+test('the offline app stores every script, style and icon the page loads',async()=>{
+ const {readdirSync}=await import('node:fs');
+ const sw=readFileSync(new URL('../sw.js',import.meta.url),'utf8');
+ const shell=JSON.parse(sw.match(/const SHELL=(\[[^\]]*\])/s)[1].replace(/'/g,'"'));
+ for(const file of readdirSync(new URL('../src/',import.meta.url)))assert(shell.includes('src/'+file),`sw.js SHELL is missing src/${file}`);
+ const manifest=JSON.parse(readFileSync(new URL('../manifest.webmanifest',import.meta.url),'utf8'));
+ for(const icon of manifest.icons)assert(readFileSync(new URL('../'+icon.src,import.meta.url)).length>1000,icon.src);
+});

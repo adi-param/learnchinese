@@ -15,7 +15,7 @@ from pathlib import Path
 
 class DevHandler(SimpleHTTPRequestHandler):
     # macOS maps .m4a to audio/mp4a-latm, which Safari rejects; GitHub Pages sends audio/mp4.
-    extensions_map = {**SimpleHTTPRequestHandler.extensions_map, '.m4a': 'audio/mp4'}
+    extensions_map = {**SimpleHTTPRequestHandler.extensions_map, '.m4a': 'audio/mp4', '.webmanifest': 'application/manifest+json'}
 
     def end_headers(self):
         self.send_header('Cache-Control', 'no-store')

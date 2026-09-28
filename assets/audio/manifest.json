@@ -1531,5 +1531,2308 @@
     "rate": 100,
     "text": "太棒了！",
     "file": "assets/audio/praise-done.m4a"
+  },
+  "pattern-likes_blackhorse_grass": {
+    "fingerprint": "35aab69f57a283830f1c08bb0e23bccde1e40d6b516918d952eee5517d458a8b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢吃草",
+    "file": "assets/audio/patterns/likes_blackhorse_grass.m4a"
+  },
+  "pattern-likes_blackhorse_strawberry": {
+    "fingerprint": "958c40beb12b53ebe6c7c5b40cde89d3f1b5eeb1027596a3a83a5a9367543e4b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢吃草莓",
+    "file": "assets/audio/patterns/likes_blackhorse_strawberry.m4a"
+  },
+  "pattern-likes_blackhorse_cake": {
+    "fingerprint": "9ac29e57f667b5e457e5d6ef8efcaf86095e9ae877ba338e6e831f768251c422",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢吃蛋糕",
+    "file": "assets/audio/patterns/likes_blackhorse_cake.m4a"
+  },
+  "pattern-likes_blackhorse_chocolate": {
+    "fingerprint": "93edc7cbfcc107e9c0a4bad62c7af5a852a0944d03b58be37a9082328bf626b9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢吃巧克力",
+    "file": "assets/audio/patterns/likes_blackhorse_chocolate.m4a"
+  },
+  "pattern-likes_blackhorse_biscuit": {
+    "fingerprint": "928632542bb1c2a1f99b5cfaa27526ee542dc24b4c8fe2816700fa181b76043a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢吃饼干",
+    "file": "assets/audio/patterns/likes_blackhorse_biscuit.m4a"
+  },
+  "pattern-likes_blackhorse_vegetables": {
+    "fingerprint": "124798b9403669325eef74cdfe9fa8d9d2d0e9b26bafc39ecf01f845863edc6e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢吃菜",
+    "file": "assets/audio/patterns/likes_blackhorse_vegetables.m4a"
+  },
+  "pattern-likes_blackhorse_meat": {
+    "fingerprint": "72ca14e1f52522c125c59e073497703fccc2f340bc189bbbe815535689fff140",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢吃肉",
+    "file": "assets/audio/patterns/likes_blackhorse_meat.m4a"
+  },
+  "pattern-likes_blackhorse_rice": {
+    "fingerprint": "e3b6154e92d0197e69bb9849d2ff1e6462748eee0f07b48c726d5d9250b56c63",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢吃白米饭",
+    "file": "assets/audio/patterns/likes_blackhorse_rice.m4a"
+  },
+  "pattern-likes_blackhorse_grapes": {
+    "fingerprint": "1d6e5681cbc45cf1a19125f1415a5b908e2b46f6182d4c4185dcc83b5e3c9e5f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢吃葡萄",
+    "file": "assets/audio/patterns/likes_blackhorse_grapes.m4a"
+  },
+  "pattern-likes_yellowduck_grass": {
+    "fingerprint": "43975b25b14de57da39a2fe92a339aebf56ccecff69c54ae282a57dd493f3a3d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢吃草",
+    "file": "assets/audio/patterns/likes_yellowduck_grass.m4a"
+  },
+  "pattern-likes_yellowduck_strawberry": {
+    "fingerprint": "4c4712f00bc22509a6085c83db1d7461d1c3ceefb95bebafafeb51ab34bf456a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢吃草莓",
+    "file": "assets/audio/patterns/likes_yellowduck_strawberry.m4a"
+  },
+  "pattern-likes_yellowduck_cake": {
+    "fingerprint": "ba9a0b7e8b0eabb02dd061b13eef1857af2af64b4a1ac052ed62ae77ced082fa",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢吃蛋糕",
+    "file": "assets/audio/patterns/likes_yellowduck_cake.m4a"
+  },
+  "pattern-likes_yellowduck_chocolate": {
+    "fingerprint": "84b4bd8a598f64406274b302fa33ed5190d0158263e1fa9f9ce490579e42f16e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢吃巧克力",
+    "file": "assets/audio/patterns/likes_yellowduck_chocolate.m4a"
+  },
+  "pattern-likes_yellowduck_biscuit": {
+    "fingerprint": "2f12356092078bae31d50e4be8f97854706c5106bd531fc28294825518d08237",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢吃饼干",
+    "file": "assets/audio/patterns/likes_yellowduck_biscuit.m4a"
+  },
+  "pattern-likes_yellowduck_vegetables": {
+    "fingerprint": "dcd0ffafb1618847d89185ec7aedba0b1ef3fcd93d238a79272408ebd94b49eb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢吃菜",
+    "file": "assets/audio/patterns/likes_yellowduck_vegetables.m4a"
+  },
+  "pattern-likes_yellowduck_meat": {
+    "fingerprint": "0415d1be5bfe9d12fb8c179943f7522ca7699fe5025bb577dbaff97d67951124",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢吃肉",
+    "file": "assets/audio/patterns/likes_yellowduck_meat.m4a"
+  },
+  "pattern-likes_yellowduck_rice": {
+    "fingerprint": "9632795026d3d8697166604d489fdea347b9c6a7b585a1f38ab6d41938af0285",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢吃白米饭",
+    "file": "assets/audio/patterns/likes_yellowduck_rice.m4a"
+  },
+  "pattern-likes_yellowduck_grapes": {
+    "fingerprint": "d6e11abd22a680ef50709454f291a3e0c2df620181afc37021bda0c8e4a15f09",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢吃葡萄",
+    "file": "assets/audio/patterns/likes_yellowduck_grapes.m4a"
+  },
+  "pattern-likes_yellowcow_grass": {
+    "fingerprint": "3a55a920fb9bf7177e2431f7d65055cd336892c552fc6c9c763eec293a3b16bd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛喜欢吃草",
+    "file": "assets/audio/patterns/likes_yellowcow_grass.m4a"
+  },
+  "pattern-likes_yellowcow_strawberry": {
+    "fingerprint": "3fd567e75e72af7eacc81cd095219c1e9653181f1ba839f8f44770cb2ef1910d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛喜欢吃草莓",
+    "file": "assets/audio/patterns/likes_yellowcow_strawberry.m4a"
+  },
+  "pattern-likes_yellowcow_cake": {
+    "fingerprint": "4f53c452962af0815294c48ea8e7cc866371d5f89ff66c8b347eeaaf067c300d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛喜欢吃蛋糕",
+    "file": "assets/audio/patterns/likes_yellowcow_cake.m4a"
+  },
+  "pattern-likes_yellowcow_chocolate": {
+    "fingerprint": "25d7f95ca9b96ba84067669b1be9b79d55ecf17d3ad09ac0322bbbe60542f4a4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛喜欢吃巧克力",
+    "file": "assets/audio/patterns/likes_yellowcow_chocolate.m4a"
+  },
+  "pattern-likes_yellowcow_biscuit": {
+    "fingerprint": "2656cba0eb003cd8980a8f214426015f43445fd54b046fd1ce508aab18e4933f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛喜欢吃饼干",
+    "file": "assets/audio/patterns/likes_yellowcow_biscuit.m4a"
+  },
+  "pattern-likes_yellowcow_vegetables": {
+    "fingerprint": "ea860fcd338c4c4a7cb62fdcec7d9861043b596432b9b939a3b8f3dba63aa10f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛喜欢吃菜",
+    "file": "assets/audio/patterns/likes_yellowcow_vegetables.m4a"
+  },
+  "pattern-likes_yellowcow_meat": {
+    "fingerprint": "e746343872a27b54eddb3542d49a4fa2a8de11678d98c14591b229a373ef07d4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛喜欢吃肉",
+    "file": "assets/audio/patterns/likes_yellowcow_meat.m4a"
+  },
+  "pattern-likes_yellowcow_rice": {
+    "fingerprint": "edaebdcf80604f8888d9cdab241f028343adb92cb7bf67e86c4c2d17b352630a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛喜欢吃白米饭",
+    "file": "assets/audio/patterns/likes_yellowcow_rice.m4a"
+  },
+  "pattern-likes_yellowcow_grapes": {
+    "fingerprint": "d9f386ea4c5cf79f59922e84c00ede2acbbc9abfd9e5d22c087a365688197eb4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛喜欢吃葡萄",
+    "file": "assets/audio/patterns/likes_yellowcow_grapes.m4a"
+  },
+  "pattern-likes_whitesheep_grass": {
+    "fingerprint": "5a260298a35ed2225141a703a4893e93ebbd56600f850beb054c9d19f7553c02",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊喜欢吃草",
+    "file": "assets/audio/patterns/likes_whitesheep_grass.m4a"
+  },
+  "pattern-likes_whitesheep_strawberry": {
+    "fingerprint": "746d7bf5cfdc53b114e30ced485d4a1c9c2020d5e71e3bda8b183cae828a220d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊喜欢吃草莓",
+    "file": "assets/audio/patterns/likes_whitesheep_strawberry.m4a"
+  },
+  "pattern-likes_whitesheep_cake": {
+    "fingerprint": "6b3e895bb614606b5b5fba427888592f26af58b7c4559e2412b85affc72b37e1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊喜欢吃蛋糕",
+    "file": "assets/audio/patterns/likes_whitesheep_cake.m4a"
+  },
+  "pattern-likes_whitesheep_chocolate": {
+    "fingerprint": "b0c0c551fa55cc0c9c8c7618f65585839780e881efab28537e0260eff4964221",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊喜欢吃巧克力",
+    "file": "assets/audio/patterns/likes_whitesheep_chocolate.m4a"
+  },
+  "pattern-likes_whitesheep_biscuit": {
+    "fingerprint": "c65c25b850bf5549a29d36bc66eb40069c6462afedee6585e45906369e6168af",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊喜欢吃饼干",
+    "file": "assets/audio/patterns/likes_whitesheep_biscuit.m4a"
+  },
+  "pattern-likes_whitesheep_vegetables": {
+    "fingerprint": "43405deb1d8491d50fac18b2ccf14dcdd2c5192b3f2c4f6370c79580134cbc03",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊喜欢吃菜",
+    "file": "assets/audio/patterns/likes_whitesheep_vegetables.m4a"
+  },
+  "pattern-likes_whitesheep_meat": {
+    "fingerprint": "1313a6482ec473c657a88fb691519ae728b3629c6d5116fd680da38d48215367",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊喜欢吃肉",
+    "file": "assets/audio/patterns/likes_whitesheep_meat.m4a"
+  },
+  "pattern-likes_whitesheep_rice": {
+    "fingerprint": "3f0b52de269f48c3ceec2959781141cf9e9737c9b395293a6873ce8fe7944eff",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊喜欢吃白米饭",
+    "file": "assets/audio/patterns/likes_whitesheep_rice.m4a"
+  },
+  "pattern-likes_whitesheep_grapes": {
+    "fingerprint": "a9aef50e96b0d333b88fb00d34d3e9502469ef5e0e2fb4175b5364f22f9e10de",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊喜欢吃葡萄",
+    "file": "assets/audio/patterns/likes_whitesheep_grapes.m4a"
+  },
+  "pattern-likes_whiterabbit_grass": {
+    "fingerprint": "93b4301137b9808a54e79ad4b7df6295f6020048c22d2ca61c6037843cca65d0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢吃草",
+    "file": "assets/audio/patterns/likes_whiterabbit_grass.m4a"
+  },
+  "pattern-likes_whiterabbit_strawberry": {
+    "fingerprint": "c4b7af565820da829d38cb6059e96207ec65773b08f15b91da1b2beb58ee562f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢吃草莓",
+    "file": "assets/audio/patterns/likes_whiterabbit_strawberry.m4a"
+  },
+  "pattern-likes_whiterabbit_cake": {
+    "fingerprint": "9c28d8c4bdd73241552d9b79fa31d41acd12509fbba0ccabf485107fdfd68ac1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢吃蛋糕",
+    "file": "assets/audio/patterns/likes_whiterabbit_cake.m4a"
+  },
+  "pattern-likes_whiterabbit_chocolate": {
+    "fingerprint": "cfd8190b57c79147686e838cdfe77e206f9f4f3eb7a5ca70a9df5c4342aae162",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢吃巧克力",
+    "file": "assets/audio/patterns/likes_whiterabbit_chocolate.m4a"
+  },
+  "pattern-likes_whiterabbit_biscuit": {
+    "fingerprint": "04043d11b46ec4e828beb37b450df59960524fbbf5245b3637977771e415b76e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢吃饼干",
+    "file": "assets/audio/patterns/likes_whiterabbit_biscuit.m4a"
+  },
+  "pattern-likes_whiterabbit_vegetables": {
+    "fingerprint": "c4a027a5d9b5df946c07296ca57639894b03214308b2309e4956996fcfea1c4e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢吃菜",
+    "file": "assets/audio/patterns/likes_whiterabbit_vegetables.m4a"
+  },
+  "pattern-likes_whiterabbit_meat": {
+    "fingerprint": "0b1068a458733f8c9407ad0bbab8046eecde82f419a73577e474de028e840932",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢吃肉",
+    "file": "assets/audio/patterns/likes_whiterabbit_meat.m4a"
+  },
+  "pattern-likes_whiterabbit_rice": {
+    "fingerprint": "a06bdad6a392b13372ff0d8fa9e784b4bc4a6eb7d1d9b6e9224eeecad10de69b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢吃白米饭",
+    "file": "assets/audio/patterns/likes_whiterabbit_rice.m4a"
+  },
+  "pattern-likes_whiterabbit_grapes": {
+    "fingerprint": "952cc5e288fd02a454e7534218e54582e100ab1e6c80e3b7cea3b3d8642429a1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢吃葡萄",
+    "file": "assets/audio/patterns/likes_whiterabbit_grapes.m4a"
+  },
+  "pattern-likes_dad_grass": {
+    "fingerprint": "7eb7055ed68a66d58403dc1c7db13f1af53877ed15149e116e77e08125193069",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢吃草",
+    "file": "assets/audio/patterns/likes_dad_grass.m4a"
+  },
+  "pattern-likes_dad_strawberry": {
+    "fingerprint": "a8e66987df8b57192519fe9a4a46302f356b1289453cf5f86e5eba05929d24bb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢吃草莓",
+    "file": "assets/audio/patterns/likes_dad_strawberry.m4a"
+  },
+  "pattern-likes_dad_cake": {
+    "fingerprint": "7b4c8f1e26d86b68e5cf8149d071b8cc10ee8385c0d86b9d244ed375c4dd2ff4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢吃蛋糕",
+    "file": "assets/audio/patterns/likes_dad_cake.m4a"
+  },
+  "pattern-likes_dad_chocolate": {
+    "fingerprint": "19edb2afafe4e1f0c24a8b17da20ac18967a486b8e027cf5129d8633057cd59a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢吃巧克力",
+    "file": "assets/audio/patterns/likes_dad_chocolate.m4a"
+  },
+  "pattern-likes_dad_biscuit": {
+    "fingerprint": "0db57ee60e90af5cbdb1815175fef30a35f641679d31c0fb526cd46b79b13925",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢吃饼干",
+    "file": "assets/audio/patterns/likes_dad_biscuit.m4a"
+  },
+  "pattern-likes_dad_vegetables": {
+    "fingerprint": "54b7bfb539914e22bb79c90f6b5c1900f17ebc96bfd28d119732057b5602a96c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢吃菜",
+    "file": "assets/audio/patterns/likes_dad_vegetables.m4a"
+  },
+  "pattern-likes_dad_meat": {
+    "fingerprint": "5b2ccab0aff892b20786e37ee5de0c38e1607e971998eeb2be6cb7086c826775",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢吃肉",
+    "file": "assets/audio/patterns/likes_dad_meat.m4a"
+  },
+  "pattern-likes_dad_rice": {
+    "fingerprint": "a1b89c67dc61552c95bf73b28b014a972d3efad158c4ecdbea12fabd620a3d69",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢吃白米饭",
+    "file": "assets/audio/patterns/likes_dad_rice.m4a"
+  },
+  "pattern-likes_dad_grapes": {
+    "fingerprint": "66d1f3b7608291bd6c1339caedb8772ed5a3309a7d71efd35ce4530d0eba7ee1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢吃葡萄",
+    "file": "assets/audio/patterns/likes_dad_grapes.m4a"
+  },
+  "pattern-likes_mum_grass": {
+    "fingerprint": "54115bd39b4aa1da4a16138e8ca5ca6be652d2b58e20cd9315c6924291fea2a1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢吃草",
+    "file": "assets/audio/patterns/likes_mum_grass.m4a"
+  },
+  "pattern-likes_mum_strawberry": {
+    "fingerprint": "5039afb07c72353b86a622bb1d6084271c58cc982531fa2e6277dfc224a8a08a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢吃草莓",
+    "file": "assets/audio/patterns/likes_mum_strawberry.m4a"
+  },
+  "pattern-likes_mum_cake": {
+    "fingerprint": "35492f59b708d9a2d780989d3dfcc132023da9a5993afcd0efd198104e58b72a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢吃蛋糕",
+    "file": "assets/audio/patterns/likes_mum_cake.m4a"
+  },
+  "pattern-likes_mum_chocolate": {
+    "fingerprint": "e11bca02275008cdfbe2a49934bb7460c06bd7dc129250da28242e2f674f8125",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢吃巧克力",
+    "file": "assets/audio/patterns/likes_mum_chocolate.m4a"
+  },
+  "pattern-likes_mum_biscuit": {
+    "fingerprint": "ba01a84f0591bf7b47cd4d1f9c6bc9169648336aa0a666946ef524b210244ba5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢吃饼干",
+    "file": "assets/audio/patterns/likes_mum_biscuit.m4a"
+  },
+  "pattern-likes_mum_vegetables": {
+    "fingerprint": "2328f3456ed6b7b4c003d6a175dafeb6b52043df7c4bd98429dac0122add4fe0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢吃菜",
+    "file": "assets/audio/patterns/likes_mum_vegetables.m4a"
+  },
+  "pattern-likes_mum_meat": {
+    "fingerprint": "1fd2aae8e04460dbcc0fd4d77b89fe511d18953c20b7dce0bd7b3e6efa579427",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢吃肉",
+    "file": "assets/audio/patterns/likes_mum_meat.m4a"
+  },
+  "pattern-likes_mum_rice": {
+    "fingerprint": "bb02f20085265663519846efe14958a3192f46d9a630be9d78e8f7ef0552406b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢吃白米饭",
+    "file": "assets/audio/patterns/likes_mum_rice.m4a"
+  },
+  "pattern-likes_mum_grapes": {
+    "fingerprint": "ee3033b3c8bbabc361225e34a9c731d0a05898cc4c01600e2086f9958435f664",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢吃葡萄",
+    "file": "assets/audio/patterns/likes_mum_grapes.m4a"
+  },
+  "pattern-likes_sister_grass": {
+    "fingerprint": "c3389b57e9915ee2da01e7d2cfb60b3203b7225020f52b08309af96367023179",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢吃草",
+    "file": "assets/audio/patterns/likes_sister_grass.m4a"
+  },
+  "pattern-likes_sister_strawberry": {
+    "fingerprint": "f0b6877438a4e70e9c460f43f0147e32da6f6611d509e6e6b432c0a1818c74f8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢吃草莓",
+    "file": "assets/audio/patterns/likes_sister_strawberry.m4a"
+  },
+  "pattern-likes_sister_cake": {
+    "fingerprint": "62c482e75f3177cec2589fa5bf8e92bf1e88b39e999f968d708ab09ec9d2ef8c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢吃蛋糕",
+    "file": "assets/audio/patterns/likes_sister_cake.m4a"
+  },
+  "pattern-likes_sister_chocolate": {
+    "fingerprint": "207452ae5d2fa1e00a2b1501e0c258d77a7f0de1eef680acd3d8189cfed5b424",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢吃巧克力",
+    "file": "assets/audio/patterns/likes_sister_chocolate.m4a"
+  },
+  "pattern-likes_sister_biscuit": {
+    "fingerprint": "c3e04a45709db398edf6f36cafafbbc8f962ea384ce14ba8edd971516822db21",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢吃饼干",
+    "file": "assets/audio/patterns/likes_sister_biscuit.m4a"
+  },
+  "pattern-likes_sister_vegetables": {
+    "fingerprint": "049042c7de68e8c3e4553357b269295ddd23f5d74d0fc0574728e0f7dae53e42",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢吃菜",
+    "file": "assets/audio/patterns/likes_sister_vegetables.m4a"
+  },
+  "pattern-likes_sister_meat": {
+    "fingerprint": "07dc861104117394af89adec9a885aa8e1114700db4d28033d62e7848e152f2a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢吃肉",
+    "file": "assets/audio/patterns/likes_sister_meat.m4a"
+  },
+  "pattern-likes_sister_rice": {
+    "fingerprint": "07c4e9fb86e0d149ef7db592479d1f8673b5b1fbf64e42ded642030fdb50266b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢吃白米饭",
+    "file": "assets/audio/patterns/likes_sister_rice.m4a"
+  },
+  "pattern-likes_sister_grapes": {
+    "fingerprint": "90df3bdfd553a87c5fc38ea139359680732bd53acceafbab5618ca37a768782f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢吃葡萄",
+    "file": "assets/audio/patterns/likes_sister_grapes.m4a"
+  },
+  "pattern-likes_brother_grass": {
+    "fingerprint": "ba1b41b9b93a0b4efd4f73d4c1edbea2976b644a3847dcdfd0dd5f950b1eeafd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢吃草",
+    "file": "assets/audio/patterns/likes_brother_grass.m4a"
+  },
+  "pattern-likes_brother_strawberry": {
+    "fingerprint": "b54a6819d4571f28da6debfd0b48b3c93364fb9b4caac9e7d24b197da383ae5c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢吃草莓",
+    "file": "assets/audio/patterns/likes_brother_strawberry.m4a"
+  },
+  "pattern-likes_brother_cake": {
+    "fingerprint": "98500a8f6dac19d6dd69df39c336e6ab819814b41f8f2bc735881315b1dbd1d7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢吃蛋糕",
+    "file": "assets/audio/patterns/likes_brother_cake.m4a"
+  },
+  "pattern-likes_brother_chocolate": {
+    "fingerprint": "0d66efec4e10519197f2093764f014d25b895f2a07461c24b78dc021d3545660",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢吃巧克力",
+    "file": "assets/audio/patterns/likes_brother_chocolate.m4a"
+  },
+  "pattern-likes_brother_biscuit": {
+    "fingerprint": "72da34a94edc583f571671e884037d9b6c0e16d83c5c198969e9b4a2cb503f0d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢吃饼干",
+    "file": "assets/audio/patterns/likes_brother_biscuit.m4a"
+  },
+  "pattern-likes_brother_vegetables": {
+    "fingerprint": "24c5b049d8f6911ba9426bccaaf24cd7078397c0221a076511467db5391efb75",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢吃菜",
+    "file": "assets/audio/patterns/likes_brother_vegetables.m4a"
+  },
+  "pattern-likes_brother_meat": {
+    "fingerprint": "981c61b2919028a0653e572e909c074a50cc37421bdaa836b4812844f4fd7313",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢吃肉",
+    "file": "assets/audio/patterns/likes_brother_meat.m4a"
+  },
+  "pattern-likes_brother_rice": {
+    "fingerprint": "229af9bfc098b9055d0c756bf06df417f6ddafddd3958bc5082372301b47b1e0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢吃白米饭",
+    "file": "assets/audio/patterns/likes_brother_rice.m4a"
+  },
+  "pattern-likes_brother_grapes": {
+    "fingerprint": "464d0c85159aa07c2f15bebe122b70d0506102c8b1cbf2476d68b5da5f4cd9b7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢吃葡萄",
+    "file": "assets/audio/patterns/likes_brother_grapes.m4a"
+  },
+  "pattern-eating_blackhorse_grass": {
+    "fingerprint": "2084f70bedf4e077bb4c22015d8e8d294319557bfb8c21bfb5732f90754ac623",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在吃草",
+    "file": "assets/audio/patterns/eating_blackhorse_grass.m4a"
+  },
+  "pattern-eating_blackhorse_strawberry": {
+    "fingerprint": "2cb7764b0eeb4ef6ed8802b7a130cbbb5bdfd81a1c2c86857aa67df4f1c9c3c1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在吃草莓",
+    "file": "assets/audio/patterns/eating_blackhorse_strawberry.m4a"
+  },
+  "pattern-eating_blackhorse_cake": {
+    "fingerprint": "b79aee5237597b504d14470b009c0fdad6fe2772dfddc0cba7a3078659845dd2",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在吃蛋糕",
+    "file": "assets/audio/patterns/eating_blackhorse_cake.m4a"
+  },
+  "pattern-eating_blackhorse_chocolate": {
+    "fingerprint": "51e9b3f9d14cf41fb8f21b21d63c1d265c51fe32d4537f67bfab795616f48e00",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在吃巧克力",
+    "file": "assets/audio/patterns/eating_blackhorse_chocolate.m4a"
+  },
+  "pattern-eating_blackhorse_biscuit": {
+    "fingerprint": "931efc49583f741c0148e066277d9f4a1481da53b74281f2d07c80ae06992a63",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在吃饼干",
+    "file": "assets/audio/patterns/eating_blackhorse_biscuit.m4a"
+  },
+  "pattern-eating_blackhorse_vegetables": {
+    "fingerprint": "6c80f91f9d69a8816d149e76426a827a213abad3fc3712ff013dd9271f41f426",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在吃菜",
+    "file": "assets/audio/patterns/eating_blackhorse_vegetables.m4a"
+  },
+  "pattern-eating_blackhorse_meat": {
+    "fingerprint": "d3b4c60012f2fdfec980917f2c5dd10fc05f68c315a5b90092dd155b26170a87",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在吃肉",
+    "file": "assets/audio/patterns/eating_blackhorse_meat.m4a"
+  },
+  "pattern-eating_blackhorse_rice": {
+    "fingerprint": "15c6ed6e0b2ab62a3d2cd530739c8f8fabfce9bf28f50d0e9a6a43dc89d54f84",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在吃白米饭",
+    "file": "assets/audio/patterns/eating_blackhorse_rice.m4a"
+  },
+  "pattern-eating_blackhorse_grapes": {
+    "fingerprint": "671758a96088ce0ed0bb117fd27a49c6b7bfe0193df5f785d09d1b080de5b922",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在吃葡萄",
+    "file": "assets/audio/patterns/eating_blackhorse_grapes.m4a"
+  },
+  "pattern-eating_yellowduck_grass": {
+    "fingerprint": "637e5a934ba0a847976cea990a95e904371403634d073aa648597dc342545750",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在吃草",
+    "file": "assets/audio/patterns/eating_yellowduck_grass.m4a"
+  },
+  "pattern-eating_yellowduck_strawberry": {
+    "fingerprint": "22990049ef5323f6e737ba1ac7295d87c82fe4ce2df9fcd08fcd69e4cf5fc281",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在吃草莓",
+    "file": "assets/audio/patterns/eating_yellowduck_strawberry.m4a"
+  },
+  "pattern-eating_yellowduck_cake": {
+    "fingerprint": "ef82d1aab76e05b7571ecdf48dec78fc4950d5e45d48c22cace1a71468caa371",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在吃蛋糕",
+    "file": "assets/audio/patterns/eating_yellowduck_cake.m4a"
+  },
+  "pattern-eating_yellowduck_chocolate": {
+    "fingerprint": "8f7761291df25c1bf1b2d4be4efd2e3eb7530463e0a06ce9fdf09e8154b8d6b2",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在吃巧克力",
+    "file": "assets/audio/patterns/eating_yellowduck_chocolate.m4a"
+  },
+  "pattern-eating_yellowduck_biscuit": {
+    "fingerprint": "2f201a0880aee1fce919076b62f33c84b12260a0cafb45866cc8b9f53c57da21",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在吃饼干",
+    "file": "assets/audio/patterns/eating_yellowduck_biscuit.m4a"
+  },
+  "pattern-eating_yellowduck_vegetables": {
+    "fingerprint": "983b89fe2cffb661ffcb90345908d708ef044a88c1b0450e4a8d7200a1e78732",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在吃菜",
+    "file": "assets/audio/patterns/eating_yellowduck_vegetables.m4a"
+  },
+  "pattern-eating_yellowduck_meat": {
+    "fingerprint": "8be7f1ca997383345b5377ef296f7fe182a620a3c5c955a315a5193e9102c726",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在吃肉",
+    "file": "assets/audio/patterns/eating_yellowduck_meat.m4a"
+  },
+  "pattern-eating_yellowduck_rice": {
+    "fingerprint": "bb32c6a100f3c9140333edbe7b8f60e80ed8516786b25ec74a84f8aefff5e638",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在吃白米饭",
+    "file": "assets/audio/patterns/eating_yellowduck_rice.m4a"
+  },
+  "pattern-eating_yellowduck_grapes": {
+    "fingerprint": "aff14040e909fb9d87e92f6284652712b74d6f503eedaaef6a6a37dbeb6967a5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在吃葡萄",
+    "file": "assets/audio/patterns/eating_yellowduck_grapes.m4a"
+  },
+  "pattern-eating_yellowcow_grass": {
+    "fingerprint": "fb014bf348b8f6fbdce70185b1ca6b2b7f0a9f848e12d6adf6a849a8ffb56074",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃草",
+    "file": "assets/audio/patterns/eating_yellowcow_grass.m4a"
+  },
+  "pattern-eating_yellowcow_strawberry": {
+    "fingerprint": "fe3bc41323e105fec0c1ac7d17a60b2b1dd90b3ff3eda52107e19fce2c533c31",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃草莓",
+    "file": "assets/audio/patterns/eating_yellowcow_strawberry.m4a"
+  },
+  "pattern-eating_yellowcow_cake": {
+    "fingerprint": "52ebd62d8706fdcb3d07376fefd260f9de34458349b71293d9cd11464a243f5e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃蛋糕",
+    "file": "assets/audio/patterns/eating_yellowcow_cake.m4a"
+  },
+  "pattern-eating_yellowcow_chocolate": {
+    "fingerprint": "95ec13a5030f4679c218fbbb11b4de6241319efd82a35313f5534f33ce869978",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃巧克力",
+    "file": "assets/audio/patterns/eating_yellowcow_chocolate.m4a"
+  },
+  "pattern-eating_yellowcow_biscuit": {
+    "fingerprint": "19039a11f2edefa11c361d5c7dc5fd80eedbb76ca10cc653212cea7f30e883d1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃饼干",
+    "file": "assets/audio/patterns/eating_yellowcow_biscuit.m4a"
+  },
+  "pattern-eating_yellowcow_vegetables": {
+    "fingerprint": "86ff7629deb47479bba58a74904136bf26f0247ab79cc75382922eaed1abee92",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃菜",
+    "file": "assets/audio/patterns/eating_yellowcow_vegetables.m4a"
+  },
+  "pattern-eating_yellowcow_meat": {
+    "fingerprint": "79317f56cd6c652ccd20b6cdc12d1108cedc08da22544c32dcd6554227ac6259",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃肉",
+    "file": "assets/audio/patterns/eating_yellowcow_meat.m4a"
+  },
+  "pattern-eating_yellowcow_rice": {
+    "fingerprint": "738d6365f048f1234e05f1042ba247720018aca795b6b08c8a83ee123d004e96",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃白米饭",
+    "file": "assets/audio/patterns/eating_yellowcow_rice.m4a"
+  },
+  "pattern-eating_yellowcow_grapes": {
+    "fingerprint": "ab0264be0593968b99e430d80e18e5b63b0415a7da2d76e25e2125faa23ace7a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃葡萄",
+    "file": "assets/audio/patterns/eating_yellowcow_grapes.m4a"
+  },
+  "pattern-eating_whitesheep_grass": {
+    "fingerprint": "ab83264ae16271b4a9eba6026c649beccfbd899af9890e735b7083c76840be00",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在吃草",
+    "file": "assets/audio/patterns/eating_whitesheep_grass.m4a"
+  },
+  "pattern-eating_whitesheep_strawberry": {
+    "fingerprint": "67f60eecdcf1802bc3ff5cd661584b5871144bf581b62d053e359b8a0375d65d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在吃草莓",
+    "file": "assets/audio/patterns/eating_whitesheep_strawberry.m4a"
+  },
+  "pattern-eating_whitesheep_cake": {
+    "fingerprint": "39aef01e199df388e977e63d0c093408d61119e18463490e8a92a0280d0d49cb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在吃蛋糕",
+    "file": "assets/audio/patterns/eating_whitesheep_cake.m4a"
+  },
+  "pattern-eating_whitesheep_chocolate": {
+    "fingerprint": "d60e157b8d3286331bb0e52a62e73e526000be42023a79c7dc02004013952716",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在吃巧克力",
+    "file": "assets/audio/patterns/eating_whitesheep_chocolate.m4a"
+  },
+  "pattern-eating_whitesheep_biscuit": {
+    "fingerprint": "2944ac87595cfb37933cd81925e665d89546aadcb3ebd5aca4dd3e4e9df2b57c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在吃饼干",
+    "file": "assets/audio/patterns/eating_whitesheep_biscuit.m4a"
+  },
+  "pattern-eating_whitesheep_vegetables": {
+    "fingerprint": "735120068d537e23da9c74a0bb1caac09fa5ec986543c39c89bff7764f2527ab",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在吃菜",
+    "file": "assets/audio/patterns/eating_whitesheep_vegetables.m4a"
+  },
+  "pattern-eating_whitesheep_meat": {
+    "fingerprint": "5fb077ab300c9d70081924215a4325f9b3b860855ae4533274e9b78756c4d939",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在吃肉",
+    "file": "assets/audio/patterns/eating_whitesheep_meat.m4a"
+  },
+  "pattern-eating_whitesheep_rice": {
+    "fingerprint": "31add35d6a6d64b29787bb3d2710ae40bf2a1cbb4205764848b8ec6417df690d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在吃白米饭",
+    "file": "assets/audio/patterns/eating_whitesheep_rice.m4a"
+  },
+  "pattern-eating_whitesheep_grapes": {
+    "fingerprint": "5f38ca3ac2861f43659392a3f6ec8d0f66186838cdbd6ebb30cc3927a92a0228",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在吃葡萄",
+    "file": "assets/audio/patterns/eating_whitesheep_grapes.m4a"
+  },
+  "pattern-eating_whiterabbit_grass": {
+    "fingerprint": "213350c486e0b6089baf64ad4d2595a8b92510fdc2d187188aea0bbbb965dc8c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在吃草",
+    "file": "assets/audio/patterns/eating_whiterabbit_grass.m4a"
+  },
+  "pattern-eating_whiterabbit_strawberry": {
+    "fingerprint": "460a19730878aff7871ed309a2502789fb6c6e5fe30503a10af23b2d384f68ff",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在吃草莓",
+    "file": "assets/audio/patterns/eating_whiterabbit_strawberry.m4a"
+  },
+  "pattern-eating_whiterabbit_cake": {
+    "fingerprint": "0b5a81af8fd4d565ea3462de7c2717b5f8b2f326b6e8a04291fe30cca29a903b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在吃蛋糕",
+    "file": "assets/audio/patterns/eating_whiterabbit_cake.m4a"
+  },
+  "pattern-eating_whiterabbit_chocolate": {
+    "fingerprint": "4ad4330062bbde560207ef875358e863f57210d37dd7c482e6324a6e725e2d7b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在吃巧克力",
+    "file": "assets/audio/patterns/eating_whiterabbit_chocolate.m4a"
+  },
+  "pattern-eating_whiterabbit_biscuit": {
+    "fingerprint": "d6a47c080318bb092797d008503670ae01ea9ad4d435ddf3fe3fe52ab63b93de",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在吃饼干",
+    "file": "assets/audio/patterns/eating_whiterabbit_biscuit.m4a"
+  },
+  "pattern-eating_whiterabbit_vegetables": {
+    "fingerprint": "27457639cca24661ec939ab92d9dfe85d7edb2c9beedf0e8367fc51e90ea4759",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在吃菜",
+    "file": "assets/audio/patterns/eating_whiterabbit_vegetables.m4a"
+  },
+  "pattern-eating_whiterabbit_meat": {
+    "fingerprint": "891e89de7d9dd6a871b365d23452c1ee71c1f4c8f0a3b00b3ddbc42ed0e0e16c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在吃肉",
+    "file": "assets/audio/patterns/eating_whiterabbit_meat.m4a"
+  },
+  "pattern-eating_whiterabbit_rice": {
+    "fingerprint": "4cffed1034ed6d718b6cd5391d5dc0685b017420756ee565bc38b5e8826d83fe",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在吃白米饭",
+    "file": "assets/audio/patterns/eating_whiterabbit_rice.m4a"
+  },
+  "pattern-eating_whiterabbit_grapes": {
+    "fingerprint": "9b3a95ba8bebc9b9be8b460d69b5430ac20e697cde965f83082ea4b159085381",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在吃葡萄",
+    "file": "assets/audio/patterns/eating_whiterabbit_grapes.m4a"
+  },
+  "pattern-eating_dad_grass": {
+    "fingerprint": "e279e7f2927dcdc966ef5df8e25fa56c08910dd896194712ce7ef5dc3684aed2",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在吃草",
+    "file": "assets/audio/patterns/eating_dad_grass.m4a"
+  },
+  "pattern-eating_dad_strawberry": {
+    "fingerprint": "3762b4d7da0568d7cf24aaf0302c76a02d29d0c55aa536f7679537a4e3bbe542",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在吃草莓",
+    "file": "assets/audio/patterns/eating_dad_strawberry.m4a"
+  },
+  "pattern-eating_dad_cake": {
+    "fingerprint": "a11c713f68158adaf7c7870786b3e152fded66892897a74a43335e57cd5774a7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在吃蛋糕",
+    "file": "assets/audio/patterns/eating_dad_cake.m4a"
+  },
+  "pattern-eating_dad_chocolate": {
+    "fingerprint": "5560c1c93618117a85983901a473634b550cd38e0b2c4645f3d233d7fec09387",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在吃巧克力",
+    "file": "assets/audio/patterns/eating_dad_chocolate.m4a"
+  },
+  "pattern-eating_dad_biscuit": {
+    "fingerprint": "1efca9de2b42f70e556fc102ef253d7eb77a1dc80bca853bd23caee6f610c8c1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在吃饼干",
+    "file": "assets/audio/patterns/eating_dad_biscuit.m4a"
+  },
+  "pattern-eating_dad_vegetables": {
+    "fingerprint": "9275d8736872cf665ef025bfb0c3f8552f20c487d6062fafa576ffa38f75ebd0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在吃菜",
+    "file": "assets/audio/patterns/eating_dad_vegetables.m4a"
+  },
+  "pattern-eating_dad_meat": {
+    "fingerprint": "60fc8e393577eabcd1687a8273ab7d8745130e9c92c8eb172d6c792a1c34f254",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在吃肉",
+    "file": "assets/audio/patterns/eating_dad_meat.m4a"
+  },
+  "pattern-eating_dad_rice": {
+    "fingerprint": "7690f1fdf63b91a5ca7be9021039c088bda0f662453512a7eb783ac15e4cf3af",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在吃白米饭",
+    "file": "assets/audio/patterns/eating_dad_rice.m4a"
+  },
+  "pattern-eating_dad_grapes": {
+    "fingerprint": "33eead97a6ab24419a685bc16a7f8922a7d618e312dfbb5260e06c61e95bc80e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在吃葡萄",
+    "file": "assets/audio/patterns/eating_dad_grapes.m4a"
+  },
+  "pattern-eating_mum_grass": {
+    "fingerprint": "ee081a4020615230fd7adca8431265ac132cf677eba0680e57e75610107a6d2e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在吃草",
+    "file": "assets/audio/patterns/eating_mum_grass.m4a"
+  },
+  "pattern-eating_mum_strawberry": {
+    "fingerprint": "c385dbef499c2794f940599fd69ebd4d8387015ce5cefe6d4156e5a14b961a88",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在吃草莓",
+    "file": "assets/audio/patterns/eating_mum_strawberry.m4a"
+  },
+  "pattern-eating_mum_cake": {
+    "fingerprint": "eaaedb7d9de0980e89d10fbbee2c14b4fa61c40b1f858dd7ee1fe4827f6ba27c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在吃蛋糕",
+    "file": "assets/audio/patterns/eating_mum_cake.m4a"
+  },
+  "pattern-eating_mum_chocolate": {
+    "fingerprint": "557c6e1dd014f9832f3022dd9a0a66ebca39901c2ecd2ba3b6592fd85327c700",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在吃巧克力",
+    "file": "assets/audio/patterns/eating_mum_chocolate.m4a"
+  },
+  "pattern-eating_mum_biscuit": {
+    "fingerprint": "37f4bfd0514d95112979d7ebbbb952529f9b42507c7dd7fb55287c2a4bd2c210",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在吃饼干",
+    "file": "assets/audio/patterns/eating_mum_biscuit.m4a"
+  },
+  "pattern-eating_mum_vegetables": {
+    "fingerprint": "1ef6543a6cf1493f167db1a88be206eb44db10dce51a7e0c15493c180c33eedd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在吃菜",
+    "file": "assets/audio/patterns/eating_mum_vegetables.m4a"
+  },
+  "pattern-eating_mum_meat": {
+    "fingerprint": "43dc79ed550a09701fd5a62eb54bc55ed417c09b3e43f234654069bdbf11afd0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在吃肉",
+    "file": "assets/audio/patterns/eating_mum_meat.m4a"
+  },
+  "pattern-eating_mum_rice": {
+    "fingerprint": "57ccf12b55ec2efe6d038bb7947ae267d88b555934517cb0ebd561d8d2d0f7aa",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在吃白米饭",
+    "file": "assets/audio/patterns/eating_mum_rice.m4a"
+  },
+  "pattern-eating_mum_grapes": {
+    "fingerprint": "4d9db5205e53e424a889dde26d65db98a5dcce9391e796267866acbf56b8cd1e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在吃葡萄",
+    "file": "assets/audio/patterns/eating_mum_grapes.m4a"
+  },
+  "pattern-eating_sister_grass": {
+    "fingerprint": "fb0b5540be41287c20f2ee576dd18b2662ebd8a1424558397af44a84f9fe6338",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在吃草",
+    "file": "assets/audio/patterns/eating_sister_grass.m4a"
+  },
+  "pattern-eating_sister_strawberry": {
+    "fingerprint": "7e3d62644114d2a3a5c3841f2574b7a4e3338a6fbcbef19a8aed84ccb9c5685b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在吃草莓",
+    "file": "assets/audio/patterns/eating_sister_strawberry.m4a"
+  },
+  "pattern-eating_sister_cake": {
+    "fingerprint": "6e55ec04913867c4c5be4c743815817cf363cdef2872ed0c5b058c1b1a9f2bb6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在吃蛋糕",
+    "file": "assets/audio/patterns/eating_sister_cake.m4a"
+  },
+  "pattern-eating_sister_chocolate": {
+    "fingerprint": "dea9f762be8b9acae38d1bf095ce00db57177fd294e357a968f0b0212b534dad",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在吃巧克力",
+    "file": "assets/audio/patterns/eating_sister_chocolate.m4a"
+  },
+  "pattern-eating_sister_biscuit": {
+    "fingerprint": "b7046e82f4ddff4fcf39cda5ec430efd70b0032369b9080e153f0b7b290977c1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在吃饼干",
+    "file": "assets/audio/patterns/eating_sister_biscuit.m4a"
+  },
+  "pattern-eating_sister_vegetables": {
+    "fingerprint": "c1be5b89f5acd76f7bca0270c8dd5b4a1b2d6d99eef0f8f8fd3025817686abe5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在吃菜",
+    "file": "assets/audio/patterns/eating_sister_vegetables.m4a"
+  },
+  "pattern-eating_sister_meat": {
+    "fingerprint": "bec33596d139694b4e47485479b44601c60f13b5e1c2b3b8b499e76b36284e70",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在吃肉",
+    "file": "assets/audio/patterns/eating_sister_meat.m4a"
+  },
+  "pattern-eating_sister_rice": {
+    "fingerprint": "1e2ce5047ff6ba77b14cc72de9e88c8a5dd6d2201d1b9290ac78c89a9a652fac",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在吃白米饭",
+    "file": "assets/audio/patterns/eating_sister_rice.m4a"
+  },
+  "pattern-eating_sister_grapes": {
+    "fingerprint": "5cfce16531b4a98c583f5a35953f181118c044c7f87a50e640f6f17668704ef4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在吃葡萄",
+    "file": "assets/audio/patterns/eating_sister_grapes.m4a"
+  },
+  "pattern-eating_brother_grass": {
+    "fingerprint": "e0444880952366aeccadf3c5446bb46cb32e88625d599c9b7b2c63ac6480301f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在吃草",
+    "file": "assets/audio/patterns/eating_brother_grass.m4a"
+  },
+  "pattern-eating_brother_strawberry": {
+    "fingerprint": "046b79cbc347d2d167df253b07ad48c2622495d97cb00aab6e0c8b7f091fe51c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在吃草莓",
+    "file": "assets/audio/patterns/eating_brother_strawberry.m4a"
+  },
+  "pattern-eating_brother_cake": {
+    "fingerprint": "97638e4a22f7f61bb6896fde78eeaeb2d0a6ee667117ad46056f7518ecdffbdd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在吃蛋糕",
+    "file": "assets/audio/patterns/eating_brother_cake.m4a"
+  },
+  "pattern-eating_brother_chocolate": {
+    "fingerprint": "7faeb9b6b337351bf9c4446b146c04316d686f0ca9c23637975b204dfd6884c5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在吃巧克力",
+    "file": "assets/audio/patterns/eating_brother_chocolate.m4a"
+  },
+  "pattern-eating_brother_biscuit": {
+    "fingerprint": "8400b4553422fb8c424db7e183d6761b8abae7e73411c74c4d79b34f0553ae3f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在吃饼干",
+    "file": "assets/audio/patterns/eating_brother_biscuit.m4a"
+  },
+  "pattern-eating_brother_vegetables": {
+    "fingerprint": "82996d9f1731ebf86c1bbe5cf712672abfc7104b055050baba2f03a84341d2dd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在吃菜",
+    "file": "assets/audio/patterns/eating_brother_vegetables.m4a"
+  },
+  "pattern-eating_brother_meat": {
+    "fingerprint": "0ff4409bc6f038d07ef97e94991712cb4771eaa99919b3b650d809089a027501",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在吃肉",
+    "file": "assets/audio/patterns/eating_brother_meat.m4a"
+  },
+  "pattern-eating_brother_rice": {
+    "fingerprint": "fdf36680e9721cef4bc9558e78f0234cbe76bb564af1467cca4a4d8ab54e5cb3",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在吃白米饭",
+    "file": "assets/audio/patterns/eating_brother_rice.m4a"
+  },
+  "pattern-eating_brother_grapes": {
+    "fingerprint": "9ff9fb211743b7ebeeba38374b6d2ee5fed6c6ca61a713a461a09bac34e2c5d8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在吃葡萄",
+    "file": "assets/audio/patterns/eating_brother_grapes.m4a"
+  },
+  "pattern-on_blackhorse_lawn": {
+    "fingerprint": "b8dba42ce53c32ce2ad6536718359755e0e8f8037c830a0e8add31272e3f4933",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在草地上",
+    "file": "assets/audio/patterns/on_blackhorse_lawn.m4a"
+  },
+  "pattern-on_blackhorse_table": {
+    "fingerprint": "7d8d4005ba722bf4af90bb7488fc0708115867275bee1eecb8ecfe335e69c2f7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在桌子上",
+    "file": "assets/audio/patterns/on_blackhorse_table.m4a"
+  },
+  "pattern-on_blackhorse_mountain": {
+    "fingerprint": "1d9fa2a826bc258ff5a286481b5f93489a8c8e2e0e2731fb962fa4eac3d9edf4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在山上",
+    "file": "assets/audio/patterns/on_blackhorse_mountain.m4a"
+  },
+  "pattern-on_blackhorse_bed": {
+    "fingerprint": "d5f16b6fd1d72208111b31eabf54571dadb115dcd47f3347d10d879cdc31fb0d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在床上",
+    "file": "assets/audio/patterns/on_blackhorse_bed.m4a"
+  },
+  "pattern-on_blackhorse_sofa": {
+    "fingerprint": "86d696706233e5b9cf89b4d78e086a302c934714fc4aebe1bce18fa51094bea8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在沙发上",
+    "file": "assets/audio/patterns/on_blackhorse_sofa.m4a"
+  },
+  "pattern-on_blackhorse_chair": {
+    "fingerprint": "f0acf9f0de59b8d5f6971515f72aa3789f4324cb38f45ce9e182d268d9138cf7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马在椅子上",
+    "file": "assets/audio/patterns/on_blackhorse_chair.m4a"
+  },
+  "pattern-on_yellowduck_lawn": {
+    "fingerprint": "a2aa6b9b9c540d497b7385f7ed67a1f69755c9ee2fc4d55e577fbd86d58237ed",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在草地上",
+    "file": "assets/audio/patterns/on_yellowduck_lawn.m4a"
+  },
+  "pattern-on_yellowduck_table": {
+    "fingerprint": "015f3773769d126e21f85cf83843a212e0ca15730e3f074e26f94a3422d3b4a6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在桌子上",
+    "file": "assets/audio/patterns/on_yellowduck_table.m4a"
+  },
+  "pattern-on_yellowduck_mountain": {
+    "fingerprint": "68677b3a25181c71f274671def1dedf1f32d3e12f1b12c426bf0fc4434cdc0d7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在山上",
+    "file": "assets/audio/patterns/on_yellowduck_mountain.m4a"
+  },
+  "pattern-on_yellowduck_bed": {
+    "fingerprint": "bb679ed38080fd0ae031a69f63e08015f25a7a7eb73876f052fdf8ace46e4b2c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在床上",
+    "file": "assets/audio/patterns/on_yellowduck_bed.m4a"
+  },
+  "pattern-on_yellowduck_sofa": {
+    "fingerprint": "a026880bb807a30b49a004a867478ff521c8b2b0c6c1f9a7e805f8b9908d98ba",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在沙发上",
+    "file": "assets/audio/patterns/on_yellowduck_sofa.m4a"
+  },
+  "pattern-on_yellowduck_chair": {
+    "fingerprint": "674c61267f6e199cddf7a990623886f4481418b2cd4d0180b2d0fd3be8fef900",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭在椅子上",
+    "file": "assets/audio/patterns/on_yellowduck_chair.m4a"
+  },
+  "pattern-on_yellowcow_lawn": {
+    "fingerprint": "1317824ffc8c6271179330dc4e73e6ee1d31fe06d852f01b2d3951822802d1e2",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在草地上",
+    "file": "assets/audio/patterns/on_yellowcow_lawn.m4a"
+  },
+  "pattern-on_yellowcow_table": {
+    "fingerprint": "2bab340ce431172e8328ea62501f78195e3afeee88a1ead2901a3aaa16a79e0e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在桌子上",
+    "file": "assets/audio/patterns/on_yellowcow_table.m4a"
+  },
+  "pattern-on_yellowcow_mountain": {
+    "fingerprint": "502a283319f5b65cf680858a1470fed29009fbd7f331d7a82bc1d59330260fad",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在山上",
+    "file": "assets/audio/patterns/on_yellowcow_mountain.m4a"
+  },
+  "pattern-on_yellowcow_bed": {
+    "fingerprint": "ef9e8e39bab1c688753bc10155370b1257ab6ab10c65b320998befda1b790369",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在床上",
+    "file": "assets/audio/patterns/on_yellowcow_bed.m4a"
+  },
+  "pattern-on_yellowcow_sofa": {
+    "fingerprint": "7a50dc1c502ba51d1d617f862e71ef58fdebb762d8e282f4f0c9fd282c00fa3b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在沙发上",
+    "file": "assets/audio/patterns/on_yellowcow_sofa.m4a"
+  },
+  "pattern-on_yellowcow_chair": {
+    "fingerprint": "44ed06597ea0ce99c5a80b8299a9580cceb2034524ef59d15be2a3c3ae29e7e2",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在椅子上",
+    "file": "assets/audio/patterns/on_yellowcow_chair.m4a"
+  },
+  "pattern-on_whitesheep_lawn": {
+    "fingerprint": "3e2b11fa7fd86a472226fc4e5f0c90f083a1247ee1137ee6c2b465e5d27e4d56",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在草地上",
+    "file": "assets/audio/patterns/on_whitesheep_lawn.m4a"
+  },
+  "pattern-on_whitesheep_table": {
+    "fingerprint": "632c7e6c7d6f78f634ec2deb003e374cb11662569335a0fc407a2a55b5dcfd62",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在桌子上",
+    "file": "assets/audio/patterns/on_whitesheep_table.m4a"
+  },
+  "pattern-on_whitesheep_mountain": {
+    "fingerprint": "cf3ccfacedac5a3fa21d5db7b6805e91660854ef9bd059db14d220922a616e76",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在山上",
+    "file": "assets/audio/patterns/on_whitesheep_mountain.m4a"
+  },
+  "pattern-on_whitesheep_bed": {
+    "fingerprint": "531710830f33ee0fc77aa3927302be33d7e97426933bd03013e144c3447ee331",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在床上",
+    "file": "assets/audio/patterns/on_whitesheep_bed.m4a"
+  },
+  "pattern-on_whitesheep_sofa": {
+    "fingerprint": "410cf2838add106136bf8ac5f655b460516aa05317df867e266f6f8e5d3d419b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在沙发上",
+    "file": "assets/audio/patterns/on_whitesheep_sofa.m4a"
+  },
+  "pattern-on_whitesheep_chair": {
+    "fingerprint": "f7e392bb0626e7ec7b82eed69524401b03bdc7eea44a813719f2e6c794df4197",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊在椅子上",
+    "file": "assets/audio/patterns/on_whitesheep_chair.m4a"
+  },
+  "pattern-on_whiterabbit_lawn": {
+    "fingerprint": "342f535ff17a39391623565c043f6b4c6c80935328050914f566f28c07040824",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在草地上",
+    "file": "assets/audio/patterns/on_whiterabbit_lawn.m4a"
+  },
+  "pattern-on_whiterabbit_table": {
+    "fingerprint": "fb8328e5228dfaee21b9e12fb224c47505aab4c3bbfd7bbef06caead01b0037b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在桌子上",
+    "file": "assets/audio/patterns/on_whiterabbit_table.m4a"
+  },
+  "pattern-on_whiterabbit_mountain": {
+    "fingerprint": "fd3412da7f2a4933a535f97431581411d856388a26ff14a8ffdcb16713843e99",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在山上",
+    "file": "assets/audio/patterns/on_whiterabbit_mountain.m4a"
+  },
+  "pattern-on_whiterabbit_bed": {
+    "fingerprint": "5afe117917331fa6693f03b1f142293737064267af6cbf33283503bb09ac1546",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在床上",
+    "file": "assets/audio/patterns/on_whiterabbit_bed.m4a"
+  },
+  "pattern-on_whiterabbit_sofa": {
+    "fingerprint": "7a366f81f257db6f004f9d9d7e9046f57a2ccc76856804477c047858855c405e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在沙发上",
+    "file": "assets/audio/patterns/on_whiterabbit_sofa.m4a"
+  },
+  "pattern-on_whiterabbit_chair": {
+    "fingerprint": "38443c2d930d01f32e39f592517309c713733bec92714272e0041e4a4aa65b3b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔在椅子上",
+    "file": "assets/audio/patterns/on_whiterabbit_chair.m4a"
+  },
+  "pattern-on_dad_lawn": {
+    "fingerprint": "00e9dadac9619ab5e865d2aed59c1cbe10629cf0bac4f15e2f8e09ce413b9a09",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在草地上",
+    "file": "assets/audio/patterns/on_dad_lawn.m4a"
+  },
+  "pattern-on_dad_table": {
+    "fingerprint": "a2ec7f5578fb276d195ed5ed0e0c356b9029d20b4be8801ecc592f754779b2bb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在桌子上",
+    "file": "assets/audio/patterns/on_dad_table.m4a"
+  },
+  "pattern-on_dad_mountain": {
+    "fingerprint": "1ddd99cd6b3df2d3815925710da889fcc3964a5b2e5efeb82cc59b71f398e9ab",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在山上",
+    "file": "assets/audio/patterns/on_dad_mountain.m4a"
+  },
+  "pattern-on_dad_bed": {
+    "fingerprint": "fa8705904f4efe4040ae69cc83a6995751773b97e1e81224c4c6918f956334bc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在床上",
+    "file": "assets/audio/patterns/on_dad_bed.m4a"
+  },
+  "pattern-on_dad_sofa": {
+    "fingerprint": "441a0384f460dab12e1c212c472ce8b8158219ff47e56265d0d25f692c5aab27",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在沙发上",
+    "file": "assets/audio/patterns/on_dad_sofa.m4a"
+  },
+  "pattern-on_dad_chair": {
+    "fingerprint": "0ed6e905d58ea4cd4e0cb79436cd7a4b07468d0ddf15e02c1f069dbb10ee3fee",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸在椅子上",
+    "file": "assets/audio/patterns/on_dad_chair.m4a"
+  },
+  "pattern-on_mum_lawn": {
+    "fingerprint": "cd7366f61d00061425cb9ab913719dfc558983f3669ce3ee4b8b5e70f8ebb3ba",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在草地上",
+    "file": "assets/audio/patterns/on_mum_lawn.m4a"
+  },
+  "pattern-on_mum_table": {
+    "fingerprint": "135c9fdd40c0d32cc7abd9afcf4c2023a1a6e0195a61f5b47f54e97db80f57d0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在桌子上",
+    "file": "assets/audio/patterns/on_mum_table.m4a"
+  },
+  "pattern-on_mum_mountain": {
+    "fingerprint": "9f2f3d8307eae2b6119a3d517f689c84938dc36ca8122ba96c54778b0c80684a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在山上",
+    "file": "assets/audio/patterns/on_mum_mountain.m4a"
+  },
+  "pattern-on_mum_bed": {
+    "fingerprint": "f1dce0f68d9045d66e5ed5e10be830f5e04a28a3f937ec4c0b255bce50f2326a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在床上",
+    "file": "assets/audio/patterns/on_mum_bed.m4a"
+  },
+  "pattern-on_mum_sofa": {
+    "fingerprint": "0a42008f4a326fb1d76c17cc964704bcf19b6735eeb64f88a58201b9b7824e7d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在沙发上",
+    "file": "assets/audio/patterns/on_mum_sofa.m4a"
+  },
+  "pattern-on_mum_chair": {
+    "fingerprint": "2a988fb95b66fa8a54962f0c479b029427fdfbcbeb9063f0b7ccf8b99e52eab8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈在椅子上",
+    "file": "assets/audio/patterns/on_mum_chair.m4a"
+  },
+  "pattern-on_sister_lawn": {
+    "fingerprint": "8f9e690219ef5af6a799390626cabba1f08e3ba613033474a8c18614e38ba2da",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在草地上",
+    "file": "assets/audio/patterns/on_sister_lawn.m4a"
+  },
+  "pattern-on_sister_table": {
+    "fingerprint": "4146698d65e363944a0742b8d928bfe1b13b9d0d1a13d21d0dec8025e58548e1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在桌子上",
+    "file": "assets/audio/patterns/on_sister_table.m4a"
+  },
+  "pattern-on_sister_mountain": {
+    "fingerprint": "bc581dc292f8d2c24539fdc1b06d749bc36f261d3b9fb62ac24b019d19b6e5cc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在山上",
+    "file": "assets/audio/patterns/on_sister_mountain.m4a"
+  },
+  "pattern-on_sister_bed": {
+    "fingerprint": "2c0c09432102db177f02c18c9099a52ce52b1b76ecd070724f48b41c7d4c4c03",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在床上",
+    "file": "assets/audio/patterns/on_sister_bed.m4a"
+  },
+  "pattern-on_sister_sofa": {
+    "fingerprint": "2006ed03a0bd61eba8fc19d15c1cb34bb949fbc3494c43d9005a0720e70b56d4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在沙发上",
+    "file": "assets/audio/patterns/on_sister_sofa.m4a"
+  },
+  "pattern-on_sister_chair": {
+    "fingerprint": "c9e83e2a17c64f594dbd6f3e7dcc6d4099f0bbcf7ed3ee68aedbc1ae10321761",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹在椅子上",
+    "file": "assets/audio/patterns/on_sister_chair.m4a"
+  },
+  "pattern-on_brother_lawn": {
+    "fingerprint": "7db934f0a37289948831c503942f314571d4cea9ab617c6d8e0d680d5915e080",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在草地上",
+    "file": "assets/audio/patterns/on_brother_lawn.m4a"
+  },
+  "pattern-on_brother_table": {
+    "fingerprint": "925821df9b6d19573f99cf5f77db08b1684c1bc0ea131c84fbc1f79e65966762",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在桌子上",
+    "file": "assets/audio/patterns/on_brother_table.m4a"
+  },
+  "pattern-on_brother_mountain": {
+    "fingerprint": "517e035319a1125a505f9b32aeca96e2a5022eb3e22f39e29058474b926b6ebb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在山上",
+    "file": "assets/audio/patterns/on_brother_mountain.m4a"
+  },
+  "pattern-on_brother_bed": {
+    "fingerprint": "176ebfa7ea4736e9e29e4c37cde2c52e3f92aebe28fed7de6a68c700acab6b83",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在床上",
+    "file": "assets/audio/patterns/on_brother_bed.m4a"
+  },
+  "pattern-on_brother_sofa": {
+    "fingerprint": "7f4a1dd8b83b2fb2c30cc7b3517c805b00b463615d56f0a4e7bd49351ffab1a5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在沙发上",
+    "file": "assets/audio/patterns/on_brother_sofa.m4a"
+  },
+  "pattern-on_brother_chair": {
+    "fingerprint": "7b28e88c17d23f5ce436b8e237fe08f6420ccbc642cb6252fbd8936a56dc963e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟在椅子上",
+    "file": "assets/audio/patterns/on_brother_chair.m4a"
+  },
+  "pattern-hobby_yellowduck_swim": {
+    "fingerprint": "c9b25df51929116db604c56d9bd6c3bd4a08fb0d12e0d37c947a8e3ddc936300",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢游泳",
+    "file": "assets/audio/patterns/hobby_yellowduck_swim.m4a"
+  },
+  "pattern-hobby_yellowduck_sing": {
+    "fingerprint": "71b2765b158e7486cbe6b672abf7d4329eba80b718be136c9c462be65ec569a5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢唱歌",
+    "file": "assets/audio/patterns/hobby_yellowduck_sing.m4a"
+  },
+  "pattern-hobby_yellowduck_sleep": {
+    "fingerprint": "2b218f2c0deff8ad18261c93518df8ab01cb84d59b1b27dadd0124c44ae4ba06",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢睡觉",
+    "file": "assets/audio/patterns/hobby_yellowduck_sleep.m4a"
+  },
+  "pattern-hobby_yellowduck_blocks": {
+    "fingerprint": "a18d5cc9b15fb38103572a66a44aa81404fcea3e00d20ebe90eea420a150e0ac",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢玩积木",
+    "file": "assets/audio/patterns/hobby_yellowduck_blocks.m4a"
+  },
+  "pattern-hobby_yellowduck_books": {
+    "fingerprint": "5ffc384ddd602dbf071c74df6fd773c59594e887d35ffec31c054325ae01f5ab",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢看书",
+    "file": "assets/audio/patterns/hobby_yellowduck_books.m4a"
+  },
+  "pattern-hobby_yellowduck_stories": {
+    "fingerprint": "82049b832d2f83d218a7a9603ad3efae0f6d16f06f0b6e20482aa1524686a50b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭喜欢读故事书",
+    "file": "assets/audio/patterns/hobby_yellowduck_stories.m4a"
+  },
+  "pattern-hobby_blackhorse_swim": {
+    "fingerprint": "8edded92e634cd06c4b42761620cc1c69b6f5ce3e3c220b9b92326c01d10fc13",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢游泳",
+    "file": "assets/audio/patterns/hobby_blackhorse_swim.m4a"
+  },
+  "pattern-hobby_blackhorse_sing": {
+    "fingerprint": "ffe961eb59598483c3259a0c213b21260520bfdd015143547ee8afabb5fa1716",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢唱歌",
+    "file": "assets/audio/patterns/hobby_blackhorse_sing.m4a"
+  },
+  "pattern-hobby_blackhorse_sleep": {
+    "fingerprint": "0fd589ccaea06c4bd8547847d5d1448d98d1f5c08044c86b0fb85b06523882ac",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢睡觉",
+    "file": "assets/audio/patterns/hobby_blackhorse_sleep.m4a"
+  },
+  "pattern-hobby_blackhorse_blocks": {
+    "fingerprint": "aa3db936b7d71a2bc6d486dbfcd3cdc5352461bee5c58dbe7bf5f45ce2eb2c1b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢玩积木",
+    "file": "assets/audio/patterns/hobby_blackhorse_blocks.m4a"
+  },
+  "pattern-hobby_blackhorse_books": {
+    "fingerprint": "c202f161a23771fab75876357f06a12ff531d80adca329180f112f55c263403a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢看书",
+    "file": "assets/audio/patterns/hobby_blackhorse_books.m4a"
+  },
+  "pattern-hobby_blackhorse_stories": {
+    "fingerprint": "5245a1a8178b7ef067c4e663b7e18a5a6477fe2179b5cf753a39c9b95a1e669a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马喜欢读故事书",
+    "file": "assets/audio/patterns/hobby_blackhorse_stories.m4a"
+  },
+  "pattern-hobby_whiterabbit_swim": {
+    "fingerprint": "f5073585b597cfd497874bec78591dd6317dc8c8dfa8f7e14a09707303210a7f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢游泳",
+    "file": "assets/audio/patterns/hobby_whiterabbit_swim.m4a"
+  },
+  "pattern-hobby_whiterabbit_sing": {
+    "fingerprint": "c3a8ae88e1522f45666a68f8105b9542cb05fbb8dbe987eb2f074471dd6d76d3",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢唱歌",
+    "file": "assets/audio/patterns/hobby_whiterabbit_sing.m4a"
+  },
+  "pattern-hobby_whiterabbit_sleep": {
+    "fingerprint": "6d02244c2e7fc8998c0b78eeebd80312c63c0f40950f99339811267b905e472c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢睡觉",
+    "file": "assets/audio/patterns/hobby_whiterabbit_sleep.m4a"
+  },
+  "pattern-hobby_whiterabbit_blocks": {
+    "fingerprint": "92966b7c45a855c77a013940a7c3958a1928ce2d722335f617e271378af0861e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢玩积木",
+    "file": "assets/audio/patterns/hobby_whiterabbit_blocks.m4a"
+  },
+  "pattern-hobby_whiterabbit_books": {
+    "fingerprint": "3ce54086fa848792672b8e5b974168359ddc3226f8d720b1ff44bd50e9cbce08",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢看书",
+    "file": "assets/audio/patterns/hobby_whiterabbit_books.m4a"
+  },
+  "pattern-hobby_whiterabbit_stories": {
+    "fingerprint": "3898d92d052bda1a4dfb299c6965009628d471df275451866d023914b78db860",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔喜欢读故事书",
+    "file": "assets/audio/patterns/hobby_whiterabbit_stories.m4a"
+  },
+  "pattern-hobby_me_swim": {
+    "fingerprint": "7f74677fe4a0337ab37a38c00044eeb1a699d907b1bb999ecf76c863e7612e3e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我喜欢游泳",
+    "file": "assets/audio/patterns/hobby_me_swim.m4a"
+  },
+  "pattern-hobby_me_sing": {
+    "fingerprint": "a10932106cc44f1670417f8fc59a8d9db8826d71b5e41f9c9ab501c4ed185174",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我喜欢唱歌",
+    "file": "assets/audio/patterns/hobby_me_sing.m4a"
+  },
+  "pattern-hobby_me_sleep": {
+    "fingerprint": "9551ce5c918ad49d13212d200fea07c8c45718bbc7ed89d0de23f1020207fc65",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我喜欢睡觉",
+    "file": "assets/audio/patterns/hobby_me_sleep.m4a"
+  },
+  "pattern-hobby_me_blocks": {
+    "fingerprint": "05e636b17fd81c6f6233f73e9f8395152e878d8fb05f33f857a4ab39f54e86c5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我喜欢玩积木",
+    "file": "assets/audio/patterns/hobby_me_blocks.m4a"
+  },
+  "pattern-hobby_me_books": {
+    "fingerprint": "4aa0e16608dac60523f2f375f4566d695d3b08272bbe2992177c982b30a95ad2",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我喜欢看书",
+    "file": "assets/audio/patterns/hobby_me_books.m4a"
+  },
+  "pattern-hobby_me_stories": {
+    "fingerprint": "4d8bb0060600ce40ed35e32b0e742a22c97cb27bce06da31ee8adbc43cf17f9a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我喜欢读故事书",
+    "file": "assets/audio/patterns/hobby_me_stories.m4a"
+  },
+  "pattern-hobby_we_swim": {
+    "fingerprint": "aa795d98618c41b8a020e660e7714d889dc3a954dfb8c8708604f8aa1122bbef",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我们喜欢游泳",
+    "file": "assets/audio/patterns/hobby_we_swim.m4a"
+  },
+  "pattern-hobby_we_sing": {
+    "fingerprint": "5c493ad3df7ae3cddfb4400ab4cce661e94cdc7b42569a6300d16f39726f1ccb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我们喜欢唱歌",
+    "file": "assets/audio/patterns/hobby_we_sing.m4a"
+  },
+  "pattern-hobby_we_sleep": {
+    "fingerprint": "b77161d23dba95d304132bae59c7f311cad4974bccedb336e77c508a690f3c4d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我们喜欢睡觉",
+    "file": "assets/audio/patterns/hobby_we_sleep.m4a"
+  },
+  "pattern-hobby_we_blocks": {
+    "fingerprint": "eace68a4dc2787f03490720d7377dca97cd7f21582dfcdde998c779589453ed0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我们喜欢玩积木",
+    "file": "assets/audio/patterns/hobby_we_blocks.m4a"
+  },
+  "pattern-hobby_we_books": {
+    "fingerprint": "09b37600c3bdddf04cc85a4651b5381038568ef49a3173560621e02a27cfc29f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我们喜欢看书",
+    "file": "assets/audio/patterns/hobby_we_books.m4a"
+  },
+  "pattern-hobby_we_stories": {
+    "fingerprint": "da7bb901990c9090bf5d31a6eeb487c7f070422b94387daaeaa906a3fd9287cc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我们喜欢读故事书",
+    "file": "assets/audio/patterns/hobby_we_stories.m4a"
+  },
+  "pattern-hobby_dad_swim": {
+    "fingerprint": "ecfc728986517abfe6f437fe9a1dbef0bd9f308acb1319ddfdbc3d8213229d29",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢游泳",
+    "file": "assets/audio/patterns/hobby_dad_swim.m4a"
+  },
+  "pattern-hobby_dad_sing": {
+    "fingerprint": "80c2b7bdc5050fa889f2f247760677eb697d76da9ae77942d3d2588955f0e11a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢唱歌",
+    "file": "assets/audio/patterns/hobby_dad_sing.m4a"
+  },
+  "pattern-hobby_dad_sleep": {
+    "fingerprint": "9da85e3a3f56904ee4df31c7915b628c0dbafd6829abd83d799d6014ce1f0792",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢睡觉",
+    "file": "assets/audio/patterns/hobby_dad_sleep.m4a"
+  },
+  "pattern-hobby_dad_blocks": {
+    "fingerprint": "23a52895f428341902f6597ae6b4c7a33bfedc08608eccbd8f9d04e44801a3d3",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢玩积木",
+    "file": "assets/audio/patterns/hobby_dad_blocks.m4a"
+  },
+  "pattern-hobby_dad_books": {
+    "fingerprint": "84c453f491eddab9132efe83e4516150b1ef119776db78f85194a340ef6bcf5e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢看书",
+    "file": "assets/audio/patterns/hobby_dad_books.m4a"
+  },
+  "pattern-hobby_dad_stories": {
+    "fingerprint": "19966361fd51a4fbcd09869448f295d6568158a68af79bd4759c4293a337445c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸喜欢读故事书",
+    "file": "assets/audio/patterns/hobby_dad_stories.m4a"
+  },
+  "pattern-hobby_mum_swim": {
+    "fingerprint": "25f1ad47b99de09611d2d699c6e7673bf39e1263523bf83552b3d3ac2672fcb1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢游泳",
+    "file": "assets/audio/patterns/hobby_mum_swim.m4a"
+  },
+  "pattern-hobby_mum_sing": {
+    "fingerprint": "eb3ef5ad0c8a05a2be03465a55b443a871b3f9c65d01e321ff74d19e0394a28a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢唱歌",
+    "file": "assets/audio/patterns/hobby_mum_sing.m4a"
+  },
+  "pattern-hobby_mum_sleep": {
+    "fingerprint": "b508079b345e3f7bdb715c9853ed32b7ae45b9e00b160c1572c4fb24a766fffc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢睡觉",
+    "file": "assets/audio/patterns/hobby_mum_sleep.m4a"
+  },
+  "pattern-hobby_mum_blocks": {
+    "fingerprint": "4d9aefbf3d08c93c791c39788a51b88c65a6e59ea96ad0109aebc1de96c42acf",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢玩积木",
+    "file": "assets/audio/patterns/hobby_mum_blocks.m4a"
+  },
+  "pattern-hobby_mum_books": {
+    "fingerprint": "705540b64c2cb636ef3efdec2324c95cacba257ecdb94006cdf26bf8d43e0e3c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢看书",
+    "file": "assets/audio/patterns/hobby_mum_books.m4a"
+  },
+  "pattern-hobby_mum_stories": {
+    "fingerprint": "35195f92017a4391e4db3d4e96fab0d179c942ea4a3b3b81dec159e473fa2bd6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈喜欢读故事书",
+    "file": "assets/audio/patterns/hobby_mum_stories.m4a"
+  },
+  "pattern-hobby_sister_swim": {
+    "fingerprint": "3eec042f856a34cf3e9a919396afe56853c6e319f044e9c586327fa497db63ef",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢游泳",
+    "file": "assets/audio/patterns/hobby_sister_swim.m4a"
+  },
+  "pattern-hobby_sister_sing": {
+    "fingerprint": "c6404988612b690482b53967484a782099780a0aba4894099a50b377654a0e9c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢唱歌",
+    "file": "assets/audio/patterns/hobby_sister_sing.m4a"
+  },
+  "pattern-hobby_sister_sleep": {
+    "fingerprint": "cbe347483f197b9377645b6b0be37a513adc92be5ed4f4630a1b5c73e6a45067",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢睡觉",
+    "file": "assets/audio/patterns/hobby_sister_sleep.m4a"
+  },
+  "pattern-hobby_sister_blocks": {
+    "fingerprint": "aada5cafc92da6aaf56a6aff3fa3062df8f9ca7a574c7d9fbfc57810cac82d1b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢玩积木",
+    "file": "assets/audio/patterns/hobby_sister_blocks.m4a"
+  },
+  "pattern-hobby_sister_books": {
+    "fingerprint": "ed8f4127dc42799b08885a60bbf95e79b7cd38f82f992599750bc66afd811ff6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢看书",
+    "file": "assets/audio/patterns/hobby_sister_books.m4a"
+  },
+  "pattern-hobby_sister_stories": {
+    "fingerprint": "e4436357f04a1810914216ff6174de145ae06d852d92e41555a21b8d1cc7f660",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹喜欢读故事书",
+    "file": "assets/audio/patterns/hobby_sister_stories.m4a"
+  },
+  "pattern-hobby_brother_swim": {
+    "fingerprint": "0429baa3e1a050d92cd44a11da639539a5a27f7be1505eabc776b58ff47e083b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢游泳",
+    "file": "assets/audio/patterns/hobby_brother_swim.m4a"
+  },
+  "pattern-hobby_brother_sing": {
+    "fingerprint": "89cc512270bdad9948a3fa720d228883636a436789dc944c3787f1f6f8f23c08",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢唱歌",
+    "file": "assets/audio/patterns/hobby_brother_sing.m4a"
+  },
+  "pattern-hobby_brother_sleep": {
+    "fingerprint": "c45a253536ea5750d0676bbe49f0565dd2c716af602ec58b6074f118a3407a98",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢睡觉",
+    "file": "assets/audio/patterns/hobby_brother_sleep.m4a"
+  },
+  "pattern-hobby_brother_blocks": {
+    "fingerprint": "31ac47ae7c6f9bcd870eb4bce894c884b045da0e1c978fb99bd3fe9a2877eb13",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢玩积木",
+    "file": "assets/audio/patterns/hobby_brother_blocks.m4a"
+  },
+  "pattern-hobby_brother_books": {
+    "fingerprint": "571732f9597fa3e75278888c0c0bef952a49c5680f89c4b65f5cd5890c8a8455",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢看书",
+    "file": "assets/audio/patterns/hobby_brother_books.m4a"
+  },
+  "pattern-hobby_brother_stories": {
+    "fingerprint": "2878ccf5100322951627335528ea38f07576102a1119891cbfc724ba30e049ff",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟喜欢读故事书",
+    "file": "assets/audio/patterns/hobby_brother_stories.m4a"
+  },
+  "pattern-tasty_grass": {
+    "fingerprint": "d65723c72b4fc70c92ed2d26c9958d064ce35987a121015eb5c49f55650b2aa1",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "草又香又甜",
+    "file": "assets/audio/patterns/tasty_grass.m4a"
+  },
+  "pattern-tasty_strawberry": {
+    "fingerprint": "1f9540fbf44b6d0c779a385fd7044f582a14c223009eaefe4bb4fe9094e1241c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "草莓又香又甜",
+    "file": "assets/audio/patterns/tasty_strawberry.m4a"
+  },
+  "pattern-tasty_cake": {
+    "fingerprint": "277ecabcd00732b905ef2cbbcce573cbcb51b05b755ad0b7a4d8f44f1d7c1a93",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "蛋糕又香又甜",
+    "file": "assets/audio/patterns/tasty_cake.m4a"
+  },
+  "pattern-tasty_chocolate": {
+    "fingerprint": "24d828832621abb9ec36872451415ffe75515cf0afa70630eaf473f096ee465f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "巧克力又香又甜",
+    "file": "assets/audio/patterns/tasty_chocolate.m4a"
+  },
+  "pattern-tasty_biscuit": {
+    "fingerprint": "31f96b4e7e7e39e9aa5af4425bfe6cad4f731b644e5dc06ae4cb2d7b5bfef318",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "饼干又香又甜",
+    "file": "assets/audio/patterns/tasty_biscuit.m4a"
+  },
+  "pattern-tasty_vegetables": {
+    "fingerprint": "5bc92953369758ceb09ea0c6a4e93eae942aa3324a17479c9f86cfc6ad4fefdd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "菜又香又甜",
+    "file": "assets/audio/patterns/tasty_vegetables.m4a"
+  },
+  "pattern-tasty_meat": {
+    "fingerprint": "dabeaf8678b9fa6c1d421976fc5004d3080b3873e1caf150acb8959267a3596a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "肉又香又甜",
+    "file": "assets/audio/patterns/tasty_meat.m4a"
+  },
+  "pattern-tasty_rice": {
+    "fingerprint": "526507bd4b52ae6b5789be2a6b5d34c579db941b8a1dd9267150c76b212009aa",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "白米饭又香又甜",
+    "file": "assets/audio/patterns/tasty_rice.m4a"
+  },
+  "pattern-tasty_grapes": {
+    "fingerprint": "afb59d382f9f5e96235ea523dd20e3643bbf8eedbd75743cbfc3804d487eeb01",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "葡萄又香又甜",
+    "file": "assets/audio/patterns/tasty_grapes.m4a"
+  },
+  "pattern-creature_little_black_horse": {
+    "fingerprint": "278f7b1292895d4c7ff1f750198aefb842771a75acc53e572cd2e60ff7e7ce8b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马",
+    "file": "assets/audio/patterns/creature_little_black_horse.m4a"
+  },
+  "pattern-creature_little_black_duck": {
+    "fingerprint": "ff16cf0d043cce600db6ea79409ddd067b7f3ed2391f39d3756344bd7299f073",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑鸭",
+    "file": "assets/audio/patterns/creature_little_black_duck.m4a"
+  },
+  "pattern-creature_little_black_cow": {
+    "fingerprint": "d1e86b041eca726b45eb3c78d874e7a806713461111624b5dfafb6378b0ff157",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑牛",
+    "file": "assets/audio/patterns/creature_little_black_cow.m4a"
+  },
+  "pattern-creature_little_black_sheep": {
+    "fingerprint": "5018ce9b768a417450b43fb3a420c34c05053e67654bbc2b04d387670d00ec44",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑羊",
+    "file": "assets/audio/patterns/creature_little_black_sheep.m4a"
+  },
+  "pattern-creature_little_black_rabbit": {
+    "fingerprint": "acf6e9da5e35721cd20684574749dd11245549a2361f31f0a5744f0ff6671850",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑兔",
+    "file": "assets/audio/patterns/creature_little_black_rabbit.m4a"
+  },
+  "pattern-creature_little_yellow_horse": {
+    "fingerprint": "f443e01b3c7a06516a7c9c66eed60832cd6d89b84bd5d48bc9f6d27ddeea4869",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄马",
+    "file": "assets/audio/patterns/creature_little_yellow_horse.m4a"
+  },
+  "pattern-creature_little_yellow_duck": {
+    "fingerprint": "4d0141cae69321ebf726b0eca2621cb3010e487033fa35a860cf31f3a0d03eb8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭",
+    "file": "assets/audio/patterns/creature_little_yellow_duck.m4a"
+  },
+  "pattern-creature_little_yellow_cow": {
+    "fingerprint": "ace9064cd908aa040bcf628355b12974f9ffc26af14436be348e805f80d5b8b8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄牛",
+    "file": "assets/audio/patterns/creature_little_yellow_cow.m4a"
+  },
+  "pattern-creature_little_yellow_sheep": {
+    "fingerprint": "05cd1fa1175f99b6eab55c00527c4ef00bcad27ff11671e453aa9d1a9179c1a9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄羊",
+    "file": "assets/audio/patterns/creature_little_yellow_sheep.m4a"
+  },
+  "pattern-creature_little_yellow_rabbit": {
+    "fingerprint": "8efa2ffe43d1b31436411b628ad8a7606831b6780ee3790c55ca05a7b2a0a55d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄兔",
+    "file": "assets/audio/patterns/creature_little_yellow_rabbit.m4a"
+  },
+  "pattern-creature_little_white_horse": {
+    "fingerprint": "9b19c961db9bbf8e7ee3f4ffadd97cf85a5812d0f05134f4918819bac891e6a3",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白马",
+    "file": "assets/audio/patterns/creature_little_white_horse.m4a"
+  },
+  "pattern-creature_little_white_duck": {
+    "fingerprint": "23e0a78ce10ef84181f0f3354aacbdd285a5b565b3a49de050e49d6ad5425d95",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白鸭",
+    "file": "assets/audio/patterns/creature_little_white_duck.m4a"
+  },
+  "pattern-creature_little_white_cow": {
+    "fingerprint": "24432197abe181cb22a60d279504fcbb77f0ff1292374dfcf852d72014e98c45",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白牛",
+    "file": "assets/audio/patterns/creature_little_white_cow.m4a"
+  },
+  "pattern-creature_little_white_sheep": {
+    "fingerprint": "5a453d63b5568a1778a0bf0bfbb4dc4afaeb8bdf891948e35e506f1850df7abf",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊",
+    "file": "assets/audio/patterns/creature_little_white_sheep.m4a"
+  },
+  "pattern-creature_little_white_rabbit": {
+    "fingerprint": "f97f363379f7dd1d310a10b331bc10c516c73fc93945b1c68f24afcce9c2f246",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔",
+    "file": "assets/audio/patterns/creature_little_white_rabbit.m4a"
+  },
+  "pattern-creature_little_red_horse": {
+    "fingerprint": "50b329e9bab7d48308232db2d540fa7ce735ed907d78f3483b97247ab177b15a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小红马",
+    "file": "assets/audio/patterns/creature_little_red_horse.m4a"
+  },
+  "pattern-creature_little_red_duck": {
+    "fingerprint": "000b05fdc17d4efa6bae082ad1ebf21912a6909c1234beeb296cb1a04a678829",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小红鸭",
+    "file": "assets/audio/patterns/creature_little_red_duck.m4a"
+  },
+  "pattern-creature_little_red_cow": {
+    "fingerprint": "d4d8e93e61c9dd87e072f073f101f919df2f5be9bd8b016482c18b30c247c331",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小红牛",
+    "file": "assets/audio/patterns/creature_little_red_cow.m4a"
+  },
+  "pattern-creature_little_red_sheep": {
+    "fingerprint": "1bce6ce9c6bdc87baa5c5ab022b3b2de01d1583fccf4a3e8a46915145fdf80fb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小红羊",
+    "file": "assets/audio/patterns/creature_little_red_sheep.m4a"
+  },
+  "pattern-creature_little_red_rabbit": {
+    "fingerprint": "7bdf22bcbf02a296629945c6bef14c8e8bed1574367b231255a1ceef10317ed7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小红兔",
+    "file": "assets/audio/patterns/creature_little_red_rabbit.m4a"
+  },
+  "pattern-creature_little_green_horse": {
+    "fingerprint": "c74e348348272a14366a38d773b993a57aed5e2a168f1af3941c44740d6dbafc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小绿马",
+    "file": "assets/audio/patterns/creature_little_green_horse.m4a"
+  },
+  "pattern-creature_little_green_duck": {
+    "fingerprint": "7e7c64a27bb4af09a1ca17e48996caa7edd8f842f2b9de0d91b6a110bb4bf986",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小绿鸭",
+    "file": "assets/audio/patterns/creature_little_green_duck.m4a"
+  },
+  "pattern-creature_little_green_cow": {
+    "fingerprint": "2c9bee9e1c3600a8db30b731bf59884d87160b17fa45eb3b7f6fb876f944f362",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小绿牛",
+    "file": "assets/audio/patterns/creature_little_green_cow.m4a"
+  },
+  "pattern-creature_little_green_sheep": {
+    "fingerprint": "2106074ad2f66c137da246e385caa23e42bbc056304963383a8aeb751ad444dc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小绿羊",
+    "file": "assets/audio/patterns/creature_little_green_sheep.m4a"
+  },
+  "pattern-creature_little_green_rabbit": {
+    "fingerprint": "59d690f09e257cde7a2eb18b4cb5a0695c15cae67bb995f860aebf7e320a865f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小绿兔",
+    "file": "assets/audio/patterns/creature_little_green_rabbit.m4a"
+  },
+  "pattern-creature_big_black_horse": {
+    "fingerprint": "1ba74f459b73f4f469cf1f1c03540a246697fb176139fc8cfb5167edf2e92c14",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黑马",
+    "file": "assets/audio/patterns/creature_big_black_horse.m4a"
+  },
+  "pattern-creature_big_black_duck": {
+    "fingerprint": "801a2d650c08d1d9297e8e3667d777b75d425afe15e512ac4ff24b78d607f630",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黑鸭",
+    "file": "assets/audio/patterns/creature_big_black_duck.m4a"
+  },
+  "pattern-creature_big_black_cow": {
+    "fingerprint": "9d078a7a4f6af4cacd79f31fbbcdb386b8c2a2b330a959daf3b4c751e4faa00a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黑牛",
+    "file": "assets/audio/patterns/creature_big_black_cow.m4a"
+  },
+  "pattern-creature_big_black_sheep": {
+    "fingerprint": "1ccf24227f7743ed2eb506d8b54195581b081802649eaabb407d4dc951cbb04e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黑羊",
+    "file": "assets/audio/patterns/creature_big_black_sheep.m4a"
+  },
+  "pattern-creature_big_black_rabbit": {
+    "fingerprint": "2fbfce00ae9a9cfe1e9cec9d01cf4664a8109c83acdb4af8987412b8f1469edf",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黑兔",
+    "file": "assets/audio/patterns/creature_big_black_rabbit.m4a"
+  },
+  "pattern-creature_big_yellow_horse": {
+    "fingerprint": "0d7ab0667922c0b2c9b53c185430879bad5e946a8a0c3feb68a412e0b79ba298",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄马",
+    "file": "assets/audio/patterns/creature_big_yellow_horse.m4a"
+  },
+  "pattern-creature_big_yellow_duck": {
+    "fingerprint": "3bb498fefa99f85083b4664ac689372d37fe1d51578b9a41d84b81505e5652da",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄鸭",
+    "file": "assets/audio/patterns/creature_big_yellow_duck.m4a"
+  },
+  "pattern-creature_big_yellow_cow": {
+    "fingerprint": "470fbb8a00f7bdc311531911d96e8817b404d53a55b38fd4af2a8e8588caa473",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛",
+    "file": "assets/audio/patterns/creature_big_yellow_cow.m4a"
+  },
+  "pattern-creature_big_yellow_sheep": {
+    "fingerprint": "717e106dea93d8ebcf4cd9a19249ad07dc3216ac508c9626c4eec023753677c7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄羊",
+    "file": "assets/audio/patterns/creature_big_yellow_sheep.m4a"
+  },
+  "pattern-creature_big_yellow_rabbit": {
+    "fingerprint": "537d238d52327442a8cacdf8ebc4a912279eb0515dbe5844133441355fbb0024",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄兔",
+    "file": "assets/audio/patterns/creature_big_yellow_rabbit.m4a"
+  },
+  "pattern-creature_big_white_horse": {
+    "fingerprint": "389779d941d97494fadf903c5cd8923059b420a0da185c5eca97defc212c6172",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大白马",
+    "file": "assets/audio/patterns/creature_big_white_horse.m4a"
+  },
+  "pattern-creature_big_white_duck": {
+    "fingerprint": "8e2222d4866397765b46e3eb119856ce4f8004b6b5c70de81d3e9fc6e41f5a48",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大白鸭",
+    "file": "assets/audio/patterns/creature_big_white_duck.m4a"
+  },
+  "pattern-creature_big_white_cow": {
+    "fingerprint": "3a750a1786fd35a5a462105769c633c3878693e80294e2579d83ddec9dcb28aa",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大白牛",
+    "file": "assets/audio/patterns/creature_big_white_cow.m4a"
+  },
+  "pattern-creature_big_white_sheep": {
+    "fingerprint": "910fa9e201859bb27ddbe24820f2a6156ff82083a0ff716c26ffd0c3e236ae8d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大白羊",
+    "file": "assets/audio/patterns/creature_big_white_sheep.m4a"
+  },
+  "pattern-creature_big_white_rabbit": {
+    "fingerprint": "cc074138ffee4467c3bc4efab069f20d2ecbf0310987b91acf0443b847460dc9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大白兔",
+    "file": "assets/audio/patterns/creature_big_white_rabbit.m4a"
+  },
+  "pattern-creature_big_red_horse": {
+    "fingerprint": "db44aa2782df0b9227844812b37703ebdcb362082b4c4a388704e57bad4c8f3e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大红马",
+    "file": "assets/audio/patterns/creature_big_red_horse.m4a"
+  },
+  "pattern-creature_big_red_duck": {
+    "fingerprint": "67355436b7551d9a491456e3d575b3cdf4cd39b0d315b9b497c3fa8150bbbc12",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大红鸭",
+    "file": "assets/audio/patterns/creature_big_red_duck.m4a"
+  },
+  "pattern-creature_big_red_cow": {
+    "fingerprint": "daeea6dac8070aad5591f4bd5fbf7da2187d314af7d67852e5fce48e6758a43f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大红牛",
+    "file": "assets/audio/patterns/creature_big_red_cow.m4a"
+  },
+  "pattern-creature_big_red_sheep": {
+    "fingerprint": "86ace98b6631075e69e8c4afe775bfd08cae9c84726e3ff5123d2a76a0d8bf6d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大红羊",
+    "file": "assets/audio/patterns/creature_big_red_sheep.m4a"
+  },
+  "pattern-creature_big_red_rabbit": {
+    "fingerprint": "95023a8b4e10806ed0b09c9d7cc079b4dc9b612e36c3195e7c71e00d8c2cb5eb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大红兔",
+    "file": "assets/audio/patterns/creature_big_red_rabbit.m4a"
+  },
+  "pattern-creature_big_green_horse": {
+    "fingerprint": "3704c9a95ad706bd36f5328d2819596620481cc95bd3a8273a28abe37ceaad1e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大绿马",
+    "file": "assets/audio/patterns/creature_big_green_horse.m4a"
+  },
+  "pattern-creature_big_green_duck": {
+    "fingerprint": "5d9e888a8bbb874da5994e2b9918b5ffbefa848d478c6e2330798a70c0de9072",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大绿鸭",
+    "file": "assets/audio/patterns/creature_big_green_duck.m4a"
+  },
+  "pattern-creature_big_green_cow": {
+    "fingerprint": "90e67c194c09fc6464e9afbe7186d01dd6832a992dc6c4c746100f52489200f0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大绿牛",
+    "file": "assets/audio/patterns/creature_big_green_cow.m4a"
+  },
+  "pattern-creature_big_green_sheep": {
+    "fingerprint": "c8be84951c95d50fa88ba5ea7256dff6fb123c4e82e356e96b53431434764a3d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大绿羊",
+    "file": "assets/audio/patterns/creature_big_green_sheep.m4a"
+  },
+  "pattern-creature_big_green_rabbit": {
+    "fingerprint": "3a2fa8d05b8e2ba67b17d0b79d7304fc3973775c8384841117613ff768b81837",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大绿兔",
+    "file": "assets/audio/patterns/creature_big_green_rabbit.m4a"
   }
 }

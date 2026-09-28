@@ -21,10 +21,15 @@ It is built for a four-year-old who can’t read yet, so everything works throug
   - **Streaks:** three perfect rounds in a row win the panda a new hat, chosen in the sticker book.
   - **Mix:** in Games, turn on Mix in the lesson row to play words from several lessons together.
   - **For grown-ups:** choose exactly which words play, and see which characters are known, still being practised or tricky.
-- **Build:** put the textbook sentence’s words in order on the train. **Word by word** plays each word and lights up its tile.
+- **Build → Train:** put the textbook sentence’s words in order on the train. **Word by word** plays each word and lights up its tile.
+- **Build → Swap it:** start from a lesson sentence (小黑马喜欢吃草) and tap a word to swap it for another picture (小白兔喜欢吃蛋糕). Each new sentence is spoken, pictured and earns a star. This is the classroom substitution drill, so she learns to make her own sentences, not just repeat the lesson’s.
+- **Build → Silly machine:** pull the lever and the reels land on a new, often silly, sentence (大黄牛在沙发上); tap one reel to spin just that word.
+- Both use six patterns taken from the lessons (`data/patterns.json`): likes to eat, is eating, is on, likes (an activity), 又香又甜, and size + colour + animal. Every option is a lesson word, so all 329 combinations are new but grammatical, and each has its own recording. The size + colour + animal pattern recolours and resizes the animal drawing.
 - Stars, chimes and confetti for rewards. Stars reset when the page closes. Stickers, hats, game levels and the character list are saved in the browser on that device only; nothing is sent anywhere.
 
 Every word picture is a drawing in one flat, friendly style that matches the panda (`src/illustrations.js`). A picture must show the word itself, never one example of it (an elephant would teach “elephant”, not 大). Qualities are shown by contrast: the same object twice, with the answer glowing under an arrow and the other faded. Family words highlight one person in the same family, actions show someone doing them, colours are shapeless paint blobs and shapes are colourless outlines. Picture choices are mapped in `src/pictures.js`; they are hints, not translations.
+
+**Use it like an app:** add it to the phone or tablet home screen (Android: the **Add to home screen** button in the grown-ups drawer, or the browser menu; iPhone and iPad: Safari → Share → **Add to Home Screen**). It then opens full screen with the panda icon, and a service worker (`sw.js`) keeps the app, the words and every recording on the device so it also works offline. When online it always fetches the latest version first.
 
 Recordings are slow, synthetic female Mandarin (the macOS Tingting voice), not textbook audio. The site always shows its light theme, even when a browser or device prefers dark mode.
 

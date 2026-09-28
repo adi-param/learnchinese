@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate static Mandarin audio on macOS. Not needed to build or use the site."""
 import hashlib
+import itertools
 import json
 import subprocess
 import tempfile
@@ -72,6 +73,22 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
             subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(RATE), '-o', str(aiff), text], check=True)
             subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
         manifest[key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': RATE, 'text': text, 'file': f'assets/audio/{destination.name}'}
+    # New sentences for Swap it and the Silly machine: every combination each lesson pattern allows.
+    patterns = json.loads((ROOT / 'data/patterns.json').read_text())
+    (folder / 'patterns').mkdir(exist_ok=True)
+    for pattern in patterns['patterns']:
+        slots = [part['slot'] for part in pattern['parts'] if 'slot' in part]
+        for combo in itertools.product(*(patterns['slots'][slot] for slot in slots)):
+            chosen = dict(zip(slots, combo))
+            text = ''.join(chosen[part['slot']]['hanzi'] if 'slot' in part else part['hanzi'] for part in pattern['parts'])
+            key = '_'.join([pattern['id'], *(option['key'] for option in combo)])
+            fingerprint = hashlib.sha256(f"{VOICE}|{PHRASE_RATE}|{text}".encode()).hexdigest()
+            destination = folder / 'patterns' / f'{key}.m4a'
+            if manifest.get('pattern-'+key, {}).get('fingerprint') != fingerprint or not destination.exists():
+                aiff = Path(temporary) / 'voice.aiff'
+                subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(PHRASE_RATE), '-o', str(aiff), text], check=True)
+                subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
+            manifest['pattern-'+key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': PHRASE_RATE, 'text': text, 'file': f'assets/audio/patterns/{destination.name}'}
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
 library_path.write_text(json.dumps(library, ensure_ascii=False, indent=2)+'\n')
 print(f"Recorded {len(library['items'])} items.")
