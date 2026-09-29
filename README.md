@@ -14,18 +14,18 @@ It is built for a four-year-old who can’t read yet, so everything works throug
 
 - **Words:** browse a lesson’s words, phrases and sentences; tap any card to hear it.
 - **Flip cards:** switch between Words and Phrases, say it together, then flip to see the picture, Pinyin and English.
-- **Games → Pairs:** tap a Chinese word, then its picture. Tapping only selects; a separate speaker button plays the word when wanted. A correct pair says the word, the panda cheers in Mandarin (对了！真棒！好厉害！) and an animated arrow joins the pair in its own colour. Each round ends with a big celebration, a recap of the words just learned, and a new sticker for the sticker book (tap the star).
-  - **Levels:** rounds start at 3 pairs and grow to 4 and 6 after two perfect rounds, stepping back after a hard one. Every other round is reversed (pictures on the left, find the character).
-  - **Games → Balloon pop:** the panda says a word and she pops the balloon carrying its character (3 balloons, 4 from level 2). After the right pop, the word's picture, Pinyin and meaning appear. A wrong balloon floats away and the word is repeated; the 🔊 button replays it any time. Levels, streaks, hints, stickers and the recap work the same as in Pairs.
-  - **Help:** after two misses the right partner glows, and mixed-up words come back first in later rounds.
-  - **Streaks:** three perfect rounds in a row win the panda a new hat, chosen in the sticker book.
-  - **Mix:** in Games, turn on Mix in the lesson row to play words from several lessons together.
-  - **For grown-ups:** choose exactly which words play, and see which characters are known, still being practised or tricky.
-- **Build → Train:** put the textbook sentence’s words in order on the train. **Word by word** plays each word and lights up its tile.
-- **Build → Swap it:** start from a lesson sentence (小黑马喜欢吃草) and tap a word to swap it for another picture (小白兔喜欢吃蛋糕). Each new sentence is spoken, pictured and earns a star. This is the classroom substitution drill, so she learns to make her own sentences, not just repeat the lesson’s.
-- **Build → Silly machine:** pull the lever and the reels land on a new, often silly, sentence (大黄牛在沙发上); tap one reel to spin just that word.
-- Both use six patterns taken from the lessons (`data/patterns.json`): likes to eat, is eating, is on, likes (an activity), 又香又甜, and size + colour + animal. Every option is a lesson word, so all 329 combinations are new but grammatical, and each has its own recording. The size + colour + animal pattern recolours and resizes the animal drawing.
-- Stars, chimes and confetti for rewards. Stars reset when the page closes. Stickers, hats, game levels and the character list are saved in the browser on that device only; nothing is sent anywhere.
+- **Games:** a menu of picture tiles, one per game. Pick lessons first in the lesson row (or turn on **Mix** for several); every game uses words from those lessons.
+  - **Pairs:** tap a Chinese word, then its picture. Tapping only selects; a separate speaker button plays the word when wanted. A correct pair says the word, the panda cheers in Mandarin (对了！真棒！好厉害！) and an animated arrow joins the pair in its own colour. Every other round is reversed (pictures on the left, find the character).
+  - **Balloon pop:** the panda says a word and she pops the balloon carrying its character. After the right pop, the word's picture, Pinyin and meaning appear; a wrong balloon floats away and the word is repeated.
+  - **Paint the animal:** the panda shows and says a phrase (大红马) and she builds it by picking the animal, the colour and the size. Each right pick ticks off its character and changes the drawing; the Pinyin appears once it is complete.
+  - **Feed the animal:** the sentence (小白兔喜欢吃草莓) is shown and spoken, and she feeds the animal the right food out of three; the food flies into its mouth.
+  - **Where is it?:** the sentence (小白羊在床上) is shown and spoken, and she taps the matching scene out of three.
+  - **Silly machine:** two reels, who and a food, and one lever; each spin lands on a new, often silly, sentence.
+  - Pairs and Balloon pop have levels (3, 4 then 6 words, stepping back after a hard round), a hint after two misses, mixed-up words dealt first, and a recap of the words learned. Every game ends with a big celebration and a **Play again** button.
+  - The phrase games use three patterns from the lessons (`data/patterns.json`): likes to eat, is on, and size + colour + animal. Every option is a lesson word, so all 185 combinations are new but grammatical, and each has its own recording. A lesson without enough words for a game falls back to every lesson and says so.
+  - **For grown-ups:** choose exactly which words Pairs and Balloon pop use, and see which characters are known, still being practised or tricky.
+- Wherever Chinese is spoken, the text is on screen and the character being said lights up, karaoke style (Balloon pop keeps the word hidden until it is popped, since the balloons are the answer). `scripts/generate-audio.py` measures where speech starts and ends in each recording so the timing fits.
+- Game levels and the character list are saved in the browser on that device only; nothing is sent anywhere.
 
 Every word picture is a drawing in one flat, friendly style that matches the panda (`src/illustrations.js`). A picture must show the word itself, never one example of it (an elephant would teach “elephant”, not 大). Qualities are shown by contrast: the same object twice, with the answer glowing under an arrow and the other faded. Family words highlight one person in the same family, actions show someone doing them, colours are shapeless paint blobs and shapes are colourless outlines. Picture choices are mapped in `src/pictures.js`; they are hints, not translations.
 

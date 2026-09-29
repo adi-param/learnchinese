@@ -9,13 +9,24 @@ export function matchingWords(items) {
 }
 export function sentenceComplete(expected, actual) { return expected.length===actual.length && expected.every((id,index)=>id===actual[index]); }
 export function sourceLabel(item,lessonId) {return [...new Set(item.occurrences.filter(o=>lessonId==='all'||o.lessonId===lessonId).map(o=>`${o.sourceId==='book-1'?'Book 1':'Book 2'} · PDF page ${o.pdfPage}`))].join('; ');}
-// Deals match rounds from a shuffled queue so every word gets a turn before any repeats.
-// Words she recently mixed up (`priority`) come back first, filling at most half of the round.
-export function drawRound(queue, pool, size=4, random=Math.random, priority=[]) {
-  const first=priority.filter(item=>pool.includes(item)).slice(0,Math.ceil(size/2));
-  const next=[...first,...queue.filter(item=>pool.includes(item)&&!first.includes(item))];
-  if(next.length<size)next.push(...shuffle(pool.filter(item=>!next.includes(item)),random));
-  return {words:next.slice(0,size),queue:next.slice(size)};
+// Deals a round fairly across visits: the least recently practised words come first (ties broken at random),
+// so every word gets equal turns however short each visit is. `seen` maps word ids to the round they last
+// appeared in and is updated here. One mixed-up word may come back per round, but never two rounds running.
+export function dealRound(pool, size, progress, random=Math.random) {
+  const seen=progress.seen, round=progress.round, last=id=>seen[id]??-1;
+  const byAge=items=>items.map(item=>({item,key:last(item.id)+random()*.005})).sort((a,b)=>a.key-b.key).map(x=>x.item);
+  const comeback=byAge(pool.filter(item=>progress.missed.includes(item.id)&&last(item.id)<round)).slice(0,1);
+  const words=[...comeback,...byAge(pool.filter(item=>!comeback.includes(item)))].slice(0,Math.min(size,pool.length));
+  // Each word keeps its place in line (round, then position), so no word can cut ahead of an older one.
+  progress.round=round+1;words.forEach((item,index)=>{seen[item.id]=progress.round+index/100;});
+  return words;
+}
+// The same fairness for phrase-game choices: picks the least recently used option (ties at random) and marks it.
+export function leastRecent(options, seen, tag, random=Math.random) {
+  const age=o=>seen[tag+':'+o.key]??-1;
+  const pick=options.map(o=>({o,key:age(o)+random()*.5})).sort((a,b)=>a.key-b.key)[0].o;
+  seen[tag+':'+pick.key]=(seen.clock=(seen.clock||0)+1);
+  return pick;
 }
 // Pairs per match round, easiest first.
 export const MATCH_LEVELS=[3,4,6];

@@ -1,17 +1,17 @@
 import {createAudioPlayer} from './audio-player.js';
 import {showAudioHelp} from './audio-help.js';
 import {femaleMandarinVoice, PRONUNCIATION_RATE} from './speech.js';
-import {lessonItems,shuffle,matchingWords,sentenceComplete,sourceLabel,drawRound,MATCH_LEVELS,nextLevel,balloonOptions,recordMatch} from './core.js';
+import {lessonItems,shuffle,matchingWords,sentenceComplete,sourceLabel,dealRound,leastRecent,MATCH_LEVELS,nextLevel,balloonOptions,recordMatch} from './core.js';
 import {loadProgress,saveProgress} from './progress.js';
-import {fill,slotsOf,optionOf} from './sentences.js';
+import {fill,optionOf,lessonWords} from './sentences.js';
 import {illustrations,animal} from './illustrations.js';
 import {lessonPictures,pictureFor,picturesOf,renderPicture} from './pictures.js';
 import {chime} from './sfx.js';
-import {icon,mascot,HATS} from './icons.js';
+import {icon,mascot} from './icons.js';
 const root=document.querySelector('#app');
-const views=[['library','Words'],['flashcards','Flip cards'],['match','Games'],['sentences','Build']];
-views.icons={library:'words',flashcards:'cards',match:'match',sentences:'build'};
-const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',match:'Find the pairs',balloons:'Pop the right balloon',sentences:'Put the words on the train',swap:'Swap a word, make a new sentence',silly:'Spin a silly sentence'};
+const views=[['library','Words'],['flashcards','Flip cards'],['match','Games']];
+views.icons={library:'words',flashcards:'cards',match:'match'};
+const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',menu:'Pick a game',pairs:'Find the pairs',balloons:'Pop the right balloon',paint:'Make the animal you hear',feed:'Feed the hungry animal',where:'Where is it?',silly:'Spin a silly sentence'};
 let library;let patterns; let voiceList=[];let lastSpoken=null;let voiceRequest=0;
 const audio=document.createElement('audio');audio.id='pronunciation-audio';audio.preload='auto';document.body.append(audio);
 const audioStatus=document.createElement('div');audioStatus.className='audio-status';audioStatus.hidden=true;audioStatus.setAttribute('role','status');document.body.append(audioStatus);
@@ -30,10 +30,9 @@ async function deviceSpeak(id,status){
  speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(byId.get(id).hanzi);utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=PRONUNCIATION_RATE;
  utterance.onstart=()=>{status.textContent='Playing with '+voice.name+'.';};utterance.onend=()=>{status.textContent='Finished. You can close this guide.';};utterance.onerror=()=>{if(current===voiceRequest)status.textContent='The device voice could not play. Try the saved recording or open this page in another browser.';};speechSynthesis.speak(utterance);
 }
-const state={view:'library',lesson:'lesson-34',kind:'word',flashKind:'word',query:'',extra:false,details:false,grownups:false,stars:0,pop:false,deck:[],index:0,revealed:false,round:null,sentence:null,selected:[],feedback:'',awarded:false,wrong:null,justMatched:null,matchQueue:[],matchKey:null,matchMode:'pairs',roundsDone:0,coachReact:null,sayNext:false,buildMode:'train',swap:null,silly:null,made:new Set()};
+const state={view:'library',lesson:'lesson-34',kind:'word',flashKind:'word',query:'',extra:false,details:false,grownups:false,deck:[],index:0,revealed:false,round:null,feedback:'',wrong:null,justMatched:null,matchMode:null,roundsDone:0,coachReact:null,sayNext:false,silly:null,paint:null,paintPop:false,quiz:null,made:new Set(),fallback:false};
 const progress=loadProgress();
-// The panda wears whichever hat was chosen in the sticker book.
-const panda=(mood,cls)=>mascot(mood,cls,progress.hat);
+const panda=(mood,cls)=>mascot(mood,cls);
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const byId=new Map();
 const lesson=()=>library.lessons.find(l=>l.id===state.lesson);
@@ -48,8 +47,7 @@ function speak(id){
 }
 
 const empty=(mood,title,text,extra='')=>`<div class="empty">${panda(mood,'mascot big')}<h2>${title}</h2><p>${text}</p>${extra}</div>`;
-const gameKind=()=>state.view==='sentences'?'sentence':state.view==='flashcards'?state.flashKind:'word';
-function award(){state.stars++;state.pop=true;}
+const gameKind=()=>state.view==='flashcards'?state.flashKind:'word';
 function celebrate(grand=false){
  if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
  document.querySelector('.confetti')?.remove();
@@ -80,7 +78,7 @@ function grownups(){
  const controls=state.view==='library'
   ?`<label class="field grow"><span>Find a word</span><span class="input-wrap">${icon('search','input-icon')}<input id="search" type="search" placeholder="Chinese, Pinyin or English" value="${escape(state.query)}"></span></label><label class="toggle"><input id="extra" type="checkbox" ${state.extra?'checked':''}><span class="switch"></span>Include activity instructions</label><label class="toggle"><input id="details" type="checkbox" ${state.details?'checked':''}><span class="switch"></span>Show sources and review status</label>`
   :state.view==='match'?`<div class="gu-section"><h3>Words in play</h3><p class="gu-hint">Tap a word to leave it out of the games. Turn on Mix above to add more lessons.</p><div class="word-toggles">${matchPool({all:true}).map(w=>{const off=progress.excluded.includes(w.id);return `<button class="word-toggle ${off?'off':''}" data-exclude="${w.id}" aria-pressed="${!off}"><span class="hanzi" lang="zh-Hans">${escape(w.hanzi)}</span><small>${escape(w.english.split(';')[0])}</small></button>`;}).join('')}</div></div><div class="gu-section"><h3>How it’s going</h3>${progressTable()}</div>`:``;
- return `<details class="grownups" ${state.grownups?'open':''}><summary>${icon('grownups')}<span>For grown-ups</span>${icon('chevron','icon chevron')}</summary><div class="gu-body"><div class="gu-grid">${controls}</div>${current?.notes.length?`<p class="lesson-note">${current.notes.map(escape).join(' ')}</p>`:''}<p class="gu-note">Pinyin and meanings are drafts awaiting review. Recordings are slow synthetic female Mandarin, not textbook audio. Pictures are hints, not translations. Stars reset when the page closes; stickers, hats and game progress are saved on this device only.</p>${installSection()}<p class="gu-links"><button class="text-button" id="open-audio-help">${icon('speaker')} Sound help</button><a class="text-button" href="./docs/library.md">Complete lesson library</a></p></div></details>`;
+ return `<details class="grownups" ${state.grownups?'open':''}><summary>${icon('grownups')}<span>For grown-ups</span>${icon('chevron','icon chevron')}</summary><div class="gu-body"><div class="gu-grid">${controls}</div>${current?.notes.length?`<p class="lesson-note">${current.notes.map(escape).join(' ')}</p>`:''}<p class="gu-note">Pinyin and meanings are drafts awaiting review. Recordings are slow synthetic female Mandarin, not textbook audio. Pictures are hints, not translations. Game levels and the character list are saved on this device only.</p>${installSection()}<p class="gu-links"><button class="text-button" id="open-audio-help">${icon('speaker')} Sound help</button><a class="text-button" href="./docs/library.md">Complete lesson library</a></p></div></details>`;
 }
 // Using it like an app: Android offers an install prompt; iPhone and iPad need Share, then Add to Home Screen.
 let installPrompt=null;
@@ -97,7 +95,7 @@ function installSection(){
 }
 function card(i,n){
  const meta=state.details?`<div class="card-meta"><span>${[...new Set(i.occurrences.filter(o=>state.lesson==='all'||o.lessonId===state.lesson).map(o=>'Lesson '+o.lessonId.split('-')[1]))].join(' · ')} · ${i.reviewStatus==='draft'?'Draft':'Reviewed'} · ${escape(i.category)}</span><span>${escape(sourceLabel(i,state.lesson))}</span></div>`:'';
- return `<article class="word-card ${i.kind} tone-${n%5}"><button class="card-tap" data-speak="${i.id}" title="Tap to listen">${i.kind==='word'?picture(i):''}<span class="card-text"><span class="hanzi" lang="zh-Hans">${escape(i.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(i.pinyin)}</span><span class="meaning">${escape(i.english)}</span></span><span class="play" aria-hidden="true">${icon('speaker')}</span></button>${meta}</article>`;
+ return `<article class="word-card ${i.kind} tone-${n%5}"><button class="card-tap" data-speak="${i.id}" title="Tap to listen">${i.kind==='word'?picture(i):''}<span class="card-text"><span class="hanzi" lang="zh-Hans" ${sayAttr(i.audio)}>${chars(i.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(i.pinyin)}</span><span class="meaning">${escape(i.english)}</span></span><span class="play" aria-hidden="true">${icon('speaker')}</span></button>${meta}</article>`;
 }
 function libraryContent(){
  const items=scoped({kind:state.kind,scope:state.extra?'all':'core',query:state.query});
@@ -110,24 +108,48 @@ function practiceGate(){
  return '';
 }
 function initGame(){
- state.feedback='';state.selected=[];state.index=0;state.revealed=false;state.sentence=null;state.awarded=false;
+ state.feedback='';state.index=0;state.revealed=false;
  state.deck=shuffle(practice(gameKind()));
- newMatchRound();
- if(state.view==='sentences') nextSentence(false);
+ if(state.view==='match'&&WORD_GAMES.includes(state.matchMode))newMatchRound();
+ if(state.view==='match'&&['feed','where'].includes(state.matchMode))newQuiz(state.matchMode);
+ if(state.view==='match'&&state.matchMode==='paint')newPaint();
 }
 function flashContent(){
  const kinds=`<div class="segmented flash-kinds" role="group" aria-label="Cards to practise">${[['word','Words'],['phrase','Phrases']].map(([id,name])=>`<button data-flash-kind="${id}" class="${state.flashKind===id?'active':''}" aria-pressed="${state.flashKind===id}">${name}</button>`).join('')}</div>`;
  const item=state.deck[state.index];if(!item)return kinds+empty('happy',`No ${state.flashKind==='word'?'words':'phrases'} here yet`,'Try the other cards or pick another lesson above.');
  const last=state.index===state.deck.length-1;
  return `${kinds}<div class="progress-row"><div class="progress" role="img" aria-label="Card ${state.index+1} of ${state.deck.length}"><div class="progress-fill" style="width:${(state.index+1)/state.deck.length*100}%"></div></div><span class="progress-label">${state.index+1} / ${state.deck.length}</span></div>
- <button class="flash ${state.revealed?'is-revealed':''}" id="flip"><span class="flash-inner"><span class="face front" ${state.revealed?'aria-hidden="true"':''}><span class="hanzi" lang="zh-Hans">${escape(item.hanzi)}</span><span class="flash-hint">Tap to flip</span></span><span class="face back" ${state.revealed?'':'aria-hidden="true"'}>${picture(item,'stage large')}<span class="hanzi" lang="zh-Hans">${escape(item.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(item.pinyin)}</span><span class="meaning">${escape(item.english)}</span></span></span></button>
+ <button class="flash ${state.revealed?'is-revealed':''}" id="flip"><span class="flash-inner"><span class="face front" ${state.revealed?'aria-hidden="true"':''}><span class="hanzi" lang="zh-Hans" ${sayAttr(item.audio)}>${chars(item.hanzi)}</span><span class="flash-hint">Tap to flip</span></span><span class="face back" ${state.revealed?'':'aria-hidden="true"'}>${picture(item,'stage large')}<span class="hanzi" lang="zh-Hans" ${sayAttr(item.audio)}>${chars(item.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(item.pinyin)}</span><span class="meaning">${escape(item.english)}</span></span></span></button>
  <div class="game-actions"><button class="round-button" id="previous" aria-label="Previous card" ${state.index===0?'disabled':''}>${icon('left')}</button><button class="round-button listen" data-speak="${item.id}" aria-label="Listen">${icon('speaker')}</button><button class="round-button go" id="next" aria-label="${last?'Finish and start again':'Next card'}">${icon(last?'flag':'right')}</button></div>`;
 }
 // Each matched pair keeps one colour for its tiles and the arrow joining them.
 const pairColours=['#7c5cff','#ff7a45','#12a879','#2b8ef0','#f0507a'];
-// Stickers are the thing drawings; one is won for each finished round until the book is full.
-const STICKERS=['horse','duck','cow','sheep','rabbit','sun','moon','tree','mountain','boat','train','strawberry','cake','chocolate','milk','biscuit','grapes','vegetables','ball','toys','blocks','shoes','socks','school'];
 const praiseText={'right-1':'对了！','right-2':'真棒！','right-3':'好厉害！',again:'再试试！',done:'太棒了！'};
+// Karaoke: while a recording plays, the character being spoken lights up in every text showing it.
+// Each recording's speech span (measured by scripts/generate-audio.py) is shared out across its characters.
+let timings={};
+const sayAttr=file=>`data-karaoke="${escape(file)}"`;
+const chars=text=>[...text].map(c=>`<span class="ch">${escape(c)}</span>`).join('');
+const praiseHtml=key=>`<span lang="zh-Hans" ${sayAttr(`assets/audio/praise-${key}.m4a`)}>${chars(praiseText[key])}</span>`;
+const PAUSE=/[\p{P}\s]/u;
+let karaokeFrame=0;
+function karaoke(){
+ cancelAnimationFrame(karaokeFrame);
+ document.querySelectorAll('.ch.speaking').forEach(c=>c.classList.remove('speaking'));
+ if(audio.paused||audio.ended||!audio.src)return;
+ const path=decodeURIComponent(new URL(audio.src,location.href).pathname),at=path.indexOf('assets/audio/'),file=at<0?null:path.slice(at),span=file&&timings[file];
+ if(span){
+  const progress=Math.min(1,Math.max(0,(audio.currentTime-span[0])/(span[1]-span[0])));
+  document.querySelectorAll(`[data-karaoke="${CSS.escape(file)}"]`).forEach(el=>{
+   const list=[...el.querySelectorAll('.ch')],weights=list.map(c=>PAUSE.test(c.textContent)?1.5:1);
+   let reach=progress*weights.reduce((a,b)=>a+b,0);
+   for(let i=0;i<list.length;i++){reach-=weights[i];if(reach<0||i===list.length-1){if(!PAUSE.test(list[i].textContent))list[i].classList.add('speaking');break;}}
+  });
+ }
+ karaokeFrame=requestAnimationFrame(karaoke);
+}
+['playing','pause','ended','emptied'].forEach(type=>audio.addEventListener(type,karaoke));
+
 const praiseUrl=key=>new URL(`../assets/audio/praise-${key}.m4a`,import.meta.url).href;
 const wordUrl=item=>new URL('../'+item.audio,import.meta.url).href;
 // Lessons feeding the games: one lesson, or several when grown-ups turn on Mix.
@@ -138,14 +160,11 @@ function matchPool({all=false}={}){
  return all?words:words.filter(w=>!progress.excluded.includes(w.id));
 }
 function newMatchRound(){
- const pool=matchPool(),key=matchLessons().join(',')+'|'+progress.excluded.join(',');
- if(state.matchKey!==key){state.matchKey=key;state.matchQueue=[];}
- const size=Math.min(MATCH_LEVELS[progress.level]||MATCH_LEVELS[0],pool.length);
- const dealt=drawRound(state.matchQueue,pool,size,Math.random,progress.missed.map(id=>byId.get(id)).filter(Boolean));
- state.matchQueue=dealt.queue;
- const words=dealt.words,pairs=state.matchMode==='pairs';
+ const pool=matchPool(),size=Math.min(MATCH_LEVELS[progress.level]||MATCH_LEVELS[0],pool.length);
+ // Least recently practised words first, remembered across visits, so every word gets equal turns.
+ const words=dealRound(pool,size,progress),pairs=state.matchMode==='pairs';saveProgress(progress);
  state.round={words,chars:shuffle(words),pics:shuffle(words),
-  reverse:pairs&&state.roundsDone%2===1,matched:[],charPick:null,picPick:null,mistakes:0,misses:{},hint:null,done:false,recap:false,reward:null,
+  reverse:pairs&&state.roundsDone%2===1,matched:[],charPick:null,picPick:null,mistakes:0,misses:{},hint:null,done:false,recap:false,
   balloon:pairs?null:{queue:words.map(w=>w.id)}};
  if(!pairs)nextBalloon();
 }
@@ -155,7 +174,7 @@ function matchTile(i,kind){
  const r=state.round,pair=r.matched.indexOf(i.id),matched=pair>=0,selected=r[kind+'Pick']===i.id,pic=pictureFor(i,byId);
  const classes=['match-tile',kind==='char'?'chinese':'picture',matched&&'matched',selected&&'selected',state.wrong?.[kind]===i.id&&'shake',state.justMatched===i.id&&'pop',
   r.hint===i.id&&kind===rightKind()&&'hint'].filter(Boolean).join(' ');
- const face=kind==='char'?`<span class="hanzi" lang="zh-Hans">${escape(i.hanzi)}</span>`:pic?`<span class="stage small" aria-hidden="true">${pic}</span><span class="caption">${escape(i.english)}</span>`:`<span class="caption big">${escape(i.english)}</span>`;
+ const face=kind==='char'?`<span class="hanzi" lang="zh-Hans" ${sayAttr(i.audio)}>${chars(i.hanzi)}</span>`:pic?`<span class="stage small" aria-hidden="true">${pic}</span><span class="caption">${escape(i.english)}</span>`:`<span class="caption big">${escape(i.english)}</span>`;
  const button=`<button data-match="${kind}" data-pair="${i.id}" class="${classes}" ${matched?`style="--pair:${pairColours[pair%5]}"`:''} aria-pressed="${selected}" ${matched||r.done?'disabled':''}>${face}${matched?`<span class="tick" aria-hidden="true">${icon('check')}</span>`:''}</button>`;
  // Sound is a separate choice: tapping the word only selects it.
  const listen=kind==='char'?`<button class="tile-listen" data-speak="${i.id}" aria-label="Listen to ${escape(i.hanzi)}">${icon('speaker')}</button>`:'';
@@ -184,16 +203,13 @@ function balloonBoard(){
  const dots=r.words.map((w,k)=>`<span class="pop-dot ${k<r.matched.length?'on':''}"></span>`).join('');
  // After the right pop, the word's picture, Pinyin and meaning spring up from the burst.
  const found=b.popped&&byId.get(b.popped);
- const reveal=found?`<div class="reveal-card" role="status">${picture(found,'stage reveal-stage')}<span class="hanzi" lang="zh-Hans">${escape(found.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(found.pinyin)}</span><span class="meaning">${escape(found.english)}</span><button class="button primary" id="balloon-next">${b.queue.length?'Next':'Finish'}${icon('right')}</button></div>`:'';
+ const reveal=found?`<div class="reveal-card" role="status">${picture(found,'stage reveal-stage')}<span class="hanzi" lang="zh-Hans" ${sayAttr(found.audio)}>${chars(found.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(found.pinyin)}</span><span class="meaning">${escape(found.english)}</span><button class="button primary" id="balloon-next">${b.queue.length?'Next':'Finish'}${icon('right')}</button></div>`:'';
  return `<div class="balloon-stage ${found?'revealing':''}"><button class="hear-target" id="hear-target" aria-label="Hear the word again">${icon('speaker')}</button><div class="balloons">${balloons}</div>${reveal}<div class="pop-progress" aria-label="${r.matched.length} of ${r.words.length} words found">${dots}</div></div>`;
 }
 function sayTarget(){const b=state.round?.balloon;if(b?.current)player.play(wordUrl(byId.get(b.current)));}
 function recapContent(){
- const r=state.round,w=r.reward;
- const sticker=w.sticker?`<div class="reward">${`<span class="reward-art">${illustrations[w.sticker]}</span>`}<div><strong>New sticker!</strong><span>Tap the star to see your sticker book.</span></div></div>`:'';
- const hat=w.hat?`<div class="reward">${mascot('cheer','mascot reward-panda',w.hat)}<div><strong>The panda won a new hat!</strong><span>Three perfect rounds in a row.</span></div></div>`
-  :w.streakLeft?`<p class="streak-note">${progress.streak} perfect round${progress.streak>1?'s':''} in a row. ${w.streakLeft} more for a surprise!</p>`:'';
- return `<div class="recap"><h2>You learned</h2><div class="game-actions recap-actions"><button class="button primary big" id="new-round">${icon('shuffle')}Play again</button><button class="button secondary" id="recap-again">${icon('speaker')}Hear them again</button></div><div class="recap-cards">${r.words.map((i,n)=>`<div class="recap-card" data-recap="${n}"><span class="stage small" aria-hidden="true">${pictureFor(i,byId)}</span><span class="hanzi" lang="zh-Hans">${escape(i.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(i.pinyin)}</span></div>`).join('')}</div>${sticker}${hat}</div>`;
+ const r=state.round;
+ return `<div class="recap"><h2>You learned</h2><div class="game-actions recap-actions"><button class="button primary big" id="new-round">${icon('shuffle')}Play again</button><button class="button secondary" id="recap-again">${icon('speaker')}Hear them again</button></div><div class="recap-cards">${r.words.map((i,n)=>`<div class="recap-card" data-recap="${n}"><span class="stage small" aria-hidden="true">${pictureFor(i,byId)}</span><span class="hanzi" lang="zh-Hans" ${sayAttr(i.audio)}>${chars(i.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(i.pinyin)}</span></div>`).join('')}</div></div>`;
 }
 // Brings the recap's top (with Play again) into view, clear of the header, on any screen size.
 function showRecap(){const recap=root.querySelector('.recap');if(recap)scrollTo({top:recap.getBoundingClientRect().top+scrollY-12,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
@@ -202,10 +218,9 @@ function playRecap(){
  const cards=[...root.querySelectorAll('[data-recap]')];cards.forEach(c=>c.classList.remove('shown'));
  player.playAll(state.round.words.map(wordUrl),{gap:450,onStep(index){if(index<0)cards.forEach(c=>c.classList.add('shown'));else cards[index]?.classList.add('shown');}});
 }
-function matchContent(){
+function matchContent(back){
  const r=state.round,balloons=state.matchMode==='balloons';
- const streak=Array.from({length:3},(_,n)=>icon('star',`streak-star ${n<progress.streak?'on':''}`)).join('');
- const bar=`<div class="match-bar"><div class="segmented" role="group" aria-label="Game">${[['pairs','Pairs'],['balloons','Balloon pop']].map(([id,name])=>`<button data-match-mode="${id}" class="${state.matchMode===id?'active':''}" aria-pressed="${state.matchMode===id}">${name}</button>`).join('')}</div><span class="level-pill">Level ${progress.level+1} · ${r.words.length} ${balloons?'words':'pairs'}<span class="streak" title="Perfect rounds in a row">${streak}</span></span></div>`;
+ const bar=`<div class="match-bar">${back}<span class="level-pill">Level ${progress.level+1} · ${r.words.length} ${balloons?'words':'pairs'}</span></div>`;
  if(r.words.length<2)return bar+empty('happy','Not enough words to match',progress.excluded.length?'Turn some words back on in For grown-ups, or add more lessons.':'This lesson needs at least two different words. Pick another lesson.');
  if(r.recap)return bar+recapContent();
  const prompt=balloons?'Listen, then pop the balloon with that word.':r.reverse?'Tap a picture, then find its Chinese word.':'Tap a Chinese word, then find its picture.';
@@ -228,33 +243,18 @@ function drawLinks(){
 addEventListener('resize',()=>{if(state.view==='match')drawLinks();});
 // A correct pair: say the word, then praise in Mandarin; the last pair ends the round.
 function pairFound(id){
- const r=state.round;r.matched.push(id);state.justMatched=id;state.freshLink=id;state.coachReact='dance';award();
+ const r=state.round;r.matched.push(id);state.justMatched=id;state.freshLink=id;state.coachReact='dance';
  const all=r.matched.length===r.words.length,praise=all?'done':`right-${1+Math.floor(Math.random()*3)}`;
- state.feedback=`<span lang="zh-Hans">${praiseText[praise]}</span> ${all?'You found every pair!':'That’s a match!'}`;
+ state.feedback=`${praiseHtml(praise)} ${all?'You found every pair!':'That’s a match!'}`;
  player.playAll([wordUrl(byId.get(id)),praiseUrl(praise)],{gap:150,onStep:index=>{if(index<0&&all)chime('fanfare');}});
  if(all)finishRound();
 }
 function finishRound(){
- const r=state.round;r.done=true;let hat=null;state.roundsDone++;
- {
-  const next=nextLevel({level:progress.level,perfect:progress.levelPerfect},{mistakes:r.mistakes,size:r.words.length});progress.level=next.level;progress.levelPerfect=next.perfect;
-  if(r.mistakes===0){progress.streak++;if(progress.streak>=3){progress.streak=0;hat=HATS.find(h=>!progress.hats.includes(h))||null;if(hat){progress.hats.push(hat);progress.hat=hat;}}}else progress.streak=0;
- }
- const spare=STICKERS.filter(s=>!progress.stickers.includes(s)),sticker=spare.length?spare[Math.floor(Math.random()*spare.length)]:null;
- if(sticker)progress.stickers.push(sticker);
+ const r=state.round;r.done=true;state.roundsDone++;
+ const next=nextLevel({level:progress.level,perfect:progress.levelPerfect},{mistakes:r.mistakes,size:r.words.length});progress.level=next.level;progress.levelPerfect=next.perfect;
  saveProgress(progress);
- r.reward={sticker,hat,streakLeft:r.mistakes===0&&!hat?3-progress.streak:0};
  celebrate(true);
  setTimeout(()=>{if(state.round===r&&state.view==='match'){r.recap=true;render();showRecap();playRecap();}},4300);
-}
-function openAlbum(){
- document.querySelector('#album')?.remove();
- const dialog=document.createElement('dialog');dialog.id='album';dialog.className='album';
- const draw=()=>{dialog.innerHTML=`<h2>My sticker book</h2><p class="album-count">${progress.stickers.length} of ${STICKERS.length} stickers</p><div class="album-grid">${STICKERS.map(s=>progress.stickers.includes(s)?`<span class="album-slot owned">${illustrations[s]}</span>`:`<span class="album-slot"><span class="slot-shadow">${illustrations[s]}</span></span>`).join('')}</div>${progress.hats.length?`<h3>Panda hats</h3><div class="hat-row">${[null,...progress.hats].map(h=>`<button class="hat-choice ${progress.hat===h?'active':''}" data-hat="${h||''}" aria-label="${h?`Wear the ${h} hat`:'No hat'}" aria-pressed="${progress.hat===h}">${mascot('happy','mascot hat-panda',h)}</button>`).join('')}</div>`:'<p class="album-hint">Three perfect rounds in a row win the panda a hat.</p>'}<div class="game-actions"><button class="button primary" id="close-album">Close</button></div>`;
-  dialog.querySelector('#close-album').onclick=()=>dialog.close();
-  dialog.querySelectorAll('[data-hat]').forEach(b=>b.onclick=()=>{progress.hat=b.dataset.hat||null;saveProgress(progress);draw();});
- };
- draw();document.body.append(dialog);dialog.addEventListener('close',()=>{dialog.remove();render();});dialog.showModal();
 }
 function progressTable(){
  const rows=matchPool({all:true}).map(w=>({w,...(progress.stats[w.id]||{right:0,mixed:0})})).filter(x=>x.right||x.mixed).sort((a,b)=>b.mixed-a.mixed||a.right-b.right);
@@ -263,81 +263,178 @@ function progressTable(){
  return `<table class="progress-table"><thead><tr><th>Character</th><th>First try</th><th>Mixed up</th><th></th></tr></thead><tbody>${rows.map(x=>{const [cls,label]=status(x);return `<tr><td><span class="hanzi" lang="zh-Hans">${escape(x.w.hanzi)}</span> <small>${escape(x.w.english.split(';')[0])}</small></td><td>${x.right}</td><td>${x.mixed}</td><td><span class="status ${cls}">${label}</span></td></tr>`;}).join('')}</tbody></table><button class="text-button" id="reset-progress">Reset game progress</button>`;
 }
 
-function nextSentence(advance=true){if(advance)state.index=(state.index+1)%state.deck.length;state.sentence=state.deck[state.index];state.selected=[];state.feedback='';state.awarded=false;state.bank=state.sentence?shuffle(state.sentence.wordIds.map((id,index)=>({id,index}))):[];}
-function sentenceContent(){
- const s=state.sentence;if(!s)return empty('happy','No sentences in this lesson','Try Lesson 34 — it has lots.');
- const complete=sentenceComplete(s.wordIds,state.selected.map(t=>t.id)),won=complete&&state.feedback,pic=pictureFor(s,byId);
- return `<div class="prompt-card">${pic?`<span class="stage wide" aria-hidden="true">${pic}</span>`:''}<p class="prompt-text">${escape(s.english)}</p><div class="prompt-actions"><button class="button secondary" data-speak="${s.id}">${icon('speaker')}Hear it</button><button class="button secondary" id="word-by-word">${icon('words')}Word by word</button></div></div>
- <div class="track" aria-label="Your sentence">${state.selected.length?state.selected.map((t,index)=>`<button class="token placed hanzi" lang="zh-Hans" data-remove="${index}" aria-label="Remove ${escape(byId.get(t.id).hanzi)}">${escape(byId.get(t.id).hanzi)}</button>`).join(''):'<span class="track-hint">Tap the words below</span>'}</div>
- <div class="word-bank">${state.bank.map(t=>`<button class="token hanzi" lang="zh-Hans" data-token="${t.index}" ${state.selected.some(a=>a.index===t.index)?'disabled':''}>${escape(byId.get(t.id).hanzi)}<small lang="zh-Latn">${escape(byId.get(t.id).pinyin)}</small></button>`).join('')}</div>
- ${coach(won?'cheer':'happy',state.feedback||'Tap each word to hear it and add it to the train.',won?`<span class="answer"><span class="hanzi" lang="zh-Hans">${escape(s.hanzi)}</span><span lang="zh-Latn">${escape(s.pinyin)}</span></span>`:'')}
- <div class="game-actions"><button class="button secondary" id="reset-sentence">${icon('again')}Again</button><button class="button primary" id="check-sentence">${icon('check')}Check</button><button class="button secondary" id="next-sentence">Next${icon('right')}</button></div><p class="counter">Sentence ${state.index+1} of ${state.deck.length}</p>`;
-}
-// Swap it and the Silly machine: new sentences from lesson patterns (data/patterns.json).
+// Phrase games built on lesson patterns (data/patterns.json): Paint the animal, Feed the animal,
+// Where is it? and the Silly machine. Each asks for one tap at a time.
 const patternById=id=>patterns.patterns.find(p=>p.id===id);
 const patternAudio=sentence=>new URL('../'+sentence.audio,import.meta.url).href;
+const ANIMALS=['horse','duck','cow','sheep','rabbit'];
+const QUIZ_LENGTH=5;
 function sceneArt(pattern,choice){
  const pick=slot=>optionOf(patterns,slot,choice[slot]),art=name=>illustrations[name]||'';
  const tile=(inner,cls='')=>`<span class="scene-tile ${cls}">${inner}</span>`;
- switch(pattern.scene){
-  case 'eat':return tile(art(pick('who').art))+tile(art(pattern.relation),'small')+tile(art(pick('food').art));
-  case 'on':{const place=pick('place');return tile(`<span class="on-place">${art(place.art)}</span><span class="on-thing" style="bottom:${place.surface}%">${art(pick('who').art)}</span>`,'on');}
-  case 'hobby':return tile(art(pick('doer').art))+tile(art(pick('activity').art));
-  case 'tasty':return tile(art(pick('food').art))+tile(art('fragrant'),'small')+tile(art('sweet'),'small');
-  // A fixed tuft of grass beside the animal shows whether it is big or little.
-  case 'creature':return tile(`<span class="ref">${art('grass')}</span><span class="beast">${animal(pick('animal').key,pick('colour').swatch)}</span>`,`creature ${pick('size').key}`);
- }
+ if(pattern.scene==='eat')return tile(art(pick('who').art))+tile(art(pattern.relation),'small')+tile(art(pick('food').art));
+ if(pattern.scene==='on'){const place=pick('place');return tile(`<span class="on-place">${art(place.art)}</span><span class="on-thing" style="bottom:${place.surface}%">${art(pick('who').art)}</span>`,'on');}
+ // A fixed tuft of grass beside the animal shows whether it is big or little.
+ if(pattern.scene==='creature')return tile(`<span class="ref">${art('grass')}</span><span class="beast">${animal(pick('animal').key,pick('colour').swatch)}</span>`,`creature ${pick('size').key}`);
  return '';
 }
 const optionFace=option=>`<span class="stage small" aria-hidden="true">${option.art?illustrations[option.art]:`<span class="swatches"><span class="swatch" style="--swatch:${option.swatch}"></span></span>`}</span><span class="hanzi" lang="zh-Hans">${escape(option.hanzi)}</span>`;
-const chunkLine=(sentence,swappable)=>sentence.parts.map(part=>part.slot&&swappable
- ?`<button class="chunk slot ${state.swap.open===part.slot?'open':''} ${state.swap.popped===part.slot?'pop':''}" data-swap-slot="${part.slot}" aria-expanded="${state.swap.open===part.slot}"><span class="hanzi" lang="zh-Hans">${escape(part.hanzi)}</span><span class="chunk-pinyin" lang="zh-Latn">${escape(part.pinyin)}</span><span class="swap-badge" aria-hidden="true">${icon('shuffle')}</span></button>`
- :`<span class="chunk ${part.slot?'filled':''}"><span class="hanzi" lang="zh-Hans">${escape(part.hanzi)}</span><span class="chunk-pinyin" lang="zh-Latn">${escape(part.pinyin)}</span></span>`).join('');
-function starterRow(attr,active){
- return `<div class="starters" role="group" aria-label="Sentences">${patterns.patterns.map(p=>{const base=fill(patterns,p,p.base);return `<button class="starter ${p.id===active?'active':''}" ${attr}="${p.id}" aria-pressed="${p.id===active}" aria-label="${escape(base.hanzi)}"><span class="starter-scene" aria-hidden="true">${sceneArt(p,p.base)}</span><span class="hanzi" lang="zh-Hans">${escape(base.hanzi)}</span></button>`;}).join('')}</div>`;
+const phraseLine=sentence=>`<div class="chunks" ${sayAttr(sentence.audio)}>${sentence.parts.map(part=>`<span class="chunk ${part.slot?'filled':''}"><span class="hanzi" lang="zh-Hans">${chars(part.hanzi)}</span><span class="chunk-pinyin" lang="zh-Latn">${escape(part.pinyin)}</span></span>`).join('')}</div>`;
+// A chime marks each phrase she makes for the first time.
+function madeSentence(sentence){if(state.made.has(sentence.audio))return false;state.made.add(sentence.audio);return true;}
+const GAMES=[['pairs','Pairs','Match words to pictures'],['balloons','Balloon pop','Hear it, pop it'],['paint','Paint the animal','Read it, then make it'],['feed','Feed the animal','Who likes to eat what?'],['where','Where is it?','On the bed, on the table'],['silly','Silly machine','Spin a silly sentence']];
+function gameArt(id){
+ const scene=(pattern,choice)=>sceneArt(patternById(pattern),choice);
+ if(id==='pairs')return `<span class="menu-duo"><span class="menu-char hanzi" lang="zh-Hans">牛</span><span class="menu-pic">${illustrations.cow}</span></span>`;
+ if(id==='balloons')return `<span class="menu-balloons">${['#7c5cff','#ff7a45','#12a879'].map(c=>`<svg viewBox="0 0 100 150"><path d="M50 116C22 102 8 76 8 52A42 42 0 0 1 92 52C92 76 78 102 50 116Z" fill="${c}" stroke="#1f1b3a" stroke-width="4"/><path d="M50 122q-6 12 2 26" fill="none" stroke="#1f1b3a" stroke-width="3"/></svg>`).join('')}</span>`;
+ if(id==='paint')return `<span class="menu-pic">${animal('horse','#f25a5a')}</span>`;
+ if(id==='feed')return `<span class="menu-duo"><span class="menu-pic">${illustrations.rabbit}</span><span class="menu-pic">${illustrations.strawberry}</span></span>`;
+ if(id==='where')return scene('on',{who:'whitesheep',place:'table'});
+ return `<span class="menu-duo"><span class="menu-pic">${illustrations.cow}</span><span class="menu-pic">${illustrations.cake}</span></span>`;
 }
-function swapContent(){
- const w=state.swap,p=patternById(w.pattern),s=fill(patterns,p,w.choice),isBase=slotsOf(p).every(k=>w.choice[k]===p.base[k]);
- const lessonNumber=library.lessons.find(l=>l.id===p.lesson)?.number;
- const tray=w.open?`<div class="swap-tray" role="group" aria-label="Choose a new word">${patterns.slots[w.open].map(o=>`<button class="swap-option ${w.choice[w.open]===o.key?'active':''}" data-swap-pick="${o.key}">${optionFace(o)}</button>`).join('')}</div>`:'';
- return `${starterRow('data-starter',p.id)}<div class="sentence-card"><span class="sentence-tag ${isBase?'':'new'}">${isBase?`From Lesson ${lessonNumber}`:'Your new sentence!'}</span><div class="scene" aria-hidden="true">${sceneArt(p,w.choice)}</div><div class="chunks">${chunkLine(s,true)}</div>${tray}<p class="sentence-english">${escape(s.english)}</p><div class="sentence-actions"><button class="round-button listen" id="say-sentence" aria-label="Hear the sentence">${icon('speaker')}</button>${isBase?'':`<button class="button secondary" id="swap-reset">${icon('again')}Lesson sentence</button>`}</div></div>
- ${coach(state.coachReact==='dance'?'cheer':'happy',state.feedback||(w.open?'Pick a new word!':'Tap a word with the swap sign to change it.'))}`;
+function gamesMenu(){
+ return `<div class="games-menu">${GAMES.map(([id,name,hint],n)=>`<button class="game-tile tone-${n%5}" data-game="${id}"><span class="game-art" aria-hidden="true">${gameArt(id)}</span><span class="game-name">${name}</span><span class="game-hint">${hint}</span></button>`).join('')}</div>`;
 }
+// Paint the animal: the panda shows and says a phrase (大红马) and she builds it: the animal, the colour
+// and the size, in any order. Each right pick ticks off its character and changes the drawing.
+const PAINT_LENGTH=5;
+const wordItem=hanzi=>library.items.find(i=>i.kind==='word'&&i.hanzi===hanzi);
+function paintSets(){return {animal:lessonOptions('animal',2),colour:lessonOptions('colour',2),size:patterns.slots.size};}
+function newPaint(){state.paint={asked:0,done:false,showDone:false};nextPaint();}
+function nextPaint(){
+ const p=state.paint,sets=paintSets();let target;
+ // Each part rotates through its options (least recently used first), remembered across visits.
+ target=Object.fromEntries(['size','colour','animal'].map(slot=>[slot,leastRecent(sets[slot],progress.seen,'paint-'+slot).key]));saveProgress(progress);
+ Object.assign(p,{target,got:{},misses:{},gone:{animal:[],colour:[],size:[]},hint:{},complete:false,advanced:false,advance:null,fallback:!!(sets.animal.fallback||sets.colour.fallback)});
+ p.asked++;state.sayNext=true;
+}
+const paintSentence=()=>fill(patterns,patternById('creature'),state.paint.target);
+function paintContent(){
+ const p=state.paint;if(p.showDone)return gameDone();
+ const s=paintSentence(),sets=paintSets(),got=p.got;
+ const colour=got.colour?optionOf(patterns,'colour',got.colour).swatch:'#e3ddd5';
+ const picture=got.animal
+  ?`<span class="scene-tile creature ${got.size||'mid'}"><span class="ref">${illustrations.grass}</span><span class="beast">${animal(got.animal,colour)}</span></span>`
+  :`<span class="scene-tile creature mid"><span class="ref">${illustrations.grass}</span><span class="mystery">?</span></span>`;
+ const target=`<div class="chunks target ${p.complete?'answered':''}" ${sayAttr(s.audio)}>${s.parts.map(part=>`<span class="chunk ${got[part.slot]?'got':''}"><span class="hanzi" lang="zh-Hans">${chars(part.hanzi)}</span><span class="chunk-pinyin" lang="zh-Latn">${escape(part.pinyin)}</span>${got[part.slot]?`<span class="tick" aria-hidden="true">${icon('check')}</span>`:''}</span>`).join('')}</div>`;
+ const row=(slot,face)=>`<div class="paint-row" role="group" aria-label="${slot}">${sets[slot].map(o=>{
+  const cls=[got[slot]===o.key&&'active',p.gone[slot].includes(o.key)&&'gone',p.hint[slot]&&!got[slot]&&o.key===p.target[slot]&&'hint'].filter(Boolean).join(' ');
+  return face(o,cls,!!got[slot]||p.gone[slot].includes(o.key)||p.complete);}).join('')}</div>`;
+ const rowFaces={
+  animal:(o,cls,off)=>`<button class="paint-animal ${cls}" data-paint-pick="animal:${o.key}" aria-label="${escape(o.hanzi)}" ${off?'disabled':''}>${animal(o.key)}</button>`,
+  colour:(o,cls,off)=>`<button class="paint-blob ${cls}" data-paint-pick="colour:${o.key}" style="--swatch:${o.swatch}" aria-label="${escape(o.hanzi)}" ${off?'disabled':''}></button>`,
+  size:(o,cls,off)=>`<button class="paint-size ${cls}" data-paint-pick="size:${o.key}" ${off?'disabled':''}>${illustrations[o.art]}<span class="hanzi" lang="zh-Hans">${escape(o.hanzi)}</span></button>`
+ };
+ // Rows follow the phrase, so the first word's choices come first.
+ const dots=Array.from({length:PAINT_LENGTH},(_,k)=>`<span class="pop-dot ${k<p.asked-(p.complete?0:1)?'on':''}"></span>`).join('');
+ return `${fallbackNote(p.fallback)}<div class="paint-card"><div class="paint-target"><button class="phrase-speaker big" id="say-paint" aria-label="Hear it again">${icon('speaker')}</button>${target}</div>
+ <div class="paint-stage ${state.paintPop?'pop':''}" aria-hidden="true">${picture}</div>
+ ${s.parts.map(part=>row(part.slot,rowFaces[part.slot])).join('')}
+ ${p.complete?`<button class="button primary" id="paint-next">${p.asked<PAINT_LENGTH?'Next':'Finish'}${icon('right')}</button>`:''}<div class="pop-progress">${dots}</div></div>
+ ${coach(p.complete||state.coachReact==='dance'?'cheer':'happy',state.feedback||'Read and listen, then make that animal!')}`;
+}
+function gameDone(){
+ return `<div class="recap"><h2>Well done!</h2><div class="game-actions recap-actions"><button class="button primary big" id="quiz-again">${icon('shuffle')}Play again</button><button class="button secondary" id="games-menu-2">${icon('left')}More games</button></div></div>`;
+}
+// The food she picks flies in an arc into the animal's mouth, then the animal munches.
+const MOUTHS={horse:[106,32],duck:[103,40],cow:[98,48],sheep:[93,48],rabbit:[94,46]};
+function feedFly(from,art,animalKey){
+ const eater=root.querySelector('.eater'),target=root.querySelector('.eater-art');if(!eater||!target)return;
+ if(!from||matchMedia('(prefers-reduced-motion: reduce)').matches){eater.classList.add('munch');return;}
+ const to=target.getBoundingClientRect(),[mx,my]=MOUTHS[animalKey]||[92,44];
+ const x=to.left+to.width*mx/120,y=to.top+to.height*my/96,dx=x-(from.left+from.width/2),dy=y-(from.top+from.height/2);
+ const food=document.createElement('div');food.className='flying-food';food.innerHTML=art;
+ Object.assign(food.style,{left:from.left+'px',top:from.top+'px',width:from.width+'px',height:from.height+'px'});document.body.append(food);
+ food.animate([{transform:'translate(0,0) scale(1)'},{transform:`translate(${dx*.45}px,${dy*.45-90}px) scale(.75) rotate(-12deg)`,offset:.5},{transform:`translate(${dx}px,${dy}px) scale(.12) rotate(10deg)`}],{duration:800,easing:'cubic-bezier(.45,0,.55,1)'})
+  .finished.then(()=>{food.remove();eater.classList.add('munch');chime('ding');}).catch(()=>food.remove());
+}
+// Feed the animal and Where is it?: hear a phrase, then pick the one picture that matches.
+function newQuiz(game){state.quiz={game,asked:0,mistakes:0,done:false,showDone:false};nextQuestion();}
+function nextQuestion(){
+ const q=state.quiz,animals=lessonOptions('who',1,o=>ANIMALS.includes(o.art)),slot=q.game==='feed'?'food':'place',pool=lessonOptions(slot,3);
+ // The answer and the animal rotate (least recently used first, across visits); the other two choices are random.
+ const who=leastRecent(animals,progress.seen,q.game+'-who'),answer=leastRecent(pool,progress.seen,q.game+'-'+slot);saveProgress(progress);
+ const choices=[answer,...shuffle(pool.filter(o=>o!==answer)).slice(0,2)];
+ // The note only matters when the answers themselves cannot come from the chosen lessons.
+ q.fallback=!!pool.fallback;
+ Object.assign(q,{pattern:q.game==='feed'?'likes':'on',slot,target:{who:who.key,[slot]:choices[0].key},options:shuffle(choices.map(o=>o.key)),gone:[],picked:null,misses:0,hint:false,advanced:false,advance:null});
+ q.asked++;state.sayNext=true;
+}
+const quizSentence=()=>{const q=state.quiz;return fill(patterns,patternById(q.pattern),q.target);};
+function quizContent(){
+ const q=state.quiz;if(q.showDone)return gameDone();
+ const p=patternById(q.pattern),s=quizSentence(),found=!!q.picked,who=optionOf(patterns,'who',q.target.who);
+ const dots=Array.from({length:QUIZ_LENGTH},(_,k)=>`<span class="pop-dot ${k<q.asked-(found?0:1)?'on':''}"></span>`).join('');
+ const option=key=>{
+  const cls=[q.picked===key&&'chosen',q.gone.includes(key)&&'gone',q.hint&&key===q.target[q.slot]&&!found&&'hint'].filter(Boolean).join(' ');
+  const face=q.game==='feed'?`<span class="stage small">${illustrations[optionOf(patterns,'food',key).art]}</span>`:`<span class="quiz-scene">${sceneArt(p,{...q.target,place:key})}</span>`;
+  return `<button class="quiz-option ${q.game} ${cls}" data-quiz="${key}" ${found||q.gone.includes(key)?'disabled':''} aria-label="Choice">${face}</button>`;
+ };
+ const eater=q.game==='feed'?`<div class="eater"><span class="eater-art">${illustrations[who.art]}</span><span class="thought"><b>?</b>${found?`<span class="thought-food">${illustrations[optionOf(patterns,'food',q.target.food).art]}</span>`:''}</span></div>`:'';
+ const reveal=found?`<div class="quiz-reveal"><button class="button primary" id="quiz-next">${q.asked<QUIZ_LENGTH?'Next':'Finish'}${icon('right')}</button></div>`:'';
+ return `${fallbackNote(q.fallback)}<div class="quiz-stage">${eater}<div class="quiz-question"><button class="phrase-speaker big" id="hear-quiz" aria-label="Hear it again">${icon('speaker')}</button><div class="quiz-sentence ${found?'answered':''}">${phraseLine(s)}</div></div><div class="quiz-options">${q.options.map(option).join('')}</div>${reveal}<div class="pop-progress">${dots}</div></div>
+ ${coach(found||state.coachReact==='dance'?'cheer':'happy',state.feedback||(q.game==='feed'?'Listen! What does it like to eat?':'Listen! Where is it?'))}`;
+}
+function quizFinished(){
+ const q=state.quiz;q.done=true;celebrate(true);
+ setTimeout(()=>{if(state.quiz===q&&state.view==='match'){q.showDone=true;render();showRecap();}},4300);
+}
+// Silly machine: two reels, who and what they like to eat, and one lever.
 function sillyContent(){
- const m=state.silly,p=patternById(m.pattern),s=fill(patterns,p,m.choice);
- const reels=p.parts.map(part=>part.slot?`<button class="reel" data-reel="${part.slot}" aria-label="Spin this reel" ${m.spinning?'disabled':''}><span class="reel-window" id="reel-${part.slot}">${optionFace(optionOf(patterns,part.slot,m.choice[part.slot]))}</span></button>`:`<span class="reel-fixed"><span class="hanzi" lang="zh-Hans">${escape(part.hanzi)}</span></span>`).join('');
- const result=m.spun?`<div class="sentence-card silly"><div class="scene" aria-hidden="true">${sceneArt(p,m.choice)}</div><div class="chunks">${chunkLine(s,false)}</div><p class="sentence-english">${escape(s.english)}</p><div class="sentence-actions"><button class="round-button listen" id="say-sentence" aria-label="Hear the sentence">${icon('speaker')}</button></div></div>`:'';
- return `${starterRow('data-silly-pattern',p.id)}<div class="machine"><div class="reels">${reels}</div><button class="button primary big" id="spin" ${m.spinning?'disabled':''}>${icon('shuffle')}Spin!</button></div>${result}
- ${coach(m.spun?'cheer':'happy',state.feedback||'Pull the lever for a silly sentence, or tap one reel to spin it.')}`;
+ const m=state.silly,p=patternById('likes'),reelSets={who:lessonOptions('who',2),food:lessonOptions('food',2)};
+ for(const slot of ['who','food'])if(!m.spinning&&!reelSets[slot].some(o=>o.key===m.choice[slot]))m.choice={...m.choice,[slot]:reelSets[slot][0].key};
+ const s=fill(patterns,p,m.choice);
+ const reel=slot=>`<button class="reel" data-reel="${slot}" aria-label="Spin this reel" ${m.spinning?'disabled':''}><span class="reel-window" id="reel-${slot}">${optionFace(optionOf(patterns,slot,m.choice[slot]))}</span></button>`;
+ const result=m.spun?`<div class="sentence-card silly"><div class="scene" aria-hidden="true">${sceneArt(p,m.choice)}</div><button class="phrase-button" id="say-silly" aria-label="Hear it again">${phraseLine(s)}<span class="phrase-speaker" aria-hidden="true">${icon('speaker')}</span></button></div>`:'';
+ return `${fallbackNote(reelSets.who.fallback||reelSets.food.fallback)}<div class="machine"><div class="reels">${reel('who')}<span class="reel-fixed"><span class="hanzi" lang="zh-Hans">喜欢吃</span></span>${reel('food')}</div><button class="button primary big" id="spin" ${m.spinning?'disabled':''}>${icon('shuffle')}Spin!</button></div>${result}
+ ${coach(m.spun?'cheer':'happy',state.feedback||'Pull the lever for a silly sentence!')}`;
 }
-function buildContent(){
- const bar=`<div class="match-bar"><div class="segmented" role="group" aria-label="Game">${[['train','Train'],['swap','Swap it'],['silly','Silly machine']].map(([id,name])=>`<button data-build-mode="${id}" class="${state.buildMode===id?'active':''}" aria-pressed="${state.buildMode===id}">${name}</button>`).join('')}</div></div>`;
- return bar+(state.buildMode==='swap'?swapContent():state.buildMode==='silly'?sillyContent():sentenceContent());
-}
-// Every sentence she makes that she has not made before earns a star.
-function madeSentence(sentence){if(state.made.has(sentence.audio))return false;state.made.add(sentence.audio);award();return true;}
 function spinReels(slots){
- const m=state.silly,p=patternById(m.pattern);m.spinning=true;state.feedback='';render();
- const target={...m.choice};for(const slot of slots){const options=patterns.slots[slot].filter(o=>o.key!==m.choice[slot]);target[slot]=options[Math.floor(Math.random()*options.length)].key;}
+ const m=state.silly,p=patternById('likes');m.spinning=true;state.feedback='';render();
+ const target={...m.choice};for(const slot of slots){const options=lessonOptions(slot,2).filter(o=>o.key!==m.choice[slot]);target[slot]=options[Math.floor(Math.random()*options.length)].key;}
  let stopped=0;chime('ding');
  slots.forEach((slot,n)=>{
   const windowEl=document.getElementById('reel-'+slot);windowEl?.classList.add('spinning');
-  const timer=setInterval(()=>{const options=patterns.slots[slot];if(windowEl)windowEl.innerHTML=optionFace(options[Math.floor(Math.random()*options.length)]);},80);
+  const timer=setInterval(()=>{const options=lessonOptions(slot,2);if(windowEl)windowEl.innerHTML=optionFace(options[Math.floor(Math.random()*options.length)]);},80);
   setTimeout(()=>{clearInterval(timer);if(windowEl){windowEl.classList.remove('spinning');windowEl.innerHTML=optionFace(optionOf(patterns,slot,target[slot]));}
-   if(++stopped===slots.length){m.choice=target;m.spinning=false;m.spun=true;const s=fill(patterns,p,target);madeSentence(s);state.feedback=`<span lang="zh-Hans">哈哈！</span> ${escape(s.english)}`;state.coachReact='dance';render();player.play(patternAudio(s));}
+   if(++stopped===slots.length){m.choice=target;m.spinning=false;m.spun=true;const s=fill(patterns,p,target);madeSentence(s);state.feedback='<span lang="zh-Hans">哈哈！</span>';state.coachReact='dance';render();player.play(patternAudio(s));}
   },650+n*380);
  });
 }
-function content(){if(state.view==='library')return libraryContent();if(state.view==='sentences'&&state.buildMode!=='train')return `<div class="game-wrap">${buildContent()}</div>`;const gate=practiceGate();return `<div class="game-wrap">${gate||`${state.view==='flashcards'?flashContent():state.view==='match'?matchContent():buildContent()}`}</div>`;}
+const WORD_GAMES=['pairs','balloons'];
+function gamesContent(){
+ if(!state.matchMode)return gamesMenu();
+ const back=`<button class="back-button" id="games-menu">${icon('left')}Games</button>`;
+ if(WORD_GAMES.includes(state.matchMode))return matchContent(back);
+ const body=state.matchMode==='paint'?paintContent():state.matchMode==='silly'?sillyContent():quizContent();
+ return `<div class="match-bar">${back}</div>${body}`;
+}
+// Phrase games use the chosen lessons too: an option belongs to the lessons that teach its main word
+// (the last lesson word it is made from, so 小黑马 belongs with 马). A lesson without enough options for
+// a game falls back to every lesson, and the game says so.
+const wordHanzi=()=>state.wordHanzi||(state.wordHanzi=new Set(library.items.filter(i=>i.kind==='word').map(i=>i.hanzi)));
+function optionLessons(option){
+ const head=lessonWords(option.hanzi,wordHanzi())?.at(-1),item=library.items.find(i=>i.kind==='word'&&i.hanzi===head);
+ return new Set(item?item.occurrences.filter(o=>o.scope==='core').map(o=>o.lessonId):[]);
+}
+function lessonOptions(slot,min,only=()=>true){
+ const chosen=new Set(matchLessons()),all=patterns.slots[slot].filter(only);
+ const mine=all.filter(o=>[...optionLessons(o)].some(id=>chosen.has(id)));
+ return mine.length>=min?mine:Object.assign(all,{fallback:true});
+}
+const fallbackNote=used=>used?'<p class="fallback-note">These lessons don’t have enough words for this game yet, so it uses words from every lesson.</p>':'';
+function content(){if(state.view==='library')return libraryContent();if(state.view==='match')return `<div class="game-wrap">${gamesContent()}</div>`;const gate=practiceGate();return `<div class="game-wrap">${gate||flashContent()}</div>`;}
 function render(){
  const current=lesson();
- root.innerHTML=`<div class="backdrop" aria-hidden="true"></div><div class="app view-${state.view}"><header class="topbar"><a class="brand" href="#library" aria-label="Ira’s Chinese, home">${panda('happy','brand-mark')}<span class="brand-text"><strong>Ira’s Chinese</strong><small lang="zh-Hans">一起学中文</small></span></a><nav class="nav" aria-label="Main navigation">${views.map(([id,name])=>`<button data-view="${id}" class="nav-${id} ${state.view===id?'active':''}" ${state.view===id?'aria-current="page"':''}>${icon(views.icons[id],'nav-icon')}<span>${name}</span></button>`).join('')}</nav><button class="stars ${state.pop?'pop':''}" id="open-album" aria-label="${state.stars} ${state.stars===1?'star':'stars'}. Open the sticker book">${icon('star','star-icon')}<b>${state.stars}</b><span class="sticker-count" aria-hidden="true">${progress.stickers.length}</span></button></header>
- <main class="main"><section class="hero">${panda('happy','mascot hero-mascot')}<div class="hero-text"><h1>${says[state.view==='match'&&state.matchMode==='balloons'?'balloons':state.view==='sentences'&&state.buildMode!=='train'?state.buildMode:state.view]}</h1><p class="hero-sub">${state.view==='sentences'&&state.buildMode!=='train'?'Using words from your lessons':state.view==='match'&&progress.mix?`Mixing lessons ${progress.mixLessons.map(id=>library.lessons.find(l=>l.id===id).number).sort((a,b)=>a-b).join(', ')}`:current?`Lesson ${current.number} · ${current.coverageStatus==='missing'?'Not in the books yet':escape(current.title)}${current.coverageStatus==='partial'?' · some pages missing':''}`:'All lessons'}</p></div></section>${state.view==='sentences'&&state.buildMode!=='train'?'':lessonPicker()}<section id="content" aria-label="${state.view==='library'?'Word library':'Game'}">${content()}</section>${grownups()}</main><footer class="footer">Made with love for a curious little learner</footer></div>`;
- state.pop=false;state.wrong=null;state.justMatched=null;state.coachReact=null;if(state.swap)state.swap.popped=null;
+ root.innerHTML=`<div class="backdrop" aria-hidden="true"></div><div class="app view-${state.view}"><header class="topbar"><a class="brand" href="#library" aria-label="Ira’s Chinese, home">${panda('happy','brand-mark')}<span class="brand-text"><strong>Ira’s Chinese</strong><small lang="zh-Hans">一起学中文</small></span></a><nav class="nav" aria-label="Main navigation">${views.map(([id,name])=>`<button data-view="${id}" class="nav-${id} ${state.view===id?'active':''}" ${state.view===id?'aria-current="page"':''}>${icon(views.icons[id],'nav-icon')}<span>${name}</span></button>`).join('')}</nav></header>
+ <main class="main"><section class="hero">${panda('happy','mascot hero-mascot')}<div class="hero-text"><h1>${says[state.view==='match'?state.matchMode||'menu':state.view]}</h1><p class="hero-sub">${state.view==='match'&&progress.mix?`Mixing lessons ${progress.mixLessons.map(id=>library.lessons.find(l=>l.id===id).number).sort((a,b)=>a-b).join(', ')}`:current?`Lesson ${current.number} · ${current.coverageStatus==='missing'?'Not in the books yet':escape(current.title)}${current.coverageStatus==='partial'?' · some pages missing':''}`:'All lessons'}</p></div></section>${lessonPicker()}<section id="content" aria-label="${state.view==='library'?'Word library':'Game'}">${content()}</section>${grownups()}</main><footer class="footer">Made with love for a curious little learner</footer></div>`;
+ state.wrong=null;state.justMatched=null;state.coachReact=null;state.paintPop=false;
  bind();
  if(state.view==='match')drawLinks();
  // Balloon pop asks its question out loud as each word comes up.
- if(state.view==='match'&&state.sayNext&&state.matchMode==='balloons'&&!state.round.recap){state.sayNext=false;sayTarget();}
+ if(state.view==='match'&&state.sayNext&&state.matchMode==='balloons'&&!state.round?.recap){state.sayNext=false;sayTarget();}
+ if(state.view==='match'&&state.sayNext&&state.quiz&&!state.quiz.showDone&&['feed','where'].includes(state.matchMode)){state.sayNext=false;player.play(patternAudio(quizSentence()));}
+ if(state.view==='match'&&state.sayNext&&state.matchMode==='paint'&&!state.paint.showDone){state.sayNext=false;player.play(patternAudio(paintSentence()));}
 }
 function bind(){
  root.querySelector('#open-audio-help').onclick=openAudioHelp;
@@ -352,7 +449,6 @@ function bind(){
   }else state.lesson=id;
   initGame();render();});
  root.querySelector('#mix-toggle')?.addEventListener('click',()=>{progress.mix=!progress.mix;if(progress.mix&&!progress.mixLessons.length)progress.mixLessons=[state.lesson];saveProgress(progress);initGame();render();});
- root.querySelector('#open-album').onclick=openAlbum;
  root.querySelector('.grownups').addEventListener('toggle',e=>{state.grownups=e.target.open;});
  root.querySelector('#search')?.addEventListener('input',e=>{state.query=e.target.value;document.querySelector('#content').innerHTML=libraryContent();bindContent();});
  root.querySelector('#extra')?.addEventListener('change',e=>{state.extra=e.target.checked;render();});
@@ -369,7 +465,7 @@ function bindContent(){
  on('flip',()=>{state.revealed=!state.revealed;const flip=document.getElementById('flip');flip.classList.toggle('is-revealed',state.revealed);
   const [front,back]=flip.querySelectorAll('.face');const hide=(face,hidden)=>hidden?face.setAttribute('aria-hidden','true'):face.removeAttribute('aria-hidden');hide(front,state.revealed);hide(back,!state.revealed);
   if(state.revealed)speak(state.deck[state.index].id);});
- on('next',()=>{if(state.index===state.deck.length-1){award();celebrate();chime('yay');}state.index=(state.index+1)%state.deck.length;state.revealed=false;render();});
+ on('next',()=>{if(state.index===state.deck.length-1){celebrate();chime('yay');}state.index=(state.index+1)%state.deck.length;state.revealed=false;render();});
  on('previous',()=>{state.index=Math.max(0,state.index-1);state.revealed=false;render();});
  on('new-round',()=>{initGame();render();});
  root.querySelectorAll('[data-match]').forEach(b=>b.onclick=()=>{
@@ -382,8 +478,8 @@ function bindContent(){
     r.mistakes++;r.misses[anchor]=(r.misses[anchor]||0)+1;state.wrong={char:r.charPick,pic:r.picPick};state.coachReact='shake';
     player.play(praiseUrl('again'));
     // After two misses the right partner glows, and the first tile stays selected.
-    if(r.misses[anchor]>=2&&r.words.some(w=>w.id===anchor)){r.hint=anchor;state.feedback=`<span lang="zh-Hans">${praiseText.again}</span> Look, here it is!`;}
-    else state.feedback=`<span lang="zh-Hans">${praiseText.again}</span> Let’s try again.`;
+    if(r.misses[anchor]>=2&&r.words.some(w=>w.id===anchor)){r.hint=anchor;state.feedback=`${praiseHtml('again')} Look, here it is!`;}
+    else state.feedback=`${praiseHtml('again')} Let’s try again.`;
     r.charPick=r.picPick=null;if(r.hint)r[r.reverse?'picPick':'charPick']=anchor;
    }
   }
@@ -392,60 +488,80 @@ function bindContent(){
   const r=state.round,b=r.balloon,id=el.dataset.balloon;if(!b||b.popped||r.done||b.gone.includes(id))return;
   const target=byId.get(b.current);
   if(id===b.current){
-   b.popped=id;recordMatch(progress,id,!r.misses[id]);saveProgress(progress);r.matched.push(id);award();state.coachReact='dance';
+   b.popped=id;recordMatch(progress,id,!r.misses[id]);saveProgress(progress);r.matched.push(id);state.coachReact='dance';
    const last=!b.queue.length,praise=last?'done':`right-${1+Math.floor(Math.random()*3)}`;
-   state.feedback=`<span lang="zh-Hans">${praiseText[praise]}</span> ${last?'You found every word!':'Pop!'}`;
+   state.feedback=`${praiseHtml(praise)} ${last?'You found every word!':'Pop!'}`;
    chime('ding');player.playAll([wordUrl(target),praiseUrl(praise)],{gap:150,onStep:index=>{if(index<0&&last)chime('fanfare');}});
    const advance=()=>{clearTimeout(b.timer);if(state.round!==r||b.advanced)return;b.advanced=true;if(last)finishRound();else nextBalloon();render();};
    b.advance=advance;b.timer=setTimeout(advance,3200);
   }else{
    r.mistakes++;r.misses[b.current]=(r.misses[b.current]||0)+1;b.gone.push(id);state.coachReact='shake';
    if(r.misses[b.current]>=2)b.hint=true;
-   state.feedback=`<span lang="zh-Hans">${praiseText.again}</span> ${b.hint?'Look, this one!':'Listen again.'}`;
+   state.feedback=`${praiseHtml('again')} ${b.hint?'Look, this one!':'Listen again.'}`;
    player.playAll([praiseUrl('again'),wordUrl(target)],{gap:250});
   }
   render();});
  on('hear-target',sayTarget);
  on('balloon-next',()=>state.round.balloon?.advance?.());
- root.querySelectorAll('[data-match-mode]').forEach(b=>b.onclick=()=>{state.matchMode=b.dataset.matchMode;initGame();render();});
  on('recap-again',playRecap);
- root.querySelectorAll('[data-build-mode]').forEach(b=>b.onclick=()=>{state.buildMode=b.dataset.buildMode;state.feedback='';initGame();render();});
- root.querySelectorAll('[data-starter]').forEach(b=>b.onclick=()=>{const p=patternById(b.dataset.starter);Object.assign(state.swap,{pattern:p.id,choice:{...p.base},open:null});state.feedback='';render();player.play(patternAudio(fill(patterns,p,p.base)));});
- root.querySelectorAll('[data-swap-slot]').forEach(b=>b.onclick=()=>{state.swap.open=state.swap.open===b.dataset.swapSlot?null:b.dataset.swapSlot;render();});
- root.querySelectorAll('[data-swap-pick]').forEach(b=>b.onclick=()=>{
-  const w=state.swap,p=patternById(w.pattern),slot=w.open;w.choice={...w.choice,[slot]:b.dataset.swapPick};w.open=null;w.popped=slot;
-  const s=fill(patterns,p,w.choice),isBase=slotsOf(p).every(k=>w.choice[k]===p.base[k]);
-  if(!isBase&&madeSentence(s)){state.feedback=`<span lang="zh-Hans">真棒！</span> A new sentence!`;state.coachReact='dance';chime('ding');}else state.feedback='';
-  render();player.play(patternAudio(s));});
- on('swap-reset',()=>{const p=patternById(state.swap.pattern);Object.assign(state.swap,{choice:{...p.base},open:null});state.feedback='';render();player.play(patternAudio(fill(patterns,p,p.base)));});
- on('say-sentence',()=>{const mode=state.buildMode==='swap'?state.swap:state.silly;player.play(patternAudio(fill(patterns,patternById(mode.pattern),mode.choice)));});
- root.querySelectorAll('[data-silly-pattern]').forEach(b=>b.onclick=()=>{if(state.silly.spinning)return;const p=patternById(b.dataset.sillyPattern);Object.assign(state.silly,{pattern:p.id,choice:{...p.base},spun:false});state.feedback='';render();});
- on('spin',()=>{if(!state.silly.spinning)spinReels(slotsOf(patternById(state.silly.pattern)));});
+ root.querySelectorAll('[data-game]').forEach(b=>b.onclick=()=>{state.matchMode=b.dataset.game;state.feedback='';initGame();render();scrollTo({top:0});});
+ const toMenu=()=>{player.stop();state.matchMode=null;state.feedback='';render();scrollTo({top:0});};
+ on('games-menu',toMenu);on('games-menu-2',toMenu);
+ // Paint the animal: build the phrase that was said
+ root.querySelectorAll('[data-paint-pick]').forEach(b=>b.onclick=()=>{
+  const p=state.paint;if(p.complete)return;const [slot,key]=b.dataset.paintPick.split(':');
+  if(p.got[slot]||p.gone[slot].includes(key))return;const s=paintSentence();
+  if(key===p.target[slot]){
+   p.got[slot]=key;state.paintPop=true;state.feedback='';
+   if(['animal','colour','size'].every(k=>p.got[k])){
+    p.complete=true;state.coachReact='dance';const last=p.asked>=PAINT_LENGTH,praise=last?'done':`right-${1+Math.floor(Math.random()*3)}`;
+    state.feedback=`${praiseHtml(praise)} You made it!`;chime('ding');
+    player.playAll([patternAudio(s),praiseUrl(praise)],{gap:200,onStep:i=>{if(i<0&&last)chime('fanfare');}});
+    const advance=()=>{clearTimeout(p.timer);if(state.paint!==p||p.advanced)return;p.advanced=true;if(last){p.done=true;celebrate(true);setTimeout(()=>{if(state.paint===p&&state.view==='match'){p.showDone=true;render();showRecap();}},4300);}else nextPaint();render();};
+    p.advance=advance;p.timer=setTimeout(advance,3600);
+   }else{const word=wordItem(optionOf(patterns,slot,key).hanzi);if(word?.audio)player.play(wordUrl(word));}
+  }else{
+   p.gone[slot].push(key);p.misses[slot]=(p.misses[slot]||0)+1;if(p.misses[slot]>=2)p.hint[slot]=true;state.coachReact='shake';
+   state.feedback=`${praiseHtml('again')} ${p.hint[slot]?'Look, this one!':'Listen again.'}`;
+   player.playAll([praiseUrl('again'),patternAudio(s)],{gap:250});
+  }
+  render();});
+ on('say-paint',()=>player.play(patternAudio(paintSentence())));
+ on('paint-next',()=>state.paint?.advance?.());
+ // Feed the animal and Where is it?
+ root.querySelectorAll('[data-quiz]').forEach(b=>b.onclick=()=>{
+  const q=state.quiz,key=b.dataset.quiz;if(q.picked||q.done||q.gone.includes(key))return;
+  const s=quizSentence();
+  if(key===q.target[q.slot]){
+   const stage=b.querySelector('.stage'),from=stage?.getBoundingClientRect(),art=stage?.innerHTML,eaterKey=optionOf(patterns,'who',q.target.who).art;
+   q.picked=key;state.coachReact='dance';const last=q.asked>=QUIZ_LENGTH,praise=last?'done':`right-${1+Math.floor(Math.random()*3)}`;
+   state.feedback=`${praiseHtml(praise)} ${q.game==='feed'?'Yum!':'That’s it!'}`;
+   chime('ding');player.playAll([patternAudio(s),praiseUrl(praise)],{gap:200,onStep:i=>{if(i<0&&last)chime('fanfare');}});
+   const advance=()=>{clearTimeout(q.timer);if(state.quiz!==q||q.advanced)return;q.advanced=true;if(last)quizFinished();else nextQuestion();render();};
+   q.advance=advance;q.timer=setTimeout(advance,3400);
+   if(q.game==='feed'){render();feedFly(from,art,eaterKey);return;}
+  }else{
+   q.mistakes++;q.misses++;q.gone.push(key);state.coachReact='shake';if(q.misses>=2)q.hint=true;
+   state.feedback=`${praiseHtml('again')} ${q.hint?'Look, this one!':'Listen again.'}`;
+   player.playAll([praiseUrl('again'),patternAudio(s)],{gap:250});
+  }
+  render();});
+ on('hear-quiz',()=>player.play(patternAudio(quizSentence())));
+ on('quiz-next',()=>state.quiz?.advance?.());
+ on('quiz-again',()=>{if(state.matchMode==='paint')newPaint();else newQuiz(state.matchMode);render();scrollTo({top:0});});
+ // Silly machine
+ on('spin',()=>{if(!state.silly.spinning)spinReels(['who','food']);});
  root.querySelectorAll('[data-reel]').forEach(b=>b.onclick=()=>{if(!state.silly.spinning)spinReels([b.dataset.reel]);});
+ on('say-silly',()=>player.play(patternAudio(fill(patterns,patternById('likes'),state.silly.choice))));
  on('install-app',async()=>{if(!installPrompt)return;installPrompt.prompt();await installPrompt.userChoice.catch(()=>{});installPrompt=null;render();});
  root.querySelectorAll('[data-exclude]').forEach(b=>b.onclick=()=>{
   const id=b.dataset.exclude,off=progress.excluded.includes(id);
   progress.excluded=off?progress.excluded.filter(x=>x!==id):[...progress.excluded,id];saveProgress(progress);initGame();render();});
- on('reset-progress',()=>{if(!confirm('Reset game progress? Levels and the character list start again; stickers and hats stay.'))return;Object.assign(progress,{level:0,levelPerfect:0,streak:0,stats:{},missed:[]});saveProgress(progress);initGame();render();});
- root.querySelectorAll('[data-token]').forEach(b=>b.onclick=()=>{const token=state.bank.find(t=>t.index===Number(b.dataset.token));speak(token.id);state.selected.push(token);state.feedback='';render();});
- root.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>{state.selected.splice(Number(b.dataset.remove),1);state.feedback='';render();});
- // Word by word: each word's own recording in order, lighting up its tile as it is spoken.
- on('word-by-word',()=>{
-  const ids=state.sentence.wordIds;
-  player.playAll(ids.map(id=>new URL('../'+byId.get(id).audio,import.meta.url).href),{onStep(index){
-   root.querySelectorAll('.token.speaking').forEach(t=>t.classList.remove('speaking'));
-   if(index>=0)root.querySelector(`[data-token="${index}"]`)?.classList.add('speaking');
-  }});
- });
- on('reset-sentence',()=>{state.selected=[];state.feedback='';render();});
- on('next-sentence',()=>{nextSentence();render();});
- on('check-sentence',()=>{
-  if(sentenceComplete(state.sentence.wordIds,state.selected.map(t=>t.id))){state.feedback='You built it! Choo choo!';if(!state.awarded){state.awarded=true;award();}chime('yay');celebrate();}
-  else{state.feedback=state.selected.length<state.sentence.wordIds.length?'Keep going! More words need to get on the train.':'Hmm, try a different order. Tap a word on the train to take it off.';chime('oops');}
-  render();});
+ on('reset-progress',()=>{if(!confirm('Reset game progress? Levels and the character list start again.'))return;Object.assign(progress,{level:0,levelPerfect:0,stats:{},missed:[]});saveProgress(progress);initGame();render();});
+
 }
-function navigate(view){state.view=view;if(state.lesson==='all'&&view!=='library')state.lesson='lesson-34';initGame();render();window.scrollTo({top:0});}
-async function start(){try {const response=await fetch(new URL('../data/library.json',import.meta.url));if(!response.ok)throw new Error('Library unavailable');library=await response.json();library.items.forEach(i=>byId.set(i.id,i));patterns=await (await fetch(new URL('../data/patterns.json',import.meta.url))).json();const first=patterns.patterns[0];state.swap={pattern:first.id,choice:{...first.base},open:null,popped:null};state.silly={pattern:first.id,choice:{...first.base},spun:false,spinning:false};initGame();render();}catch(error){root.innerHTML='<div class="empty"><h1>The library could not open.</h1><p>Please check your connection and reload the page.</p><button class="button" id="reload">Try again</button></div>';document.getElementById('reload').onclick=()=>location.reload();}}
+function navigate(view){if(view==='match')state.matchMode=null;state.view=view;if(state.lesson==='all'&&view!=='library')state.lesson='lesson-34';initGame();render();window.scrollTo({top:0});}
+async function start(){try {const response=await fetch(new URL('../data/library.json',import.meta.url));if(!response.ok)throw new Error('Library unavailable');library=await response.json();library.items.forEach(i=>byId.set(i.id,i));patterns=await (await fetch(new URL('../data/patterns.json',import.meta.url))).json();state.silly={choice:{...patternById('likes').base},spun:false,spinning:false};timings=Object.fromEntries(Object.values(await (await fetch(new URL('../assets/audio/manifest.json',import.meta.url))).json()).map(e=>[e.file,e.speech]));initGame();render();}catch(error){root.innerHTML='<div class="empty"><h1>The library could not open.</h1><p>Please check your connection and reload the page.</p><button class="button" id="reload">Try again</button></div>';document.getElementById('reload').onclick=()=>location.reload();}}
 function registerLibraryTool(){
  const context=document.modelContext;if(!context?.registerTool)return;
  const lifecycle=new AbortController();window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});

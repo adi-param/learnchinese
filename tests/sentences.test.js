@@ -14,9 +14,9 @@ test('every sentence the games can make uses only lesson words',()=>{
 test('each pattern starts from its lesson sentence and fills its English',()=>{
  const base=id=>{const p=data.patterns.find(x=>x.id===id);return fill(data,p,p.base);};
  assert.equal(base('likes').hanzi,'小黑马喜欢吃草');assert.equal(base('likes').english,'The little black horse likes to eat grass.');
- assert.equal(base('hobby').english,'The little yellow duck likes swimming.');
- const hobby=data.patterns.find(x=>x.id==='hobby');assert.equal(fill(data,hobby,{doer:'me',activity:'sing'}).english,'I like singing.');
- const tasty=data.patterns.find(x=>x.id==='tasty');assert.equal(fill(data,tasty,{food:'grapes'}).english,'Grapes are fragrant and sweet.');
+ assert.equal(base('on').english,'The little white sheep is on the grass.');
+ assert.equal(base('creature').english,'A little black horse!');
+ const likes=data.patterns.find(x=>x.id==='likes');assert.equal(fill(data,likes,{who:'mum',food:'grapes'}).english,'Mum likes to eat grapes.');
  for(const p of data.patterns)for(const slot of slotsOf(p))assert(data.slots[slot].some(o=>o.key===p.base[slot]),`${p.id}.${slot}`);
 });
 test('every combination has a unique recording and every picture exists',()=>{

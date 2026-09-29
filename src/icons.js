@@ -20,17 +20,8 @@ const paths={
 };
 export const icon=(name,cls='icon')=>`<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name]}</svg>`;
 
-// Hats the panda wins for streaks of perfect rounds, drawn between the ears so the panda keeps its size.
-const hatArt={
- party:'<path d="M46 24L60 -2L74 24Z" fill="#ff7a45" stroke="#1f1b3a" stroke-width="2.5" stroke-linejoin="round"/><path d="M52 13l14 5M49 19l20 5" stroke="#ffc233" stroke-width="3" stroke-linecap="round"/><circle cx="60" cy="-2" r="4.5" fill="#ffc233" stroke="#1f1b3a" stroke-width="2"/>',
- crown:'<path d="M42 24L44 4L52 14L60 0L68 14L76 4L78 24Z" fill="#ffc233" stroke="#1f1b3a" stroke-width="2.5" stroke-linejoin="round"/><circle cx="60" cy="16" r="3" fill="#f0507a"/><circle cx="50" cy="19" r="2.2" fill="#2b8ef0"/><circle cx="70" cy="19" r="2.2" fill="#12a879"/>',
- flower:'<g transform="translate(86 20)">'+[0,72,144,216,288].map(a=>`<ellipse cx="0" cy="-7" rx="4.5" ry="7" fill="#ffb3c1" stroke="#1f1b3a" stroke-width="1.8" transform="rotate(${a})"/>`).join('')+'<circle r="4" fill="#ffc233" stroke="#1f1b3a" stroke-width="1.8"/></g>',
- cap:'<path d="M36 24Q38 4 60 4Q82 4 84 24Z" fill="#2b8ef0" stroke="#1f1b3a" stroke-width="2.5" stroke-linejoin="round"/><path d="M82 22Q98 20 104 26Q92 30 80 27Z" fill="#2b8ef0" stroke="#1f1b3a" stroke-width="2.5" stroke-linejoin="round"/><circle cx="60" cy="4" r="3" fill="#ffc233" stroke="#1f1b3a" stroke-width="1.8"/>'
-};
-export const HATS=Object.keys(hatArt);
-export const hatPicture=hat=>`<svg class="hat-art" viewBox="30 -6 80 36" aria-hidden="true">${hatArt[hat]}</svg>`;
 // The panda guide. Moods change only the eyes and mouth, so it always reads as the same friend.
-export function mascot(mood='happy',cls='mascot',hat=null){
+export function mascot(mood='happy',cls='mascot'){
  const eyes=mood==='sleep'
   ?'<path d="M37 55q5 4 10 0M73 55q5 4 10 0" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>'
   :'<circle cx="43" cy="54" r="5.5" fill="#fff"/><circle cx="77" cy="54" r="5.5" fill="#fff"/><circle cx="44.5" cy="52.5" r="2" fill="#1f1b3a"/><circle cx="78.5" cy="52.5" r="2" fill="#1f1b3a"/>';
@@ -39,5 +30,5 @@ export function mascot(mood='happy',cls='mascot',hat=null){
   :mood==='sleep'?'<path d="M55 76q5 3 10 0" stroke="#1f1b3a" stroke-width="3" fill="none" stroke-linecap="round"/>'
   :'<path d="M52 74q8 8 16 0" stroke="#1f1b3a" stroke-width="3.2" fill="none" stroke-linecap="round"/>';
  const extra=mood==='sleep'?'<text x="96" y="30" font-size="16" font-weight="700" fill="#7c5cff" font-family="Fredoka,sans-serif">z</text><text x="106" y="18" font-size="11" font-weight="700" fill="#7c5cff" font-family="Fredoka,sans-serif">z</text>':'';
- return `<svg class="${cls}" viewBox="0 0 120 110" overflow="visible" aria-hidden="true"><circle cx="26" cy="26" r="17" fill="#1f1b3a"/><circle cx="94" cy="26" r="17" fill="#1f1b3a"/><circle cx="26" cy="26" r="8" fill="#3a3460"/><circle cx="94" cy="26" r="8" fill="#3a3460"/><ellipse cx="60" cy="60" rx="46" ry="42" fill="#fff" stroke="#1f1b3a" stroke-width="3"/><ellipse cx="42" cy="55" rx="12" ry="14" fill="#1f1b3a" transform="rotate(-20 42 55)"/><ellipse cx="78" cy="55" rx="12" ry="14" fill="#1f1b3a" transform="rotate(20 78 55)"/>${eyes}<ellipse cx="60" cy="67" rx="6" ry="4.5" fill="#1f1b3a"/>${mouth}<circle cx="30" cy="72" r="6" fill="#ffb3c1" opacity=".8"/><circle cx="90" cy="72" r="6" fill="#ffb3c1" opacity=".8"/>${extra}${hat&&hatArt[hat]?hatArt[hat]:''}</svg>`;
+ return `<svg class="${cls}" viewBox="0 0 120 110" overflow="visible" aria-hidden="true"><circle cx="26" cy="26" r="17" fill="#1f1b3a"/><circle cx="94" cy="26" r="17" fill="#1f1b3a"/><circle cx="26" cy="26" r="8" fill="#3a3460"/><circle cx="94" cy="26" r="8" fill="#3a3460"/><ellipse cx="60" cy="60" rx="46" ry="42" fill="#fff" stroke="#1f1b3a" stroke-width="3"/><ellipse cx="42" cy="55" rx="12" ry="14" fill="#1f1b3a" transform="rotate(-20 42 55)"/><ellipse cx="78" cy="55" rx="12" ry="14" fill="#1f1b3a" transform="rotate(20 78 55)"/>${eyes}<ellipse cx="60" cy="67" rx="6" ry="4.5" fill="#1f1b3a"/>${mouth}<circle cx="30" cy="72" r="6" fill="#ffb3c1" opacity=".8"/><circle cx="90" cy="72" r="6" fill="#ffb3c1" opacity=".8"/>${extra}</svg>`;
 }

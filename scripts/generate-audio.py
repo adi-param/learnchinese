@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Generate static Mandarin audio on macOS. Not needed to build or use the site."""
+import array
 import hashlib
 import itertools
 import json
 import subprocess
 import tempfile
+import wave
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,6 +31,19 @@ folder.mkdir(parents=True, exist_ok=True)
 manifest_path = folder / 'manifest.json'
 manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
 by_id = {item['id']: item for item in library['items']}
+
+
+def speech_bounds(recording, wav):
+    """Seconds where the voice starts and stops, ignoring quiet lead-in and tail."""
+    subprocess.run(['/usr/bin/afconvert', '-f', 'WAVE', '-d', 'LEI16@16000', '-c', '1', str(recording), str(wav)], check=True)
+    with wave.open(str(wav)) as audio:
+        rate = audio.getframerate()
+        samples = array.array('h', audio.readframes(audio.getnframes()))
+    window = rate // 100  # 10 ms
+    levels = [max(abs(v) for v in samples[i:i + window]) for i in range(0, len(samples) - window, window)]
+    threshold = max(levels) * 0.08
+    loud = [i for i, level in enumerate(levels) if level > threshold]
+    return [round(loud[0] * window / rate, 3), round((loud[-1] + 1) * window / rate, 3)]
 
 
 def spoken(item):
@@ -76,6 +91,7 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
     # New sentences for Swap it and the Silly machine: every combination each lesson pattern allows.
     patterns = json.loads((ROOT / 'data/patterns.json').read_text())
     (folder / 'patterns').mkdir(exist_ok=True)
+    recorded = set()
     for pattern in patterns['patterns']:
         slots = [part['slot'] for part in pattern['parts'] if 'slot' in part]
         for combo in itertools.product(*(patterns['slots'][slot] for slot in slots)):
@@ -88,7 +104,16 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
                 aiff = Path(temporary) / 'voice.aiff'
                 subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(PHRASE_RATE), '-o', str(aiff), text], check=True)
                 subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
+            recorded.add('pattern-'+key)
             manifest['pattern-'+key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': PHRASE_RATE, 'text': text, 'file': f'assets/audio/patterns/{destination.name}'}
+    # Where speech starts and ends in each file, so the site can highlight each character as it is spoken.
+    for entry in manifest.values():
+        if entry.get('speech_fingerprint') != entry['fingerprint']:
+            entry['speech'] = speech_bounds(ROOT / entry['file'], Path(temporary) / 'measure.wav')
+            entry['speech_fingerprint'] = entry['fingerprint']
+    # Patterns removed from data/patterns.json take their recordings with them.
+    for key in [k for k in manifest if k.startswith('pattern-') and k not in recorded]:
+        (ROOT / manifest.pop(key)['file']).unlink(missing_ok=True)
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
 library_path.write_text(json.dumps(library, ensure_ascii=False, indent=2)+'\n')
 print(f"Recorded {len(library['items'])} items.")

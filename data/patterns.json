@@ -1,80 +1,357 @@
 {
-  "note": "Sentence patterns for Swap it and the Silly machine. Every pattern comes from a lesson sentence, and every option uses only lesson words, so each combination is new but grammatical. English and Pinyin are editorial drafts, like the rest of the library.",
+  "note": "Sentence patterns for the phrase games (Feed the animal, Where is it?, Paint the animal, Silly machine). Every pattern comes from a lesson sentence, and every option uses only lesson words, so each combination is new but grammatical. English and Pinyin are editorial drafts, like the rest of the library.",
   "slots": {
     "who": [
-      {"key": "blackhorse", "hanzi": "小黑马", "pinyin": "xiǎo hēi mǎ", "english": "the little black horse", "art": "horse"},
-      {"key": "yellowduck", "hanzi": "小黄鸭", "pinyin": "xiǎo huáng yā", "english": "the little yellow duck", "art": "duck"},
-      {"key": "yellowcow", "hanzi": "大黄牛", "pinyin": "dà huáng niú", "english": "the big yellow cow", "art": "cow"},
-      {"key": "whitesheep", "hanzi": "小白羊", "pinyin": "xiǎo bái yáng", "english": "the little white sheep", "art": "sheep"},
-      {"key": "whiterabbit", "hanzi": "小白兔", "pinyin": "xiǎo bái tù", "english": "the little white rabbit", "art": "rabbit"},
-      {"key": "dad", "hanzi": "爸爸", "pinyin": "bà ba", "english": "Dad", "art": "dad"},
-      {"key": "mum", "hanzi": "妈妈", "pinyin": "mā ma", "english": "Mum", "art": "mum"},
-      {"key": "sister", "hanzi": "妹妹", "pinyin": "mèi mei", "english": "my little sister", "art": "sister"},
-      {"key": "brother", "hanzi": "弟弟", "pinyin": "dì di", "english": "my little brother", "art": "brother"}
-    ],
-    "doer": [
-      {"key": "yellowduck", "hanzi": "小黄鸭", "pinyin": "xiǎo huáng yā", "english": "the little yellow duck", "art": "duck", "s": "s"},
-      {"key": "blackhorse", "hanzi": "小黑马", "pinyin": "xiǎo hēi mǎ", "english": "the little black horse", "art": "horse", "s": "s"},
-      {"key": "whiterabbit", "hanzi": "小白兔", "pinyin": "xiǎo bái tù", "english": "the little white rabbit", "art": "rabbit", "s": "s"},
-      {"key": "me", "hanzi": "我", "pinyin": "wǒ", "english": "I", "art": "happy", "s": ""},
-      {"key": "we", "hanzi": "我们", "pinyin": "wǒ men", "english": "we", "art": "help", "s": ""},
-      {"key": "dad", "hanzi": "爸爸", "pinyin": "bà ba", "english": "Dad", "art": "dad", "s": "s"},
-      {"key": "mum", "hanzi": "妈妈", "pinyin": "mā ma", "english": "Mum", "art": "mum", "s": "s"},
-      {"key": "sister", "hanzi": "妹妹", "pinyin": "mèi mei", "english": "my little sister", "art": "sister", "s": "s"},
-      {"key": "brother", "hanzi": "弟弟", "pinyin": "dì di", "english": "my little brother", "art": "brother", "s": "s"}
+      {
+        "key": "blackhorse",
+        "hanzi": "小黑马",
+        "pinyin": "xiǎo hēi mǎ",
+        "english": "the little black horse",
+        "art": "horse"
+      },
+      {
+        "key": "yellowduck",
+        "hanzi": "小黄鸭",
+        "pinyin": "xiǎo huáng yā",
+        "english": "the little yellow duck",
+        "art": "duck"
+      },
+      {
+        "key": "yellowcow",
+        "hanzi": "大黄牛",
+        "pinyin": "dà huáng niú",
+        "english": "the big yellow cow",
+        "art": "cow"
+      },
+      {
+        "key": "whitesheep",
+        "hanzi": "小白羊",
+        "pinyin": "xiǎo bái yáng",
+        "english": "the little white sheep",
+        "art": "sheep"
+      },
+      {
+        "key": "whiterabbit",
+        "hanzi": "小白兔",
+        "pinyin": "xiǎo bái tù",
+        "english": "the little white rabbit",
+        "art": "rabbit"
+      },
+      {
+        "key": "dad",
+        "hanzi": "爸爸",
+        "pinyin": "bà ba",
+        "english": "Dad",
+        "art": "dad"
+      },
+      {
+        "key": "mum",
+        "hanzi": "妈妈",
+        "pinyin": "mā ma",
+        "english": "Mum",
+        "art": "mum"
+      },
+      {
+        "key": "sister",
+        "hanzi": "妹妹",
+        "pinyin": "mèi mei",
+        "english": "my little sister",
+        "art": "sister"
+      },
+      {
+        "key": "brother",
+        "hanzi": "弟弟",
+        "pinyin": "dì di",
+        "english": "my little brother",
+        "art": "brother"
+      }
     ],
     "food": [
-      {"key": "grass", "hanzi": "草", "pinyin": "cǎo", "english": "grass", "be": "is", "art": "grass"},
-      {"key": "strawberry", "hanzi": "草莓", "pinyin": "cǎo méi", "english": "strawberries", "be": "are", "art": "strawberry"},
-      {"key": "cake", "hanzi": "蛋糕", "pinyin": "dàn gāo", "english": "cake", "be": "is", "art": "cake"},
-      {"key": "chocolate", "hanzi": "巧克力", "pinyin": "qiǎo kè lì", "english": "chocolate", "be": "is", "art": "chocolate"},
-      {"key": "biscuit", "hanzi": "饼干", "pinyin": "bǐng gān", "english": "biscuits", "be": "are", "art": "biscuit"},
-      {"key": "vegetables", "hanzi": "菜", "pinyin": "cài", "english": "vegetables", "be": "are", "art": "vegetables"},
-      {"key": "meat", "hanzi": "肉", "pinyin": "ròu", "english": "meat", "be": "is", "art": "meat"},
-      {"key": "rice", "hanzi": "白米饭", "pinyin": "bái mǐ fàn", "english": "white rice", "be": "is", "art": "rice"},
-      {"key": "grapes", "hanzi": "葡萄", "pinyin": "pú tao", "english": "grapes", "be": "are", "art": "grapes"}
+      {
+        "key": "grass",
+        "hanzi": "草",
+        "pinyin": "cǎo",
+        "english": "grass",
+        "be": "is",
+        "art": "grass"
+      },
+      {
+        "key": "strawberry",
+        "hanzi": "草莓",
+        "pinyin": "cǎo méi",
+        "english": "strawberries",
+        "be": "are",
+        "art": "strawberry"
+      },
+      {
+        "key": "cake",
+        "hanzi": "蛋糕",
+        "pinyin": "dàn gāo",
+        "english": "cake",
+        "be": "is",
+        "art": "cake"
+      },
+      {
+        "key": "chocolate",
+        "hanzi": "巧克力",
+        "pinyin": "qiǎo kè lì",
+        "english": "chocolate",
+        "be": "is",
+        "art": "chocolate"
+      },
+      {
+        "key": "biscuit",
+        "hanzi": "饼干",
+        "pinyin": "bǐng gān",
+        "english": "biscuits",
+        "be": "are",
+        "art": "biscuit"
+      },
+      {
+        "key": "vegetables",
+        "hanzi": "菜",
+        "pinyin": "cài",
+        "english": "vegetables",
+        "be": "are",
+        "art": "vegetables"
+      },
+      {
+        "key": "meat",
+        "hanzi": "肉",
+        "pinyin": "ròu",
+        "english": "meat",
+        "be": "is",
+        "art": "meat"
+      },
+      {
+        "key": "rice",
+        "hanzi": "白米饭",
+        "pinyin": "bái mǐ fàn",
+        "english": "white rice",
+        "be": "is",
+        "art": "rice"
+      },
+      {
+        "key": "grapes",
+        "hanzi": "葡萄",
+        "pinyin": "pú tao",
+        "english": "grapes",
+        "be": "are",
+        "art": "grapes"
+      }
     ],
     "place": [
-      {"key": "lawn", "hanzi": "草地", "pinyin": "cǎo dì", "english": "the grass", "art": "lawn", "surface": 16},
-      {"key": "table", "hanzi": "桌子", "pinyin": "zhuō zi", "english": "the table", "art": "table", "surface": 44},
-      {"key": "mountain", "hanzi": "山", "pinyin": "shān", "english": "the mountain", "art": "mountain", "surface": 36},
-      {"key": "bed", "hanzi": "床", "pinyin": "chuáng", "english": "the bed", "art": "bed", "surface": 34},
-      {"key": "sofa", "hanzi": "沙发", "pinyin": "shā fā", "english": "the sofa", "art": "sofa", "surface": 30},
-      {"key": "chair", "hanzi": "椅子", "pinyin": "yǐ zi", "english": "the chair", "art": "chair", "surface": 40}
-    ],
-    "activity": [
-      {"key": "swim", "hanzi": "游泳", "pinyin": "yóu yǒng", "english": "swimming", "art": "swim"},
-      {"key": "sing", "hanzi": "唱歌", "pinyin": "chàng gē", "english": "singing", "art": "sing"},
-      {"key": "sleep", "hanzi": "睡觉", "pinyin": "shuì jiào", "english": "sleeping", "art": "sleep"},
-      {"key": "blocks", "hanzi": "玩积木", "pinyin": "wán jī mù", "english": "playing with blocks", "art": "blocks"},
-      {"key": "books", "hanzi": "看书", "pinyin": "kàn shū", "english": "reading books", "art": "book"},
-      {"key": "stories", "hanzi": "读故事书", "pinyin": "dú gù shi shū", "english": "reading storybooks", "art": "storybook"}
+      {
+        "key": "lawn",
+        "hanzi": "草地",
+        "pinyin": "cǎo dì",
+        "english": "the grass",
+        "art": "lawn",
+        "surface": 16
+      },
+      {
+        "key": "table",
+        "hanzi": "桌子",
+        "pinyin": "zhuō zi",
+        "english": "the table",
+        "art": "table",
+        "surface": 44
+      },
+      {
+        "key": "mountain",
+        "hanzi": "山",
+        "pinyin": "shān",
+        "english": "the mountain",
+        "art": "mountain",
+        "surface": 36
+      },
+      {
+        "key": "bed",
+        "hanzi": "床",
+        "pinyin": "chuáng",
+        "english": "the bed",
+        "art": "bed",
+        "surface": 34
+      },
+      {
+        "key": "sofa",
+        "hanzi": "沙发",
+        "pinyin": "shā fā",
+        "english": "the sofa",
+        "art": "sofa",
+        "surface": 30
+      },
+      {
+        "key": "chair",
+        "hanzi": "椅子",
+        "pinyin": "yǐ zi",
+        "english": "the chair",
+        "art": "chair",
+        "surface": 40
+      }
     ],
     "size": [
-      {"key": "little", "hanzi": "小", "pinyin": "xiǎo", "english": "little", "art": "small"},
-      {"key": "big", "hanzi": "大", "pinyin": "dà", "english": "big", "art": "big"}
+      {
+        "key": "little",
+        "hanzi": "小",
+        "pinyin": "xiǎo",
+        "english": "little",
+        "art": "small"
+      },
+      {
+        "key": "big",
+        "hanzi": "大",
+        "pinyin": "dà",
+        "english": "big",
+        "art": "big"
+      }
     ],
     "colour": [
-      {"key": "black", "hanzi": "黑", "pinyin": "hēi", "english": "black", "swatch": "#3a3346"},
-      {"key": "yellow", "hanzi": "黄", "pinyin": "huáng", "english": "yellow", "swatch": "#ffc233"},
-      {"key": "white", "hanzi": "白", "pinyin": "bái", "english": "white", "swatch": "#ffffff"},
-      {"key": "red", "hanzi": "红", "pinyin": "hóng", "english": "red", "swatch": "#f25a5a"},
-      {"key": "green", "hanzi": "绿", "pinyin": "lǜ", "english": "green", "swatch": "#5bc46a"}
+      {
+        "key": "black",
+        "hanzi": "黑",
+        "pinyin": "hēi",
+        "english": "black",
+        "swatch": "#3a3346"
+      },
+      {
+        "key": "yellow",
+        "hanzi": "黄",
+        "pinyin": "huáng",
+        "english": "yellow",
+        "swatch": "#ffc233"
+      },
+      {
+        "key": "white",
+        "hanzi": "白",
+        "pinyin": "bái",
+        "english": "white",
+        "swatch": "#ffffff"
+      },
+      {
+        "key": "red",
+        "hanzi": "红",
+        "pinyin": "hóng",
+        "english": "red",
+        "swatch": "#f25a5a"
+      },
+      {
+        "key": "green",
+        "hanzi": "绿",
+        "pinyin": "lǜ",
+        "english": "green",
+        "swatch": "#5bc46a"
+      }
     ],
     "animal": [
-      {"key": "horse", "hanzi": "马", "pinyin": "mǎ", "english": "horse", "art": "horse"},
-      {"key": "duck", "hanzi": "鸭", "pinyin": "yā", "english": "duck", "art": "duck"},
-      {"key": "cow", "hanzi": "牛", "pinyin": "niú", "english": "cow", "art": "cow"},
-      {"key": "sheep", "hanzi": "羊", "pinyin": "yáng", "english": "sheep", "art": "sheep"},
-      {"key": "rabbit", "hanzi": "兔", "pinyin": "tù", "english": "rabbit", "art": "rabbit"}
+      {
+        "key": "horse",
+        "hanzi": "马",
+        "pinyin": "mǎ",
+        "english": "horse",
+        "art": "horse"
+      },
+      {
+        "key": "duck",
+        "hanzi": "鸭",
+        "pinyin": "yā",
+        "english": "duck",
+        "art": "duck"
+      },
+      {
+        "key": "cow",
+        "hanzi": "牛",
+        "pinyin": "niú",
+        "english": "cow",
+        "art": "cow"
+      },
+      {
+        "key": "sheep",
+        "hanzi": "羊",
+        "pinyin": "yáng",
+        "english": "sheep",
+        "art": "sheep"
+      },
+      {
+        "key": "rabbit",
+        "hanzi": "兔",
+        "pinyin": "tù",
+        "english": "rabbit",
+        "art": "rabbit"
+      }
     ]
   },
   "patterns": [
-    {"id": "likes", "scene": "eat", "relation": "like", "parts": [{"slot": "who"}, {"hanzi": "喜欢吃", "pinyin": "xǐ huān chī"}, {"slot": "food"}], "english": "{who|cap} likes to eat {food}.", "base": {"who": "blackhorse", "food": "grass"}, "lesson": "lesson-33"},
-    {"id": "eating", "scene": "eat", "relation": "eat", "parts": [{"slot": "who"}, {"hanzi": "在吃", "pinyin": "zài chī"}, {"slot": "food"}], "english": "{who|cap} is eating {food}.", "base": {"who": "yellowcow", "food": "grass"}, "lesson": "lesson-34"},
-    {"id": "on", "scene": "on", "parts": [{"slot": "who"}, {"hanzi": "在", "pinyin": "zài"}, {"slot": "place"}, {"hanzi": "上", "pinyin": "shàng"}], "english": "{who|cap} is on {place}.", "base": {"who": "whitesheep", "place": "lawn"}, "lesson": "lesson-34"},
-    {"id": "hobby", "scene": "hobby", "parts": [{"slot": "doer"}, {"hanzi": "喜欢", "pinyin": "xǐ huān"}, {"slot": "activity"}], "english": "{doer|cap} like{doer.s} {activity}.", "base": {"doer": "yellowduck", "activity": "swim"}, "lesson": "lesson-33"},
-    {"id": "tasty", "scene": "tasty", "parts": [{"slot": "food"}, {"hanzi": "又香又甜", "pinyin": "yòu xiāng yòu tián"}], "english": "{food|cap} {food.be} fragrant and sweet.", "base": {"food": "cake"}, "lesson": "lesson-38"},
-    {"id": "creature", "scene": "creature", "parts": [{"slot": "size"}, {"slot": "colour"}, {"slot": "animal"}], "english": "A {size} {colour} {animal}!", "base": {"size": "little", "colour": "black", "animal": "horse"}, "lesson": "lesson-33"}
+    {
+      "id": "likes",
+      "scene": "eat",
+      "relation": "like",
+      "parts": [
+        {
+          "slot": "who"
+        },
+        {
+          "hanzi": "喜欢吃",
+          "pinyin": "xǐ huān chī"
+        },
+        {
+          "slot": "food"
+        }
+      ],
+      "english": "{who|cap} likes to eat {food}.",
+      "base": {
+        "who": "blackhorse",
+        "food": "grass"
+      },
+      "lesson": "lesson-33"
+    },
+    {
+      "id": "on",
+      "scene": "on",
+      "parts": [
+        {
+          "slot": "who"
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "hanzi": "上",
+          "pinyin": "shàng"
+        }
+      ],
+      "english": "{who|cap} is on {place}.",
+      "base": {
+        "who": "whitesheep",
+        "place": "lawn"
+      },
+      "lesson": "lesson-34"
+    },
+    {
+      "id": "creature",
+      "scene": "creature",
+      "parts": [
+        {
+          "slot": "size"
+        },
+        {
+          "slot": "colour"
+        },
+        {
+          "slot": "animal"
+        }
+      ],
+      "english": "A {size} {colour} {animal}!",
+      "base": {
+        "size": "little",
+        "colour": "black",
+        "animal": "horse"
+      },
+      "lesson": "lesson-33"
+    }
   ]
 }
