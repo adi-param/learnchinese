@@ -1,0 +1,341 @@
+{
+ "note": "Book sentences split into the natural chunks a child reads them in, for Sentence balloons. Chunks concatenate to the sentence without punctuation; Pinyin is taken from the library sentence.",
+ "sentences": {
+  "sentence-411247491976": [
+   {
+    "hanzi": "我",
+    "pinyin": "wǒ"
+   },
+   {
+    "hanzi": "长大了",
+    "pinyin": "zhǎng dà le"
+   }
+  ],
+  "sentence-7293aea2675d": [
+   {
+    "hanzi": "我会说华语",
+    "pinyin": "wǒ huì shuō huá yǔ"
+   },
+   {
+    "hanzi": "还会读故事书",
+    "pinyin": "hái huì dú gù shi shū"
+   }
+  ],
+  "sentence-8d1bfb2e94e9": [
+   {
+    "hanzi": "来来来",
+    "pinyin": "lái lái lái"
+   },
+   {
+    "hanzi": "来吃草",
+    "pinyin": "lái chī cǎo"
+   },
+   {
+    "hanzi": "小黑马",
+    "pinyin": "xiǎo hēi mǎ"
+   },
+   {
+    "hanzi": "喜欢吃草",
+    "pinyin": "xǐ huan chī cǎo"
+   }
+  ],
+  "sentence-372ca5c2c867": [
+   {
+    "hanzi": "来来来",
+    "pinyin": "lái lái lái"
+   },
+   {
+    "hanzi": "来游泳",
+    "pinyin": "lái yóu yǒng"
+   },
+   {
+    "hanzi": "小黄鸭",
+    "pinyin": "xiǎo huáng yā"
+   },
+   {
+    "hanzi": "喜欢游泳",
+    "pinyin": "xǐ huan yóu yǒng"
+   }
+  ],
+  "sentence-1491611629fd": [
+   {
+    "hanzi": "绿绿的草地上",
+    "pinyin": "lǜ lǜ de cǎo dì shàng"
+   },
+   {
+    "hanzi": "大黄牛在吃草",
+    "pinyin": "dà huáng niú zài chī cǎo"
+   },
+   {
+    "hanzi": "小白羊也在吃草",
+    "pinyin": "xiǎo bái yáng yě zài chī cǎo"
+   }
+  ],
+  "sentence-6030d13b2db7": [
+   {
+    "hanzi": "天亮了",
+    "pinyin": "tiān liàng le"
+   },
+   {
+    "hanzi": "红红的太阳",
+    "pinyin": "hóng hóng de tài yáng"
+   },
+   {
+    "hanzi": "出来了",
+    "pinyin": "chū lái le"
+   }
+  ],
+  "sentence-3421211f50ab": [
+   {
+    "hanzi": "我们",
+    "pinyin": "wǒ men"
+   },
+   {
+    "hanzi": "开开心心",
+    "pinyin": "kāi kāi xīn xīn"
+   },
+   {
+    "hanzi": "去学校",
+    "pinyin": "qù xué xiào"
+   }
+  ],
+  "sentence-0f6cf43cc91b": [
+   {
+    "hanzi": "天黑了",
+    "pinyin": "tiān hēi le"
+   },
+   {
+    "hanzi": "弯弯的月亮",
+    "pinyin": "wān wān de yuè liang"
+   },
+   {
+    "hanzi": "在天上",
+    "pinyin": "zài tiān shàng"
+   }
+  ],
+  "sentence-70524fd2e73d": [
+   {
+    "hanzi": "弯弯的月亮",
+    "pinyin": "wān wān de yuè liang"
+   },
+   {
+    "hanzi": "像小船",
+    "pinyin": "xiàng xiǎo chuán"
+   }
+  ],
+  "sentence-ef048470fb42": [
+   {
+    "hanzi": "草莓蛋糕",
+    "pinyin": "cǎo méi dàn gāo"
+   },
+   {
+    "hanzi": "真香",
+    "pinyin": "zhēn xiāng"
+   }
+  ],
+  "sentence-b36e82831408": [
+   {
+    "hanzi": "巧克力牛奶",
+    "pinyin": "qiǎo kè lì niú nǎi"
+   },
+   {
+    "hanzi": "真甜",
+    "pinyin": "zhēn tián"
+   }
+  ],
+  "sentence-7dcbf1212fa7": [
+   {
+    "hanzi": "又香又甜",
+    "pinyin": "yòu xiāng yòu tián"
+   },
+   {
+    "hanzi": "我喜欢",
+    "pinyin": "wǒ xǐ huan"
+   }
+  ],
+  "sentence-536b1e20801c": [
+   {
+    "hanzi": "我有",
+    "pinyin": "wǒ yǒu"
+   },
+   {
+    "hanzi": "圆形的饼干",
+    "pinyin": "yuán xíng de bǐng gān"
+   },
+   {
+    "hanzi": "正方形的饼干",
+    "pinyin": "zhèng fāng xíng de bǐng gān"
+   },
+   {
+    "hanzi": "还有三角形的饼干",
+    "pinyin": "hái yǒu sān jiǎo xíng de bǐng gān"
+   }
+  ],
+  "sentence-5566d373398c": [
+   {
+    "hanzi": "桌子上有",
+    "pinyin": "zhuō zi shàng yǒu"
+   },
+   {
+    "hanzi": "香香的菜",
+    "pinyin": "xiāng xiāng de cài"
+   },
+   {
+    "hanzi": "香香的肉",
+    "pinyin": "xiāng xiāng de ròu"
+   },
+   {
+    "hanzi": "还有香香的白米饭",
+    "pinyin": "hái yǒu xiāng xiāng de bái mǐ fàn"
+   }
+  ],
+  "sentence-949b457a3a08": [
+   {
+    "hanzi": "圆圆的月亮",
+    "pinyin": "yuán yuán de yuè liang"
+   },
+   {
+    "hanzi": "在天上",
+    "pinyin": "zài tiān shàng"
+   }
+  ],
+  "sentence-e70a1bb69012": [
+   {
+    "hanzi": "圆圆的眼睛",
+    "pinyin": "yuán yuán de yǎn jing"
+   },
+   {
+    "hanzi": "在脸上",
+    "pinyin": "zài liǎn shàng"
+   }
+  ],
+  "sentence-450dbb1d5851": [
+   {
+    "hanzi": "圆圆的葡萄",
+    "pinyin": "yuán yuán de pú tao"
+   },
+   {
+    "hanzi": "在桌子上",
+    "pinyin": "zài zhuō zi shàng"
+   }
+  ],
+  "sentence-6619e8732930": [
+   {
+    "hanzi": "高高的大树",
+    "pinyin": "gāo gāo de dà shù"
+   },
+   {
+    "hanzi": "在山上",
+    "pinyin": "zài shān shàng"
+   }
+  ],
+  "sentence-430b0ca32fbd": [
+   {
+    "hanzi": "轰隆隆",
+    "pinyin": "hōng lóng lóng"
+   },
+   {
+    "hanzi": "轰隆隆",
+    "pinyin": "hōng lóng lóng"
+   },
+   {
+    "hanzi": "长长的火车",
+    "pinyin": "cháng cháng de huǒ chē"
+   },
+   {
+    "hanzi": "在山下",
+    "pinyin": "zài shān xià"
+   }
+  ],
+  "sentence-ff05245fbe3d": [
+   {
+    "hanzi": "风儿",
+    "pinyin": "fēng ér"
+   },
+   {
+    "hanzi": "轻轻吹",
+    "pinyin": "qīng qīng chuī"
+   }
+  ],
+  "sentence-536007f7ec4d": [
+   {
+    "hanzi": "小兔",
+    "pinyin": "xiǎo tù"
+   },
+   {
+    "hanzi": "轻轻跳",
+    "pinyin": "qīng qīng tiào"
+   }
+  ],
+  "sentence-d4203881fa4c": [
+   {
+    "hanzi": "我的妹妹",
+    "pinyin": "wǒ de mèi mei"
+   },
+   {
+    "hanzi": "在睡觉",
+    "pinyin": "zài shuì jiào"
+   },
+   {
+    "hanzi": "请安静",
+    "pinyin": "qǐng ān jìng"
+   }
+  ],
+  "sentence-18aa9115a40e": [
+   {
+    "hanzi": "爸爸和妈妈",
+    "pinyin": "bà ba hé mā ma"
+   },
+   {
+    "hanzi": "在客厅",
+    "pinyin": "zài kè tīng"
+   },
+   {
+    "hanzi": "看书",
+    "pinyin": "kàn shū"
+   }
+  ],
+  "sentence-c5f3f59a5767": [
+   {
+    "hanzi": "我和弟弟",
+    "pinyin": "wǒ hé dì di"
+   },
+   {
+    "hanzi": "在房间",
+    "pinyin": "zài fáng jiān"
+   },
+   {
+    "hanzi": "玩积木",
+    "pinyin": "wán jī mù"
+   }
+  ],
+  "sentence-837ffa6b059e": [
+   {
+    "hanzi": "妹妹",
+    "pinyin": "mèi mei"
+   },
+   {
+    "hanzi": "不会写",
+    "pinyin": "bù huì xiě"
+   },
+   {
+    "hanzi": "只会读",
+    "pinyin": "zhǐ huì dú"
+   }
+  ],
+  "sentence-6ef1db2f5367": [
+   {
+    "hanzi": "弟弟",
+    "pinyin": "dì di"
+   },
+   {
+    "hanzi": "不会穿鞋子",
+    "pinyin": "bù huì chuān xié zi"
+   },
+   {
+    "hanzi": "只会穿袜子",
+    "pinyin": "zhǐ huì chuān wà zi"
+   }
+  ]
+ }
+}

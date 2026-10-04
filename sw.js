@@ -3,8 +3,8 @@
 // stored copy when there is no connection.
 const CACHE='learnchinese-v1';
 const SHELL=['./','index.html','manifest.webmanifest','favicon.svg','src/styles.css','src/app.js','src/audio-help.js','src/audio-player.js',
- 'src/core.js','src/icons.js','src/illustrations.js','src/pictures.js','src/progress.js','src/sentences.js','src/sfx.js','src/speech.js',
- 'data/library.json','data/patterns.json','assets/audio/manifest.json','assets/icons/icon-192.png','assets/icons/apple-touch-icon.png'];
+ 'src/core.js','src/icons.js','src/illustrations.js','src/pictures.js','src/progress.js','src/sentences.js','src/sfx.js','src/stage.js','src/speech.js',
+ 'data/library.json','data/patterns.json','data/sentence-chunks.json','assets/audio/manifest.json','assets/icons/icon-192.png','assets/icons/apple-touch-icon.png'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(CACHE);
  await cache.addAll(SHELL.map(path=>new Request(path,{cache:'no-cache'})));

@@ -1,5 +1,5 @@
 {
-  "note": "Sentence patterns for the phrase games (Feed the animal, Where is it?, Paint the animal, Silly machine). Every pattern comes from a lesson sentence, and every option uses only lesson words, so each combination is new but grammatical. English and Pinyin are editorial drafts, like the rest of the library.",
+  "note": "Sentence patterns for the games (Feed the animal, Paint the animal, Build the sentence). Every pattern comes from a lesson sentence, and every option uses only lesson words, so each combination is new but grammatical. English and Pinyin are editorial drafts, like the rest of the library.",
   "slots": {
     "who": [
       {
@@ -140,56 +140,6 @@
         "art": "grapes"
       }
     ],
-    "place": [
-      {
-        "key": "lawn",
-        "hanzi": "草地",
-        "pinyin": "cǎo dì",
-        "english": "the grass",
-        "art": "lawn",
-        "surface": 16
-      },
-      {
-        "key": "table",
-        "hanzi": "桌子",
-        "pinyin": "zhuō zi",
-        "english": "the table",
-        "art": "table",
-        "surface": 44
-      },
-      {
-        "key": "mountain",
-        "hanzi": "山",
-        "pinyin": "shān",
-        "english": "the mountain",
-        "art": "mountain",
-        "surface": 36
-      },
-      {
-        "key": "bed",
-        "hanzi": "床",
-        "pinyin": "chuáng",
-        "english": "the bed",
-        "art": "bed",
-        "surface": 34
-      },
-      {
-        "key": "sofa",
-        "hanzi": "沙发",
-        "pinyin": "shā fā",
-        "english": "the sofa",
-        "art": "sofa",
-        "surface": 30
-      },
-      {
-        "key": "chair",
-        "hanzi": "椅子",
-        "pinyin": "yǐ zi",
-        "english": "the chair",
-        "art": "chair",
-        "surface": 40
-      }
-    ],
     "size": [
       {
         "key": "little",
@@ -279,6 +229,81 @@
         "english": "rabbit",
         "art": "rabbit"
       }
+    ],
+    "hider": [
+      {
+        "key": "rabbit",
+        "hanzi": "小兔",
+        "pinyin": "xiǎo tù",
+        "english": "the little rabbit",
+        "art": "rabbit"
+      },
+      {
+        "key": "duck",
+        "hanzi": "小鸭",
+        "pinyin": "xiǎo yā",
+        "english": "the little duck",
+        "art": "duck"
+      },
+      {
+        "key": "sheep",
+        "hanzi": "小羊",
+        "pinyin": "xiǎo yáng",
+        "english": "the little sheep",
+        "art": "sheep"
+      },
+      {
+        "key": "horse",
+        "hanzi": "小马",
+        "pinyin": "xiǎo mǎ",
+        "english": "the little horse",
+        "art": "horse"
+      },
+      {
+        "key": "cow",
+        "hanzi": "小牛",
+        "pinyin": "xiǎo niú",
+        "english": "the little calf",
+        "art": "cow"
+      }
+    ],
+    "spot": [
+      {
+        "key": "tableOn",
+        "hanzi": "桌子上",
+        "pinyin": "zhuō zi shàng",
+        "english": "on the table"
+      },
+      {
+        "key": "tableUnder",
+        "hanzi": "桌子下",
+        "pinyin": "zhuō zi xià",
+        "english": "under the table"
+      },
+      {
+        "key": "chairOn",
+        "hanzi": "椅子上",
+        "pinyin": "yǐ zi shàng",
+        "english": "on the chair"
+      },
+      {
+        "key": "chairUnder",
+        "hanzi": "椅子下",
+        "pinyin": "yǐ zi xià",
+        "english": "under the chair"
+      },
+      {
+        "key": "bedOn",
+        "hanzi": "床上",
+        "pinyin": "chuáng shàng",
+        "english": "on the bed"
+      },
+      {
+        "key": "bedUnder",
+        "hanzi": "床下",
+        "pinyin": "chuáng xià",
+        "english": "under the bed"
+      }
     ]
   },
   "patterns": [
@@ -306,32 +331,6 @@
       "lesson": "lesson-33"
     },
     {
-      "id": "on",
-      "scene": "on",
-      "parts": [
-        {
-          "slot": "who"
-        },
-        {
-          "hanzi": "在",
-          "pinyin": "zài"
-        },
-        {
-          "slot": "place"
-        },
-        {
-          "hanzi": "上",
-          "pinyin": "shàng"
-        }
-      ],
-      "english": "{who|cap} is on {place}.",
-      "base": {
-        "who": "whitesheep",
-        "place": "lawn"
-      },
-      "lesson": "lesson-34"
-    },
-    {
       "id": "creature",
       "scene": "creature",
       "parts": [
@@ -352,6 +351,27 @@
         "animal": "horse"
       },
       "lesson": "lesson-33"
+    },
+    {
+      "id": "hide",
+      "parts": [
+        {
+          "slot": "hider"
+        },
+        {
+          "hanzi": "在",
+          "pinyin": "zài"
+        },
+        {
+          "slot": "spot"
+        }
+      ],
+      "english": "{hider|cap} is {spot}.",
+      "base": {
+        "hider": "rabbit",
+        "spot": "bedUnder"
+      },
+      "lesson": "lesson-42"
     }
   ]
 }

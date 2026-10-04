@@ -274,9 +274,6 @@ a{color:inherit}
 .scene{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
 .scene-tile{position:relative;display:block;width:150px;aspect-ratio:1.25;border-radius:18px;background:#f7f2ec;overflow:hidden}
 .scene-tile.small{width:84px}
-.scene-tile.on{width:210px}
-.on-place{position:absolute;inset:0}
-.on-thing{position:absolute;left:28%;width:44%;height:auto;aspect-ratio:1.25}
 .scene-tile.creature{width:210px}
 .creature .ref{position:absolute;left:4%;bottom:4%;width:30%;aspect-ratio:1.25}
 .creature .beast{position:absolute;right:6%;bottom:4%;aspect-ratio:1.25;transition:width .4s var(--spring)}
@@ -287,16 +284,6 @@ a{color:inherit}
 .chunk{position:relative;display:flex;flex-direction:column;align-items:center;min-width:64px;padding:8px 14px;border:0;border-radius:18px;background:#f3ece4}
 .chunk .hanzi{font-size:36px}
 .chunk-pinyin{font-family:var(--pinyin);font-size:14px;font-weight:600;color:var(--muted)}
-.machine{display:flex;flex-direction:column;align-items:center;gap:18px;margin-bottom:18px;padding:22px 16px;border-radius:var(--r-xl);background:linear-gradient(160deg,#7c5cff,#5b3fd9);box-shadow:var(--shadow-lg),inset 0 -6px 0 #0000002a}
-.reels{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px}
-.reel{padding:6px;border:0;border-radius:20px;background:#3d2aa3;box-shadow:inset 0 4px 10px #0000004d}
-.reel-window{display:flex;flex-direction:column;align-items:center;gap:2px;width:118px;padding:8px;border-radius:14px;background:var(--surface)}
-.reel-window .stage.small{width:100%;height:auto;aspect-ratio:1.25;background:#f7f2ec}
-.reel-window .hanzi{font-size:26px}
-.reel-window.spinning{filter:blur(1.5px);animation:reel-shake .16s linear infinite}
-.reel-fixed{display:grid;place-items:center;min-width:64px;padding:10px 12px;border-radius:16px;background:#ffffff26;color:#fff}
-.reel-fixed .hanzi{font-size:30px}
-.machine #spin{background:var(--sun);color:var(--ink);box-shadow:0 6px 16px #0003,var(--press)}
 
 
 /* Games menu: one big picture tile per game */
@@ -348,8 +335,6 @@ a{color:inherit}
 .quiz-option{padding:8px;border:4px solid transparent;border-radius:var(--r-lg);background:var(--surface);box-shadow:var(--shadow-md);transition:transform .25s var(--spring),opacity .4s}
 .quiz-option:active:not(:disabled){transform:scale(.95)}
 .quiz-option.feed .stage.small{width:150px;height:auto;max-width:none;aspect-ratio:1.25;background:#f7f2ec}
-.quiz-scene .scene-tile.on{width:180px}
-.quiz-option.chosen{border-color:var(--mint);animation:pop .5s var(--spring)}
 .quiz-option.feed.chosen{animation:feed .8s ease-in forwards}
 .quiz-option.gone{opacity:.25;transform:scale(.9)}
 .quiz-option.hint{border-color:#ffc233;animation:hint-bounce .9s ease-in-out 3}
@@ -384,6 +369,79 @@ a{color:inherit}
 .quiz-option.feed.chosen{visibility:hidden;animation:none}
 .flying-food{position:fixed;z-index:30;pointer-events:none;border-radius:16px;overflow:hidden}
 .flying-food svg{width:100%;height:100%}
+
+
+/* Games menu sections */
+.menu-heading{margin:8px 4px 12px;font-size:18px;font-weight:700;color:var(--muted)}
+.games-menu+.menu-heading{margin-top:28px}
+/* Sentence pairs: long text in the same-size tiles */
+/* The sentence ribbon (Make it happen): chunks light up as they are acted out */
+.sb-stage{display:flex;flex-direction:column;align-items:center;gap:18px;padding:22px 16px 18px;border-radius:var(--r-xl);background:linear-gradient(180deg,#e1f0ff,#fff8f0);box-shadow:var(--shadow-md)}
+.sb-sentence{display:flex;align-items:center;gap:12px;max-width:100%}
+.ribbon{display:flex;flex-wrap:wrap;gap:6px;padding:10px;border-radius:var(--r-md);background:#fff;box-shadow:var(--shadow-sm)}
+.slot{position:relative;display:flex;flex-direction:column;align-items:center;padding:6px 8px;border-radius:14px;background:#f3ece4}
+.slot .hanzi{font-size:34px;line-height:1.3}
+.slot.filled{background:var(--mint-soft);box-shadow:inset 0 0 0 3px var(--mint);animation:pop .45s var(--spring)}
+.slot.next{box-shadow:inset 0 0 0 4px var(--primary);animation:hint-bounce 1.6s ease-in-out infinite}
+.ribbon:not(.answered) .chunk-pinyin{visibility:hidden}
+.sb-english{margin:0;font-size:16px;font-weight:600;color:var(--muted)}
+
+
+/* Scenes: the pictures for Build the sentence */
+.slot.next{background:var(--sun-soft)}
+.scene-box{position:relative;width:min(640px,100%);aspect-ratio:4/3;border-radius:var(--r-lg);overflow:hidden;box-shadow:inset 0 0 0 3px #fff,var(--shadow-sm);touch-action:none}
+.scene-bg{position:absolute;inset:0;width:100%;height:100%}
+.scene-bg .sky{transition:fill 1.4s ease}
+.scene-box.day .sky{fill:#9fd8ff}
+.scene-box.windy .tree{transform-origin:118px 96px;animation:sway 1.6s ease-in-out infinite}
+.placed{position:absolute;aspect-ratio:1.25;transform:translate(-50%,-50%);pointer-events:none}
+.placed-art{display:block;width:100%;height:100%;transform-origin:50% 90%}
+.placed-art.fresh{animation:land .6s var(--spring)}
+.placed-art.fx-eat{animation:munch .5s ease-in-out infinite}
+.placed-art.fx-swim{animation:float 1.6s ease-in-out infinite}
+.placed-art.fx-hop{animation:hop .9s ease-in-out infinite}
+.placed-art.fx-glow{filter:drop-shadow(0 0 6px #fff3b0) drop-shadow(0 0 14px #ffe066)}
+.placed-art.fx-chug{animation:chug .35s linear infinite}
+.placed-art.fx-blink{animation:blink 2.4s ease-in-out infinite}
+.placed-art.fx-blow{animation:float 1.2s ease-in-out infinite}
+.placed-art.fx-sleep{transform:rotate(-78deg) translate(-10%,10%)}
+.placed-art.fx-sleep::after{content:'z z';position:absolute;top:-30%;left:60%;font-weight:700;color:var(--violet);transform:rotate(78deg);animation:float 2s ease-in-out infinite}
+
+
+/* Build the sentence: picture and listen, slots to fill in order, word tiles to drag or tap */
+.menu-build{display:flex;flex-direction:column;align-items:center;gap:4px;width:80%}
+.menu-build .menu-pic{width:52%}
+.menu-tiles{display:flex;gap:6px}
+.menu-tiles .hanzi{padding:4px 10px;border-radius:10px;background:#fff;font-size:22px;box-shadow:var(--shadow-sm)}
+.build-stage{display:flex;flex-direction:column;align-items:center;gap:14px;padding:16px 16px 14px;border-radius:var(--r-xl);background:var(--surface);box-shadow:var(--shadow-md)}
+.build-picture{position:relative;width:min(560px,100%,calc((100svh - 330px) * 4 / 3))}
+.build-scene{width:100%}
+.build-scene.plain{display:grid;place-items:center;background:#f7f2ec}
+.build-scene.plain .stage{font-size:72px}
+.build-scene .placed-art{animation:none!important}
+.build-stage.complete .build-scene .placed-art.fx-eat{animation:munch .5s ease-in-out infinite!important}
+.build-stage.complete .build-scene .placed-art.fx-hop{animation:hop .9s ease-in-out infinite!important}
+.build-stage.complete .build-scene .placed-art.fx-swim,.build-stage.complete .build-scene .placed-art.fx-blow{animation:float 1.4s ease-in-out infinite!important}
+.build-stage.complete .build-scene .placed-art.fx-chug{animation:chug .35s linear infinite!important}
+.build-stage.complete .build-scene .placed-art.fx-blink{animation:blink 2.4s ease-in-out infinite!important}
+.build-stage.complete .build-scene .placed-art.fx-bounce{animation:land .7s var(--spring) both!important}
+.build-stage.complete .build-scene{animation:pop .5s var(--spring)}
+.listen-float{position:absolute;right:-10px;top:-10px;z-index:2}
+.build-line{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;max-width:100%}
+.build-slot{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:96px;min-height:78px;padding:8px 14px;border-radius:18px;background:#fbf8f4;box-shadow:inset 0 0 0 3px #e3d9cd;background-image:repeating-linear-gradient(90deg,transparent 0 10px,#f3ece4 10px 14px)}
+.build-slot .hanzi{font-size:36px;line-height:1.25}
+.build-slot.next{box-shadow:inset 0 0 0 4px var(--primary);animation:hint-bounce 1.6s ease-in-out infinite}
+.build-slot.filled{background:var(--mint-soft);background-image:none;box-shadow:inset 0 0 0 3px var(--mint);animation:land .5s var(--spring)}
+.build-line:not(.answered) .chunk-pinyin{visibility:hidden}
+.ghost{color:#1f1b3a26}
+.slot-dots{width:36px;height:6px;border-radius:3px;background:#e3d9cd}
+.tile-tray{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:14px;border-radius:var(--r-md);background:#f7f2ec}
+.word-tile{display:flex;align-items:center;justify-content:center;min-height:72px;padding:8px 20px;border:3px solid transparent;border-radius:18px;background:#fff;box-shadow:var(--shadow-md);touch-action:none;cursor:grab;transition:transform .2s var(--spring),opacity .3s}
+.word-tile .hanzi{font-size:32px;pointer-events:none}
+.word-tile.dragging{position:relative;z-index:20;box-shadow:var(--shadow-lg);transition:none;cursor:grabbing}
+.word-tile.used{visibility:hidden}
+.word-tile.nope{animation:shake .45s}
+.word-tile.hint{border-color:#ffc233;animation:hint-bounce .9s ease-in-out 3}
 
 /* Grown-ups drawer */
 .grownups{margin:44px 0 0;border-radius:var(--r-md);background:#ffffffb3;box-shadow:var(--shadow-sm)}
@@ -444,7 +502,7 @@ a{color:inherit}
 .hooray-star{width:48px;height:48px;color:#ffc233;filter:drop-shadow(0 3px 4px #e7a60066);animation:pop .6s var(--spring) both}
 .hooray-star:nth-child(2){animation-delay:.25s;width:60px;height:60px}
 .hooray-star:nth-child(3){animation-delay:.5s}
-.audio-status{position:fixed;bottom:28px;left:50%;z-index:6;transform:translateX(-50%);padding:12px 22px;border-radius:99px;background:var(--ink);color:#fff;font-size:17px;font-weight:600;box-shadow:var(--shadow-lg);white-space:nowrap}
+.audio-status{position:fixed;top:calc(10px + env(safe-area-inset-top));left:50%;z-index:6;transform:translateX(-50%);padding:12px 22px;border-radius:99px;background:var(--ink);color:#fff;font-size:17px;font-weight:600;box-shadow:var(--shadow-lg);white-space:nowrap}
 .audio-status[hidden]{display:none}
 .toast{position:fixed;bottom:28px;left:50%;z-index:5;transform:translateX(-50%);max-width:90vw;padding:14px 22px;border-radius:var(--r-sm);background:var(--ink);color:#fff;font-size:15px}
 .audio-help{width:min(580px,calc(100% - 32px));max-height:85vh;overflow:auto;padding:28px;border:0;border-radius:var(--r-lg);background:var(--surface);color:var(--ink);box-shadow:var(--shadow-lg);font-family:var(--font);line-height:1.6}
@@ -471,9 +529,12 @@ a{color:inherit}
 @keyframes fade-out{0%,85%{opacity:1}100%{opacity:0}}
 @keyframes draw{to{stroke-dashoffset:0}}
 @keyframes reveal{0%{opacity:0;transform:translate(-50%,-30%) scale(.4)}100%{opacity:1;transform:translate(-50%,-50%) scale(1)}}
-@keyframes reel-shake{0%,100%{transform:translateY(-3px)}50%{transform:translateY(3px)}}
 @keyframes munch{50%{transform:scale(1.06,.94)}}
 @keyframes feed{0%{transform:none}60%{transform:translateY(-40px) scale(.8)}100%{transform:translateY(-120px) scale(.2);opacity:0}}
+@keyframes land{0%{transform:scale(.4) translateY(-30%)}60%{transform:scale(1.12)}100%{transform:scale(1)}}
+@keyframes sway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@keyframes chug{0%,100%{transform:translateX(-2px)}50%{transform:translateX(2px) translateY(-1px)}}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
 @keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-14px) rotate(2deg)}}
 @keyframes float-away{to{transform:translateY(-110%) rotate(12deg);opacity:0}}
 @keyframes pop-out{0%{transform:scale(1)}40%{transform:scale(1.25)}100%{transform:scale(1.6);opacity:0}}
@@ -539,7 +600,16 @@ a{color:inherit}
  .match-grid.compact .match-tile .hanzi{font-size:30px}
     .recap{padding:18px}
  .balloons{min-height:190px}
- .chunks.target .chunk .hanzi{font-size:34px}
+ .build-slot{min-width:64px;min-height:62px;padding:6px 8px}
+ .build-slot .hanzi{font-size:24px}
+ .word-tile{min-height:58px;padding:6px 14px}
+ .word-tile .hanzi{font-size:22px}
+  .tile-tray{gap:8px;padding:10px}
+ .build-stage{padding:14px 8px}
+ .listen-float{right:-4px;top:-6px}
+      .slot .hanzi{font-size:24px}
+ .slot{padding:4px 6px}
+         .chunks.target .chunk .hanzi{font-size:34px}
  .quiz-sentence .chunk .hanzi{font-size:28px}
  .phrase-speaker.big{width:52px;height:52px}
  .mystery{font-size:40px}
@@ -551,20 +621,13 @@ a{color:inherit}
  .paint-animal{width:64px}
  .paint-blob{width:50px;height:46px}
  .quiz-option.feed .stage.small{width:92px}
- .quiz-scene .scene-tile.on{width:120px}
- .eater{width:150px}
- .thought{right:-40px;width:70px;height:58px}
+  .thought{right:-40px;width:70px;height:58px}
  .quiz-options{gap:8px}
  .scene-tile{width:110px}
  .scene-tile.small{width:62px}
- .scene-tile.on,.scene-tile.creature{width:170px}
  .chunk .hanzi{font-size:28px}
  .chunk{padding:6px 10px;min-width:52px}
- .reel-window{width:84px;padding:6px}
- .reel-window .hanzi{font-size:20px}
- .reel-fixed .hanzi{font-size:22px}
- .reel-fixed{min-width:0;padding:8px}
- .reveal-card{width:min(250px,84%);padding:12px 12px 12px}
+     .reveal-card{width:min(250px,84%);padding:12px 12px 12px}
  .reveal-stage{width:140px;font-size:48px;margin-bottom:4px}
  .reveal-card .hanzi{font-size:38px}
  .reveal-card .pinyin{font-size:18px}
@@ -580,7 +643,7 @@ a{color:inherit}
  .bubble{font-size:16px}
  .button{min-height:52px;padding:0 20px;font-size:16px}
  .game-actions{gap:10px}
- .audio-status,.toast{bottom:110px}
+ .toast{bottom:110px}
 }
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}

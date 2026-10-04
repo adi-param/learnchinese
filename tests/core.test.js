@@ -77,3 +77,7 @@ test('the offline app stores every script, style and icon the page loads',async(
  const manifest=JSON.parse(readFileSync(new URL('../manifest.webmanifest',import.meta.url),'utf8'));
  for(const icon of manifest.icons)assert(readFileSync(new URL('../'+icon.src,import.meta.url)).length>1000,icon.src);
 });
+test('every class the game screens use has a style',()=>{
+ const css=readFileSync(new URL('../src/styles.css',import.meta.url),'utf8');
+ for(const cls of ['placed','placed-art','scene-box','scene-bg','build-slot','word-tile','tile-tray','build-line','match-tile','balloon','paint-blob','quiz-option'])assert(new RegExp(`\\.${cls}[\\s{.:,]`).test(css),`.${cls} has no style`);
+});

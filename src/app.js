@@ -4,6 +4,7 @@ import {femaleMandarinVoice, PRONUNCIATION_RATE} from './speech.js';
 import {lessonItems,shuffle,matchingWords,sentenceComplete,sourceLabel,dealRound,leastRecent,MATCH_LEVELS,nextLevel,balloonOptions,recordMatch} from './core.js';
 import {loadProgress,saveProgress} from './progress.js';
 import {fill,optionOf,lessonWords} from './sentences.js';
+import {BACKGROUNDS,SCENES,HIDE_ROOM,backgroundSvg} from './stage.js';
 import {illustrations,animal} from './illustrations.js';
 import {lessonPictures,pictureFor,picturesOf,renderPicture} from './pictures.js';
 import {chime} from './sfx.js';
@@ -11,7 +12,7 @@ import {icon,mascot} from './icons.js';
 const root=document.querySelector('#app');
 const views=[['library','Words'],['flashcards','Flip cards'],['match','Games']];
 views.icons={library:'words',flashcards:'cards',match:'match'};
-const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',menu:'Pick a game',pairs:'Find the pairs',balloons:'Pop the right balloon',paint:'Make the animal you hear',feed:'Feed the hungry animal',where:'Where is it?',silly:'Spin a silly sentence'};
+const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',menu:'Pick a game',pairs:'Find the pairs',balloons:'Pop the right balloon',paint:'Make the animal you hear',feed:'Feed the hungry animal',build:'Build the sentence'};
 let library;let patterns; let voiceList=[];let lastSpoken=null;let voiceRequest=0;
 const audio=document.createElement('audio');audio.id='pronunciation-audio';audio.preload='auto';document.body.append(audio);
 const audioStatus=document.createElement('div');audioStatus.className='audio-status';audioStatus.hidden=true;audioStatus.setAttribute('role','status');document.body.append(audioStatus);
@@ -30,7 +31,7 @@ async function deviceSpeak(id,status){
  speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(byId.get(id).hanzi);utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=PRONUNCIATION_RATE;
  utterance.onstart=()=>{status.textContent='Playing with '+voice.name+'.';};utterance.onend=()=>{status.textContent='Finished. You can close this guide.';};utterance.onerror=()=>{if(current===voiceRequest)status.textContent='The device voice could not play. Try the saved recording or open this page in another browser.';};speechSynthesis.speak(utterance);
 }
-const state={view:'library',lesson:'lesson-34',kind:'word',flashKind:'word',query:'',extra:false,details:false,grownups:false,deck:[],index:0,revealed:false,round:null,feedback:'',wrong:null,justMatched:null,matchMode:null,roundsDone:0,coachReact:null,sayNext:false,silly:null,paint:null,paintPop:false,quiz:null,made:new Set(),fallback:false};
+const state={view:'library',lesson:'lesson-34',kind:'word',flashKind:'word',query:'',extra:false,details:false,grownups:false,deck:[],index:0,revealed:false,round:null,feedback:'',wrong:null,justMatched:null,matchMode:null,roundsDone:0,coachReact:null,sayNext:false,paint:null,paintPop:false,quiz:null,build:null,made:new Set(),fallback:false};
 const progress=loadProgress();
 const panda=(mood,cls)=>mascot(mood,cls);
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -111,7 +112,8 @@ function initGame(){
  state.feedback='';state.index=0;state.revealed=false;
  state.deck=shuffle(practice(gameKind()));
  if(state.view==='match'&&WORD_GAMES.includes(state.matchMode))newMatchRound();
- if(state.view==='match'&&['feed','where'].includes(state.matchMode))newQuiz(state.matchMode);
+ if(state.view==='match'&&state.matchMode==='feed')newQuiz('feed');
+ if(state.view==='match'&&state.matchMode==='build')newBuild();
  if(state.view==='match'&&state.matchMode==='paint')newPaint();
 }
 function flashContent(){
@@ -162,9 +164,9 @@ function matchPool({all=false}={}){
 function newMatchRound(){
  const pool=matchPool(),size=Math.min(MATCH_LEVELS[progress.level]||MATCH_LEVELS[0],pool.length);
  // Least recently practised words first, remembered across visits, so every word gets equal turns.
- const words=dealRound(pool,size,progress),pairs=state.matchMode==='pairs';saveProgress(progress);
+ const words=dealRound(pool,size,progress),pairs=state.matchMode!=='balloons';saveProgress(progress);
  state.round={words,chars:shuffle(words),pics:shuffle(words),
-  reverse:pairs&&state.roundsDone%2===1,matched:[],charPick:null,picPick:null,mistakes:0,misses:{},hint:null,done:false,recap:false,
+  reverse:pairs&&state.roundsDone%2===1,fallback:!!pool.fallback,matched:[],charPick:null,picPick:null,mistakes:0,misses:{},hint:null,done:false,recap:false,
   balloon:pairs?null:{queue:words.map(w=>w.id)}};
  if(!pairs)nextBalloon();
 }
@@ -183,7 +185,7 @@ function matchTile(i,kind){
 const coach=(mood,text,extra='')=>`<div class="coach">${panda(mood,`mascot small ${state.coachReact||''}`)}<p class="bubble" role="status">${text}${extra}</p></div>`;
 function pairsBoard(){
  const r=state.round,column=kind=>(kind==='char'?r.chars:r.pics).map(i=>matchTile(i,kind)).join(''),label=kind=>kind==='char'?'Chinese words':'Pictures';
- return `<div class="match-grid ${r.pics.length>5?'compact':''}" id="match-grid"><svg class="links" aria-hidden="true"></svg><div class="match-column" role="group" aria-label="${label(leftKind())}">${column(leftKind())}</div><div class="match-column" role="group" aria-label="${label(rightKind())}">${column(rightKind())}</div></div>`;
+ return `${fallbackNote(r.fallback)}<div class="match-grid ${r.pics.length>5?'compact':''}" id="match-grid"><svg class="links" aria-hidden="true"></svg><div class="match-column" role="group" aria-label="${label(leftKind())}">${column(leftKind())}</div><div class="match-column" role="group" aria-label="${label(rightKind())}">${column(rightKind())}</div></div>`;
 }
 // Balloon pop: the panda says a word and she pops the balloon carrying its character.
 const balloonColours=['#7c5cff','#ff7a45','#12a879','#2b8ef0','#f0507a'];
@@ -211,6 +213,8 @@ function recapContent(){
  const r=state.round;
  return `<div class="recap"><h2>You learned</h2><div class="game-actions recap-actions"><button class="button primary big" id="new-round">${icon('shuffle')}Play again</button><button class="button secondary" id="recap-again">${icon('speaker')}Hear them again</button></div><div class="recap-cards">${r.words.map((i,n)=>`<div class="recap-card" data-recap="${n}"><span class="stage small" aria-hidden="true">${pictureFor(i,byId)}</span><span class="hanzi" lang="zh-Hans" ${sayAttr(i.audio)}>${chars(i.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(i.pinyin)}</span></div>`).join('')}</div></div>`;
 }
+// Scrolls the game's back bar to the top of the screen, so the whole game fits below it.
+function showGame(){const bar=root.querySelector('.match-bar');if(bar)scrollTo({top:bar.getBoundingClientRect().top+scrollY-8});}
 // Brings the recap's top (with Play again) into view, clear of the header, on any screen size.
 function showRecap(){const recap=root.querySelector('.recap');if(recap)scrollTo({top:recap.getBoundingClientRect().top+scrollY-12,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
 // The recap shows each matched word in turn as it is spoken.
@@ -264,36 +268,130 @@ function progressTable(){
 }
 
 // Phrase games built on lesson patterns (data/patterns.json): Paint the animal, Feed the animal,
-// Where is it? and the Silly machine. Each asks for one tap at a time.
+// Each asks for one tap at a time.
 const patternById=id=>patterns.patterns.find(p=>p.id===id);
 const patternAudio=sentence=>new URL('../'+sentence.audio,import.meta.url).href;
 const ANIMALS=['horse','duck','cow','sheep','rabbit'];
 const QUIZ_LENGTH=5;
-function sceneArt(pattern,choice){
- const pick=slot=>optionOf(patterns,slot,choice[slot]),art=name=>illustrations[name]||'';
- const tile=(inner,cls='')=>`<span class="scene-tile ${cls}">${inner}</span>`;
- if(pattern.scene==='eat')return tile(art(pick('who').art))+tile(art(pattern.relation),'small')+tile(art(pick('food').art));
- if(pattern.scene==='on'){const place=pick('place');return tile(`<span class="on-place">${art(place.art)}</span><span class="on-thing" style="bottom:${place.surface}%">${art(pick('who').art)}</span>`,'on');}
- // A fixed tuft of grass beside the animal shows whether it is big or little.
- if(pattern.scene==='creature')return tile(`<span class="ref">${art('grass')}</span><span class="beast">${animal(pick('animal').key,pick('colour').swatch)}</span>`,`creature ${pick('size').key}`);
- return '';
-}
-const optionFace=option=>`<span class="stage small" aria-hidden="true">${option.art?illustrations[option.art]:`<span class="swatches"><span class="swatch" style="--swatch:${option.swatch}"></span></span>`}</span><span class="hanzi" lang="zh-Hans">${escape(option.hanzi)}</span>`;
 const phraseLine=sentence=>`<div class="chunks" ${sayAttr(sentence.audio)}>${sentence.parts.map(part=>`<span class="chunk ${part.slot?'filled':''}"><span class="hanzi" lang="zh-Hans">${chars(part.hanzi)}</span><span class="chunk-pinyin" lang="zh-Latn">${escape(part.pinyin)}</span></span>`).join('')}</div>`;
 // A chime marks each phrase she makes for the first time.
 function madeSentence(sentence){if(state.made.has(sentence.audio))return false;state.made.add(sentence.audio);return true;}
-const GAMES=[['pairs','Pairs','Match words to pictures'],['balloons','Balloon pop','Hear it, pop it'],['paint','Paint the animal','Read it, then make it'],['feed','Feed the animal','Who likes to eat what?'],['where','Where is it?','On the bed, on the table'],['silly','Silly machine','Spin a silly sentence']];
+const GAMES=[
+ ['pairs','Pairs','Match words to pictures','words'],['balloons','Balloon pop','Hear it, pop it','words'],
+ ['paint','Paint the animal','Read it, then make it','words'],['feed','Feed the animal','Who likes to eat what?','words'],
+ ['build','Build the sentence','Look, listen, build','sentences']];
+const balloonSvg=colour=>`<svg viewBox="0 0 100 150" aria-hidden="true"><path d="M50 122q-6 12 2 26" fill="none" stroke="#1f1b3a" stroke-width="3"/><path d="M50 116C22 102 8 76 8 52A42 42 0 0 1 92 52C92 76 78 102 50 116Z" fill="${colour}" stroke="#1f1b3a" stroke-width="4"/><path d="M44 122h12l-6-7z" fill="${colour}" stroke="#1f1b3a" stroke-width="3" stroke-linejoin="round"/><ellipse cx="32" cy="36" rx="7" ry="13" fill="#fff" opacity=".4" transform="rotate(25 32 36)"/></svg>`;
 function gameArt(id){
- const scene=(pattern,choice)=>sceneArt(patternById(pattern),choice);
- if(id==='pairs')return `<span class="menu-duo"><span class="menu-char hanzi" lang="zh-Hans">牛</span><span class="menu-pic">${illustrations.cow}</span></span>`;
- if(id==='balloons')return `<span class="menu-balloons">${['#7c5cff','#ff7a45','#12a879'].map(c=>`<svg viewBox="0 0 100 150"><path d="M50 116C22 102 8 76 8 52A42 42 0 0 1 92 52C92 76 78 102 50 116Z" fill="${c}" stroke="#1f1b3a" stroke-width="4"/><path d="M50 122q-6 12 2 26" fill="none" stroke="#1f1b3a" stroke-width="3"/></svg>`).join('')}</span>`;
+ const pic=name=>`<span class="menu-pic">${illustrations[name]}</span>`;
+ if(id==='pairs')return `<span class="menu-duo"><span class="menu-char hanzi" lang="zh-Hans">牛</span>${pic('cow')}</span>`;
+ if(id==='balloons')return `<span class="menu-balloons">${['#7c5cff','#ff7a45','#12a879'].map(balloonSvg).join('')}</span>`;
  if(id==='paint')return `<span class="menu-pic">${animal('horse','#f25a5a')}</span>`;
- if(id==='feed')return `<span class="menu-duo"><span class="menu-pic">${illustrations.rabbit}</span><span class="menu-pic">${illustrations.strawberry}</span></span>`;
- if(id==='where')return scene('on',{who:'whitesheep',place:'table'});
- return `<span class="menu-duo"><span class="menu-pic">${illustrations.cow}</span><span class="menu-pic">${illustrations.cake}</span></span>`;
+ if(id==='feed')return `<span class="menu-duo">${pic('rabbit')}${pic('strawberry')}</span>`;
+ return `<span class="menu-build"><span class="menu-pic">${illustrations.rabbit}</span><span class="menu-tiles"><span class="hanzi" lang="zh-Hans">小兔</span><span class="hanzi" lang="zh-Hans">轻轻跳</span></span></span>`;
 }
 function gamesMenu(){
- return `<div class="games-menu">${GAMES.map(([id,name,hint],n)=>`<button class="game-tile tone-${n%5}" data-game="${id}"><span class="game-art" aria-hidden="true">${gameArt(id)}</span><span class="game-name">${name}</span><span class="game-hint">${hint}</span></button>`).join('')}</div>`;
+ const section=(kind,title)=>`<h2 class="menu-heading">${title}</h2><div class="games-menu">${GAMES.filter(g=>g[3]===kind).map(([id,name,hint],n)=>`<button class="game-tile tone-${(n+(kind==='sentences'?2:0))%5}" data-game="${id}"><span class="game-art" aria-hidden="true">${gameArt(id)}</span><span class="game-name">${name}</span><span class="game-hint">${hint}</span></button>`).join('')}</div>`;
+ return section('words','Words and phrases')+section('sentences','Sentences');
+}
+// Book sentences split into chunks (data/sentence-chunks.json) and each chunk's recording.
+let sentenceChunks={},chunkFiles={};
+// Build the sentence: a picture and its sentence read aloud; she drags the word tiles into the slots in order
+// (or taps a tile and it goes to the next slot). Each tile is spoken as it clicks in; the finished sentence
+// plays with the karaoke highlight and the picture comes alive.
+// Level 1: faint outlines in the slots. Level 2: empty slots. Level 3: one extra tile that does not belong.
+const BUILD_LENGTH=5;
+const chunkUrl=text=>chunkFiles[text]&&new URL('../'+chunkFiles[text],import.meta.url).href;
+// Pictures: a book sentence's finished scene, or a meadow / room drawn from a lesson-word sentence.
+function scenePicture(bg,props){
+ return `<div class="scene-box build-scene">${backgroundSvg(bg.art)}${props.map(p=>`<span class="placed" style="left:${p.x}%;top:${p.y}%;width:${p.w}%"><span class="placed-art fx-${p.fx||'bounce'}">${illustrations[p.art]}</span></span>`).join('')}</div>`;
+}
+function sentencePicture(s){
+ if(s.kind==='book'){
+  const scene=SCENES[s.item.id];
+  if(scene){const bg=BACKGROUNDS[scene.bg];return scenePicture(bg,scene.steps.map(st=>({...bg.zones[st.zone],art:st.prop,fx:st.fx})));}
+  return `<div class="scene-box build-scene plain"><span class="stage wide multi">${pictureFor(s.item,byId)}</span></div>`;
+ }
+ if(s.kind==='likes'){const who=optionOf(patterns,'who',s.choice.who),food=optionOf(patterns,'food',s.choice.food);
+  return scenePicture(BACKGROUNDS.meadow,[{x:34,y:66,w:40,art:who.art,fx:'eat'},{x:72,y:72,w:24,art:food.art,fx:'bounce'}]);}
+ const at=HIDE_ROOM.spots[s.choice.spot].at,hider=optionOf(patterns,'hider',s.choice.hider);
+ return scenePicture({art:HIDE_ROOM.art},[{x:at.x,y:at.y,w:Math.max(at.w,22),art:hider.art,fx:'hop'}]);
+}
+// The sentences: book sentences from the chosen lessons, plus new ones made from lesson words.
+function bookPool(){
+ const chosen=new Set(matchLessons()),all=library.items.filter(i=>i.kind==='sentence'&&sentenceChunks[i.id]);
+ const mine=all.filter(i=>i.occurrences.some(o=>o.scope==='core'&&chosen.has(o.lessonId)));
+ return mine.length?mine:Object.assign(all,{fallback:true});
+}
+function bookSentence(){
+ const all=bookPool(),fresh=all.filter(i=>!state.build.used.includes(i.id)),pool=fresh.length?fresh:all,item=leastRecent(pool.map(i=>({key:i.id,item:i})),progress.seen,'build').item;state.build.used.push(item.id);
+ return {kind:'book',item,tiles:sentenceChunks[item.id].map(c=>({text:c.hanzi,pinyin:c.pinyin})),audio:item.audio,english:item.english,fallback:!!all.fallback};
+}
+function madeSentence2(){
+ const kind=Math.random()<.6?'likes':'hide',pattern=patternById(kind);
+ const choice=kind==='likes'
+  ?{who:leastRecent(lessonOptions('who',2,o=>ANIMALS.includes(o.art)),progress.seen,'build-who').key,food:leastRecent(lessonOptions('food',2),progress.seen,'build-food').key}
+  :{hider:leastRecent(patterns.slots.hider,progress.seen,'build-hider').key,spot:leastRecent(patterns.slots.spot,progress.seen,'build-spot').key};
+ let s=fill(patterns,pattern,choice);
+ if(state.build.used.includes(s.audio))return madeSentence2();state.build.used.push(s.audio);
+ return {kind,choice,tiles:s.parts.map(p=>({text:p.hanzi,pinyin:p.pinyin})),audio:s.audio,english:s.english};
+}
+// A believable extra tile: another chunk or word of the same kind that is not in this sentence.
+function extraTile(s){
+ const used=new Set(s.tiles.map(t=>t.text));
+ const pool=s.kind==='book'
+  ?Object.values(sentenceChunks).flat().map(c=>({text:c.hanzi,pinyin:c.pinyin}))
+  :Object.entries(patterns.slots).filter(([slot])=>['who','food','hider','spot'].includes(slot)).flatMap(([,o])=>o).map(o=>({text:o.hanzi,pinyin:o.pinyin}));
+ return shuffle(pool.filter(t=>!used.has(t.text)&&chunkFiles[t.text]))[0]||null;
+}
+// A round: up to three different book sentences (never the same one twice), the rest new sentences.
+function newBuild(){const books=Math.min(3,bookPool().length);state.build={asked:0,used:[],plan:shuffle([...Array(books).fill('book'),...Array(BUILD_LENGTH-books).fill('made')]),done:false,showDone:false};nextBuild();}
+function nextBuild(){
+ const b=state.build,s=b.plan[b.asked]==='made'?madeSentence2():bookSentence(),level=progress.buildLevel||0;
+ const extra=level>=2?extraTile(s):null;
+ const tray=shuffle([...s.tiles.map((t,i)=>({...t,id:'t'+i})),...(extra?[{...extra,id:'extra'}]:[])]);
+ Object.assign(b,{s,level,tray,filled:[],nope:null,misses:0,hint:false,complete:false,advanced:false,advance:null});
+ b.asked++;state.sayNext=true;saveProgress(progress);
+}
+const buildNext=()=>state.build.s.tiles.findIndex((_,i)=>!state.build.filled[i]);
+function buildContent(){
+ const b=state.build;if(b.showDone)return gameDone();
+ const s=b.s,next=buildNext();
+ const slots=s.tiles.map((t,i)=>{const f=b.filled[i];
+  return `<span class="build-slot ${f?'filled':''} ${i===next&&!b.complete?'next':''}" data-slot="${i}" ${f?sayAttr(chunkFiles[t.text]||''):''}>${f?`<span class="hanzi" lang="zh-Hans">${chars(t.text)}</span><span class="chunk-pinyin" lang="zh-Latn">${escape(t.pinyin)}</span>`:b.level===0?`<span class="ghost hanzi" lang="zh-Hans">${escape(t.text)}</span>`:'<span class="slot-dots" aria-hidden="true"></span>'}</span>`;}).join('');
+ const tiles=b.tray.map(t=>{const used=b.filled.some(f=>f===t.id);
+  const glow=b.hint&&!b.complete&&next>=0&&t.text===s.tiles[next].text&&!used;
+  return `<button class="word-tile ${used?'used':''} ${b.nope===t.id?'nope':''} ${glow?'hint':''}" data-tile="${t.id}" ${used||b.complete?'disabled':''}><span class="hanzi" lang="zh-Hans">${escape(t.text)}</span></button>`;}).join('');
+ const dots=Array.from({length:BUILD_LENGTH},(_,k)=>`<span class="pop-dot ${k<b.asked-(b.complete?0:1)?'on':''}"></span>`).join('');
+ return `${fallbackNote(s.fallback)}<div class="build-stage ${b.complete?'complete':''}">
+ <div class="build-picture">${sentencePicture(s)}<button class="phrase-speaker big listen-float" id="say-build" aria-label="Hear the sentence">${icon('speaker')}</button></div>
+ <div class="build-line ${b.complete?'answered':''}" ${sayAttr(s.audio)}>${slots}</div>
+ ${b.complete?`<p class="sb-english">${escape(s.english)}</p><button class="button primary big" id="build-next">${b.asked<BUILD_LENGTH?'Next':'Finish'}${icon('right')}</button>`:`<div class="tile-tray">${tiles}</div>`}
+ <div class="pop-progress">${dots}</div></div>
+ ${coach(b.complete||state.coachReact==='dance'?'cheer':'happy',state.feedback||'Look and listen, then build the sentence!')}`;
+}
+// Places a tile: into the slot it was dropped on, or the next empty slot when tapped.
+function buildPlace(tileId,slot){
+ const b=state.build,s=b.s;if(b.complete)return;
+ const tile=b.tray.find(t=>t.id===tileId),next=buildNext();
+ const target=slot??next;
+ if(tile&&target>=0&&!b.filled[target]&&tile.text===s.tiles[target].text&&target===next){
+  b.filled[target]=tileId;b.nope=null;b.hint=false;state.feedback='';state.coachReact='dance';
+  if(buildNext()<0){
+   b.complete=true;const last=b.asked>=BUILD_LENGTH,praise=last?'done':`right-${1+Math.floor(Math.random()*3)}`;
+   if(b.misses===0){progress.buildPerfect=(progress.buildPerfect||0)+1;if(progress.buildPerfect>=3){progress.buildLevel=Math.min(2,(progress.buildLevel||0)+1);progress.buildPerfect=0;}}
+   else{progress.buildPerfect=0;if(b.misses>=3)progress.buildLevel=Math.max(0,(progress.buildLevel||0)-1);}
+   saveProgress(progress);
+   state.feedback=`${praiseHtml(praise)} You built the sentence!`;chime('ding');
+   player.playAll([chunkUrl(tile.text),new URL('../'+s.audio,import.meta.url).href,praiseUrl(praise)].filter(Boolean),{gap:450,onStep:i=>{if(i<0&&last)chime('fanfare');}});
+   b.advance=()=>{if(state.build!==b||b.advanced)return;b.advanced=true;if(last){b.done=true;celebrate(true);setTimeout(()=>{if(state.build===b&&state.view==='match'){b.showDone=true;render();showRecap();}},4300);}else nextBuild();render();};
+  }else{chime('ding');const url=chunkUrl(tile.text);if(url)player.play(url);}
+ }else{
+  b.misses++;b.nope=tileId;state.coachReact='shake';if(b.misses>=2)b.hint=true;
+  const belongs=s.tiles.some(t=>t.text===tile?.text);
+  state.feedback=`${praiseHtml('again')} ${!belongs?'That one isn’t in this sentence.':'Not yet. Listen: which comes next?'}`;
+  player.playAll([praiseUrl('again'),new URL('../'+s.audio,import.meta.url).href],{gap:250});
+ }
+ render();
 }
 // Paint the animal: the panda shows and says a phrase (大红马) and she builds it: the animal, the colour
 // and the size, in any order. Each right pick ticks off its character and changes the drawing.
@@ -338,8 +436,8 @@ function gameDone(){
 }
 // The food she picks flies in an arc into the animal's mouth, then the animal munches.
 const MOUTHS={horse:[106,32],duck:[103,40],cow:[98,48],sheep:[93,48],rabbit:[94,46]};
-function feedFly(from,art,animalKey){
- const eater=root.querySelector('.eater'),target=root.querySelector('.eater-art');if(!eater||!target)return;
+function feedFly(from,art,animalKey,eaterEl){
+ const eater=eaterEl||root.querySelector('.eater'),target=eater?.querySelector('.eater-art');if(!eater||!target)return;
  if(!from||matchMedia('(prefers-reduced-motion: reduce)').matches){eater.classList.add('munch');return;}
  const to=target.getBoundingClientRect(),[mx,my]=MOUTHS[animalKey]||[92,44];
  const x=to.left+to.width*mx/120,y=to.top+to.height*my/96,dx=x-(from.left+from.width/2),dy=y-(from.top+from.height/2);
@@ -351,13 +449,13 @@ function feedFly(from,art,animalKey){
 // Feed the animal and Where is it?: hear a phrase, then pick the one picture that matches.
 function newQuiz(game){state.quiz={game,asked:0,mistakes:0,done:false,showDone:false};nextQuestion();}
 function nextQuestion(){
- const q=state.quiz,animals=lessonOptions('who',1,o=>ANIMALS.includes(o.art)),slot=q.game==='feed'?'food':'place',pool=lessonOptions(slot,3);
+ const q=state.quiz,animals=lessonOptions('who',1,o=>ANIMALS.includes(o.art)),slot='food',pool=lessonOptions(slot,3);
  // The answer and the animal rotate (least recently used first, across visits); the other two choices are random.
  const who=leastRecent(animals,progress.seen,q.game+'-who'),answer=leastRecent(pool,progress.seen,q.game+'-'+slot);saveProgress(progress);
  const choices=[answer,...shuffle(pool.filter(o=>o!==answer)).slice(0,2)];
  // The note only matters when the answers themselves cannot come from the chosen lessons.
  q.fallback=!!pool.fallback;
- Object.assign(q,{pattern:q.game==='feed'?'likes':'on',slot,target:{who:who.key,[slot]:choices[0].key},options:shuffle(choices.map(o=>o.key)),gone:[],picked:null,misses:0,hint:false,advanced:false,advance:null});
+ Object.assign(q,{pattern:'likes',slot,target:{who:who.key,[slot]:choices[0].key},options:shuffle(choices.map(o=>o.key)),gone:[],picked:null,misses:0,hint:false,advanced:false,advance:null});
  q.asked++;state.sayNext=true;
 }
 const quizSentence=()=>{const q=state.quiz;return fill(patterns,patternById(q.pattern),q.target);};
@@ -367,46 +465,24 @@ function quizContent(){
  const dots=Array.from({length:QUIZ_LENGTH},(_,k)=>`<span class="pop-dot ${k<q.asked-(found?0:1)?'on':''}"></span>`).join('');
  const option=key=>{
   const cls=[q.picked===key&&'chosen',q.gone.includes(key)&&'gone',q.hint&&key===q.target[q.slot]&&!found&&'hint'].filter(Boolean).join(' ');
-  const face=q.game==='feed'?`<span class="stage small">${illustrations[optionOf(patterns,'food',key).art]}</span>`:`<span class="quiz-scene">${sceneArt(p,{...q.target,place:key})}</span>`;
+  const face=`<span class="stage small">${illustrations[optionOf(patterns,'food',key).art]}</span>`;
   return `<button class="quiz-option ${q.game} ${cls}" data-quiz="${key}" ${found||q.gone.includes(key)?'disabled':''} aria-label="Choice">${face}</button>`;
  };
  const eater=q.game==='feed'?`<div class="eater"><span class="eater-art">${illustrations[who.art]}</span><span class="thought"><b>?</b>${found?`<span class="thought-food">${illustrations[optionOf(patterns,'food',q.target.food).art]}</span>`:''}</span></div>`:'';
  const reveal=found?`<div class="quiz-reveal"><button class="button primary" id="quiz-next">${q.asked<QUIZ_LENGTH?'Next':'Finish'}${icon('right')}</button></div>`:'';
  return `${fallbackNote(q.fallback)}<div class="quiz-stage">${eater}<div class="quiz-question"><button class="phrase-speaker big" id="hear-quiz" aria-label="Hear it again">${icon('speaker')}</button><div class="quiz-sentence ${found?'answered':''}">${phraseLine(s)}</div></div><div class="quiz-options">${q.options.map(option).join('')}</div>${reveal}<div class="pop-progress">${dots}</div></div>
- ${coach(found||state.coachReact==='dance'?'cheer':'happy',state.feedback||(q.game==='feed'?'Listen! What does it like to eat?':'Listen! Where is it?'))}`;
+ ${coach(found||state.coachReact==='dance'?'cheer':'happy',state.feedback||'Listen! What does it like to eat?')}`;
 }
 function quizFinished(){
  const q=state.quiz;q.done=true;celebrate(true);
  setTimeout(()=>{if(state.quiz===q&&state.view==='match'){q.showDone=true;render();showRecap();}},4300);
-}
-// Silly machine: two reels, who and what they like to eat, and one lever.
-function sillyContent(){
- const m=state.silly,p=patternById('likes'),reelSets={who:lessonOptions('who',2),food:lessonOptions('food',2)};
- for(const slot of ['who','food'])if(!m.spinning&&!reelSets[slot].some(o=>o.key===m.choice[slot]))m.choice={...m.choice,[slot]:reelSets[slot][0].key};
- const s=fill(patterns,p,m.choice);
- const reel=slot=>`<button class="reel" data-reel="${slot}" aria-label="Spin this reel" ${m.spinning?'disabled':''}><span class="reel-window" id="reel-${slot}">${optionFace(optionOf(patterns,slot,m.choice[slot]))}</span></button>`;
- const result=m.spun?`<div class="sentence-card silly"><div class="scene" aria-hidden="true">${sceneArt(p,m.choice)}</div><button class="phrase-button" id="say-silly" aria-label="Hear it again">${phraseLine(s)}<span class="phrase-speaker" aria-hidden="true">${icon('speaker')}</span></button></div>`:'';
- return `${fallbackNote(reelSets.who.fallback||reelSets.food.fallback)}<div class="machine"><div class="reels">${reel('who')}<span class="reel-fixed"><span class="hanzi" lang="zh-Hans">喜欢吃</span></span>${reel('food')}</div><button class="button primary big" id="spin" ${m.spinning?'disabled':''}>${icon('shuffle')}Spin!</button></div>${result}
- ${coach(m.spun?'cheer':'happy',state.feedback||'Pull the lever for a silly sentence!')}`;
-}
-function spinReels(slots){
- const m=state.silly,p=patternById('likes');m.spinning=true;state.feedback='';render();
- const target={...m.choice};for(const slot of slots){const options=lessonOptions(slot,2).filter(o=>o.key!==m.choice[slot]);target[slot]=options[Math.floor(Math.random()*options.length)].key;}
- let stopped=0;chime('ding');
- slots.forEach((slot,n)=>{
-  const windowEl=document.getElementById('reel-'+slot);windowEl?.classList.add('spinning');
-  const timer=setInterval(()=>{const options=lessonOptions(slot,2);if(windowEl)windowEl.innerHTML=optionFace(options[Math.floor(Math.random()*options.length)]);},80);
-  setTimeout(()=>{clearInterval(timer);if(windowEl){windowEl.classList.remove('spinning');windowEl.innerHTML=optionFace(optionOf(patterns,slot,target[slot]));}
-   if(++stopped===slots.length){m.choice=target;m.spinning=false;m.spun=true;const s=fill(patterns,p,target);madeSentence(s);state.feedback='<span lang="zh-Hans">哈哈！</span>';state.coachReact='dance';render();player.play(patternAudio(s));}
-  },650+n*380);
- });
 }
 const WORD_GAMES=['pairs','balloons'];
 function gamesContent(){
  if(!state.matchMode)return gamesMenu();
  const back=`<button class="back-button" id="games-menu">${icon('left')}Games</button>`;
  if(WORD_GAMES.includes(state.matchMode))return matchContent(back);
- const body=state.matchMode==='paint'?paintContent():state.matchMode==='silly'?sillyContent():quizContent();
+ const body=state.matchMode==='paint'?paintContent():state.matchMode==='build'?buildContent():quizContent();
  return `<div class="match-bar">${back}</div>${body}`;
 }
 // Phrase games use the chosen lessons too: an option belongs to the lessons that teach its main word
@@ -433,7 +509,8 @@ function render(){
  if(state.view==='match')drawLinks();
  // Balloon pop asks its question out loud as each word comes up.
  if(state.view==='match'&&state.sayNext&&state.matchMode==='balloons'&&!state.round?.recap){state.sayNext=false;sayTarget();}
- if(state.view==='match'&&state.sayNext&&state.quiz&&!state.quiz.showDone&&['feed','where'].includes(state.matchMode)){state.sayNext=false;player.play(patternAudio(quizSentence()));}
+ if(state.view==='match'&&state.sayNext&&state.matchMode==='build'&&!state.build.showDone){state.sayNext=false;player.play(new URL('../'+state.build.s.audio,import.meta.url).href);}
+ if(state.view==='match'&&state.sayNext&&state.quiz&&!state.quiz.showDone&&state.matchMode==='feed'){state.sayNext=false;player.play(patternAudio(quizSentence()));}
  if(state.view==='match'&&state.sayNext&&state.matchMode==='paint'&&!state.paint.showDone){state.sayNext=false;player.play(patternAudio(paintSentence()));}
 }
 function bind(){
@@ -504,7 +581,7 @@ function bindContent(){
  on('hear-target',sayTarget);
  on('balloon-next',()=>state.round.balloon?.advance?.());
  on('recap-again',playRecap);
- root.querySelectorAll('[data-game]').forEach(b=>b.onclick=()=>{state.matchMode=b.dataset.game;state.feedback='';initGame();render();scrollTo({top:0});});
+ root.querySelectorAll('[data-game]').forEach(b=>b.onclick=()=>{state.matchMode=b.dataset.game;state.feedback='';initGame();render();showGame();});
  const toMenu=()=>{player.stop();state.matchMode=null;state.feedback='';render();scrollTo({top:0});};
  on('games-menu',toMenu);on('games-menu-2',toMenu);
  // Paint the animal: build the phrase that was said
@@ -535,7 +612,7 @@ function bindContent(){
   if(key===q.target[q.slot]){
    const stage=b.querySelector('.stage'),from=stage?.getBoundingClientRect(),art=stage?.innerHTML,eaterKey=optionOf(patterns,'who',q.target.who).art;
    q.picked=key;state.coachReact='dance';const last=q.asked>=QUIZ_LENGTH,praise=last?'done':`right-${1+Math.floor(Math.random()*3)}`;
-   state.feedback=`${praiseHtml(praise)} ${q.game==='feed'?'Yum!':'That’s it!'}`;
+   state.feedback=`${praiseHtml(praise)} Yum!`;
    chime('ding');player.playAll([patternAudio(s),praiseUrl(praise)],{gap:200,onStep:i=>{if(i<0&&last)chime('fanfare');}});
    const advance=()=>{clearTimeout(q.timer);if(state.quiz!==q||q.advanced)return;q.advanced=true;if(last)quizFinished();else nextQuestion();render();};
    q.advance=advance;q.timer=setTimeout(advance,3400);
@@ -548,11 +625,20 @@ function bindContent(){
   render();});
  on('hear-quiz',()=>player.play(patternAudio(quizSentence())));
  on('quiz-next',()=>state.quiz?.advance?.());
- on('quiz-again',()=>{if(state.matchMode==='paint')newPaint();else newQuiz(state.matchMode);render();scrollTo({top:0});});
- // Silly machine
- on('spin',()=>{if(!state.silly.spinning)spinReels(['who','food']);});
- root.querySelectorAll('[data-reel]').forEach(b=>b.onclick=()=>{if(!state.silly.spinning)spinReels([b.dataset.reel]);});
- on('say-silly',()=>player.play(patternAudio(fill(patterns,patternById('likes'),state.silly.choice))));
+ // Build the sentence: drag a tile to a slot, or tap it to send it to the next slot
+ root.querySelectorAll('[data-tile]').forEach(el=>el.onpointerdown=e=>{
+  if(el.disabled)return;e.preventDefault();try{el.setPointerCapture(e.pointerId);}catch{}
+  const sx=e.clientX,sy=e.clientY;let moved=false;
+  el.onpointermove=m=>{const dx=m.clientX-sx,dy=m.clientY-sy;if(!moved&&Math.hypot(dx,dy)>8){moved=true;el.classList.add('dragging');}if(moved)el.style.transform=`translate(${dx}px,${dy}px) scale(1.08)`;};
+  el.onpointerup=el.onpointercancel=u=>{
+   el.onpointermove=el.onpointerup=el.onpointercancel=null;el.style.transform='';el.classList.remove('dragging');
+   if(!moved){buildPlace(el.dataset.tile,null);return;}
+   const slot=[...root.querySelectorAll('[data-slot]')].map(z=>{const r=z.getBoundingClientRect();return {z,d:Math.hypot(u.clientX-(r.left+r.width/2),u.clientY-(r.top+r.height/2)),reach:Math.max(r.width,r.height)*.7+24};}).filter(x=>x.d<x.reach).sort((p,q)=>p.d-q.d)[0];
+   if(slot)buildPlace(el.dataset.tile,Number(slot.z.dataset.slot));};
+ });
+ on('say-build',()=>player.play(new URL('../'+state.build.s.audio,import.meta.url).href));
+ on('build-next',()=>state.build?.advance?.());
+ on('quiz-again',()=>{const start={paint:newPaint,build:newBuild}[state.matchMode];if(start)start();else newQuiz(state.matchMode);render();scrollTo({top:0});});
  on('install-app',async()=>{if(!installPrompt)return;installPrompt.prompt();await installPrompt.userChoice.catch(()=>{});installPrompt=null;render();});
  root.querySelectorAll('[data-exclude]').forEach(b=>b.onclick=()=>{
   const id=b.dataset.exclude,off=progress.excluded.includes(id);
@@ -561,7 +647,7 @@ function bindContent(){
 
 }
 function navigate(view){if(view==='match')state.matchMode=null;state.view=view;if(state.lesson==='all'&&view!=='library')state.lesson='lesson-34';initGame();render();window.scrollTo({top:0});}
-async function start(){try {const response=await fetch(new URL('../data/library.json',import.meta.url));if(!response.ok)throw new Error('Library unavailable');library=await response.json();library.items.forEach(i=>byId.set(i.id,i));patterns=await (await fetch(new URL('../data/patterns.json',import.meta.url))).json();state.silly={choice:{...patternById('likes').base},spun:false,spinning:false};timings=Object.fromEntries(Object.values(await (await fetch(new URL('../assets/audio/manifest.json',import.meta.url))).json()).map(e=>[e.file,e.speech]));initGame();render();}catch(error){root.innerHTML='<div class="empty"><h1>The library could not open.</h1><p>Please check your connection and reload the page.</p><button class="button" id="reload">Try again</button></div>';document.getElementById('reload').onclick=()=>location.reload();}}
+async function start(){try {const response=await fetch(new URL('../data/library.json',import.meta.url));if(!response.ok)throw new Error('Library unavailable');library=await response.json();library.items.forEach(i=>byId.set(i.id,i));patterns=await (await fetch(new URL('../data/patterns.json',import.meta.url))).json();const audioManifest=await (await fetch(new URL('../assets/audio/manifest.json',import.meta.url))).json();timings=Object.fromEntries(Object.values(audioManifest).map(e=>[e.file,e.speech]));chunkFiles=Object.fromEntries(Object.entries(audioManifest).filter(([k])=>k.startsWith('chunk-')).map(([,e])=>[e.text,e.file]));sentenceChunks=(await (await fetch(new URL('../data/sentence-chunks.json',import.meta.url))).json()).sentences;initGame();render();}catch(error){root.innerHTML='<div class="empty"><h1>The library could not open.</h1><p>Please check your connection and reload the page.</p><button class="button" id="reload">Try again</button></div>';document.getElementById('reload').onclick=()=>location.reload();}}
 function registerLibraryTool(){
  const context=document.modelContext;if(!context?.registerTool)return;
  const lifecycle=new AbortController();window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});

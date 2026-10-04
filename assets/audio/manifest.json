@@ -3599,654 +3599,6 @@
     ],
     "speech_fingerprint": "464d0c85159aa07c2f15bebe122b70d0506102c8b1cbf2476d68b5da5f4cd9b7"
   },
-  "pattern-on_blackhorse_lawn": {
-    "fingerprint": "b8dba42ce53c32ce2ad6536718359755e0e8f8037c830a0e8add31272e3f4933",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黑马在草地上",
-    "file": "assets/audio/patterns/on_blackhorse_lawn.m4a",
-    "speech": [
-      0.03,
-      2.05
-    ],
-    "speech_fingerprint": "b8dba42ce53c32ce2ad6536718359755e0e8f8037c830a0e8add31272e3f4933"
-  },
-  "pattern-on_blackhorse_table": {
-    "fingerprint": "7d8d4005ba722bf4af90bb7488fc0708115867275bee1eecb8ecfe335e69c2f7",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黑马在桌子上",
-    "file": "assets/audio/patterns/on_blackhorse_table.m4a",
-    "speech": [
-      0.03,
-      1.98
-    ],
-    "speech_fingerprint": "7d8d4005ba722bf4af90bb7488fc0708115867275bee1eecb8ecfe335e69c2f7"
-  },
-  "pattern-on_blackhorse_mountain": {
-    "fingerprint": "1d9fa2a826bc258ff5a286481b5f93489a8c8e2e0e2731fb962fa4eac3d9edf4",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黑马在山上",
-    "file": "assets/audio/patterns/on_blackhorse_mountain.m4a",
-    "speech": [
-      0.03,
-      1.82
-    ],
-    "speech_fingerprint": "1d9fa2a826bc258ff5a286481b5f93489a8c8e2e0e2731fb962fa4eac3d9edf4"
-  },
-  "pattern-on_blackhorse_bed": {
-    "fingerprint": "d5f16b6fd1d72208111b31eabf54571dadb115dcd47f3347d10d879cdc31fb0d",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黑马在床上",
-    "file": "assets/audio/patterns/on_blackhorse_bed.m4a",
-    "speech": [
-      0.03,
-      1.89
-    ],
-    "speech_fingerprint": "d5f16b6fd1d72208111b31eabf54571dadb115dcd47f3347d10d879cdc31fb0d"
-  },
-  "pattern-on_blackhorse_sofa": {
-    "fingerprint": "86d696706233e5b9cf89b4d78e086a302c934714fc4aebe1bce18fa51094bea8",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黑马在沙发上",
-    "file": "assets/audio/patterns/on_blackhorse_sofa.m4a",
-    "speech": [
-      0.03,
-      2.08
-    ],
-    "speech_fingerprint": "86d696706233e5b9cf89b4d78e086a302c934714fc4aebe1bce18fa51094bea8"
-  },
-  "pattern-on_blackhorse_chair": {
-    "fingerprint": "f0acf9f0de59b8d5f6971515f72aa3789f4324cb38f45ce9e182d268d9138cf7",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黑马在椅子上",
-    "file": "assets/audio/patterns/on_blackhorse_chair.m4a",
-    "speech": [
-      0.03,
-      1.91
-    ],
-    "speech_fingerprint": "f0acf9f0de59b8d5f6971515f72aa3789f4324cb38f45ce9e182d268d9138cf7"
-  },
-  "pattern-on_yellowduck_lawn": {
-    "fingerprint": "a2aa6b9b9c540d497b7385f7ed67a1f69755c9ee2fc4d55e577fbd86d58237ed",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黄鸭在草地上",
-    "file": "assets/audio/patterns/on_yellowduck_lawn.m4a",
-    "speech": [
-      0.03,
-      2.06
-    ],
-    "speech_fingerprint": "a2aa6b9b9c540d497b7385f7ed67a1f69755c9ee2fc4d55e577fbd86d58237ed"
-  },
-  "pattern-on_yellowduck_table": {
-    "fingerprint": "015f3773769d126e21f85cf83843a212e0ca15730e3f074e26f94a3422d3b4a6",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黄鸭在桌子上",
-    "file": "assets/audio/patterns/on_yellowduck_table.m4a",
-    "speech": [
-      0.03,
-      1.99
-    ],
-    "speech_fingerprint": "015f3773769d126e21f85cf83843a212e0ca15730e3f074e26f94a3422d3b4a6"
-  },
-  "pattern-on_yellowduck_mountain": {
-    "fingerprint": "68677b3a25181c71f274671def1dedf1f32d3e12f1b12c426bf0fc4434cdc0d7",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黄鸭在山上",
-    "file": "assets/audio/patterns/on_yellowduck_mountain.m4a",
-    "speech": [
-      0.03,
-      1.82
-    ],
-    "speech_fingerprint": "68677b3a25181c71f274671def1dedf1f32d3e12f1b12c426bf0fc4434cdc0d7"
-  },
-  "pattern-on_yellowduck_bed": {
-    "fingerprint": "bb679ed38080fd0ae031a69f63e08015f25a7a7eb73876f052fdf8ace46e4b2c",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黄鸭在床上",
-    "file": "assets/audio/patterns/on_yellowduck_bed.m4a",
-    "speech": [
-      0.03,
-      1.89
-    ],
-    "speech_fingerprint": "bb679ed38080fd0ae031a69f63e08015f25a7a7eb73876f052fdf8ace46e4b2c"
-  },
-  "pattern-on_yellowduck_sofa": {
-    "fingerprint": "a026880bb807a30b49a004a867478ff521c8b2b0c6c1f9a7e805f8b9908d98ba",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黄鸭在沙发上",
-    "file": "assets/audio/patterns/on_yellowduck_sofa.m4a",
-    "speech": [
-      0.03,
-      2.08
-    ],
-    "speech_fingerprint": "a026880bb807a30b49a004a867478ff521c8b2b0c6c1f9a7e805f8b9908d98ba"
-  },
-  "pattern-on_yellowduck_chair": {
-    "fingerprint": "674c61267f6e199cddf7a990623886f4481418b2cd4d0180b2d0fd3be8fef900",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小黄鸭在椅子上",
-    "file": "assets/audio/patterns/on_yellowduck_chair.m4a",
-    "speech": [
-      0.03,
-      1.9
-    ],
-    "speech_fingerprint": "674c61267f6e199cddf7a990623886f4481418b2cd4d0180b2d0fd3be8fef900"
-  },
-  "pattern-on_yellowcow_lawn": {
-    "fingerprint": "1317824ffc8c6271179330dc4e73e6ee1d31fe06d852f01b2d3951822802d1e2",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "大黄牛在草地上",
-    "file": "assets/audio/patterns/on_yellowcow_lawn.m4a",
-    "speech": [
-      0.01,
-      1.99
-    ],
-    "speech_fingerprint": "1317824ffc8c6271179330dc4e73e6ee1d31fe06d852f01b2d3951822802d1e2"
-  },
-  "pattern-on_yellowcow_table": {
-    "fingerprint": "2bab340ce431172e8328ea62501f78195e3afeee88a1ead2901a3aaa16a79e0e",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "大黄牛在桌子上",
-    "file": "assets/audio/patterns/on_yellowcow_table.m4a",
-    "speech": [
-      0.01,
-      1.93
-    ],
-    "speech_fingerprint": "2bab340ce431172e8328ea62501f78195e3afeee88a1ead2901a3aaa16a79e0e"
-  },
-  "pattern-on_yellowcow_mountain": {
-    "fingerprint": "502a283319f5b65cf680858a1470fed29009fbd7f331d7a82bc1d59330260fad",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "大黄牛在山上",
-    "file": "assets/audio/patterns/on_yellowcow_mountain.m4a",
-    "speech": [
-      0.01,
-      1.76
-    ],
-    "speech_fingerprint": "502a283319f5b65cf680858a1470fed29009fbd7f331d7a82bc1d59330260fad"
-  },
-  "pattern-on_yellowcow_bed": {
-    "fingerprint": "ef9e8e39bab1c688753bc10155370b1257ab6ab10c65b320998befda1b790369",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "大黄牛在床上",
-    "file": "assets/audio/patterns/on_yellowcow_bed.m4a",
-    "speech": [
-      0.01,
-      1.82
-    ],
-    "speech_fingerprint": "ef9e8e39bab1c688753bc10155370b1257ab6ab10c65b320998befda1b790369"
-  },
-  "pattern-on_yellowcow_sofa": {
-    "fingerprint": "7a50dc1c502ba51d1d617f862e71ef58fdebb762d8e282f4f0c9fd282c00fa3b",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "大黄牛在沙发上",
-    "file": "assets/audio/patterns/on_yellowcow_sofa.m4a",
-    "speech": [
-      0.01,
-      2.02
-    ],
-    "speech_fingerprint": "7a50dc1c502ba51d1d617f862e71ef58fdebb762d8e282f4f0c9fd282c00fa3b"
-  },
-  "pattern-on_yellowcow_chair": {
-    "fingerprint": "44ed06597ea0ce99c5a80b8299a9580cceb2034524ef59d15be2a3c3ae29e7e2",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "大黄牛在椅子上",
-    "file": "assets/audio/patterns/on_yellowcow_chair.m4a",
-    "speech": [
-      0.01,
-      1.85
-    ],
-    "speech_fingerprint": "44ed06597ea0ce99c5a80b8299a9580cceb2034524ef59d15be2a3c3ae29e7e2"
-  },
-  "pattern-on_whitesheep_lawn": {
-    "fingerprint": "3e2b11fa7fd86a472226fc4e5f0c90f083a1247ee1137ee6c2b465e5d27e4d56",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白羊在草地上",
-    "file": "assets/audio/patterns/on_whitesheep_lawn.m4a",
-    "speech": [
-      0.03,
-      2.03
-    ],
-    "speech_fingerprint": "3e2b11fa7fd86a472226fc4e5f0c90f083a1247ee1137ee6c2b465e5d27e4d56"
-  },
-  "pattern-on_whitesheep_table": {
-    "fingerprint": "632c7e6c7d6f78f634ec2deb003e374cb11662569335a0fc407a2a55b5dcfd62",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白羊在桌子上",
-    "file": "assets/audio/patterns/on_whitesheep_table.m4a",
-    "speech": [
-      0.03,
-      1.96
-    ],
-    "speech_fingerprint": "632c7e6c7d6f78f634ec2deb003e374cb11662569335a0fc407a2a55b5dcfd62"
-  },
-  "pattern-on_whitesheep_mountain": {
-    "fingerprint": "cf3ccfacedac5a3fa21d5db7b6805e91660854ef9bd059db14d220922a616e76",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白羊在山上",
-    "file": "assets/audio/patterns/on_whitesheep_mountain.m4a",
-    "speech": [
-      0.03,
-      1.79
-    ],
-    "speech_fingerprint": "cf3ccfacedac5a3fa21d5db7b6805e91660854ef9bd059db14d220922a616e76"
-  },
-  "pattern-on_whitesheep_bed": {
-    "fingerprint": "531710830f33ee0fc77aa3927302be33d7e97426933bd03013e144c3447ee331",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白羊在床上",
-    "file": "assets/audio/patterns/on_whitesheep_bed.m4a",
-    "speech": [
-      0.03,
-      1.86
-    ],
-    "speech_fingerprint": "531710830f33ee0fc77aa3927302be33d7e97426933bd03013e144c3447ee331"
-  },
-  "pattern-on_whitesheep_sofa": {
-    "fingerprint": "410cf2838add106136bf8ac5f655b460516aa05317df867e266f6f8e5d3d419b",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白羊在沙发上",
-    "file": "assets/audio/patterns/on_whitesheep_sofa.m4a",
-    "speech": [
-      0.03,
-      2.05
-    ],
-    "speech_fingerprint": "410cf2838add106136bf8ac5f655b460516aa05317df867e266f6f8e5d3d419b"
-  },
-  "pattern-on_whitesheep_chair": {
-    "fingerprint": "f7e392bb0626e7ec7b82eed69524401b03bdc7eea44a813719f2e6c794df4197",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白羊在椅子上",
-    "file": "assets/audio/patterns/on_whitesheep_chair.m4a",
-    "speech": [
-      0.03,
-      1.88
-    ],
-    "speech_fingerprint": "f7e392bb0626e7ec7b82eed69524401b03bdc7eea44a813719f2e6c794df4197"
-  },
-  "pattern-on_whiterabbit_lawn": {
-    "fingerprint": "342f535ff17a39391623565c043f6b4c6c80935328050914f566f28c07040824",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白兔在草地上",
-    "file": "assets/audio/patterns/on_whiterabbit_lawn.m4a",
-    "speech": [
-      0.03,
-      2.1
-    ],
-    "speech_fingerprint": "342f535ff17a39391623565c043f6b4c6c80935328050914f566f28c07040824"
-  },
-  "pattern-on_whiterabbit_table": {
-    "fingerprint": "fb8328e5228dfaee21b9e12fb224c47505aab4c3bbfd7bbef06caead01b0037b",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白兔在桌子上",
-    "file": "assets/audio/patterns/on_whiterabbit_table.m4a",
-    "speech": [
-      0.03,
-      2.03
-    ],
-    "speech_fingerprint": "fb8328e5228dfaee21b9e12fb224c47505aab4c3bbfd7bbef06caead01b0037b"
-  },
-  "pattern-on_whiterabbit_mountain": {
-    "fingerprint": "fd3412da7f2a4933a535f97431581411d856388a26ff14a8ffdcb16713843e99",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白兔在山上",
-    "file": "assets/audio/patterns/on_whiterabbit_mountain.m4a",
-    "speech": [
-      0.03,
-      1.86
-    ],
-    "speech_fingerprint": "fd3412da7f2a4933a535f97431581411d856388a26ff14a8ffdcb16713843e99"
-  },
-  "pattern-on_whiterabbit_bed": {
-    "fingerprint": "5afe117917331fa6693f03b1f142293737064267af6cbf33283503bb09ac1546",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白兔在床上",
-    "file": "assets/audio/patterns/on_whiterabbit_bed.m4a",
-    "speech": [
-      0.03,
-      1.93
-    ],
-    "speech_fingerprint": "5afe117917331fa6693f03b1f142293737064267af6cbf33283503bb09ac1546"
-  },
-  "pattern-on_whiterabbit_sofa": {
-    "fingerprint": "7a366f81f257db6f004f9d9d7e9046f57a2ccc76856804477c047858855c405e",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白兔在沙发上",
-    "file": "assets/audio/patterns/on_whiterabbit_sofa.m4a",
-    "speech": [
-      0.03,
-      2.12
-    ],
-    "speech_fingerprint": "7a366f81f257db6f004f9d9d7e9046f57a2ccc76856804477c047858855c405e"
-  },
-  "pattern-on_whiterabbit_chair": {
-    "fingerprint": "38443c2d930d01f32e39f592517309c713733bec92714272e0041e4a4aa65b3b",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "小白兔在椅子上",
-    "file": "assets/audio/patterns/on_whiterabbit_chair.m4a",
-    "speech": [
-      0.03,
-      1.95
-    ],
-    "speech_fingerprint": "38443c2d930d01f32e39f592517309c713733bec92714272e0041e4a4aa65b3b"
-  },
-  "pattern-on_dad_lawn": {
-    "fingerprint": "00e9dadac9619ab5e865d2aed59c1cbe10629cf0bac4f15e2f8e09ce413b9a09",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "爸爸在草地上",
-    "file": "assets/audio/patterns/on_dad_lawn.m4a",
-    "speech": [
-      0.01,
-      1.63
-    ],
-    "speech_fingerprint": "00e9dadac9619ab5e865d2aed59c1cbe10629cf0bac4f15e2f8e09ce413b9a09"
-  },
-  "pattern-on_dad_table": {
-    "fingerprint": "a2ec7f5578fb276d195ed5ed0e0c356b9029d20b4be8801ecc592f754779b2bb",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "爸爸在桌子上",
-    "file": "assets/audio/patterns/on_dad_table.m4a",
-    "speech": [
-      0.01,
-      1.57
-    ],
-    "speech_fingerprint": "a2ec7f5578fb276d195ed5ed0e0c356b9029d20b4be8801ecc592f754779b2bb"
-  },
-  "pattern-on_dad_mountain": {
-    "fingerprint": "1ddd99cd6b3df2d3815925710da889fcc3964a5b2e5efeb82cc59b71f398e9ab",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "爸爸在山上",
-    "file": "assets/audio/patterns/on_dad_mountain.m4a",
-    "speech": [
-      0.01,
-      1.39
-    ],
-    "speech_fingerprint": "1ddd99cd6b3df2d3815925710da889fcc3964a5b2e5efeb82cc59b71f398e9ab"
-  },
-  "pattern-on_dad_bed": {
-    "fingerprint": "fa8705904f4efe4040ae69cc83a6995751773b97e1e81224c4c6918f956334bc",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "爸爸在床上",
-    "file": "assets/audio/patterns/on_dad_bed.m4a",
-    "speech": [
-      0.01,
-      1.46
-    ],
-    "speech_fingerprint": "fa8705904f4efe4040ae69cc83a6995751773b97e1e81224c4c6918f956334bc"
-  },
-  "pattern-on_dad_sofa": {
-    "fingerprint": "441a0384f460dab12e1c212c472ce8b8158219ff47e56265d0d25f692c5aab27",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "爸爸在沙发上",
-    "file": "assets/audio/patterns/on_dad_sofa.m4a",
-    "speech": [
-      0.01,
-      1.66
-    ],
-    "speech_fingerprint": "441a0384f460dab12e1c212c472ce8b8158219ff47e56265d0d25f692c5aab27"
-  },
-  "pattern-on_dad_chair": {
-    "fingerprint": "0ed6e905d58ea4cd4e0cb79436cd7a4b07468d0ddf15e02c1f069dbb10ee3fee",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "爸爸在椅子上",
-    "file": "assets/audio/patterns/on_dad_chair.m4a",
-    "speech": [
-      0.01,
-      1.49
-    ],
-    "speech_fingerprint": "0ed6e905d58ea4cd4e0cb79436cd7a4b07468d0ddf15e02c1f069dbb10ee3fee"
-  },
-  "pattern-on_mum_lawn": {
-    "fingerprint": "cd7366f61d00061425cb9ab913719dfc558983f3669ce3ee4b8b5e70f8ebb3ba",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妈妈在草地上",
-    "file": "assets/audio/patterns/on_mum_lawn.m4a",
-    "speech": [
-      0.01,
-      1.59
-    ],
-    "speech_fingerprint": "cd7366f61d00061425cb9ab913719dfc558983f3669ce3ee4b8b5e70f8ebb3ba"
-  },
-  "pattern-on_mum_table": {
-    "fingerprint": "135c9fdd40c0d32cc7abd9afcf4c2023a1a6e0195a61f5b47f54e97db80f57d0",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妈妈在桌子上",
-    "file": "assets/audio/patterns/on_mum_table.m4a",
-    "speech": [
-      0.01,
-      1.52
-    ],
-    "speech_fingerprint": "135c9fdd40c0d32cc7abd9afcf4c2023a1a6e0195a61f5b47f54e97db80f57d0"
-  },
-  "pattern-on_mum_mountain": {
-    "fingerprint": "9f2f3d8307eae2b6119a3d517f689c84938dc36ca8122ba96c54778b0c80684a",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妈妈在山上",
-    "file": "assets/audio/patterns/on_mum_mountain.m4a",
-    "speech": [
-      0.01,
-      1.35
-    ],
-    "speech_fingerprint": "9f2f3d8307eae2b6119a3d517f689c84938dc36ca8122ba96c54778b0c80684a"
-  },
-  "pattern-on_mum_bed": {
-    "fingerprint": "f1dce0f68d9045d66e5ed5e10be830f5e04a28a3f937ec4c0b255bce50f2326a",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妈妈在床上",
-    "file": "assets/audio/patterns/on_mum_bed.m4a",
-    "speech": [
-      0.01,
-      1.42
-    ],
-    "speech_fingerprint": "f1dce0f68d9045d66e5ed5e10be830f5e04a28a3f937ec4c0b255bce50f2326a"
-  },
-  "pattern-on_mum_sofa": {
-    "fingerprint": "0a42008f4a326fb1d76c17cc964704bcf19b6735eeb64f88a58201b9b7824e7d",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妈妈在沙发上",
-    "file": "assets/audio/patterns/on_mum_sofa.m4a",
-    "speech": [
-      0.01,
-      1.61
-    ],
-    "speech_fingerprint": "0a42008f4a326fb1d76c17cc964704bcf19b6735eeb64f88a58201b9b7824e7d"
-  },
-  "pattern-on_mum_chair": {
-    "fingerprint": "2a988fb95b66fa8a54962f0c479b029427fdfbcbeb9063f0b7ccf8b99e52eab8",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妈妈在椅子上",
-    "file": "assets/audio/patterns/on_mum_chair.m4a",
-    "speech": [
-      0.01,
-      1.44
-    ],
-    "speech_fingerprint": "2a988fb95b66fa8a54962f0c479b029427fdfbcbeb9063f0b7ccf8b99e52eab8"
-  },
-  "pattern-on_sister_lawn": {
-    "fingerprint": "8f9e690219ef5af6a799390626cabba1f08e3ba613033474a8c18614e38ba2da",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妹妹在草地上",
-    "file": "assets/audio/patterns/on_sister_lawn.m4a",
-    "speech": [
-      0.01,
-      1.62
-    ],
-    "speech_fingerprint": "8f9e690219ef5af6a799390626cabba1f08e3ba613033474a8c18614e38ba2da"
-  },
-  "pattern-on_sister_table": {
-    "fingerprint": "4146698d65e363944a0742b8d928bfe1b13b9d0d1a13d21d0dec8025e58548e1",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妹妹在桌子上",
-    "file": "assets/audio/patterns/on_sister_table.m4a",
-    "speech": [
-      0.01,
-      1.55
-    ],
-    "speech_fingerprint": "4146698d65e363944a0742b8d928bfe1b13b9d0d1a13d21d0dec8025e58548e1"
-  },
-  "pattern-on_sister_mountain": {
-    "fingerprint": "bc581dc292f8d2c24539fdc1b06d749bc36f261d3b9fb62ac24b019d19b6e5cc",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妹妹在山上",
-    "file": "assets/audio/patterns/on_sister_mountain.m4a",
-    "speech": [
-      0.01,
-      1.38
-    ],
-    "speech_fingerprint": "bc581dc292f8d2c24539fdc1b06d749bc36f261d3b9fb62ac24b019d19b6e5cc"
-  },
-  "pattern-on_sister_bed": {
-    "fingerprint": "2c0c09432102db177f02c18c9099a52ce52b1b76ecd070724f48b41c7d4c4c03",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妹妹在床上",
-    "file": "assets/audio/patterns/on_sister_bed.m4a",
-    "speech": [
-      0.01,
-      1.45
-    ],
-    "speech_fingerprint": "2c0c09432102db177f02c18c9099a52ce52b1b76ecd070724f48b41c7d4c4c03"
-  },
-  "pattern-on_sister_sofa": {
-    "fingerprint": "2006ed03a0bd61eba8fc19d15c1cb34bb949fbc3494c43d9005a0720e70b56d4",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妹妹在沙发上",
-    "file": "assets/audio/patterns/on_sister_sofa.m4a",
-    "speech": [
-      0.01,
-      1.65
-    ],
-    "speech_fingerprint": "2006ed03a0bd61eba8fc19d15c1cb34bb949fbc3494c43d9005a0720e70b56d4"
-  },
-  "pattern-on_sister_chair": {
-    "fingerprint": "c9e83e2a17c64f594dbd6f3e7dcc6d4099f0bbcf7ed3ee68aedbc1ae10321761",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "妹妹在椅子上",
-    "file": "assets/audio/patterns/on_sister_chair.m4a",
-    "speech": [
-      0.01,
-      1.48
-    ],
-    "speech_fingerprint": "c9e83e2a17c64f594dbd6f3e7dcc6d4099f0bbcf7ed3ee68aedbc1ae10321761"
-  },
-  "pattern-on_brother_lawn": {
-    "fingerprint": "7db934f0a37289948831c503942f314571d4cea9ab617c6d8e0d680d5915e080",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "弟弟在草地上",
-    "file": "assets/audio/patterns/on_brother_lawn.m4a",
-    "speech": [
-      0.01,
-      1.51
-    ],
-    "speech_fingerprint": "7db934f0a37289948831c503942f314571d4cea9ab617c6d8e0d680d5915e080"
-  },
-  "pattern-on_brother_table": {
-    "fingerprint": "925821df9b6d19573f99cf5f77db08b1684c1bc0ea131c84fbc1f79e65966762",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "弟弟在桌子上",
-    "file": "assets/audio/patterns/on_brother_table.m4a",
-    "speech": [
-      0.01,
-      1.45
-    ],
-    "speech_fingerprint": "925821df9b6d19573f99cf5f77db08b1684c1bc0ea131c84fbc1f79e65966762"
-  },
-  "pattern-on_brother_mountain": {
-    "fingerprint": "517e035319a1125a505f9b32aeca96e2a5022eb3e22f39e29058474b926b6ebb",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "弟弟在山上",
-    "file": "assets/audio/patterns/on_brother_mountain.m4a",
-    "speech": [
-      0.01,
-      1.28
-    ],
-    "speech_fingerprint": "517e035319a1125a505f9b32aeca96e2a5022eb3e22f39e29058474b926b6ebb"
-  },
-  "pattern-on_brother_bed": {
-    "fingerprint": "176ebfa7ea4736e9e29e4c37cde2c52e3f92aebe28fed7de6a68c700acab6b83",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "弟弟在床上",
-    "file": "assets/audio/patterns/on_brother_bed.m4a",
-    "speech": [
-      0.01,
-      1.34
-    ],
-    "speech_fingerprint": "176ebfa7ea4736e9e29e4c37cde2c52e3f92aebe28fed7de6a68c700acab6b83"
-  },
-  "pattern-on_brother_sofa": {
-    "fingerprint": "7f4a1dd8b83b2fb2c30cc7b3517c805b00b463615d56f0a4e7bd49351ffab1a5",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "弟弟在沙发上",
-    "file": "assets/audio/patterns/on_brother_sofa.m4a",
-    "speech": [
-      0.01,
-      1.54
-    ],
-    "speech_fingerprint": "7f4a1dd8b83b2fb2c30cc7b3517c805b00b463615d56f0a4e7bd49351ffab1a5"
-  },
-  "pattern-on_brother_chair": {
-    "fingerprint": "7b28e88c17d23f5ce436b8e237fe08f6420ccbc642cb6252fbd8936a56dc963e",
-    "voice": "Tingting (Chinese (China mainland))",
-    "rate": 90,
-    "text": "弟弟在椅子上",
-    "file": "assets/audio/patterns/on_brother_chair.m4a",
-    "speech": [
-      0.01,
-      1.37
-    ],
-    "speech_fingerprint": "7b28e88c17d23f5ce436b8e237fe08f6420ccbc642cb6252fbd8936a56dc963e"
-  },
   "pattern-creature_little_black_horse": {
     "fingerprint": "278f7b1292895d4c7ff1f750198aefb842771a75acc53e572cd2e60ff7e7ce8b",
     "voice": "Tingting (Chinese (China mainland))",
@@ -4846,5 +4198,1481 @@
       0.78
     ],
     "speech_fingerprint": "3a2fa8d05b8e2ba67b17d0b79d7304fc3973775c8384841117613ff768b81837"
+  },
+  "chunk-1edeae8531": {
+    "fingerprint": "4ff191f1543b108230a8bf8c27ccf661b3ca3a87de302ac6566a306b559f3c72",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "不会写",
+    "file": "assets/audio/chunks/1edeae8531.m4a",
+    "speech": [
+      0.02,
+      0.78
+    ],
+    "speech_fingerprint": "4ff191f1543b108230a8bf8c27ccf661b3ca3a87de302ac6566a306b559f3c72"
+  },
+  "chunk-5dbb7aa5e2": {
+    "fingerprint": "c4e10a9d26e7ac5319fc70da3becc1476acf63017d05c1b21672450178ee5f4d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "不会穿鞋子",
+    "file": "assets/audio/chunks/5dbb7aa5e2.m4a",
+    "speech": [
+      0.02,
+      1.4
+    ],
+    "speech_fingerprint": "c4e10a9d26e7ac5319fc70da3becc1476acf63017d05c1b21672450178ee5f4d"
+  },
+  "chunk-24010cadae": {
+    "fingerprint": "e9f9137a5679473c2c66166a7d0bae5bffe61916336282f597f055aa27b13114",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "像小船",
+    "file": "assets/audio/chunks/24010cadae.m4a",
+    "speech": [
+      0.03,
+      1.18
+    ],
+    "speech_fingerprint": "e9f9137a5679473c2c66166a7d0bae5bffe61916336282f597f055aa27b13114"
+  },
+  "chunk-2228184044": {
+    "fingerprint": "2ab19014bef746bac85ad4b6a8e081856c64d2c7da0863382c053c8714b2b913",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "出来了",
+    "file": "assets/audio/chunks/2228184044.m4a",
+    "speech": [
+      0.03,
+      0.68
+    ],
+    "speech_fingerprint": "2ab19014bef746bac85ad4b6a8e081856c64d2c7da0863382c053c8714b2b913"
+  },
+  "chunk-6bec9f087d": {
+    "fingerprint": "8f325ed6043a8f0c5fb0193f978b008cf9cab72a1b9a7dd3495ef7489030d9c8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "去学校",
+    "file": "assets/audio/chunks/6bec9f087d.m4a",
+    "speech": [
+      0.03,
+      0.94
+    ],
+    "speech_fingerprint": "8f325ed6043a8f0c5fb0193f978b008cf9cab72a1b9a7dd3495ef7489030d9c8"
+  },
+  "chunk-233e64d770": {
+    "fingerprint": "d9eb15e44c57e730a553159002d60a6a6fa26918ac84d735475621e71d1d7176",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "又香又甜",
+    "file": "assets/audio/chunks/233e64d770.m4a",
+    "speech": [
+      0.01,
+      1.27
+    ],
+    "speech_fingerprint": "d9eb15e44c57e730a553159002d60a6a6fa26918ac84d735475621e71d1d7176"
+  },
+  "chunk-07b06b96fb": {
+    "fingerprint": "aa73383356c9dc56d4bad98fb5309e7674c163a3a7a85992f657a7355a5cee1b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "只会穿袜子",
+    "file": "assets/audio/chunks/07b06b96fb.m4a",
+    "speech": [
+      0.02,
+      1.41
+    ],
+    "speech_fingerprint": "aa73383356c9dc56d4bad98fb5309e7674c163a3a7a85992f657a7355a5cee1b"
+  },
+  "chunk-a482bdf0a6": {
+    "fingerprint": "906e8a3c3f2fb9ed19b3a6e6608b0d72a9fe09abe88aa38c006471e6d98732aa",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "只会读",
+    "file": "assets/audio/chunks/a482bdf0a6.m4a",
+    "speech": [
+      0.01,
+      0.87
+    ],
+    "speech_fingerprint": "906e8a3c3f2fb9ed19b3a6e6608b0d72a9fe09abe88aa38c006471e6d98732aa"
+  },
+  "chunk-d79533e053": {
+    "fingerprint": "1423b36912a8f6db40a427336935014c66e4493abede3e5492b16279af9b19c6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "喜欢吃草",
+    "file": "assets/audio/chunks/d79533e053.m4a",
+    "speech": [
+      0.03,
+      1.32
+    ],
+    "speech_fingerprint": "1423b36912a8f6db40a427336935014c66e4493abede3e5492b16279af9b19c6"
+  },
+  "chunk-77783d9346": {
+    "fingerprint": "deea476673c1465e8cea4c68d7f4f22beca49c540ca6404ff856a74d82c2d5fb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "喜欢游泳",
+    "file": "assets/audio/chunks/77783d9346.m4a",
+    "speech": [
+      0.03,
+      1.13
+    ],
+    "speech_fingerprint": "deea476673c1465e8cea4c68d7f4f22beca49c540ca6404ff856a74d82c2d5fb"
+  },
+  "chunk-d90c171f96": {
+    "fingerprint": "6ea0bac3bf7a02a99aa6b221c6b32b4d13b7fac09ace4a46ba7d6202172b02f9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "圆圆的月亮",
+    "file": "assets/audio/chunks/d90c171f96.m4a",
+    "speech": [
+      0.01,
+      1.17
+    ],
+    "speech_fingerprint": "6ea0bac3bf7a02a99aa6b221c6b32b4d13b7fac09ace4a46ba7d6202172b02f9"
+  },
+  "chunk-17d0171998": {
+    "fingerprint": "95e6630bdc4801a7d7410b3b91f8f798270c4e486257e54cb760127dab7958d7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "圆圆的眼睛",
+    "file": "assets/audio/chunks/17d0171998.m4a",
+    "speech": [
+      0.01,
+      1.31
+    ],
+    "speech_fingerprint": "95e6630bdc4801a7d7410b3b91f8f798270c4e486257e54cb760127dab7958d7"
+  },
+  "chunk-3d99431a8f": {
+    "fingerprint": "b414eb61ed41930b50a0cd015d6d8ab957dac6aee1cb098da466d80d12ef8e32",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "圆圆的葡萄",
+    "file": "assets/audio/chunks/3d99431a8f.m4a",
+    "speech": [
+      0.01,
+      1.3
+    ],
+    "speech_fingerprint": "b414eb61ed41930b50a0cd015d6d8ab957dac6aee1cb098da466d80d12ef8e32"
+  },
+  "chunk-b7d4159e3e": {
+    "fingerprint": "8a532fa9b5d75fdb742864b45974f6c68d5a8e3353a3af1c017fc6500cfcf5a7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "圆形的饼干",
+    "file": "assets/audio/chunks/b7d4159e3e.m4a",
+    "speech": [
+      0.01,
+      1.37
+    ],
+    "speech_fingerprint": "8a532fa9b5d75fdb742864b45974f6c68d5a8e3353a3af1c017fc6500cfcf5a7"
+  },
+  "chunk-0dacb42308": {
+    "fingerprint": "3cf7522d33240cd4057faf021336fec24c0bb227755546db4d050774227dcb9f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "在天上",
+    "file": "assets/audio/chunks/0dacb42308.m4a",
+    "speech": [
+      0.05,
+      0.96
+    ],
+    "speech_fingerprint": "3cf7522d33240cd4057faf021336fec24c0bb227755546db4d050774227dcb9f"
+  },
+  "chunk-207c8ad7a4": {
+    "fingerprint": "e5a95dc56725be99f43e7031724e2cbe34a925b2774caa935e7a365dce389c1a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "在客厅",
+    "file": "assets/audio/chunks/207c8ad7a4.m4a",
+    "speech": [
+      0.05,
+      0.95
+    ],
+    "speech_fingerprint": "e5a95dc56725be99f43e7031724e2cbe34a925b2774caa935e7a365dce389c1a"
+  },
+  "chunk-c7e7b6a829": {
+    "fingerprint": "42384e5e03ffa45af9ff2724af4d12eff3d9e75851929fe2a114d3a28012211e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "在山上",
+    "file": "assets/audio/chunks/c7e7b6a829.m4a",
+    "speech": [
+      0.05,
+      0.93
+    ],
+    "speech_fingerprint": "42384e5e03ffa45af9ff2724af4d12eff3d9e75851929fe2a114d3a28012211e"
+  },
+  "chunk-92679d52ce": {
+    "fingerprint": "bec496edb0ab75879cf74cbd197b246ac630ecb3c919d5e9840ffec1bde3975b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "在山下",
+    "file": "assets/audio/chunks/92679d52ce.m4a",
+    "speech": [
+      0.05,
+      0.93
+    ],
+    "speech_fingerprint": "bec496edb0ab75879cf74cbd197b246ac630ecb3c919d5e9840ffec1bde3975b"
+  },
+  "chunk-59cd61d157": {
+    "fingerprint": "e43f540970346b50d2b27f37e14eb1615d5ab2e6db7055d83c4d70816fd5937f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "在房间",
+    "file": "assets/audio/chunks/59cd61d157.m4a",
+    "speech": [
+      0.05,
+      0.94
+    ],
+    "speech_fingerprint": "e43f540970346b50d2b27f37e14eb1615d5ab2e6db7055d83c4d70816fd5937f"
+  },
+  "chunk-8d7ed7a415": {
+    "fingerprint": "d3b75d648a1e69bdbf353ca5aeff869a766808e6c9e9acb7eb1ad91791103c52",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "在桌子上",
+    "file": "assets/audio/chunks/8d7ed7a415.m4a",
+    "speech": [
+      0.06,
+      1.11
+    ],
+    "speech_fingerprint": "d3b75d648a1e69bdbf353ca5aeff869a766808e6c9e9acb7eb1ad91791103c52"
+  },
+  "chunk-6b7ebb226f": {
+    "fingerprint": "030fbbd9f6c7129eafbe494509ecb242352fc55ed9fe982bcf15c2903f16b072",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "在睡觉",
+    "file": "assets/audio/chunks/6b7ebb226f.m4a",
+    "speech": [
+      0.05,
+      0.9
+    ],
+    "speech_fingerprint": "030fbbd9f6c7129eafbe494509ecb242352fc55ed9fe982bcf15c2903f16b072"
+  },
+  "chunk-b03fef94b9": {
+    "fingerprint": "1324834aebf4c06115245354c06ea3266f89cb1385e05ce98e501d7433f12283",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "在脸上",
+    "file": "assets/audio/chunks/b03fef94b9.m4a",
+    "speech": [
+      0.05,
+      0.89
+    ],
+    "speech_fingerprint": "1324834aebf4c06115245354c06ea3266f89cb1385e05ce98e501d7433f12283"
+  },
+  "chunk-388d1dbcd3": {
+    "fingerprint": "fb014bf348b8f6fbdce70185b1ca6b2b7f0a9f848e12d6adf6a849a8ffb56074",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛在吃草",
+    "file": "assets/audio/chunks/388d1dbcd3.m4a",
+    "speech": [
+      0.01,
+      1.84
+    ],
+    "speech_fingerprint": "fb014bf348b8f6fbdce70185b1ca6b2b7f0a9f848e12d6adf6a849a8ffb56074"
+  },
+  "chunk-6e5d624b48": {
+    "fingerprint": "0fb5575b18ef5827d135874ac4c2ad3d86c2b337447fef3d52fd66c1464524ae",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "天亮了",
+    "file": "assets/audio/chunks/6e5d624b48.m4a",
+    "speech": [
+      0.02,
+      0.76
+    ],
+    "speech_fingerprint": "0fb5575b18ef5827d135874ac4c2ad3d86c2b337447fef3d52fd66c1464524ae"
+  },
+  "chunk-099699656c": {
+    "fingerprint": "a33881e9daafde7f5cc5e3c6fdfeab10423d8629b9150379f2c31bdf38cd0d7b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "天黑了",
+    "file": "assets/audio/chunks/099699656c.m4a",
+    "speech": [
+      0.01,
+      0.78
+    ],
+    "speech_fingerprint": "a33881e9daafde7f5cc5e3c6fdfeab10423d8629b9150379f2c31bdf38cd0d7b"
+  },
+  "chunk-3d647cfdc3": {
+    "fingerprint": "0ecc6feed7a49e9c154b0265160a9fbbb5c91a53f4fd83b40027361155ab6c27",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妹妹",
+    "file": "assets/audio/chunks/3d647cfdc3.m4a",
+    "speech": [
+      0.01,
+      0.57
+    ],
+    "speech_fingerprint": "0ecc6feed7a49e9c154b0265160a9fbbb5c91a53f4fd83b40027361155ab6c27"
+  },
+  "chunk-bf15a6e8a3": {
+    "fingerprint": "cb32d9a80f16dcd50fef1395b44b75b6390b5d45e76f1c5a0963a1533f9ef099",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小兔",
+    "file": "assets/audio/chunks/bf15a6e8a3.m4a",
+    "speech": [
+      0.03,
+      0.7
+    ],
+    "speech_fingerprint": "cb32d9a80f16dcd50fef1395b44b75b6390b5d45e76f1c5a0963a1533f9ef099"
+  },
+  "chunk-f32d9c39d2": {
+    "fingerprint": "2d98f0be221ce504835a5929a2bd443253f3e8d84cd23a6f6ded698538513a7a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊也在吃草",
+    "file": "assets/audio/chunks/f32d9c39d2.m4a",
+    "speech": [
+      0.03,
+      2.16
+    ],
+    "speech_fingerprint": "2d98f0be221ce504835a5929a2bd443253f3e8d84cd23a6f6ded698538513a7a"
+  },
+  "chunk-683b4337bb": {
+    "fingerprint": "4d0141cae69321ebf726b0eca2621cb3010e487033fa35a860cf31f3a0d03eb8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黄鸭",
+    "file": "assets/audio/chunks/683b4337bb.m4a",
+    "speech": [
+      0.03,
+      0.96
+    ],
+    "speech_fingerprint": "4d0141cae69321ebf726b0eca2621cb3010e487033fa35a860cf31f3a0d03eb8"
+  },
+  "chunk-51fd0f5ca0": {
+    "fingerprint": "278f7b1292895d4c7ff1f750198aefb842771a75acc53e572cd2e60ff7e7ce8b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小黑马",
+    "file": "assets/audio/chunks/51fd0f5ca0.m4a",
+    "speech": [
+      0.03,
+      0.92
+    ],
+    "speech_fingerprint": "278f7b1292895d4c7ff1f750198aefb842771a75acc53e572cd2e60ff7e7ce8b"
+  },
+  "chunk-ecdaac52d5": {
+    "fingerprint": "a04d02dace7921a7b6619eb7aacfa1f6ded44a50cd9359390fa665d57a36007a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "巧克力牛奶",
+    "file": "assets/audio/chunks/ecdaac52d5.m4a",
+    "speech": [
+      0.03,
+      1.45
+    ],
+    "speech_fingerprint": "a04d02dace7921a7b6619eb7aacfa1f6ded44a50cd9359390fa665d57a36007a"
+  },
+  "chunk-fe9bd4a62f": {
+    "fingerprint": "64f98703c2bd0c39eec4a6def081962459ba980631e51762ef3c4de258299dc2",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "开开心心",
+    "file": "assets/audio/chunks/fe9bd4a62f.m4a",
+    "speech": [
+      0.02,
+      1.28
+    ],
+    "speech_fingerprint": "64f98703c2bd0c39eec4a6def081962459ba980631e51762ef3c4de258299dc2"
+  },
+  "chunk-d61f999a29": {
+    "fingerprint": "365b315d5319e87113e7333b6214b22e5d73c158624123ec78cf30d272dc63a5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弟弟",
+    "file": "assets/audio/chunks/d61f999a29.m4a",
+    "speech": [
+      0.01,
+      0.35
+    ],
+    "speech_fingerprint": "365b315d5319e87113e7333b6214b22e5d73c158624123ec78cf30d272dc63a5"
+  },
+  "chunk-87f0841600": {
+    "fingerprint": "a7bd48b284520749f0901851ca22dd61eb8e1c1460aee83b2a42891851747b0a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "弯弯的月亮",
+    "file": "assets/audio/chunks/87f0841600.m4a",
+    "speech": [
+      0.01,
+      1.13
+    ],
+    "speech_fingerprint": "a7bd48b284520749f0901851ca22dd61eb8e1c1460aee83b2a42891851747b0a"
+  },
+  "chunk-34f201bc50": {
+    "fingerprint": "b5c637e033c0fa086e531af19258d783f89e2606066a0fa835a1dfcc71a785bb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我",
+    "file": "assets/audio/chunks/34f201bc50.m4a",
+    "speech": [
+      0.0,
+      0.32
+    ],
+    "speech_fingerprint": "b5c637e033c0fa086e531af19258d783f89e2606066a0fa835a1dfcc71a785bb"
+  },
+  "chunk-0805949359": {
+    "fingerprint": "837c6e80ac094991929527eadea920c988f5d9257ca80c2903109d60e015b82c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我们",
+    "file": "assets/audio/chunks/0805949359.m4a",
+    "speech": [
+      0.01,
+      0.46
+    ],
+    "speech_fingerprint": "837c6e80ac094991929527eadea920c988f5d9257ca80c2903109d60e015b82c"
+  },
+  "chunk-175f12ca73": {
+    "fingerprint": "56b42529af32c2f7d6dbef44bc45f25cbdaabc114018b3cbd18fb0b6f48e9919",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我会说华语",
+    "file": "assets/audio/chunks/175f12ca73.m4a",
+    "speech": [
+      0.01,
+      1.34
+    ],
+    "speech_fingerprint": "56b42529af32c2f7d6dbef44bc45f25cbdaabc114018b3cbd18fb0b6f48e9919"
+  },
+  "chunk-be619f91d8": {
+    "fingerprint": "23f446e4addab6532d89c8b675b2061eae0e608bb816522ff09d85ece9e17250",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我和弟弟",
+    "file": "assets/audio/chunks/be619f91d8.m4a",
+    "speech": [
+      0.01,
+      0.84
+    ],
+    "speech_fingerprint": "23f446e4addab6532d89c8b675b2061eae0e608bb816522ff09d85ece9e17250"
+  },
+  "chunk-7a39587768": {
+    "fingerprint": "3ea8fa3923b8d12e6c81dd9dc14a260c9990309e01311127f59920d5e10f3cf6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我喜欢",
+    "file": "assets/audio/chunks/7a39587768.m4a",
+    "speech": [
+      0.01,
+      0.83
+    ],
+    "speech_fingerprint": "3ea8fa3923b8d12e6c81dd9dc14a260c9990309e01311127f59920d5e10f3cf6"
+  },
+  "chunk-a7fc891c94": {
+    "fingerprint": "3fdd54b074601074a773cb4a5843840308e09f9b00e270c1984c7c358d22e73c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我有",
+    "file": "assets/audio/chunks/a7fc891c94.m4a",
+    "speech": [
+      0.01,
+      0.53
+    ],
+    "speech_fingerprint": "3fdd54b074601074a773cb4a5843840308e09f9b00e270c1984c7c358d22e73c"
+  },
+  "chunk-a4082e1f64": {
+    "fingerprint": "53432e0bd8e711d3acab4ff711b7dbbefa417ccef1bdd578e6d325a6f5dad673",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我的妹妹",
+    "file": "assets/audio/chunks/a4082e1f64.m4a",
+    "speech": [
+      0.01,
+      0.92
+    ],
+    "speech_fingerprint": "53432e0bd8e711d3acab4ff711b7dbbefa417ccef1bdd578e6d325a6f5dad673"
+  },
+  "chunk-ae958a56ed": {
+    "fingerprint": "5914356f4b868bf796000b24b0b902459478bba3f466bba587aceab8b3da4332",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "来吃草",
+    "file": "assets/audio/chunks/ae958a56ed.m4a",
+    "speech": [
+      0.01,
+      0.98
+    ],
+    "speech_fingerprint": "5914356f4b868bf796000b24b0b902459478bba3f466bba587aceab8b3da4332"
+  },
+  "chunk-5e1521c758": {
+    "fingerprint": "7427482114b15954c002c8d815aa201f69a3c265740ed2d643ca6cc75b9688e8",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "来来来",
+    "file": "assets/audio/chunks/5e1521c758.m4a",
+    "speech": [
+      0.01,
+      0.85
+    ],
+    "speech_fingerprint": "7427482114b15954c002c8d815aa201f69a3c265740ed2d643ca6cc75b9688e8"
+  },
+  "chunk-ca51621df4": {
+    "fingerprint": "e1c52fda0e2d4e9fe9df3c600093236150f16ca91affc46e6eeaa8a56fe68682",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "来游泳",
+    "file": "assets/audio/chunks/ca51621df4.m4a",
+    "speech": [
+      0.01,
+      0.73
+    ],
+    "speech_fingerprint": "e1c52fda0e2d4e9fe9df3c600093236150f16ca91affc46e6eeaa8a56fe68682"
+  },
+  "chunk-ec6f1cf3b7": {
+    "fingerprint": "ee86b7b75746b0f7b337a917a811da12df4ce9e28a0a14ff9e5c3afd5c84e69b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "桌子上有",
+    "file": "assets/audio/chunks/ec6f1cf3b7.m4a",
+    "speech": [
+      0.02,
+      1.14
+    ],
+    "speech_fingerprint": "ee86b7b75746b0f7b337a917a811da12df4ce9e28a0a14ff9e5c3afd5c84e69b"
+  },
+  "chunk-480abf8319": {
+    "fingerprint": "6504a1a976d5cb62ce0831beb6b7f6e10b0aabb23540bd33947c68219fde334b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "正方形的饼干",
+    "file": "assets/audio/chunks/480abf8319.m4a",
+    "speech": [
+      0.02,
+      1.61
+    ],
+    "speech_fingerprint": "6504a1a976d5cb62ce0831beb6b7f6e10b0aabb23540bd33947c68219fde334b"
+  },
+  "chunk-729322ed4d": {
+    "fingerprint": "82b23b2c2b24eaeaf6d043cb1f9f768b38fd6c291885149cdff333ccf9f68bcf",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸和妈妈",
+    "file": "assets/audio/chunks/729322ed4d.m4a",
+    "speech": [
+      0.01,
+      1.26
+    ],
+    "speech_fingerprint": "82b23b2c2b24eaeaf6d043cb1f9f768b38fd6c291885149cdff333ccf9f68bcf"
+  },
+  "chunk-b0b0032b89": {
+    "fingerprint": "74e958c6d00637049714fe2e99df5d580db411bef2ab47502b85246187638469",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "玩积木",
+    "file": "assets/audio/chunks/b0b0032b89.m4a",
+    "speech": [
+      0.01,
+      0.8
+    ],
+    "speech_fingerprint": "74e958c6d00637049714fe2e99df5d580db411bef2ab47502b85246187638469"
+  },
+  "chunk-be89f02d9b": {
+    "fingerprint": "68c9ef0bbf3b7b752438b0e91e7dc6753efcbfba6dfc2628dd6e402e6f802c90",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "看书",
+    "file": "assets/audio/chunks/be89f02d9b.m4a",
+    "speech": [
+      0.02,
+      0.62
+    ],
+    "speech_fingerprint": "68c9ef0bbf3b7b752438b0e91e7dc6753efcbfba6dfc2628dd6e402e6f802c90"
+  },
+  "chunk-6d2a03ba84": {
+    "fingerprint": "57307ceffff4373947dc571b4a7b70ab3b34a6ced4916f4731f20223fe0ecd96",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "真甜",
+    "file": "assets/audio/chunks/6d2a03ba84.m4a",
+    "speech": [
+      0.01,
+      0.7
+    ],
+    "speech_fingerprint": "57307ceffff4373947dc571b4a7b70ab3b34a6ced4916f4731f20223fe0ecd96"
+  },
+  "chunk-a18e67e59c": {
+    "fingerprint": "8e42432abd1499ba04604f16822ce3925a3ff0f87dd338cdee5934586f700a9a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "真香",
+    "file": "assets/audio/chunks/a18e67e59c.m4a",
+    "speech": [
+      0.02,
+      0.63
+    ],
+    "speech_fingerprint": "8e42432abd1499ba04604f16822ce3925a3ff0f87dd338cdee5934586f700a9a"
+  },
+  "chunk-b47feeb344": {
+    "fingerprint": "6b9a882b144cde02a36d8706ae920ca14bf78d3a28c7c8330b0aa544808477b4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "红红的太阳",
+    "file": "assets/audio/chunks/b47feeb344.m4a",
+    "speech": [
+      0.1,
+      1.34
+    ],
+    "speech_fingerprint": "6b9a882b144cde02a36d8706ae920ca14bf78d3a28c7c8330b0aa544808477b4"
+  },
+  "chunk-9f4bd856cc": {
+    "fingerprint": "b6b33004858d6a31a07b62e3dd4a4f14dd51662b64d1fc2d51dbdc24afe1a8a0",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "绿绿的草地上",
+    "file": "assets/audio/chunks/9f4bd856cc.m4a",
+    "speech": [
+      0.01,
+      1.47
+    ],
+    "speech_fingerprint": "b6b33004858d6a31a07b62e3dd4a4f14dd51662b64d1fc2d51dbdc24afe1a8a0"
+  },
+  "chunk-939e60b92f": {
+    "fingerprint": "cf741f655d32885b1e7947294b8a7fc3c66c6fd48b227d9b03ad378bd98e379d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "草莓蛋糕",
+    "file": "assets/audio/chunks/939e60b92f.m4a",
+    "speech": [
+      0.06,
+      1.09
+    ],
+    "speech_fingerprint": "cf741f655d32885b1e7947294b8a7fc3c66c6fd48b227d9b03ad378bd98e379d"
+  },
+  "chunk-2380dd911f": {
+    "fingerprint": "9a45c3a3dfb8ca63759f1db237d7ef722eba5b28c4639485658255fbb0059af6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "请安静",
+    "file": "assets/audio/chunks/2380dd911f.m4a",
+    "speech": [
+      0.03,
+      0.91
+    ],
+    "speech_fingerprint": "9a45c3a3dfb8ca63759f1db237d7ef722eba5b28c4639485658255fbb0059af6"
+  },
+  "chunk-e6d7f6cd87": {
+    "fingerprint": "c9ba588690fcb0d09c55e0602cb216ec1dca779c799af965e825a54a52d5c4a7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "轰隆隆",
+    "file": "assets/audio/chunks/e6d7f6cd87.m4a",
+    "speech": [
+      0.09,
+      0.9
+    ],
+    "speech_fingerprint": "c9ba588690fcb0d09c55e0602cb216ec1dca779c799af965e825a54a52d5c4a7"
+  },
+  "chunk-b9a0887bad": {
+    "fingerprint": "59226933d8c9a4a9d55fb80633f42be93897743c164a47d6fe8a69763245ab8c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "轻轻吹",
+    "file": "assets/audio/chunks/b9a0887bad.m4a",
+    "speech": [
+      0.03,
+      1.04
+    ],
+    "speech_fingerprint": "59226933d8c9a4a9d55fb80633f42be93897743c164a47d6fe8a69763245ab8c"
+  },
+  "chunk-32ffdaf585": {
+    "fingerprint": "da04256c65de11a2e1662a2a291a8f687d19a17349a13c3cc7c618339d5112fb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "轻轻跳",
+    "file": "assets/audio/chunks/32ffdaf585.m4a",
+    "speech": [
+      0.03,
+      1.01
+    ],
+    "speech_fingerprint": "da04256c65de11a2e1662a2a291a8f687d19a17349a13c3cc7c618339d5112fb"
+  },
+  "chunk-9be0b6b981": {
+    "fingerprint": "f90b4840258cf4e90e1d216aa8f57deabb64d1d22dc5a59c6cc87e3cb1df3c41",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "还会读故事书",
+    "file": "assets/audio/chunks/9be0b6b981.m4a",
+    "speech": [
+      0.06,
+      1.59
+    ],
+    "speech_fingerprint": "f90b4840258cf4e90e1d216aa8f57deabb64d1d22dc5a59c6cc87e3cb1df3c41"
+  },
+  "chunk-9f9faa85d0": {
+    "fingerprint": "e0291b928b9cfb9b24f9bd3f0a637d4d40f98819c424c865fe8552cb374f8a7d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "还有三角形的饼干",
+    "file": "assets/audio/chunks/9f9faa85d0.m4a",
+    "speech": [
+      0.06,
+      2.17
+    ],
+    "speech_fingerprint": "e0291b928b9cfb9b24f9bd3f0a637d4d40f98819c424c865fe8552cb374f8a7d"
+  },
+  "chunk-c1a157921e": {
+    "fingerprint": "fbf61f5246c8aec63c134b2e0c612f336fdb7558c72eab354325b42632be6721",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "还有香香的白米饭",
+    "file": "assets/audio/chunks/c1a157921e.m4a",
+    "speech": [
+      0.06,
+      2.09
+    ],
+    "speech_fingerprint": "fbf61f5246c8aec63c134b2e0c612f336fdb7558c72eab354325b42632be6721"
+  },
+  "chunk-f8600888db": {
+    "fingerprint": "134a2440d8efb8abd65db87311f7a36116aa8fe9f66659e66c0362d772890fbb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "长大了",
+    "file": "assets/audio/chunks/f8600888db.m4a",
+    "speech": [
+      0.02,
+      0.67
+    ],
+    "speech_fingerprint": "134a2440d8efb8abd65db87311f7a36116aa8fe9f66659e66c0362d772890fbb"
+  },
+  "chunk-4007e58619": {
+    "fingerprint": "b337ec3d898505449ffcc9b4d8417024705212a6f28e123b33e13b25578fff42",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "长长的火车",
+    "file": "assets/audio/chunks/4007e58619.m4a",
+    "speech": [
+      0.02,
+      1.39
+    ],
+    "speech_fingerprint": "b337ec3d898505449ffcc9b4d8417024705212a6f28e123b33e13b25578fff42"
+  },
+  "chunk-dc8eded1dd": {
+    "fingerprint": "d6c6255e1133e6334efc467fbe668289154bb67a11c4573ad8d76c7c682a690d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "风儿",
+    "file": "assets/audio/chunks/dc8eded1dd.m4a",
+    "speech": [
+      0.11,
+      0.6
+    ],
+    "speech_fingerprint": "d6c6255e1133e6334efc467fbe668289154bb67a11c4573ad8d76c7c682a690d"
+  },
+  "chunk-ffb8ac2e74": {
+    "fingerprint": "a2cefc7c15548686ee7844c5016e58dbd933cbf88b245ab95660478d4b3da340",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "香香的肉",
+    "file": "assets/audio/chunks/ffb8ac2e74.m4a",
+    "speech": [
+      0.03,
+      1.06
+    ],
+    "speech_fingerprint": "a2cefc7c15548686ee7844c5016e58dbd933cbf88b245ab95660478d4b3da340"
+  },
+  "chunk-a58ffea36d": {
+    "fingerprint": "fff677248ce2b772e5e0d17ec9b483bdd52d63b43e3d73ae58c9c7db35b20229",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "香香的菜",
+    "file": "assets/audio/chunks/a58ffea36d.m4a",
+    "speech": [
+      0.03,
+      1.15
+    ],
+    "speech_fingerprint": "fff677248ce2b772e5e0d17ec9b483bdd52d63b43e3d73ae58c9c7db35b20229"
+  },
+  "chunk-978a1ce6bd": {
+    "fingerprint": "6b993a86ef2e1e55ab829aa525cae89987b146aafa005b42bd4129cd549f2716",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "高高的大树",
+    "file": "assets/audio/chunks/978a1ce6bd.m4a",
+    "speech": [
+      0.01,
+      1.2
+    ],
+    "speech_fingerprint": "6b993a86ef2e1e55ab829aa525cae89987b146aafa005b42bd4129cd549f2716"
+  },
+  "pattern-hide_rabbit_tableOn": {
+    "fingerprint": "5d5d6e8103c5a5fb4cdca412afba83e6fcbea2235ef06ea6edbf845cd08bcb91",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小兔在桌子上",
+    "file": "assets/audio/patterns/hide_rabbit_tableOn.m4a",
+    "speech": [
+      0.03,
+      1.77
+    ],
+    "speech_fingerprint": "5d5d6e8103c5a5fb4cdca412afba83e6fcbea2235ef06ea6edbf845cd08bcb91"
+  },
+  "pattern-hide_rabbit_tableUnder": {
+    "fingerprint": "c97e12d6b216b9965bc987ab3d4dc59cae42558dded5ee532f715039104715d5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小兔在桌子下",
+    "file": "assets/audio/patterns/hide_rabbit_tableUnder.m4a",
+    "speech": [
+      0.03,
+      1.76
+    ],
+    "speech_fingerprint": "c97e12d6b216b9965bc987ab3d4dc59cae42558dded5ee532f715039104715d5"
+  },
+  "pattern-hide_rabbit_chairOn": {
+    "fingerprint": "419bab6a690ab9ac0ae245e566cd07c1303b06d40c78e40283ead0b9b186f27e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小兔在椅子上",
+    "file": "assets/audio/patterns/hide_rabbit_chairOn.m4a",
+    "speech": [
+      0.03,
+      1.69
+    ],
+    "speech_fingerprint": "419bab6a690ab9ac0ae245e566cd07c1303b06d40c78e40283ead0b9b186f27e"
+  },
+  "pattern-hide_rabbit_chairUnder": {
+    "fingerprint": "138fdb2603e21bfb709436d8b7d14ac3221d7bf5141dda3f4efd16dd14c000b7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小兔在椅子下",
+    "file": "assets/audio/patterns/hide_rabbit_chairUnder.m4a",
+    "speech": [
+      0.03,
+      1.68
+    ],
+    "speech_fingerprint": "138fdb2603e21bfb709436d8b7d14ac3221d7bf5141dda3f4efd16dd14c000b7"
+  },
+  "pattern-hide_rabbit_bedOn": {
+    "fingerprint": "4f884e2bf5096628575ca30b732322203cd27a756246a672f3c4aee6124bcb9b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小兔在床上",
+    "file": "assets/audio/patterns/hide_rabbit_bedOn.m4a",
+    "speech": [
+      0.03,
+      1.67
+    ],
+    "speech_fingerprint": "4f884e2bf5096628575ca30b732322203cd27a756246a672f3c4aee6124bcb9b"
+  },
+  "pattern-hide_rabbit_bedUnder": {
+    "fingerprint": "bbc4b17851cf680fb5c6a92405709c3c602ae6fca04dc2171cdb945a6276e708",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小兔在床下",
+    "file": "assets/audio/patterns/hide_rabbit_bedUnder.m4a",
+    "speech": [
+      0.03,
+      1.68
+    ],
+    "speech_fingerprint": "bbc4b17851cf680fb5c6a92405709c3c602ae6fca04dc2171cdb945a6276e708"
+  },
+  "pattern-hide_duck_tableOn": {
+    "fingerprint": "0af201b8110b43110a8647c0045d991c40597ca47cc83473d7982b3cf557e414",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小鸭在桌子上",
+    "file": "assets/audio/patterns/hide_duck_tableOn.m4a",
+    "speech": [
+      0.03,
+      1.69
+    ],
+    "speech_fingerprint": "0af201b8110b43110a8647c0045d991c40597ca47cc83473d7982b3cf557e414"
+  },
+  "pattern-hide_duck_tableUnder": {
+    "fingerprint": "f20999ed74d04404d152d355912099244b19c30bd7be0cb8015621ecb0986d03",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小鸭在桌子下",
+    "file": "assets/audio/patterns/hide_duck_tableUnder.m4a",
+    "speech": [
+      0.03,
+      1.69
+    ],
+    "speech_fingerprint": "f20999ed74d04404d152d355912099244b19c30bd7be0cb8015621ecb0986d03"
+  },
+  "pattern-hide_duck_chairOn": {
+    "fingerprint": "32e78b55be6be2f1aef42f7198447eccc8816902f7261e0ce908a172499273f6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小鸭在椅子上",
+    "file": "assets/audio/patterns/hide_duck_chairOn.m4a",
+    "speech": [
+      0.03,
+      1.59
+    ],
+    "speech_fingerprint": "32e78b55be6be2f1aef42f7198447eccc8816902f7261e0ce908a172499273f6"
+  },
+  "pattern-hide_duck_chairUnder": {
+    "fingerprint": "abba1e243d08f476c9bf6be88bac821cb32b2da1d2a4b2ee7f60d379c2c75d4c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小鸭在椅子下",
+    "file": "assets/audio/patterns/hide_duck_chairUnder.m4a",
+    "speech": [
+      0.03,
+      1.58
+    ],
+    "speech_fingerprint": "abba1e243d08f476c9bf6be88bac821cb32b2da1d2a4b2ee7f60d379c2c75d4c"
+  },
+  "pattern-hide_duck_bedOn": {
+    "fingerprint": "38361b9f8eb826dc6e1aa4ed13064c6e6213772578a3022602ec0efa340add1b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小鸭在床上",
+    "file": "assets/audio/patterns/hide_duck_bedOn.m4a",
+    "speech": [
+      0.03,
+      1.58
+    ],
+    "speech_fingerprint": "38361b9f8eb826dc6e1aa4ed13064c6e6213772578a3022602ec0efa340add1b"
+  },
+  "pattern-hide_duck_bedUnder": {
+    "fingerprint": "eb1923668262277005984f8949dc664b2c8d7edd954e65cc21b85c6d37370840",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小鸭在床下",
+    "file": "assets/audio/patterns/hide_duck_bedUnder.m4a",
+    "speech": [
+      0.03,
+      1.59
+    ],
+    "speech_fingerprint": "eb1923668262277005984f8949dc664b2c8d7edd954e65cc21b85c6d37370840"
+  },
+  "pattern-hide_sheep_tableOn": {
+    "fingerprint": "4f61aa867e3b406e09ed0c703804996958a0e624ef93957dc71e2e7cbc9ef28f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小羊在桌子上",
+    "file": "assets/audio/patterns/hide_sheep_tableOn.m4a",
+    "speech": [
+      0.03,
+      1.71
+    ],
+    "speech_fingerprint": "4f61aa867e3b406e09ed0c703804996958a0e624ef93957dc71e2e7cbc9ef28f"
+  },
+  "pattern-hide_sheep_tableUnder": {
+    "fingerprint": "1308a011fc1442a26401c00e662616a3fa8a6f41308f265315f4cf7f0722429d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小羊在桌子下",
+    "file": "assets/audio/patterns/hide_sheep_tableUnder.m4a",
+    "speech": [
+      0.03,
+      1.71
+    ],
+    "speech_fingerprint": "1308a011fc1442a26401c00e662616a3fa8a6f41308f265315f4cf7f0722429d"
+  },
+  "pattern-hide_sheep_chairOn": {
+    "fingerprint": "b3628189b672547118d29bc28a4c829ef3ba0c9adcb739c3c7aee41474907377",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小羊在椅子上",
+    "file": "assets/audio/patterns/hide_sheep_chairOn.m4a",
+    "speech": [
+      0.03,
+      1.63
+    ],
+    "speech_fingerprint": "b3628189b672547118d29bc28a4c829ef3ba0c9adcb739c3c7aee41474907377"
+  },
+  "pattern-hide_sheep_chairUnder": {
+    "fingerprint": "3e741a72079d2f07b9d7b51a780686bfb08e4b5ba414c4e4173034b196c3426a",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小羊在椅子下",
+    "file": "assets/audio/patterns/hide_sheep_chairUnder.m4a",
+    "speech": [
+      0.03,
+      1.63
+    ],
+    "speech_fingerprint": "3e741a72079d2f07b9d7b51a780686bfb08e4b5ba414c4e4173034b196c3426a"
+  },
+  "pattern-hide_sheep_bedOn": {
+    "fingerprint": "6354cff06b1a5db7776b71dbb24eb7764c03f446d214063eca2cb397f820bba9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小羊在床上",
+    "file": "assets/audio/patterns/hide_sheep_bedOn.m4a",
+    "speech": [
+      0.03,
+      1.61
+    ],
+    "speech_fingerprint": "6354cff06b1a5db7776b71dbb24eb7764c03f446d214063eca2cb397f820bba9"
+  },
+  "pattern-hide_sheep_bedUnder": {
+    "fingerprint": "f9b1c281eb15e1468b8a86e1bed4f3d2470bc2c64b55834fbcc191b13c84175c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小羊在床下",
+    "file": "assets/audio/patterns/hide_sheep_bedUnder.m4a",
+    "speech": [
+      0.03,
+      1.62
+    ],
+    "speech_fingerprint": "f9b1c281eb15e1468b8a86e1bed4f3d2470bc2c64b55834fbcc191b13c84175c"
+  },
+  "pattern-hide_horse_tableOn": {
+    "fingerprint": "b739cd732cf3ff40b6646375e604a97986ff0e16a146d7ec24ff5e083e173906",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小马在桌子上",
+    "file": "assets/audio/patterns/hide_horse_tableOn.m4a",
+    "speech": [
+      0.03,
+      1.73
+    ],
+    "speech_fingerprint": "b739cd732cf3ff40b6646375e604a97986ff0e16a146d7ec24ff5e083e173906"
+  },
+  "pattern-hide_horse_tableUnder": {
+    "fingerprint": "e427d9a1df191b3dc7ee68bc0831f121602c65b481bf6a390d0ffa13c5947cfb",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小马在桌子下",
+    "file": "assets/audio/patterns/hide_horse_tableUnder.m4a",
+    "speech": [
+      0.03,
+      1.72
+    ],
+    "speech_fingerprint": "e427d9a1df191b3dc7ee68bc0831f121602c65b481bf6a390d0ffa13c5947cfb"
+  },
+  "pattern-hide_horse_chairOn": {
+    "fingerprint": "e9fa544d6951311bb68f45871f965a3c69fe35e717a1b318e1c1cc471e1c943f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小马在椅子上",
+    "file": "assets/audio/patterns/hide_horse_chairOn.m4a",
+    "speech": [
+      0.03,
+      1.65
+    ],
+    "speech_fingerprint": "e9fa544d6951311bb68f45871f965a3c69fe35e717a1b318e1c1cc471e1c943f"
+  },
+  "pattern-hide_horse_chairUnder": {
+    "fingerprint": "4c12e1e039b94c6da465f1a36867cc7ddd9df73544b3cadd567d67760701fc2b",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小马在椅子下",
+    "file": "assets/audio/patterns/hide_horse_chairUnder.m4a",
+    "speech": [
+      0.03,
+      1.65
+    ],
+    "speech_fingerprint": "4c12e1e039b94c6da465f1a36867cc7ddd9df73544b3cadd567d67760701fc2b"
+  },
+  "pattern-hide_horse_bedOn": {
+    "fingerprint": "8d743a5095ca6a8e3e2c384cdd9bc134b283505d2a67505b4c6c88378497fc73",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小马在床上",
+    "file": "assets/audio/patterns/hide_horse_bedOn.m4a",
+    "speech": [
+      0.03,
+      1.62
+    ],
+    "speech_fingerprint": "8d743a5095ca6a8e3e2c384cdd9bc134b283505d2a67505b4c6c88378497fc73"
+  },
+  "pattern-hide_horse_bedUnder": {
+    "fingerprint": "8c17319fb74ae57872e77121adedc4a65c58314f976845fb7a9c866c8e9edabc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小马在床下",
+    "file": "assets/audio/patterns/hide_horse_bedUnder.m4a",
+    "speech": [
+      0.03,
+      1.63
+    ],
+    "speech_fingerprint": "8c17319fb74ae57872e77121adedc4a65c58314f976845fb7a9c866c8e9edabc"
+  },
+  "pattern-hide_cow_tableOn": {
+    "fingerprint": "78e5c7e31e2d10bea1a54958072237d9d0b3fe57d8507e83c3e66d74c4d0d592",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小牛在桌子上",
+    "file": "assets/audio/patterns/hide_cow_tableOn.m4a",
+    "speech": [
+      0.03,
+      1.7
+    ],
+    "speech_fingerprint": "78e5c7e31e2d10bea1a54958072237d9d0b3fe57d8507e83c3e66d74c4d0d592"
+  },
+  "pattern-hide_cow_tableUnder": {
+    "fingerprint": "ee0c1b5fbf344e15293adfd30d7e2824773cd38e151560caf59547126d6b4747",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小牛在桌子下",
+    "file": "assets/audio/patterns/hide_cow_tableUnder.m4a",
+    "speech": [
+      0.03,
+      1.7
+    ],
+    "speech_fingerprint": "ee0c1b5fbf344e15293adfd30d7e2824773cd38e151560caf59547126d6b4747"
+  },
+  "pattern-hide_cow_chairOn": {
+    "fingerprint": "acc3cf066ac1101c6056efe3d0540634269feb4edeeb9b142599205360cb848f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小牛在椅子上",
+    "file": "assets/audio/patterns/hide_cow_chairOn.m4a",
+    "speech": [
+      0.03,
+      1.63
+    ],
+    "speech_fingerprint": "acc3cf066ac1101c6056efe3d0540634269feb4edeeb9b142599205360cb848f"
+  },
+  "pattern-hide_cow_chairUnder": {
+    "fingerprint": "96cf2b22700674909ea7432cbee9627393cbf288b9575a46924a3619d390dc57",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小牛在椅子下",
+    "file": "assets/audio/patterns/hide_cow_chairUnder.m4a",
+    "speech": [
+      0.03,
+      1.62
+    ],
+    "speech_fingerprint": "96cf2b22700674909ea7432cbee9627393cbf288b9575a46924a3619d390dc57"
+  },
+  "pattern-hide_cow_bedOn": {
+    "fingerprint": "e51a300cd5ff0c3271d2bae2e85ea1177f51d3e00a9f2ee4490409f3e8777c14",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小牛在床上",
+    "file": "assets/audio/patterns/hide_cow_bedOn.m4a",
+    "speech": [
+      0.03,
+      1.6
+    ],
+    "speech_fingerprint": "e51a300cd5ff0c3271d2bae2e85ea1177f51d3e00a9f2ee4490409f3e8777c14"
+  },
+  "pattern-hide_cow_bedUnder": {
+    "fingerprint": "7ab27ecdeec363a3be9fdad83f322bd9c148b3a83e05420564951fbc5e148cd4",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小牛在床下",
+    "file": "assets/audio/patterns/hide_cow_bedUnder.m4a",
+    "speech": [
+      0.03,
+      1.61
+    ],
+    "speech_fingerprint": "7ab27ecdeec363a3be9fdad83f322bd9c148b3a83e05420564951fbc5e148cd4"
+  },
+  "chunk-88a66af110": {
+    "fingerprint": "17f7b565940589e717d6e923aace3d1360bac82ab823eeb744942282e9a774c7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "喜欢吃",
+    "file": "assets/audio/chunks/88a66af110.m4a",
+    "speech": [
+      0.03,
+      1.0
+    ],
+    "speech_fingerprint": "17f7b565940589e717d6e923aace3d1360bac82ab823eeb744942282e9a774c7"
+  },
+  "chunk-686b703f41": {
+    "fingerprint": "9ad68c6ae83917fed045e20951812dd57bcce3981d3a871468ddddbe30bb7cd5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "在",
+    "file": "assets/audio/chunks/686b703f41.m4a",
+    "speech": [
+      0.05,
+      0.28
+    ],
+    "speech_fingerprint": "9ad68c6ae83917fed045e20951812dd57bcce3981d3a871468ddddbe30bb7cd5"
+  },
+  "chunk-d600d94b8c": {
+    "fingerprint": "470fbb8a00f7bdc311531911d96e8817b404d53a55b38fd4af2a8e8588caa473",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "大黄牛",
+    "file": "assets/audio/chunks/d600d94b8c.m4a",
+    "speech": [
+      0.01,
+      0.94
+    ],
+    "speech_fingerprint": "470fbb8a00f7bdc311531911d96e8817b404d53a55b38fd4af2a8e8588caa473"
+  },
+  "chunk-7d3b2b0ebc": {
+    "fingerprint": "bebc530efc133fdaf1d3d763001aa314c5386cb22e14c5f7cb96bb331f28b765",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "妈妈",
+    "file": "assets/audio/chunks/7d3b2b0ebc.m4a",
+    "speech": [
+      0.01,
+      0.52
+    ],
+    "speech_fingerprint": "bebc530efc133fdaf1d3d763001aa314c5386cb22e14c5f7cb96bb331f28b765"
+  },
+  "chunk-06c95e6b4b": {
+    "fingerprint": "747f89525763bc8091653318224badeb7bab19e5bb7e2467e8438a36df7fca5f",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小牛",
+    "file": "assets/audio/chunks/06c95e6b4b.m4a",
+    "speech": [
+      0.03,
+      0.74
+    ],
+    "speech_fingerprint": "747f89525763bc8091653318224badeb7bab19e5bb7e2467e8438a36df7fca5f"
+  },
+  "chunk-683dad6e7e": {
+    "fingerprint": "f97f363379f7dd1d310a10b331bc10c516c73fc93945b1c68f24afcce9c2f246",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白兔",
+    "file": "assets/audio/chunks/683dad6e7e.m4a",
+    "speech": [
+      0.03,
+      0.96
+    ],
+    "speech_fingerprint": "f97f363379f7dd1d310a10b331bc10c516c73fc93945b1c68f24afcce9c2f246"
+  },
+  "chunk-d5b4d90272": {
+    "fingerprint": "5a453d63b5568a1778a0bf0bfbb4dc4afaeb8bdf891948e35e506f1850df7abf",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小白羊",
+    "file": "assets/audio/chunks/d5b4d90272.m4a",
+    "speech": [
+      0.03,
+      0.91
+    ],
+    "speech_fingerprint": "5a453d63b5568a1778a0bf0bfbb4dc4afaeb8bdf891948e35e506f1850df7abf"
+  },
+  "chunk-3b3f2d6a40": {
+    "fingerprint": "9b478d3901926aef573b084d4a25d88979c30e9eb650515cdfe11731c9476fcd",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小羊",
+    "file": "assets/audio/chunks/3b3f2d6a40.m4a",
+    "speech": [
+      0.03,
+      0.66
+    ],
+    "speech_fingerprint": "9b478d3901926aef573b084d4a25d88979c30e9eb650515cdfe11731c9476fcd"
+  },
+  "chunk-9ba15d8461": {
+    "fingerprint": "dbab82c1f4a7d82ac24fea43631696b7978b910032ad6d371d81440825f8c24e",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小马",
+    "file": "assets/audio/chunks/9ba15d8461.m4a",
+    "speech": [
+      0.03,
+      0.66
+    ],
+    "speech_fingerprint": "dbab82c1f4a7d82ac24fea43631696b7978b910032ad6d371d81440825f8c24e"
+  },
+  "chunk-5fe39cf716": {
+    "fingerprint": "28a54cde17d51f52e092820a2ad00b935dac9d5b3a2cfba6abdf313b4f8e4914",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "小鸭",
+    "file": "assets/audio/chunks/5fe39cf716.m4a",
+    "speech": [
+      0.03,
+      0.67
+    ],
+    "speech_fingerprint": "28a54cde17d51f52e092820a2ad00b935dac9d5b3a2cfba6abdf313b4f8e4914"
+  },
+  "chunk-6bfcddc603": {
+    "fingerprint": "558ebaa805f96c11b512e1bc27abe1b58bb8a89336d301bd689ebb512993ec20",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "巧克力",
+    "file": "assets/audio/chunks/6bfcddc603.m4a",
+    "speech": [
+      0.03,
+      0.87
+    ],
+    "speech_fingerprint": "558ebaa805f96c11b512e1bc27abe1b58bb8a89336d301bd689ebb512993ec20"
+  },
+  "chunk-59cc3bfc85": {
+    "fingerprint": "f2e20931b3bb1698ea30e6de93fd879e757070efcd1993baabeedb5612dde931",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "床上",
+    "file": "assets/audio/chunks/59cc3bfc85.m4a",
+    "speech": [
+      0.02,
+      0.73
+    ],
+    "speech_fingerprint": "f2e20931b3bb1698ea30e6de93fd879e757070efcd1993baabeedb5612dde931"
+  },
+  "chunk-870f83564f": {
+    "fingerprint": "b65a44bf44489e94f52ad831a6e1e09a04b317ddb7b468d5416d52f6615fcd8c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "床下",
+    "file": "assets/audio/chunks/870f83564f.m4a",
+    "speech": [
+      0.02,
+      0.72
+    ],
+    "speech_fingerprint": "b65a44bf44489e94f52ad831a6e1e09a04b317ddb7b468d5416d52f6615fcd8c"
+  },
+  "chunk-468b3d76a7": {
+    "fingerprint": "0757c5b7c7bb9f94918e7aef747b4754fad7a4130f3c7e6c8cfaf23b1113ee57",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "桌子上",
+    "file": "assets/audio/chunks/468b3d76a7.m4a",
+    "speech": [
+      0.02,
+      0.79
+    ],
+    "speech_fingerprint": "0757c5b7c7bb9f94918e7aef747b4754fad7a4130f3c7e6c8cfaf23b1113ee57"
+  },
+  "chunk-b87fac5662": {
+    "fingerprint": "0c6fddf666bbb3461dab119552051339c8458ba2d5bb3387b9dfdcf3bd64cce5",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "桌子下",
+    "file": "assets/audio/chunks/b87fac5662.m4a",
+    "speech": [
+      0.02,
+      0.78
+    ],
+    "speech_fingerprint": "0c6fddf666bbb3461dab119552051339c8458ba2d5bb3387b9dfdcf3bd64cce5"
+  },
+  "chunk-4a6323b101": {
+    "fingerprint": "fb79d6dfebee09fe63d6719b94b2b25dea40a461016fa8bd96fccf60ab37af59",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "椅子上",
+    "file": "assets/audio/chunks/4a6323b101.m4a",
+    "speech": [
+      0.01,
+      0.76
+    ],
+    "speech_fingerprint": "fb79d6dfebee09fe63d6719b94b2b25dea40a461016fa8bd96fccf60ab37af59"
+  },
+  "chunk-468d9618fa": {
+    "fingerprint": "7c023a5c6a39c36bf0a0ac8508beae16150a18d49a996616a095f9ddc39bf732",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "椅子下",
+    "file": "assets/audio/chunks/468d9618fa.m4a",
+    "speech": [
+      0.01,
+      0.74
+    ],
+    "speech_fingerprint": "7c023a5c6a39c36bf0a0ac8508beae16150a18d49a996616a095f9ddc39bf732"
+  },
+  "chunk-c86d164500": {
+    "fingerprint": "3bf3ecf8a1423243c63fec7c7106fa410e2281ebe005418f44689cba7e811cab",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "爸爸",
+    "file": "assets/audio/chunks/c86d164500.m4a",
+    "speech": [
+      0.01,
+      0.5
+    ],
+    "speech_fingerprint": "3bf3ecf8a1423243c63fec7c7106fa410e2281ebe005418f44689cba7e811cab"
+  },
+  "chunk-2ac3cb9100": {
+    "fingerprint": "89949cfeb618cba8963544b1d3070e34317f422d754afc7fa562a558cf0e5ed9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "白米饭",
+    "file": "assets/audio/chunks/2ac3cb9100.m4a",
+    "speech": [
+      0.01,
+      0.8
+    ],
+    "speech_fingerprint": "89949cfeb618cba8963544b1d3070e34317f422d754afc7fa562a558cf0e5ed9"
+  },
+  "chunk-6759709d60": {
+    "fingerprint": "769d60114966bc6a12fea22f881a2d5d8bceabd6f6667639d58fe6c4912cbdf9",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "肉",
+    "file": "assets/audio/chunks/6759709d60.m4a",
+    "speech": [
+      0.0,
+      0.32
+    ],
+    "speech_fingerprint": "769d60114966bc6a12fea22f881a2d5d8bceabd6f6667639d58fe6c4912cbdf9"
+  },
+  "chunk-6744771609": {
+    "fingerprint": "cea4c7b76ab6d56c3e37cd3682cb3d46b3dd60ce9a0e4db5a6e3ebc938186914",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "草",
+    "file": "assets/audio/chunks/6744771609.m4a",
+    "speech": [
+      0.06,
+      0.37
+    ],
+    "speech_fingerprint": "cea4c7b76ab6d56c3e37cd3682cb3d46b3dd60ce9a0e4db5a6e3ebc938186914"
+  },
+  "chunk-54658e4758": {
+    "fingerprint": "99ab965703f6add95b7e81699477b1b7573af7b942ba2e12a8a6787f19f136f7",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "草莓",
+    "file": "assets/audio/chunks/54658e4758.m4a",
+    "speech": [
+      0.06,
+      0.59
+    ],
+    "speech_fingerprint": "99ab965703f6add95b7e81699477b1b7573af7b942ba2e12a8a6787f19f136f7"
+  },
+  "chunk-7b4bb888fb": {
+    "fingerprint": "c6e23d26a86f25c25edc2d6d4c9c4463eb1b3933a80058344bda061d4b1c9de6",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "菜",
+    "file": "assets/audio/chunks/7b4bb888fb.m4a",
+    "speech": [
+      0.06,
+      0.36
+    ],
+    "speech_fingerprint": "c6e23d26a86f25c25edc2d6d4c9c4463eb1b3933a80058344bda061d4b1c9de6"
+  },
+  "chunk-df9eaffa23": {
+    "fingerprint": "d37816811e630b8df1ba6c0df43a296ec09ca142763158056b363521efeb77bf",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "葡萄",
+    "file": "assets/audio/chunks/df9eaffa23.m4a",
+    "speech": [
+      0.08,
+      0.61
+    ],
+    "speech_fingerprint": "d37816811e630b8df1ba6c0df43a296ec09ca142763158056b363521efeb77bf"
+  },
+  "chunk-9418e34854": {
+    "fingerprint": "6c9b68986052cd63e2474bacced7daa63837124d83443ab0d6a324fa714dd6ed",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "蛋糕",
+    "file": "assets/audio/chunks/9418e34854.m4a",
+    "speech": [
+      0.01,
+      0.53
+    ],
+    "speech_fingerprint": "6c9b68986052cd63e2474bacced7daa63837124d83443ab0d6a324fa714dd6ed"
+  },
+  "chunk-bd3f702e1b": {
+    "fingerprint": "dd2b4d76e321a6dc5f35b9d200523a1e30dfb4e602f595e1e552682f5bf8ea7c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "饼干",
+    "file": "assets/audio/chunks/bd3f702e1b.m4a",
+    "speech": [
+      0.01,
+      0.62
+    ],
+    "speech_fingerprint": "dd2b4d76e321a6dc5f35b9d200523a1e30dfb4e602f595e1e552682f5bf8ea7c"
   }
 }

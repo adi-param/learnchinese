@@ -172,3 +172,23 @@ const things={
  livingroom:svg(room('#ffe9df',`<rect x="22" y="18" width="30" height="20" rx="3" fill="${INK}"/><rect x="25" y="21" width="24" height="14" rx="2" fill="#5a78c9"/><path d="M37 38v6M30 44h14" stroke="${INK}" stroke-width="3" stroke-linecap="round"/>${sofaArt(52,64,.72,MINT)}<path d="M20 66V52M20 52q-8-6-4-14q6 4 4 14q2-10 10-12q0 10-10 12" fill="${GRASS}" ${line} stroke-width="1.8"/><path d="M14 66h12l-2 8H16z" fill="${WOOD}" ${line} stroke-width="1.8"/>`))
 };
 Object.assign(illustrations,things);
+
+// Props for the Build the sentence pictures: single people, moons and shaped biscuits.
+const person=(opts,{x=60,y=92,s=1}={})=>svg(g(kid({left:[[-14,-31],[-14,-21]],right:[[14,-31],[14,-21]],...opts}),{x,y,s}));
+const biscuitShape=shape=>{
+ const dots=[[-6,-4],[5,-7],[0,5],[8,4],[-8,7]].map(([dx,dy])=>`<circle cx="${60+dx}" cy="${48+dy}" r="2" fill="#b8763a"/>`).join('');
+ const body={circle:'<circle cx="60" cy="48" r="30"/>',square:'<rect x="32" y="20" width="56" height="56" rx="6"/>',triangle:'<path d="M60 14L94 76H26Z" stroke-linejoin="round"/>'}[shape];
+ return svg(`<g fill="#e6ab6b" stroke="${INK}" stroke-width="2.5">${body}</g>${dots}`);
+};
+Object.assign(illustrations,{
+ dadPerson:person({shirt:SKY,hair:'short'},{s:1.1}),
+ mumPerson:person({shirt:ROSE,hair:'long'},{s:1.05}),
+ sisterPerson:person({shirt:SUN,hair:'pigtails'},{s:.85}),
+ brotherPerson:person({shirt:MINT,hair:'short'},{s:.8}),
+ mePerson:person({shirt:VIOLET,hair:'short',mouth:'grin'},{s:.9}),
+ wePeople:svg(`${g(kid({shirt:VIOLET,mouth:'grin',right:[[14,-34],[22,-38]]}),{x:38,y:92,s:.95})}${g(kid({shirt:SUN,hair:'pigtails',mouth:'grin',left:[[-14,-34],[-22,-38]]}),{x:82,y:92,s:.95})}`),
+ moonRound:svg(`<circle cx="60" cy="48" r="34" fill="#fff3b0" stroke="${INK}" stroke-width="2.5"/><circle cx="48" cy="38" r="7" fill="#f1dc8a"/><circle cx="72" cy="58" r="9" fill="#f1dc8a"/><circle cx="70" cy="32" r="4" fill="#f1dc8a"/>`),
+ moonCrescent:svg(`<path d="M74 14A36 36 0 1 0 74 82A28 28 0 1 1 74 14Z" fill="#fff3b0" stroke="${INK}" stroke-width="2.5" stroke-linejoin="round"/>`),
+ sunRound:svg(`${Array.from({length:10},(_,i)=>{const a=i*Math.PI/5,c=Math.cos(a),s=Math.sin(a);return `<path d="M${(60+c*30).toFixed(1)} ${(48+s*30).toFixed(1)}L${(60+c*40).toFixed(1)} ${(48+s*40).toFixed(1)}" stroke="${ORANGE}" stroke-width="4.5" stroke-linecap="round"/>`;}).join('')}<circle cx="60" cy="48" r="23" fill="#ff7a45" ${line}/>`),
+ biscuitCircle:biscuitShape('circle'),biscuitSquare:biscuitShape('square'),biscuitTriangle:biscuitShape('triangle')
+});

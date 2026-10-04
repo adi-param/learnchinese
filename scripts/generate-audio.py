@@ -106,13 +106,32 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
                 subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
             recorded.add('pattern-'+key)
             manifest['pattern-'+key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': PHRASE_RATE, 'text': text, 'file': f'assets/audio/patterns/{destination.name}'}
+    # Tiles for Build the sentence: the chunks of each book sentence, each said on its own as it clicks in.
+    chunks = json.loads((ROOT / 'data/sentence-chunks.json').read_text())['sentences']
+    (folder / 'chunks').mkdir(exist_ok=True)
+    # Build the sentence also speaks each tile of the sentences made from lesson words.
+    tile_texts = {chunk['hanzi'] for row in chunks.values() for chunk in row}
+    for pattern in patterns['patterns']:
+        if pattern['id'] in ('likes', 'hide'):
+            for part in pattern['parts']:
+                tile_texts.update([part['hanzi']] if 'hanzi' in part else [o['hanzi'] for o in patterns['slots'][part['slot']]])
+    for text in sorted(tile_texts):
+        key = 'chunk-' + hashlib.sha1(text.encode()).hexdigest()[:10]
+        fingerprint = hashlib.sha256(f"{VOICE}|{PHRASE_RATE}|{text}".encode()).hexdigest()
+        destination = folder / 'chunks' / f'{key[6:]}.m4a'
+        if manifest.get(key, {}).get('fingerprint') != fingerprint or not destination.exists():
+            aiff = Path(temporary) / 'voice.aiff'
+            subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(PHRASE_RATE), '-o', str(aiff), text], check=True)
+            subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
+        recorded.add(key)
+        manifest[key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': PHRASE_RATE, 'text': text, 'file': f'assets/audio/chunks/{destination.name}'}
     # Where speech starts and ends in each file, so the site can highlight each character as it is spoken.
     for entry in manifest.values():
         if entry.get('speech_fingerprint') != entry['fingerprint']:
             entry['speech'] = speech_bounds(ROOT / entry['file'], Path(temporary) / 'measure.wav')
             entry['speech_fingerprint'] = entry['fingerprint']
-    # Patterns removed from data/patterns.json take their recordings with them.
-    for key in [k for k in manifest if k.startswith('pattern-') and k not in recorded]:
+    # Patterns and chunks that were removed take their recordings with them.
+    for key in [k for k in manifest if k.startswith(('pattern-', 'chunk-')) and k not in recorded]:
         (ROOT / manifest.pop(key)['file']).unlink(missing_ok=True)
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
 library_path.write_text(json.dumps(library, ensure_ascii=False, indent=2)+'\n')
