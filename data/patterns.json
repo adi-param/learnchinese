@@ -1,5 +1,5 @@
 {
-  "note": "Sentence patterns for the games (Feed the animal, Paint the animal, Build the sentence). Every pattern comes from a lesson sentence, and every option uses only lesson words, so each combination is new but grammatical. English and Pinyin are editorial drafts, like the rest of the library.",
+  "note": "Sentence patterns for the games (Feed the animal, Paint the animal, Shape snacks, Build the sentence). Every pattern comes from a lesson sentence, and every option uses only lesson words, so each combination is new but grammatical. English and Pinyin are editorial drafts, like the rest of the library.",
   "slots": {
     "who": [
       {
@@ -304,6 +304,49 @@
         "pinyin": "chuáng xià",
         "english": "under the bed"
       }
+    ],
+    "shape": [
+      {
+        "key": "circle",
+        "hanzi": "圆形",
+        "pinyin": "yuán xíng",
+        "english": "round"
+      },
+      {
+        "key": "square",
+        "hanzi": "正方形",
+        "pinyin": "zhèng fāng xíng",
+        "english": "square"
+      },
+      {
+        "key": "triangle",
+        "hanzi": "三角形",
+        "pinyin": "sān jiǎo xíng",
+        "english": "triangle"
+      }
+    ],
+    "treat": [
+      {
+        "key": "biscuit",
+        "hanzi": "饼干",
+        "pinyin": "bǐng gān",
+        "english": "biscuit",
+        "art": "biscuit"
+      },
+      {
+        "key": "cake",
+        "hanzi": "蛋糕",
+        "pinyin": "dàn gāo",
+        "english": "cake",
+        "art": "cake"
+      },
+      {
+        "key": "chocolate",
+        "hanzi": "巧克力",
+        "pinyin": "qiǎo kè lì",
+        "english": "chocolate",
+        "art": "chocolate"
+      }
     ]
   },
   "patterns": [
@@ -372,6 +415,32 @@
         "spot": "bedUnder"
       },
       "lesson": "lesson-42"
+    },
+    {
+      "id": "snack",
+      "scene": "eat",
+      "parts": [
+        {
+          "hanzi": "我想要吃",
+          "pinyin": "wǒ xiǎng yào chī"
+        },
+        {
+          "slot": "shape"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de"
+        },
+        {
+          "slot": "treat"
+        }
+      ],
+      "english": "I want to eat the {shape} {treat}.",
+      "base": {
+        "shape": "circle",
+        "treat": "biscuit"
+      },
+      "lesson": "lesson-39"
     }
   ]
 }

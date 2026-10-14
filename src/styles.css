@@ -334,7 +334,7 @@ a{color:inherit}
 .quiz-options{display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
 .quiz-option{padding:8px;border:4px solid transparent;border-radius:var(--r-lg);background:var(--surface);box-shadow:var(--shadow-md);transition:transform .25s var(--spring),opacity .4s}
 .quiz-option:active:not(:disabled){transform:scale(.95)}
-.quiz-option.feed .stage.small{width:150px;height:auto;max-width:none;aspect-ratio:1.25;background:#f7f2ec}
+.quiz-option.feed .stage.small,.quiz-option.snack .stage.small{width:150px;height:auto;max-width:none;aspect-ratio:1.25;background:#f7f2ec}
 .quiz-option.feed.chosen{animation:feed .8s ease-in forwards}
 .quiz-option.gone{opacity:.25;transform:scale(.9)}
 .quiz-option.hint{border-color:#ffc233;animation:hint-bounce .9s ease-in-out 3}
@@ -366,7 +366,11 @@ a{color:inherit}
 .eater.munch .thought b{display:none}
 .eater.munch .thought-food{display:block;animation:pop .4s var(--spring)}
 .eater.munch .eater-art{animation:munch .35s ease-in-out 4}
-.quiz-option.feed.chosen{visibility:hidden;animation:none}
+.quiz-option.feed.chosen,.quiz-option.snack.chosen{visibility:hidden;animation:none}
+.eater.panda-eater{width:150px}
+.eater.panda-eater .eater-art{aspect-ratio:120/110}
+.eater-panda{display:block;width:100%;height:100%}
+.snack-plate.four{display:grid;grid-template-columns:repeat(2,auto)}
 .flying-food{position:fixed;z-index:30;pointer-events:none;border-radius:16px;overflow:hidden}
 .flying-food svg{width:100%;height:100%}
 
@@ -620,7 +624,8 @@ a{color:inherit}
  .game-hint{font-size:12px;text-align:center}
  .paint-animal{width:64px}
  .paint-blob{width:50px;height:46px}
- .quiz-option.feed .stage.small{width:92px}
+ .quiz-option.feed .stage.small,.quiz-option.snack .stage.small{width:92px}
+ .eater.panda-eater{width:110px}
   .thought{right:-40px;width:70px;height:58px}
  .quiz-options{gap:8px}
  .scene-tile{width:110px}

@@ -12,7 +12,7 @@ import {icon,mascot} from './icons.js';
 const root=document.querySelector('#app');
 const views=[['library','Words'],['flashcards','Flip cards'],['match','Games']];
 views.icons={library:'words',flashcards:'cards',match:'match'};
-const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',menu:'Pick a game',pairs:'Find the pairs',balloons:'Pop the right balloon',paint:'Make the animal you hear',feed:'Feed the hungry animal',build:'Build the sentence'};
+const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',menu:'Pick a game',pairs:'Find the pairs',balloons:'Pop the right balloon',paint:'Make the animal you hear',feed:'Feed the hungry animal',snack:'Feed the panda a snack',build:'Build the sentence'};
 let library;let patterns; let voiceList=[];let lastSpoken=null;let voiceRequest=0;
 const audio=document.createElement('audio');audio.id='pronunciation-audio';audio.preload='auto';document.body.append(audio);
 const audioStatus=document.createElement('div');audioStatus.className='audio-status';audioStatus.hidden=true;audioStatus.setAttribute('role','status');document.body.append(audioStatus);
@@ -115,6 +115,7 @@ function initGame(){
  if(state.view==='match'&&state.matchMode==='feed')newQuiz('feed');
  if(state.view==='match'&&state.matchMode==='build')newBuild();
  if(state.view==='match'&&state.matchMode==='paint')newPaint();
+ if(state.view==='match'&&state.matchMode==='snack')newSnack();
 }
 function flashContent(){
  const kinds=`<div class="segmented flash-kinds" role="group" aria-label="Cards to practise">${[['word','Words'],['phrase','Phrases']].map(([id,name])=>`<button data-flash-kind="${id}" class="${state.flashKind===id?'active':''}" aria-pressed="${state.flashKind===id}">${name}</button>`).join('')}</div>`;
@@ -279,6 +280,7 @@ function madeSentence(sentence){if(state.made.has(sentence.audio))return false;s
 const GAMES=[
  ['pairs','Pairs','Match words to pictures','words'],['balloons','Balloon pop','Hear it, pop it','words'],
  ['paint','Paint the animal','Read it, then make it','words'],['feed','Feed the animal','Who likes to eat what?','words'],
+ ['snack','Shape snacks','Which shape does the panda want?','words'],
  ['build','Build the sentence','Look, listen, build','sentences']];
 const balloonSvg=colour=>`<svg viewBox="0 0 100 150" aria-hidden="true"><path d="M50 122q-6 12 2 26" fill="none" stroke="#1f1b3a" stroke-width="3"/><path d="M50 116C22 102 8 76 8 52A42 42 0 0 1 92 52C92 76 78 102 50 116Z" fill="${colour}" stroke="#1f1b3a" stroke-width="4"/><path d="M44 122h12l-6-7z" fill="${colour}" stroke="#1f1b3a" stroke-width="3" stroke-linejoin="round"/><ellipse cx="32" cy="36" rx="7" ry="13" fill="#fff" opacity=".4" transform="rotate(25 32 36)"/></svg>`;
 function gameArt(id){
@@ -287,6 +289,7 @@ function gameArt(id){
  if(id==='balloons')return `<span class="menu-balloons">${['#7c5cff','#ff7a45','#12a879'].map(balloonSvg).join('')}</span>`;
  if(id==='paint')return `<span class="menu-pic">${animal('horse','#f25a5a')}</span>`;
  if(id==='feed')return `<span class="menu-duo">${pic('rabbit')}${pic('strawberry')}</span>`;
+ if(id==='snack')return `<span class="menu-duo">${pic('cakeTriangle')}${pic('biscuitSquare')}</span>`;
  return `<span class="menu-build"><span class="menu-pic">${illustrations.rabbit}</span><span class="menu-tiles"><span class="hanzi" lang="zh-Hans">小兔</span><span class="hanzi" lang="zh-Hans">轻轻跳</span></span></span>`;
 }
 function gamesMenu(){
@@ -435,7 +438,7 @@ function gameDone(){
  return `<div class="recap"><h2>Well done!</h2><div class="game-actions recap-actions"><button class="button primary big" id="quiz-again">${icon('shuffle')}Play again</button><button class="button secondary" id="games-menu-2">${icon('left')}More games</button></div></div>`;
 }
 // The food she picks flies in an arc into the animal's mouth, then the animal munches.
-const MOUTHS={horse:[106,32],duck:[103,40],cow:[98,48],sheep:[93,48],rabbit:[94,46]};
+const MOUTHS={horse:[106,32],duck:[103,40],cow:[98,48],sheep:[93,48],rabbit:[94,46],panda:[60,66]};
 function feedFly(from,art,animalKey,eaterEl){
  const eater=eaterEl||root.querySelector('.eater'),target=eater?.querySelector('.eater-art');if(!eater||!target)return;
  if(!from||matchMedia('(prefers-reduced-motion: reduce)').matches){eater.classList.add('munch');return;}
@@ -477,12 +480,49 @@ function quizFinished(){
  const q=state.quiz;q.done=true;celebrate(true);
  setTimeout(()=>{if(state.quiz===q&&state.view==='match'){q.showDone=true;render();showRecap();}},4300);
 }
+// Shape snacks: the panda says which snack it wants (我想要吃三角形的蛋糕) and she feeds it the one with
+// that shape. Level 1 is one food in three shapes, so only the shape matters. Level 2 mixes foods: four
+// snacks, one with the same food in another shape and one with the same shape as another food, so she has
+// to hear both. Three clean answers in a row move up; a question with two misses moves back down.
+const SNACK_LENGTH=5;
+const snackKey=c=>c.shape+'-'+c.treat;
+const snackArt=c=>illustrations[c.treat+c.shape[0].toUpperCase()+c.shape.slice(1)];
+// Shapes are all from one lesson; foods come from the chosen lessons, so lesson 39 alone is biscuits only.
+function snackSets(){const shapes=lessonOptions('shape',3),treats=lessonOptions('treat',1);return {shapes:patterns.slots.shape,treats,fallback:!!(shapes.fallback||treats.fallback)};}
+function newSnack(){state.snack={asked:0,done:false,showDone:false};nextSnack();}
+function nextSnack(){
+ const q=state.snack,sets=snackSets(),level=sets.treats.length>1?Math.min(1,progress.snackLevel||0):0;
+ const shape=leastRecent(sets.shapes,progress.seen,'snack-shape').key,treat=leastRecent(sets.treats,progress.seen,'snack-treat').key;saveProgress(progress);
+ const target={shape,treat},otherShapes=shuffle(sets.shapes.filter(o=>o.key!==shape)),otherTreats=shuffle(sets.treats.filter(o=>o.key!==treat));
+ let options=sets.shapes.map(o=>({shape:o.key,treat}));
+ if(level>0){
+  const near=[target,{shape:otherShapes[0].key,treat},{shape,treat:otherTreats[0].key}];
+  const rest=shuffle(sets.shapes.flatMap(o=>sets.treats.map(t=>({shape:o.key,treat:t.key})))).filter(c=>!near.some(n=>snackKey(n)===snackKey(c)));
+  options=[...near,...rest.slice(0,1)];
+ }
+ Object.assign(q,{target,level,options:shuffle(options),gone:[],picked:null,misses:0,hint:false,advanced:false,advance:null,fallback:sets.fallback});
+ q.asked++;state.sayNext=true;
+}
+const snackSentence=()=>fill(patterns,patternById('snack'),state.snack.target);
+function snackContent(){
+ const q=state.snack;if(q.showDone)return gameDone();
+ const s=snackSentence(),found=!!q.picked,want=snackKey(q.target);
+ const dots=Array.from({length:SNACK_LENGTH},(_,k)=>`<span class="pop-dot ${k<q.asked-(found?0:1)?'on':''}"></span>`).join('');
+ const option=c=>{
+  const key=snackKey(c),cls=[q.picked===key&&'chosen',q.gone.includes(key)&&'gone',q.hint&&key===want&&!found&&'hint'].filter(Boolean).join(' ');
+  return `<button class="quiz-option snack ${cls}" data-snack="${key}" ${found||q.gone.includes(key)?'disabled':''} aria-label="Choice"><span class="stage small">${snackArt(c)}</span></button>`;
+ };
+ const eater=`<div class="eater panda-eater"><span class="eater-art">${panda(found?'cheer':'happy','eater-panda')}</span><span class="thought"><b>?</b>${found?`<span class="thought-food">${snackArt(q.target)}</span>`:''}</span></div>`;
+ const reveal=found?`<div class="quiz-reveal"><p class="sb-english">${escape(s.english)}</p><button class="button primary" id="snack-next">${q.asked<SNACK_LENGTH?'Next':'Finish'}${icon('right')}</button></div>`:'';
+ return `${fallbackNote(q.fallback)}<div class="quiz-stage">${eater}<div class="quiz-question"><button class="phrase-speaker big" id="say-snack" aria-label="Hear it again">${icon('speaker')}</button><div class="quiz-sentence ${found?'answered':''}">${phraseLine(s)}</div></div><div class="quiz-options snack-plate ${q.options.length>3?'four':''}">${q.options.map(option).join('')}</div>${reveal}<div class="pop-progress">${dots}</div></div>
+ ${coach(found||state.coachReact==='dance'?'cheer':'happy',state.feedback||'Listen! Which snack does the panda want?')}`;
+}
 const WORD_GAMES=['pairs','balloons'];
 function gamesContent(){
  if(!state.matchMode)return gamesMenu();
  const back=`<button class="back-button" id="games-menu">${icon('left')}Games</button>`;
  if(WORD_GAMES.includes(state.matchMode))return matchContent(back);
- const body=state.matchMode==='paint'?paintContent():state.matchMode==='build'?buildContent():quizContent();
+ const body=state.matchMode==='paint'?paintContent():state.matchMode==='build'?buildContent():state.matchMode==='snack'?snackContent():quizContent();
  return `<div class="match-bar">${back}</div>${body}`;
 }
 // Phrase games use the chosen lessons too: an option belongs to the lessons that teach its main word
@@ -512,6 +552,7 @@ function render(){
  if(state.view==='match'&&state.sayNext&&state.matchMode==='build'&&!state.build.showDone){state.sayNext=false;player.play(new URL('../'+state.build.s.audio,import.meta.url).href);}
  if(state.view==='match'&&state.sayNext&&state.quiz&&!state.quiz.showDone&&state.matchMode==='feed'){state.sayNext=false;player.play(patternAudio(quizSentence()));}
  if(state.view==='match'&&state.sayNext&&state.matchMode==='paint'&&!state.paint.showDone){state.sayNext=false;player.play(patternAudio(paintSentence()));}
+ if(state.view==='match'&&state.sayNext&&state.matchMode==='snack'&&!state.snack.showDone){state.sayNext=false;player.play(patternAudio(snackSentence()));}
 }
 function bind(){
  root.querySelector('#open-audio-help').onclick=openAudioHelp;
@@ -625,6 +666,29 @@ function bindContent(){
   render();});
  on('hear-quiz',()=>player.play(patternAudio(quizSentence())));
  on('quiz-next',()=>state.quiz?.advance?.());
+ // Shape snacks
+ root.querySelectorAll('[data-snack]').forEach(b=>b.onclick=()=>{
+  const q=state.snack,key=b.dataset.snack;if(q.picked||q.done||q.gone.includes(key))return;
+  const s=snackSentence();
+  if(key===snackKey(q.target)){
+   const stage=b.querySelector('.stage'),from=stage?.getBoundingClientRect(),art=stage?.innerHTML;
+   q.picked=key;state.coachReact='dance';const last=q.asked>=SNACK_LENGTH,praise=last?'done':`right-${1+Math.floor(Math.random()*3)}`;
+   if(q.misses===0){progress.snackClean=(progress.snackClean||0)+1;if(progress.snackClean>=3){progress.snackLevel=1;progress.snackClean=0;}}
+   else{progress.snackClean=0;if(q.misses>=2)progress.snackLevel=0;}
+   saveProgress(progress);
+   state.feedback=`${praiseHtml(praise)} Yum!`;
+   chime('ding');player.playAll([patternAudio(s),praiseUrl(praise)],{gap:200,onStep:i=>{if(i<0&&last)chime('fanfare');}});
+   const advance=()=>{clearTimeout(q.timer);if(state.snack!==q||q.advanced)return;q.advanced=true;
+    if(last){q.done=true;celebrate(true);setTimeout(()=>{if(state.snack===q&&state.view==='match'){q.showDone=true;render();showRecap();}},4300);}else nextSnack();render();};
+   q.advance=advance;q.timer=setTimeout(advance,3800);
+   render();feedFly(from,art,'panda');return;
+  }
+  q.misses++;q.gone.push(key);state.coachReact='shake';if(q.misses>=2)q.hint=true;
+  state.feedback=`${praiseHtml('again')} ${q.hint?'Look, this one!':'Listen again.'}`;
+  player.playAll([praiseUrl('again'),patternAudio(s)],{gap:250});
+  render();});
+ on('say-snack',()=>player.play(patternAudio(snackSentence())));
+ on('snack-next',()=>state.snack?.advance?.());
  // Build the sentence: drag a tile to a slot, or tap it to send it to the next slot
  root.querySelectorAll('[data-tile]').forEach(el=>el.onpointerdown=e=>{
   if(el.disabled)return;e.preventDefault();try{el.setPointerCapture(e.pointerId);}catch{}
@@ -638,7 +702,7 @@ function bindContent(){
  });
  on('say-build',()=>player.play(new URL('../'+state.build.s.audio,import.meta.url).href));
  on('build-next',()=>state.build?.advance?.());
- on('quiz-again',()=>{const start={paint:newPaint,build:newBuild}[state.matchMode];if(start)start();else newQuiz(state.matchMode);render();scrollTo({top:0});});
+ on('quiz-again',()=>{const start={paint:newPaint,build:newBuild,snack:newSnack}[state.matchMode];if(start)start();else newQuiz(state.matchMode);render();scrollTo({top:0});});
  on('install-app',async()=>{if(!installPrompt)return;installPrompt.prompt();await installPrompt.userChoice.catch(()=>{});installPrompt=null;render();});
  root.querySelectorAll('[data-exclude]').forEach(b=>b.onclick=()=>{
   const id=b.dataset.exclude,off=progress.excluded.includes(id);

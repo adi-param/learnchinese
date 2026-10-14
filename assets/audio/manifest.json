@@ -5674,5 +5674,113 @@
       0.62
     ],
     "speech_fingerprint": "dd2b4d76e321a6dc5f35b9d200523a1e30dfb4e602f595e1e552682f5bf8ea7c"
+  },
+  "pattern-snack_circle_biscuit": {
+    "fingerprint": "a089dce30556e4cb9b9747cbdef3a261b5c02103fce41997aa4f40e9c7cab245",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我想要吃圆形的饼干",
+    "file": "assets/audio/patterns/snack_circle_biscuit.m4a",
+    "speech": [
+      0.01,
+      2.5
+    ],
+    "speech_fingerprint": "a089dce30556e4cb9b9747cbdef3a261b5c02103fce41997aa4f40e9c7cab245"
+  },
+  "pattern-snack_circle_cake": {
+    "fingerprint": "d49b2bb74e64e56078754f72162b0d76ed81ba07168997704052ef296528037d",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我想要吃圆形的蛋糕",
+    "file": "assets/audio/patterns/snack_circle_cake.m4a",
+    "speech": [
+      0.01,
+      2.42
+    ],
+    "speech_fingerprint": "d49b2bb74e64e56078754f72162b0d76ed81ba07168997704052ef296528037d"
+  },
+  "pattern-snack_circle_chocolate": {
+    "fingerprint": "1bd2806b1b2d396a0c0d0e88da5d74de0158bb8ad1ba90fb600965b6929d8e11",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我想要吃圆形的巧克力",
+    "file": "assets/audio/patterns/snack_circle_chocolate.m4a",
+    "speech": [
+      0.01,
+      2.71
+    ],
+    "speech_fingerprint": "1bd2806b1b2d396a0c0d0e88da5d74de0158bb8ad1ba90fb600965b6929d8e11"
+  },
+  "pattern-snack_square_biscuit": {
+    "fingerprint": "2a84889960179727ed3b99d1362435666b1c72659c89293efc0293f54be99edc",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我想要吃正方形的饼干",
+    "file": "assets/audio/patterns/snack_square_biscuit.m4a",
+    "speech": [
+      0.01,
+      2.74
+    ],
+    "speech_fingerprint": "2a84889960179727ed3b99d1362435666b1c72659c89293efc0293f54be99edc"
+  },
+  "pattern-snack_square_cake": {
+    "fingerprint": "727427e51de99c0e8f6f8b32673c24305f2a2c116355d66b2af40c46f70a4673",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我想要吃正方形的蛋糕",
+    "file": "assets/audio/patterns/snack_square_cake.m4a",
+    "speech": [
+      0.01,
+      2.66
+    ],
+    "speech_fingerprint": "727427e51de99c0e8f6f8b32673c24305f2a2c116355d66b2af40c46f70a4673"
+  },
+  "pattern-snack_square_chocolate": {
+    "fingerprint": "59bae63f144c28ac4a46280ce9af3695a0c4a8b1f9d433c9f9f900e5ac23500c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我想要吃正方形的巧克力",
+    "file": "assets/audio/patterns/snack_square_chocolate.m4a",
+    "speech": [
+      0.01,
+      2.99
+    ],
+    "speech_fingerprint": "59bae63f144c28ac4a46280ce9af3695a0c4a8b1f9d433c9f9f900e5ac23500c"
+  },
+  "pattern-snack_triangle_biscuit": {
+    "fingerprint": "0b30739da839f3f165d2e74e797397e3a1a7349f94958dac135927337220a574",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我想要吃三角形的饼干",
+    "file": "assets/audio/patterns/snack_triangle_biscuit.m4a",
+    "speech": [
+      0.01,
+      2.78
+    ],
+    "speech_fingerprint": "0b30739da839f3f165d2e74e797397e3a1a7349f94958dac135927337220a574"
+  },
+  "pattern-snack_triangle_cake": {
+    "fingerprint": "46f2e605abeafe09cbc38a0701f218b50d17955c0a83de200227bad6ce690e87",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我想要吃三角形的蛋糕",
+    "file": "assets/audio/patterns/snack_triangle_cake.m4a",
+    "speech": [
+      0.01,
+      2.7
+    ],
+    "speech_fingerprint": "46f2e605abeafe09cbc38a0701f218b50d17955c0a83de200227bad6ce690e87"
+  },
+  "pattern-snack_triangle_chocolate": {
+    "fingerprint": "16eabea0ca0cc757e0c7586369effab50224b0d35ab25f6e39742bf5eca2fc7c",
+    "voice": "Tingting (Chinese (China mainland))",
+    "rate": 90,
+    "text": "我想要吃三角形的巧克力",
+    "file": "assets/audio/patterns/snack_triangle_chocolate.m4a",
+    "speech": [
+      0.01,
+      3.02
+    ],
+    "speech_fingerprint": "16eabea0ca0cc757e0c7586369effab50224b0d35ab25f6e39742bf5eca2fc7c"
   }
 }

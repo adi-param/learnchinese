@@ -24,6 +24,13 @@ test('every combination has a unique recording and every picture exists',()=>{
  for(const key of keys)assert(audio['pattern-'+key],`missing recording ${key}`);
  for(const options of Object.values(data.slots))for(const o of options)if(o.art)assert(illustrations[o.art],o.art);
 });
+test('Shape snacks asks for lesson words and every snack is drawn',()=>{
+ const p=data.patterns.find(x=>x.id==='snack');
+ assert.equal(fill(data,p,p.base).hanzi,'我想要吃圆形的饼干');
+ assert.equal(fill(data,p,{shape:'triangle',treat:'cake'}).english,'I want to eat the triangle cake.');
+ for(const s of data.slots.shape)for(const t of data.slots.treat){const art=illustrations[t.key+s.key[0].toUpperCase()+s.key.slice(1)];assert(art,`${t.key} ${s.key}`);assert(!art.includes('${'),`${t.key} ${s.key}`);}
+ const shapes=new Set(data.slots.shape.map(s=>s.key).map(k=>illustrations['cake'+k[0].toUpperCase()+k.slice(1)]));assert.equal(shapes.size,3);
+});
 test('silly animals really take the chosen colour, legs and all',async()=>{
  const {animal}=await import('../src/illustrations.js');
  for(const a of data.slots.animal)for(const c of data.slots.colour){const art=animal(a.key,c.swatch);assert(!art.includes('${'),a.key);assert(art.includes(c.swatch),`${a.key} ${c.key}`);}
