@@ -654,3 +654,169 @@ a{color:inherit}
  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
  .jump span{transform:translateY(-.25em)}
 }
+
+/* Stories: a picture book that acts itself out. The scene is one SVG; the story turns classes on the stage
+   (built-1, say-open, blowing, fallen…) and the pictures react. */
+.view-stories{--accent:var(--sky);--accent-soft:var(--sky-soft)}
+.stories-wrap{max-width:860px;margin:auto}
+.story-menu{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.story-card{position:relative;display:flex;flex-direction:column;padding:0;border:0;border-radius:var(--r-lg);background:var(--surface);box-shadow:var(--shadow-md);overflow:hidden;text-align:left;transition:transform .2s var(--spring),box-shadow .2s}
+.story-card:hover{box-shadow:var(--shadow-lg)}
+.story-card:active{transform:scale(.97)}
+.story-cover .art{display:block;width:100%;height:auto}
+.story-card-text{display:flex;flex-direction:column;gap:2px;padding:14px 20px 18px}
+.story-card .hanzi{font-size:32px}
+.story-card-name{font-size:17px;font-weight:600}
+.story-card small{font-size:14px;font-weight:500;color:var(--muted)}
+.story-card-play{position:absolute;right:16px;bottom:22px;display:grid;place-items:center;width:56px;height:56px;border-radius:50%;background:var(--primary);color:#fff;box-shadow:0 6px 16px #ff7a4552}
+.story-card-play .icon{width:28px;height:28px}
+.story-player{display:flex;flex-direction:column;gap:14px}
+.story-bar{display:flex;align-items:center;gap:12px}
+.story-bar .round-button{width:58px;height:58px}
+.story-title{flex:1;display:flex;flex-direction:column;align-items:center;text-align:center}
+.story-title .hanzi{font-size:28px}
+.story-title small{font-size:14px;font-weight:500;color:var(--muted)}
+.story-stage{position:relative;border-radius:var(--r-lg);overflow:hidden;background:#cfeaff;box-shadow:var(--shadow-lg);touch-action:manipulation;user-select:none;-webkit-user-select:none}
+.story-svg{display:block;width:100%;height:auto}
+.story-start{position:absolute;inset:0;display:grid;place-items:center;background:#1f1b3a2e}
+.story-play{display:grid;place-items:center;width:112px;height:112px;border:0;border-radius:50%;background:var(--primary);color:#fff;box-shadow:0 10px 28px #ff7a4566,var(--press);animation:story-breathe 1.6s ease-in-out infinite}
+.story-play .icon{width:56px;height:56px;margin-left:6px}
+@keyframes story-breathe{50%{transform:scale(1.08)}}
+.story-mic{position:absolute;left:14px;bottom:14px;display:grid;place-items:center;width:76px;height:76px;border:0;border-radius:50%;background:#fff;color:var(--primary);box-shadow:var(--shadow-lg);--level:0}
+.story-mic[hidden]{display:none}
+.story-mic .icon{position:relative;width:36px;height:36px}
+.story-mic::before{content:'';position:absolute;inset:0;border-radius:50%;background:var(--primary);opacity:.25;transform:scale(calc(1 + var(--level)*.7));transition:transform .08s}
+.story-mic.listening{background:var(--primary);color:#fff}
+.story-mic.denied{opacity:.45}
+/* Characters and things in the scene */
+.story-svg .actor{transition:transform 1.4s ease-in-out,opacity .35s}
+.story-svg .bob,.story-svg .cuebox,.story-svg .house,.story-svg .ruins,.story-svg .door,.story-svg .pile,.story-svg .ghost,.story-svg .pig-window,.story-svg .bubble,.story-svg .count-pop,.story-svg .bit,.story-svg .hint circle{transform-box:fill-box;transform-origin:50% 100%}
+.story-svg .walking .bob{animation:story-bob .3s ease-in-out infinite alternate}
+@keyframes story-bob{to{transform:translateY(-4px) rotate(-3deg)}}
+.story-svg [data-cue].lit{filter:url(#story-glow)}
+.story-svg [data-cue].cue{animation:story-pop .6s var(--spring)}
+@keyframes story-pop{40%{transform:scale(1.2) translateY(-3px)}}
+.story-svg .wolf-cheek{transform-box:fill-box;transform-origin:center;transition:transform .12s}
+.story-svg .wolf-cheek.cue{animation:none;transform:scale(1.5)}
+.story-svg .ghost,.story-svg .pile,.story-svg .ruins,.story-svg .face,.story-svg .wolf-o,.story-svg .wolf-shut,.story-svg .wolf-stars,.story-svg .wind,.story-svg .hint{opacity:0;transition:opacity .4s}
+.show-ghost .ghost,.show-pile .pile{opacity:1}
+.in-red .face-red,.in-yellow .face-yellow,.in-white .face-white{opacity:1}
+.in-red .actor-pig-red,.in-yellow .actor-pig-yellow,.in-white .actor-pig-white{opacity:0}
+.story-svg .door-leaf{transform-box:fill-box;transform-origin:0 50%;transition:transform .35s var(--spring)}
+.door-open .door-leaf{transform:scaleX(.2)}
+.story-svg .piece{transition:opacity .15s}
+.story-svg .piece.taken{opacity:0}
+.story-svg .fly{opacity:0;pointer-events:none}
+.story-svg .fly.go{animation:story-fly .6s ease-in forwards}
+@keyframes story-fly{0%{opacity:1;transform:translate(var(--x),var(--y))}85%{opacity:1;transform:translate(150px,124px) scale(1.5) rotate(20deg)}100%{opacity:0;transform:translate(150px,124px) scale(1.5)}}
+.story-svg .layer{opacity:0;transform:translateY(-16px);transition:opacity .3s,transform .5s var(--spring)}
+.built-1 .layer-1,.built-2 .layer-2,.built-3 .layer-3,.built-4 .layer-4,.built-5 .layer-5{opacity:1;transform:none}
+.story-svg .count-pop{opacity:0;font-family:var(--kai);font-size:40px;font-weight:700;fill:var(--primary);stroke:#fff;stroke-width:5px;paint-order:stroke;transform-origin:center}
+.story-svg .count-pop.pop{animation:story-count 1.1s ease-out forwards}
+@keyframes story-count{0%{opacity:0;transform:scale(.4)}25%{opacity:1;transform:scale(1.25)}75%{opacity:1;transform:scale(1)}100%{opacity:0;transform:translateY(-12px)}}
+.story-svg .bubble{opacity:0;transform:scale(.5);transition:opacity .25s,transform .4s var(--spring)}
+.say-open .bubble-wolf,.say-no .bubble-pig{opacity:1;transform:none}
+.pig-no .pig-window{animation:story-no .35s ease-in-out 3}
+@keyframes story-no{25%{transform:translateX(-2.5px)}75%{transform:translateX(2.5px)}}
+.story-svg .door.knocked{animation:story-door .28s}
+@keyframes story-door{30%{transform:translateX(-1.5px) scaleY(.97)}70%{transform:translateX(1.5px)}}
+.story-svg .wolf-arm{transform-box:fill-box;transform-origin:100% 0}
+.story-svg .knock .wolf-arm{animation:story-knock .28s}
+@keyframes story-knock{50%{transform:rotate(28deg)}}
+.blowing .wolf-o,.blowing .wind{opacity:1}
+.blowing .wolf-grin{opacity:0}
+.blowing .wolf-cheek{transform:scale(1.6)}
+.blowing .wind{animation:story-wind .9s ease-out}
+@keyframes story-wind{from{transform:translateX(6px)}to{transform:translateX(-46px)}}
+.story-svg .house.wobble{animation:story-wobble .4s ease-in-out 3}
+@keyframes story-wobble{25%{transform:rotate(calc(var(--w,1)*-1deg)) translateX(calc(var(--w,1)*-.5px))}75%{transform:rotate(calc(var(--w,1)*.6deg))}}
+.fallen .layer-3{animation:story-roof 1s ease-in forwards}
+.fallen .layer-2{animation:story-wall .9s .08s ease-in forwards}
+.fallen .layer-1{animation:story-base .7s .15s ease-in forwards}
+@keyframes story-roof{to{opacity:0;transform:translate(-110px,50px) rotate(-70deg)}}
+@keyframes story-wall{to{opacity:0;transform:translate(-60px,40px) rotate(-30deg)}}
+@keyframes story-base{to{opacity:0;transform:translate(-20px,10px) scaleY(.2)}}
+.fallen .ruins{opacity:1;transition-delay:.6s}
+.story-svg .bit{opacity:0;transform-origin:center}
+.story-svg .bit.off,.fallen .bit{animation:story-bit 1.3s var(--d) ease-out forwards}
+@keyframes story-bit{0%{opacity:1;transform:none}100%{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(var(--r))}}
+.scared .actor-pig-red .bob,.scared .actor-pig-yellow .bob,.scared .actor-pig-white .bob{animation:story-shiver .1s infinite alternate}
+.dance .actor-pig-red .bob,.dance .actor-pig-yellow .bob,.dance .actor-pig-white .bob{animation:story-hop .38s ease-in-out infinite alternate}
+.dance .actor-pig-yellow .bob{animation-delay:.12s}.dance .actor-pig-white .bob{animation-delay:.24s}
+@keyframes story-hop{to{transform:translateY(-9px) rotate(4deg)}}
+.story-svg .wolf-head{transform-box:fill-box;transform-origin:60% 100%;transition:transform .5s}
+@keyframes story-shiver{to{transform:translateX(1.5px) translateY(-2px)}}
+/* Where to tap: a pulsing ring, and a bigger invisible target under it for small fingers. */
+.story-svg .hint circle{transform-origin:center}
+.story-svg .hint circle:first-child{animation:story-ring 1.3s ease-in-out infinite}
+.story-svg .hint-echo{animation:story-echo 1.3s ease-out infinite}
+@keyframes story-ring{50%{transform:scale(1.12)}}
+@keyframes story-echo{from{opacity:.9;transform:scale(1)}to{opacity:0;transform:scale(1.8)}}
+.story-svg .hint,.story-svg .hit{pointer-events:none}
+.story-svg .hit{fill:transparent}
+[data-hint="pile"] .hint-pile,[data-hint="door"] .hint-door,[data-hint="pig-window"] .hint-pig-window,[data-hint="wolf"] .hint-wolf{opacity:1}
+[data-hint="pile"] .hit-pile,[data-hint="door"] .hit-door,[data-hint="pig-window"] .hit-pig-window,[data-hint="wolf"] .hit-wolf{pointer-events:all;cursor:pointer}
+/* The line being said */
+.story-line{display:flex;align-items:center;gap:14px;min-height:112px;padding:14px 16px;border-radius:var(--r-lg);background:var(--surface);box-shadow:var(--shadow-md)}
+.story-line[hidden],.story-end[hidden]{display:none}
+.story-avatar{display:grid;place-items:center;flex-shrink:0;width:66px;height:66px;border-radius:50%;background:var(--sky-soft)}
+.story-line[data-speaker="wolf"] .story-avatar{background:#e6e7ef}
+.story-line[data-speaker="pig"] .story-avatar{background:#ffe1de}
+.story-avatar svg{width:54px;height:54px}
+.story-words{flex:1;min-width:0;text-align:left}
+.story-words p{margin:0}
+.story-words .hanzi{font-size:36px}
+.story-words .pinyin{margin-top:2px;font-size:16px}
+.story-words .meaning{margin-top:2px}
+.story-replay{width:62px;height:62px;flex-shrink:0}
+.story-end{display:flex;flex-direction:column;align-items:center;gap:10px;padding:22px 18px;border-radius:var(--r-lg);background:var(--surface);box-shadow:var(--shadow-md);text-align:center}
+.story-end h2{margin:0;font-family:var(--kai);font-size:40px}
+.story-end .meaning{margin:0}
+.story-word-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:12px;width:100%;margin:6px 0 8px}
+.story-word{display:flex;flex-direction:column;align-items:center;gap:2px;padding:12px 8px;border:0;border-radius:var(--r-md);background:var(--sky-soft);transition:transform .2s var(--spring)}
+.story-word:active{transform:scale(.95)}
+.story-word-pic .art{width:84px;height:66px}
+.story-word .hanzi{font-size:30px}
+.story-word .pinyin{font-size:15px;color:var(--sky)}
+.story-word .meaning{font-size:13px}
+@media(max-width:720px){
+ .story-words .hanzi{font-size:27px}
+ .story-avatar{width:50px;height:50px}.story-avatar svg{width:42px;height:42px}
+ .story-replay{width:54px;height:54px}
+ .story-line{gap:10px;padding:12px}
+ .story-mic{width:62px;height:62px;left:10px;bottom:10px}
+ .story-play{width:88px;height:88px}.story-play .icon{width:44px;height:44px}
+ .story-bar .round-button{width:52px;height:52px}
+ .story-title .hanzi{font-size:24px}
+}
+/* One story, three houses: the picture fades through to the next house, and dots show how far along it is. */
+.story-stage .story-svg{transition:opacity .5s,transform .5s}
+.story-stage.scene-out .story-svg{opacity:0;transform:scale(1.04)}
+.story-stage.scene-in .story-svg{animation:story-scene-in .5s ease-out}
+@keyframes story-scene-in{from{opacity:0;transform:scale(.97)}}
+.story-dots{display:flex;gap:6px;justify-content:center;margin-top:6px}
+.story-dot{padding:2px 10px;border-radius:99px;background:var(--line);color:var(--faint);font-family:var(--kai);font-size:14px;font-weight:600;transition:background .3s,color .3s}
+.story-dot.now{background:var(--sky);color:#fff}
+.story-dot.done{background:var(--sky-soft);color:var(--sky)}
+/* Inside the brick house: light the fire, the water boils, the wolf lands in the pot. */
+.wolf-down .actor-wolf{opacity:0}
+.story-svg .fire,.story-svg .steam,.story-svg .boil-dot,.story-svg .drop{opacity:0}
+.fire-lit .fire{opacity:1;transition:opacity .4s}
+.story-svg .fire path{transform-box:fill-box;transform-origin:50% 100%}
+.fire-lit .fire path{animation:story-flicker .35s ease-in-out infinite alternate}
+.fire-lit .fire path+path{animation-duration:.27s}
+@keyframes story-flicker{to{transform:scaleY(1.12) scaleX(.94) skewX(3deg)}}
+.boiling .steam{opacity:.9}
+.story-svg .steam path{transform-box:fill-box;transform-origin:50% 100%}
+.boiling .steam path{animation:story-steam 1.4s ease-in-out infinite}
+.boiling .steam path:nth-child(2){animation-delay:.45s}.boiling .steam path:nth-child(3){animation-delay:.9s}
+@keyframes story-steam{0%{opacity:0;transform:translateY(4px)}40%{opacity:1}100%{opacity:0;transform:translateY(-12px) scaleX(1.3)}}
+.boiling .boil-dot{animation:story-boil .7s var(--d) ease-out infinite}
+@keyframes story-boil{0%{opacity:0;transform:none}40%{opacity:1}100%{opacity:0;transform:translateY(-6px)}}
+.boiling .water{fill:#c9ecff}
+.story-svg .drop{transform-box:fill-box;transform-origin:center}
+.splashed .drop{animation:story-drop .8s ease-out forwards}
+@keyframes story-drop{0%{opacity:1;transform:none}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.6)}}
+.ouch .actor-wolf .bob{animation:story-shiver .07s infinite alternate}
+[data-hint="fire"] .hint-fire{opacity:1}
+[data-hint="fire"] .hit-fire{pointer-events:all;cursor:pointer}

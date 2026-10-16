@@ -9,10 +9,11 @@ import {illustrations,animal} from './illustrations.js';
 import {lessonPictures,pictureFor,picturesOf,renderPicture} from './pictures.js';
 import {chime} from './sfx.js';
 import {icon,mascot} from './icons.js';
+import {mountStories,stopStory} from './stories.js';
 const root=document.querySelector('#app');
-const views=[['library','Words'],['flashcards','Flip cards'],['match','Games']];
-views.icons={library:'words',flashcards:'cards',match:'match'};
-const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',menu:'Pick a game',pairs:'Find the pairs',balloons:'Pop the right balloon',paint:'Make the animal you hear',feed:'Feed the hungry animal',snack:'Feed the panda a snack',build:'Build the sentence'};
+const views=[['library','Words'],['flashcards','Flip cards'],['match','Games'],['stories','Stories']];
+views.icons={library:'words',flashcards:'cards',match:'match',stories:'story'};
+const says={library:'Tap a card to hear it',flashcards:'Look, say it, then flip',menu:'Pick a game',pairs:'Find the pairs',balloons:'Pop the right balloon',paint:'Make the animal you hear',feed:'Feed the hungry animal',snack:'Feed the panda a snack',build:'Build the sentence',stories:'Story time'};
 let library;let patterns; let voiceList=[];let lastSpoken=null;let voiceRequest=0;
 const audio=document.createElement('audio');audio.id='pronunciation-audio';audio.preload='auto';document.body.append(audio);
 const audioStatus=document.createElement('div');audioStatus.className='audio-status';audioStatus.hidden=true;audioStatus.setAttribute('role','status');document.body.append(audioStatus);
@@ -539,13 +540,14 @@ function lessonOptions(slot,min,only=()=>true){
  return mine.length>=min?mine:Object.assign(all,{fallback:true});
 }
 const fallbackNote=used=>used?'<p class="fallback-note">These lessons don’t have enough words for this game yet, so it uses words from every lesson.</p>':'';
-function content(){if(state.view==='library')return libraryContent();if(state.view==='match')return `<div class="game-wrap">${gamesContent()}</div>`;const gate=practiceGate();return `<div class="game-wrap">${gate||flashContent()}</div>`;}
+function content(){if(state.view==='stories')return '<div class="stories-wrap" id="stories"></div>';if(state.view==='library')return libraryContent();if(state.view==='match')return `<div class="game-wrap">${gamesContent()}</div>`;const gate=practiceGate();return `<div class="game-wrap">${gate||flashContent()}</div>`;}
 function render(){
  const current=lesson();
  root.innerHTML=`<div class="backdrop" aria-hidden="true"></div><div class="app view-${state.view}"><header class="topbar"><a class="brand" href="#library" aria-label="Ira’s Chinese, home">${panda('happy','brand-mark')}<span class="brand-text"><strong>Ira’s Chinese</strong><small lang="zh-Hans">一起学中文</small></span></a><nav class="nav" aria-label="Main navigation">${views.map(([id,name])=>`<button data-view="${id}" class="nav-${id} ${state.view===id?'active':''}" ${state.view===id?'aria-current="page"':''}>${icon(views.icons[id],'nav-icon')}<span>${name}</span></button>`).join('')}</nav></header>
- <main class="main"><section class="hero">${panda('happy','mascot hero-mascot')}<div class="hero-text"><h1>${says[state.view==='match'?state.matchMode||'menu':state.view]}</h1><p class="hero-sub">${state.view==='match'&&progress.mix?`Mixing lessons ${progress.mixLessons.map(id=>library.lessons.find(l=>l.id===id).number).sort((a,b)=>a-b).join(', ')}`:current?`Lesson ${current.number} · ${current.coverageStatus==='missing'?'Not in the books yet':escape(current.title)}${current.coverageStatus==='partial'?' · some pages missing':''}`:'All lessons'}</p></div></section>${lessonPicker()}<section id="content" aria-label="${state.view==='library'?'Word library':'Game'}">${content()}</section>${grownups()}</main><footer class="footer">Made with love for a curious little learner</footer></div>`;
+ <main class="main"><section class="hero">${panda('happy','mascot hero-mascot')}<div class="hero-text"><h1>${says[state.view==='match'?state.matchMode||'menu':state.view]}</h1><p class="hero-sub">${state.view==='stories'?'Listen, tap and blow along':state.view==='match'&&progress.mix?`Mixing lessons ${progress.mixLessons.map(id=>library.lessons.find(l=>l.id===id).number).sort((a,b)=>a-b).join(', ')}`:current?`Lesson ${current.number} · ${current.coverageStatus==='missing'?'Not in the books yet':escape(current.title)}${current.coverageStatus==='partial'?' · some pages missing':''}`:'All lessons'}</p></div></section>${state.view==='stories'?'':lessonPicker()}<section id="content" aria-label="${state.view==='library'?'Word library':state.view==='stories'?'Stories':'Game'}">${content()}</section>${grownups()}</main><footer class="footer">Made with love for a curious little learner</footer></div>`;
  state.wrong=null;state.justMatched=null;state.coachReact=null;state.paintPop=false;
  bind();
+ if(state.view==='stories')mountStories(root.querySelector('#stories'),{timings,celebrate});
  if(state.view==='match')drawLinks();
  // Balloon pop asks its question out loud as each word comes up.
  if(state.view==='match'&&state.sayNext&&state.matchMode==='balloons'&&!state.round?.recap){state.sayNext=false;sayTarget();}
@@ -710,7 +712,7 @@ function bindContent(){
  on('reset-progress',()=>{if(!confirm('Reset game progress? Levels and the character list start again.'))return;Object.assign(progress,{level:0,levelPerfect:0,stats:{},missed:[]});saveProgress(progress);initGame();render();});
 
 }
-function navigate(view){if(view==='match')state.matchMode=null;state.view=view;if(state.lesson==='all'&&view!=='library')state.lesson='lesson-34';initGame();render();window.scrollTo({top:0});}
+function navigate(view){stopStory();if(view==='match')state.matchMode=null;state.view=view;if(state.lesson==='all'&&view!=='library')state.lesson='lesson-34';initGame();render();window.scrollTo({top:0});}
 async function start(){try {const response=await fetch(new URL('../data/library.json',import.meta.url));if(!response.ok)throw new Error('Library unavailable');library=await response.json();library.items.forEach(i=>byId.set(i.id,i));patterns=await (await fetch(new URL('../data/patterns.json',import.meta.url))).json();const audioManifest=await (await fetch(new URL('../assets/audio/manifest.json',import.meta.url))).json();timings=Object.fromEntries(Object.values(audioManifest).map(e=>[e.file,e.speech]));chunkFiles=Object.fromEntries(Object.entries(audioManifest).filter(([k])=>k.startsWith('chunk-')).map(([,e])=>[e.text,e.file]));sentenceChunks=(await (await fetch(new URL('../data/sentence-chunks.json',import.meta.url))).json()).sentences;initGame();render();}catch(error){root.innerHTML='<div class="empty"><h1>The library could not open.</h1><p>Please check your connection and reload the page.</p><button class="button" id="reload">Try again</button></div>';document.getElementById('reload').onclick=()=>location.reload();}}
 function registerLibraryTool(){
  const context=document.modelContext;if(!context?.registerTool)return;

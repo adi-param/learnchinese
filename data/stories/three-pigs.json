@@ -1,0 +1,659 @@
+{
+  "id": "three-pigs",
+  "title": "三只小猪",
+  "english": "The three little pigs",
+  "lines": {
+    "once": {
+      "speaker": "narrator",
+      "hanzi": "从前，有三只小猪。",
+      "pinyin": "Cóngqián, yǒu sān zhī xiǎo zhū.",
+      "english": "Once upon a time, there were three little pigs.",
+      "cues": [
+        [
+          "三只小猪",
+          "pigs"
+        ]
+      ]
+    },
+    "build": {
+      "speaker": "narrator",
+      "hanzi": "红色的小猪用草盖房子。",
+      "pinyin": "Hóngsè de xiǎo zhū yòng cǎo gài fángzi.",
+      "english": "The red little pig builds a house out of straw.",
+      "cues": [
+        [
+          "红色的小猪",
+          "pig-red"
+        ],
+        [
+          "草",
+          "pile"
+        ],
+        [
+          "房子",
+          "ghost"
+        ]
+      ]
+    },
+    "tapStraw": {
+      "speaker": "narrator",
+      "hanzi": "点一点草！",
+      "pinyin": "Diǎn yi diǎn cǎo!",
+      "english": "Tap the straw!",
+      "cues": [
+        [
+          "草",
+          "pile"
+        ]
+      ]
+    },
+    "one": {
+      "speaker": "narrator",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "english": "one",
+      "cues": []
+    },
+    "two": {
+      "speaker": "narrator",
+      "hanzi": "二",
+      "pinyin": "èr",
+      "english": "two",
+      "cues": []
+    },
+    "three": {
+      "speaker": "narrator",
+      "hanzi": "三",
+      "pinyin": "sān",
+      "english": "three",
+      "cues": []
+    },
+    "done": {
+      "speaker": "narrator",
+      "hanzi": "草房子盖好了！",
+      "pinyin": "Cǎo fángzi gài hǎo le!",
+      "english": "The straw house is finished!",
+      "cues": [
+        [
+          "草房子",
+          "house"
+        ]
+      ]
+    },
+    "allBuilt": {
+      "speaker": "narrator",
+      "hanzi": "三只小猪都有房子了！",
+      "pinyin": "Sān zhī xiǎo zhū dōu yǒu fángzi le!",
+      "english": "All three little pigs have houses now!",
+      "cues": [
+        [
+          "三只小猪",
+          "pigs"
+        ],
+        [
+          "房子",
+          "houses"
+        ]
+      ]
+    },
+    "wolf": {
+      "speaker": "narrator",
+      "hanzi": "大灰狼来了！",
+      "pinyin": "Dà huī láng lái le!",
+      "english": "Here comes the big grey wolf!",
+      "cues": [
+        [
+          "大灰狼",
+          "wolf"
+        ]
+      ]
+    },
+    "tapDoor": {
+      "speaker": "narrator",
+      "hanzi": "敲敲门！",
+      "pinyin": "Qiāoqiao mén!",
+      "english": "Knock on the door!",
+      "cues": [
+        [
+          "门",
+          "door"
+        ]
+      ]
+    },
+    "dong": {
+      "speaker": "narrator",
+      "hanzi": "咚！",
+      "pinyin": "Dōng!",
+      "english": "Knock!",
+      "cues": [
+        [
+          "咚",
+          "door"
+        ]
+      ]
+    },
+    "open": {
+      "speaker": "wolf",
+      "hanzi": "小猪，小猪，开开门！",
+      "pinyin": "Xiǎo zhū, xiǎo zhū, kāikai mén!",
+      "english": "Little pig, little pig, open the door!",
+      "cues": [
+        [
+          "小猪",
+          "pig-window"
+        ],
+        [
+          "开开门",
+          "door"
+        ]
+      ]
+    },
+    "tapPig": {
+      "speaker": "narrator",
+      "hanzi": "小猪说什么？",
+      "pinyin": "Xiǎo zhū shuō shénme?",
+      "english": "What does the little pig say?",
+      "cues": [
+        [
+          "小猪",
+          "pig-window"
+        ]
+      ]
+    },
+    "no": {
+      "speaker": "pig",
+      "hanzi": "不开，不开！",
+      "pinyin": "Bù kāi, bù kāi!",
+      "english": "No, I won’t open it!",
+      "cues": [
+        [
+          "不开",
+          "pig-window"
+        ]
+      ]
+    },
+    "blow": {
+      "speaker": "wolf",
+      "hanzi": "我吹，我吹，我吹吹吹！",
+      "pinyin": "Wǒ chuī, wǒ chuī, wǒ chuī chuī chuī!",
+      "english": "I’ll blow, I’ll blow, I’ll blow, blow, blow!",
+      "cues": [
+        [
+          "吹",
+          "cheeks"
+        ]
+      ]
+    },
+    "blowNow": {
+      "speaker": "narrator",
+      "hanzi": "我们一起吹！",
+      "pinyin": "Wǒmen yìqǐ chuī!",
+      "english": "Let’s blow together!",
+      "cues": [
+        [
+          "吹",
+          "cheeks"
+        ]
+      ]
+    },
+    "chui": {
+      "speaker": "wolf",
+      "hanzi": "吹！",
+      "pinyin": "Chuī!",
+      "english": "Blow!",
+      "cues": [
+        [
+          "吹",
+          "cheeks"
+        ]
+      ]
+    },
+    "fell": {
+      "speaker": "narrator",
+      "hanzi": "呼！草房子倒了！",
+      "pinyin": "Hū! Cǎo fángzi dǎo le!",
+      "english": "Whoosh! The straw house fell down!",
+      "cues": [
+        [
+          "草房子",
+          "ruins"
+        ]
+      ]
+    },
+    "run": {
+      "speaker": "narrator",
+      "hanzi": "小猪快跑！",
+      "pinyin": "Xiǎo zhū kuài pǎo!",
+      "english": "Run, little pig!",
+      "cues": [
+        [
+          "小猪",
+          "pig-red"
+        ]
+      ]
+    },
+    "w_build": {
+      "speaker": "narrator",
+      "hanzi": "黄色的小猪用木头盖房子。",
+      "pinyin": "Huángsè de xiǎo zhū yòng mùtou gài fángzi.",
+      "english": "The yellow little pig builds a house out of wood.",
+      "cues": [
+        [
+          "黄色的小猪",
+          "pig-yellow"
+        ],
+        [
+          "木头",
+          "pile"
+        ],
+        [
+          "房子",
+          "ghost"
+        ]
+      ]
+    },
+    "tapWood": {
+      "speaker": "narrator",
+      "hanzi": "点一点木头！",
+      "pinyin": "Diǎn yi diǎn mùtou!",
+      "english": "Tap the wood!",
+      "cues": [
+        [
+          "木头",
+          "pile"
+        ]
+      ]
+    },
+    "w_done": {
+      "speaker": "narrator",
+      "hanzi": "木头房子盖好了！",
+      "pinyin": "Mùtou fángzi gài hǎo le!",
+      "english": "The wooden house is finished!",
+      "cues": [
+        [
+          "木头房子",
+          "house"
+        ]
+      ]
+    },
+    "redComes": {
+      "speaker": "narrator",
+      "hanzi": "红色的小猪跑来了！",
+      "pinyin": "Hóngsè de xiǎo zhū pǎo lái le!",
+      "english": "Here comes the red little pig, running!",
+      "cues": [
+        [
+          "红色的小猪",
+          "pig-red"
+        ]
+      ]
+    },
+    "quick": {
+      "speaker": "pig",
+      "hanzi": "快开门！",
+      "pinyin": "Kuài kāi mén!",
+      "english": "Open the door, quick!",
+      "cues": [
+        [
+          "门",
+          "door"
+        ]
+      ]
+    },
+    "again": {
+      "speaker": "narrator",
+      "hanzi": "再吹！",
+      "pinyin": "Zài chuī!",
+      "english": "Blow again!",
+      "cues": [
+        [
+          "吹",
+          "cheeks"
+        ]
+      ]
+    },
+    "w_fell": {
+      "speaker": "narrator",
+      "hanzi": "呼！木头房子倒了！",
+      "pinyin": "Hū! Mùtou fángzi dǎo le!",
+      "english": "Whoosh! The wooden house fell down!",
+      "cues": [
+        [
+          "木头房子",
+          "ruins"
+        ]
+      ]
+    },
+    "twoRun": {
+      "speaker": "narrator",
+      "hanzi": "两只小猪快跑！",
+      "pinyin": "Liǎng zhī xiǎo zhū kuài pǎo!",
+      "english": "Run, two little pigs!",
+      "cues": [
+        [
+          "两只小猪",
+          "pigs"
+        ]
+      ]
+    },
+    "b_build": {
+      "speaker": "narrator",
+      "hanzi": "白色的小猪用砖头盖房子。",
+      "pinyin": "Báisè de xiǎo zhū yòng zhuāntou gài fángzi.",
+      "english": "The white little pig builds a house out of bricks.",
+      "cues": [
+        [
+          "白色的小猪",
+          "pig-white"
+        ],
+        [
+          "砖头",
+          "pile"
+        ],
+        [
+          "房子",
+          "ghost"
+        ]
+      ]
+    },
+    "tapBrick": {
+      "speaker": "narrator",
+      "hanzi": "点一点砖头！",
+      "pinyin": "Diǎn yi diǎn zhuāntou!",
+      "english": "Tap the bricks!",
+      "cues": [
+        [
+          "砖头",
+          "pile"
+        ]
+      ]
+    },
+    "four": {
+      "speaker": "narrator",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "english": "four",
+      "cues": []
+    },
+    "five": {
+      "speaker": "narrator",
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "english": "five",
+      "cues": []
+    },
+    "b_done": {
+      "speaker": "narrator",
+      "hanzi": "砖头房子盖好了！",
+      "pinyin": "Zhuāntou fángzi gài hǎo le!",
+      "english": "The brick house is finished!",
+      "cues": [
+        [
+          "砖头房子",
+          "house"
+        ]
+      ]
+    },
+    "twoCome": {
+      "speaker": "narrator",
+      "hanzi": "两只小猪跑来了！",
+      "pinyin": "Liǎng zhī xiǎo zhū pǎo lái le!",
+      "english": "Here come two little pigs, running!",
+      "cues": [
+        [
+          "两只小猪",
+          "pigs"
+        ]
+      ]
+    },
+    "strong": {
+      "speaker": "narrator",
+      "hanzi": "砖头房子不倒！",
+      "pinyin": "Zhuāntou fángzi bù dǎo!",
+      "english": "The brick house doesn’t fall down!",
+      "cues": [
+        [
+          "砖头房子",
+          "house"
+        ]
+      ]
+    },
+    "chimneyPlan": {
+      "speaker": "wolf",
+      "hanzi": "我从烟囱进去！",
+      "pinyin": "Wǒ cóng yāncōng jìnqù!",
+      "english": "I’ll get in down the chimney!",
+      "cues": [
+        [
+          "烟囱",
+          "chimney"
+        ]
+      ]
+    },
+    "boil": {
+      "speaker": "narrator",
+      "hanzi": "小猪烧了一锅热水。",
+      "pinyin": "Xiǎo zhū shāo le yì guō rèshuǐ.",
+      "english": "The pigs heat a big pot of water.",
+      "cues": [
+        [
+          "小猪",
+          "pigs"
+        ],
+        [
+          "一锅热水",
+          "pot"
+        ]
+      ]
+    },
+    "tapFire": {
+      "speaker": "narrator",
+      "hanzi": "点火！",
+      "pinyin": "Diǎn huǒ!",
+      "english": "Light the fire!",
+      "cues": [
+        [
+          "火",
+          "fire"
+        ]
+      ]
+    },
+    "boiling": {
+      "speaker": "narrator",
+      "hanzi": "水开了！",
+      "pinyin": "Shuǐ kāi le!",
+      "english": "The water is boiling!",
+      "cues": [
+        [
+          "水",
+          "pot"
+        ]
+      ]
+    },
+    "splash": {
+      "speaker": "narrator",
+      "hanzi": "扑通！",
+      "pinyin": "Pūtōng!",
+      "english": "Splash!",
+      "cues": [
+        [
+          "扑通",
+          "pot"
+        ]
+      ]
+    },
+    "hot": {
+      "speaker": "wolf",
+      "hanzi": "好烫！好烫！",
+      "pinyin": "Hǎo tàng! Hǎo tàng!",
+      "english": "Ouch! So hot!",
+      "cues": [
+        [
+          "烫",
+          "wolf"
+        ]
+      ]
+    },
+    "wolfRan": {
+      "speaker": "narrator",
+      "hanzi": "大灰狼跑了，再也不来了！",
+      "pinyin": "Dà huī láng pǎo le, zài yě bù lái le!",
+      "english": "The big grey wolf ran away and never came back!",
+      "cues": [
+        [
+          "大灰狼",
+          "wolf"
+        ]
+      ]
+    },
+    "happy": {
+      "speaker": "narrator",
+      "hanzi": "三只小猪很高兴！",
+      "pinyin": "Sān zhī xiǎo zhū hěn gāoxìng!",
+      "english": "The three little pigs are very happy!",
+      "cues": [
+        [
+          "三只小猪",
+          "pigs"
+        ]
+      ]
+    }
+  },
+  "scenes": [
+    {
+      "id": "straw",
+      "title": "草房子",
+      "english": "The straw house",
+      "words": [
+        {
+          "id": "pig",
+          "hanzi": "猪",
+          "pinyin": "zhū",
+          "english": "pig"
+        },
+        {
+          "id": "wolf",
+          "hanzi": "狼",
+          "pinyin": "láng",
+          "english": "wolf"
+        },
+        {
+          "id": "straw",
+          "hanzi": "草",
+          "pinyin": "cǎo",
+          "english": "straw, grass"
+        },
+        {
+          "id": "house",
+          "hanzi": "房子",
+          "pinyin": "fángzi",
+          "english": "house"
+        },
+        {
+          "id": "door",
+          "hanzi": "门",
+          "pinyin": "mén",
+          "english": "door"
+        },
+        {
+          "id": "blow",
+          "hanzi": "吹",
+          "pinyin": "chuī",
+          "english": "to blow"
+        }
+      ]
+    },
+    {
+      "id": "wood",
+      "title": "木头房子",
+      "english": "The wooden house",
+      "words": [
+        {
+          "id": "wood",
+          "hanzi": "木头",
+          "pinyin": "mùtou",
+          "english": "wood"
+        },
+        {
+          "id": "yellow",
+          "hanzi": "黄色",
+          "pinyin": "huángsè",
+          "english": "yellow"
+        },
+        {
+          "id": "fall",
+          "hanzi": "倒",
+          "pinyin": "dǎo",
+          "english": "to fall down"
+        },
+        {
+          "id": "run",
+          "hanzi": "跑",
+          "pinyin": "pǎo",
+          "english": "to run"
+        },
+        {
+          "id": "two",
+          "hanzi": "两",
+          "pinyin": "liǎng",
+          "english": "two (of something)"
+        }
+      ]
+    },
+    {
+      "id": "brick",
+      "title": "砖头房子",
+      "english": "The brick house",
+      "words": [
+        {
+          "id": "brick",
+          "hanzi": "砖头",
+          "pinyin": "zhuāntou",
+          "english": "brick"
+        },
+        {
+          "id": "white",
+          "hanzi": "白色",
+          "pinyin": "báisè",
+          "english": "white"
+        },
+        {
+          "id": "four",
+          "hanzi": "四",
+          "pinyin": "sì",
+          "english": "four"
+        },
+        {
+          "id": "five",
+          "hanzi": "五",
+          "pinyin": "wǔ",
+          "english": "five"
+        },
+        {
+          "id": "chimney",
+          "hanzi": "烟囱",
+          "pinyin": "yāncōng",
+          "english": "chimney"
+        },
+        {
+          "id": "fire",
+          "hanzi": "火",
+          "pinyin": "huǒ",
+          "english": "fire"
+        },
+        {
+          "id": "hot",
+          "hanzi": "烫",
+          "pinyin": "tàng",
+          "english": "burning hot"
+        },
+        {
+          "id": "happy",
+          "hanzi": "高兴",
+          "pinyin": "gāoxìng",
+          "english": "happy"
+        }
+      ]
+    }
+  ]
+}
