@@ -73,7 +73,8 @@ test('the offline app stores every script, style and icon the page loads',async(
  const {readdirSync}=await import('node:fs');
  const sw=readFileSync(new URL('../sw.js',import.meta.url),'utf8');
  const shell=JSON.parse(sw.match(/const SHELL=(\[[^\]]*\])/s)[1].replace(/'/g,'"'));
- for(const file of readdirSync(new URL('../src/',import.meta.url)))assert(shell.includes('src/'+file),`sw.js SHELL is missing src/${file}`);
+ // Files only: each story in src/stories/ is stored when it is first opened (tests/stories.test.js).
+ for(const file of readdirSync(new URL('../src/',import.meta.url),{withFileTypes:true}).filter(f=>f.isFile()).map(f=>f.name))assert(shell.includes('src/'+file),`sw.js SHELL is missing src/${file}`);
  const manifest=JSON.parse(readFileSync(new URL('../manifest.webmanifest',import.meta.url),'utf8'));
  for(const icon of manifest.icons)assert(readFileSync(new URL('../'+icon.src,import.meta.url)).length>1000,icon.src);
 });

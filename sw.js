@@ -1,10 +1,11 @@
-// Offline support for the installed app. On install it stores the app and every recording; after that each
+// Offline support for the installed app. On install it stores the app and every lesson recording (each story's
+// files are stored by the story player the first time that story is opened); after that each
 // request tries the network first (revalidating, so updates arrive straight away) and falls back to the
 // stored copy when there is no connection.
 const CACHE='learnchinese-v1';
 const SHELL=['./','index.html','manifest.webmanifest','favicon.svg','src/styles.css','src/app.js','src/audio-help.js','src/audio-player.js',
- 'src/core.js','src/icons.js','src/illustrations.js','src/pictures.js','src/progress.js','src/sentences.js','src/sfx.js','src/stage.js','src/speech.js','src/stories.js','src/story-art.js',
- 'data/library.json','data/patterns.json','data/sentence-chunks.json','data/stories/three-pigs.json','assets/audio/manifest.json','assets/icons/icon-192.png','assets/icons/apple-touch-icon.png'];
+ 'src/core.js','src/icons.js','src/illustrations.js','src/pictures.js','src/progress.js','src/sentences.js','src/sfx.js','src/stage.js','src/speech.js','src/stories.js','src/story-kit.js','src/stories/index.js',
+ 'data/library.json','data/patterns.json','data/sentence-chunks.json','assets/audio/manifest.json','assets/icons/icon-192.png','assets/icons/apple-touch-icon.png'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(CACHE);
  await cache.addAll(SHELL.map(path=>new Request(path,{cache:'no-cache'})));

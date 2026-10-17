@@ -547,7 +547,7 @@ function render(){
  <main class="main"><section class="hero">${panda('happy','mascot hero-mascot')}<div class="hero-text"><h1>${says[state.view==='match'?state.matchMode||'menu':state.view]}</h1><p class="hero-sub">${state.view==='stories'?'Listen, tap and blow along':state.view==='match'&&progress.mix?`Mixing lessons ${progress.mixLessons.map(id=>library.lessons.find(l=>l.id===id).number).sort((a,b)=>a-b).join(', ')}`:current?`Lesson ${current.number} · ${current.coverageStatus==='missing'?'Not in the books yet':escape(current.title)}${current.coverageStatus==='partial'?' · some pages missing':''}`:'All lessons'}</p></div></section>${state.view==='stories'?'':lessonPicker()}<section id="content" aria-label="${state.view==='library'?'Word library':state.view==='stories'?'Stories':'Game'}">${content()}</section>${grownups()}</main><footer class="footer">Made with love for a curious little learner</footer></div>`;
  state.wrong=null;state.justMatched=null;state.coachReact=null;state.paintPop=false;
  bind();
- if(state.view==='stories')mountStories(root.querySelector('#stories'),{timings,celebrate});
+ if(state.view==='stories')mountStories(root.querySelector('#stories'),{celebrate});
  if(state.view==='match')drawLinks();
  // Balloon pop asks its question out loud as each word comes up.
  if(state.view==='match'&&state.sayNext&&state.matchMode==='balloons'&&!state.round?.recap){state.sayNext=false;sayTarget();}

@@ -1,0 +1,612 @@
+{
+  "id": "cinderella",
+  "title": "灰姑娘",
+  "english": "Cinderella",
+  "voices": {
+    "stepmother": {
+      "rate": 0.8,
+      "keep": false,
+      "tint": "#ece4f4"
+    },
+    "sister": {
+      "rate": 0.92,
+      "keep": false,
+      "tint": "#ffe7d6"
+    },
+    "fairy": {
+      "rate": 1.14,
+      "keep": false,
+      "tint": "#efe6ff"
+    },
+    "cinderella": {
+      "rate": 1.06,
+      "keep": false,
+      "tint": "#e1f0ff"
+    },
+    "prince": {
+      "rate": 0.74,
+      "keep": false,
+      "tint": "#dfe8ff"
+    }
+  },
+  "lines": {
+    "once": {
+      "speaker": "narrator",
+      "hanzi": "从前，有一个女孩，叫灰姑娘。",
+      "pinyin": "Cóngqián, yǒu yí gè nǚhái, jiào Huī gūniang.",
+      "english": "Once upon a time, there was a girl called Cinderella.",
+      "cues": [
+        [
+          "灰姑娘",
+          "cinderella"
+        ]
+      ]
+    },
+    "family": {
+      "speaker": "narrator",
+      "hanzi": "她和后妈、两个姐姐住在一起。",
+      "pinyin": "Tā hé hòumā, liǎng gè jiějie zhù zài yìqǐ.",
+      "english": "She lived with her stepmother and two stepsisters.",
+      "cues": [
+        [
+          "后妈",
+          "stepmother"
+        ],
+        [
+          "两个姐姐",
+          "sisters"
+        ]
+      ]
+    },
+    "work": {
+      "speaker": "stepmother",
+      "hanzi": "灰姑娘，快干活！",
+      "pinyin": "Huī gūniang, kuài gànhuó!",
+      "english": "Cinderella, get to work!",
+      "cues": [
+        [
+          "灰姑娘",
+          "cinderella"
+        ]
+      ]
+    },
+    "sweep": {
+      "speaker": "narrator",
+      "hanzi": "扫地！",
+      "pinyin": "Sǎo dì!",
+      "english": "Sweep the floor!",
+      "cues": [
+        [
+          "地",
+          "dust"
+        ]
+      ]
+    },
+    "wipe": {
+      "speaker": "narrator",
+      "hanzi": "擦桌子！",
+      "pinyin": "Cā zhuōzi!",
+      "english": "Wipe the table!",
+      "cues": [
+        [
+          "桌子",
+          "table"
+        ]
+      ]
+    },
+    "wash": {
+      "speaker": "narrator",
+      "hanzi": "洗碗！",
+      "pinyin": "Xǐ wǎn!",
+      "english": "Wash the bowls!",
+      "cues": [
+        [
+          "碗",
+          "bowls"
+        ]
+      ]
+    },
+    "allClean": {
+      "speaker": "narrator",
+      "hanzi": "都干净了！",
+      "pinyin": "Dōu gānjìng le!",
+      "english": "Everything is clean!",
+      "cues": [
+        [
+          "干净",
+          "clean"
+        ]
+      ]
+    },
+    "invite": {
+      "speaker": "narrator",
+      "hanzi": "王子请大家去跳舞。",
+      "pinyin": "Wángzǐ qǐng dàjiā qù tiàowǔ.",
+      "english": "The prince invites everyone to a dance.",
+      "cues": [
+        [
+          "王子",
+          "letter"
+        ],
+        [
+          "跳舞",
+          "letter"
+        ]
+      ]
+    },
+    "goDance": {
+      "speaker": "sister",
+      "hanzi": "我们去跳舞！",
+      "pinyin": "Wǒmen qù tiàowǔ!",
+      "english": "We’re going to the dance!",
+      "cues": [
+        [
+          "我们",
+          "sisters"
+        ]
+      ]
+    },
+    "cantGo": {
+      "speaker": "stepmother",
+      "hanzi": "你不能去！",
+      "pinyin": "Nǐ bù néng qù!",
+      "english": "You can’t go!",
+      "cues": [
+        [
+          "你",
+          "cinderella"
+        ]
+      ]
+    },
+    "cry": {
+      "speaker": "narrator",
+      "hanzi": "灰姑娘哭了。呜呜呜。",
+      "pinyin": "Huī gūniang kū le. Wū wū wū.",
+      "english": "Cinderella cried. Boo hoo hoo.",
+      "cues": [
+        [
+          "灰姑娘",
+          "cinderella"
+        ],
+        [
+          "哭",
+          "cinderella"
+        ]
+      ]
+    },
+    "fairyCame": {
+      "speaker": "narrator",
+      "hanzi": "仙女来了！",
+      "pinyin": "Xiānnǚ lái le!",
+      "english": "Here comes the fairy godmother!",
+      "cues": [
+        [
+          "仙女",
+          "fairy"
+        ]
+      ]
+    },
+    "dontCry": {
+      "speaker": "fairy",
+      "hanzi": "别哭，别哭！",
+      "pinyin": "Bié kū, bié kū!",
+      "english": "Don’t cry, don’t cry!",
+      "cues": [
+        [
+          "别哭",
+          "fairy"
+        ]
+      ]
+    },
+    "tapPumpkin": {
+      "speaker": "narrator",
+      "hanzi": "点一点南瓜！",
+      "pinyin": "Diǎn yi diǎn nánguā!",
+      "english": "Tap the pumpkin!",
+      "cues": [
+        [
+          "南瓜",
+          "pumpkin"
+        ]
+      ]
+    },
+    "tapMice": {
+      "speaker": "narrator",
+      "hanzi": "点一点老鼠！",
+      "pinyin": "Diǎn yi diǎn lǎoshǔ!",
+      "english": "Tap the mice!",
+      "cues": [
+        [
+          "老鼠",
+          "mice"
+        ]
+      ]
+    },
+    "tapCinderella": {
+      "speaker": "narrator",
+      "hanzi": "点一点灰姑娘！",
+      "pinyin": "Diǎn yi diǎn Huī gūniang!",
+      "english": "Tap Cinderella!",
+      "cues": [
+        [
+          "灰姑娘",
+          "cinderella"
+        ]
+      ]
+    },
+    "bian": {
+      "speaker": "fairy",
+      "hanzi": "变！",
+      "pinyin": "Biàn!",
+      "english": "Change!",
+      "cues": [
+        [
+          "变",
+          "wand"
+        ]
+      ]
+    },
+    "carriage": {
+      "speaker": "narrator",
+      "hanzi": "南瓜变成了马车。",
+      "pinyin": "Nánguā biànchéng le mǎchē.",
+      "english": "The pumpkin turned into a carriage.",
+      "cues": [
+        [
+          "南瓜",
+          "carriage"
+        ],
+        [
+          "马车",
+          "carriage"
+        ]
+      ]
+    },
+    "horses": {
+      "speaker": "narrator",
+      "hanzi": "老鼠变成了白马。",
+      "pinyin": "Lǎoshǔ biànchéng le báimǎ.",
+      "english": "The mice turned into white horses.",
+      "cues": [
+        [
+          "老鼠",
+          "horses"
+        ],
+        [
+          "白马",
+          "horses"
+        ]
+      ]
+    },
+    "dress": {
+      "speaker": "narrator",
+      "hanzi": "灰姑娘有了漂亮的裙子！",
+      "pinyin": "Huī gūniang yǒu le piàoliang de qúnzi!",
+      "english": "Cinderella has a beautiful dress!",
+      "cues": [
+        [
+          "灰姑娘",
+          "cinderella"
+        ],
+        [
+          "裙子",
+          "cinderella"
+        ]
+      ]
+    },
+    "slippers": {
+      "speaker": "narrator",
+      "hanzi": "还有一双水晶鞋！",
+      "pinyin": "Hái yǒu yì shuāng shuǐjīng xié!",
+      "english": "And a pair of glass slippers!",
+      "cues": [
+        [
+          "水晶鞋",
+          "slippers"
+        ]
+      ]
+    },
+    "thanks": {
+      "speaker": "cinderella",
+      "hanzi": "谢谢你，仙女！",
+      "pinyin": "Xièxie nǐ, xiānnǚ!",
+      "english": "Thank you, fairy godmother!",
+      "cues": [
+        [
+          "仙女",
+          "fairy"
+        ]
+      ]
+    },
+    "beBack": {
+      "speaker": "fairy",
+      "hanzi": "十二点以前回来！",
+      "pinyin": "Shí'èr diǎn yǐqián huílái!",
+      "english": "Come back before twelve o’clock!",
+      "cues": [
+        [
+          "十二点",
+          "fairy"
+        ]
+      ]
+    },
+    "dance": {
+      "speaker": "narrator",
+      "hanzi": "王子和灰姑娘一起跳舞。",
+      "pinyin": "Wángzǐ hé Huī gūniang yìqǐ tiàowǔ.",
+      "english": "The prince and Cinderella dance together.",
+      "cues": [
+        [
+          "王子",
+          "prince"
+        ],
+        [
+          "灰姑娘",
+          "cinderella"
+        ]
+      ]
+    },
+    "tapSpin": {
+      "speaker": "narrator",
+      "hanzi": "转一转！",
+      "pinyin": "Zhuàn yi zhuàn!",
+      "english": "Spin around!",
+      "cues": [
+        [
+          "转",
+          "dancers"
+        ]
+      ]
+    },
+    "tapClock": {
+      "speaker": "narrator",
+      "hanzi": "点一点钟！",
+      "pinyin": "Diǎn yi diǎn zhōng!",
+      "english": "Tap the clock!",
+      "cues": [
+        [
+          "钟",
+          "clock"
+        ]
+      ]
+    },
+    "ten": {
+      "speaker": "narrator",
+      "hanzi": "十点了。",
+      "pinyin": "Shí diǎn le.",
+      "english": "It’s ten o’clock.",
+      "cues": [
+        [
+          "十点",
+          "clock"
+        ]
+      ]
+    },
+    "eleven": {
+      "speaker": "narrator",
+      "hanzi": "十一点了。",
+      "pinyin": "Shíyī diǎn le.",
+      "english": "It’s eleven o’clock.",
+      "cues": [
+        [
+          "十一点",
+          "clock"
+        ]
+      ]
+    },
+    "midnight": {
+      "speaker": "narrator",
+      "hanzi": "十二点了！灰姑娘快跑！",
+      "pinyin": "Shí'èr diǎn le! Huī gūniang kuài pǎo!",
+      "english": "It’s twelve o’clock! Run, Cinderella!",
+      "cues": [
+        [
+          "十二点",
+          "clock"
+        ],
+        [
+          "灰姑娘",
+          "cinderella"
+        ]
+      ]
+    },
+    "shoeFell": {
+      "speaker": "narrator",
+      "hanzi": "鞋子掉了！",
+      "pinyin": "Xiézi diào le!",
+      "english": "A slipper fell off!",
+      "cues": [
+        [
+          "鞋子",
+          "stair-slipper"
+        ]
+      ]
+    },
+    "whose": {
+      "speaker": "prince",
+      "hanzi": "这是谁的鞋子？",
+      "pinyin": "Zhè shì shéi de xiézi?",
+      "english": "Whose slipper is this?",
+      "cues": [
+        [
+          "鞋子",
+          "slipper"
+        ]
+      ]
+    },
+    "tapSister": {
+      "speaker": "narrator",
+      "hanzi": "姐姐试一试！",
+      "pinyin": "Jiějie shì yi shì!",
+      "english": "Sister, try it on!",
+      "cues": [
+        [
+          "姐姐",
+          "sisters"
+        ]
+      ]
+    },
+    "tooBig": {
+      "speaker": "narrator",
+      "hanzi": "脚太大了！",
+      "pinyin": "Jiǎo tài dà le!",
+      "english": "Her foot is too big!",
+      "cues": [
+        [
+          "脚",
+          "sisters"
+        ]
+      ]
+    },
+    "youTry": {
+      "speaker": "prince",
+      "hanzi": "灰姑娘，你试试！",
+      "pinyin": "Huī gūniang, nǐ shìshi!",
+      "english": "Cinderella, you try!",
+      "cues": [
+        [
+          "灰姑娘",
+          "cinderella"
+        ]
+      ]
+    },
+    "fits": {
+      "speaker": "narrator",
+      "hanzi": "正好！",
+      "pinyin": "Zhènghǎo!",
+      "english": "It fits just right!",
+      "cues": [
+        [
+          "正好",
+          "slipper"
+        ]
+      ]
+    },
+    "happy": {
+      "speaker": "narrator",
+      "hanzi": "王子和灰姑娘很高兴！",
+      "pinyin": "Wángzǐ hé Huī gūniang hěn gāoxìng!",
+      "english": "The prince and Cinderella are very happy!",
+      "cues": [
+        [
+          "王子",
+          "prince"
+        ],
+        [
+          "灰姑娘",
+          "cinderella"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "cinderella",
+      "hanzi": "灰姑娘",
+      "pinyin": "Huī gūniang",
+      "english": "Cinderella"
+    },
+    {
+      "id": "stepmother",
+      "hanzi": "后妈",
+      "pinyin": "hòumā",
+      "english": "stepmother"
+    },
+    {
+      "id": "sister",
+      "hanzi": "姐姐",
+      "pinyin": "jiějie",
+      "english": "big sister"
+    },
+    {
+      "id": "table",
+      "hanzi": "桌子",
+      "pinyin": "zhuōzi",
+      "english": "table"
+    },
+    {
+      "id": "bowl",
+      "hanzi": "碗",
+      "pinyin": "wǎn",
+      "english": "bowl"
+    },
+    {
+      "id": "clean",
+      "hanzi": "干净",
+      "pinyin": "gānjìng",
+      "english": "clean"
+    },
+    {
+      "id": "prince",
+      "hanzi": "王子",
+      "pinyin": "wángzǐ",
+      "english": "prince"
+    },
+    {
+      "id": "fairy",
+      "hanzi": "仙女",
+      "pinyin": "xiānnǚ",
+      "english": "fairy"
+    },
+    {
+      "id": "cry",
+      "hanzi": "哭",
+      "pinyin": "kū",
+      "english": "to cry"
+    },
+    {
+      "id": "pumpkin",
+      "hanzi": "南瓜",
+      "pinyin": "nánguā",
+      "english": "pumpkin"
+    },
+    {
+      "id": "carriage",
+      "hanzi": "马车",
+      "pinyin": "mǎchē",
+      "english": "carriage"
+    },
+    {
+      "id": "mouse",
+      "hanzi": "老鼠",
+      "pinyin": "lǎoshǔ",
+      "english": "mouse"
+    },
+    {
+      "id": "dress",
+      "hanzi": "裙子",
+      "pinyin": "qúnzi",
+      "english": "dress"
+    },
+    {
+      "id": "dance",
+      "hanzi": "跳舞",
+      "pinyin": "tiàowǔ",
+      "english": "to dance"
+    },
+    {
+      "id": "clock",
+      "hanzi": "钟",
+      "pinyin": "zhōng",
+      "english": "clock"
+    },
+    {
+      "id": "twelve",
+      "hanzi": "十二",
+      "pinyin": "shí'èr",
+      "english": "twelve"
+    },
+    {
+      "id": "shoe",
+      "hanzi": "鞋子",
+      "pinyin": "xiézi",
+      "english": "shoe"
+    },
+    {
+      "id": "foot",
+      "hanzi": "脚",
+      "pinyin": "jiǎo",
+      "english": "foot"
+    }
+  ]
+}

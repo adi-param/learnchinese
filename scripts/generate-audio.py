@@ -125,30 +125,44 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
             subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
         recorded.add(key)
         manifest[key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': PHRASE_RATE, 'text': text, 'file': f'assets/audio/chunks/{destination.name}'}
-    # Stories: every line and recap word in the narrator's voice. The site plays the wolf lower and the pig
-    # higher, so one voice can act every character.
+    # Stories: every line and recap word in the narrator's voice (the site plays characters lower or higher, so one
+    # voice acts every part). Each story keeps its own list of recordings with their timing, clips.json, which the
+    # site reads only when the story is opened; nothing about stories goes in the main manifest.
     for story_path in sorted((ROOT / 'data/stories').glob('*.json')):
         story = json.loads(story_path.read_text())
-        (folder / 'stories' / story['id']).mkdir(parents=True, exist_ok=True)
-        clips = {**{key: line['hanzi'] for key, line in story['lines'].items()}, **{'word-' + word['id']: word['hanzi'] for scene in story['scenes'] for word in scene['words']}}
-        for clip, text in clips.items():
-            key = f"story-{story['id']}-{clip}"
+        story_folder = folder / 'stories' / story['id']
+        story_folder.mkdir(parents=True, exist_ok=True)
+        story_manifest_path = story_folder / 'clips.json'
+        old = json.loads(story_manifest_path.read_text()) if story_manifest_path.exists() else {}
+        wanted = {**{key: line['hanzi'] for key, line in story['lines'].items()}, **{'word-' + word['id']: word['hanzi'] for word in story['words']}}
+        clips = {}
+        for clip, text in wanted.items():
             fingerprint = hashlib.sha256(f"{VOICE}|{RATE}|{text}".encode()).hexdigest()
-            destination = folder / 'stories' / story['id'] / f'{clip}.m4a'
-            if manifest.get(key, {}).get('fingerprint') != fingerprint or not destination.exists():
+            destination = story_folder / f'{clip}.m4a'
+            entry = old.get(clip, {})
+            if entry.get('fingerprint') != fingerprint or not destination.exists():
                 aiff = Path(temporary) / 'voice.aiff'
                 subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(RATE), '-o', str(aiff), text], check=True)
                 subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
-            recorded.add(key)
-            manifest[key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': RATE, 'text': text, 'file': f"assets/audio/stories/{story['id']}/{clip}.m4a"}
+                entry = {}
+            clips[clip] = {'fingerprint': fingerprint, 'text': text, 'file': f"assets/audio/stories/{story['id']}/{clip}.m4a",
+                           'speech': entry.get('speech') if entry.get('speech_fingerprint') == fingerprint else speech_bounds(destination, Path(temporary) / 'measure.wav'),
+                           'speech_fingerprint': fingerprint}
+        for stale in story_folder.glob('*.m4a'):
+            if stale.stem not in wanted:
+                stale.unlink()
+        story_manifest_path.write_text(json.dumps(clips, ensure_ascii=False, indent=1) + '\n')
     # Where speech starts and ends in each file, so the site can highlight each character as it is spoken.
     for entry in manifest.values():
         if entry.get('speech_fingerprint') != entry['fingerprint']:
             entry['speech'] = speech_bounds(ROOT / entry['file'], Path(temporary) / 'measure.wav')
             entry['speech_fingerprint'] = entry['fingerprint']
     # Patterns and chunks that were removed take their recordings with them.
-    for key in [k for k in manifest if k.startswith(('pattern-', 'chunk-', 'story-')) and k not in recorded]:
+    for key in [k for k in manifest if k.startswith(('pattern-', 'chunk-')) and k not in recorded]:
         (ROOT / manifest.pop(key)['file']).unlink(missing_ok=True)
+    # Stories keep their recordings in their own clips.json now.
+    for key in [k for k in manifest if k.startswith('story-')]:
+        manifest.pop(key)
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
 library_path.write_text(json.dumps(library, ensure_ascii=False, indent=2)+'\n')
 print(f"Recorded {len(library['items'])} items.")

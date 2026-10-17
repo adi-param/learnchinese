@@ -2,6 +2,32 @@
   "id": "three-pigs",
   "title": "三只小猪",
   "english": "The three little pigs",
+  "voices": {
+    "wolf": {
+      "rate": 0.78,
+      "keep": false,
+      "tint": "#e6e7ef"
+    },
+    "pig": {
+      "rate": 1.22,
+      "keep": false,
+      "tint": "#ffe1de"
+    }
+  },
+  "chapters": [
+    {
+      "title": "草房子",
+      "english": "The straw house"
+    },
+    {
+      "title": "木头房子",
+      "english": "The wooden house"
+    },
+    {
+      "title": "砖头房子",
+      "english": "The brick house"
+    }
+  ],
   "lines": {
     "once": {
       "speaker": "narrator",
@@ -519,141 +545,120 @@
       ]
     }
   },
-  "scenes": [
+  "words": [
+    {
+      "id": "pig",
+      "hanzi": "猪",
+      "pinyin": "zhū",
+      "english": "pig"
+    },
+    {
+      "id": "wolf",
+      "hanzi": "狼",
+      "pinyin": "láng",
+      "english": "wolf"
+    },
     {
       "id": "straw",
-      "title": "草房子",
-      "english": "The straw house",
-      "words": [
-        {
-          "id": "pig",
-          "hanzi": "猪",
-          "pinyin": "zhū",
-          "english": "pig"
-        },
-        {
-          "id": "wolf",
-          "hanzi": "狼",
-          "pinyin": "láng",
-          "english": "wolf"
-        },
-        {
-          "id": "straw",
-          "hanzi": "草",
-          "pinyin": "cǎo",
-          "english": "straw, grass"
-        },
-        {
-          "id": "house",
-          "hanzi": "房子",
-          "pinyin": "fángzi",
-          "english": "house"
-        },
-        {
-          "id": "door",
-          "hanzi": "门",
-          "pinyin": "mén",
-          "english": "door"
-        },
-        {
-          "id": "blow",
-          "hanzi": "吹",
-          "pinyin": "chuī",
-          "english": "to blow"
-        }
-      ]
+      "hanzi": "草",
+      "pinyin": "cǎo",
+      "english": "straw, grass"
+    },
+    {
+      "id": "house",
+      "hanzi": "房子",
+      "pinyin": "fángzi",
+      "english": "house"
+    },
+    {
+      "id": "door",
+      "hanzi": "门",
+      "pinyin": "mén",
+      "english": "door"
+    },
+    {
+      "id": "blow",
+      "hanzi": "吹",
+      "pinyin": "chuī",
+      "english": "to blow"
     },
     {
       "id": "wood",
-      "title": "木头房子",
-      "english": "The wooden house",
-      "words": [
-        {
-          "id": "wood",
-          "hanzi": "木头",
-          "pinyin": "mùtou",
-          "english": "wood"
-        },
-        {
-          "id": "yellow",
-          "hanzi": "黄色",
-          "pinyin": "huángsè",
-          "english": "yellow"
-        },
-        {
-          "id": "fall",
-          "hanzi": "倒",
-          "pinyin": "dǎo",
-          "english": "to fall down"
-        },
-        {
-          "id": "run",
-          "hanzi": "跑",
-          "pinyin": "pǎo",
-          "english": "to run"
-        },
-        {
-          "id": "two",
-          "hanzi": "两",
-          "pinyin": "liǎng",
-          "english": "two (of something)"
-        }
-      ]
+      "hanzi": "木头",
+      "pinyin": "mùtou",
+      "english": "wood"
+    },
+    {
+      "id": "yellow",
+      "hanzi": "黄色",
+      "pinyin": "huángsè",
+      "english": "yellow"
+    },
+    {
+      "id": "fall",
+      "hanzi": "倒",
+      "pinyin": "dǎo",
+      "english": "to fall down"
+    },
+    {
+      "id": "run",
+      "hanzi": "跑",
+      "pinyin": "pǎo",
+      "english": "to run"
+    },
+    {
+      "id": "two",
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "english": "two (of something)"
     },
     {
       "id": "brick",
-      "title": "砖头房子",
-      "english": "The brick house",
-      "words": [
-        {
-          "id": "brick",
-          "hanzi": "砖头",
-          "pinyin": "zhuāntou",
-          "english": "brick"
-        },
-        {
-          "id": "white",
-          "hanzi": "白色",
-          "pinyin": "báisè",
-          "english": "white"
-        },
-        {
-          "id": "four",
-          "hanzi": "四",
-          "pinyin": "sì",
-          "english": "four"
-        },
-        {
-          "id": "five",
-          "hanzi": "五",
-          "pinyin": "wǔ",
-          "english": "five"
-        },
-        {
-          "id": "chimney",
-          "hanzi": "烟囱",
-          "pinyin": "yāncōng",
-          "english": "chimney"
-        },
-        {
-          "id": "fire",
-          "hanzi": "火",
-          "pinyin": "huǒ",
-          "english": "fire"
-        },
-        {
-          "id": "hot",
-          "hanzi": "烫",
-          "pinyin": "tàng",
-          "english": "burning hot"
-        },
-        {
-          "id": "happy",
-          "hanzi": "高兴",
-          "pinyin": "gāoxìng",
-          "english": "happy"
-        }
-      ]
+      "hanzi": "砖头",
+      "pinyin": "zhuāntou",
+      "english": "brick"
+    },
+    {
+      "id": "white",
+      "hanzi": "白色",
+      "pinyin": "báisè",
+      "english": "white"
+    },
+    {
+      "id": "four",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "english": "four"
+    },
+    {
+      "id": "five",
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "english": "five"
+    },
+    {
+      "id": "chimney",
+      "hanzi": "烟囱",
+      "pinyin": "yāncōng",
+      "english": "chimney"
+    },
+    {
+      "id": "fire",
+      "hanzi": "火",
+      "pinyin": "huǒ",
+      "english": "fire"
+    },
+    {
+      "id": "hot",
+      "hanzi": "烫",
+      "pinyin": "tàng",
+      "english": "burning hot"
+    },
+    {
+      "id": "happy",
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "english": "happy"
     }
   ]
 }

@@ -1,0 +1,612 @@
+{
+ "once": {
+  "fingerprint": "06d583e5f5ba199fb2ae0bb7985fe13aa86107c0f7ea21152fd5a1665d5b550d",
+  "text": "从前，有三只小猪。",
+  "file": "assets/audio/stories/three-pigs/once.m4a",
+  "speech": [
+   0.1,
+   2.58
+  ],
+  "speech_fingerprint": "06d583e5f5ba199fb2ae0bb7985fe13aa86107c0f7ea21152fd5a1665d5b550d"
+ },
+ "build": {
+  "fingerprint": "cfe87e362f8d3413a6ae51455ab54e61134d5747ab15255b69298fe2387a0673",
+  "text": "红色的小猪用草盖房子。",
+  "file": "assets/audio/stories/three-pigs/build.m4a",
+  "speech": [
+   0.11,
+   2.8
+  ],
+  "speech_fingerprint": "cfe87e362f8d3413a6ae51455ab54e61134d5747ab15255b69298fe2387a0673"
+ },
+ "tapStraw": {
+  "fingerprint": "6f35b0dd3c6a6789e9c9f4e1ed1cbfbcfb4f7d88f5b3854a4ed7df0b4f02963d",
+  "text": "点一点草！",
+  "file": "assets/audio/stories/three-pigs/tapStraw.m4a",
+  "speech": [
+   0.0,
+   1.17
+  ],
+  "speech_fingerprint": "6f35b0dd3c6a6789e9c9f4e1ed1cbfbcfb4f7d88f5b3854a4ed7df0b4f02963d"
+ },
+ "one": {
+  "fingerprint": "9dc50f54e1e4e972606be63732beda86907bcf2981082ce98c559a01e6b67f95",
+  "text": "一",
+  "file": "assets/audio/stories/three-pigs/one.m4a",
+  "speech": [
+   0.01,
+   0.28
+  ],
+  "speech_fingerprint": "9dc50f54e1e4e972606be63732beda86907bcf2981082ce98c559a01e6b67f95"
+ },
+ "two": {
+  "fingerprint": "50bdbe9ce878b3f8acda54cc122fba2d92db1d65ac5885bcdbf8cded2c9e6355",
+  "text": "二",
+  "file": "assets/audio/stories/three-pigs/two.m4a",
+  "speech": [
+   0.02,
+   0.31
+  ],
+  "speech_fingerprint": "50bdbe9ce878b3f8acda54cc122fba2d92db1d65ac5885bcdbf8cded2c9e6355"
+ },
+ "three": {
+  "fingerprint": "4fb560a77c9965c1307ae89459b20367d87022745cd491cb9320ca20a4de8b08",
+  "text": "三",
+  "file": "assets/audio/stories/three-pigs/three.m4a",
+  "speech": [
+   0.12,
+   0.42
+  ],
+  "speech_fingerprint": "4fb560a77c9965c1307ae89459b20367d87022745cd491cb9320ca20a4de8b08"
+ },
+ "done": {
+  "fingerprint": "73b0261ce4641f7344394108136bc81ec175b26f9a3c5a7c428883f08a702d8d",
+  "text": "草房子盖好了！",
+  "file": "assets/audio/stories/three-pigs/done.m4a",
+  "speech": [
+   0.06,
+   1.66
+  ],
+  "speech_fingerprint": "73b0261ce4641f7344394108136bc81ec175b26f9a3c5a7c428883f08a702d8d"
+ },
+ "allBuilt": {
+  "fingerprint": "d78c664430a44dac6f57d99b27c8518547c24fa75fb7e09dddd1db123b9397c6",
+  "text": "三只小猪都有房子了！",
+  "file": "assets/audio/stories/three-pigs/allBuilt.m4a",
+  "speech": [
+   0.13,
+   2.31
+  ],
+  "speech_fingerprint": "d78c664430a44dac6f57d99b27c8518547c24fa75fb7e09dddd1db123b9397c6"
+ },
+ "wolf": {
+  "fingerprint": "1921a6cd63909beb6d600006e14a7cac65f4a6263332bb5e4aa866fd5ecabeae",
+  "text": "大灰狼来了！",
+  "file": "assets/audio/stories/three-pigs/wolf.m4a",
+  "speech": [
+   0.01,
+   1.24
+  ],
+  "speech_fingerprint": "1921a6cd63909beb6d600006e14a7cac65f4a6263332bb5e4aa866fd5ecabeae"
+ },
+ "tapDoor": {
+  "fingerprint": "3fbde5b01aa959695d586c0837a59a26daaf098c1f0f00e473833616839f59f1",
+  "text": "敲敲门！",
+  "file": "assets/audio/stories/three-pigs/tapDoor.m4a",
+  "speech": [
+   0.03,
+   1.04
+  ],
+  "speech_fingerprint": "3fbde5b01aa959695d586c0837a59a26daaf098c1f0f00e473833616839f59f1"
+ },
+ "dong": {
+  "fingerprint": "b31267d1d02dcb817f44b3452bc4d687a61ff28ec90f926500ec0f593881c7be",
+  "text": "咚！",
+  "file": "assets/audio/stories/three-pigs/dong.m4a",
+  "speech": [
+   0.01,
+   0.31
+  ],
+  "speech_fingerprint": "b31267d1d02dcb817f44b3452bc4d687a61ff28ec90f926500ec0f593881c7be"
+ },
+ "open": {
+  "fingerprint": "2ed97859525b45e17b2068d28bd0a407dc5f72d33a67a491120ba617ed1f651a",
+  "text": "小猪，小猪，开开门！",
+  "file": "assets/audio/stories/three-pigs/open.m4a",
+  "speech": [
+   0.03,
+   2.99
+  ],
+  "speech_fingerprint": "2ed97859525b45e17b2068d28bd0a407dc5f72d33a67a491120ba617ed1f651a"
+ },
+ "tapPig": {
+  "fingerprint": "2e4469c0748b2bec3f2a0b05f339210de1e0436e6873280e7a179cd63ffaa3e6",
+  "text": "小猪说什么？",
+  "file": "assets/audio/stories/three-pigs/tapPig.m4a",
+  "speech": [
+   0.03,
+   1.34
+  ],
+  "speech_fingerprint": "2e4469c0748b2bec3f2a0b05f339210de1e0436e6873280e7a179cd63ffaa3e6"
+ },
+ "no": {
+  "fingerprint": "41cc4e6eb49f07461764e7dc70af56f6f6013be54b6918208ace9a1694bc7ae1",
+  "text": "不开，不开！",
+  "file": "assets/audio/stories/three-pigs/no.m4a",
+  "speech": [
+   0.02,
+   1.58
+  ],
+  "speech_fingerprint": "41cc4e6eb49f07461764e7dc70af56f6f6013be54b6918208ace9a1694bc7ae1"
+ },
+ "blow": {
+  "fingerprint": "53a849bcc43605f1191cf1108877d7f739818626c77c9b83170eeaefe424e42c",
+  "text": "我吹，我吹，我吹吹吹！",
+  "file": "assets/audio/stories/three-pigs/blow.m4a",
+  "speech": [
+   0.01,
+   3.23
+  ],
+  "speech_fingerprint": "53a849bcc43605f1191cf1108877d7f739818626c77c9b83170eeaefe424e42c"
+ },
+ "blowNow": {
+  "fingerprint": "0bb9c6d195000617693ba715c1fd9dde5c68eb947ee0d07a180951c53998b183",
+  "text": "我们一起吹！",
+  "file": "assets/audio/stories/three-pigs/blowNow.m4a",
+  "speech": [
+   0.01,
+   1.23
+  ],
+  "speech_fingerprint": "0bb9c6d195000617693ba715c1fd9dde5c68eb947ee0d07a180951c53998b183"
+ },
+ "chui": {
+  "fingerprint": "8943d9455249153528f5a5b96eb2753714c8f115d27261c3ae84cdb01c73b1ca",
+  "text": "吹！",
+  "file": "assets/audio/stories/three-pigs/chui.m4a",
+  "speech": [
+   0.02,
+   0.4
+  ],
+  "speech_fingerprint": "8943d9455249153528f5a5b96eb2753714c8f115d27261c3ae84cdb01c73b1ca"
+ },
+ "fell": {
+  "fingerprint": "3a1f2180b988b063d9f1124ff93d2d0d1e2bf947edcb28d39ec7d90c6355b6a6",
+  "text": "呼！草房子倒了！",
+  "file": "assets/audio/stories/three-pigs/fell.m4a",
+  "speech": [
+   0.07,
+   1.92
+  ],
+  "speech_fingerprint": "3a1f2180b988b063d9f1124ff93d2d0d1e2bf947edcb28d39ec7d90c6355b6a6"
+ },
+ "run": {
+  "fingerprint": "db8b4897dcab29028b3eea2b5dbe7c7c4607c892d2b8b73096d1e848c2d13dfd",
+  "text": "小猪快跑！",
+  "file": "assets/audio/stories/three-pigs/run.m4a",
+  "speech": [
+   0.03,
+   1.33
+  ],
+  "speech_fingerprint": "db8b4897dcab29028b3eea2b5dbe7c7c4607c892d2b8b73096d1e848c2d13dfd"
+ },
+ "w_build": {
+  "fingerprint": "d514d0d059d05a03fc5cb5fde68b03031c6c5a7f10a1f91f7829134d67c7fa72",
+  "text": "黄色的小猪用木头盖房子。",
+  "file": "assets/audio/stories/three-pigs/w_build.m4a",
+  "speech": [
+   0.06,
+   2.91
+  ],
+  "speech_fingerprint": "d514d0d059d05a03fc5cb5fde68b03031c6c5a7f10a1f91f7829134d67c7fa72"
+ },
+ "tapWood": {
+  "fingerprint": "95ce286d8af3dcd5d8e0fba988fb876f2290874a76cae1a4b2303ca044dc0b59",
+  "text": "点一点木头！",
+  "file": "assets/audio/stories/three-pigs/tapWood.m4a",
+  "speech": [
+   0.0,
+   1.29
+  ],
+  "speech_fingerprint": "95ce286d8af3dcd5d8e0fba988fb876f2290874a76cae1a4b2303ca044dc0b59"
+ },
+ "w_done": {
+  "fingerprint": "1dc028ff4768ddda9ccd28280a63a7bb90b43fd0776f89d84f94e9367ff9ccbb",
+  "text": "木头房子盖好了！",
+  "file": "assets/audio/stories/three-pigs/w_done.m4a",
+  "speech": [
+   0.01,
+   1.83
+  ],
+  "speech_fingerprint": "1dc028ff4768ddda9ccd28280a63a7bb90b43fd0776f89d84f94e9367ff9ccbb"
+ },
+ "redComes": {
+  "fingerprint": "7b4651bf702ab4fca3f9806f02843773e1cc37d9d54db15a9c9bf1c08a8bed63",
+  "text": "红色的小猪跑来了！",
+  "file": "assets/audio/stories/three-pigs/redComes.m4a",
+  "speech": [
+   0.11,
+   2.01
+  ],
+  "speech_fingerprint": "7b4651bf702ab4fca3f9806f02843773e1cc37d9d54db15a9c9bf1c08a8bed63"
+ },
+ "quick": {
+  "fingerprint": "44680deed0f7711f6957677f4b80e4f048ec0d4d04713405573d7e169186062b",
+  "text": "快开门！",
+  "file": "assets/audio/stories/three-pigs/quick.m4a",
+  "speech": [
+   0.09,
+   0.96
+  ],
+  "speech_fingerprint": "44680deed0f7711f6957677f4b80e4f048ec0d4d04713405573d7e169186062b"
+ },
+ "again": {
+  "fingerprint": "a9480d65392e6a4b3a62b8e5b022ce167d1b365e66b0ec1efcca6b602ae50e05",
+  "text": "再吹！",
+  "file": "assets/audio/stories/three-pigs/again.m4a",
+  "speech": [
+   0.05,
+   0.67
+  ],
+  "speech_fingerprint": "a9480d65392e6a4b3a62b8e5b022ce167d1b365e66b0ec1efcca6b602ae50e05"
+ },
+ "w_fell": {
+  "fingerprint": "3b72f99236443c3c8f4e8f031803b43afa422b39594eb50250f4052b4a98ff35",
+  "text": "呼！木头房子倒了！",
+  "file": "assets/audio/stories/three-pigs/w_fell.m4a",
+  "speech": [
+   0.07,
+   2.1
+  ],
+  "speech_fingerprint": "3b72f99236443c3c8f4e8f031803b43afa422b39594eb50250f4052b4a98ff35"
+ },
+ "twoRun": {
+  "fingerprint": "0d1a53c4382ebf549c357fff8022ddba9b2f674b6ceff7ce201f3e67bebad03b",
+  "text": "两只小猪快跑！",
+  "file": "assets/audio/stories/three-pigs/twoRun.m4a",
+  "speech": [
+   0.01,
+   1.82
+  ],
+  "speech_fingerprint": "0d1a53c4382ebf549c357fff8022ddba9b2f674b6ceff7ce201f3e67bebad03b"
+ },
+ "b_build": {
+  "fingerprint": "dc33d87e612a1d5c1483c59cff9cf69d1ab5d956b4833b071be9279539c574e6",
+  "text": "白色的小猪用砖头盖房子。",
+  "file": "assets/audio/stories/three-pigs/b_build.m4a",
+  "speech": [
+   0.01,
+   2.92
+  ],
+  "speech_fingerprint": "dc33d87e612a1d5c1483c59cff9cf69d1ab5d956b4833b071be9279539c574e6"
+ },
+ "tapBrick": {
+  "fingerprint": "e757baf0e4435fc29beebf6010daa084b30e933273471a1e454ca32c2b4ea222",
+  "text": "点一点砖头！",
+  "file": "assets/audio/stories/three-pigs/tapBrick.m4a",
+  "speech": [
+   0.0,
+   1.39
+  ],
+  "speech_fingerprint": "e757baf0e4435fc29beebf6010daa084b30e933273471a1e454ca32c2b4ea222"
+ },
+ "four": {
+  "fingerprint": "24604659e2bab5c16ed26c472e61b3a5e1308a6f2ca7349ae405bc30e159d858",
+  "text": "四",
+  "file": "assets/audio/stories/three-pigs/four.m4a",
+  "speech": [
+   0.14,
+   0.34
+  ],
+  "speech_fingerprint": "24604659e2bab5c16ed26c472e61b3a5e1308a6f2ca7349ae405bc30e159d858"
+ },
+ "five": {
+  "fingerprint": "0a7229a4f569e0dfc549141d73bd2b57e93405aa3db157ba0a6909f70821fe17",
+  "text": "五",
+  "file": "assets/audio/stories/three-pigs/five.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "0a7229a4f569e0dfc549141d73bd2b57e93405aa3db157ba0a6909f70821fe17"
+ },
+ "b_done": {
+  "fingerprint": "5de82d54a69e65d7ea4bdd68ec4bbbf45122007d1945c627bca0555a8be45c1c",
+  "text": "砖头房子盖好了！",
+  "file": "assets/audio/stories/three-pigs/b_done.m4a",
+  "speech": [
+   0.02,
+   1.95
+  ],
+  "speech_fingerprint": "5de82d54a69e65d7ea4bdd68ec4bbbf45122007d1945c627bca0555a8be45c1c"
+ },
+ "twoCome": {
+  "fingerprint": "a277953b4059cec2b9bc6a191db7a21a1c868ec1a437fc0d61660bc60e10f49e",
+  "text": "两只小猪跑来了！",
+  "file": "assets/audio/stories/three-pigs/twoCome.m4a",
+  "speech": [
+   0.01,
+   1.84
+  ],
+  "speech_fingerprint": "a277953b4059cec2b9bc6a191db7a21a1c868ec1a437fc0d61660bc60e10f49e"
+ },
+ "strong": {
+  "fingerprint": "fda7cd9d06524006a291da41c1201de5ee75252946fffce14569a4e1683bf676",
+  "text": "砖头房子不倒！",
+  "file": "assets/audio/stories/three-pigs/strong.m4a",
+  "speech": [
+   0.02,
+   1.7
+  ],
+  "speech_fingerprint": "fda7cd9d06524006a291da41c1201de5ee75252946fffce14569a4e1683bf676"
+ },
+ "chimneyPlan": {
+  "fingerprint": "a07c1cbd686422cb650e603242c59b554f6fb42781ef2a01a2b26da2f2cfc7a6",
+  "text": "我从烟囱进去！",
+  "file": "assets/audio/stories/three-pigs/chimneyPlan.m4a",
+  "speech": [
+   0.01,
+   1.76
+  ],
+  "speech_fingerprint": "a07c1cbd686422cb650e603242c59b554f6fb42781ef2a01a2b26da2f2cfc7a6"
+ },
+ "boil": {
+  "fingerprint": "23a7ed84e1aa622b7e53e2e96db87423a3831d151f383adb6bfbdcf0edbca370",
+  "text": "小猪烧了一锅热水。",
+  "file": "assets/audio/stories/three-pigs/boil.m4a",
+  "speech": [
+   0.03,
+   2.24
+  ],
+  "speech_fingerprint": "23a7ed84e1aa622b7e53e2e96db87423a3831d151f383adb6bfbdcf0edbca370"
+ },
+ "tapFire": {
+  "fingerprint": "74050e2e1f5d7ceb8f4f55e73f76639156db4ac03f5afd0ee0368f3c23efdcb1",
+  "text": "点火！",
+  "file": "assets/audio/stories/three-pigs/tapFire.m4a",
+  "speech": [
+   0.0,
+   0.63
+  ],
+  "speech_fingerprint": "74050e2e1f5d7ceb8f4f55e73f76639156db4ac03f5afd0ee0368f3c23efdcb1"
+ },
+ "boiling": {
+  "fingerprint": "ab65a9ae5c49b8ace34fd233e5f64495c279747ecfa815cdd6b1efe8354f4cde",
+  "text": "水开了！",
+  "file": "assets/audio/stories/three-pigs/boiling.m4a",
+  "speech": [
+   0.03,
+   0.84
+  ],
+  "speech_fingerprint": "ab65a9ae5c49b8ace34fd233e5f64495c279747ecfa815cdd6b1efe8354f4cde"
+ },
+ "splash": {
+  "fingerprint": "a04206009442a330f2da08916527c47d55afc6e1080378d019f554c9ea8715d5",
+  "text": "扑通！",
+  "file": "assets/audio/stories/three-pigs/splash.m4a",
+  "speech": [
+   0.09,
+   0.57
+  ],
+  "speech_fingerprint": "a04206009442a330f2da08916527c47d55afc6e1080378d019f554c9ea8715d5"
+ },
+ "hot": {
+  "fingerprint": "273edc06889a1d021230ba0772cb69ed59bdb7f58b614c3c5cc0d6dcc37b33e6",
+  "text": "好烫！好烫！",
+  "file": "assets/audio/stories/three-pigs/hot.m4a",
+  "speech": [
+   0.08,
+   1.6
+  ],
+  "speech_fingerprint": "273edc06889a1d021230ba0772cb69ed59bdb7f58b614c3c5cc0d6dcc37b33e6"
+ },
+ "wolfRan": {
+  "fingerprint": "da4dfdc56a96641fcc792ff8d8e7c2346863e8bed3dffda60e2598964c14a140",
+  "text": "大灰狼跑了，再也不来了！",
+  "file": "assets/audio/stories/three-pigs/wolfRan.m4a",
+  "speech": [
+   0.01,
+   2.89
+  ],
+  "speech_fingerprint": "da4dfdc56a96641fcc792ff8d8e7c2346863e8bed3dffda60e2598964c14a140"
+ },
+ "happy": {
+  "fingerprint": "f4788ff17c59812aa157ebe95931be7f5c5e771c67168123f2e703b109048da3",
+  "text": "三只小猪很高兴！",
+  "file": "assets/audio/stories/three-pigs/happy.m4a",
+  "speech": [
+   0.13,
+   2.06
+  ],
+  "speech_fingerprint": "f4788ff17c59812aa157ebe95931be7f5c5e771c67168123f2e703b109048da3"
+ },
+ "word-pig": {
+  "fingerprint": "f77dbb5ee02ecc319ea5d859104464fb614d3a01ca4e20ce9c47805341bab305",
+  "text": "猪",
+  "file": "assets/audio/stories/three-pigs/word-pig.m4a",
+  "speech": [
+   0.02,
+   0.3
+  ],
+  "speech_fingerprint": "f77dbb5ee02ecc319ea5d859104464fb614d3a01ca4e20ce9c47805341bab305"
+ },
+ "word-wolf": {
+  "fingerprint": "c7e2521a59292e6abe4869b6cff33761508eeedfcd172353d7567dd30ad2b333",
+  "text": "狼",
+  "file": "assets/audio/stories/three-pigs/word-wolf.m4a",
+  "speech": [
+   0.01,
+   0.34
+  ],
+  "speech_fingerprint": "c7e2521a59292e6abe4869b6cff33761508eeedfcd172353d7567dd30ad2b333"
+ },
+ "word-straw": {
+  "fingerprint": "c39b23384871cd38c6097efcebe10fd4dbcfa1e38832172b6cbd7bb075279636",
+  "text": "草",
+  "file": "assets/audio/stories/three-pigs/word-straw.m4a",
+  "speech": [
+   0.06,
+   0.37
+  ],
+  "speech_fingerprint": "c39b23384871cd38c6097efcebe10fd4dbcfa1e38832172b6cbd7bb075279636"
+ },
+ "word-house": {
+  "fingerprint": "6d89262aca72357ee14ac579777c0fb87c2165c681d625ba95d8d49e10057566",
+  "text": "房子",
+  "file": "assets/audio/stories/three-pigs/word-house.m4a",
+  "speech": [
+   0.1,
+   0.58
+  ],
+  "speech_fingerprint": "6d89262aca72357ee14ac579777c0fb87c2165c681d625ba95d8d49e10057566"
+ },
+ "word-door": {
+  "fingerprint": "8face5e2d70775f81dca02c1c28b0541257b4999d9a9351735ad9c577e7022fa",
+  "text": "门",
+  "file": "assets/audio/stories/three-pigs/word-door.m4a",
+  "speech": [
+   0.01,
+   0.37
+  ],
+  "speech_fingerprint": "8face5e2d70775f81dca02c1c28b0541257b4999d9a9351735ad9c577e7022fa"
+ },
+ "word-blow": {
+  "fingerprint": "684f14fd73e67d7f746d4d4a550f53f07f34fb19703f85f12178869a748f749b",
+  "text": "吹",
+  "file": "assets/audio/stories/three-pigs/word-blow.m4a",
+  "speech": [
+   0.02,
+   0.4
+  ],
+  "speech_fingerprint": "684f14fd73e67d7f746d4d4a550f53f07f34fb19703f85f12178869a748f749b"
+ },
+ "word-wood": {
+  "fingerprint": "9ce064cbcf8956fc7720f839dcf13a25ce3cd88154305d0da53363dafd80ae02",
+  "text": "木头",
+  "file": "assets/audio/stories/three-pigs/word-wood.m4a",
+  "speech": [
+   0.01,
+   0.51
+  ],
+  "speech_fingerprint": "9ce064cbcf8956fc7720f839dcf13a25ce3cd88154305d0da53363dafd80ae02"
+ },
+ "word-yellow": {
+  "fingerprint": "3881c8c7dba55c7e753d4022b3876117dc886a5c618341bf66f5cab2aeb068a1",
+  "text": "黄色",
+  "file": "assets/audio/stories/three-pigs/word-yellow.m4a",
+  "speech": [
+   0.08,
+   0.65
+  ],
+  "speech_fingerprint": "3881c8c7dba55c7e753d4022b3876117dc886a5c618341bf66f5cab2aeb068a1"
+ },
+ "word-fall": {
+  "fingerprint": "01a815bbf037f5090dc282a3f06d55d9a0ed15ed29554c44d997bc7a2bda76ee",
+  "text": "倒",
+  "file": "assets/audio/stories/three-pigs/word-fall.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "01a815bbf037f5090dc282a3f06d55d9a0ed15ed29554c44d997bc7a2bda76ee"
+ },
+ "word-run": {
+  "fingerprint": "c320be5dcc543e2a82cb32ce8e3ab8be3568b4de51524e6bd96132699ddce4cc",
+  "text": "跑",
+  "file": "assets/audio/stories/three-pigs/word-run.m4a",
+  "speech": [
+   0.04,
+   0.29
+  ],
+  "speech_fingerprint": "c320be5dcc543e2a82cb32ce8e3ab8be3568b4de51524e6bd96132699ddce4cc"
+ },
+ "word-two": {
+  "fingerprint": "34d939e216489d36aa31f654b52dc82117d61a3a664342793d8d5b0e569f475e",
+  "text": "两",
+  "file": "assets/audio/stories/three-pigs/word-two.m4a",
+  "speech": [
+   0.01,
+   0.34
+  ],
+  "speech_fingerprint": "34d939e216489d36aa31f654b52dc82117d61a3a664342793d8d5b0e569f475e"
+ },
+ "word-brick": {
+  "fingerprint": "4752e6bc7b7eb6a9bf55ad8460db46edb913c76b23556010d79fa0a858e582dc",
+  "text": "砖头",
+  "file": "assets/audio/stories/three-pigs/word-brick.m4a",
+  "speech": [
+   0.02,
+   0.63
+  ],
+  "speech_fingerprint": "4752e6bc7b7eb6a9bf55ad8460db46edb913c76b23556010d79fa0a858e582dc"
+ },
+ "word-white": {
+  "fingerprint": "5144e1f6e1f1457511b46edbb9bc4e1e78eb3866eaa52ca810a0992d940bd30f",
+  "text": "白色",
+  "file": "assets/audio/stories/three-pigs/word-white.m4a",
+  "speech": [
+   0.01,
+   0.55
+  ],
+  "speech_fingerprint": "5144e1f6e1f1457511b46edbb9bc4e1e78eb3866eaa52ca810a0992d940bd30f"
+ },
+ "word-four": {
+  "fingerprint": "24604659e2bab5c16ed26c472e61b3a5e1308a6f2ca7349ae405bc30e159d858",
+  "text": "四",
+  "file": "assets/audio/stories/three-pigs/word-four.m4a",
+  "speech": [
+   0.14,
+   0.34
+  ],
+  "speech_fingerprint": "24604659e2bab5c16ed26c472e61b3a5e1308a6f2ca7349ae405bc30e159d858"
+ },
+ "word-five": {
+  "fingerprint": "0a7229a4f569e0dfc549141d73bd2b57e93405aa3db157ba0a6909f70821fe17",
+  "text": "五",
+  "file": "assets/audio/stories/three-pigs/word-five.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "0a7229a4f569e0dfc549141d73bd2b57e93405aa3db157ba0a6909f70821fe17"
+ },
+ "word-chimney": {
+  "fingerprint": "79228da4509d05e0de6510a975206704331465aa580992e808887bcd82b61597",
+  "text": "烟囱",
+  "file": "assets/audio/stories/three-pigs/word-chimney.m4a",
+  "speech": [
+   0.01,
+   0.68
+  ],
+  "speech_fingerprint": "79228da4509d05e0de6510a975206704331465aa580992e808887bcd82b61597"
+ },
+ "word-fire": {
+  "fingerprint": "2dd2935a2aa34bbaacef7756a8ec4172eb73e54f042a689eb659e336bc2749c7",
+  "text": "火",
+  "file": "assets/audio/stories/three-pigs/word-fire.m4a",
+  "speech": [
+   0.09,
+   0.34
+  ],
+  "speech_fingerprint": "2dd2935a2aa34bbaacef7756a8ec4172eb73e54f042a689eb659e336bc2749c7"
+ },
+ "word-hot": {
+  "fingerprint": "697078071f4fcd9cfb08d482c5a47a401007ca89668268bc3be7d08961d29c04",
+  "text": "烫",
+  "file": "assets/audio/stories/three-pigs/word-hot.m4a",
+  "speech": [
+   0.02,
+   0.33
+  ],
+  "speech_fingerprint": "697078071f4fcd9cfb08d482c5a47a401007ca89668268bc3be7d08961d29c04"
+ },
+ "word-happy": {
+  "fingerprint": "23cba2094056836e8b531be6994fd56629a90ee218655dcb32d54e63cc6e54ff",
+  "text": "高兴",
+  "file": "assets/audio/stories/three-pigs/word-happy.m4a",
+  "speech": [
+   0.01,
+   0.6
+  ],
+  "speech_fingerprint": "23cba2094056836e8b531be6994fd56629a90ee218655dcb32d54e63cc6e54ff"
+ }
+}
