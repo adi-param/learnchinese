@@ -1,0 +1,412 @@
+{
+ "once": {
+  "fingerprint": "5ae0a15551214a06ec2e0356d1840c783a05cb06b0131a6041b7720ba8ac97e4",
+  "text": "从前，有三只山羊。",
+  "file": "assets/audio/stories/billy-goats/once.m4a",
+  "speech": [
+   0.1,
+   2.58
+  ],
+  "speech_fingerprint": "5ae0a15551214a06ec2e0356d1840c783a05cb06b0131a6041b7720ba8ac97e4"
+ },
+ "sizes": {
+  "fingerprint": "46b063e3a44ec12ec37f638cf8e4ee239d38f73ea599e29dd82b8954308c4de8",
+  "text": "小山羊、中山羊、大山羊。",
+  "file": "assets/audio/stories/billy-goats/sizes.m4a",
+  "speech": [
+   0.03,
+   3.43
+  ],
+  "speech_fingerprint": "46b063e3a44ec12ec37f638cf8e4ee239d38f73ea599e29dd82b8954308c4de8"
+ },
+ "likeGrass": {
+  "fingerprint": "65e85fa94f9922599e7cc5c95e2db8c44e1587b029fbf1b00bc41a6c9b46190c",
+  "text": "山羊喜欢吃草。",
+  "file": "assets/audio/stories/billy-goats/likeGrass.m4a",
+  "speech": [
+   0.03,
+   1.9
+  ],
+  "speech_fingerprint": "65e85fa94f9922599e7cc5c95e2db8c44e1587b029fbf1b00bc41a6c9b46190c"
+ },
+ "otherSide": {
+  "fingerprint": "17c9bf96e23af1c638b5380ff8dc217dd96b379e0f3faca1d0332cfa7df12dd4",
+  "text": "河那边的草很多！",
+  "file": "assets/audio/stories/billy-goats/otherSide.m4a",
+  "speech": [
+   0.09,
+   1.83
+  ],
+  "speech_fingerprint": "17c9bf96e23af1c638b5380ff8dc217dd96b379e0f3faca1d0332cfa7df12dd4"
+ },
+ "crossing": {
+  "fingerprint": "f3f3da210acc4b86f14da242dae8b37fa73633daf0a0cafaa707045c461ba981",
+  "text": "他们要过桥。",
+  "file": "assets/audio/stories/billy-goats/crossing.m4a",
+  "speech": [
+   0.02,
+   1.34
+  ],
+  "speech_fingerprint": "f3f3da210acc4b86f14da242dae8b37fa73633daf0a0cafaa707045c461ba981"
+ },
+ "monster": {
+  "fingerprint": "f989679e144c6c11736d02a8cd0f812f3cbdadda954ab933287b116ddb702be1",
+  "text": "桥下住着一个大怪兽。",
+  "file": "assets/audio/stories/billy-goats/monster.m4a",
+  "speech": [
+   0.03,
+   2.4
+  ],
+  "speech_fingerprint": "f989679e144c6c11736d02a8cd0f812f3cbdadda954ab933287b116ddb702be1"
+ },
+ "smallGoes": {
+  "fingerprint": "406f5fbe5e8510161821c21c4319dca8050a24ecb0ed93ba3001640e9f3fd0c5",
+  "text": "小山羊走上了桥。",
+  "file": "assets/audio/stories/billy-goats/smallGoes.m4a",
+  "speech": [
+   0.03,
+   2.11
+  ],
+  "speech_fingerprint": "406f5fbe5e8510161821c21c4319dca8050a24ecb0ed93ba3001640e9f3fd0c5"
+ },
+ "midGoes": {
+  "fingerprint": "80101126562b6c40f40ad7e3afa5a9df5992445fae13ccc8b077ba751c6f0852",
+  "text": "中山羊走上了桥。",
+  "file": "assets/audio/stories/billy-goats/midGoes.m4a",
+  "speech": [
+   0.02,
+   1.99
+  ],
+  "speech_fingerprint": "80101126562b6c40f40ad7e3afa5a9df5992445fae13ccc8b077ba751c6f0852"
+ },
+ "bigGoes": {
+  "fingerprint": "fafa55b0027b2ca078acaac7b0d8acc0c72b7af355a14f097da3e7f52e50ae01",
+  "text": "大山羊走上了桥。",
+  "file": "assets/audio/stories/billy-goats/bigGoes.m4a",
+  "speech": [
+   0.01,
+   1.99
+  ],
+  "speech_fingerprint": "fafa55b0027b2ca078acaac7b0d8acc0c72b7af355a14f097da3e7f52e50ae01"
+ },
+ "tapPlank": {
+  "fingerprint": "d18f7e3b1d03c34be66b87db9cc2109c01521b67ccda108e09750b22c569c991",
+  "text": "走一走！",
+  "file": "assets/audio/stories/billy-goats/tapPlank.m4a",
+  "speech": [
+   0.06,
+   0.83
+  ],
+  "speech_fingerprint": "d18f7e3b1d03c34be66b87db9cc2109c01521b67ccda108e09750b22c569c991"
+ },
+ "who": {
+  "fingerprint": "2f5983b57b95295da7f26d45cb83be65f18d197f958492ad2464a6192b9b1306",
+  "text": "谁在我的桥上？",
+  "file": "assets/audio/stories/billy-goats/who.m4a",
+  "speech": [
+   0.03,
+   1.74
+  ],
+  "speech_fingerprint": "2f5983b57b95295da7f26d45cb83be65f18d197f958492ad2464a6192b9b1306"
+ },
+ "meSmall": {
+  "fingerprint": "95fc955bfb70871dbf7b369e4703ff6b64ac7439c8ef138bd21e2319b93a077f",
+  "text": "是我，小山羊！",
+  "file": "assets/audio/stories/billy-goats/meSmall.m4a",
+  "speech": [
+   0.03,
+   1.94
+  ],
+  "speech_fingerprint": "95fc955bfb70871dbf7b369e4703ff6b64ac7439c8ef138bd21e2319b93a077f"
+ },
+ "meMid": {
+  "fingerprint": "1bef1ff4ef327f22cace58dfb13bd677455be213dc0037a8fb079c55cf65a833",
+  "text": "是我，中山羊！",
+  "file": "assets/audio/stories/billy-goats/meMid.m4a",
+  "speech": [
+   0.03,
+   1.8
+  ],
+  "speech_fingerprint": "1bef1ff4ef327f22cace58dfb13bd677455be213dc0037a8fb079c55cf65a833"
+ },
+ "meBig": {
+  "fingerprint": "f4a22fd9efbfb3a3d7093ba1b4fbe729d69e4d6c8771bee2e674c12a18623fb8",
+  "text": "是我，大山羊！",
+  "file": "assets/audio/stories/billy-goats/meBig.m4a",
+  "speech": [
+   0.03,
+   1.84
+  ],
+  "speech_fingerprint": "f4a22fd9efbfb3a3d7093ba1b4fbe729d69e4d6c8771bee2e674c12a18623fb8"
+ },
+ "eatYou": {
+  "fingerprint": "343610590e640b886f6afae217f79dd19423185f4988fd52a53609ffb0465680",
+  "text": "我要吃掉你！",
+  "file": "assets/audio/stories/billy-goats/eatYou.m4a",
+  "speech": [
+   0.01,
+   1.33
+  ],
+  "speech_fingerprint": "343610590e640b886f6afae217f79dd19423185f4988fd52a53609ffb0465680"
+ },
+ "dontSmall": {
+  "fingerprint": "77d4626032ccaa2c372323aa048c7f239315084a5feabcaa6fc827aff44d84b0",
+  "text": "别吃我！哥哥更大！",
+  "file": "assets/audio/stories/billy-goats/dontSmall.m4a",
+  "speech": [
+   0.02,
+   2.04
+  ],
+  "speech_fingerprint": "77d4626032ccaa2c372323aa048c7f239315084a5feabcaa6fc827aff44d84b0"
+ },
+ "dontMid": {
+  "fingerprint": "77d4626032ccaa2c372323aa048c7f239315084a5feabcaa6fc827aff44d84b0",
+  "text": "别吃我！哥哥更大！",
+  "file": "assets/audio/stories/billy-goats/dontMid.m4a",
+  "speech": [
+   0.02,
+   2.04
+  ],
+  "speech_fingerprint": "77d4626032ccaa2c372323aa048c7f239315084a5feabcaa6fc827aff44d84b0"
+ },
+ "goOn": {
+  "fingerprint": "2a4d49fd0c4b00fcd1d74da17923993452761d6d3d9a894e3345652734104ac9",
+  "text": "好吧，你走吧！",
+  "file": "assets/audio/stories/billy-goats/goOn.m4a",
+  "speech": [
+   0.08,
+   1.72
+  ],
+  "speech_fingerprint": "2a4d49fd0c4b00fcd1d74da17923993452761d6d3d9a894e3345652734104ac9"
+ },
+ "comeOn": {
+  "fingerprint": "22745ce975a3549c09a1ebcba40434e2b46f8962bfd9e5425cf68dd6d2af8fee",
+  "text": "来吧！",
+  "file": "assets/audio/stories/billy-goats/comeOn.m4a",
+  "speech": [
+   0.01,
+   0.58
+  ],
+  "speech_fingerprint": "22745ce975a3549c09a1ebcba40434e2b46f8962bfd9e5425cf68dd6d2af8fee"
+ },
+ "tapBig": {
+  "fingerprint": "d243ce1f1f05d0c6e5bf30b32d921927bec17ec456cb45df7936bbe26626e920",
+  "text": "点一点大山羊！",
+  "file": "assets/audio/stories/billy-goats/tapBig.m4a",
+  "speech": [
+   0.01,
+   1.66
+  ],
+  "speech_fingerprint": "d243ce1f1f05d0c6e5bf30b32d921927bec17ec456cb45df7936bbe26626e920"
+ },
+ "butt": {
+  "fingerprint": "f07299d181b5991ae04bbe41f4f96ef7873cf15d0cb54af1e86016d1e82afb47",
+  "text": "顶！",
+  "file": "assets/audio/stories/billy-goats/butt.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "f07299d181b5991ae04bbe41f4f96ef7873cf15d0cb54af1e86016d1e82afb47"
+ },
+ "fell": {
+  "fingerprint": "116ac02bd9c970d1fd2de35a6feb74522bf0d189be5e0455675acd62c2df6096",
+  "text": "怪兽掉进了河里！",
+  "file": "assets/audio/stories/billy-goats/fell.m4a",
+  "speech": [
+   0.03,
+   1.94
+  ],
+  "speech_fingerprint": "116ac02bd9c970d1fd2de35a6feb74522bf0d189be5e0455675acd62c2df6096"
+ },
+ "swam": {
+  "fingerprint": "fb283d850ce7c9cf2cbdf956463878ec4cc6120085d407897a08ab1e1e1371a1",
+  "text": "怪兽游走了！",
+  "file": "assets/audio/stories/billy-goats/swam.m4a",
+  "speech": [
+   0.03,
+   1.27
+  ],
+  "speech_fingerprint": "fb283d850ce7c9cf2cbdf956463878ec4cc6120085d407897a08ab1e1e1371a1"
+ },
+ "allAcross": {
+  "fingerprint": "7c86f99aa61b454b7b3254931538f93d7f1f3c17bf25ad747b256799f39b47df",
+  "text": "三只山羊过了桥。",
+  "file": "assets/audio/stories/billy-goats/allAcross.m4a",
+  "speech": [
+   0.13,
+   2.05
+  ],
+  "speech_fingerprint": "7c86f99aa61b454b7b3254931538f93d7f1f3c17bf25ad747b256799f39b47df"
+ },
+ "feed": {
+  "fingerprint": "6507b334b96d6c1ece4b9c8cfc4889429293634080b9d09b98f62989098aa27d",
+  "text": "喂山羊吃草！",
+  "file": "assets/audio/stories/billy-goats/feed.m4a",
+  "speech": [
+   0.01,
+   1.49
+  ],
+  "speech_fingerprint": "6507b334b96d6c1ece4b9c8cfc4889429293634080b9d09b98f62989098aa27d"
+ },
+ "yumSmall": {
+  "fingerprint": "0f70d867440e694f783da1d7892b9ebf77e5b6105a72be416ebe838cb177c797",
+  "text": "好吃！",
+  "file": "assets/audio/stories/billy-goats/yumSmall.m4a",
+  "speech": [
+   0.07,
+   0.68
+  ],
+  "speech_fingerprint": "0f70d867440e694f783da1d7892b9ebf77e5b6105a72be416ebe838cb177c797"
+ },
+ "yumMid": {
+  "fingerprint": "0f70d867440e694f783da1d7892b9ebf77e5b6105a72be416ebe838cb177c797",
+  "text": "好吃！",
+  "file": "assets/audio/stories/billy-goats/yumMid.m4a",
+  "speech": [
+   0.07,
+   0.68
+  ],
+  "speech_fingerprint": "0f70d867440e694f783da1d7892b9ebf77e5b6105a72be416ebe838cb177c797"
+ },
+ "yumBig": {
+  "fingerprint": "0f70d867440e694f783da1d7892b9ebf77e5b6105a72be416ebe838cb177c797",
+  "text": "好吃！",
+  "file": "assets/audio/stories/billy-goats/yumBig.m4a",
+  "speech": [
+   0.07,
+   0.68
+  ],
+  "speech_fingerprint": "0f70d867440e694f783da1d7892b9ebf77e5b6105a72be416ebe838cb177c797"
+ },
+ "full": {
+  "fingerprint": "fb6fc998a9e1994911c8cd0fafb41314fb58fb05edd9402d776c811b0cef3811",
+  "text": "三只山羊吃得饱饱的！",
+  "file": "assets/audio/stories/billy-goats/full.m4a",
+  "speech": [
+   0.13,
+   2.27
+  ],
+  "speech_fingerprint": "fb6fc998a9e1994911c8cd0fafb41314fb58fb05edd9402d776c811b0cef3811"
+ },
+ "word-goat": {
+  "fingerprint": "3ae54cf4a999ba054ae8117fc0b2a193fe99fd1217daa71091d875cac8dde3c8",
+  "text": "山羊",
+  "file": "assets/audio/stories/billy-goats/word-goat.m4a",
+  "speech": [
+   0.03,
+   0.66
+  ],
+  "speech_fingerprint": "3ae54cf4a999ba054ae8117fc0b2a193fe99fd1217daa71091d875cac8dde3c8"
+ },
+ "word-middle": {
+  "fingerprint": "d3ae25e930f5d4c94a4ff59f94eef229aa025e677ee27a51067e91b1479bb413",
+  "text": "中",
+  "file": "assets/audio/stories/billy-goats/word-middle.m4a",
+  "speech": [
+   0.02,
+   0.34
+  ],
+  "speech_fingerprint": "d3ae25e930f5d4c94a4ff59f94eef229aa025e677ee27a51067e91b1479bb413"
+ },
+ "word-bigger": {
+  "fingerprint": "732ec868766db79f6b536b998fca94fee55e6fd80d3fae98d55db5a679778647",
+  "text": "更大",
+  "file": "assets/audio/stories/billy-goats/word-bigger.m4a",
+  "speech": [
+   0.02,
+   0.52
+  ],
+  "speech_fingerprint": "732ec868766db79f6b536b998fca94fee55e6fd80d3fae98d55db5a679778647"
+ },
+ "word-bridge": {
+  "fingerprint": "007d2a80b589fe6ec93acd60d8b111fa2723ba87039653a52ce9eb7df228bfd9",
+  "text": "桥",
+  "file": "assets/audio/stories/billy-goats/word-bridge.m4a",
+  "speech": [
+   0.03,
+   0.43
+  ],
+  "speech_fingerprint": "007d2a80b589fe6ec93acd60d8b111fa2723ba87039653a52ce9eb7df228bfd9"
+ },
+ "word-river": {
+  "fingerprint": "d40e4df0b70d42ec3830c7a3255cbcdc1bfd48bbb6e53a9c233aee9a94907cc9",
+  "text": "河",
+  "file": "assets/audio/stories/billy-goats/word-river.m4a",
+  "speech": [
+   0.09,
+   0.37
+  ],
+  "speech_fingerprint": "d40e4df0b70d42ec3830c7a3255cbcdc1bfd48bbb6e53a9c233aee9a94907cc9"
+ },
+ "word-under": {
+  "fingerprint": "fbc0f6f99685e7410de61e28163c31d7b651fb3aad3dac7c6a9a757b03225490",
+  "text": "下",
+  "file": "assets/audio/stories/billy-goats/word-under.m4a",
+  "speech": [
+   0.03,
+   0.37
+  ],
+  "speech_fingerprint": "fbc0f6f99685e7410de61e28163c31d7b651fb3aad3dac7c6a9a757b03225490"
+ },
+ "word-monster": {
+  "fingerprint": "d458054feb36ffdeafe17b38702a7f3ede0c6d0f876b31d425d543f3cfee1325",
+  "text": "怪兽",
+  "file": "assets/audio/stories/billy-goats/word-monster.m4a",
+  "speech": [
+   0.03,
+   0.62
+  ],
+  "speech_fingerprint": "d458054feb36ffdeafe17b38702a7f3ede0c6d0f876b31d425d543f3cfee1325"
+ },
+ "word-walk": {
+  "fingerprint": "3b35c371db41ecdaa7859e9baa6e7f03781241ac2ad339aea207a01efe1caab9",
+  "text": "走",
+  "file": "assets/audio/stories/billy-goats/word-walk.m4a",
+  "speech": [
+   0.06,
+   0.33
+  ],
+  "speech_fingerprint": "3b35c371db41ecdaa7859e9baa6e7f03781241ac2ad339aea207a01efe1caab9"
+ },
+ "word-butt": {
+  "fingerprint": "424c26c29c40f07853dbb3ca6963fecd89988795bc31d8c86e5191b8c988b1d6",
+  "text": "顶",
+  "file": "assets/audio/stories/billy-goats/word-butt.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "424c26c29c40f07853dbb3ca6963fecd89988795bc31d8c86e5191b8c988b1d6"
+ },
+ "word-swim": {
+  "fingerprint": "39edbfc41863728081d579f4451905fc427c7714df8b815fa38d75f942656183",
+  "text": "游",
+  "file": "assets/audio/stories/billy-goats/word-swim.m4a",
+  "speech": [
+   0.01,
+   0.36
+  ],
+  "speech_fingerprint": "39edbfc41863728081d579f4451905fc427c7714df8b815fa38d75f942656183"
+ },
+ "word-yummy": {
+  "fingerprint": "a23f48f724ae0ba447c0db153bf25e9203416190068303cc2eba6cdf593aa2f9",
+  "text": "好吃",
+  "file": "assets/audio/stories/billy-goats/word-yummy.m4a",
+  "speech": [
+   0.07,
+   0.68
+  ],
+  "speech_fingerprint": "a23f48f724ae0ba447c0db153bf25e9203416190068303cc2eba6cdf593aa2f9"
+ },
+ "word-full": {
+  "fingerprint": "243ab6a6ad207d41193edfd5cbc0952b4a2ba0fbcfac2074046998d2aa80b2f2",
+  "text": "饱",
+  "file": "assets/audio/stories/billy-goats/word-full.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "243ab6a6ad207d41193edfd5cbc0952b4a2ba0fbcfac2074046998d2aa80b2f2"
+ }
+}

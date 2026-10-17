@@ -1,0 +1,483 @@
+{
+  "id": "billy-goats",
+  "title": "三只山羊过桥",
+  "english": "The three billy goats",
+  "voices": {
+    "goatSmall": {
+      "rate": 1.3,
+      "keep": false,
+      "tint": "#fff6e6"
+    },
+    "goatMid": {
+      "rate": 1.05,
+      "keep": false,
+      "tint": "#f6ead3"
+    },
+    "goatBig": {
+      "rate": 0.76,
+      "keep": false,
+      "tint": "#ecdcc4"
+    },
+    "troll": {
+      "rate": 0.68,
+      "keep": false,
+      "tint": "#dff0e6"
+    }
+  },
+  "lines": {
+    "once": {
+      "speaker": "narrator",
+      "hanzi": "从前，有三只山羊。",
+      "pinyin": "Cóngqián, yǒu sān zhī shānyáng.",
+      "english": "Once upon a time, there were three goats.",
+      "cues": [
+        [
+          "三只山羊",
+          "goats"
+        ]
+      ]
+    },
+    "sizes": {
+      "speaker": "narrator",
+      "hanzi": "小山羊、中山羊、大山羊。",
+      "pinyin": "Xiǎo shānyáng, zhōng shānyáng, dà shānyáng.",
+      "english": "A small goat, a middle goat and a big goat.",
+      "cues": [
+        [
+          "小山羊",
+          "goat-small"
+        ],
+        [
+          "中山羊",
+          "goat-mid"
+        ],
+        [
+          "大山羊",
+          "goat-big"
+        ]
+      ]
+    },
+    "likeGrass": {
+      "speaker": "narrator",
+      "hanzi": "山羊喜欢吃草。",
+      "pinyin": "Shānyáng xǐhuan chī cǎo.",
+      "english": "Goats like to eat grass.",
+      "cues": [
+        [
+          "草",
+          "grass"
+        ]
+      ]
+    },
+    "otherSide": {
+      "speaker": "narrator",
+      "hanzi": "河那边的草很多！",
+      "pinyin": "Hé nàbiān de cǎo hěn duō!",
+      "english": "There is lots of grass across the river!",
+      "cues": [
+        [
+          "河",
+          "river"
+        ],
+        [
+          "草",
+          "grass"
+        ]
+      ]
+    },
+    "crossing": {
+      "speaker": "narrator",
+      "hanzi": "他们要过桥。",
+      "pinyin": "Tāmen yào guò qiáo.",
+      "english": "They want to cross the bridge.",
+      "cues": [
+        [
+          "桥",
+          "bridge"
+        ]
+      ]
+    },
+    "monster": {
+      "speaker": "narrator",
+      "hanzi": "桥下住着一个大怪兽。",
+      "pinyin": "Qiáo xià zhù zhe yí gè dà guàishòu.",
+      "english": "Under the bridge lives a big monster.",
+      "cues": [
+        [
+          "桥下",
+          "bridge"
+        ],
+        [
+          "怪兽",
+          "troll"
+        ]
+      ]
+    },
+    "smallGoes": {
+      "speaker": "narrator",
+      "hanzi": "小山羊走上了桥。",
+      "pinyin": "Xiǎo shānyáng zǒu shàng le qiáo.",
+      "english": "The small goat steps onto the bridge.",
+      "cues": [
+        [
+          "小山羊",
+          "goat-small"
+        ],
+        [
+          "桥",
+          "bridge"
+        ]
+      ]
+    },
+    "midGoes": {
+      "speaker": "narrator",
+      "hanzi": "中山羊走上了桥。",
+      "pinyin": "Zhōng shānyáng zǒu shàng le qiáo.",
+      "english": "The middle goat steps onto the bridge.",
+      "cues": [
+        [
+          "中山羊",
+          "goat-mid"
+        ],
+        [
+          "桥",
+          "bridge"
+        ]
+      ]
+    },
+    "bigGoes": {
+      "speaker": "narrator",
+      "hanzi": "大山羊走上了桥。",
+      "pinyin": "Dà shānyáng zǒu shàng le qiáo.",
+      "english": "The big goat steps onto the bridge.",
+      "cues": [
+        [
+          "大山羊",
+          "goat-big"
+        ],
+        [
+          "桥",
+          "bridge"
+        ]
+      ]
+    },
+    "tapPlank": {
+      "speaker": "narrator",
+      "hanzi": "走一走！",
+      "pinyin": "Zǒu yi zǒu!",
+      "english": "Walk across!",
+      "cues": [
+        [
+          "走",
+          "bridge"
+        ]
+      ]
+    },
+    "who": {
+      "speaker": "troll",
+      "hanzi": "谁在我的桥上？",
+      "pinyin": "Shéi zài wǒ de qiáo shang?",
+      "english": "Who is on my bridge?",
+      "cues": [
+        [
+          "桥",
+          "bridge"
+        ]
+      ]
+    },
+    "meSmall": {
+      "speaker": "goatSmall",
+      "hanzi": "是我，小山羊！",
+      "pinyin": "Shì wǒ, xiǎo shānyáng!",
+      "english": "It’s me, the small goat!",
+      "cues": [
+        [
+          "小山羊",
+          "goat-small"
+        ]
+      ]
+    },
+    "meMid": {
+      "speaker": "goatMid",
+      "hanzi": "是我，中山羊！",
+      "pinyin": "Shì wǒ, zhōng shānyáng!",
+      "english": "It’s me, the middle goat!",
+      "cues": [
+        [
+          "中山羊",
+          "goat-mid"
+        ]
+      ]
+    },
+    "meBig": {
+      "speaker": "goatBig",
+      "hanzi": "是我，大山羊！",
+      "pinyin": "Shì wǒ, dà shānyáng!",
+      "english": "It’s me, the big goat!",
+      "cues": [
+        [
+          "大山羊",
+          "goat-big"
+        ]
+      ]
+    },
+    "eatYou": {
+      "speaker": "troll",
+      "hanzi": "我要吃掉你！",
+      "pinyin": "Wǒ yào chī diào nǐ!",
+      "english": "I’m going to eat you up!",
+      "cues": [
+        [
+          "吃",
+          "troll"
+        ]
+      ]
+    },
+    "dontSmall": {
+      "speaker": "goatSmall",
+      "hanzi": "别吃我！哥哥更大！",
+      "pinyin": "Bié chī wǒ! Gēge gèng dà!",
+      "english": "Don’t eat me! My big brother is bigger!",
+      "cues": [
+        [
+          "哥哥更大",
+          "goat-mid"
+        ]
+      ]
+    },
+    "dontMid": {
+      "speaker": "goatMid",
+      "hanzi": "别吃我！哥哥更大！",
+      "pinyin": "Bié chī wǒ! Gēge gèng dà!",
+      "english": "Don’t eat me! My big brother is bigger!",
+      "cues": [
+        [
+          "哥哥更大",
+          "goat-big"
+        ]
+      ]
+    },
+    "goOn": {
+      "speaker": "troll",
+      "hanzi": "好吧，你走吧！",
+      "pinyin": "Hǎo ba, nǐ zǒu ba!",
+      "english": "All right, off you go!",
+      "cues": [
+        [
+          "走",
+          "troll"
+        ]
+      ]
+    },
+    "comeOn": {
+      "speaker": "goatBig",
+      "hanzi": "来吧！",
+      "pinyin": "Lái ba!",
+      "english": "Come on, then!",
+      "cues": [
+        [
+          "来",
+          "goat-big"
+        ]
+      ]
+    },
+    "tapBig": {
+      "speaker": "narrator",
+      "hanzi": "点一点大山羊！",
+      "pinyin": "Diǎn yi diǎn dà shānyáng!",
+      "english": "Tap the big goat!",
+      "cues": [
+        [
+          "大山羊",
+          "goat-big"
+        ]
+      ]
+    },
+    "butt": {
+      "speaker": "narrator",
+      "hanzi": "顶！",
+      "pinyin": "Dǐng!",
+      "english": "Headbutt!",
+      "cues": [
+        [
+          "顶",
+          "goat-big"
+        ]
+      ]
+    },
+    "fell": {
+      "speaker": "narrator",
+      "hanzi": "怪兽掉进了河里！",
+      "pinyin": "Guàishòu diào jìn le hé lǐ!",
+      "english": "The monster fell into the river!",
+      "cues": [
+        [
+          "怪兽",
+          "troll"
+        ],
+        [
+          "河",
+          "river"
+        ]
+      ]
+    },
+    "swam": {
+      "speaker": "narrator",
+      "hanzi": "怪兽游走了！",
+      "pinyin": "Guàishòu yóu zǒu le!",
+      "english": "The monster swam away!",
+      "cues": [
+        [
+          "怪兽",
+          "troll"
+        ]
+      ]
+    },
+    "allAcross": {
+      "speaker": "narrator",
+      "hanzi": "三只山羊过了桥。",
+      "pinyin": "Sān zhī shānyáng guò le qiáo.",
+      "english": "The three goats crossed the bridge.",
+      "cues": [
+        [
+          "三只山羊",
+          "goats"
+        ]
+      ]
+    },
+    "feed": {
+      "speaker": "narrator",
+      "hanzi": "喂山羊吃草！",
+      "pinyin": "Wèi shānyáng chī cǎo!",
+      "english": "Feed the goats some grass!",
+      "cues": [
+        [
+          "草",
+          "grass"
+        ]
+      ]
+    },
+    "yumSmall": {
+      "speaker": "goatSmall",
+      "hanzi": "好吃！",
+      "pinyin": "Hǎochī!",
+      "english": "Yummy!",
+      "cues": [
+        [
+          "好吃",
+          "goat-small"
+        ]
+      ]
+    },
+    "yumMid": {
+      "speaker": "goatMid",
+      "hanzi": "好吃！",
+      "pinyin": "Hǎochī!",
+      "english": "Yummy!",
+      "cues": [
+        [
+          "好吃",
+          "goat-mid"
+        ]
+      ]
+    },
+    "yumBig": {
+      "speaker": "goatBig",
+      "hanzi": "好吃！",
+      "pinyin": "Hǎochī!",
+      "english": "Yummy!",
+      "cues": [
+        [
+          "好吃",
+          "goat-big"
+        ]
+      ]
+    },
+    "full": {
+      "speaker": "narrator",
+      "hanzi": "三只山羊吃得饱饱的！",
+      "pinyin": "Sān zhī shānyáng chī de bǎobǎo de!",
+      "english": "The three goats are nice and full!",
+      "cues": [
+        [
+          "三只山羊",
+          "goats"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "goat",
+      "hanzi": "山羊",
+      "pinyin": "shānyáng",
+      "english": "goat"
+    },
+    {
+      "id": "middle",
+      "hanzi": "中",
+      "pinyin": "zhōng",
+      "english": "middle"
+    },
+    {
+      "id": "bigger",
+      "hanzi": "更大",
+      "pinyin": "gèng dà",
+      "english": "bigger"
+    },
+    {
+      "id": "bridge",
+      "hanzi": "桥",
+      "pinyin": "qiáo",
+      "english": "bridge"
+    },
+    {
+      "id": "river",
+      "hanzi": "河",
+      "pinyin": "hé",
+      "english": "river"
+    },
+    {
+      "id": "under",
+      "hanzi": "下",
+      "pinyin": "xià",
+      "english": "under, below"
+    },
+    {
+      "id": "monster",
+      "hanzi": "怪兽",
+      "pinyin": "guàishòu",
+      "english": "monster"
+    },
+    {
+      "id": "walk",
+      "hanzi": "走",
+      "pinyin": "zǒu",
+      "english": "to walk"
+    },
+    {
+      "id": "butt",
+      "hanzi": "顶",
+      "pinyin": "dǐng",
+      "english": "to headbutt"
+    },
+    {
+      "id": "swim",
+      "hanzi": "游",
+      "pinyin": "yóu",
+      "english": "to swim"
+    },
+    {
+      "id": "yummy",
+      "hanzi": "好吃",
+      "pinyin": "hǎochī",
+      "english": "yummy, tasty"
+    },
+    {
+      "id": "full",
+      "hanzi": "饱",
+      "pinyin": "bǎo",
+      "english": "full (after eating)"
+    }
+  ]
+}

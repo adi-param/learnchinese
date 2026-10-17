@@ -221,6 +221,8 @@ const sounds={
   g.gain.setValueAtTime(0,t+.15);g.gain.linearRampToValueAtTime(.12,t+.25);g.gain.exponentialRampToValueAtTime(.001,t+.9);source.connect(filter).connect(g).connect(c.destination);source.start(t);},
  // Not that one: a short low buzz.
  beep(){const c=sound();if(!c)return;const t=c.currentTime;tone(c,'square',180,t,.22,.06);},
+ // A hoof on wooden planks; `size` from 1 (small, light) up to 3 (big, deep).
+ clop(size=1){const c=sound();if(!c)return;const t=c.currentTime,f=1100/size,v=.12+size*.08;const a=tone(c,'triangle',f,t,.08,v);a.frequency.exponentialRampToValueAtTime(f*.5,t+.07);const b=tone(c,'triangle',f*.85,t+.13,.08,v*.8);b.frequency.exponentialRampToValueAtTime(f*.45,t+.2);},
  // A clock ticking: two short wooden clicks.
  tick(){const c=sound();if(!c)return;const t=c.currentTime;tone(c,'square',1800,t,.03,.08);tone(c,'square',1400,t+.18,.03,.08);},
  // A big clock bell: a low note with a few ringing overtones.
