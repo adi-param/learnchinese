@@ -16,7 +16,12 @@ const SPEEDS=[.75,1,1.25,1.5];
 let speed=(()=>{try{const saved=Number(localStorage.getItem('story-speed'));return SPEEDS.includes(saved)?saved:1;}catch{return 1;}})();
 const PAUSE=/[\p{P}\s]/u;
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const chars=text=>[...text].map(c=>`<span class="ch">${escape(c)}</span>`).join('');
+// A line in units: each Chinese character is one, and an English name (Ira, Spider-Man) is one, so a name lights
+// up whole while it is said. A name takes longer to say than one character, so it counts for more of the time.
+const units=text=>text.match(/[A-Za-z][A-Za-z'’-]*|[\s\S]/gu)||[];
+const weight=unit=>/^\s$/.test(unit)?.3:PAUSE.test(unit)?1.5:/^[A-Za-z]/.test(unit)?Math.max(1,unit.length*.3):1;
+// Punctuation stays on the same line as the character before it.
+const chars=text=>units(text).reduce((groups,c)=>{const span=`<span class="ch">${escape(c)}</span>`;if(groups.length&&PAUSE.test(c)&&!/\s/.test(c))groups[groups.length-1]+=span;else groups.push(span);return groups;},[]).map(g=>`<span class="ch-group">${g}</span>`).join('');
 const url=path=>new URL('../'+path,import.meta.url).href;
 const audio=new Audio();audio.preload='auto';
 const loaded=new Map();
@@ -128,7 +133,7 @@ function say(key,t){
   const rate=voice.rate*speed;
   audio.src=clipUrl(key);audio.preservesPitch=audio.webkitPreservesPitch=voice.keep;audio.defaultPlaybackRate=audio.playbackRate=rate;
   audio.play().then(()=>{audio.playbackRate=rate;karaoke(line,key);}).catch(()=>done(false));
- }).then(async ok=>{alive(t);if(!ok)await wait(300+[...line.hanzi].length*250,t);});
+ }).then(async ok=>{alive(t);if(!ok)await wait(300+units(line.hanzi).reduce((sum,u)=>sum+weight(u),0)*250,t);});
 }
 function playWord(id){
  finishLine?.(false);audio.onended=audio.onerror=null;
@@ -138,15 +143,15 @@ function playWord(id){
 // The character being said lights up, and so does the thing in the picture its word names. A named thing
 // bounces as it is said and keeps glowing until the line ends.
 function cueRanges(line){
- const text=[...line.hanzi],ranges=[];
- for(const [word,target] of line.cues){const w=[...word];for(let i=0;i+w.length<=text.length;i++)if(w.every((c,j)=>text[i+j]===c))ranges.push({from:i,to:i+w.length,target});}
+ const text=units(line.hanzi),ranges=[];
+ for(const [word,target] of line.cues){const w=units(word);for(let i=0;i+w.length<=text.length;i++)if(w.every((c,j)=>text[i+j]===c))ranges.push({from:i,to:i+w.length,target});}
  return ranges;
 }
 function setCues(active,lit){stage().querySelectorAll('[data-cue]').forEach(el=>{const names=el.dataset.cue.split(' ');el.classList.toggle('cue',names.some(n=>active.has(n)));el.classList.toggle('lit',names.some(n=>lit.has(n)));});}
 function karaoke(line,key){
  cancelAnimationFrame(frame);
- const text=[...line.hanzi],spans=[...$('.story-line .hanzi').querySelectorAll('.ch')],ranges=cueRanges(line),lit=new Set();
- const weights=text.map(c=>PAUSE.test(c)?1.5:1),total=weights.reduce((a,b)=>a+b,0);
+ const text=units(line.hanzi),spans=[...$('.story-line .hanzi').querySelectorAll('.ch')],ranges=cueRanges(line),lit=new Set();
+ const weights=text.map(weight),total=weights.reduce((a,b)=>a+b,0);
  const tick=()=>{
   const span=clips[key]?.speech||[0,audio.duration||1];
   let index=-1;
@@ -206,6 +211,16 @@ const sounds={
   filter.type='lowpass';filter.frequency.setValueAtTime(1400,t);filter.frequency.exponentialRampToValueAtTime(200,t+1.2);
   g.gain.setValueAtTime(.5,t);g.gain.exponentialRampToValueAtTime(.001,t+1.3);source.connect(filter).connect(g).connect(c.destination);source.start(t);
  },
+ // A web shooting out: a quick, high hiss.
+ thwip(){const c=sound();if(!c)return;const t=c.currentTime,source=noise(c,.18),filter=c.createBiquadFilter(),g=c.createGain();
+  filter.type='bandpass';filter.Q.value=2;filter.frequency.setValueAtTime(5000,t);filter.frequency.exponentialRampToValueAtTime(1800,t+.15);
+  g.gain.setValueAtTime(.25,t);g.gain.exponentialRampToValueAtTime(.001,t+.18);source.connect(filter).connect(g).connect(c.destination);source.start(t);},
+ // A firework: a soft boom, then crackle.
+ boom(){const c=sound();if(!c)return;const t=c.currentTime,o=tone(c,'sine',120,t,.5,.5);o.frequency.exponentialRampToValueAtTime(40,t+.4);
+  const source=noise(c,.8),filter=c.createBiquadFilter(),g=c.createGain();filter.type='highpass';filter.frequency.value=2500;
+  g.gain.setValueAtTime(0,t+.15);g.gain.linearRampToValueAtTime(.12,t+.25);g.gain.exponentialRampToValueAtTime(.001,t+.9);source.connect(filter).connect(g).connect(c.destination);source.start(t);},
+ // Not that one: a short low buzz.
+ beep(){const c=sound();if(!c)return;const t=c.currentTime;tone(c,'square',180,t,.22,.06);},
  // A clock ticking: two short wooden clicks.
  tick(){const c=sound();if(!c)return;const t=c.currentTime;tone(c,'square',1800,t,.03,.08);tone(c,'square',1400,t+.18,.03,.08);},
  // A big clock bell: a low note with a few ringing overtones.

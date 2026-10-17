@@ -1,0 +1,462 @@
+{
+ "here": {
+  "fingerprint": "04855a27badd85682f47415d33cba11b6bd6a484a801275f35240d0cc8138203",
+  "text": "这是新加坡。",
+  "file": "assets/audio/stories/spidey-singapore/here.m4a",
+  "speech": [
+   0.02,
+   1.4
+  ],
+  "speech_fingerprint": "04855a27badd85682f47415d33cba11b6bd6a484a801275f35240d0cc8138203"
+ },
+ "mbs": {
+  "fingerprint": "d2a82b140e0c7d80001e7db3f0a75f15ce33d316285df056ff5a78cfa7e918db",
+  "text": "这是滨海湾金沙。",
+  "file": "assets/audio/stories/spidey-singapore/mbs.m4a",
+  "speech": [
+   0.02,
+   1.94
+  ],
+  "speech_fingerprint": "d2a82b140e0c7d80001e7db3f0a75f15ce33d316285df056ff5a78cfa7e918db"
+ },
+ "merlion": {
+  "fingerprint": "71276c4a824ec9d463dc235a4124c31c6c4972fb44c4aaabb350944b92c305f3",
+  "text": "这是鱼尾狮。",
+  "file": "assets/audio/stories/spidey-singapore/merlion.m4a",
+  "speech": [
+   0.01,
+   1.38
+  ],
+  "speech_fingerprint": "71276c4a824ec9d463dc235a4124c31c6c4972fb44c4aaabb350944b92c305f3"
+ },
+ "team": {
+  "fingerprint": "3d04b9223ff79166f910db3faff899c3290eeb385afda32838b01793c462021b",
+  "text": "Spider-Man、Ghost-Spider、Spin，还有 Ira！",
+  "file": "assets/audio/stories/spidey-singapore/team.m4a",
+  "speech": [
+   0.04,
+   4.87
+  ],
+  "speech_fingerprint": "3d04b9223ff79166f910db3faff899c3290eeb385afda32838b01793c462021b"
+ },
+ "squad": {
+  "fingerprint": "ff4d41db911aa8c2465ce9dcdefb59ac2c8891c230e5e764c9b7e4dab3e2bb62",
+  "text": "他们是蜘蛛小队！",
+  "file": "assets/audio/stories/spidey-singapore/squad.m4a",
+  "speech": [
+   0.02,
+   1.79
+  ],
+  "speech_fingerprint": "ff4d41db911aa8c2465ce9dcdefb59ac2c8891c230e5e764c9b7e4dab3e2bb62"
+ },
+ "tapTeam": {
+  "fingerprint": "599fb859653ad28b67319c58151b76f2d54957983ce850ea0699bb7d6b58e0f7",
+  "text": "点一点蜘蛛小队！",
+  "file": "assets/audio/stories/spidey-singapore/tapTeam.m4a",
+  "speech": [
+   0.0,
+   1.88
+  ],
+  "speech_fingerprint": "599fb859653ad28b67319c58151b76f2d54957983ce850ea0699bb7d6b58e0f7"
+ },
+ "go": {
+  "fingerprint": "ef8a769a099e52cd426d18702b671c46e677d6a5c38c9840210f8c2e5c24bd77",
+  "text": "蜘蛛小队，出发！",
+  "file": "assets/audio/stories/spidey-singapore/go.m4a",
+  "speech": [
+   0.02,
+   2.08
+  ],
+  "speech_fingerprint": "ef8a769a099e52cd426d18702b671c46e677d6a5c38c9840210f8c2e5c24bd77"
+ },
+ "gardens": {
+  "fingerprint": "d0b2b37ddd6a0ed33b69d7c5345adea8238df2a625274e466ed2ebaa6741c29e",
+  "text": "这是滨海湾花园。",
+  "file": "assets/audio/stories/spidey-singapore/gardens.m4a",
+  "speech": [
+   0.02,
+   2.04
+  ],
+  "speech_fingerprint": "d0b2b37ddd6a0ed33b69d7c5345adea8238df2a625274e466ed2ebaa6741c29e"
+ },
+ "goblinCame": {
+  "fingerprint": "757e2951a71ef02076a1648fc608f17abe6d615b3d4c00e5da6ee76c179acb54",
+  "text": "Green Goblin 来了！",
+  "file": "assets/audio/stories/spidey-singapore/goblinCame.m4a",
+  "speech": [
+   0.02,
+   1.42
+  ],
+  "speech_fingerprint": "757e2951a71ef02076a1648fc608f17abe6d615b3d4c00e5da6ee76c179acb54"
+ },
+ "dino": {
+  "fingerprint": "b9cd63f4b2816e22fc45b2ea5e77a7559f3a3a67d6a4ab0047e54d3abe103621",
+  "text": "他有一只大机器恐龙！",
+  "file": "assets/audio/stories/spidey-singapore/dino.m4a",
+  "speech": [
+   0.04,
+   2.38
+  ],
+  "speech_fingerprint": "b9cd63f4b2816e22fc45b2ea5e77a7559f3a3a67d6a4ab0047e54d3abe103621"
+ },
+ "stomp": {
+  "fingerprint": "e13b011df360aad3709aeb4e4ab9fd1a92184b6cb9c98466913b7dac72ce133c",
+  "text": "踩！踩！踩！",
+  "file": "assets/audio/stories/spidey-singapore/stomp.m4a",
+  "speech": [
+   0.05,
+   1.68
+  ],
+  "speech_fingerprint": "e13b011df360aad3709aeb4e4ab9fd1a92184b6cb9c98466913b7dac72ce133c"
+ },
+ "laugh": {
+  "fingerprint": "fa97f2dfa9e03eff423aa47a4baa351c4021e11b6709b446a07c1a467b0a4405",
+  "text": "哈哈哈！",
+  "file": "assets/audio/stories/spidey-singapore/laugh.m4a",
+  "speech": [
+   0.06,
+   0.96
+  ],
+  "speech_fingerprint": "fa97f2dfa9e03eff423aa47a4baa351c4021e11b6709b446a07c1a467b0a4405"
+ },
+ "dark": {
+  "fingerprint": "1101e4873fb935338a9c310b20a4dd3699db887028a2f01db4df336c924380e5",
+  "text": "灯都灭了！",
+  "file": "assets/audio/stories/spidey-singapore/dark.m4a",
+  "speech": [
+   0.01,
+   0.89
+  ],
+  "speech_fingerprint": "1101e4873fb935338a9c310b20a4dd3699db887028a2f01db4df336c924380e5"
+ },
+ "tapTree": {
+  "fingerprint": "3f581fb6fda9adcaa706e32ed21252871d4213c50c2358b38faa378562090bb9",
+  "text": "点一点超级树！",
+  "file": "assets/audio/stories/spidey-singapore/tapTree.m4a",
+  "speech": [
+   0.0,
+   1.62
+  ],
+  "speech_fingerprint": "3f581fb6fda9adcaa706e32ed21252871d4213c50c2358b38faa378562090bb9"
+ },
+ "swing": {
+  "fingerprint": "bf6213addaf08273ce2402da17c417f7b5a82c5a565c52f2ede9d6643ed7ef0a",
+  "text": "荡过去！",
+  "file": "assets/audio/stories/spidey-singapore/swing.m4a",
+  "speech": [
+   0.01,
+   0.83
+  ],
+  "speech_fingerprint": "bf6213addaf08273ce2402da17c417f7b5a82c5a565c52f2ede9d6643ed7ef0a"
+ },
+ "lightsOn": {
+  "fingerprint": "aa65b4bee5d4ed98770a3b5eecc943059f88a314904e49ccc77c45f55ca41ee3",
+  "text": "灯亮了！",
+  "file": "assets/audio/stories/spidey-singapore/lightsOn.m4a",
+  "speech": [
+   0.01,
+   0.65
+  ],
+  "speech_fingerprint": "aa65b4bee5d4ed98770a3b5eecc943059f88a314904e49ccc77c45f55ca41ee3"
+ },
+ "tapLegs": {
+  "fingerprint": "f14b87c45c739c35ea820df2e007aa8d8037979d5b17064c8d019e8bb4057749",
+  "text": "用网绑住恐龙！",
+  "file": "assets/audio/stories/spidey-singapore/tapLegs.m4a",
+  "speech": [
+   0.01,
+   1.7
+  ],
+  "speech_fingerprint": "f14b87c45c739c35ea820df2e007aa8d8037979d5b17064c8d019e8bb4057749"
+ },
+ "web": {
+  "fingerprint": "1012eac25c7b5fb995cb1098f38681b7c938c3d7cdf3f76b8452f1d47d86240c",
+  "text": "射网！",
+  "file": "assets/audio/stories/spidey-singapore/web.m4a",
+  "speech": [
+   0.03,
+   0.58
+  ],
+  "speech_fingerprint": "1012eac25c7b5fb995cb1098f38681b7c938c3d7cdf3f76b8452f1d47d86240c"
+ },
+ "tied": {
+  "fingerprint": "7d7c21d8230fc1cc8930476372438d322017ce5a0911da435790aa6b03290e7f",
+  "text": "绑住了！",
+  "file": "assets/audio/stories/spidey-singapore/tied.m4a",
+  "speech": [
+   0.01,
+   0.65
+  ],
+  "speech_fingerprint": "7d7c21d8230fc1cc8930476372438d322017ce5a0911da435790aa6b03290e7f"
+ },
+ "pressRed": {
+  "fingerprint": "2af99c21a72832d57fe0ba7f12797beaac6bb1f8e4fbfee36c68c2f673d2ea56",
+  "text": "按红色的按钮！",
+  "file": "assets/audio/stories/spidey-singapore/pressRed.m4a",
+  "speech": [
+   0.01,
+   1.53
+  ],
+  "speech_fingerprint": "2af99c21a72832d57fe0ba7f12797beaac6bb1f8e4fbfee36c68c2f673d2ea56"
+ },
+ "wrong": {
+  "fingerprint": "60eb5e7ca49ef0bbe9d70b54d579ddffdd755a09b69c9f2db3c9c30110c9e16a",
+  "text": "不对，再试试！",
+  "file": "assets/audio/stories/spidey-singapore/wrong.m4a",
+  "speech": [
+   0.02,
+   1.8
+  ],
+  "speech_fingerprint": "60eb5e7ca49ef0bbe9d70b54d579ddffdd755a09b69c9f2db3c9c30110c9e16a"
+ },
+ "asleep": {
+  "fingerprint": "47ce52aa284afa0c147e53bb0be0e81280a2fdb536225079755952c33e776e14",
+  "text": "恐龙睡着了！",
+  "file": "assets/audio/stories/spidey-singapore/asleep.m4a",
+  "speech": [
+   0.06,
+   1.19
+  ],
+  "speech_fingerprint": "47ce52aa284afa0c147e53bb0be0e81280a2fdb536225079755952c33e776e14"
+ },
+ "flyUp": {
+  "fingerprint": "49e9d1ff459a17805c9b03e6622c8ff8525b80918d1ae7bd206a8075f7a303c9",
+  "text": "Green Goblin 飞到了楼顶！",
+  "file": "assets/audio/stories/spidey-singapore/flyUp.m4a",
+  "speech": [
+   0.02,
+   2.29
+  ],
+  "speech_fingerprint": "49e9d1ff459a17805c9b03e6622c8ff8525b80918d1ae7bd206a8075f7a303c9"
+ },
+ "tapClimb": {
+  "fingerprint": "bd7b02f9aab0f847c0008fdc3243ddf0b4b3bec765a693bf6470644fbac9f102",
+  "text": "往上爬！",
+  "file": "assets/audio/stories/spidey-singapore/tapClimb.m4a",
+  "speech": [
+   0.01,
+   0.95
+  ],
+  "speech_fingerprint": "bd7b02f9aab0f847c0008fdc3243ddf0b4b3bec765a693bf6470644fbac9f102"
+ },
+ "tapGoblin": {
+  "fingerprint": "b6add3845438e8dc95f586db1f7f2886503d0099fb49d746c09aaf25073c76d0",
+  "text": "点一点 Green Goblin！",
+  "file": "assets/audio/stories/spidey-singapore/tapGoblin.m4a",
+  "speech": [
+   0.01,
+   1.91
+  ],
+  "speech_fingerprint": "b6add3845438e8dc95f586db1f7f2886503d0099fb49d746c09aaf25073c76d0"
+ },
+ "caught": {
+  "fingerprint": "e25ccafae64c5a8a73e0c036f89eb035b3ffd0947eb2713655700a5e89b34774",
+  "text": "抓住你了！",
+  "file": "assets/audio/stories/spidey-singapore/caught.m4a",
+  "speech": [
+   0.02,
+   0.84
+  ],
+  "speech_fingerprint": "e25ccafae64c5a8a73e0c036f89eb035b3ffd0947eb2713655700a5e89b34774"
+ },
+ "oops": {
+  "fingerprint": "949f353ce62f2f3525cd5045d6ee095c82480b3c9aa2cc623f63b584733c0d61",
+  "text": "哎呀！",
+  "file": "assets/audio/stories/spidey-singapore/oops.m4a",
+  "speech": [
+   0.01,
+   0.58
+  ],
+  "speech_fingerprint": "949f353ce62f2f3525cd5045d6ee095c82480b3c9aa2cc623f63b584733c0d61"
+ },
+ "safe": {
+  "fingerprint": "49ce3eb5b8bf4e8930b8d36782ada90d9d14d6769a6aec9f9e93277797ca3d48",
+  "text": "新加坡安全了！",
+  "file": "assets/audio/stories/spidey-singapore/safe.m4a",
+  "speech": [
+   0.03,
+   1.7
+  ],
+  "speech_fingerprint": "49ce3eb5b8bf4e8930b8d36782ada90d9d14d6769a6aec9f9e93277797ca3d48"
+ },
+ "tapSky": {
+  "fingerprint": "5526cf814df534d862a7b32184442d3398539c199a8c1e481583a5c6dcd5240f",
+  "text": "点一点天空！",
+  "file": "assets/audio/stories/spidey-singapore/tapSky.m4a",
+  "speech": [
+   0.0,
+   1.48
+  ],
+  "speech_fingerprint": "5526cf814df534d862a7b32184442d3398539c199a8c1e481583a5c6dcd5240f"
+ },
+ "red": {
+  "fingerprint": "93149161287664596cdc104e46d97bccef74c1638ab0e7ad5655774ce81e99ab",
+  "text": "红色的烟花！",
+  "file": "assets/audio/stories/spidey-singapore/red.m4a",
+  "speech": [
+   0.1,
+   1.36
+  ],
+  "speech_fingerprint": "93149161287664596cdc104e46d97bccef74c1638ab0e7ad5655774ce81e99ab"
+ },
+ "blue": {
+  "fingerprint": "90b844f9c3c0946359a9eb661ea0b09963b9248a9f48ce86eaa7413745275746",
+  "text": "蓝色的烟花！",
+  "file": "assets/audio/stories/spidey-singapore/blue.m4a",
+  "speech": [
+   0.01,
+   1.31
+  ],
+  "speech_fingerprint": "90b844f9c3c0946359a9eb661ea0b09963b9248a9f48ce86eaa7413745275746"
+ },
+ "yellow": {
+  "fingerprint": "87cbd0f376382c8b83181c11e26f2d7b20f07ffebc0712345c7480c2e72aca5a",
+  "text": "黄色的烟花！",
+  "file": "assets/audio/stories/spidey-singapore/yellow.m4a",
+  "speech": [
+   0.06,
+   1.31
+  ],
+  "speech_fingerprint": "87cbd0f376382c8b83181c11e26f2d7b20f07ffebc0712345c7480c2e72aca5a"
+ },
+ "bravo": {
+  "fingerprint": "ab1bf8230b306f1b8f2171cbae28145775bf9741648bd0551f306e14a99b6725",
+  "text": "蜘蛛小队，真棒！",
+  "file": "assets/audio/stories/spidey-singapore/bravo.m4a",
+  "speech": [
+   0.02,
+   2.07
+  ],
+  "speech_fingerprint": "ab1bf8230b306f1b8f2171cbae28145775bf9741648bd0551f306e14a99b6725"
+ },
+ "word-singapore": {
+  "fingerprint": "c126681d81dee96d8761dcb332b8cfcce93fbcf2b1b062095689e346112572fa",
+  "text": "新加坡",
+  "file": "assets/audio/stories/spidey-singapore/word-singapore.m4a",
+  "speech": [
+   0.03,
+   0.97
+  ],
+  "speech_fingerprint": "c126681d81dee96d8761dcb332b8cfcce93fbcf2b1b062095689e346112572fa"
+ },
+ "word-spider": {
+  "fingerprint": "f3f2ddae81161d4e88e6742ffe1af0caa73b8326fc01ba209768ca015b255814",
+  "text": "蜘蛛",
+  "file": "assets/audio/stories/spidey-singapore/word-spider.m4a",
+  "speech": [
+   0.01,
+   0.52
+  ],
+  "speech_fingerprint": "f3f2ddae81161d4e88e6742ffe1af0caa73b8326fc01ba209768ca015b255814"
+ },
+ "word-dinosaur": {
+  "fingerprint": "1529789f3c5caf64c306f8db2e26b63db7b04a8768fce46f60d4f45f3532d7de",
+  "text": "恐龙",
+  "file": "assets/audio/stories/spidey-singapore/word-dinosaur.m4a",
+  "speech": [
+   0.04,
+   0.59
+  ],
+  "speech_fingerprint": "1529789f3c5caf64c306f8db2e26b63db7b04a8768fce46f60d4f45f3532d7de"
+ },
+ "word-light": {
+  "fingerprint": "70144e7f82725a4f00b164b94b8b027a1a4acf3ed4436c515c56e68790e3893f",
+  "text": "灯",
+  "file": "assets/audio/stories/spidey-singapore/word-light.m4a",
+  "speech": [
+   0.0,
+   0.3
+  ],
+  "speech_fingerprint": "70144e7f82725a4f00b164b94b8b027a1a4acf3ed4436c515c56e68790e3893f"
+ },
+ "word-tree": {
+  "fingerprint": "acce1b1ec93e143c68237122cb44237e17c70b616e231a8a5ea5017a5e6e672c",
+  "text": "树",
+  "file": "assets/audio/stories/spidey-singapore/word-tree.m4a",
+  "speech": [
+   0.02,
+   0.34
+  ],
+  "speech_fingerprint": "acce1b1ec93e143c68237122cb44237e17c70b616e231a8a5ea5017a5e6e672c"
+ },
+ "word-web": {
+  "fingerprint": "0a30b154e9a4d0ea14c6083b806a40bde14d42c529f17dbba9e577f068597423",
+  "text": "网",
+  "file": "assets/audio/stories/spidey-singapore/word-web.m4a",
+  "speech": [
+   0.01,
+   0.3
+  ],
+  "speech_fingerprint": "0a30b154e9a4d0ea14c6083b806a40bde14d42c529f17dbba9e577f068597423"
+ },
+ "word-button": {
+  "fingerprint": "30feba80d2ac18e7ed8ff50ae61d04bf750c5e8494711632769c4ca5417b382d",
+  "text": "按钮",
+  "file": "assets/audio/stories/spidey-singapore/word-button.m4a",
+  "speech": [
+   0.01,
+   0.61
+  ],
+  "speech_fingerprint": "30feba80d2ac18e7ed8ff50ae61d04bf750c5e8494711632769c4ca5417b382d"
+ },
+ "word-red": {
+  "fingerprint": "835e9b7b6a8a7d89d19791053bc4f9af79ad5544eded7b4bbd343e4407f044b4",
+  "text": "红色",
+  "file": "assets/audio/stories/spidey-singapore/word-red.m4a",
+  "speech": [
+   0.09,
+   0.63
+  ],
+  "speech_fingerprint": "835e9b7b6a8a7d89d19791053bc4f9af79ad5544eded7b4bbd343e4407f044b4"
+ },
+ "word-climb": {
+  "fingerprint": "c62b412e10bbd3fab2084b12b76fbd55f2eb794685e3a3cf2e855f85d6c5ea19",
+  "text": "爬",
+  "file": "assets/audio/stories/spidey-singapore/word-climb.m4a",
+  "speech": [
+   0.02,
+   0.33
+  ],
+  "speech_fingerprint": "c62b412e10bbd3fab2084b12b76fbd55f2eb794685e3a3cf2e855f85d6c5ea19"
+ },
+ "word-building": {
+  "fingerprint": "a4dab2f7257947d9f4d1a61262e140265d85849295fd538c1d50389cf95a8cd3",
+  "text": "楼",
+  "file": "assets/audio/stories/spidey-singapore/word-building.m4a",
+  "speech": [
+   0.01,
+   0.35
+  ],
+  "speech_fingerprint": "a4dab2f7257947d9f4d1a61262e140265d85849295fd538c1d50389cf95a8cd3"
+ },
+ "word-sky": {
+  "fingerprint": "831266620e2dbef85b6bd7b488acd8cd7a7438a8214370d37ad7a18343ef460a",
+  "text": "天空",
+  "file": "assets/audio/stories/spidey-singapore/word-sky.m4a",
+  "speech": [
+   0.01,
+   0.69
+  ],
+  "speech_fingerprint": "831266620e2dbef85b6bd7b488acd8cd7a7438a8214370d37ad7a18343ef460a"
+ },
+ "word-fireworks": {
+  "fingerprint": "30af511d10ca7e82a8bd30d2b6a215683811dbd74b5decb0a2fe93bb08fb8a87",
+  "text": "烟花",
+  "file": "assets/audio/stories/spidey-singapore/word-fireworks.m4a",
+  "speech": [
+   0.01,
+   0.66
+  ],
+  "speech_fingerprint": "30af511d10ca7e82a8bd30d2b6a215683811dbd74b5decb0a2fe93bb08fb8a87"
+ },
+ "word-safe": {
+  "fingerprint": "d27913cf737d28ac07e117f4a98ce72cc7545fd768d2a90f4594ed9e232734f1",
+  "text": "安全",
+  "file": "assets/audio/stories/spidey-singapore/word-safe.m4a",
+  "speech": [
+   0.01,
+   0.73
+  ],
+  "speech_fingerprint": "d27913cf737d28ac07e117f4a98ce72cc7545fd768d2a90f4594ed9e232734f1"
+ }
+}

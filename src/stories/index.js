@@ -4,5 +4,6 @@
 // then run scripts/generate-audio.py and scripts/story-covers.mjs.
 export const STORIES=[
  {id:'three-pigs',title:'三只小猪',english:'The three little pigs'},
- {id:'cinderella',title:'灰姑娘',english:'Cinderella'}
+ {id:'cinderella',title:'灰姑娘',english:'Cinderella'},
+ {id:'spidey-singapore',title:'蜘蛛小队救新加坡',english:'Team Spidey saves Singapore'}
 ];

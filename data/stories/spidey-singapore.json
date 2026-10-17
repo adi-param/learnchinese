@@ -1,0 +1,511 @@
+{
+  "id": "spidey-singapore",
+  "title": "蜘蛛小队救新加坡",
+  "english": "Team Spidey saves Singapore",
+  "voices": {
+    "team": {
+      "rate": 1.0,
+      "keep": true,
+      "tint": "#ffe1e1"
+    },
+    "ira": {
+      "rate": 1.15,
+      "keep": false,
+      "tint": "#f3e8ff"
+    },
+    "goblin": {
+      "rate": 0.7,
+      "keep": false,
+      "tint": "#e3f5d8"
+    }
+  },
+  "lines": {
+    "here": {
+      "speaker": "narrator",
+      "hanzi": "这是新加坡。",
+      "pinyin": "Zhè shì Xīnjiāpō.",
+      "english": "This is Singapore.",
+      "cues": [
+        [
+          "新加坡",
+          "city"
+        ]
+      ]
+    },
+    "mbs": {
+      "speaker": "narrator",
+      "hanzi": "这是滨海湾金沙。",
+      "pinyin": "Zhè shì Bīnhǎiwān Jīnshā.",
+      "english": "This is Marina Bay Sands.",
+      "cues": [
+        [
+          "滨海湾金沙",
+          "mbs"
+        ]
+      ]
+    },
+    "merlion": {
+      "speaker": "narrator",
+      "hanzi": "这是鱼尾狮。",
+      "pinyin": "Zhè shì Yúwěishī.",
+      "english": "This is the Merlion.",
+      "cues": [
+        [
+          "鱼尾狮",
+          "merlion"
+        ]
+      ]
+    },
+    "team": {
+      "speaker": "narrator",
+      "hanzi": "Spider-Man、Ghost-Spider、Spin，还有 Ira！",
+      "pinyin": "Spider-Man, Ghost-Spider, Spin, hái yǒu Ira!",
+      "english": "Spider-Man, Ghost-Spider, Spin, and Ira!",
+      "cues": [
+        [
+          "Spider-Man",
+          "spiderman"
+        ],
+        [
+          "Ghost-Spider",
+          "ghost"
+        ],
+        [
+          "Spin",
+          "spin"
+        ],
+        [
+          "Ira",
+          "ira"
+        ]
+      ]
+    },
+    "squad": {
+      "speaker": "narrator",
+      "hanzi": "他们是蜘蛛小队！",
+      "pinyin": "Tāmen shì zhīzhū xiǎoduì!",
+      "english": "They are Team Spidey!",
+      "cues": [
+        [
+          "蜘蛛小队",
+          "team"
+        ]
+      ]
+    },
+    "tapTeam": {
+      "speaker": "narrator",
+      "hanzi": "点一点蜘蛛小队！",
+      "pinyin": "Diǎn yi diǎn zhīzhū xiǎoduì!",
+      "english": "Tap Team Spidey!",
+      "cues": [
+        [
+          "蜘蛛小队",
+          "team"
+        ]
+      ]
+    },
+    "go": {
+      "speaker": "team",
+      "hanzi": "蜘蛛小队，出发！",
+      "pinyin": "Zhīzhū xiǎoduì, chūfā!",
+      "english": "Team Spidey, go!",
+      "cues": [
+        [
+          "蜘蛛小队",
+          "team"
+        ]
+      ]
+    },
+    "gardens": {
+      "speaker": "narrator",
+      "hanzi": "这是滨海湾花园。",
+      "pinyin": "Zhè shì Bīnhǎiwān Huāyuán.",
+      "english": "These are the Gardens by the Bay.",
+      "cues": [
+        [
+          "滨海湾花园",
+          "supertrees"
+        ]
+      ]
+    },
+    "goblinCame": {
+      "speaker": "narrator",
+      "hanzi": "Green Goblin 来了！",
+      "pinyin": "Green Goblin lái le!",
+      "english": "Here comes Green Goblin!",
+      "cues": [
+        [
+          "Green Goblin",
+          "goblin"
+        ]
+      ]
+    },
+    "dino": {
+      "speaker": "narrator",
+      "hanzi": "他有一只大机器恐龙！",
+      "pinyin": "Tā yǒu yì zhī dà jīqì kǒnglóng!",
+      "english": "He has a big robot dinosaur!",
+      "cues": [
+        [
+          "大机器恐龙",
+          "dino"
+        ]
+      ]
+    },
+    "stomp": {
+      "speaker": "narrator",
+      "hanzi": "踩！踩！踩！",
+      "pinyin": "Cǎi! Cǎi! Cǎi!",
+      "english": "Stomp! Stomp! Stomp!",
+      "cues": [
+        [
+          "踩",
+          "dino"
+        ]
+      ]
+    },
+    "laugh": {
+      "speaker": "goblin",
+      "hanzi": "哈哈哈！",
+      "pinyin": "Hā hā hā!",
+      "english": "Ha ha ha!",
+      "cues": [
+        [
+          "哈",
+          "goblin"
+        ]
+      ]
+    },
+    "dark": {
+      "speaker": "narrator",
+      "hanzi": "灯都灭了！",
+      "pinyin": "Dēng dōu miè le!",
+      "english": "All the lights went out!",
+      "cues": [
+        [
+          "灯",
+          "supertrees"
+        ]
+      ]
+    },
+    "tapTree": {
+      "speaker": "narrator",
+      "hanzi": "点一点超级树！",
+      "pinyin": "Diǎn yi diǎn chāojí shù!",
+      "english": "Tap the Supertree!",
+      "cues": [
+        [
+          "超级树",
+          "supertrees"
+        ]
+      ]
+    },
+    "swing": {
+      "speaker": "ira",
+      "hanzi": "荡过去！",
+      "pinyin": "Dàng guòqù!",
+      "english": "Swing across!",
+      "cues": [
+        [
+          "荡",
+          "ira"
+        ]
+      ]
+    },
+    "lightsOn": {
+      "speaker": "narrator",
+      "hanzi": "灯亮了！",
+      "pinyin": "Dēng liàng le!",
+      "english": "The lights are back on!",
+      "cues": [
+        [
+          "灯",
+          "supertrees"
+        ]
+      ]
+    },
+    "tapLegs": {
+      "speaker": "narrator",
+      "hanzi": "用网绑住恐龙！",
+      "pinyin": "Yòng wǎng bǎng zhù kǒnglóng!",
+      "english": "Tie up the dinosaur with webs!",
+      "cues": [
+        [
+          "恐龙",
+          "dino"
+        ]
+      ]
+    },
+    "web": {
+      "speaker": "ira",
+      "hanzi": "射网！",
+      "pinyin": "Shè wǎng!",
+      "english": "Shoot a web!",
+      "cues": [
+        [
+          "网",
+          "ira"
+        ]
+      ]
+    },
+    "tied": {
+      "speaker": "narrator",
+      "hanzi": "绑住了！",
+      "pinyin": "Bǎng zhù le!",
+      "english": "All tied up!",
+      "cues": [
+        [
+          "绑住",
+          "dino"
+        ]
+      ]
+    },
+    "pressRed": {
+      "speaker": "narrator",
+      "hanzi": "按红色的按钮！",
+      "pinyin": "Àn hóngsè de ànniǔ!",
+      "english": "Press the red button!",
+      "cues": [
+        [
+          "红色的按钮",
+          "btn-red"
+        ]
+      ]
+    },
+    "wrong": {
+      "speaker": "narrator",
+      "hanzi": "不对，再试试！",
+      "pinyin": "Bú duì, zài shìshi!",
+      "english": "Not that one, try again!",
+      "cues": []
+    },
+    "asleep": {
+      "speaker": "narrator",
+      "hanzi": "恐龙睡着了！",
+      "pinyin": "Kǒnglóng shuìzháo le!",
+      "english": "The dinosaur fell asleep!",
+      "cues": [
+        [
+          "恐龙",
+          "dino"
+        ]
+      ]
+    },
+    "flyUp": {
+      "speaker": "narrator",
+      "hanzi": "Green Goblin 飞到了楼顶！",
+      "pinyin": "Green Goblin fēi dào le lóudǐng!",
+      "english": "Green Goblin flew to the top of the building!",
+      "cues": [
+        [
+          "Green Goblin",
+          "goblin"
+        ],
+        [
+          "楼顶",
+          "skypark"
+        ]
+      ]
+    },
+    "tapClimb": {
+      "speaker": "narrator",
+      "hanzi": "往上爬！",
+      "pinyin": "Wǎng shàng pá!",
+      "english": "Climb up!",
+      "cues": [
+        [
+          "上",
+          "tower"
+        ]
+      ]
+    },
+    "tapGoblin": {
+      "speaker": "narrator",
+      "hanzi": "点一点 Green Goblin！",
+      "pinyin": "Diǎn yi diǎn Green Goblin!",
+      "english": "Tap Green Goblin!",
+      "cues": [
+        [
+          "Green Goblin",
+          "goblin"
+        ]
+      ]
+    },
+    "caught": {
+      "speaker": "ira",
+      "hanzi": "抓住你了！",
+      "pinyin": "Zhuā zhù nǐ le!",
+      "english": "Got you!",
+      "cues": [
+        [
+          "你",
+          "goblin"
+        ]
+      ]
+    },
+    "oops": {
+      "speaker": "goblin",
+      "hanzi": "哎呀！",
+      "pinyin": "Āiyā!",
+      "english": "Oh no!",
+      "cues": [
+        [
+          "哎呀",
+          "goblin"
+        ]
+      ]
+    },
+    "safe": {
+      "speaker": "narrator",
+      "hanzi": "新加坡安全了！",
+      "pinyin": "Xīnjiāpō ānquán le!",
+      "english": "Singapore is safe!",
+      "cues": [
+        [
+          "新加坡",
+          "city"
+        ]
+      ]
+    },
+    "tapSky": {
+      "speaker": "narrator",
+      "hanzi": "点一点天空！",
+      "pinyin": "Diǎn yi diǎn tiānkōng!",
+      "english": "Tap the sky!",
+      "cues": [
+        [
+          "天空",
+          "sky"
+        ]
+      ]
+    },
+    "red": {
+      "speaker": "narrator",
+      "hanzi": "红色的烟花！",
+      "pinyin": "Hóngsè de yānhuā!",
+      "english": "Red fireworks!",
+      "cues": [
+        [
+          "烟花",
+          "fw-red"
+        ]
+      ]
+    },
+    "blue": {
+      "speaker": "narrator",
+      "hanzi": "蓝色的烟花！",
+      "pinyin": "Lánsè de yānhuā!",
+      "english": "Blue fireworks!",
+      "cues": [
+        [
+          "烟花",
+          "fw-blue"
+        ]
+      ]
+    },
+    "yellow": {
+      "speaker": "narrator",
+      "hanzi": "黄色的烟花！",
+      "pinyin": "Huángsè de yānhuā!",
+      "english": "Yellow fireworks!",
+      "cues": [
+        [
+          "烟花",
+          "fw-yellow"
+        ]
+      ]
+    },
+    "bravo": {
+      "speaker": "narrator",
+      "hanzi": "蜘蛛小队，真棒！",
+      "pinyin": "Zhīzhū xiǎoduì, zhēn bàng!",
+      "english": "Team Spidey, well done!",
+      "cues": [
+        [
+          "蜘蛛小队",
+          "team"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "singapore",
+      "hanzi": "新加坡",
+      "pinyin": "Xīnjiāpō",
+      "english": "Singapore"
+    },
+    {
+      "id": "spider",
+      "hanzi": "蜘蛛",
+      "pinyin": "zhīzhū",
+      "english": "spider"
+    },
+    {
+      "id": "dinosaur",
+      "hanzi": "恐龙",
+      "pinyin": "kǒnglóng",
+      "english": "dinosaur"
+    },
+    {
+      "id": "light",
+      "hanzi": "灯",
+      "pinyin": "dēng",
+      "english": "light, lamp"
+    },
+    {
+      "id": "tree",
+      "hanzi": "树",
+      "pinyin": "shù",
+      "english": "tree"
+    },
+    {
+      "id": "web",
+      "hanzi": "网",
+      "pinyin": "wǎng",
+      "english": "web, net"
+    },
+    {
+      "id": "button",
+      "hanzi": "按钮",
+      "pinyin": "ànniǔ",
+      "english": "button"
+    },
+    {
+      "id": "red",
+      "hanzi": "红色",
+      "pinyin": "hóngsè",
+      "english": "red"
+    },
+    {
+      "id": "climb",
+      "hanzi": "爬",
+      "pinyin": "pá",
+      "english": "to climb"
+    },
+    {
+      "id": "building",
+      "hanzi": "楼",
+      "pinyin": "lóu",
+      "english": "building"
+    },
+    {
+      "id": "sky",
+      "hanzi": "天空",
+      "pinyin": "tiānkōng",
+      "english": "sky"
+    },
+    {
+      "id": "fireworks",
+      "hanzi": "烟花",
+      "pinyin": "yānhuā",
+      "english": "fireworks"
+    },
+    {
+      "id": "safe",
+      "hanzi": "安全",
+      "pinyin": "ānquán",
+      "english": "safe"
+    }
+  ]
+}
