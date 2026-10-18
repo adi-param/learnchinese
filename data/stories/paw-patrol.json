@@ -1,0 +1,558 @@
+{
+  "id": "paw-patrol",
+  "title": "PAW Patrol 救小鸡",
+  "english": "PAW Patrol saves the chicken",
+  "voices": {
+    "ryder": {
+      "rate": 0.82,
+      "keep": false,
+      "tint": "#e1ecff"
+    },
+    "mayor": {
+      "rate": 0.97,
+      "keep": false,
+      "tint": "#efe3ff"
+    },
+    "chase": {
+      "rate": 1.04,
+      "keep": false,
+      "tint": "#dfe8ff"
+    },
+    "rubble": {
+      "rate": 0.9,
+      "keep": false,
+      "tint": "#fff2c6"
+    },
+    "skye": {
+      "rate": 1.2,
+      "keep": false,
+      "tint": "#ffe1ef"
+    },
+    "pups": {
+      "rate": 1.1,
+      "keep": false,
+      "tint": "#ffe9d6"
+    },
+    "chicken": {
+      "rate": 1.4,
+      "keep": false,
+      "tint": "#fff6e0"
+    }
+  },
+  "lines": {
+    "here": {
+      "speaker": "narrator",
+      "hanzi": "这里是 Adventure Bay。",
+      "pinyin": "Zhèlǐ shì Adventure Bay.",
+      "english": "This is Adventure Bay.",
+      "cues": [
+        [
+          "Adventure Bay",
+          "town"
+        ]
+      ]
+    },
+    "ring": {
+      "speaker": "narrator",
+      "hanzi": "叮铃铃！电话响了！",
+      "pinyin": "Dīnglínglíng! Diànhuà xiǎng le!",
+      "english": "Ring ring! The phone is ringing!",
+      "cues": [
+        [
+          "电话",
+          "phone"
+        ]
+      ]
+    },
+    "tapPhone": {
+      "speaker": "narrator",
+      "hanzi": "点一点电话！",
+      "pinyin": "Diǎn yi diǎn diànhuà!",
+      "english": "Tap the phone!",
+      "cues": [
+        [
+          "电话",
+          "phone"
+        ]
+      ]
+    },
+    "help": {
+      "speaker": "mayor",
+      "hanzi": "Ryder，我的小鸡在树上，下不来了！",
+      "pinyin": "Ryder, wǒ de xiǎo jī zài shù shang, xià bù lái le!",
+      "english": "Ryder, my little chicken is up a tree and can’t get down!",
+      "cues": [
+        [
+          "Ryder",
+          "ryder"
+        ],
+        [
+          "小鸡",
+          "call"
+        ]
+      ]
+    },
+    "coming": {
+      "speaker": "ryder",
+      "hanzi": "别怕，我们来了！",
+      "pinyin": "Bié pà, wǒmen lái le!",
+      "english": "Don’t worry, we’re coming!",
+      "cues": [
+        [
+          "我们",
+          "ryder"
+        ]
+      ]
+    },
+    "assemble": {
+      "speaker": "ryder",
+      "hanzi": "PAW Patrol，集合！",
+      "pinyin": "PAW Patrol, jíhé!",
+      "english": "PAW Patrol, gather round!",
+      "cues": [
+        [
+          "PAW Patrol",
+          "pups"
+        ]
+      ]
+    },
+    "tapPup": {
+      "speaker": "narrator",
+      "hanzi": "点一点狗狗！",
+      "pinyin": "Diǎn yi diǎn gǒugou!",
+      "english": "Tap a pup!",
+      "cues": [
+        [
+          "狗狗",
+          "pups"
+        ]
+      ]
+    },
+    "chaseReady": {
+      "speaker": "chase",
+      "hanzi": "Chase 准备好了！",
+      "pinyin": "Chase zhǔnbèi hǎo le!",
+      "english": "Chase is ready!",
+      "cues": [
+        [
+          "Chase",
+          "chase"
+        ]
+      ]
+    },
+    "rubbleReady": {
+      "speaker": "rubble",
+      "hanzi": "Rubble 准备好了！",
+      "pinyin": "Rubble zhǔnbèi hǎo le!",
+      "english": "Rubble is ready!",
+      "cues": [
+        [
+          "Rubble",
+          "rubble"
+        ]
+      ]
+    },
+    "skyeReady": {
+      "speaker": "skye",
+      "hanzi": "Skye 准备好了！",
+      "pinyin": "Skye zhǔnbèi hǎo le!",
+      "english": "Skye is ready!",
+      "cues": [
+        [
+          "Skye",
+          "skye"
+        ]
+      ]
+    },
+    "go": {
+      "speaker": "ryder",
+      "hanzi": "出发！",
+      "pinyin": "Chūfā!",
+      "english": "Let’s go!",
+      "cues": [
+        [
+          "出发",
+          "pups"
+        ]
+      ]
+    },
+    "rocks": {
+      "speaker": "narrator",
+      "hanzi": "路上有好多石头！",
+      "pinyin": "Lù shang yǒu hǎoduō shítou!",
+      "english": "There are lots of rocks on the road!",
+      "cues": [
+        [
+          "石头",
+          "rocks"
+        ]
+      ]
+    },
+    "dig": {
+      "speaker": "rubble",
+      "hanzi": "我来挖！",
+      "pinyin": "Wǒ lái wā!",
+      "english": "I’ll dig!",
+      "cues": [
+        [
+          "挖",
+          "rubble"
+        ]
+      ]
+    },
+    "tapRock": {
+      "speaker": "narrator",
+      "hanzi": "点一点石头！",
+      "pinyin": "Diǎn yi diǎn shítou!",
+      "english": "Tap a rock!",
+      "cues": [
+        [
+          "石头",
+          "rocks"
+        ]
+      ]
+    },
+    "wa": {
+      "speaker": "narrator",
+      "hanzi": "挖！",
+      "pinyin": "Wā!",
+      "english": "Dig!",
+      "cues": [
+        [
+          "挖",
+          "digger"
+        ]
+      ]
+    },
+    "clear": {
+      "speaker": "narrator",
+      "hanzi": "路通了！",
+      "pinyin": "Lù tōng le!",
+      "english": "The road is clear!",
+      "cues": [
+        [
+          "路",
+          "road"
+        ]
+      ]
+    },
+    "cars": {
+      "speaker": "narrator",
+      "hanzi": "路口有很多汽车。",
+      "pinyin": "Lùkǒu yǒu hěn duō qìchē.",
+      "english": "There are lots of cars at the crossing.",
+      "cues": [
+        [
+          "汽车",
+          "cars"
+        ]
+      ]
+    },
+    "rhyme": {
+      "speaker": "chase",
+      "hanzi": "红灯停，绿灯行！",
+      "pinyin": "Hóng dēng tíng, lǜ dēng xíng!",
+      "english": "Red light, stop! Green light, go!",
+      "cues": [
+        [
+          "红灯",
+          "light-red"
+        ],
+        [
+          "绿灯",
+          "light-green"
+        ]
+      ]
+    },
+    "tapLight": {
+      "speaker": "narrator",
+      "hanzi": "点一点红绿灯！",
+      "pinyin": "Diǎn yi diǎn hónglǜdēng!",
+      "english": "Tap the traffic light!",
+      "cues": [
+        [
+          "红绿灯",
+          "light"
+        ]
+      ]
+    },
+    "greenGo": {
+      "speaker": "narrator",
+      "hanzi": "绿灯亮了，汽车走！",
+      "pinyin": "Lǜdēng liàng le, qìchē zǒu!",
+      "english": "The light is green, the cars go!",
+      "cues": [
+        [
+          "绿灯",
+          "light-green"
+        ],
+        [
+          "汽车",
+          "cars"
+        ]
+      ]
+    },
+    "redStop": {
+      "speaker": "narrator",
+      "hanzi": "红灯亮了，汽车停！",
+      "pinyin": "Hóngdēng liàng le, qìchē tíng!",
+      "english": "The light is red, the cars stop!",
+      "cues": [
+        [
+          "红灯",
+          "light-red"
+        ],
+        [
+          "汽车",
+          "cars"
+        ]
+      ]
+    },
+    "cross": {
+      "speaker": "narrator",
+      "hanzi": "狗狗们过马路。",
+      "pinyin": "Gǒugou men guò mǎlù.",
+      "english": "The pups cross the road.",
+      "cues": [
+        [
+          "狗狗们",
+          "pups"
+        ]
+      ]
+    },
+    "upTree": {
+      "speaker": "narrator",
+      "hanzi": "小鸡在大树上！",
+      "pinyin": "Xiǎo jī zài dà shù shang!",
+      "english": "The little chicken is up the big tree!",
+      "cues": [
+        [
+          "小鸡",
+          "chicken"
+        ],
+        [
+          "大树",
+          "tree"
+        ]
+      ]
+    },
+    "cluck": {
+      "speaker": "chicken",
+      "hanzi": "咯咯哒！",
+      "pinyin": "Gēgēdā!",
+      "english": "Cluck cluck!",
+      "cues": [
+        [
+          "咯咯哒",
+          "chicken"
+        ]
+      ]
+    },
+    "fly": {
+      "speaker": "skye",
+      "hanzi": "我来飞！",
+      "pinyin": "Wǒ lái fēi!",
+      "english": "I’ll fly!",
+      "cues": [
+        [
+          "飞",
+          "skye"
+        ]
+      ]
+    },
+    "tapCopter": {
+      "speaker": "narrator",
+      "hanzi": "点一点直升机！",
+      "pinyin": "Diǎn yi diǎn zhíshēngjī!",
+      "english": "Tap the helicopter!",
+      "cues": [
+        [
+          "直升机",
+          "copter"
+        ]
+      ]
+    },
+    "flewUp": {
+      "speaker": "narrator",
+      "hanzi": "直升机飞上去了！",
+      "pinyin": "Zhíshēngjī fēi shàngqù le!",
+      "english": "The helicopter flew up!",
+      "cues": [
+        [
+          "直升机",
+          "copter"
+        ]
+      ]
+    },
+    "tapChicken": {
+      "speaker": "narrator",
+      "hanzi": "点一点小鸡！",
+      "pinyin": "Diǎn yi diǎn xiǎo jī!",
+      "english": "Tap the little chicken!",
+      "cues": [
+        [
+          "小鸡",
+          "chicken"
+        ]
+      ]
+    },
+    "down": {
+      "speaker": "narrator",
+      "hanzi": "小鸡下来了！",
+      "pinyin": "Xiǎo jī xiàlái le!",
+      "english": "The little chicken is down!",
+      "cues": [
+        [
+          "小鸡",
+          "chicken"
+        ]
+      ]
+    },
+    "thanks": {
+      "speaker": "mayor",
+      "hanzi": "谢谢你们！",
+      "pinyin": "Xièxie nǐmen!",
+      "english": "Thank you all!",
+      "cues": [
+        [
+          "你们",
+          "pups"
+        ]
+      ]
+    },
+    "wellDone": {
+      "speaker": "ryder",
+      "hanzi": "做得好，狗狗们！",
+      "pinyin": "Zuò de hǎo, gǒugou men!",
+      "english": "Well done, pups!",
+      "cues": [
+        [
+          "狗狗们",
+          "pups"
+        ]
+      ]
+    },
+    "tapBone": {
+      "speaker": "narrator",
+      "hanzi": "给狗狗骨头！",
+      "pinyin": "Gěi gǒugou gǔtou!",
+      "english": "Give the pups a bone!",
+      "cues": [
+        [
+          "骨头",
+          "bones"
+        ]
+      ]
+    },
+    "woof": {
+      "speaker": "pups",
+      "hanzi": "汪汪！",
+      "pinyin": "Wāng wāng!",
+      "english": "Woof woof!",
+      "cues": [
+        [
+          "汪汪",
+          "pups"
+        ]
+      ]
+    },
+    "brave": {
+      "speaker": "ryder",
+      "hanzi": "没有困难的工作，只有勇敢的狗狗！",
+      "pinyin": "Méiyǒu kùnnan de gōngzuò, zhǐyǒu yǒnggǎn de gǒugou!",
+      "english": "No job is too big, no pup is too small!",
+      "cues": [
+        [
+          "勇敢的狗狗",
+          "pups"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "dog",
+      "hanzi": "狗狗",
+      "pinyin": "gǒugou",
+      "english": "dog, doggy"
+    },
+    {
+      "id": "phone",
+      "hanzi": "电话",
+      "pinyin": "diànhuà",
+      "english": "telephone"
+    },
+    {
+      "id": "rock",
+      "hanzi": "石头",
+      "pinyin": "shítou",
+      "english": "rock, stone"
+    },
+    {
+      "id": "dig",
+      "hanzi": "挖",
+      "pinyin": "wā",
+      "english": "to dig"
+    },
+    {
+      "id": "road",
+      "hanzi": "路",
+      "pinyin": "lù",
+      "english": "road"
+    },
+    {
+      "id": "car",
+      "hanzi": "汽车",
+      "pinyin": "qìchē",
+      "english": "car"
+    },
+    {
+      "id": "redLight",
+      "hanzi": "红灯",
+      "pinyin": "hóngdēng",
+      "english": "red light"
+    },
+    {
+      "id": "greenLight",
+      "hanzi": "绿灯",
+      "pinyin": "lǜdēng",
+      "english": "green light"
+    },
+    {
+      "id": "stop",
+      "hanzi": "停",
+      "pinyin": "tíng",
+      "english": "to stop"
+    },
+    {
+      "id": "chick",
+      "hanzi": "小鸡",
+      "pinyin": "xiǎo jī",
+      "english": "little chicken"
+    },
+    {
+      "id": "helicopter",
+      "hanzi": "直升机",
+      "pinyin": "zhíshēngjī",
+      "english": "helicopter"
+    },
+    {
+      "id": "fly",
+      "hanzi": "飞",
+      "pinyin": "fēi",
+      "english": "to fly"
+    },
+    {
+      "id": "bone",
+      "hanzi": "骨头",
+      "pinyin": "gǔtou",
+      "english": "bone"
+    },
+    {
+      "id": "brave",
+      "hanzi": "勇敢",
+      "pinyin": "yǒnggǎn",
+      "english": "brave"
+    }
+  ]
+}

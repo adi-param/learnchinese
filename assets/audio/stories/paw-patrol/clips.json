@@ -1,0 +1,482 @@
+{
+ "here": {
+  "fingerprint": "58586d4a6db195ded202f3fa4286ee9ca8558eaac3e2699e81b68f9ea0c4822b",
+  "text": "这里是 Adventure Bay。",
+  "file": "assets/audio/stories/paw-patrol/here.m4a",
+  "speech": [
+   0.01,
+   1.87
+  ],
+  "speech_fingerprint": "58586d4a6db195ded202f3fa4286ee9ca8558eaac3e2699e81b68f9ea0c4822b"
+ },
+ "ring": {
+  "fingerprint": "97b361f670eeaf6abbd4eb980c377b96f40c9274a4ef3e85e07e4550c3e5b966",
+  "text": "叮铃铃！电话响了！",
+  "file": "assets/audio/stories/paw-patrol/ring.m4a",
+  "speech": [
+   0.01,
+   2.2
+  ],
+  "speech_fingerprint": "97b361f670eeaf6abbd4eb980c377b96f40c9274a4ef3e85e07e4550c3e5b966"
+ },
+ "tapPhone": {
+  "fingerprint": "a5e03fc35c8a7db60d4d1b1c7b789db4c4272daa9b9379836a63d60d93eb1181",
+  "text": "点一点电话！",
+  "file": "assets/audio/stories/paw-patrol/tapPhone.m4a",
+  "speech": [
+   0.0,
+   1.38
+  ],
+  "speech_fingerprint": "a5e03fc35c8a7db60d4d1b1c7b789db4c4272daa9b9379836a63d60d93eb1181"
+ },
+ "help": {
+  "fingerprint": "0dd1f34e452ede288fb88ffddb8429bd7b05867b9019d754ed3ee6524848686b",
+  "text": "Ryder，我的小鸡在树上，下不来了！",
+  "file": "assets/audio/stories/paw-patrol/help.m4a",
+  "speech": [
+   0.01,
+   4.19
+  ],
+  "speech_fingerprint": "0dd1f34e452ede288fb88ffddb8429bd7b05867b9019d754ed3ee6524848686b"
+ },
+ "coming": {
+  "fingerprint": "cc35faf8f92bb851104b1a66d48bb6067245dc442a72ed6d145855f29d9811c0",
+  "text": "别怕，我们来了！",
+  "file": "assets/audio/stories/paw-patrol/coming.m4a",
+  "speech": [
+   0.02,
+   1.71
+  ],
+  "speech_fingerprint": "cc35faf8f92bb851104b1a66d48bb6067245dc442a72ed6d145855f29d9811c0"
+ },
+ "assemble": {
+  "fingerprint": "e15ffc78c6331e27b5cfbdd3204b5e1947dde47135e80f6c3234f77d8baa51a5",
+  "text": "PAW Patrol，集合！",
+  "file": "assets/audio/stories/paw-patrol/assemble.m4a",
+  "speech": [
+   0.06,
+   1.9
+  ],
+  "speech_fingerprint": "e15ffc78c6331e27b5cfbdd3204b5e1947dde47135e80f6c3234f77d8baa51a5"
+ },
+ "tapPup": {
+  "fingerprint": "15c63635f329f94ba4ce0a33f5c814172332ce118f5036afd0132df23d402c68",
+  "text": "点一点狗狗！",
+  "file": "assets/audio/stories/paw-patrol/tapPup.m4a",
+  "speech": [
+   0.0,
+   1.35
+  ],
+  "speech_fingerprint": "15c63635f329f94ba4ce0a33f5c814172332ce118f5036afd0132df23d402c68"
+ },
+ "chaseReady": {
+  "fingerprint": "60227431cd7b09e1234b97861313a1c44d7abee89f49e7f32cc26d635365dbc6",
+  "text": "Chase 准备好了！",
+  "file": "assets/audio/stories/paw-patrol/chaseReady.m4a",
+  "speech": [
+   0.01,
+   1.53
+  ],
+  "speech_fingerprint": "60227431cd7b09e1234b97861313a1c44d7abee89f49e7f32cc26d635365dbc6"
+ },
+ "rubbleReady": {
+  "fingerprint": "5387991d928c9fb21cc4f7071ab2d058b0187e03b9e4ce3c7707722eca81582a",
+  "text": "Rubble 准备好了！",
+  "file": "assets/audio/stories/paw-patrol/rubbleReady.m4a",
+  "speech": [
+   0.01,
+   1.53
+  ],
+  "speech_fingerprint": "5387991d928c9fb21cc4f7071ab2d058b0187e03b9e4ce3c7707722eca81582a"
+ },
+ "skyeReady": {
+  "fingerprint": "6821000eeff61962e0c4cc7631e541a2522076cb9eec291630124d8ce2dcc996",
+  "text": "Skye 准备好了！",
+  "file": "assets/audio/stories/paw-patrol/skyeReady.m4a",
+  "speech": [
+   0.04,
+   1.56
+  ],
+  "speech_fingerprint": "6821000eeff61962e0c4cc7631e541a2522076cb9eec291630124d8ce2dcc996"
+ },
+ "go": {
+  "fingerprint": "4c1328b8bb897497bc8e82092d0c570bd32c318091d68a271734bfbc0253c591",
+  "text": "出发！",
+  "file": "assets/audio/stories/paw-patrol/go.m4a",
+  "speech": [
+   0.02,
+   0.57
+  ],
+  "speech_fingerprint": "4c1328b8bb897497bc8e82092d0c570bd32c318091d68a271734bfbc0253c591"
+ },
+ "rocks": {
+  "fingerprint": "291330d8acc16af56b1292e1a300b9564aed5f8a14d5be7db38e1e4c8e4e9916",
+  "text": "路上有好多石头！",
+  "file": "assets/audio/stories/paw-patrol/rocks.m4a",
+  "speech": [
+   0.01,
+   1.93
+  ],
+  "speech_fingerprint": "291330d8acc16af56b1292e1a300b9564aed5f8a14d5be7db38e1e4c8e4e9916"
+ },
+ "dig": {
+  "fingerprint": "69481f98bc6a6584f50eb5d1b306534fa41b4b9f39b79bd9309b5bc5ee046609",
+  "text": "我来挖！",
+  "file": "assets/audio/stories/paw-patrol/dig.m4a",
+  "speech": [
+   0.01,
+   0.78
+  ],
+  "speech_fingerprint": "69481f98bc6a6584f50eb5d1b306534fa41b4b9f39b79bd9309b5bc5ee046609"
+ },
+ "tapRock": {
+  "fingerprint": "fbc66004361143d21e40302b87301a949985c068dee19ccd51b8cc32b3d29762",
+  "text": "点一点石头！",
+  "file": "assets/audio/stories/paw-patrol/tapRock.m4a",
+  "speech": [
+   0.0,
+   1.36
+  ],
+  "speech_fingerprint": "fbc66004361143d21e40302b87301a949985c068dee19ccd51b8cc32b3d29762"
+ },
+ "wa": {
+  "fingerprint": "404aca0493dee0b57bfe1d9843ceb2aca48e0e305794c825a547d5c476de8128",
+  "text": "挖！",
+  "file": "assets/audio/stories/paw-patrol/wa.m4a",
+  "speech": [
+   0.01,
+   0.32
+  ],
+  "speech_fingerprint": "404aca0493dee0b57bfe1d9843ceb2aca48e0e305794c825a547d5c476de8128"
+ },
+ "clear": {
+  "fingerprint": "5054fbce524a6e2eb9a9a2051812774fa84135cd352d94c844862486833aad3b",
+  "text": "路通了！",
+  "file": "assets/audio/stories/paw-patrol/clear.m4a",
+  "speech": [
+   0.01,
+   0.73
+  ],
+  "speech_fingerprint": "5054fbce524a6e2eb9a9a2051812774fa84135cd352d94c844862486833aad3b"
+ },
+ "cars": {
+  "fingerprint": "30240e7153d6efd34767c41ddc9ad50a72541f7cf6b66d9b3901ad7323437463",
+  "text": "路口有很多汽车。",
+  "file": "assets/audio/stories/paw-patrol/cars.m4a",
+  "speech": [
+   0.01,
+   2.02
+  ],
+  "speech_fingerprint": "30240e7153d6efd34767c41ddc9ad50a72541f7cf6b66d9b3901ad7323437463"
+ },
+ "rhyme": {
+  "fingerprint": "9df368e05d3d0d64a4a720bb5a6705536ccf69108cd10d92a993690cef1dde5f",
+  "text": "红灯停，绿灯行！",
+  "file": "assets/audio/stories/paw-patrol/rhyme.m4a",
+  "speech": [
+   0.1,
+   2.22
+  ],
+  "speech_fingerprint": "9df368e05d3d0d64a4a720bb5a6705536ccf69108cd10d92a993690cef1dde5f"
+ },
+ "tapLight": {
+  "fingerprint": "d4d3073fc5f3fbf15c1aa39006b5c38a66b3a8af31d7cab080be2e1421a8e664",
+  "text": "点一点红绿灯！",
+  "file": "assets/audio/stories/paw-patrol/tapLight.m4a",
+  "speech": [
+   0.0,
+   1.59
+  ],
+  "speech_fingerprint": "d4d3073fc5f3fbf15c1aa39006b5c38a66b3a8af31d7cab080be2e1421a8e664"
+ },
+ "greenGo": {
+  "fingerprint": "f49499bbbb7e093b86f8db373b1da6a368f6c01e6ad6060c516bab2d061076e9",
+  "text": "绿灯亮了，汽车走！",
+  "file": "assets/audio/stories/paw-patrol/greenGo.m4a",
+  "speech": [
+   0.01,
+   2.25
+  ],
+  "speech_fingerprint": "f49499bbbb7e093b86f8db373b1da6a368f6c01e6ad6060c516bab2d061076e9"
+ },
+ "redStop": {
+  "fingerprint": "b499653bf954fe8c435f343e3fe2ac4805878a3a94fa699107e05e2ef0d035e2",
+  "text": "红灯亮了，汽车停！",
+  "file": "assets/audio/stories/paw-patrol/redStop.m4a",
+  "speech": [
+   0.1,
+   2.35
+  ],
+  "speech_fingerprint": "b499653bf954fe8c435f343e3fe2ac4805878a3a94fa699107e05e2ef0d035e2"
+ },
+ "cross": {
+  "fingerprint": "0eb33d147d54712998506b4c1fe425214507369bf6cb2a061d3a078b3f87de84",
+  "text": "狗狗们过马路。",
+  "file": "assets/audio/stories/paw-patrol/cross.m4a",
+  "speech": [
+   0.02,
+   1.44
+  ],
+  "speech_fingerprint": "0eb33d147d54712998506b4c1fe425214507369bf6cb2a061d3a078b3f87de84"
+ },
+ "upTree": {
+  "fingerprint": "090e5bf401d00cfab234ea8439b781a88ea2dd89a6a51a99ab1878932271b355",
+  "text": "小鸡在大树上！",
+  "file": "assets/audio/stories/paw-patrol/upTree.m4a",
+  "speech": [
+   0.03,
+   1.77
+  ],
+  "speech_fingerprint": "090e5bf401d00cfab234ea8439b781a88ea2dd89a6a51a99ab1878932271b355"
+ },
+ "cluck": {
+  "fingerprint": "b9487c8f37026d2cc89bf34f56ce832f7aba7da883d99741fb618a4b69c15213",
+  "text": "咯咯哒！",
+  "file": "assets/audio/stories/paw-patrol/cluck.m4a",
+  "speech": [
+   0.02,
+   0.74
+  ],
+  "speech_fingerprint": "b9487c8f37026d2cc89bf34f56ce832f7aba7da883d99741fb618a4b69c15213"
+ },
+ "fly": {
+  "fingerprint": "12a8d601f8d89a5ed4f6ff2a6abe5e36d8e4a10c96e5ff27f83260dadf3f587c",
+  "text": "我来飞！",
+  "file": "assets/audio/stories/paw-patrol/fly.m4a",
+  "speech": [
+   0.01,
+   0.77
+  ],
+  "speech_fingerprint": "12a8d601f8d89a5ed4f6ff2a6abe5e36d8e4a10c96e5ff27f83260dadf3f587c"
+ },
+ "tapCopter": {
+  "fingerprint": "c8be5f9706b2fb9daa814cca5c36f806bd567b2d0e149960fbb9ce1549e1c058",
+  "text": "点一点直升机！",
+  "file": "assets/audio/stories/paw-patrol/tapCopter.m4a",
+  "speech": [
+   0.0,
+   1.59
+  ],
+  "speech_fingerprint": "c8be5f9706b2fb9daa814cca5c36f806bd567b2d0e149960fbb9ce1549e1c058"
+ },
+ "flewUp": {
+  "fingerprint": "fb841b6dbb8336c47bc822aa6b476013fe4ac728e0b5a5f8917e908060c8098c",
+  "text": "直升机飞上去了！",
+  "file": "assets/audio/stories/paw-patrol/flewUp.m4a",
+  "speech": [
+   0.02,
+   1.83
+  ],
+  "speech_fingerprint": "fb841b6dbb8336c47bc822aa6b476013fe4ac728e0b5a5f8917e908060c8098c"
+ },
+ "tapChicken": {
+  "fingerprint": "241a4449d0730e3d0fde1278570118fefdfe1304acd6cae745e104d6e1a8ce3f",
+  "text": "点一点小鸡！",
+  "file": "assets/audio/stories/paw-patrol/tapChicken.m4a",
+  "speech": [
+   0.0,
+   1.42
+  ],
+  "speech_fingerprint": "241a4449d0730e3d0fde1278570118fefdfe1304acd6cae745e104d6e1a8ce3f"
+ },
+ "down": {
+  "fingerprint": "848511ee275d2a87fc3f9a5c34e50314906e37d2f12f12713678df8a6b0cad3e",
+  "text": "小鸡下来了！",
+  "file": "assets/audio/stories/paw-patrol/down.m4a",
+  "speech": [
+   0.04,
+   1.33
+  ],
+  "speech_fingerprint": "848511ee275d2a87fc3f9a5c34e50314906e37d2f12f12713678df8a6b0cad3e"
+ },
+ "thanks": {
+  "fingerprint": "202d84b922bc7901ae8748d84d59f4b5c624c457e93a442394ddfe30903a084e",
+  "text": "谢谢你们！",
+  "file": "assets/audio/stories/paw-patrol/thanks.m4a",
+  "speech": [
+   0.03,
+   0.99
+  ],
+  "speech_fingerprint": "202d84b922bc7901ae8748d84d59f4b5c624c457e93a442394ddfe30903a084e"
+ },
+ "wellDone": {
+  "fingerprint": "4e7ace28ad62e65e21f0a5d1fe4cd8acb221cb6cd5da8247bc8cf7ec87d7fbbf",
+  "text": "做得好，狗狗们！",
+  "file": "assets/audio/stories/paw-patrol/wellDone.m4a",
+  "speech": [
+   0.07,
+   1.85
+  ],
+  "speech_fingerprint": "4e7ace28ad62e65e21f0a5d1fe4cd8acb221cb6cd5da8247bc8cf7ec87d7fbbf"
+ },
+ "tapBone": {
+  "fingerprint": "68c4ae2fa90ea4efae41c29486c33e96f7dd0540b4df78e076455c4d609d29f8",
+  "text": "给狗狗骨头！",
+  "file": "assets/audio/stories/paw-patrol/tapBone.m4a",
+  "speech": [
+   0.02,
+   1.31
+  ],
+  "speech_fingerprint": "68c4ae2fa90ea4efae41c29486c33e96f7dd0540b4df78e076455c4d609d29f8"
+ },
+ "woof": {
+  "fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715",
+  "text": "汪汪！",
+  "file": "assets/audio/stories/paw-patrol/woof.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715"
+ },
+ "brave": {
+  "fingerprint": "31ffcd056412a65ff76ed877748dc71b0e7edb5e7457219976b91107b220d1e9",
+  "text": "没有困难的工作，只有勇敢的狗狗！",
+  "file": "assets/audio/stories/paw-patrol/brave.m4a",
+  "speech": [
+   0.01,
+   3.68
+  ],
+  "speech_fingerprint": "31ffcd056412a65ff76ed877748dc71b0e7edb5e7457219976b91107b220d1e9"
+ },
+ "word-dog": {
+  "fingerprint": "8db8f019ce566ae70d96335d548d1ecc40f6b62d165a5e4a55dce21ac396bc65",
+  "text": "狗狗",
+  "file": "assets/audio/stories/paw-patrol/word-dog.m4a",
+  "speech": [
+   0.02,
+   0.55
+  ],
+  "speech_fingerprint": "8db8f019ce566ae70d96335d548d1ecc40f6b62d165a5e4a55dce21ac396bc65"
+ },
+ "word-phone": {
+  "fingerprint": "f04d7f53801d7fe7caa10ea5b54aea0044950df151890c7cdc1523e77d506719",
+  "text": "电话",
+  "file": "assets/audio/stories/paw-patrol/word-phone.m4a",
+  "speech": [
+   0.01,
+   0.58
+  ],
+  "speech_fingerprint": "f04d7f53801d7fe7caa10ea5b54aea0044950df151890c7cdc1523e77d506719"
+ },
+ "word-rock": {
+  "fingerprint": "15bf0f385fa136a22c24517113ffda6f3276a510083d34b714e4f4663bc50946",
+  "text": "石头",
+  "file": "assets/audio/stories/paw-patrol/word-rock.m4a",
+  "speech": [
+   0.03,
+   0.61
+  ],
+  "speech_fingerprint": "15bf0f385fa136a22c24517113ffda6f3276a510083d34b714e4f4663bc50946"
+ },
+ "word-dig": {
+  "fingerprint": "8e89476fd9616f6b9d772004daf9240900f429478a535c80f378afd8805ac41c",
+  "text": "挖",
+  "file": "assets/audio/stories/paw-patrol/word-dig.m4a",
+  "speech": [
+   0.01,
+   0.32
+  ],
+  "speech_fingerprint": "8e89476fd9616f6b9d772004daf9240900f429478a535c80f378afd8805ac41c"
+ },
+ "word-road": {
+  "fingerprint": "3bcbbbe3d266d46cb124399c7735c49706c1dbb0fc0c567424bd8271d1199618",
+  "text": "路",
+  "file": "assets/audio/stories/paw-patrol/word-road.m4a",
+  "speech": [
+   0.01,
+   0.26
+  ],
+  "speech_fingerprint": "3bcbbbe3d266d46cb124399c7735c49706c1dbb0fc0c567424bd8271d1199618"
+ },
+ "word-car": {
+  "fingerprint": "a61bcd136526b79d5ffc668712f9c393971e8f96843447632e2774f300e9e2af",
+  "text": "汽车",
+  "file": "assets/audio/stories/paw-patrol/word-car.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "a61bcd136526b79d5ffc668712f9c393971e8f96843447632e2774f300e9e2af"
+ },
+ "word-redLight": {
+  "fingerprint": "b7a517847e50296fdc405ae4b7758905bc067ed47b4c8a5efd94fda5fa2a6dbf",
+  "text": "红灯",
+  "file": "assets/audio/stories/paw-patrol/word-redLight.m4a",
+  "speech": [
+   0.09,
+   0.6
+  ],
+  "speech_fingerprint": "b7a517847e50296fdc405ae4b7758905bc067ed47b4c8a5efd94fda5fa2a6dbf"
+ },
+ "word-greenLight": {
+  "fingerprint": "19d2fd401297f3c53a06aaf1161f164565efce7e49617488e15df575a6ecd517",
+  "text": "绿灯",
+  "file": "assets/audio/stories/paw-patrol/word-greenLight.m4a",
+  "speech": [
+   0.01,
+   0.55
+  ],
+  "speech_fingerprint": "19d2fd401297f3c53a06aaf1161f164565efce7e49617488e15df575a6ecd517"
+ },
+ "word-stop": {
+  "fingerprint": "fdb247b4f10917733bb782c3d222855e464f7dbce5b78af50e166347a980c0aa",
+  "text": "停",
+  "file": "assets/audio/stories/paw-patrol/word-stop.m4a",
+  "speech": [
+   0.0,
+   0.4
+  ],
+  "speech_fingerprint": "fdb247b4f10917733bb782c3d222855e464f7dbce5b78af50e166347a980c0aa"
+ },
+ "word-chick": {
+  "fingerprint": "4f5b95ef55afa13211943ca1e20a4df59ff5ccd1d3abe85e9e81c8e8b184291a",
+  "text": "小鸡",
+  "file": "assets/audio/stories/paw-patrol/word-chick.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "4f5b95ef55afa13211943ca1e20a4df59ff5ccd1d3abe85e9e81c8e8b184291a"
+ },
+ "word-helicopter": {
+  "fingerprint": "b24516d305999beee4acdf7e3ad91b224fa6fbc87867c394c21c852a59e06523",
+  "text": "直升机",
+  "file": "assets/audio/stories/paw-patrol/word-helicopter.m4a",
+  "speech": [
+   0.01,
+   0.83
+  ],
+  "speech_fingerprint": "b24516d305999beee4acdf7e3ad91b224fa6fbc87867c394c21c852a59e06523"
+ },
+ "word-fly": {
+  "fingerprint": "78af2ab28598c7cf520d5d848ce5344f466fc7cc7bddf358e77e64216e47e1b0",
+  "text": "飞",
+  "file": "assets/audio/stories/paw-patrol/word-fly.m4a",
+  "speech": [
+   0.11,
+   0.33
+  ],
+  "speech_fingerprint": "78af2ab28598c7cf520d5d848ce5344f466fc7cc7bddf358e77e64216e47e1b0"
+ },
+ "word-bone": {
+  "fingerprint": "558dda4d424c661ee25977248d18450fc5b237769e1e6b1200af26eff7b5482e",
+  "text": "骨头",
+  "file": "assets/audio/stories/paw-patrol/word-bone.m4a",
+  "speech": [
+   0.02,
+   0.52
+  ],
+  "speech_fingerprint": "558dda4d424c661ee25977248d18450fc5b237769e1e6b1200af26eff7b5482e"
+ },
+ "word-brave": {
+  "fingerprint": "7e20793d8305e66b0f4ed48f13dfcd4eb9f18c453bc7eebb35b1290596900d4b",
+  "text": "勇敢",
+  "file": "assets/audio/stories/paw-patrol/word-brave.m4a",
+  "speech": [
+   0.01,
+   0.62
+  ],
+  "speech_fingerprint": "7e20793d8305e66b0f4ed48f13dfcd4eb9f18c453bc7eebb35b1290596900d4b"
+ }
+}
