@@ -42,10 +42,10 @@ const clipUrl=clip=>url(`assets/audio/stories/${story.id}/${clip}.m4a`);
 const voiceOf=speaker=>speaker==='narrator'?NARRATOR:story.voices[speaker];
 
 export function mountStories(element,options){root=element;celebrate=options.celebrate;showMenu();}
-export function stopStory(){token++;audio.pause();finishLine?.(false);cancelWait?.();stopMic();cancelAnimationFrame(frame);}
+export function stopStory(){token++;audio.pause();finishLine?.(false);cancelWait?.();stopMic();stopRecording?.();takeAudio.pause();cancelAnimationFrame(frame);}
 
 function showMenu(){
- stopStory();
+ stopStory();forgetTakes();
  root.innerHTML=`<div class="story-menu">${STORIES.map(s=>`<button class="story-card" data-story="${s.id}"><img class="story-cover" src="${url(`assets/stories/${s.id}-cover.svg`)}" alt="" loading="lazy"><span class="story-card-text"><span class="hanzi" lang="zh-Hans">${escape(s.title)}</span><span class="story-card-name">${escape(s.english)}</span></span><span class="story-card-play" aria-hidden="true">${icon('play')}</span></button>`).join('')}</div>`;
  root.querySelectorAll('[data-story]').forEach(b=>b.onclick=()=>openStory(b.dataset.story).catch(()=>{b.classList.add('failed');}));
 }
@@ -56,6 +56,7 @@ async function openStory(id){
   if(module.default.css&&!document.querySelector(`style[data-story="${id}"]`)){const style=document.createElement('style');style.dataset.story=id;style.textContent=module.default.css;document.head.append(style);}
   keepOffline(id,timing);
  }
+ shared??=await fetch(url('assets/audio/stories/shared/clips.json')).then(r=>r.json()).catch(()=>({}));
  ({text:story,book,timing:clips}=loaded.get(id));
  renderPlayer();
 }
@@ -65,18 +66,19 @@ async function keepOffline(id,timing){
  if(!('caches' in window))return;
  try{
   const cache=await caches.open(CACHE);
-  const files=[`src/stories/${id}.js`,`data/stories/${id}.json`,`assets/audio/stories/${id}/clips.json`,...Object.values(timing).map(c=>c.file)];
+  const files=[`src/stories/${id}.js`,`data/stories/${id}.json`,`assets/audio/stories/${id}/clips.json`,...Object.values(timing).map(c=>c.file),'assets/audio/stories/shared/clips.json','assets/audio/stories/shared/yourTurn.m4a'];
   for(const file of files)await cache.add(new Request(url(file),{cache:'no-cache'})).catch(()=>{});
  }catch{}
 }
 // Where the story is, for stories told in chapters, shown as names under the title.
 const chapterNames=index=>(story.chapters||[]).map((c,i)=>`<span class="story-dot ${i===index?'now':''}" title="${escape(c.english)}"><span lang="zh-Hans">${escape(c.title)}</span></span>`).join('');
 function renderPlayer(){
- stopStory();
+ stopStory();forgetTakes();
  root.innerHTML=`<div class="story-player">
  <div class="story-bar"><button class="round-button" id="story-back" aria-label="Back to stories">${icon('left')}</button><div class="story-title"><span class="hanzi" lang="zh-Hans">${escape(story.title)}</span><small>${escape(story.english)}</small><span class="story-dots" aria-hidden="true">${chapterNames(0)}</span><span class="story-speed" role="group" aria-label="Story speed">${SPEEDS.map(v=>`<button data-speed="${v}" class="${v===speed?'active':''}" aria-pressed="${v===speed}">${v}×</button>`).join('')}</span></div><button class="round-button" id="story-restart" aria-label="Start the story again">${icon('again')}</button></div>
  <div class="story-stage">${book.firstScene()}
   <button class="story-mic" id="story-mic" hidden aria-label="Blow into the microphone">${icon('mic')}</button>
+  <div class="story-turn" hidden><button class="story-turn-mic" id="turn-mic" aria-label="Say it">${icon('mic')}</button><button class="story-turn-skip" id="turn-skip" aria-label="Skip">${icon('right')}</button></div>
   <div class="story-start"><button class="story-play" id="story-play" aria-label="Start">${icon('play')}</button></div></div>
  <div class="story-line" hidden><span class="story-avatar" aria-hidden="true"></span><div class="story-words"><p class="hanzi" lang="zh-Hans"></p><p class="pinyin" lang="zh-Latn"></p><p class="meaning"></p></div><button class="round-button story-replay" id="story-replay" aria-label="Hear it again">${icon('speaker')}</button></div>
  <div class="story-end" hidden></div></div>`;
@@ -256,9 +258,99 @@ function micButton(onPuff){
  return ()=>{button.onclick=null;button.hidden=true;stopMic();};
 }
 
+// ---- Say it with the panda ----
+// On a refrain (a line marked yourTurn), the story stops and the panda says 你来说！ She taps the mic and says
+// the line; recording stops by itself when she goes quiet, and her own voice plays straight back, exactly as she
+// said it. Each refrain asks at most twice a story. Recordings stay in this page's
+// memory only: nothing is saved or sent anywhere, and they are gone when the story starts again.
+const TURNS_PER_LINE=2;
+const takeAudio=typeof Audio==='function'?new Audio():{pause(){}};
+let shared=null,takes=[],turns=new Map(),micBlocked=false,stopRecording=null;
+const canRecord=()=>!micBlocked&&!!navigator.mediaDevices?.getUserMedia&&typeof MediaRecorder==='function';
+function forgetTakes(){takes.forEach(take=>URL.revokeObjectURL(take.url));takes=[];turns=new Map();}
+// Her own voice, exactly as recorded: normal speed and pitch.
+function playTake(take){
+ return new Promise(resolve=>{takeAudio.onended=takeAudio.onerror=()=>resolve();takeAudio.src=take.url;takeAudio.preservesPitch=takeAudio.webkitPreservesPitch=true;takeAudio.defaultPlaybackRate=takeAudio.playbackRate=1;takeAudio.play().catch(()=>resolve());});
+}
+function sayShared(key,t){
+ alive(t);const clip=shared?.[key];if(!clip)return Promise.resolve();
+ finishLine?.(false);
+ return new Promise(resolve=>{audio.onended=audio.onerror=()=>resolve();audio.src=url(clip.file);audio.preservesPitch=audio.webkitPreservesPitch=true;audio.defaultPlaybackRate=audio.playbackRate=NARRATOR.rate*speed;audio.play().catch(()=>resolve());}).then(()=>alive(t));
+}
+// Records until she has spoken and then gone quiet (or 6 seconds). Resolves with the recording, or null if
+// she said nothing or the microphone is not allowed.
+async function record(onLevel){
+ let stream;
+ try{stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});}catch{micBlocked=true;return null;}
+ const c=sound(),analyser=c.createAnalyser();analyser.fftSize=1024;c.createMediaStreamSource(stream).connect(analyser);
+ const recorder=new MediaRecorder(stream),pieces=[],data=new Float32Array(analyser.fftSize);
+ recorder.ondataavailable=e=>{if(e.data.size)pieces.push(e.data);};
+ return new Promise(resolve=>{
+  let spoke=false,quietSince=0,watch=0,over=false;const started=performance.now();
+  const end=keep=>{if(over)return;over=true;stopRecording=null;clearTimeout(watch);
+   recorder.onstop=()=>{stream.getTracks().forEach(track=>track.stop());resolve(keep&&spoke&&pieces.length?new Blob(pieces,{type:recorder.mimeType}):null);};
+   if(recorder.state!=='inactive')recorder.stop();else recorder.onstop();};
+  stopRecording=()=>end(false);
+  const listen=()=>{
+   analyser.getFloatTimeDomainData(data);let sum=0;for(const v of data)sum+=v*v;const level=Math.sqrt(sum/data.length),now=performance.now();onLevel(Math.min(1,level*8));
+   if(level>.035){spoke=true;quietSince=0;}else if(spoke&&!quietSince)quietSince=now;
+   if((spoke&&quietSince&&now-quietSince>900)||now-started>6000){end(true);return;}
+   watch=setTimeout(listen,40);
+  };
+  // A plain timer, not the screen-refresh callback, so listening carries on even when the page is not being drawn.
+  recorder.start();listen();
+ });
+}
+async function yourTurn(key,t){
+
+ const line=story.lines[key],box=$('.story-line'),panel=$('.story-turn'),mic=$('#turn-mic');
+ showLine(key);box.classList.add('your-turn');panel.hidden=false;mic.classList.remove('recording');
+ await sayShared('yourTurn',t);
+ let take=null;
+ await waitFor(t,done=>{
+  let busy=false;
+  const nudge=setInterval(()=>{if(!busy&&!finishLine&&t===token)sayShared('yourTurn',t).catch(()=>{});},9000);
+  mic.onclick=async()=>{
+   if(busy){stopRecording?.();return;}
+   busy=true;audio.pause();mic.classList.add('recording');
+   let blob=null;try{blob=await record(level=>mic.style.setProperty('--level',level.toFixed(2)));}catch{}
+   mic.classList.remove('recording');mic.style.setProperty('--level',0);busy=false;
+   if(t!==token)return;
+   if(blob){take={key,speaker:line.speaker,url:URL.createObjectURL(blob),scene:snapshot()};done();}
+   else if(micBlocked)done();
+  };
+  $('#turn-skip').onclick=done;
+  return ()=>{clearInterval(nudge);mic.onclick=null;$('#turn-skip').onclick=null;stopRecording?.();};
+ });
+ panel.hidden=true;box.classList.remove('your-turn');
+ if(take){takes.push(take);mic.blur();await playTake(take);alive(t);chime('yay');await wait(400,t);}
+}
+// The picture as it is now, for replaying her story at the end.
+function snapshot(){const s=stage();return `<div class="${s.className.replace(/\bscene-(in|out)\b/g,'')} story-snapshot">${s.querySelector('.story-svg').outerHTML}</div>`;}
+async function sayWithTurn(key,t){
+ await say(key,t);
+ const line=story.lines[key];
+ if(!line.yourTurn||!canRecord()||(turns.get(key)||0)>=TURNS_PER_LINE)return;
+ turns.set(key,(turns.get(key)||0)+1);
+ await yourTurn(key,t);
+}
+// Her story: every line she said, in order, each over the picture from that moment.
+async function playStory(button){
+ const panel=$('.your-story');if(!panel||!takes.length)return;
+ button.disabled=true;panel.hidden=false;
+ for(const take of takes){
+  if(!panel.isConnected)return;
+  const line=story.lines[take.key];
+  panel.querySelector('.your-story-pic').innerHTML=take.scene;
+  panel.querySelector('.hanzi').textContent=line.hanzi;panel.querySelector('.meaning').textContent=line.english;
+  await playTake(take);await new Promise(r=>setTimeout(r,400));
+ }
+ button.disabled=false;
+}
+
 // Everything a story's script can use.
 const api={
- say,wait,tap,waitFor,hint,move,flag,replay,stage,changeScene,count,chime,sounds,
+ say:sayWithTurn,wait,tap,waitFor,hint,move,flag,replay,stage,changeScene,count,chime,sounds,
  mic:micButton,listening:()=>!!mic,quiet:()=>!finishLine,
  chapter:index=>{const dots=$('.story-dots');if(dots)dots.innerHTML=chapterNames(index);}
 };
@@ -267,10 +359,12 @@ function finish(t){
  alive(t);celebrate(true);chime('fanfare');current=null;
  $('.story-line').hidden=true;api.chapter(-1);
  const end=$('.story-end');end.hidden=false;
- end.innerHTML=`<h2 lang="zh-Hans">太棒了！</h2><p class="meaning">Words from the story. Tap one to hear it.</p>
+ const yours=takes.length?`<button class="button primary your-story-button" id="your-story">${icon('mic')} Hear your story</button><div class="your-story" hidden><div class="your-story-pic"></div><p class="hanzi" lang="zh-Hans"></p><p class="meaning"></p></div>`:'';
+ end.innerHTML=`<h2 lang="zh-Hans">太棒了！</h2>${yours}<p class="meaning">Words from the story. Tap one to hear it.</p>
  <div class="story-word-grid">${story.words.map(w=>`<button class="story-word" data-word="${w.id}"><span class="story-word-pic">${book.pictures[w.id]}</span><span class="hanzi" lang="zh-Hans">${escape(w.hanzi)}</span><span class="pinyin" lang="zh-Latn">${escape(w.pinyin)}</span><span class="meaning">${escape(w.english)}</span></button>`).join('')}</div>
  <div class="game-actions"><button class="button primary" id="story-again">${icon('again')} Again</button><button class="button secondary" id="story-list">Back to stories</button></div>`;
  end.querySelectorAll('[data-word]').forEach(b=>b.onclick=()=>{playWord(b.dataset.word);replay(b,'boing');});
+ $('#your-story')?.addEventListener('click',e=>playStory(e.currentTarget));
  $('#story-again').onclick=()=>{renderPlayer();begin();};
  $('#story-list').onclick=showMenu;
  end.scrollIntoView({behavior:'smooth',block:'nearest'});

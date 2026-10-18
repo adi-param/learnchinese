@@ -114,7 +114,8 @@
           "PAW Patrol",
           "pups"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "tapPup": {
       "speaker": "narrator",
@@ -262,7 +263,8 @@
           "绿灯",
           "light-green"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "tapLight": {
       "speaker": "narrator",
@@ -454,7 +456,8 @@
           "汪汪",
           "pups"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "brave": {
       "speaker": "ryder",

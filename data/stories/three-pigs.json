@@ -172,7 +172,8 @@
           "开开门",
           "door"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "tapPig": {
       "speaker": "narrator",
@@ -196,7 +197,8 @@
           "不开",
           "pig-window"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "blow": {
       "speaker": "wolf",
@@ -208,7 +210,8 @@
           "吹",
           "cheeks"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "blowNow": {
       "speaker": "narrator",

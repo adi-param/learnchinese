@@ -68,7 +68,8 @@
           "灰姑娘",
           "cinderella"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "sweep": {
       "speaker": "narrator",
@@ -244,7 +245,8 @@
           "变",
           "wand"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "carriage": {
       "speaker": "narrator",
@@ -316,7 +318,8 @@
           "仙女",
           "fairy"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "beBack": {
       "speaker": "fairy",

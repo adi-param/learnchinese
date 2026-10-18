@@ -183,7 +183,8 @@
           "桥",
           "bridge"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "meSmall": {
       "speaker": "goatSmall",
@@ -243,7 +244,8 @@
           "哥哥更大",
           "goat-mid"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "dontMid": {
       "speaker": "goatMid",
@@ -255,7 +257,8 @@
           "哥哥更大",
           "goat-big"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "goOn": {
       "speaker": "troll",
@@ -279,7 +282,8 @@
           "来",
           "goat-big"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "tapBig": {
       "speaker": "narrator",

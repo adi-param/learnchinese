@@ -1,0 +1,12 @@
+{
+ "yourTurn": {
+  "fingerprint": "ffa032c5b35fde473ee77724c03bd7309b887b0c4cd1d501595200af0c846b53",
+  "text": "你来说！",
+  "file": "assets/audio/stories/shared/yourTurn.m4a",
+  "speech": [
+   0.01,
+   0.84
+  ],
+  "speech_fingerprint": "ffa032c5b35fde473ee77724c03bd7309b887b0c4cd1d501595200af0c846b53"
+ }
+}

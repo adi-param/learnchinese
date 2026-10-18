@@ -114,7 +114,8 @@
           "蜘蛛小队",
           "team"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "gardens": {
       "speaker": "narrator",
@@ -246,7 +247,8 @@
           "网",
           "ira"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "tied": {
       "speaker": "narrator",
@@ -341,7 +343,8 @@
           "你",
           "goblin"
         ]
-      ]
+      ],
+      "yourTurn": true
     },
     "oops": {
       "speaker": "goblin",

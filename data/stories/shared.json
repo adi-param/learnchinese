@@ -1,0 +1,10 @@
+{
+  "note": "Clips every story uses: the panda inviting her to say a line herself.",
+  "clips": {
+    "yourTurn": {
+      "hanzi": "你来说！",
+      "pinyin": "Nǐ lái shuō!",
+      "english": "Your turn!"
+    }
+  }
+}

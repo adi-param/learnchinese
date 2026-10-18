@@ -117,6 +117,9 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
     # voice acts every part).
     for story_path in sorted((ROOT / 'data/stories').glob('*.json')):
         story = json.loads(story_path.read_text())
+        if story_path.stem == 'shared':
+            record_set('stories/shared', {key: clip['hanzi'] for key, clip in story['clips'].items()})
+            continue
         record_set(f"stories/{story['id']}", {**{key: line['hanzi'] for key, line in story['lines'].items()}, **{'word-' + word['id']: word['hanzi'] for word in story['words']}})
     # Game topics: every word and every sentence the games say about it.
     for topic_path in sorted((ROOT / 'data/topics').glob('*.json')):
