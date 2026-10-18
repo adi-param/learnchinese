@@ -1,0 +1,562 @@
+{
+ "id": "animals",
+ "title": "动物",
+ "english": "Animals",
+ "note": "Pop it, I spy, Panda wants, and the animals of Feed the animal",
+ "items": [
+  {
+   "id": "rabbit",
+   "hanzi": "兔子",
+   "pinyin": "tùzi",
+   "english": "rabbit",
+   "likes": [
+    "carrot",
+    "grass",
+    "strawberry"
+   ]
+  },
+  {
+   "id": "horse",
+   "hanzi": "马",
+   "pinyin": "mǎ",
+   "english": "horse",
+   "likes": [
+    "grass",
+    "carrot",
+    "apple"
+   ]
+  },
+  {
+   "id": "duck",
+   "hanzi": "鸭子",
+   "pinyin": "yāzi",
+   "english": "duck",
+   "likes": [
+    "corn",
+    "grass",
+    "fish"
+   ]
+  },
+  {
+   "id": "cow",
+   "hanzi": "牛",
+   "pinyin": "niú",
+   "english": "cow",
+   "likes": [
+    "grass",
+    "corn",
+    "apple"
+   ]
+  },
+  {
+   "id": "sheep",
+   "hanzi": "羊",
+   "pinyin": "yáng",
+   "english": "sheep",
+   "likes": [
+    "grass",
+    "carrot",
+    "corn"
+   ]
+  },
+  {
+   "id": "panda",
+   "hanzi": "熊猫",
+   "pinyin": "xióngmāo",
+   "english": "panda",
+   "likes": [
+    "bamboo",
+    "apple",
+    "cake"
+   ]
+  },
+  {
+   "id": "monkey",
+   "hanzi": "猴子",
+   "pinyin": "hóuzi",
+   "english": "monkey",
+   "likes": [
+    "banana",
+    "grapes",
+    "apple"
+   ]
+  },
+  {
+   "id": "dog",
+   "hanzi": "小狗",
+   "pinyin": "xiǎo gǒu",
+   "english": "puppy",
+   "likes": [
+    "bone",
+    "cake",
+    "fish"
+   ]
+  },
+  {
+   "id": "cat",
+   "hanzi": "小猫",
+   "pinyin": "xiǎo māo",
+   "english": "kitten",
+   "likes": [
+    "fish",
+    "cheese",
+    "cake"
+   ]
+  },
+  {
+   "id": "mouse",
+   "hanzi": "老鼠",
+   "pinyin": "lǎoshǔ",
+   "english": "mouse",
+   "likes": [
+    "cheese",
+    "corn",
+    "grapes"
+   ]
+  },
+  {
+   "id": "bird",
+   "hanzi": "小鸟",
+   "pinyin": "xiǎo niǎo",
+   "english": "little bird",
+   "likes": [
+    "corn",
+    "grapes",
+    "strawberry"
+   ]
+  },
+  {
+   "id": "pig",
+   "hanzi": "小猪",
+   "pinyin": "xiǎo zhū",
+   "english": "piglet",
+   "likes": [
+    "apple",
+    "corn",
+    "cake"
+   ]
+  }
+ ],
+ "clips": {
+  "rabbit": {
+   "hanzi": "兔子",
+   "pinyin": "tùzi",
+   "english": "rabbit"
+  },
+  "rabbit-spy": {
+   "hanzi": "找一找兔子！",
+   "pinyin": "Zhǎo yi zhǎo tùzi!",
+   "english": "Find the rabbit!"
+  },
+  "rabbit-want": {
+   "hanzi": "我想看兔子！",
+   "pinyin": "Wǒ xiǎng kàn tùzi!",
+   "english": "I want to see the rabbit!"
+  },
+  "rabbit-done": {
+   "hanzi": "兔子来了！",
+   "pinyin": "Tùzi lái le!",
+   "english": "Here comes the rabbit!"
+  },
+  "feed-rabbit-carrot": {
+   "hanzi": "兔子喜欢吃胡萝卜。",
+   "pinyin": "Tùzi xǐhuan chī húluóbo.",
+   "english": "The rabbit likes to eat carrots."
+  },
+  "feed-rabbit-grass": {
+   "hanzi": "兔子喜欢吃草。",
+   "pinyin": "Tùzi xǐhuan chī cǎo.",
+   "english": "The rabbit likes to eat grass."
+  },
+  "feed-rabbit-strawberry": {
+   "hanzi": "兔子喜欢吃草莓。",
+   "pinyin": "Tùzi xǐhuan chī cǎoméi.",
+   "english": "The rabbit likes to eat strawberries."
+  },
+  "horse": {
+   "hanzi": "马",
+   "pinyin": "mǎ",
+   "english": "horse"
+  },
+  "horse-spy": {
+   "hanzi": "找一找马！",
+   "pinyin": "Zhǎo yi zhǎo mǎ!",
+   "english": "Find the horse!"
+  },
+  "horse-want": {
+   "hanzi": "我想看马！",
+   "pinyin": "Wǒ xiǎng kàn mǎ!",
+   "english": "I want to see the horse!"
+  },
+  "horse-done": {
+   "hanzi": "马来了！",
+   "pinyin": "Mǎ lái le!",
+   "english": "Here comes the horse!"
+  },
+  "feed-horse-grass": {
+   "hanzi": "马喜欢吃草。",
+   "pinyin": "Mǎ xǐhuan chī cǎo.",
+   "english": "The horse likes to eat grass."
+  },
+  "feed-horse-carrot": {
+   "hanzi": "马喜欢吃胡萝卜。",
+   "pinyin": "Mǎ xǐhuan chī húluóbo.",
+   "english": "The horse likes to eat carrots."
+  },
+  "feed-horse-apple": {
+   "hanzi": "马喜欢吃苹果。",
+   "pinyin": "Mǎ xǐhuan chī píngguǒ.",
+   "english": "The horse likes to eat apples."
+  },
+  "duck": {
+   "hanzi": "鸭子",
+   "pinyin": "yāzi",
+   "english": "duck"
+  },
+  "duck-spy": {
+   "hanzi": "找一找鸭子！",
+   "pinyin": "Zhǎo yi zhǎo yāzi!",
+   "english": "Find the duck!"
+  },
+  "duck-want": {
+   "hanzi": "我想看鸭子！",
+   "pinyin": "Wǒ xiǎng kàn yāzi!",
+   "english": "I want to see the duck!"
+  },
+  "duck-done": {
+   "hanzi": "鸭子来了！",
+   "pinyin": "Yāzi lái le!",
+   "english": "Here comes the duck!"
+  },
+  "feed-duck-corn": {
+   "hanzi": "鸭子喜欢吃玉米。",
+   "pinyin": "Yāzi xǐhuan chī yùmǐ.",
+   "english": "The duck likes to eat corn."
+  },
+  "feed-duck-grass": {
+   "hanzi": "鸭子喜欢吃草。",
+   "pinyin": "Yāzi xǐhuan chī cǎo.",
+   "english": "The duck likes to eat grass."
+  },
+  "feed-duck-fish": {
+   "hanzi": "鸭子喜欢吃鱼。",
+   "pinyin": "Yāzi xǐhuan chī yú.",
+   "english": "The duck likes to eat fish."
+  },
+  "cow": {
+   "hanzi": "牛",
+   "pinyin": "niú",
+   "english": "cow"
+  },
+  "cow-spy": {
+   "hanzi": "找一找牛！",
+   "pinyin": "Zhǎo yi zhǎo niú!",
+   "english": "Find the cow!"
+  },
+  "cow-want": {
+   "hanzi": "我想看牛！",
+   "pinyin": "Wǒ xiǎng kàn niú!",
+   "english": "I want to see the cow!"
+  },
+  "cow-done": {
+   "hanzi": "牛来了！",
+   "pinyin": "Niú lái le!",
+   "english": "Here comes the cow!"
+  },
+  "feed-cow-grass": {
+   "hanzi": "牛喜欢吃草。",
+   "pinyin": "Niú xǐhuan chī cǎo.",
+   "english": "The cow likes to eat grass."
+  },
+  "feed-cow-corn": {
+   "hanzi": "牛喜欢吃玉米。",
+   "pinyin": "Niú xǐhuan chī yùmǐ.",
+   "english": "The cow likes to eat corn."
+  },
+  "feed-cow-apple": {
+   "hanzi": "牛喜欢吃苹果。",
+   "pinyin": "Niú xǐhuan chī píngguǒ.",
+   "english": "The cow likes to eat apples."
+  },
+  "sheep": {
+   "hanzi": "羊",
+   "pinyin": "yáng",
+   "english": "sheep"
+  },
+  "sheep-spy": {
+   "hanzi": "找一找羊！",
+   "pinyin": "Zhǎo yi zhǎo yáng!",
+   "english": "Find the sheep!"
+  },
+  "sheep-want": {
+   "hanzi": "我想看羊！",
+   "pinyin": "Wǒ xiǎng kàn yáng!",
+   "english": "I want to see the sheep!"
+  },
+  "sheep-done": {
+   "hanzi": "羊来了！",
+   "pinyin": "Yáng lái le!",
+   "english": "Here comes the sheep!"
+  },
+  "feed-sheep-grass": {
+   "hanzi": "羊喜欢吃草。",
+   "pinyin": "Yáng xǐhuan chī cǎo.",
+   "english": "The sheep likes to eat grass."
+  },
+  "feed-sheep-carrot": {
+   "hanzi": "羊喜欢吃胡萝卜。",
+   "pinyin": "Yáng xǐhuan chī húluóbo.",
+   "english": "The sheep likes to eat carrots."
+  },
+  "feed-sheep-corn": {
+   "hanzi": "羊喜欢吃玉米。",
+   "pinyin": "Yáng xǐhuan chī yùmǐ.",
+   "english": "The sheep likes to eat corn."
+  },
+  "panda": {
+   "hanzi": "熊猫",
+   "pinyin": "xióngmāo",
+   "english": "panda"
+  },
+  "panda-spy": {
+   "hanzi": "找一找熊猫！",
+   "pinyin": "Zhǎo yi zhǎo xióngmāo!",
+   "english": "Find the panda!"
+  },
+  "panda-want": {
+   "hanzi": "我想看熊猫！",
+   "pinyin": "Wǒ xiǎng kàn xióngmāo!",
+   "english": "I want to see the panda!"
+  },
+  "panda-done": {
+   "hanzi": "熊猫来了！",
+   "pinyin": "Xióngmāo lái le!",
+   "english": "Here comes the panda!"
+  },
+  "feed-panda-bamboo": {
+   "hanzi": "熊猫喜欢吃竹子。",
+   "pinyin": "Xióngmāo xǐhuan chī zhúzi.",
+   "english": "The panda likes to eat bamboo."
+  },
+  "feed-panda-apple": {
+   "hanzi": "熊猫喜欢吃苹果。",
+   "pinyin": "Xióngmāo xǐhuan chī píngguǒ.",
+   "english": "The panda likes to eat apples."
+  },
+  "feed-panda-cake": {
+   "hanzi": "熊猫喜欢吃蛋糕。",
+   "pinyin": "Xióngmāo xǐhuan chī dàngāo.",
+   "english": "The panda likes to eat cake."
+  },
+  "monkey": {
+   "hanzi": "猴子",
+   "pinyin": "hóuzi",
+   "english": "monkey"
+  },
+  "monkey-spy": {
+   "hanzi": "找一找猴子！",
+   "pinyin": "Zhǎo yi zhǎo hóuzi!",
+   "english": "Find the monkey!"
+  },
+  "monkey-want": {
+   "hanzi": "我想看猴子！",
+   "pinyin": "Wǒ xiǎng kàn hóuzi!",
+   "english": "I want to see the monkey!"
+  },
+  "monkey-done": {
+   "hanzi": "猴子来了！",
+   "pinyin": "Hóuzi lái le!",
+   "english": "Here comes the monkey!"
+  },
+  "feed-monkey-banana": {
+   "hanzi": "猴子喜欢吃香蕉。",
+   "pinyin": "Hóuzi xǐhuan chī xiāngjiāo.",
+   "english": "The monkey likes to eat bananas."
+  },
+  "feed-monkey-grapes": {
+   "hanzi": "猴子喜欢吃葡萄。",
+   "pinyin": "Hóuzi xǐhuan chī pútao.",
+   "english": "The monkey likes to eat grapes."
+  },
+  "feed-monkey-apple": {
+   "hanzi": "猴子喜欢吃苹果。",
+   "pinyin": "Hóuzi xǐhuan chī píngguǒ.",
+   "english": "The monkey likes to eat apples."
+  },
+  "dog": {
+   "hanzi": "小狗",
+   "pinyin": "xiǎo gǒu",
+   "english": "puppy"
+  },
+  "dog-spy": {
+   "hanzi": "找一找小狗！",
+   "pinyin": "Zhǎo yi zhǎo xiǎo gǒu!",
+   "english": "Find the puppy!"
+  },
+  "dog-want": {
+   "hanzi": "我想看小狗！",
+   "pinyin": "Wǒ xiǎng kàn xiǎo gǒu!",
+   "english": "I want to see the puppy!"
+  },
+  "dog-done": {
+   "hanzi": "小狗来了！",
+   "pinyin": "Xiǎo gǒu lái le!",
+   "english": "Here comes the puppy!"
+  },
+  "feed-dog-bone": {
+   "hanzi": "小狗喜欢吃骨头。",
+   "pinyin": "Xiǎo gǒu xǐhuan chī gǔtou.",
+   "english": "The puppy likes to eat bones."
+  },
+  "feed-dog-cake": {
+   "hanzi": "小狗喜欢吃蛋糕。",
+   "pinyin": "Xiǎo gǒu xǐhuan chī dàngāo.",
+   "english": "The puppy likes to eat cake."
+  },
+  "feed-dog-fish": {
+   "hanzi": "小狗喜欢吃鱼。",
+   "pinyin": "Xiǎo gǒu xǐhuan chī yú.",
+   "english": "The puppy likes to eat fish."
+  },
+  "cat": {
+   "hanzi": "小猫",
+   "pinyin": "xiǎo māo",
+   "english": "kitten"
+  },
+  "cat-spy": {
+   "hanzi": "找一找小猫！",
+   "pinyin": "Zhǎo yi zhǎo xiǎo māo!",
+   "english": "Find the kitten!"
+  },
+  "cat-want": {
+   "hanzi": "我想看小猫！",
+   "pinyin": "Wǒ xiǎng kàn xiǎo māo!",
+   "english": "I want to see the kitten!"
+  },
+  "cat-done": {
+   "hanzi": "小猫来了！",
+   "pinyin": "Xiǎo māo lái le!",
+   "english": "Here comes the kitten!"
+  },
+  "feed-cat-fish": {
+   "hanzi": "小猫喜欢吃鱼。",
+   "pinyin": "Xiǎo māo xǐhuan chī yú.",
+   "english": "The kitten likes to eat fish."
+  },
+  "feed-cat-cheese": {
+   "hanzi": "小猫喜欢吃奶酪。",
+   "pinyin": "Xiǎo māo xǐhuan chī nǎilào.",
+   "english": "The kitten likes to eat cheese."
+  },
+  "feed-cat-cake": {
+   "hanzi": "小猫喜欢吃蛋糕。",
+   "pinyin": "Xiǎo māo xǐhuan chī dàngāo.",
+   "english": "The kitten likes to eat cake."
+  },
+  "mouse": {
+   "hanzi": "老鼠",
+   "pinyin": "lǎoshǔ",
+   "english": "mouse"
+  },
+  "mouse-spy": {
+   "hanzi": "找一找老鼠！",
+   "pinyin": "Zhǎo yi zhǎo lǎoshǔ!",
+   "english": "Find the mouse!"
+  },
+  "mouse-want": {
+   "hanzi": "我想看老鼠！",
+   "pinyin": "Wǒ xiǎng kàn lǎoshǔ!",
+   "english": "I want to see the mouse!"
+  },
+  "mouse-done": {
+   "hanzi": "老鼠来了！",
+   "pinyin": "Lǎoshǔ lái le!",
+   "english": "Here comes the mouse!"
+  },
+  "feed-mouse-cheese": {
+   "hanzi": "老鼠喜欢吃奶酪。",
+   "pinyin": "Lǎoshǔ xǐhuan chī nǎilào.",
+   "english": "The mouse likes to eat cheese."
+  },
+  "feed-mouse-corn": {
+   "hanzi": "老鼠喜欢吃玉米。",
+   "pinyin": "Lǎoshǔ xǐhuan chī yùmǐ.",
+   "english": "The mouse likes to eat corn."
+  },
+  "feed-mouse-grapes": {
+   "hanzi": "老鼠喜欢吃葡萄。",
+   "pinyin": "Lǎoshǔ xǐhuan chī pútao.",
+   "english": "The mouse likes to eat grapes."
+  },
+  "bird": {
+   "hanzi": "小鸟",
+   "pinyin": "xiǎo niǎo",
+   "english": "little bird"
+  },
+  "bird-spy": {
+   "hanzi": "找一找小鸟！",
+   "pinyin": "Zhǎo yi zhǎo xiǎo niǎo!",
+   "english": "Find the little bird!"
+  },
+  "bird-want": {
+   "hanzi": "我想看小鸟！",
+   "pinyin": "Wǒ xiǎng kàn xiǎo niǎo!",
+   "english": "I want to see the little bird!"
+  },
+  "bird-done": {
+   "hanzi": "小鸟来了！",
+   "pinyin": "Xiǎo niǎo lái le!",
+   "english": "Here comes the little bird!"
+  },
+  "feed-bird-corn": {
+   "hanzi": "小鸟喜欢吃玉米。",
+   "pinyin": "Xiǎo niǎo xǐhuan chī yùmǐ.",
+   "english": "The little bird likes to eat corn."
+  },
+  "feed-bird-grapes": {
+   "hanzi": "小鸟喜欢吃葡萄。",
+   "pinyin": "Xiǎo niǎo xǐhuan chī pútao.",
+   "english": "The little bird likes to eat grapes."
+  },
+  "feed-bird-strawberry": {
+   "hanzi": "小鸟喜欢吃草莓。",
+   "pinyin": "Xiǎo niǎo xǐhuan chī cǎoméi.",
+   "english": "The little bird likes to eat strawberries."
+  },
+  "pig": {
+   "hanzi": "小猪",
+   "pinyin": "xiǎo zhū",
+   "english": "piglet"
+  },
+  "pig-spy": {
+   "hanzi": "找一找小猪！",
+   "pinyin": "Zhǎo yi zhǎo xiǎo zhū!",
+   "english": "Find the piglet!"
+  },
+  "pig-want": {
+   "hanzi": "我想看小猪！",
+   "pinyin": "Wǒ xiǎng kàn xiǎo zhū!",
+   "english": "I want to see the piglet!"
+  },
+  "pig-done": {
+   "hanzi": "小猪来了！",
+   "pinyin": "Xiǎo zhū lái le!",
+   "english": "Here comes the piglet!"
+  },
+  "feed-pig-apple": {
+   "hanzi": "小猪喜欢吃苹果。",
+   "pinyin": "Xiǎo zhū xǐhuan chī píngguǒ.",
+   "english": "The piglet likes to eat apples."
+  },
+  "feed-pig-corn": {
+   "hanzi": "小猪喜欢吃玉米。",
+   "pinyin": "Xiǎo zhū xǐhuan chī yùmǐ.",
+   "english": "The piglet likes to eat corn."
+  },
+  "feed-pig-cake": {
+   "hanzi": "小猪喜欢吃蛋糕。",
+   "pinyin": "Xiǎo zhū xǐhuan chī dàngāo.",
+   "english": "The piglet likes to eat cake."
+  }
+ }
+}

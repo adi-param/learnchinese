@@ -1,0 +1,204 @@
+{
+ "id": "body",
+ "title": "身体",
+ "english": "Body",
+ "note": "Pop it, I spy and Panda wants (the panda doctor)",
+ "items": [
+  {
+   "id": "head",
+   "hanzi": "头",
+   "pinyin": "tóu",
+   "english": "head"
+  },
+  {
+   "id": "hair",
+   "hanzi": "头发",
+   "pinyin": "tóufa",
+   "english": "hair"
+  },
+  {
+   "id": "eyes",
+   "hanzi": "眼睛",
+   "pinyin": "yǎnjing",
+   "english": "eyes"
+  },
+  {
+   "id": "ears",
+   "hanzi": "耳朵",
+   "pinyin": "ěrduo",
+   "english": "ears"
+  },
+  {
+   "id": "nose",
+   "hanzi": "鼻子",
+   "pinyin": "bízi",
+   "english": "nose"
+  },
+  {
+   "id": "mouth",
+   "hanzi": "嘴巴",
+   "pinyin": "zuǐba",
+   "english": "mouth"
+  },
+  {
+   "id": "hand",
+   "hanzi": "手",
+   "pinyin": "shǒu",
+   "english": "hand"
+  },
+  {
+   "id": "foot",
+   "hanzi": "脚",
+   "pinyin": "jiǎo",
+   "english": "foot"
+  },
+  {
+   "id": "tummy",
+   "hanzi": "肚子",
+   "pinyin": "dùzi",
+   "english": "tummy"
+  }
+ ],
+ "clips": {
+  "head": {
+   "hanzi": "头",
+   "pinyin": "tóu",
+   "english": "head"
+  },
+  "head-spy": {
+   "hanzi": "找一找头！",
+   "pinyin": "Zhǎo yi zhǎo tóu!",
+   "english": "Find the head!"
+  },
+  "head-want": {
+   "hanzi": "我的头疼！",
+   "pinyin": "Wǒ de tóu téng!",
+   "english": "My head hurts!"
+  },
+  "hair": {
+   "hanzi": "头发",
+   "pinyin": "tóufa",
+   "english": "hair"
+  },
+  "hair-spy": {
+   "hanzi": "找一找头发！",
+   "pinyin": "Zhǎo yi zhǎo tóufa!",
+   "english": "Find the hair!"
+  },
+  "hair-want": {
+   "hanzi": "我的头发疼！",
+   "pinyin": "Wǒ de tóufa téng!",
+   "english": "My hair hurts!"
+  },
+  "eyes": {
+   "hanzi": "眼睛",
+   "pinyin": "yǎnjing",
+   "english": "eyes"
+  },
+  "eyes-spy": {
+   "hanzi": "找一找眼睛！",
+   "pinyin": "Zhǎo yi zhǎo yǎnjing!",
+   "english": "Find the eyes!"
+  },
+  "eyes-want": {
+   "hanzi": "我的眼睛疼！",
+   "pinyin": "Wǒ de yǎnjing téng!",
+   "english": "My eyes hurt!"
+  },
+  "ears": {
+   "hanzi": "耳朵",
+   "pinyin": "ěrduo",
+   "english": "ears"
+  },
+  "ears-spy": {
+   "hanzi": "找一找耳朵！",
+   "pinyin": "Zhǎo yi zhǎo ěrduo!",
+   "english": "Find the ears!"
+  },
+  "ears-want": {
+   "hanzi": "我的耳朵疼！",
+   "pinyin": "Wǒ de ěrduo téng!",
+   "english": "My ears hurt!"
+  },
+  "nose": {
+   "hanzi": "鼻子",
+   "pinyin": "bízi",
+   "english": "nose"
+  },
+  "nose-spy": {
+   "hanzi": "找一找鼻子！",
+   "pinyin": "Zhǎo yi zhǎo bízi!",
+   "english": "Find the nose!"
+  },
+  "nose-want": {
+   "hanzi": "我的鼻子疼！",
+   "pinyin": "Wǒ de bízi téng!",
+   "english": "My nose hurts!"
+  },
+  "mouth": {
+   "hanzi": "嘴巴",
+   "pinyin": "zuǐba",
+   "english": "mouth"
+  },
+  "mouth-spy": {
+   "hanzi": "找一找嘴巴！",
+   "pinyin": "Zhǎo yi zhǎo zuǐba!",
+   "english": "Find the mouth!"
+  },
+  "mouth-want": {
+   "hanzi": "我的嘴巴疼！",
+   "pinyin": "Wǒ de zuǐba téng!",
+   "english": "My mouth hurts!"
+  },
+  "hand": {
+   "hanzi": "手",
+   "pinyin": "shǒu",
+   "english": "hand"
+  },
+  "hand-spy": {
+   "hanzi": "找一找手！",
+   "pinyin": "Zhǎo yi zhǎo shǒu!",
+   "english": "Find the hand!"
+  },
+  "hand-want": {
+   "hanzi": "我的手疼！",
+   "pinyin": "Wǒ de shǒu téng!",
+   "english": "My hand hurts!"
+  },
+  "foot": {
+   "hanzi": "脚",
+   "pinyin": "jiǎo",
+   "english": "foot"
+  },
+  "foot-spy": {
+   "hanzi": "找一找脚！",
+   "pinyin": "Zhǎo yi zhǎo jiǎo!",
+   "english": "Find the foot!"
+  },
+  "foot-want": {
+   "hanzi": "我的脚疼！",
+   "pinyin": "Wǒ de jiǎo téng!",
+   "english": "My foot hurts!"
+  },
+  "tummy": {
+   "hanzi": "肚子",
+   "pinyin": "dùzi",
+   "english": "tummy"
+  },
+  "tummy-spy": {
+   "hanzi": "找一找肚子！",
+   "pinyin": "Zhǎo yi zhǎo dùzi!",
+   "english": "Find the tummy!"
+  },
+  "tummy-want": {
+   "hanzi": "我的肚子疼！",
+   "pinyin": "Wǒ de dùzi téng!",
+   "english": "My tummy hurts!"
+  },
+  "thanks": {
+   "hanzi": "谢谢你！",
+   "pinyin": "Xièxie nǐ!",
+   "english": "Thank you!"
+  }
+ }
+}

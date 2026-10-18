@@ -1,0 +1,502 @@
+{
+ "getup": {
+  "fingerprint": "f019ff41024171216900df2dccc64c99d3f4cf8ab9a9de0157878e63fc516f80",
+  "text": "起床",
+  "file": "assets/audio/topics/routine/getup.m4a",
+  "speech": [
+   0.03,
+   0.74
+  ],
+  "speech_fingerprint": "f019ff41024171216900df2dccc64c99d3f4cf8ab9a9de0157878e63fc516f80"
+ },
+ "getup-spy": {
+  "fingerprint": "9438c3574cce6b7c027e1d5d4861cc7714c96af3f3956ff6cf39409b2707df65",
+  "text": "谁在起床？",
+  "file": "assets/audio/topics/routine/getup-spy.m4a",
+  "speech": [
+   0.03,
+   1.4
+  ],
+  "speech_fingerprint": "9438c3574cce6b7c027e1d5d4861cc7714c96af3f3956ff6cf39409b2707df65"
+ },
+ "getup-want": {
+  "fingerprint": "67b65c300245948d36e1863972164923ba4f5595a7a1d2c068e20d8325751fdd",
+  "text": "我要起床！",
+  "file": "assets/audio/topics/routine/getup-want.m4a",
+  "speech": [
+   0.01,
+   1.2
+  ],
+  "speech_fingerprint": "67b65c300245948d36e1863972164923ba4f5595a7a1d2c068e20d8325751fdd"
+ },
+ "getup-give": {
+  "fingerprint": "1bee7267d74bb802e66df7398a485bb2576bb8fffed5b2fae3b29e449b53ef42",
+  "text": "给你闹钟！",
+  "file": "assets/audio/topics/routine/getup-give.m4a",
+  "speech": [
+   0.02,
+   1.05
+  ],
+  "speech_fingerprint": "1bee7267d74bb802e66df7398a485bb2576bb8fffed5b2fae3b29e449b53ef42"
+ },
+ "getup-done": {
+  "fingerprint": "cee102b28e3112aeb08911645f572f2b94abb4bb5df92b61e659190fc195f9d6",
+  "text": "熊猫在起床！",
+  "file": "assets/audio/topics/routine/getup-done.m4a",
+  "speech": [
+   0.03,
+   1.66
+  ],
+  "speech_fingerprint": "cee102b28e3112aeb08911645f572f2b94abb4bb5df92b61e659190fc195f9d6"
+ },
+ "brush": {
+  "fingerprint": "9df3a82c564d2fe88a77f68de4c25f6bde444019820b883b3dfb98444aa58106",
+  "text": "刷牙",
+  "file": "assets/audio/topics/routine/brush.m4a",
+  "speech": [
+   0.03,
+   0.69
+  ],
+  "speech_fingerprint": "9df3a82c564d2fe88a77f68de4c25f6bde444019820b883b3dfb98444aa58106"
+ },
+ "brush-spy": {
+  "fingerprint": "54e9a270c913b37733e369ca69270ef2604a0abb8623c5dc6d12e36d8fc6d4bb",
+  "text": "谁在刷牙？",
+  "file": "assets/audio/topics/routine/brush-spy.m4a",
+  "speech": [
+   0.03,
+   1.33
+  ],
+  "speech_fingerprint": "54e9a270c913b37733e369ca69270ef2604a0abb8623c5dc6d12e36d8fc6d4bb"
+ },
+ "brush-want": {
+  "fingerprint": "7568c273ffc8849f9ad544f9f2fb3f7cb79a1477042eae99772175dfeac1978b",
+  "text": "我要刷牙！",
+  "file": "assets/audio/topics/routine/brush-want.m4a",
+  "speech": [
+   0.01,
+   1.11
+  ],
+  "speech_fingerprint": "7568c273ffc8849f9ad544f9f2fb3f7cb79a1477042eae99772175dfeac1978b"
+ },
+ "brush-give": {
+  "fingerprint": "008fa5e5204656eff429c96679a3b05bae7096b95211bb7e9c6b796d3f511e11",
+  "text": "给你牙刷！",
+  "file": "assets/audio/topics/routine/brush-give.m4a",
+  "speech": [
+   0.02,
+   1.08
+  ],
+  "speech_fingerprint": "008fa5e5204656eff429c96679a3b05bae7096b95211bb7e9c6b796d3f511e11"
+ },
+ "brush-done": {
+  "fingerprint": "98aee762a1841399b700df00f2e911ae1d6e3e8065f3188a02bede3cab9aa224",
+  "text": "熊猫在刷牙！",
+  "file": "assets/audio/topics/routine/brush-done.m4a",
+  "speech": [
+   0.03,
+   1.56
+  ],
+  "speech_fingerprint": "98aee762a1841399b700df00f2e911ae1d6e3e8065f3188a02bede3cab9aa224"
+ },
+ "washface": {
+  "fingerprint": "8abcc05d5835ca5e18d0fde36eba71e08170c8c8faf2a05151c7f3096d3840bf",
+  "text": "洗脸",
+  "file": "assets/audio/topics/routine/washface.m4a",
+  "speech": [
+   0.03,
+   0.63
+  ],
+  "speech_fingerprint": "8abcc05d5835ca5e18d0fde36eba71e08170c8c8faf2a05151c7f3096d3840bf"
+ },
+ "washface-spy": {
+  "fingerprint": "d79e9ac8d8e2e6c84b61853c9aab512f1d74aa983b76ce27323e332d876d7adc",
+  "text": "谁在洗脸？",
+  "file": "assets/audio/topics/routine/washface-spy.m4a",
+  "speech": [
+   0.03,
+   1.23
+  ],
+  "speech_fingerprint": "d79e9ac8d8e2e6c84b61853c9aab512f1d74aa983b76ce27323e332d876d7adc"
+ },
+ "washface-want": {
+  "fingerprint": "8ae06a0e3dc18c78908c451b3c05207b84aed72c913a5678850ba16a19904e73",
+  "text": "我要洗脸！",
+  "file": "assets/audio/topics/routine/washface-want.m4a",
+  "speech": [
+   0.01,
+   1.01
+  ],
+  "speech_fingerprint": "8ae06a0e3dc18c78908c451b3c05207b84aed72c913a5678850ba16a19904e73"
+ },
+ "washface-give": {
+  "fingerprint": "cfbb94f0f6f9337e6bec8d6941d34e5581c4ee8040a927f97952ce6592b88af3",
+  "text": "给你毛巾！",
+  "file": "assets/audio/topics/routine/washface-give.m4a",
+  "speech": [
+   0.02,
+   1.08
+  ],
+  "speech_fingerprint": "cfbb94f0f6f9337e6bec8d6941d34e5581c4ee8040a927f97952ce6592b88af3"
+ },
+ "washface-done": {
+  "fingerprint": "cb94d20e10962dd09c7d0525d0216669722ef870e616a2095a5707c0d642101f",
+  "text": "熊猫在洗脸！",
+  "file": "assets/audio/topics/routine/washface-done.m4a",
+  "speech": [
+   0.03,
+   1.45
+  ],
+  "speech_fingerprint": "cb94d20e10962dd09c7d0525d0216669722ef870e616a2095a5707c0d642101f"
+ },
+ "washhands": {
+  "fingerprint": "64464fb56cd80a88eed2f6c138b4530ac6c20704a4512c124c3d7db8eeaf63f3",
+  "text": "洗手",
+  "file": "assets/audio/topics/routine/washhands.m4a",
+  "speech": [
+   0.03,
+   0.7
+  ],
+  "speech_fingerprint": "64464fb56cd80a88eed2f6c138b4530ac6c20704a4512c124c3d7db8eeaf63f3"
+ },
+ "washhands-spy": {
+  "fingerprint": "d7529a53ab8717bfe6880c8eb85f9469422f7fb1ccee6c8266a07d1f7cd3cd97",
+  "text": "谁在洗手？",
+  "file": "assets/audio/topics/routine/washhands-spy.m4a",
+  "speech": [
+   0.03,
+   1.32
+  ],
+  "speech_fingerprint": "d7529a53ab8717bfe6880c8eb85f9469422f7fb1ccee6c8266a07d1f7cd3cd97"
+ },
+ "washhands-want": {
+  "fingerprint": "788282882f73ebcc4a60cab3d7f7d7e6766d74e4222b1a508866f29187f17da8",
+  "text": "我要洗手！",
+  "file": "assets/audio/topics/routine/washhands-want.m4a",
+  "speech": [
+   0.01,
+   1.12
+  ],
+  "speech_fingerprint": "788282882f73ebcc4a60cab3d7f7d7e6766d74e4222b1a508866f29187f17da8"
+ },
+ "washhands-give": {
+  "fingerprint": "a8277c27f050db11ededcef32212eaed8f599ec454f1b2cc2838c5b612b11ec1",
+  "text": "给你肥皂！",
+  "file": "assets/audio/topics/routine/washhands-give.m4a",
+  "speech": [
+   0.02,
+   1.01
+  ],
+  "speech_fingerprint": "a8277c27f050db11ededcef32212eaed8f599ec454f1b2cc2838c5b612b11ec1"
+ },
+ "washhands-done": {
+  "fingerprint": "6f56c56b6b5a26822bd49415785492ab8eaf8f1b403929bdc1577f416bab43d0",
+  "text": "熊猫在洗手！",
+  "file": "assets/audio/topics/routine/washhands-done.m4a",
+  "speech": [
+   0.03,
+   1.56
+  ],
+  "speech_fingerprint": "6f56c56b6b5a26822bd49415785492ab8eaf8f1b403929bdc1577f416bab43d0"
+ },
+ "dress": {
+  "fingerprint": "9be50e62f9ff92120260623e0886d26274d0eb82bc81fda7bc4acfd02860edf3",
+  "text": "穿衣服",
+  "file": "assets/audio/topics/routine/dress.m4a",
+  "speech": [
+   0.02,
+   0.94
+  ],
+  "speech_fingerprint": "9be50e62f9ff92120260623e0886d26274d0eb82bc81fda7bc4acfd02860edf3"
+ },
+ "dress-spy": {
+  "fingerprint": "13875fe3b7db9bf49e8550017582c16efb0b6c8b9a5067e1d62844c11401bae2",
+  "text": "谁在穿衣服？",
+  "file": "assets/audio/topics/routine/dress-spy.m4a",
+  "speech": [
+   0.03,
+   1.6
+  ],
+  "speech_fingerprint": "13875fe3b7db9bf49e8550017582c16efb0b6c8b9a5067e1d62844c11401bae2"
+ },
+ "dress-want": {
+  "fingerprint": "c30773fb74284aabb5e8e5ad5643a07dff4a396016edb06f8828baa212bb9fe4",
+  "text": "我要穿衣服！",
+  "file": "assets/audio/topics/routine/dress-want.m4a",
+  "speech": [
+   0.01,
+   1.4
+  ],
+  "speech_fingerprint": "c30773fb74284aabb5e8e5ad5643a07dff4a396016edb06f8828baa212bb9fe4"
+ },
+ "dress-give": {
+  "fingerprint": "8cd9f3dcf2da26362f709d9f74aa670931a83eb61ad0c1010028ac0d769f0e70",
+  "text": "给你衣服！",
+  "file": "assets/audio/topics/routine/dress-give.m4a",
+  "speech": [
+   0.01,
+   0.93
+  ],
+  "speech_fingerprint": "8cd9f3dcf2da26362f709d9f74aa670931a83eb61ad0c1010028ac0d769f0e70"
+ },
+ "dress-done": {
+  "fingerprint": "66a9afc55ace4d64a16b8b6d1fcb18a4e803d619326587fc094f287e33a00f7b",
+  "text": "熊猫在穿衣服！",
+  "file": "assets/audio/topics/routine/dress-done.m4a",
+  "speech": [
+   0.03,
+   1.85
+  ],
+  "speech_fingerprint": "66a9afc55ace4d64a16b8b6d1fcb18a4e803d619326587fc094f287e33a00f7b"
+ },
+ "breakfast": {
+  "fingerprint": "4520ebe756fa0aee6073c55336a56a15cb2535f545a56da632d2c645332b6260",
+  "text": "吃早饭",
+  "file": "assets/audio/topics/routine/breakfast.m4a",
+  "speech": [
+   0.02,
+   0.92
+  ],
+  "speech_fingerprint": "4520ebe756fa0aee6073c55336a56a15cb2535f545a56da632d2c645332b6260"
+ },
+ "breakfast-spy": {
+  "fingerprint": "43093c8ca7cabb9f3fd38feecc564881d851573de46dd1cde0bbd5c96295eb9b",
+  "text": "谁在吃早饭？",
+  "file": "assets/audio/topics/routine/breakfast-spy.m4a",
+  "speech": [
+   0.03,
+   1.62
+  ],
+  "speech_fingerprint": "43093c8ca7cabb9f3fd38feecc564881d851573de46dd1cde0bbd5c96295eb9b"
+ },
+ "breakfast-want": {
+  "fingerprint": "aade9465539ca1bd7d8dd76f64062a2bb3ca4ee531bc867aebc1f2e99e74d2de",
+  "text": "我要吃早饭！",
+  "file": "assets/audio/topics/routine/breakfast-want.m4a",
+  "speech": [
+   0.01,
+   1.4
+  ],
+  "speech_fingerprint": "aade9465539ca1bd7d8dd76f64062a2bb3ca4ee531bc867aebc1f2e99e74d2de"
+ },
+ "breakfast-give": {
+  "fingerprint": "826bf93156b3be6b451b16e27034b1dfcfc0a1b4ee8ccfd469836723d0c7207a",
+  "text": "给你面包！",
+  "file": "assets/audio/topics/routine/breakfast-give.m4a",
+  "speech": [
+   0.02,
+   1.01
+  ],
+  "speech_fingerprint": "826bf93156b3be6b451b16e27034b1dfcfc0a1b4ee8ccfd469836723d0c7207a"
+ },
+ "breakfast-done": {
+  "fingerprint": "2d472461add1b42205e061b55b9b1cb809a0622934d3690d2d9b2cec8686ebac",
+  "text": "熊猫在吃早饭！",
+  "file": "assets/audio/topics/routine/breakfast-done.m4a",
+  "speech": [
+   0.03,
+   1.85
+  ],
+  "speech_fingerprint": "2d472461add1b42205e061b55b9b1cb809a0622934d3690d2d9b2cec8686ebac"
+ },
+ "school": {
+  "fingerprint": "f21372acdb29b0b4c0bb4ead6dde03933b22f058c782eab094c5d9b285be22de",
+  "text": "上学",
+  "file": "assets/audio/topics/routine/school.m4a",
+  "speech": [
+   0.03,
+   0.77
+  ],
+  "speech_fingerprint": "f21372acdb29b0b4c0bb4ead6dde03933b22f058c782eab094c5d9b285be22de"
+ },
+ "school-spy": {
+  "fingerprint": "021174235be3d7f4cb73b3cb6ea8e2f28e2ca8e9aeec9e952f108b86cfb6bc15",
+  "text": "谁在上学？",
+  "file": "assets/audio/topics/routine/school-spy.m4a",
+  "speech": [
+   0.03,
+   1.34
+  ],
+  "speech_fingerprint": "021174235be3d7f4cb73b3cb6ea8e2f28e2ca8e9aeec9e952f108b86cfb6bc15"
+ },
+ "school-want": {
+  "fingerprint": "41d5436b7dc0bca51d3f7bd9b6dbfb33440447096945108d21a54a11f9c903f3",
+  "text": "我要上学！",
+  "file": "assets/audio/topics/routine/school-want.m4a",
+  "speech": [
+   0.01,
+   1.16
+  ],
+  "speech_fingerprint": "41d5436b7dc0bca51d3f7bd9b6dbfb33440447096945108d21a54a11f9c903f3"
+ },
+ "school-give": {
+  "fingerprint": "4d3d9c8b5e47d43c49058ccbe81d3368bd8e41a99dc3642e704b2ec0f0bbda2c",
+  "text": "给你书包！",
+  "file": "assets/audio/topics/routine/school-give.m4a",
+  "speech": [
+   0.02,
+   0.98
+  ],
+  "speech_fingerprint": "4d3d9c8b5e47d43c49058ccbe81d3368bd8e41a99dc3642e704b2ec0f0bbda2c"
+ },
+ "school-done": {
+  "fingerprint": "8c7fa32b46d3bfb5b4b02ec229d9feb7b52c374f87b3baaabd646a9a3b1d1ea2",
+  "text": "熊猫在上学！",
+  "file": "assets/audio/topics/routine/school-done.m4a",
+  "speech": [
+   0.03,
+   1.61
+  ],
+  "speech_fingerprint": "8c7fa32b46d3bfb5b4b02ec229d9feb7b52c374f87b3baaabd646a9a3b1d1ea2"
+ },
+ "bath": {
+  "fingerprint": "654cff3c42e959df5595b4ee7a2ae2be7d275032456652af0204059b0ed405c5",
+  "text": "洗澡",
+  "file": "assets/audio/topics/routine/bath.m4a",
+  "speech": [
+   0.03,
+   0.65
+  ],
+  "speech_fingerprint": "654cff3c42e959df5595b4ee7a2ae2be7d275032456652af0204059b0ed405c5"
+ },
+ "bath-spy": {
+  "fingerprint": "62a3b897f50b0d34cab091ba4f334ae44e644ed6ce538ae67c929ef54621ca5d",
+  "text": "谁在洗澡？",
+  "file": "assets/audio/topics/routine/bath-spy.m4a",
+  "speech": [
+   0.03,
+   1.26
+  ],
+  "speech_fingerprint": "62a3b897f50b0d34cab091ba4f334ae44e644ed6ce538ae67c929ef54621ca5d"
+ },
+ "bath-want": {
+  "fingerprint": "ceb733968ea1a3f0dc49c9cf27a52b2e21361090e9db6696f7d1850a2b71c461",
+  "text": "我要洗澡！",
+  "file": "assets/audio/topics/routine/bath-want.m4a",
+  "speech": [
+   0.01,
+   1.07
+  ],
+  "speech_fingerprint": "ceb733968ea1a3f0dc49c9cf27a52b2e21361090e9db6696f7d1850a2b71c461"
+ },
+ "bath-give": {
+  "fingerprint": "3b85618cb2c365867d07999f4150913eb956485da0ce1fcad8327afb89720fd5",
+  "text": "给你小鸭子！",
+  "file": "assets/audio/topics/routine/bath-give.m4a",
+  "speech": [
+   0.02,
+   1.23
+  ],
+  "speech_fingerprint": "3b85618cb2c365867d07999f4150913eb956485da0ce1fcad8327afb89720fd5"
+ },
+ "bath-done": {
+  "fingerprint": "87a8e4db2a2e2c9493e6c1b2e2193dff0572da2589b908e0b71cf251bbb117fe",
+  "text": "熊猫在洗澡！",
+  "file": "assets/audio/topics/routine/bath-done.m4a",
+  "speech": [
+   0.03,
+   1.52
+  ],
+  "speech_fingerprint": "87a8e4db2a2e2c9493e6c1b2e2193dff0572da2589b908e0b71cf251bbb117fe"
+ },
+ "read": {
+  "fingerprint": "76f12d09ceccf1e28421ddaecf723eda18406c50b677207ece6cabc16841cc84",
+  "text": "看书",
+  "file": "assets/audio/topics/routine/read.m4a",
+  "speech": [
+   0.02,
+   0.62
+  ],
+  "speech_fingerprint": "76f12d09ceccf1e28421ddaecf723eda18406c50b677207ece6cabc16841cc84"
+ },
+ "read-spy": {
+  "fingerprint": "f01d90a936442eb6c974ffbb8b9a5fdaf0aee9e3e8ca43143d8a8ea721bceb77",
+  "text": "谁在看书？",
+  "file": "assets/audio/topics/routine/read-spy.m4a",
+  "speech": [
+   0.03,
+   1.28
+  ],
+  "speech_fingerprint": "f01d90a936442eb6c974ffbb8b9a5fdaf0aee9e3e8ca43143d8a8ea721bceb77"
+ },
+ "read-want": {
+  "fingerprint": "06dc26a4a176eaf900a428e08ff382a4efeccc0252183ec48f4dbbc5eee2962a",
+  "text": "我要看书！",
+  "file": "assets/audio/topics/routine/read-want.m4a",
+  "speech": [
+   0.01,
+   1.1
+  ],
+  "speech_fingerprint": "06dc26a4a176eaf900a428e08ff382a4efeccc0252183ec48f4dbbc5eee2962a"
+ },
+ "read-give": {
+  "fingerprint": "79cc69ad513e3a2c9e666c9e5b38852efcb082685a0717343980d5e058899448",
+  "text": "给你书！",
+  "file": "assets/audio/topics/routine/read-give.m4a",
+  "speech": [
+   0.01,
+   0.78
+  ],
+  "speech_fingerprint": "79cc69ad513e3a2c9e666c9e5b38852efcb082685a0717343980d5e058899448"
+ },
+ "read-done": {
+  "fingerprint": "42add8d4de1f653f39f6a553639c2784dec8c9127bd5e6b30208f7e03e98c492",
+  "text": "熊猫在看书！",
+  "file": "assets/audio/topics/routine/read-done.m4a",
+  "speech": [
+   0.03,
+   1.55
+  ],
+  "speech_fingerprint": "42add8d4de1f653f39f6a553639c2784dec8c9127bd5e6b30208f7e03e98c492"
+ },
+ "bedtime": {
+  "fingerprint": "9f6edcc9bc9ac37656a7669ff66f60481637964e0f2843dda53689d94d2cb43d",
+  "text": "睡觉",
+  "file": "assets/audio/topics/routine/bedtime.m4a",
+  "speech": [
+   0.03,
+   0.64
+  ],
+  "speech_fingerprint": "9f6edcc9bc9ac37656a7669ff66f60481637964e0f2843dda53689d94d2cb43d"
+ },
+ "bedtime-spy": {
+  "fingerprint": "9d14a0dc8cbcc95c25060d5f5da588173ba4b542d7f1776fda2e66ac201c8a4d",
+  "text": "谁在睡觉？",
+  "file": "assets/audio/topics/routine/bedtime-spy.m4a",
+  "speech": [
+   0.03,
+   1.29
+  ],
+  "speech_fingerprint": "9d14a0dc8cbcc95c25060d5f5da588173ba4b542d7f1776fda2e66ac201c8a4d"
+ },
+ "bedtime-want": {
+  "fingerprint": "35ab7ecf09b11a261b26303c402db9fc45cc3ab8fefcec90909b2882298a007e",
+  "text": "我要睡觉！",
+  "file": "assets/audio/topics/routine/bedtime-want.m4a",
+  "speech": [
+   0.01,
+   1.09
+  ],
+  "speech_fingerprint": "35ab7ecf09b11a261b26303c402db9fc45cc3ab8fefcec90909b2882298a007e"
+ },
+ "bedtime-give": {
+  "fingerprint": "49cd15b74f8ff9c65098cb027a359b276a7206ec957972f925ef4a021eedc4bf",
+  "text": "给你枕头！",
+  "file": "assets/audio/topics/routine/bedtime-give.m4a",
+  "speech": [
+   0.02,
+   1.07
+  ],
+  "speech_fingerprint": "49cd15b74f8ff9c65098cb027a359b276a7206ec957972f925ef4a021eedc4bf"
+ },
+ "bedtime-done": {
+  "fingerprint": "f4ac40e505c67d155dccc2f681eff30a3f3aa3f9d6293852589110a8205f8ad6",
+  "text": "熊猫在睡觉！",
+  "file": "assets/audio/topics/routine/bedtime-done.m4a",
+  "speech": [
+   0.03,
+   1.52
+  ],
+  "speech_fingerprint": "f4ac40e505c67d155dccc2f681eff30a3f3aa3f9d6293852589110a8205f8ad6"
+ }
+}

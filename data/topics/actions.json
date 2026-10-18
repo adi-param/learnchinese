@@ -1,0 +1,323 @@
+{
+ "id": "actions",
+ "title": "动作",
+ "english": "Actions",
+ "note": "Pop it, I spy and Panda wants (except crying)",
+ "items": [
+  {
+   "id": "run",
+   "hanzi": "跑",
+   "pinyin": "pǎo",
+   "english": "run"
+  },
+  {
+   "id": "jump",
+   "hanzi": "跳",
+   "pinyin": "tiào",
+   "english": "jump"
+  },
+  {
+   "id": "walk",
+   "hanzi": "走路",
+   "pinyin": "zǒulù",
+   "english": "walk"
+  },
+  {
+   "id": "sit",
+   "hanzi": "坐下",
+   "pinyin": "zuòxia",
+   "english": "sit down"
+  },
+  {
+   "id": "clap",
+   "hanzi": "拍手",
+   "pinyin": "pāi shǒu",
+   "english": "clap"
+  },
+  {
+   "id": "sleep",
+   "hanzi": "睡觉",
+   "pinyin": "shuìjiào",
+   "english": "sleep"
+  },
+  {
+   "id": "eat",
+   "hanzi": "吃饭",
+   "pinyin": "chīfàn",
+   "english": "eat"
+  },
+  {
+   "id": "drink",
+   "hanzi": "喝水",
+   "pinyin": "hē shuǐ",
+   "english": "drink water"
+  },
+  {
+   "id": "laugh",
+   "hanzi": "笑",
+   "pinyin": "xiào",
+   "english": "laugh"
+  },
+  {
+   "id": "cry",
+   "hanzi": "哭",
+   "pinyin": "kū",
+   "english": "cry",
+   "want": false
+  },
+  {
+   "id": "sing",
+   "hanzi": "唱歌",
+   "pinyin": "chànggē",
+   "english": "sing"
+  },
+  {
+   "id": "dance",
+   "hanzi": "跳舞",
+   "pinyin": "tiàowǔ",
+   "english": "dance"
+  }
+ ],
+ "clips": {
+  "run": {
+   "hanzi": "跑",
+   "pinyin": "pǎo",
+   "english": "run"
+  },
+  "run-spy": {
+   "hanzi": "谁在跑？",
+   "pinyin": "Shéi zài pǎo?",
+   "english": "Who is running?"
+  },
+  "run-want": {
+   "hanzi": "我要跑！",
+   "pinyin": "Wǒ yào pǎo!",
+   "english": "I want to run!"
+  },
+  "run-done": {
+   "hanzi": "熊猫在跑！",
+   "pinyin": "Xióngmāo zài pǎo!",
+   "english": "The panda is running!"
+  },
+  "jump": {
+   "hanzi": "跳",
+   "pinyin": "tiào",
+   "english": "jump"
+  },
+  "jump-spy": {
+   "hanzi": "谁在跳？",
+   "pinyin": "Shéi zài tiào?",
+   "english": "Who is jumping?"
+  },
+  "jump-want": {
+   "hanzi": "我要跳！",
+   "pinyin": "Wǒ yào tiào!",
+   "english": "I want to jump!"
+  },
+  "jump-done": {
+   "hanzi": "熊猫在跳！",
+   "pinyin": "Xióngmāo zài tiào!",
+   "english": "The panda is jumping!"
+  },
+  "walk": {
+   "hanzi": "走路",
+   "pinyin": "zǒulù",
+   "english": "walk"
+  },
+  "walk-spy": {
+   "hanzi": "谁在走路？",
+   "pinyin": "Shéi zài zǒulù?",
+   "english": "Who is walking?"
+  },
+  "walk-want": {
+   "hanzi": "我要走路！",
+   "pinyin": "Wǒ yào zǒulù!",
+   "english": "I want to walk!"
+  },
+  "walk-done": {
+   "hanzi": "熊猫在走路！",
+   "pinyin": "Xióngmāo zài zǒulù!",
+   "english": "The panda is walking!"
+  },
+  "sit": {
+   "hanzi": "坐下",
+   "pinyin": "zuòxia",
+   "english": "sit down"
+  },
+  "sit-spy": {
+   "hanzi": "谁坐着？",
+   "pinyin": "Shéi zuò zhe?",
+   "english": "Who is sitting?"
+  },
+  "sit-want": {
+   "hanzi": "我要坐下！",
+   "pinyin": "Wǒ yào zuòxia!",
+   "english": "I want to sit down!"
+  },
+  "sit-done": {
+   "hanzi": "熊猫坐下了！",
+   "pinyin": "Xióngmāo zuòxia le!",
+   "english": "The panda sat down!"
+  },
+  "clap": {
+   "hanzi": "拍手",
+   "pinyin": "pāi shǒu",
+   "english": "clap"
+  },
+  "clap-spy": {
+   "hanzi": "谁在拍手？",
+   "pinyin": "Shéi zài pāi shǒu?",
+   "english": "Who is clapping?"
+  },
+  "clap-want": {
+   "hanzi": "我要拍手！",
+   "pinyin": "Wǒ yào pāi shǒu!",
+   "english": "I want to clap!"
+  },
+  "clap-done": {
+   "hanzi": "熊猫在拍手！",
+   "pinyin": "Xióngmāo zài pāi shǒu!",
+   "english": "The panda is clapping!"
+  },
+  "sleep": {
+   "hanzi": "睡觉",
+   "pinyin": "shuìjiào",
+   "english": "sleep"
+  },
+  "sleep-spy": {
+   "hanzi": "谁在睡觉？",
+   "pinyin": "Shéi zài shuìjiào?",
+   "english": "Who is sleeping?"
+  },
+  "sleep-want": {
+   "hanzi": "我要睡觉！",
+   "pinyin": "Wǒ yào shuìjiào!",
+   "english": "I want to sleep!"
+  },
+  "sleep-done": {
+   "hanzi": "熊猫在睡觉！",
+   "pinyin": "Xióngmāo zài shuìjiào!",
+   "english": "The panda is sleeping!"
+  },
+  "eat": {
+   "hanzi": "吃饭",
+   "pinyin": "chīfàn",
+   "english": "eat"
+  },
+  "eat-spy": {
+   "hanzi": "谁在吃饭？",
+   "pinyin": "Shéi zài chīfàn?",
+   "english": "Who is eating?"
+  },
+  "eat-want": {
+   "hanzi": "我要吃饭！",
+   "pinyin": "Wǒ yào chīfàn!",
+   "english": "I want to eat!"
+  },
+  "eat-done": {
+   "hanzi": "熊猫在吃饭！",
+   "pinyin": "Xióngmāo zài chīfàn!",
+   "english": "The panda is eating!"
+  },
+  "drink": {
+   "hanzi": "喝水",
+   "pinyin": "hē shuǐ",
+   "english": "drink water"
+  },
+  "drink-spy": {
+   "hanzi": "谁在喝水？",
+   "pinyin": "Shéi zài hē shuǐ?",
+   "english": "Who is drinking water?"
+  },
+  "drink-want": {
+   "hanzi": "我要喝水！",
+   "pinyin": "Wǒ yào hē shuǐ!",
+   "english": "I want to drink water!"
+  },
+  "drink-done": {
+   "hanzi": "熊猫在喝水！",
+   "pinyin": "Xióngmāo zài hē shuǐ!",
+   "english": "The panda is drinking water!"
+  },
+  "laugh": {
+   "hanzi": "笑",
+   "pinyin": "xiào",
+   "english": "laugh"
+  },
+  "laugh-spy": {
+   "hanzi": "谁在笑？",
+   "pinyin": "Shéi zài xiào?",
+   "english": "Who is laughing?"
+  },
+  "laugh-want": {
+   "hanzi": "我要笑！",
+   "pinyin": "Wǒ yào xiào!",
+   "english": "I want to laugh!"
+  },
+  "laugh-done": {
+   "hanzi": "熊猫在笑！",
+   "pinyin": "Xióngmāo zài xiào!",
+   "english": "The panda is laughing!"
+  },
+  "cry": {
+   "hanzi": "哭",
+   "pinyin": "kū",
+   "english": "cry"
+  },
+  "cry-spy": {
+   "hanzi": "谁在哭？",
+   "pinyin": "Shéi zài kū?",
+   "english": "Who is crying?"
+  },
+  "cry-want": {
+   "hanzi": "我要哭！",
+   "pinyin": "Wǒ yào kū!",
+   "english": "I want to cry!"
+  },
+  "cry-done": {
+   "hanzi": "熊猫在哭！",
+   "pinyin": "Xióngmāo zài kū!",
+   "english": "The panda is crying!"
+  },
+  "sing": {
+   "hanzi": "唱歌",
+   "pinyin": "chànggē",
+   "english": "sing"
+  },
+  "sing-spy": {
+   "hanzi": "谁在唱歌？",
+   "pinyin": "Shéi zài chànggē?",
+   "english": "Who is singing?"
+  },
+  "sing-want": {
+   "hanzi": "我要唱歌！",
+   "pinyin": "Wǒ yào chànggē!",
+   "english": "I want to sing!"
+  },
+  "sing-done": {
+   "hanzi": "熊猫在唱歌！",
+   "pinyin": "Xióngmāo zài chànggē!",
+   "english": "The panda is singing!"
+  },
+  "dance": {
+   "hanzi": "跳舞",
+   "pinyin": "tiàowǔ",
+   "english": "dance"
+  },
+  "dance-spy": {
+   "hanzi": "谁在跳舞？",
+   "pinyin": "Shéi zài tiàowǔ?",
+   "english": "Who is dancing?"
+  },
+  "dance-want": {
+   "hanzi": "我要跳舞！",
+   "pinyin": "Wǒ yào tiàowǔ!",
+   "english": "I want to dance!"
+  },
+  "dance-done": {
+   "hanzi": "熊猫在跳舞！",
+   "pinyin": "Xióngmāo zài tiàowǔ!",
+   "english": "The panda is dancing!"
+  }
+ }
+}

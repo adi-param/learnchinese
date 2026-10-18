@@ -1,0 +1,372 @@
+{
+ "grass": {
+  "fingerprint": "c39b23384871cd38c6097efcebe10fd4dbcfa1e38832172b6cbd7bb075279636",
+  "text": "草",
+  "file": "assets/audio/topics/food/grass.m4a",
+  "speech": [
+   0.06,
+   0.37
+  ],
+  "speech_fingerprint": "c39b23384871cd38c6097efcebe10fd4dbcfa1e38832172b6cbd7bb075279636"
+ },
+ "grass-spy": {
+  "fingerprint": "d6e8423111795d1c6148d8ae0d2a1ffa5c9f327f842b8ac6ef80749d235063d3",
+  "text": "找一找草！",
+  "file": "assets/audio/topics/food/grass-spy.m4a",
+  "speech": [
+   0.02,
+   1.13
+  ],
+  "speech_fingerprint": "d6e8423111795d1c6148d8ae0d2a1ffa5c9f327f842b8ac6ef80749d235063d3"
+ },
+ "grass-want": {
+  "fingerprint": "67937bc6678faa0b6c5de8387203af0c0b48f93fa157e021b2a5a9de0cba9436",
+  "text": "我要吃草！",
+  "file": "assets/audio/topics/food/grass-want.m4a",
+  "speech": [
+   0.01,
+   1.16
+  ],
+  "speech_fingerprint": "67937bc6678faa0b6c5de8387203af0c0b48f93fa157e021b2a5a9de0cba9436"
+ },
+ "strawberry": {
+  "fingerprint": "c82babcc8bc01d164623c55684d76bc8662b3211218ecefe164b7572123900ea",
+  "text": "草莓",
+  "file": "assets/audio/topics/food/strawberry.m4a",
+  "speech": [
+   0.06,
+   0.59
+  ],
+  "speech_fingerprint": "c82babcc8bc01d164623c55684d76bc8662b3211218ecefe164b7572123900ea"
+ },
+ "strawberry-spy": {
+  "fingerprint": "4b8e18e63a12dbaa6d3c1e4535f4ffb5f714264cfb595863b8002a830ddc0e2f",
+  "text": "找一找草莓！",
+  "file": "assets/audio/topics/food/strawberry-spy.m4a",
+  "speech": [
+   0.02,
+   1.36
+  ],
+  "speech_fingerprint": "4b8e18e63a12dbaa6d3c1e4535f4ffb5f714264cfb595863b8002a830ddc0e2f"
+ },
+ "strawberry-want": {
+  "fingerprint": "3242e45444564a185eda85c451409dc9cfb3960aeeff4990de7058e31a06519f",
+  "text": "我要吃草莓！",
+  "file": "assets/audio/topics/food/strawberry-want.m4a",
+  "speech": [
+   0.01,
+   1.39
+  ],
+  "speech_fingerprint": "3242e45444564a185eda85c451409dc9cfb3960aeeff4990de7058e31a06519f"
+ },
+ "grapes": {
+  "fingerprint": "6c5c03981fb628daf48a17fbfe85b9463b2aa39667a614479d85b6e0177e0172",
+  "text": "葡萄",
+  "file": "assets/audio/topics/food/grapes.m4a",
+  "speech": [
+   0.08,
+   0.61
+  ],
+  "speech_fingerprint": "6c5c03981fb628daf48a17fbfe85b9463b2aa39667a614479d85b6e0177e0172"
+ },
+ "grapes-spy": {
+  "fingerprint": "4580445d68f5ab965085908c20595bac4742ef4da175f56f7743c80415af2fb1",
+  "text": "找一找葡萄！",
+  "file": "assets/audio/topics/food/grapes-spy.m4a",
+  "speech": [
+   0.02,
+   1.39
+  ],
+  "speech_fingerprint": "4580445d68f5ab965085908c20595bac4742ef4da175f56f7743c80415af2fb1"
+ },
+ "grapes-want": {
+  "fingerprint": "39fdaf98bbce98a8398ec3ffa38ade375437e82cffa131e0b72f460b11ff29c2",
+  "text": "我要吃葡萄！",
+  "file": "assets/audio/topics/food/grapes-want.m4a",
+  "speech": [
+   0.01,
+   1.42
+  ],
+  "speech_fingerprint": "39fdaf98bbce98a8398ec3ffa38ade375437e82cffa131e0b72f460b11ff29c2"
+ },
+ "carrot": {
+  "fingerprint": "27d5f4a1ec70ca21c46301d70294acb530582b11dfc3554f8467fe097711c46d",
+  "text": "胡萝卜",
+  "file": "assets/audio/topics/food/carrot.m4a",
+  "speech": [
+   0.07,
+   0.79
+  ],
+  "speech_fingerprint": "27d5f4a1ec70ca21c46301d70294acb530582b11dfc3554f8467fe097711c46d"
+ },
+ "carrot-spy": {
+  "fingerprint": "827f0157a751e006527cd733773711e1a6b93db52c1fd926857da9a074605a14",
+  "text": "找一找胡萝卜！",
+  "file": "assets/audio/topics/food/carrot-spy.m4a",
+  "speech": [
+   0.02,
+   1.58
+  ],
+  "speech_fingerprint": "827f0157a751e006527cd733773711e1a6b93db52c1fd926857da9a074605a14"
+ },
+ "carrot-want": {
+  "fingerprint": "08c5a2876c97424ea36b7fe2c644bd9b7ea19d54e1acf52011ec218039ee770a",
+  "text": "我要吃胡萝卜！",
+  "file": "assets/audio/topics/food/carrot-want.m4a",
+  "speech": [
+   0.01,
+   1.61
+  ],
+  "speech_fingerprint": "08c5a2876c97424ea36b7fe2c644bd9b7ea19d54e1acf52011ec218039ee770a"
+ },
+ "banana": {
+  "fingerprint": "9412c668ff9eb014d17c74c7dd9c4c57f9687cc28040ca03e23cd365bcf5491b",
+  "text": "香蕉",
+  "file": "assets/audio/topics/food/banana.m4a",
+  "speech": [
+   0.03,
+   0.74
+  ],
+  "speech_fingerprint": "9412c668ff9eb014d17c74c7dd9c4c57f9687cc28040ca03e23cd365bcf5491b"
+ },
+ "banana-spy": {
+  "fingerprint": "27bea2c90f76d7a389922e6800e0dd7ce60dff7363b1d392128f163f1f011640",
+  "text": "找一找香蕉！",
+  "file": "assets/audio/topics/food/banana-spy.m4a",
+  "speech": [
+   0.02,
+   1.46
+  ],
+  "speech_fingerprint": "27bea2c90f76d7a389922e6800e0dd7ce60dff7363b1d392128f163f1f011640"
+ },
+ "banana-want": {
+  "fingerprint": "f77338dd4ebc1e3aa027d313b5e44d27db72e953b24226c1acd743cd4caa7c29",
+  "text": "我要吃香蕉！",
+  "file": "assets/audio/topics/food/banana-want.m4a",
+  "speech": [
+   0.01,
+   1.46
+  ],
+  "speech_fingerprint": "f77338dd4ebc1e3aa027d313b5e44d27db72e953b24226c1acd743cd4caa7c29"
+ },
+ "apple": {
+  "fingerprint": "2293cc6964a67e845b13455dd1ed9139d3d2ea65a997b2216b210bd8354af625",
+  "text": "苹果",
+  "file": "assets/audio/topics/food/apple.m4a",
+  "speech": [
+   0.01,
+   0.6
+  ],
+  "speech_fingerprint": "2293cc6964a67e845b13455dd1ed9139d3d2ea65a997b2216b210bd8354af625"
+ },
+ "apple-spy": {
+  "fingerprint": "17ae4486fbc0898366feb5679b5f53ae1d58351512dc3abb5d75bba01bade955",
+  "text": "找一找苹果！",
+  "file": "assets/audio/topics/food/apple-spy.m4a",
+  "speech": [
+   0.02,
+   1.37
+  ],
+  "speech_fingerprint": "17ae4486fbc0898366feb5679b5f53ae1d58351512dc3abb5d75bba01bade955"
+ },
+ "apple-want": {
+  "fingerprint": "e4e399ec96f52e4a27b97c4fb0fbd2281d8e7cd4e2ee8d8a7b1c5e422aead48d",
+  "text": "我要吃苹果！",
+  "file": "assets/audio/topics/food/apple-want.m4a",
+  "speech": [
+   0.01,
+   1.41
+  ],
+  "speech_fingerprint": "e4e399ec96f52e4a27b97c4fb0fbd2281d8e7cd4e2ee8d8a7b1c5e422aead48d"
+ },
+ "fish": {
+  "fingerprint": "5a2076bed1fb221e0cd45489ff7a7ab5577fdf321e43db38ff7fbf1af854cce9",
+  "text": "鱼",
+  "file": "assets/audio/topics/food/fish.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "5a2076bed1fb221e0cd45489ff7a7ab5577fdf321e43db38ff7fbf1af854cce9"
+ },
+ "fish-spy": {
+  "fingerprint": "dd8e43886c911d3fc04ead21ac02474c1178bd5585bc5cd48b15201c86263d36",
+  "text": "找一找鱼！",
+  "file": "assets/audio/topics/food/fish-spy.m4a",
+  "speech": [
+   0.02,
+   1.0
+  ],
+  "speech_fingerprint": "dd8e43886c911d3fc04ead21ac02474c1178bd5585bc5cd48b15201c86263d36"
+ },
+ "fish-want": {
+  "fingerprint": "f63fba18f3fc10a5779e635c925f0a3c10de7c704c59a768e2158ba08e26f29a",
+  "text": "我要吃鱼！",
+  "file": "assets/audio/topics/food/fish-want.m4a",
+  "speech": [
+   0.01,
+   1.03
+  ],
+  "speech_fingerprint": "f63fba18f3fc10a5779e635c925f0a3c10de7c704c59a768e2158ba08e26f29a"
+ },
+ "bone": {
+  "fingerprint": "558dda4d424c661ee25977248d18450fc5b237769e1e6b1200af26eff7b5482e",
+  "text": "骨头",
+  "file": "assets/audio/topics/food/bone.m4a",
+  "speech": [
+   0.02,
+   0.52
+  ],
+  "speech_fingerprint": "558dda4d424c661ee25977248d18450fc5b237769e1e6b1200af26eff7b5482e"
+ },
+ "bone-spy": {
+  "fingerprint": "bdceddd5feb02516b6733f0f8d562daf4a8ddefeb54aba898a0926fc7b2feee4",
+  "text": "找一找骨头！",
+  "file": "assets/audio/topics/food/bone-spy.m4a",
+  "speech": [
+   0.02,
+   1.32
+  ],
+  "speech_fingerprint": "bdceddd5feb02516b6733f0f8d562daf4a8ddefeb54aba898a0926fc7b2feee4"
+ },
+ "bone-want": {
+  "fingerprint": "46d1bc496ef6f2925ac0eb2b8253efbd0bec374254c1cdce4d54da575a32e21c",
+  "text": "我要吃骨头！",
+  "file": "assets/audio/topics/food/bone-want.m4a",
+  "speech": [
+   0.01,
+   1.33
+  ],
+  "speech_fingerprint": "46d1bc496ef6f2925ac0eb2b8253efbd0bec374254c1cdce4d54da575a32e21c"
+ },
+ "cheese": {
+  "fingerprint": "b218fbc9fd1c2c0031851db0970800251a9ba20d08fd1d703d1545eee4460272",
+  "text": "奶酪",
+  "file": "assets/audio/topics/food/cheese.m4a",
+  "speech": [
+   0.01,
+   0.54
+  ],
+  "speech_fingerprint": "b218fbc9fd1c2c0031851db0970800251a9ba20d08fd1d703d1545eee4460272"
+ },
+ "cheese-spy": {
+  "fingerprint": "bace2d7b8523eb3b8ae9a78b445b30854eabd0890e7ad06b003eb2dbf71cba20",
+  "text": "找一找奶酪！",
+  "file": "assets/audio/topics/food/cheese-spy.m4a",
+  "speech": [
+   0.02,
+   1.3
+  ],
+  "speech_fingerprint": "bace2d7b8523eb3b8ae9a78b445b30854eabd0890e7ad06b003eb2dbf71cba20"
+ },
+ "cheese-want": {
+  "fingerprint": "df94e797072ef0407e61187e72817b1446751cdc97ce37cb31048e4ed882208f",
+  "text": "我要吃奶酪！",
+  "file": "assets/audio/topics/food/cheese-want.m4a",
+  "speech": [
+   0.01,
+   1.29
+  ],
+  "speech_fingerprint": "df94e797072ef0407e61187e72817b1446751cdc97ce37cb31048e4ed882208f"
+ },
+ "bamboo": {
+  "fingerprint": "f07b97ccdcdb89421039511f298922ee1eb7d44a052e5d70e48549487df17607",
+  "text": "竹子",
+  "file": "assets/audio/topics/food/bamboo.m4a",
+  "speech": [
+   0.02,
+   0.46
+  ],
+  "speech_fingerprint": "f07b97ccdcdb89421039511f298922ee1eb7d44a052e5d70e48549487df17607"
+ },
+ "bamboo-spy": {
+  "fingerprint": "a3b95d5350b4b7f9bff7fc8c750e5f04d156e8abda31d1c31b20976755ba5810",
+  "text": "找一找竹子！",
+  "file": "assets/audio/topics/food/bamboo-spy.m4a",
+  "speech": [
+   0.02,
+   1.24
+  ],
+  "speech_fingerprint": "a3b95d5350b4b7f9bff7fc8c750e5f04d156e8abda31d1c31b20976755ba5810"
+ },
+ "bamboo-want": {
+  "fingerprint": "2afa5a8746d600874ae577dd9dbf471f18517450de1fd6f5e1bf2f20e9c10126",
+  "text": "我要吃竹子！",
+  "file": "assets/audio/topics/food/bamboo-want.m4a",
+  "speech": [
+   0.01,
+   1.26
+  ],
+  "speech_fingerprint": "2afa5a8746d600874ae577dd9dbf471f18517450de1fd6f5e1bf2f20e9c10126"
+ },
+ "corn": {
+  "fingerprint": "e04b855435b76881a93409f43b8ec1bdb9fb86e9da24f55a78923f92314ba773",
+  "text": "玉米",
+  "file": "assets/audio/topics/food/corn.m4a",
+  "speech": [
+   0.01,
+   0.51
+  ],
+  "speech_fingerprint": "e04b855435b76881a93409f43b8ec1bdb9fb86e9da24f55a78923f92314ba773"
+ },
+ "corn-spy": {
+  "fingerprint": "71cc36f98f6f047d8b1024316eb2656a9046e326c67dbf9a24d2ede4d74cf7a9",
+  "text": "找一找玉米！",
+  "file": "assets/audio/topics/food/corn-spy.m4a",
+  "speech": [
+   0.02,
+   1.27
+  ],
+  "speech_fingerprint": "71cc36f98f6f047d8b1024316eb2656a9046e326c67dbf9a24d2ede4d74cf7a9"
+ },
+ "corn-want": {
+  "fingerprint": "5b24cd850afdb377a96ed6c4721317bf6ae847090790465081b212746a5be6bd",
+  "text": "我要吃玉米！",
+  "file": "assets/audio/topics/food/corn-want.m4a",
+  "speech": [
+   0.01,
+   1.3
+  ],
+  "speech_fingerprint": "5b24cd850afdb377a96ed6c4721317bf6ae847090790465081b212746a5be6bd"
+ },
+ "cake": {
+  "fingerprint": "40220c777ace6f3f0478ea86fb84d66ca62f8ce034ef6bf0b5255d9c831a6b3d",
+  "text": "蛋糕",
+  "file": "assets/audio/topics/food/cake.m4a",
+  "speech": [
+   0.01,
+   0.53
+  ],
+  "speech_fingerprint": "40220c777ace6f3f0478ea86fb84d66ca62f8ce034ef6bf0b5255d9c831a6b3d"
+ },
+ "cake-spy": {
+  "fingerprint": "e09275c5ef68d405be10e9a8c441cfef6ad49278b293e5ff74e9e173106867c6",
+  "text": "找一找蛋糕！",
+  "file": "assets/audio/topics/food/cake-spy.m4a",
+  "speech": [
+   0.02,
+   1.32
+  ],
+  "speech_fingerprint": "e09275c5ef68d405be10e9a8c441cfef6ad49278b293e5ff74e9e173106867c6"
+ },
+ "cake-want": {
+  "fingerprint": "1f8dad6cb3dbe05c8c71ba61913a1521d0283a22c9d2c19c75952e017476d691",
+  "text": "我要吃蛋糕！",
+  "file": "assets/audio/topics/food/cake-want.m4a",
+  "speech": [
+   0.01,
+   1.35
+  ],
+  "speech_fingerprint": "1f8dad6cb3dbe05c8c71ba61913a1521d0283a22c9d2c19c75952e017476d691"
+ },
+ "yummy": {
+  "fingerprint": "0f70d867440e694f783da1d7892b9ebf77e5b6105a72be416ebe838cb177c797",
+  "text": "好吃！",
+  "file": "assets/audio/topics/food/yummy.m4a",
+  "speech": [
+   0.07,
+   0.68
+  ],
+  "speech_fingerprint": "0f70d867440e694f783da1d7892b9ebf77e5b6105a72be416ebe838cb177c797"
+ }
+}

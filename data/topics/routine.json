@@ -1,0 +1,360 @@
+{
+ "id": "routine",
+ "title": "日常",
+ "english": "Daily routine",
+ "note": "Pop it, I spy and Panda wants (she gives the thing it needs)",
+ "items": [
+  {
+   "id": "getup",
+   "hanzi": "起床",
+   "pinyin": "qǐchuáng",
+   "english": "get up",
+   "thing": "clock",
+   "thingHanzi": "闹钟",
+   "thingPinyin": "nàozhōng",
+   "thingEnglish": "alarm clock"
+  },
+  {
+   "id": "brush",
+   "hanzi": "刷牙",
+   "pinyin": "shuāyá",
+   "english": "brush teeth",
+   "thing": "toothbrush",
+   "thingHanzi": "牙刷",
+   "thingPinyin": "yáshuā",
+   "thingEnglish": "toothbrush"
+  },
+  {
+   "id": "washface",
+   "hanzi": "洗脸",
+   "pinyin": "xǐ liǎn",
+   "english": "wash face",
+   "thing": "towel",
+   "thingHanzi": "毛巾",
+   "thingPinyin": "máojīn",
+   "thingEnglish": "towel"
+  },
+  {
+   "id": "washhands",
+   "hanzi": "洗手",
+   "pinyin": "xǐ shǒu",
+   "english": "wash hands",
+   "thing": "soap",
+   "thingHanzi": "肥皂",
+   "thingPinyin": "féizào",
+   "thingEnglish": "soap"
+  },
+  {
+   "id": "dress",
+   "hanzi": "穿衣服",
+   "pinyin": "chuān yīfu",
+   "english": "get dressed",
+   "thing": "clothes",
+   "thingHanzi": "衣服",
+   "thingPinyin": "yīfu",
+   "thingEnglish": "clothes"
+  },
+  {
+   "id": "breakfast",
+   "hanzi": "吃早饭",
+   "pinyin": "chī zǎofàn",
+   "english": "eat breakfast",
+   "thing": "bread",
+   "thingHanzi": "面包",
+   "thingPinyin": "miànbāo",
+   "thingEnglish": "bread"
+  },
+  {
+   "id": "school",
+   "hanzi": "上学",
+   "pinyin": "shàngxué",
+   "english": "go to school",
+   "thing": "schoolbag",
+   "thingHanzi": "书包",
+   "thingPinyin": "shūbāo",
+   "thingEnglish": "school bag"
+  },
+  {
+   "id": "bath",
+   "hanzi": "洗澡",
+   "pinyin": "xǐzǎo",
+   "english": "take a bath",
+   "thing": "duckToy",
+   "thingHanzi": "小鸭子",
+   "thingPinyin": "xiǎo yāzi",
+   "thingEnglish": "rubber duck"
+  },
+  {
+   "id": "read",
+   "hanzi": "看书",
+   "pinyin": "kàn shū",
+   "english": "read a book",
+   "thing": "book",
+   "thingHanzi": "书",
+   "thingPinyin": "shū",
+   "thingEnglish": "book"
+  },
+  {
+   "id": "bedtime",
+   "hanzi": "睡觉",
+   "pinyin": "shuìjiào",
+   "english": "go to sleep",
+   "thing": "pillow",
+   "thingHanzi": "枕头",
+   "thingPinyin": "zhěntou",
+   "thingEnglish": "pillow"
+  }
+ ],
+ "clips": {
+  "getup": {
+   "hanzi": "起床",
+   "pinyin": "qǐchuáng",
+   "english": "get up"
+  },
+  "getup-spy": {
+   "hanzi": "谁在起床？",
+   "pinyin": "Shéi zài qǐchuáng?",
+   "english": "Who is getting up?"
+  },
+  "getup-want": {
+   "hanzi": "我要起床！",
+   "pinyin": "Wǒ yào qǐchuáng!",
+   "english": "I want to get up!"
+  },
+  "getup-give": {
+   "hanzi": "给你闹钟！",
+   "pinyin": "Gěi nǐ nàozhōng!",
+   "english": "Here’s the alarm clock!"
+  },
+  "getup-done": {
+   "hanzi": "熊猫在起床！",
+   "pinyin": "Xióngmāo zài qǐchuáng!",
+   "english": "The panda is getting up!"
+  },
+  "brush": {
+   "hanzi": "刷牙",
+   "pinyin": "shuāyá",
+   "english": "brush teeth"
+  },
+  "brush-spy": {
+   "hanzi": "谁在刷牙？",
+   "pinyin": "Shéi zài shuāyá?",
+   "english": "Who is brushing teeth?"
+  },
+  "brush-want": {
+   "hanzi": "我要刷牙！",
+   "pinyin": "Wǒ yào shuāyá!",
+   "english": "I want to brush teeth!"
+  },
+  "brush-give": {
+   "hanzi": "给你牙刷！",
+   "pinyin": "Gěi nǐ yáshuā!",
+   "english": "Here’s the toothbrush!"
+  },
+  "brush-done": {
+   "hanzi": "熊猫在刷牙！",
+   "pinyin": "Xióngmāo zài shuāyá!",
+   "english": "The panda is brushing teeth!"
+  },
+  "washface": {
+   "hanzi": "洗脸",
+   "pinyin": "xǐ liǎn",
+   "english": "wash face"
+  },
+  "washface-spy": {
+   "hanzi": "谁在洗脸？",
+   "pinyin": "Shéi zài xǐ liǎn?",
+   "english": "Who is washing face?"
+  },
+  "washface-want": {
+   "hanzi": "我要洗脸！",
+   "pinyin": "Wǒ yào xǐ liǎn!",
+   "english": "I want to wash face!"
+  },
+  "washface-give": {
+   "hanzi": "给你毛巾！",
+   "pinyin": "Gěi nǐ máojīn!",
+   "english": "Here’s the towel!"
+  },
+  "washface-done": {
+   "hanzi": "熊猫在洗脸！",
+   "pinyin": "Xióngmāo zài xǐ liǎn!",
+   "english": "The panda is washing face!"
+  },
+  "washhands": {
+   "hanzi": "洗手",
+   "pinyin": "xǐ shǒu",
+   "english": "wash hands"
+  },
+  "washhands-spy": {
+   "hanzi": "谁在洗手？",
+   "pinyin": "Shéi zài xǐ shǒu?",
+   "english": "Who is washing hands?"
+  },
+  "washhands-want": {
+   "hanzi": "我要洗手！",
+   "pinyin": "Wǒ yào xǐ shǒu!",
+   "english": "I want to wash hands!"
+  },
+  "washhands-give": {
+   "hanzi": "给你肥皂！",
+   "pinyin": "Gěi nǐ féizào!",
+   "english": "Here’s the soap!"
+  },
+  "washhands-done": {
+   "hanzi": "熊猫在洗手！",
+   "pinyin": "Xióngmāo zài xǐ shǒu!",
+   "english": "The panda is washing hands!"
+  },
+  "dress": {
+   "hanzi": "穿衣服",
+   "pinyin": "chuān yīfu",
+   "english": "get dressed"
+  },
+  "dress-spy": {
+   "hanzi": "谁在穿衣服？",
+   "pinyin": "Shéi zài chuān yīfu?",
+   "english": "Who is getting dressed?"
+  },
+  "dress-want": {
+   "hanzi": "我要穿衣服！",
+   "pinyin": "Wǒ yào chuān yīfu!",
+   "english": "I want to get dressed!"
+  },
+  "dress-give": {
+   "hanzi": "给你衣服！",
+   "pinyin": "Gěi nǐ yīfu!",
+   "english": "Here’s the clothes!"
+  },
+  "dress-done": {
+   "hanzi": "熊猫在穿衣服！",
+   "pinyin": "Xióngmāo zài chuān yīfu!",
+   "english": "The panda is getting dressed!"
+  },
+  "breakfast": {
+   "hanzi": "吃早饭",
+   "pinyin": "chī zǎofàn",
+   "english": "eat breakfast"
+  },
+  "breakfast-spy": {
+   "hanzi": "谁在吃早饭？",
+   "pinyin": "Shéi zài chī zǎofàn?",
+   "english": "Who is eating breakfast?"
+  },
+  "breakfast-want": {
+   "hanzi": "我要吃早饭！",
+   "pinyin": "Wǒ yào chī zǎofàn!",
+   "english": "I want to eat breakfast!"
+  },
+  "breakfast-give": {
+   "hanzi": "给你面包！",
+   "pinyin": "Gěi nǐ miànbāo!",
+   "english": "Here’s the bread!"
+  },
+  "breakfast-done": {
+   "hanzi": "熊猫在吃早饭！",
+   "pinyin": "Xióngmāo zài chī zǎofàn!",
+   "english": "The panda is eating breakfast!"
+  },
+  "school": {
+   "hanzi": "上学",
+   "pinyin": "shàngxué",
+   "english": "go to school"
+  },
+  "school-spy": {
+   "hanzi": "谁在上学？",
+   "pinyin": "Shéi zài shàngxué?",
+   "english": "Who is going to school?"
+  },
+  "school-want": {
+   "hanzi": "我要上学！",
+   "pinyin": "Wǒ yào shàngxué!",
+   "english": "I want to go to school!"
+  },
+  "school-give": {
+   "hanzi": "给你书包！",
+   "pinyin": "Gěi nǐ shūbāo!",
+   "english": "Here’s the school bag!"
+  },
+  "school-done": {
+   "hanzi": "熊猫在上学！",
+   "pinyin": "Xióngmāo zài shàngxué!",
+   "english": "The panda is going to school!"
+  },
+  "bath": {
+   "hanzi": "洗澡",
+   "pinyin": "xǐzǎo",
+   "english": "take a bath"
+  },
+  "bath-spy": {
+   "hanzi": "谁在洗澡？",
+   "pinyin": "Shéi zài xǐzǎo?",
+   "english": "Who is having a bath?"
+  },
+  "bath-want": {
+   "hanzi": "我要洗澡！",
+   "pinyin": "Wǒ yào xǐzǎo!",
+   "english": "I want to take a bath!"
+  },
+  "bath-give": {
+   "hanzi": "给你小鸭子！",
+   "pinyin": "Gěi nǐ xiǎo yāzi!",
+   "english": "Here’s the rubber duck!"
+  },
+  "bath-done": {
+   "hanzi": "熊猫在洗澡！",
+   "pinyin": "Xióngmāo zài xǐzǎo!",
+   "english": "The panda is having a bath!"
+  },
+  "read": {
+   "hanzi": "看书",
+   "pinyin": "kàn shū",
+   "english": "read a book"
+  },
+  "read-spy": {
+   "hanzi": "谁在看书？",
+   "pinyin": "Shéi zài kàn shū?",
+   "english": "Who is reading?"
+  },
+  "read-want": {
+   "hanzi": "我要看书！",
+   "pinyin": "Wǒ yào kàn shū!",
+   "english": "I want to read a book!"
+  },
+  "read-give": {
+   "hanzi": "给你书！",
+   "pinyin": "Gěi nǐ shū!",
+   "english": "Here’s the book!"
+  },
+  "read-done": {
+   "hanzi": "熊猫在看书！",
+   "pinyin": "Xióngmāo zài kàn shū!",
+   "english": "The panda is reading!"
+  },
+  "bedtime": {
+   "hanzi": "睡觉",
+   "pinyin": "shuìjiào",
+   "english": "go to sleep"
+  },
+  "bedtime-spy": {
+   "hanzi": "谁在睡觉？",
+   "pinyin": "Shéi zài shuìjiào?",
+   "english": "Who is going to sleep?"
+  },
+  "bedtime-want": {
+   "hanzi": "我要睡觉！",
+   "pinyin": "Wǒ yào shuìjiào!",
+   "english": "I want to go to sleep!"
+  },
+  "bedtime-give": {
+   "hanzi": "给你枕头！",
+   "pinyin": "Gěi nǐ zhěntou!",
+   "english": "Here’s the pillow!"
+  },
+  "bedtime-done": {
+   "hanzi": "熊猫在睡觉！",
+   "pinyin": "Xióngmāo zài shuìjiào!",
+   "english": "The panda is going to sleep!"
+  }
+ }
+}

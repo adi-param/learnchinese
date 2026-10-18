@@ -1,0 +1,842 @@
+{
+ "rabbit": {
+  "fingerprint": "10dd118c17ba6f1a579290dbb0cf87d379034d9c94c6250aa849b190a2a89a9d",
+  "text": "兔子",
+  "file": "assets/audio/topics/animals/rabbit.m4a",
+  "speech": [
+   0.09,
+   0.49
+  ],
+  "speech_fingerprint": "10dd118c17ba6f1a579290dbb0cf87d379034d9c94c6250aa849b190a2a89a9d"
+ },
+ "rabbit-spy": {
+  "fingerprint": "709f25d8fc7f3a8329f5473503b54f42879f870d53485df38c655072da1e68c1",
+  "text": "找一找兔子！",
+  "file": "assets/audio/topics/animals/rabbit-spy.m4a",
+  "speech": [
+   0.02,
+   1.29
+  ],
+  "speech_fingerprint": "709f25d8fc7f3a8329f5473503b54f42879f870d53485df38c655072da1e68c1"
+ },
+ "rabbit-want": {
+  "fingerprint": "d3bd303b5ffb3453d6a13556d7f30fd658c62744fd9539f3d208453bd4a02417",
+  "text": "我想看兔子！",
+  "file": "assets/audio/topics/animals/rabbit-want.m4a",
+  "speech": [
+   0.01,
+   1.39
+  ],
+  "speech_fingerprint": "d3bd303b5ffb3453d6a13556d7f30fd658c62744fd9539f3d208453bd4a02417"
+ },
+ "rabbit-done": {
+  "fingerprint": "9336de7701dc8955001a6c4200e3dd03fef9058a4256db75a31dd5d8262a10d8",
+  "text": "兔子来了！",
+  "file": "assets/audio/topics/animals/rabbit-done.m4a",
+  "speech": [
+   0.09,
+   0.91
+  ],
+  "speech_fingerprint": "9336de7701dc8955001a6c4200e3dd03fef9058a4256db75a31dd5d8262a10d8"
+ },
+ "feed-rabbit-carrot": {
+  "fingerprint": "b6b5ec68a1c668406737d0ee70b30299acbd9aebf7173a7eadaf30340e03900a",
+  "text": "兔子喜欢吃胡萝卜。",
+  "file": "assets/audio/topics/animals/feed-rabbit-carrot.m4a",
+  "speech": [
+   0.09,
+   2.17
+  ],
+  "speech_fingerprint": "b6b5ec68a1c668406737d0ee70b30299acbd9aebf7173a7eadaf30340e03900a"
+ },
+ "feed-rabbit-grass": {
+  "fingerprint": "72f134c44ebaa93cefd4b5ee622bb67ab452d8d10a5af8c2947fddacad6e382f",
+  "text": "兔子喜欢吃草。",
+  "file": "assets/audio/topics/animals/feed-rabbit-grass.m4a",
+  "speech": [
+   0.09,
+   1.77
+  ],
+  "speech_fingerprint": "72f134c44ebaa93cefd4b5ee622bb67ab452d8d10a5af8c2947fddacad6e382f"
+ },
+ "feed-rabbit-strawberry": {
+  "fingerprint": "03148ddff8e8db70a4c7b35236ccf31e673441525569120e1d6b7e449405d91d",
+  "text": "兔子喜欢吃草莓。",
+  "file": "assets/audio/topics/animals/feed-rabbit-strawberry.m4a",
+  "speech": [
+   0.09,
+   1.98
+  ],
+  "speech_fingerprint": "03148ddff8e8db70a4c7b35236ccf31e673441525569120e1d6b7e449405d91d"
+ },
+ "horse": {
+  "fingerprint": "3befd564904d102b23d96220e7f75a7b0101f89dd8ad0c636dca0443f087a62e",
+  "text": "马",
+  "file": "assets/audio/topics/animals/horse.m4a",
+  "speech": [
+   0.01,
+   0.32
+  ],
+  "speech_fingerprint": "3befd564904d102b23d96220e7f75a7b0101f89dd8ad0c636dca0443f087a62e"
+ },
+ "horse-spy": {
+  "fingerprint": "da32b4f9172681a62f1d71ca5053374be24991f797f6879c642adc1d080284b6",
+  "text": "找一找马！",
+  "file": "assets/audio/topics/animals/horse-spy.m4a",
+  "speech": [
+   0.02,
+   1.01
+  ],
+  "speech_fingerprint": "da32b4f9172681a62f1d71ca5053374be24991f797f6879c642adc1d080284b6"
+ },
+ "horse-want": {
+  "fingerprint": "c9bda168dbb4148dfc0226b98659f904fa5fc23ad71a1795485b55b5f1ceacb2",
+  "text": "我想看马！",
+  "file": "assets/audio/topics/animals/horse-want.m4a",
+  "speech": [
+   0.01,
+   1.11
+  ],
+  "speech_fingerprint": "c9bda168dbb4148dfc0226b98659f904fa5fc23ad71a1795485b55b5f1ceacb2"
+ },
+ "horse-done": {
+  "fingerprint": "e1dad6e512c4420af07747cd01b61b89a99c5c3c1820be9a246feb3e4852deb5",
+  "text": "马来了！",
+  "file": "assets/audio/topics/animals/horse-done.m4a",
+  "speech": [
+   0.01,
+   0.64
+  ],
+  "speech_fingerprint": "e1dad6e512c4420af07747cd01b61b89a99c5c3c1820be9a246feb3e4852deb5"
+ },
+ "feed-horse-grass": {
+  "fingerprint": "788374adbb9446ff38861e290880da1381ff0baab401f7202b5f3aeada43ebe9",
+  "text": "马喜欢吃草。",
+  "file": "assets/audio/topics/animals/feed-horse-grass.m4a",
+  "speech": [
+   0.01,
+   1.51
+  ],
+  "speech_fingerprint": "788374adbb9446ff38861e290880da1381ff0baab401f7202b5f3aeada43ebe9"
+ },
+ "feed-horse-carrot": {
+  "fingerprint": "9bb0e7ed74fa1d45f92314e968a5a0b456dc71a7120f0a00520c97f9a96c53a1",
+  "text": "马喜欢吃胡萝卜。",
+  "file": "assets/audio/topics/animals/feed-horse-carrot.m4a",
+  "speech": [
+   0.01,
+   1.91
+  ],
+  "speech_fingerprint": "9bb0e7ed74fa1d45f92314e968a5a0b456dc71a7120f0a00520c97f9a96c53a1"
+ },
+ "feed-horse-apple": {
+  "fingerprint": "c5891d4a7636eb177683da06da8caef67d6d5b8e4d601c7868811897d39d6d5d",
+  "text": "马喜欢吃苹果。",
+  "file": "assets/audio/topics/animals/feed-horse-apple.m4a",
+  "speech": [
+   0.01,
+   1.73
+  ],
+  "speech_fingerprint": "c5891d4a7636eb177683da06da8caef67d6d5b8e4d601c7868811897d39d6d5d"
+ },
+ "duck": {
+  "fingerprint": "e5ac568364bb5b8438e0e13ccb9e3f0dc5721bb72e241d7583929f1aee6cf9c0",
+  "text": "鸭子",
+  "file": "assets/audio/topics/animals/duck.m4a",
+  "speech": [
+   0.01,
+   0.47
+  ],
+  "speech_fingerprint": "e5ac568364bb5b8438e0e13ccb9e3f0dc5721bb72e241d7583929f1aee6cf9c0"
+ },
+ "duck-spy": {
+  "fingerprint": "ebc1be5b1ba12e10444c02e10fa6ec75c24786925b36eec0fee6b2955b6579b3",
+  "text": "找一找鸭子！",
+  "file": "assets/audio/topics/animals/duck-spy.m4a",
+  "speech": [
+   0.02,
+   1.22
+  ],
+  "speech_fingerprint": "ebc1be5b1ba12e10444c02e10fa6ec75c24786925b36eec0fee6b2955b6579b3"
+ },
+ "duck-want": {
+  "fingerprint": "9718807408f49f8deb87db7a696c343824bb14e8e7aaae88c29acc458c9c7151",
+  "text": "我想看鸭子！",
+  "file": "assets/audio/topics/animals/duck-want.m4a",
+  "speech": [
+   0.01,
+   1.34
+  ],
+  "speech_fingerprint": "9718807408f49f8deb87db7a696c343824bb14e8e7aaae88c29acc458c9c7151"
+ },
+ "duck-done": {
+  "fingerprint": "b3d02059bf0fa9d459a42908ac902fe8bcdec0b200976e27d917222f50db1e93",
+  "text": "鸭子来了！",
+  "file": "assets/audio/topics/animals/duck-done.m4a",
+  "speech": [
+   0.01,
+   0.88
+  ],
+  "speech_fingerprint": "b3d02059bf0fa9d459a42908ac902fe8bcdec0b200976e27d917222f50db1e93"
+ },
+ "feed-duck-corn": {
+  "fingerprint": "4e67717de5658aa5dbb946d6bcf826132c8a10eea16efbad27b00039cefd5481",
+  "text": "鸭子喜欢吃玉米。",
+  "file": "assets/audio/topics/animals/feed-duck-corn.m4a",
+  "speech": [
+   0.01,
+   1.85
+  ],
+  "speech_fingerprint": "4e67717de5658aa5dbb946d6bcf826132c8a10eea16efbad27b00039cefd5481"
+ },
+ "feed-duck-grass": {
+  "fingerprint": "d2bb8016cb020d8d0eb517ccfd9396b3cbbf7edebb39fda8bfb8613c8b36776f",
+  "text": "鸭子喜欢吃草。",
+  "file": "assets/audio/topics/animals/feed-duck-grass.m4a",
+  "speech": [
+   0.01,
+   1.74
+  ],
+  "speech_fingerprint": "d2bb8016cb020d8d0eb517ccfd9396b3cbbf7edebb39fda8bfb8613c8b36776f"
+ },
+ "feed-duck-fish": {
+  "fingerprint": "927d087a1c2823f4ed8961b5748a06f92d870706f915a78f80ae6b15cb4cab99",
+  "text": "鸭子喜欢吃鱼。",
+  "file": "assets/audio/topics/animals/feed-duck-fish.m4a",
+  "speech": [
+   0.01,
+   1.61
+  ],
+  "speech_fingerprint": "927d087a1c2823f4ed8961b5748a06f92d870706f915a78f80ae6b15cb4cab99"
+ },
+ "cow": {
+  "fingerprint": "0d4020ec6347206c610c0992e6b3458c77056c7493967aa0fa42b3f534ef24b9",
+  "text": "牛",
+  "file": "assets/audio/topics/animals/cow.m4a",
+  "speech": [
+   0.01,
+   0.41
+  ],
+  "speech_fingerprint": "0d4020ec6347206c610c0992e6b3458c77056c7493967aa0fa42b3f534ef24b9"
+ },
+ "cow-spy": {
+  "fingerprint": "5705e710d4465963872969ad796f4019ba7913be66c0e546a9f86bd1932117cf",
+  "text": "找一找牛！",
+  "file": "assets/audio/topics/animals/cow-spy.m4a",
+  "speech": [
+   0.02,
+   1.12
+  ],
+  "speech_fingerprint": "5705e710d4465963872969ad796f4019ba7913be66c0e546a9f86bd1932117cf"
+ },
+ "cow-want": {
+  "fingerprint": "5c3bbea7178f0059060fa234856161b256eaeab9de67890169502b0dc981d79f",
+  "text": "我想看牛！",
+  "file": "assets/audio/topics/animals/cow-want.m4a",
+  "speech": [
+   0.01,
+   1.22
+  ],
+  "speech_fingerprint": "5c3bbea7178f0059060fa234856161b256eaeab9de67890169502b0dc981d79f"
+ },
+ "cow-done": {
+  "fingerprint": "2b56c2ef203d4af84f473e761f8f1ac192cae017d10bb9c6715596106f12859b",
+  "text": "牛来了！",
+  "file": "assets/audio/topics/animals/cow-done.m4a",
+  "speech": [
+   0.01,
+   0.7
+  ],
+  "speech_fingerprint": "2b56c2ef203d4af84f473e761f8f1ac192cae017d10bb9c6715596106f12859b"
+ },
+ "feed-cow-grass": {
+  "fingerprint": "4e65b88985c646c5fc6dc2e813d89cca9df836cc7d3b51c9b353f81068ad76ed",
+  "text": "牛喜欢吃草。",
+  "file": "assets/audio/topics/animals/feed-cow-grass.m4a",
+  "speech": [
+   0.01,
+   1.56
+  ],
+  "speech_fingerprint": "4e65b88985c646c5fc6dc2e813d89cca9df836cc7d3b51c9b353f81068ad76ed"
+ },
+ "feed-cow-corn": {
+  "fingerprint": "cbc37e8801e5f7d172563bacdd5a8449de0b5e5e90ae57ae7ac0d74b84970851",
+  "text": "牛喜欢吃玉米。",
+  "file": "assets/audio/topics/animals/feed-cow-corn.m4a",
+  "speech": [
+   0.01,
+   1.66
+  ],
+  "speech_fingerprint": "cbc37e8801e5f7d172563bacdd5a8449de0b5e5e90ae57ae7ac0d74b84970851"
+ },
+ "feed-cow-apple": {
+  "fingerprint": "1ec2c57689d8b4b72f15456595a48c3115697faaf77000d7d2b2c569ae16057e",
+  "text": "牛喜欢吃苹果。",
+  "file": "assets/audio/topics/animals/feed-cow-apple.m4a",
+  "speech": [
+   0.01,
+   1.79
+  ],
+  "speech_fingerprint": "1ec2c57689d8b4b72f15456595a48c3115697faaf77000d7d2b2c569ae16057e"
+ },
+ "sheep": {
+  "fingerprint": "147c0f16e7d2263cb225ff50acc8c72dffc896e04edc0fec639291c6276bab64",
+  "text": "羊",
+  "file": "assets/audio/topics/animals/sheep.m4a",
+  "speech": [
+   0.01,
+   0.34
+  ],
+  "speech_fingerprint": "147c0f16e7d2263cb225ff50acc8c72dffc896e04edc0fec639291c6276bab64"
+ },
+ "sheep-spy": {
+  "fingerprint": "c44abb6f38f02bb0dc320056842304d58a55a0708ef01b1e902d8b420a0b1071",
+  "text": "找一找羊！",
+  "file": "assets/audio/topics/animals/sheep-spy.m4a",
+  "speech": [
+   0.02,
+   1.06
+  ],
+  "speech_fingerprint": "c44abb6f38f02bb0dc320056842304d58a55a0708ef01b1e902d8b420a0b1071"
+ },
+ "sheep-want": {
+  "fingerprint": "7b5fe68a1d3f41dd6c946df69889dcc14ffa110bd4d151813ec83dd13a436513",
+  "text": "我想看羊！",
+  "file": "assets/audio/topics/animals/sheep-want.m4a",
+  "speech": [
+   0.01,
+   1.15
+  ],
+  "speech_fingerprint": "7b5fe68a1d3f41dd6c946df69889dcc14ffa110bd4d151813ec83dd13a436513"
+ },
+ "sheep-done": {
+  "fingerprint": "7386a9c79c10ee32321df943e1753889ce065aba02f9afca2fda428de5ce0dc1",
+  "text": "羊来了！",
+  "file": "assets/audio/topics/animals/sheep-done.m4a",
+  "speech": [
+   0.01,
+   0.71
+  ],
+  "speech_fingerprint": "7386a9c79c10ee32321df943e1753889ce065aba02f9afca2fda428de5ce0dc1"
+ },
+ "feed-sheep-grass": {
+  "fingerprint": "b0cf6acea9b51c039129fab89d724a59cdedc73b5457108065ba5e0bf11f73ed",
+  "text": "羊喜欢吃草。",
+  "file": "assets/audio/topics/animals/feed-sheep-grass.m4a",
+  "speech": [
+   0.01,
+   1.57
+  ],
+  "speech_fingerprint": "b0cf6acea9b51c039129fab89d724a59cdedc73b5457108065ba5e0bf11f73ed"
+ },
+ "feed-sheep-carrot": {
+  "fingerprint": "aed2452404765100dfebce894a634403060bdb9e41b1fc5df0890bd2ea3281ed",
+  "text": "羊喜欢吃胡萝卜。",
+  "file": "assets/audio/topics/animals/feed-sheep-carrot.m4a",
+  "speech": [
+   0.01,
+   1.98
+  ],
+  "speech_fingerprint": "aed2452404765100dfebce894a634403060bdb9e41b1fc5df0890bd2ea3281ed"
+ },
+ "feed-sheep-corn": {
+  "fingerprint": "2cce93ca074c9d67e44ca6789b4866968afd5a15bfc5dcafd77891e6b44b1fd8",
+  "text": "羊喜欢吃玉米。",
+  "file": "assets/audio/topics/animals/feed-sheep-corn.m4a",
+  "speech": [
+   0.01,
+   1.68
+  ],
+  "speech_fingerprint": "2cce93ca074c9d67e44ca6789b4866968afd5a15bfc5dcafd77891e6b44b1fd8"
+ },
+ "panda": {
+  "fingerprint": "e532d93f40075dbfad9caf2575917b136f9981907f29bb3565f2728dd2aff9cd",
+  "text": "熊猫",
+  "file": "assets/audio/topics/animals/panda.m4a",
+  "speech": [
+   0.03,
+   0.65
+  ],
+  "speech_fingerprint": "e532d93f40075dbfad9caf2575917b136f9981907f29bb3565f2728dd2aff9cd"
+ },
+ "panda-spy": {
+  "fingerprint": "49e6b7de8b6bb5e8410caac4be885be0094e3d4d651e5a0075db044f9ab730c8",
+  "text": "找一找熊猫！",
+  "file": "assets/audio/topics/animals/panda-spy.m4a",
+  "speech": [
+   0.02,
+   1.38
+  ],
+  "speech_fingerprint": "49e6b7de8b6bb5e8410caac4be885be0094e3d4d651e5a0075db044f9ab730c8"
+ },
+ "panda-want": {
+  "fingerprint": "fd0cb47c6fbbffbb3a030e7a4dec96b3fbf472da768c14272c2622c432d101c8",
+  "text": "我想看熊猫！",
+  "file": "assets/audio/topics/animals/panda-want.m4a",
+  "speech": [
+   0.01,
+   1.5
+  ],
+  "speech_fingerprint": "fd0cb47c6fbbffbb3a030e7a4dec96b3fbf472da768c14272c2622c432d101c8"
+ },
+ "panda-done": {
+  "fingerprint": "64dc562f072844e589681e85a3305ebc981d4e3660514714aa48abd99994fa17",
+  "text": "熊猫来了！",
+  "file": "assets/audio/topics/animals/panda-done.m4a",
+  "speech": [
+   0.03,
+   1.04
+  ],
+  "speech_fingerprint": "64dc562f072844e589681e85a3305ebc981d4e3660514714aa48abd99994fa17"
+ },
+ "feed-panda-bamboo": {
+  "fingerprint": "3d88d62096630507b1970f26c8c16c766d4872cdd21b54be6064813e92d2aad1",
+  "text": "熊猫喜欢吃竹子。",
+  "file": "assets/audio/topics/animals/feed-panda-bamboo.m4a",
+  "speech": [
+   0.03,
+   1.99
+  ],
+  "speech_fingerprint": "3d88d62096630507b1970f26c8c16c766d4872cdd21b54be6064813e92d2aad1"
+ },
+ "feed-panda-apple": {
+  "fingerprint": "7d819bfe5ed4ae97e3e8e3185f715b08be45e085e55d9cabd5a97129b42809c1",
+  "text": "熊猫喜欢吃苹果。",
+  "file": "assets/audio/topics/animals/feed-panda-apple.m4a",
+  "speech": [
+   0.03,
+   2.14
+  ],
+  "speech_fingerprint": "7d819bfe5ed4ae97e3e8e3185f715b08be45e085e55d9cabd5a97129b42809c1"
+ },
+ "feed-panda-cake": {
+  "fingerprint": "236f19af6c268b8811e233205ec7be62f5fc481912187f9d6722a24a8c2e9f40",
+  "text": "熊猫喜欢吃蛋糕。",
+  "file": "assets/audio/topics/animals/feed-panda-cake.m4a",
+  "speech": [
+   0.03,
+   2.08
+  ],
+  "speech_fingerprint": "236f19af6c268b8811e233205ec7be62f5fc481912187f9d6722a24a8c2e9f40"
+ },
+ "monkey": {
+  "fingerprint": "741e7117db20593721a9f4f9bb235cb6fb33f70bdacba03bda6d2e5979d58520",
+  "text": "猴子",
+  "file": "assets/audio/topics/animals/monkey.m4a",
+  "speech": [
+   0.09,
+   0.53
+  ],
+  "speech_fingerprint": "741e7117db20593721a9f4f9bb235cb6fb33f70bdacba03bda6d2e5979d58520"
+ },
+ "monkey-spy": {
+  "fingerprint": "2b046e0f1d13da015cb752847f294b6bc3a8f9d89a5e27eec09f7183f393cf6c",
+  "text": "找一找猴子！",
+  "file": "assets/audio/topics/animals/monkey-spy.m4a",
+  "speech": [
+   0.02,
+   1.3
+  ],
+  "speech_fingerprint": "2b046e0f1d13da015cb752847f294b6bc3a8f9d89a5e27eec09f7183f393cf6c"
+ },
+ "monkey-want": {
+  "fingerprint": "86cc82a2852dbf55d01052d041217e89a54c5a6625e33aa1a4460cc2e6c01332",
+  "text": "我想看猴子！",
+  "file": "assets/audio/topics/animals/monkey-want.m4a",
+  "speech": [
+   0.01,
+   1.4
+  ],
+  "speech_fingerprint": "86cc82a2852dbf55d01052d041217e89a54c5a6625e33aa1a4460cc2e6c01332"
+ },
+ "monkey-done": {
+  "fingerprint": "c0ad91fbf9b413e017dc0d7409643f37481106b44a53a3b87731bbe266f2d022",
+  "text": "猴子来了！",
+  "file": "assets/audio/topics/animals/monkey-done.m4a",
+  "speech": [
+   0.1,
+   0.99
+  ],
+  "speech_fingerprint": "c0ad91fbf9b413e017dc0d7409643f37481106b44a53a3b87731bbe266f2d022"
+ },
+ "feed-monkey-banana": {
+  "fingerprint": "e3da583ca9854f37d299193484d2df83c7848862a816277a96cfde16292ebd4f",
+  "text": "猴子喜欢吃香蕉。",
+  "file": "assets/audio/topics/animals/feed-monkey-banana.m4a",
+  "speech": [
+   0.1,
+   2.14
+  ],
+  "speech_fingerprint": "e3da583ca9854f37d299193484d2df83c7848862a816277a96cfde16292ebd4f"
+ },
+ "feed-monkey-grapes": {
+  "fingerprint": "c6f8d70ae834fe0367c22ccebbd7e9ec77bb1f656e2365378dd86cafe38377de",
+  "text": "猴子喜欢吃葡萄。",
+  "file": "assets/audio/topics/animals/feed-monkey-grapes.m4a",
+  "speech": [
+   0.1,
+   2.1
+  ],
+  "speech_fingerprint": "c6f8d70ae834fe0367c22ccebbd7e9ec77bb1f656e2365378dd86cafe38377de"
+ },
+ "feed-monkey-apple": {
+  "fingerprint": "6cf27fe0f63922c2276707a826f897497634efc920da29295f977f45ca49cb2f",
+  "text": "猴子喜欢吃苹果。",
+  "file": "assets/audio/topics/animals/feed-monkey-apple.m4a",
+  "speech": [
+   0.1,
+   2.08
+  ],
+  "speech_fingerprint": "6cf27fe0f63922c2276707a826f897497634efc920da29295f977f45ca49cb2f"
+ },
+ "dog": {
+  "fingerprint": "9818b5f3c71b30f93adcdf5b41014cedba177ca4519736b8bc4b2a8aac4b7970",
+  "text": "小狗",
+  "file": "assets/audio/topics/animals/dog.m4a",
+  "speech": [
+   0.03,
+   0.71
+  ],
+  "speech_fingerprint": "9818b5f3c71b30f93adcdf5b41014cedba177ca4519736b8bc4b2a8aac4b7970"
+ },
+ "dog-spy": {
+  "fingerprint": "6ca330561225c006a1f075480d9a0f6a1396d14a708af6815150e3000dd28fbb",
+  "text": "找一找小狗！",
+  "file": "assets/audio/topics/animals/dog-spy.m4a",
+  "speech": [
+   0.02,
+   1.43
+  ],
+  "speech_fingerprint": "6ca330561225c006a1f075480d9a0f6a1396d14a708af6815150e3000dd28fbb"
+ },
+ "dog-want": {
+  "fingerprint": "a216c82d95831dd0a5abf283b8b81adcbb8c3ce9677f40e8c38b9b91b27fc203",
+  "text": "我想看小狗！",
+  "file": "assets/audio/topics/animals/dog-want.m4a",
+  "speech": [
+   0.01,
+   1.54
+  ],
+  "speech_fingerprint": "a216c82d95831dd0a5abf283b8b81adcbb8c3ce9677f40e8c38b9b91b27fc203"
+ },
+ "dog-done": {
+  "fingerprint": "713584459a9e0388fa109663ea017049e1f293c762f7d824bf0b90eebba50c53",
+  "text": "小狗来了！",
+  "file": "assets/audio/topics/animals/dog-done.m4a",
+  "speech": [
+   0.04,
+   1.05
+  ],
+  "speech_fingerprint": "713584459a9e0388fa109663ea017049e1f293c762f7d824bf0b90eebba50c53"
+ },
+ "feed-dog-bone": {
+  "fingerprint": "88e74b3aeac6565ba57b051537f2f92a0d6a0ab93941db6d94579c2b947d0f2c",
+  "text": "小狗喜欢吃骨头。",
+  "file": "assets/audio/topics/animals/feed-dog-bone.m4a",
+  "speech": [
+   0.03,
+   2.12
+  ],
+  "speech_fingerprint": "88e74b3aeac6565ba57b051537f2f92a0d6a0ab93941db6d94579c2b947d0f2c"
+ },
+ "feed-dog-cake": {
+  "fingerprint": "5720700db8e9c37c77b93a7c9b8d7155e99c8bd9066ad83e116adc16eb7929e7",
+  "text": "小狗喜欢吃蛋糕。",
+  "file": "assets/audio/topics/animals/feed-dog-cake.m4a",
+  "speech": [
+   0.03,
+   2.14
+  ],
+  "speech_fingerprint": "5720700db8e9c37c77b93a7c9b8d7155e99c8bd9066ad83e116adc16eb7929e7"
+ },
+ "feed-dog-fish": {
+  "fingerprint": "134c4c2b9e46c649b4ad0af0ee9cadf7a588dba349beca70b7cc54d3fd22f7a7",
+  "text": "小狗喜欢吃鱼。",
+  "file": "assets/audio/topics/animals/feed-dog-fish.m4a",
+  "speech": [
+   0.03,
+   1.82
+  ],
+  "speech_fingerprint": "134c4c2b9e46c649b4ad0af0ee9cadf7a588dba349beca70b7cc54d3fd22f7a7"
+ },
+ "cat": {
+  "fingerprint": "ed223cebb9576570a08c7986db19100c28b41fb7387636f5488480bc871001cb",
+  "text": "小猫",
+  "file": "assets/audio/topics/animals/cat.m4a",
+  "speech": [
+   0.03,
+   0.66
+  ],
+  "speech_fingerprint": "ed223cebb9576570a08c7986db19100c28b41fb7387636f5488480bc871001cb"
+ },
+ "cat-spy": {
+  "fingerprint": "47cfcbd4811f27b0a34ac062ad9b9ac767215d4b877562e07e7f7f779c2649ea",
+  "text": "找一找小猫！",
+  "file": "assets/audio/topics/animals/cat-spy.m4a",
+  "speech": [
+   0.02,
+   1.37
+  ],
+  "speech_fingerprint": "47cfcbd4811f27b0a34ac062ad9b9ac767215d4b877562e07e7f7f779c2649ea"
+ },
+ "cat-want": {
+  "fingerprint": "bc520c1d14c6463cdc6ce10abae1a7ad678d0d9626c7e65c2a51bda7a89b975c",
+  "text": "我想看小猫！",
+  "file": "assets/audio/topics/animals/cat-want.m4a",
+  "speech": [
+   0.01,
+   1.51
+  ],
+  "speech_fingerprint": "bc520c1d14c6463cdc6ce10abae1a7ad678d0d9626c7e65c2a51bda7a89b975c"
+ },
+ "cat-done": {
+  "fingerprint": "d2d15c73a62cdd2e6d2d112c1cf8fa0afc37b925b5d0d93b7dabce962d272135",
+  "text": "小猫来了！",
+  "file": "assets/audio/topics/animals/cat-done.m4a",
+  "speech": [
+   0.03,
+   1.01
+  ],
+  "speech_fingerprint": "d2d15c73a62cdd2e6d2d112c1cf8fa0afc37b925b5d0d93b7dabce962d272135"
+ },
+ "feed-cat-fish": {
+  "fingerprint": "bb92c55cfcd729f881c64fc323d59bb2407a8f1d04dc464a92f63038a4858eb4",
+  "text": "小猫喜欢吃鱼。",
+  "file": "assets/audio/topics/animals/feed-cat-fish.m4a",
+  "speech": [
+   0.03,
+   1.74
+  ],
+  "speech_fingerprint": "bb92c55cfcd729f881c64fc323d59bb2407a8f1d04dc464a92f63038a4858eb4"
+ },
+ "feed-cat-cheese": {
+  "fingerprint": "d12e27606317489c628b8a0bdbde6a5ba4ccbecce58c7a66b1b7f895ef456189",
+  "text": "小猫喜欢吃奶酪。",
+  "file": "assets/audio/topics/animals/feed-cat-cheese.m4a",
+  "speech": [
+   0.03,
+   1.99
+  ],
+  "speech_fingerprint": "d12e27606317489c628b8a0bdbde6a5ba4ccbecce58c7a66b1b7f895ef456189"
+ },
+ "feed-cat-cake": {
+  "fingerprint": "ff332ee823e5faa5537a9011a773e270ecb0c32a6074654e7969ca13135da729",
+  "text": "小猫喜欢吃蛋糕。",
+  "file": "assets/audio/topics/animals/feed-cat-cake.m4a",
+  "speech": [
+   0.03,
+   2.05
+  ],
+  "speech_fingerprint": "ff332ee823e5faa5537a9011a773e270ecb0c32a6074654e7969ca13135da729"
+ },
+ "mouse": {
+  "fingerprint": "0eb8cb6a6557172378a5e6a1811edf9f699cfceb4733b1d099548367e7bee342",
+  "text": "老鼠",
+  "file": "assets/audio/topics/animals/mouse.m4a",
+  "speech": [
+   0.01,
+   0.61
+  ],
+  "speech_fingerprint": "0eb8cb6a6557172378a5e6a1811edf9f699cfceb4733b1d099548367e7bee342"
+ },
+ "mouse-spy": {
+  "fingerprint": "f43284b5f8293d58bfa15e88cb4127f304c8901b0c35469b3baf2ddcc2510eb5",
+  "text": "找一找老鼠！",
+  "file": "assets/audio/topics/animals/mouse-spy.m4a",
+  "speech": [
+   0.02,
+   1.32
+  ],
+  "speech_fingerprint": "f43284b5f8293d58bfa15e88cb4127f304c8901b0c35469b3baf2ddcc2510eb5"
+ },
+ "mouse-want": {
+  "fingerprint": "993ef5a95f5bc76508a5421aff6c813863526adc1aef30935b9995cadb5e73d0",
+  "text": "我想看老鼠！",
+  "file": "assets/audio/topics/animals/mouse-want.m4a",
+  "speech": [
+   0.01,
+   1.44
+  ],
+  "speech_fingerprint": "993ef5a95f5bc76508a5421aff6c813863526adc1aef30935b9995cadb5e73d0"
+ },
+ "mouse-done": {
+  "fingerprint": "f1403d094d7efec7535d9d6def880d62438e54eaf180cf7783b5f5db828dfe3c",
+  "text": "老鼠来了！",
+  "file": "assets/audio/topics/animals/mouse-done.m4a",
+  "speech": [
+   0.01,
+   0.92
+  ],
+  "speech_fingerprint": "f1403d094d7efec7535d9d6def880d62438e54eaf180cf7783b5f5db828dfe3c"
+ },
+ "feed-mouse-cheese": {
+  "fingerprint": "15009fcf46218829e38c31ae90bd544e5a3318a48fab4b24ec60802a7fa63555",
+  "text": "老鼠喜欢吃奶酪。",
+  "file": "assets/audio/topics/animals/feed-mouse-cheese.m4a",
+  "speech": [
+   0.01,
+   1.91
+  ],
+  "speech_fingerprint": "15009fcf46218829e38c31ae90bd544e5a3318a48fab4b24ec60802a7fa63555"
+ },
+ "feed-mouse-corn": {
+  "fingerprint": "bc33e5404df09bd5641cd9d16f5104a0abd8bdc44308296ca384878738a3b4ac",
+  "text": "老鼠喜欢吃玉米。",
+  "file": "assets/audio/topics/animals/feed-mouse-corn.m4a",
+  "speech": [
+   0.01,
+   1.9
+  ],
+  "speech_fingerprint": "bc33e5404df09bd5641cd9d16f5104a0abd8bdc44308296ca384878738a3b4ac"
+ },
+ "feed-mouse-grapes": {
+  "fingerprint": "c237276d63b5a943dd588c557306484d0a34026649b266ac33a667378b764517",
+  "text": "老鼠喜欢吃葡萄。",
+  "file": "assets/audio/topics/animals/feed-mouse-grapes.m4a",
+  "speech": [
+   0.01,
+   2.04
+  ],
+  "speech_fingerprint": "c237276d63b5a943dd588c557306484d0a34026649b266ac33a667378b764517"
+ },
+ "bird": {
+  "fingerprint": "dde73ae9b1fa5988e706b044705c1f5f4bca7be37f80a1a62ab2caf5568b4546",
+  "text": "小鸟",
+  "file": "assets/audio/topics/animals/bird.m4a",
+  "speech": [
+   0.03,
+   0.75
+  ],
+  "speech_fingerprint": "dde73ae9b1fa5988e706b044705c1f5f4bca7be37f80a1a62ab2caf5568b4546"
+ },
+ "bird-spy": {
+  "fingerprint": "a1af79c0e6a50bfb2ea2dd53b464611528d8b8165aff89796fac4f564690cf67",
+  "text": "找一找小鸟！",
+  "file": "assets/audio/topics/animals/bird-spy.m4a",
+  "speech": [
+   0.02,
+   1.46
+  ],
+  "speech_fingerprint": "a1af79c0e6a50bfb2ea2dd53b464611528d8b8165aff89796fac4f564690cf67"
+ },
+ "bird-want": {
+  "fingerprint": "f4bab6f2b7992ab0ff9c8c00fbbc575628a4612d84268e6201b14cdc8e1a3564",
+  "text": "我想看小鸟！",
+  "file": "assets/audio/topics/animals/bird-want.m4a",
+  "speech": [
+   0.01,
+   1.58
+  ],
+  "speech_fingerprint": "f4bab6f2b7992ab0ff9c8c00fbbc575628a4612d84268e6201b14cdc8e1a3564"
+ },
+ "bird-done": {
+  "fingerprint": "e5adbaafdad22f1d45862baacff1cb912355ec39b465764b61ec26264c85d17c",
+  "text": "小鸟来了！",
+  "file": "assets/audio/topics/animals/bird-done.m4a",
+  "speech": [
+   0.03,
+   1.08
+  ],
+  "speech_fingerprint": "e5adbaafdad22f1d45862baacff1cb912355ec39b465764b61ec26264c85d17c"
+ },
+ "feed-bird-corn": {
+  "fingerprint": "ac9f62fbe28df6733a822fa6e36823adbdddcb5eeda0ac4f3bf67855430f5e8c",
+  "text": "小鸟喜欢吃玉米。",
+  "file": "assets/audio/topics/animals/feed-bird-corn.m4a",
+  "speech": [
+   0.03,
+   2.09
+  ],
+  "speech_fingerprint": "ac9f62fbe28df6733a822fa6e36823adbdddcb5eeda0ac4f3bf67855430f5e8c"
+ },
+ "feed-bird-grapes": {
+  "fingerprint": "aee943442a9db2bebc704b031bb7e700f54f2a0b5cdf2dab3854e8afcf39a5d4",
+  "text": "小鸟喜欢吃葡萄。",
+  "file": "assets/audio/topics/animals/feed-bird-grapes.m4a",
+  "speech": [
+   0.03,
+   2.23
+  ],
+  "speech_fingerprint": "aee943442a9db2bebc704b031bb7e700f54f2a0b5cdf2dab3854e8afcf39a5d4"
+ },
+ "feed-bird-strawberry": {
+  "fingerprint": "835c59c25fa65ff10ca8911f7a1b4afd354fd77ec57882f5b1505b5bda4fdf4f",
+  "text": "小鸟喜欢吃草莓。",
+  "file": "assets/audio/topics/animals/feed-bird-strawberry.m4a",
+  "speech": [
+   0.03,
+   2.2
+  ],
+  "speech_fingerprint": "835c59c25fa65ff10ca8911f7a1b4afd354fd77ec57882f5b1505b5bda4fdf4f"
+ },
+ "pig": {
+  "fingerprint": "612cbee700efd59ec40c9faa548f117d082d2621881fcb4fa9718828ac78e463",
+  "text": "小猪",
+  "file": "assets/audio/topics/animals/pig.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "612cbee700efd59ec40c9faa548f117d082d2621881fcb4fa9718828ac78e463"
+ },
+ "pig-spy": {
+  "fingerprint": "0cf4f584fcd643e7c0ab03b15068594ebbd85e4259666239252062c605d5f04e",
+  "text": "找一找小猪！",
+  "file": "assets/audio/topics/animals/pig-spy.m4a",
+  "speech": [
+   0.02,
+   1.39
+  ],
+  "speech_fingerprint": "0cf4f584fcd643e7c0ab03b15068594ebbd85e4259666239252062c605d5f04e"
+ },
+ "pig-want": {
+  "fingerprint": "6b0e1d350b38c09647f59c1189f665d33fc2c08852d78fa3122318403d8fbedf",
+  "text": "我想看小猪！",
+  "file": "assets/audio/topics/animals/pig-want.m4a",
+  "speech": [
+   0.01,
+   1.52
+  ],
+  "speech_fingerprint": "6b0e1d350b38c09647f59c1189f665d33fc2c08852d78fa3122318403d8fbedf"
+ },
+ "pig-done": {
+  "fingerprint": "7d0f5e38e9f5041bfee9ba4f165e0c2526831b45c9cbcb746342d4ba415b066f",
+  "text": "小猪来了！",
+  "file": "assets/audio/topics/animals/pig-done.m4a",
+  "speech": [
+   0.03,
+   1.03
+  ],
+  "speech_fingerprint": "7d0f5e38e9f5041bfee9ba4f165e0c2526831b45c9cbcb746342d4ba415b066f"
+ },
+ "feed-pig-apple": {
+  "fingerprint": "e7b1e18bbf733f6e74768d79e80388d269ecd0310da14585916f13a58b31b7f5",
+  "text": "小猪喜欢吃苹果。",
+  "file": "assets/audio/topics/animals/feed-pig-apple.m4a",
+  "speech": [
+   0.03,
+   2.12
+  ],
+  "speech_fingerprint": "e7b1e18bbf733f6e74768d79e80388d269ecd0310da14585916f13a58b31b7f5"
+ },
+ "feed-pig-corn": {
+  "fingerprint": "2b82217d19b75ad4cde81d7344712d4e423ab5f52fcbe37ac36dbb364b3dcd62",
+  "text": "小猪喜欢吃玉米。",
+  "file": "assets/audio/topics/animals/feed-pig-corn.m4a",
+  "speech": [
+   0.03,
+   1.99
+  ],
+  "speech_fingerprint": "2b82217d19b75ad4cde81d7344712d4e423ab5f52fcbe37ac36dbb364b3dcd62"
+ },
+ "feed-pig-cake": {
+  "fingerprint": "922cb32c9dc717296f20b345c894dc84ffd89454892fb200d85a5574058c5eac",
+  "text": "小猪喜欢吃蛋糕。",
+  "file": "assets/audio/topics/animals/feed-pig-cake.m4a",
+  "speech": [
+   0.03,
+   2.06
+  ],
+  "speech_fingerprint": "922cb32c9dc717296f20b345c894dc84ffd89454892fb200d85a5574058c5eac"
+ }
+}

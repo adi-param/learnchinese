@@ -88,78 +88,48 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
             subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(RATE), '-o', str(aiff), text], check=True)
             subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
         manifest[key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': RATE, 'text': text, 'file': f'assets/audio/{destination.name}'}
-    # New sentences for Swap it and the Silly machine: every combination each lesson pattern allows.
-    patterns = json.loads((ROOT / 'data/patterns.json').read_text())
-    (folder / 'patterns').mkdir(exist_ok=True)
-    recorded = set()
-    for pattern in patterns['patterns']:
-        slots = [part['slot'] for part in pattern['parts'] if 'slot' in part]
-        for combo in itertools.product(*(patterns['slots'][slot] for slot in slots)):
-            chosen = dict(zip(slots, combo))
-            text = ''.join(chosen[part['slot']]['hanzi'] if 'slot' in part else part['hanzi'] for part in pattern['parts'])
-            key = '_'.join([pattern['id'], *(option['key'] for option in combo)])
-            fingerprint = hashlib.sha256(f"{VOICE}|{PHRASE_RATE}|{text}".encode()).hexdigest()
-            destination = folder / 'patterns' / f'{key}.m4a'
-            if manifest.get('pattern-'+key, {}).get('fingerprint') != fingerprint or not destination.exists():
-                aiff = Path(temporary) / 'voice.aiff'
-                subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(PHRASE_RATE), '-o', str(aiff), text], check=True)
-                subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
-            recorded.add('pattern-'+key)
-            manifest['pattern-'+key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': PHRASE_RATE, 'text': text, 'file': f'assets/audio/patterns/{destination.name}'}
-    # Tiles for Build the sentence: the chunks of each book sentence, each said on its own as it clicks in.
-    chunks = json.loads((ROOT / 'data/sentence-chunks.json').read_text())['sentences']
-    (folder / 'chunks').mkdir(exist_ok=True)
-    # Build the sentence also speaks each tile of the sentences made from lesson words.
-    tile_texts = {chunk['hanzi'] for row in chunks.values() for chunk in row}
-    for pattern in patterns['patterns']:
-        if pattern['id'] in ('likes', 'hide'):
-            for part in pattern['parts']:
-                tile_texts.update([part['hanzi']] if 'hanzi' in part else [o['hanzi'] for o in patterns['slots'][part['slot']]])
-    for text in sorted(tile_texts):
-        key = 'chunk-' + hashlib.sha1(text.encode()).hexdigest()[:10]
-        fingerprint = hashlib.sha256(f"{VOICE}|{PHRASE_RATE}|{text}".encode()).hexdigest()
-        destination = folder / 'chunks' / f'{key[6:]}.m4a'
-        if manifest.get(key, {}).get('fingerprint') != fingerprint or not destination.exists():
-            aiff = Path(temporary) / 'voice.aiff'
-            subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(PHRASE_RATE), '-o', str(aiff), text], check=True)
-            subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
-        recorded.add(key)
-        manifest[key] = {'fingerprint': fingerprint, 'voice': VOICE, 'rate': PHRASE_RATE, 'text': text, 'file': f'assets/audio/chunks/{destination.name}'}
-    # Stories: every line and recap word in the narrator's voice (the site plays characters lower or higher, so one
-    # voice acts every part). Each story keeps its own list of recordings with their timing, clips.json, which the
-    # site reads only when the story is opened; nothing about stories goes in the main manifest.
-    for story_path in sorted((ROOT / 'data/stories').glob('*.json')):
-        story = json.loads(story_path.read_text())
-        story_folder = folder / 'stories' / story['id']
-        story_folder.mkdir(parents=True, exist_ok=True)
-        story_manifest_path = story_folder / 'clips.json'
-        old = json.loads(story_manifest_path.read_text()) if story_manifest_path.exists() else {}
-        wanted = {**{key: line['hanzi'] for key, line in story['lines'].items()}, **{'word-' + word['id']: word['hanzi'] for word in story['words']}}
+    def record_set(name, wanted):
+        """Records one story's or topic's clips into assets/audio/<name>/ and lists them, with their timing, in
+        clips.json there, which the site reads only when that story or topic is opened. Nothing about them goes
+        in the main manifest, so installing the app never downloads them."""
+        set_folder = folder / name
+        set_folder.mkdir(parents=True, exist_ok=True)
+        list_path = set_folder / 'clips.json'
+        old = json.loads(list_path.read_text()) if list_path.exists() else {}
         clips = {}
         for clip, text in wanted.items():
             fingerprint = hashlib.sha256(f"{VOICE}|{RATE}|{text}".encode()).hexdigest()
-            destination = story_folder / f'{clip}.m4a'
+            destination = set_folder / f'{clip}.m4a'
             entry = old.get(clip, {})
             if entry.get('fingerprint') != fingerprint or not destination.exists():
                 aiff = Path(temporary) / 'voice.aiff'
                 subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(RATE), '-o', str(aiff), text], check=True)
                 subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
                 entry = {}
-            clips[clip] = {'fingerprint': fingerprint, 'text': text, 'file': f"assets/audio/stories/{story['id']}/{clip}.m4a",
+            clips[clip] = {'fingerprint': fingerprint, 'text': text, 'file': f"assets/audio/{name}/{clip}.m4a",
                            'speech': entry.get('speech') if entry.get('speech_fingerprint') == fingerprint else speech_bounds(destination, Path(temporary) / 'measure.wav'),
                            'speech_fingerprint': fingerprint}
-        for stale in story_folder.glob('*.m4a'):
+        for stale in set_folder.glob('*.m4a'):
             if stale.stem not in wanted:
                 stale.unlink()
-        story_manifest_path.write_text(json.dumps(clips, ensure_ascii=False, indent=1) + '\n')
+        list_path.write_text(json.dumps(clips, ensure_ascii=False, indent=1) + '\n')
+    # Stories: every line and recap word in the narrator's voice (the site plays characters lower or higher, so one
+    # voice acts every part).
+    for story_path in sorted((ROOT / 'data/stories').glob('*.json')):
+        story = json.loads(story_path.read_text())
+        record_set(f"stories/{story['id']}", {**{key: line['hanzi'] for key, line in story['lines'].items()}, **{'word-' + word['id']: word['hanzi'] for word in story['words']}})
+    # Game topics: every word and every sentence the games say about it.
+    for topic_path in sorted((ROOT / 'data/topics').glob('*.json')):
+        topic = json.loads(topic_path.read_text())
+        record_set(f"topics/{topic['id']}", {key: clip['hanzi'] for key, clip in topic['clips'].items()})
     # Where speech starts and ends in each file, so the site can highlight each character as it is spoken.
     for entry in manifest.values():
         if entry.get('speech_fingerprint') != entry['fingerprint']:
             entry['speech'] = speech_bounds(ROOT / entry['file'], Path(temporary) / 'measure.wav')
             entry['speech_fingerprint'] = entry['fingerprint']
-    # Patterns and chunks that were removed take their recordings with them.
-    for key in [k for k in manifest if k.startswith(('pattern-', 'chunk-')) and k not in recorded]:
-        (ROOT / manifest.pop(key)['file']).unlink(missing_ok=True)
+    # The old game sentences (patterns and chunks) are gone; drop any left in the list.
+    for key in [k for k in manifest if k.startswith(('pattern-', 'chunk-'))]:
+        manifest.pop(key)
     # Stories keep their recordings in their own clips.json now.
     for key in [k for k in manifest if k.startswith('story-')]:
         manifest.pop(key)

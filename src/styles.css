@@ -762,3 +762,69 @@ a{color:inherit}
 .story-dots{display:flex;gap:6px;justify-content:center;margin-top:6px}
 .story-dot{padding:2px 10px;border-radius:99px;background:var(--line);color:var(--faint);font-family:var(--kai);font-size:14px;font-weight:600;transition:background .3s,color .3s}
 .story-dot.now{background:var(--sky);color:#fff}
+/* Topic games: pick a topic, then a game. The panda's line sits under the play area, like in the stories. */
+.view-match{--accent:var(--mint);--accent-soft:var(--mint-soft)}
+.games-wrap{max-width:860px;margin:auto}
+.topic-row{display:flex;gap:10px;margin:0 0 18px;overflow-x:auto;padding:4px 2px 8px;scrollbar-width:none}
+.topic-chip{display:flex;flex-direction:column;align-items:center;gap:2px;flex:1 0 116px;padding:10px 8px 12px;border:3px solid transparent;border-radius:var(--r-lg);background:var(--surface);box-shadow:var(--shadow-sm);transition:transform .2s var(--spring),border-color .2s}
+.topic-chip:active{transform:scale(.95)}
+.topic-chip.active{border-color:var(--accent);background:var(--accent-soft)}
+.topic-pic{display:block;width:72px;height:64px}
+.topic-pic svg{width:100%;height:100%}
+.topic-chip .hanzi{font-size:24px}
+.topic-chip small{font-size:12px;font-weight:600;color:var(--muted)}
+.game-tile.failed{opacity:.5}
+.menu-spy{position:relative;display:block;width:60%;aspect-ratio:1.1}
+.menu-spy>svg{width:100%;height:100%}
+.menu-glass{position:absolute;right:-14%;bottom:-6%;width:56%;height:56%}
+.menu-panda{width:46%;height:auto}
+.game-play{display:flex;flex-direction:column;align-items:center;gap:14px}
+.game-line{display:flex;align-items:center;gap:12px;width:100%;min-height:96px;padding:12px 14px;border-radius:var(--r-lg);background:var(--surface);box-shadow:var(--shadow-md)}
+.game-line-panda{display:grid;place-items:center;flex-shrink:0;width:58px;height:58px;border-radius:50%;background:var(--mint-soft)}
+.game-line-mascot{width:48px;height:48px}
+.game-line .story-words .hanzi{font-size:34px}
+/* Pop it: pictures in the balloons */
+.pop-stage{width:100%;padding:22px 12px 10px;border-radius:var(--r-xl);background:linear-gradient(180deg,#e1f0ff,#fff8f0);box-shadow:var(--shadow-md)}
+.pic-balloon .balloon-pic{position:absolute;left:14%;right:14%;top:8%;aspect-ratio:1.25;border-radius:50%;background:#fff;box-shadow:0 0 0 3px #ffffff99;pointer-events:none;overflow:hidden}
+.pic-balloon .balloon-pic svg{width:100%;height:100%}
+.balloon.popped .balloon-pic{animation:pop-out .28s ease-out forwards}
+.balloon.nope{animation:story-no .3s ease-in-out 2}
+/* I spy */
+.spy-stage{width:100%;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow-lg);background:#cfeaff}
+.spy-svg{display:block;width:100%;height:auto}
+.spy-hit{fill:transparent;cursor:pointer}
+.spy-thing{transform-box:fill-box;transform-origin:50% 100%;transition:filter .3s}
+.spy-thing.nope{animation:story-no .3s ease-in-out 2}
+.spy-thing.hint,.spy-thing.found{filter:drop-shadow(0 0 4px #fff3a0) drop-shadow(0 0 8px #ffc233)}
+.spy-thing.found{animation:story-pop .6s var(--spring)}
+.spy-hit.hint{fill:#ffc23355;stroke:#ff7a45;stroke-width:1.5}
+/* Panda wants and Feed the animal */
+.want-stage,.feed-stage{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:16px;width:100%;padding:18px;border-radius:var(--r-xl);background:linear-gradient(180deg,#fff2cc,#fff8f0);box-shadow:var(--shadow-md)}
+.want-stage.doctor{grid-template-columns:1fr}
+.want-stage.doctor .want-options{display:none}
+.want-left{position:relative;display:flex;align-items:flex-end;justify-content:center;gap:4px}
+.want-stage.doctor .want-left{display:block}
+.want-panda{width:min(100%,240px);height:auto}
+.want-panda.acting{animation:story-hop .4s ease-in-out 4 alternate}
+.want-gift{width:46%;max-width:150px}
+.want-gift svg{width:100%;height:auto}
+.want-gift.arrive{animation:story-pop .7s var(--spring)}
+.want-options{display:flex;flex-direction:column;align-items:center;gap:12px}
+.want-card{display:grid;place-items:center;width:min(100%,180px);aspect-ratio:1.25;padding:8px;border:0;border-radius:var(--r-md);background:var(--surface);box-shadow:var(--shadow-md);transition:transform .2s var(--spring)}
+.want-card svg{width:100%;height:100%}
+.want-card:active{transform:scale(.95)}
+.want-card.nope{animation:story-no .3s ease-in-out 2}
+.want-card.hint{box-shadow:0 0 0 4px #ffc233,var(--shadow-md);animation:hint-bounce .9s ease-in-out 3}
+.want-card.chosen{visibility:hidden}
+.feed-stage .eater{width:min(100%,260px);justify-self:center}
+.plaster{animation:story-pop .5s var(--spring)}
+@media(max-width:720px){
+ .games-menu{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .want-stage,.feed-stage{grid-template-columns:1fr;gap:10px;padding:12px}
+ .want-options{flex-direction:row;justify-content:center;gap:8px}
+ .want-card{width:31%}
+ .want-panda{width:min(70%,220px)}
+ .feed-stage .eater{width:min(70%,240px)}
+ .game-line .story-words .hanzi{font-size:26px}
+ .topic-chip{flex-basis:96px}
+}

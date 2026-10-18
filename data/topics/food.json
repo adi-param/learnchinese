@@ -1,0 +1,267 @@
+{
+ "id": "food",
+ "title": "食物",
+ "english": "Food",
+ "note": "Pop it, I spy, Panda wants, and the food of Feed the animal",
+ "items": [
+  {
+   "id": "grass",
+   "hanzi": "草",
+   "pinyin": "cǎo",
+   "english": "grass"
+  },
+  {
+   "id": "strawberry",
+   "hanzi": "草莓",
+   "pinyin": "cǎoméi",
+   "english": "strawberries"
+  },
+  {
+   "id": "grapes",
+   "hanzi": "葡萄",
+   "pinyin": "pútao",
+   "english": "grapes"
+  },
+  {
+   "id": "carrot",
+   "hanzi": "胡萝卜",
+   "pinyin": "húluóbo",
+   "english": "carrots"
+  },
+  {
+   "id": "banana",
+   "hanzi": "香蕉",
+   "pinyin": "xiāngjiāo",
+   "english": "bananas"
+  },
+  {
+   "id": "apple",
+   "hanzi": "苹果",
+   "pinyin": "píngguǒ",
+   "english": "apples"
+  },
+  {
+   "id": "fish",
+   "hanzi": "鱼",
+   "pinyin": "yú",
+   "english": "fish"
+  },
+  {
+   "id": "bone",
+   "hanzi": "骨头",
+   "pinyin": "gǔtou",
+   "english": "bones"
+  },
+  {
+   "id": "cheese",
+   "hanzi": "奶酪",
+   "pinyin": "nǎilào",
+   "english": "cheese"
+  },
+  {
+   "id": "bamboo",
+   "hanzi": "竹子",
+   "pinyin": "zhúzi",
+   "english": "bamboo"
+  },
+  {
+   "id": "corn",
+   "hanzi": "玉米",
+   "pinyin": "yùmǐ",
+   "english": "corn"
+  },
+  {
+   "id": "cake",
+   "hanzi": "蛋糕",
+   "pinyin": "dàngāo",
+   "english": "cake"
+  }
+ ],
+ "clips": {
+  "grass": {
+   "hanzi": "草",
+   "pinyin": "cǎo",
+   "english": "grass"
+  },
+  "grass-spy": {
+   "hanzi": "找一找草！",
+   "pinyin": "Zhǎo yi zhǎo cǎo!",
+   "english": "Find the grass!"
+  },
+  "grass-want": {
+   "hanzi": "我要吃草！",
+   "pinyin": "Wǒ yào chī cǎo!",
+   "english": "I want to eat grass!"
+  },
+  "strawberry": {
+   "hanzi": "草莓",
+   "pinyin": "cǎoméi",
+   "english": "strawberries"
+  },
+  "strawberry-spy": {
+   "hanzi": "找一找草莓！",
+   "pinyin": "Zhǎo yi zhǎo cǎoméi!",
+   "english": "Find the strawberries!"
+  },
+  "strawberry-want": {
+   "hanzi": "我要吃草莓！",
+   "pinyin": "Wǒ yào chī cǎoméi!",
+   "english": "I want to eat strawberries!"
+  },
+  "grapes": {
+   "hanzi": "葡萄",
+   "pinyin": "pútao",
+   "english": "grapes"
+  },
+  "grapes-spy": {
+   "hanzi": "找一找葡萄！",
+   "pinyin": "Zhǎo yi zhǎo pútao!",
+   "english": "Find the grapes!"
+  },
+  "grapes-want": {
+   "hanzi": "我要吃葡萄！",
+   "pinyin": "Wǒ yào chī pútao!",
+   "english": "I want to eat grapes!"
+  },
+  "carrot": {
+   "hanzi": "胡萝卜",
+   "pinyin": "húluóbo",
+   "english": "carrots"
+  },
+  "carrot-spy": {
+   "hanzi": "找一找胡萝卜！",
+   "pinyin": "Zhǎo yi zhǎo húluóbo!",
+   "english": "Find the carrots!"
+  },
+  "carrot-want": {
+   "hanzi": "我要吃胡萝卜！",
+   "pinyin": "Wǒ yào chī húluóbo!",
+   "english": "I want to eat carrots!"
+  },
+  "banana": {
+   "hanzi": "香蕉",
+   "pinyin": "xiāngjiāo",
+   "english": "bananas"
+  },
+  "banana-spy": {
+   "hanzi": "找一找香蕉！",
+   "pinyin": "Zhǎo yi zhǎo xiāngjiāo!",
+   "english": "Find the bananas!"
+  },
+  "banana-want": {
+   "hanzi": "我要吃香蕉！",
+   "pinyin": "Wǒ yào chī xiāngjiāo!",
+   "english": "I want to eat bananas!"
+  },
+  "apple": {
+   "hanzi": "苹果",
+   "pinyin": "píngguǒ",
+   "english": "apples"
+  },
+  "apple-spy": {
+   "hanzi": "找一找苹果！",
+   "pinyin": "Zhǎo yi zhǎo píngguǒ!",
+   "english": "Find the apples!"
+  },
+  "apple-want": {
+   "hanzi": "我要吃苹果！",
+   "pinyin": "Wǒ yào chī píngguǒ!",
+   "english": "I want to eat apples!"
+  },
+  "fish": {
+   "hanzi": "鱼",
+   "pinyin": "yú",
+   "english": "fish"
+  },
+  "fish-spy": {
+   "hanzi": "找一找鱼！",
+   "pinyin": "Zhǎo yi zhǎo yú!",
+   "english": "Find the fish!"
+  },
+  "fish-want": {
+   "hanzi": "我要吃鱼！",
+   "pinyin": "Wǒ yào chī yú!",
+   "english": "I want to eat fish!"
+  },
+  "bone": {
+   "hanzi": "骨头",
+   "pinyin": "gǔtou",
+   "english": "bones"
+  },
+  "bone-spy": {
+   "hanzi": "找一找骨头！",
+   "pinyin": "Zhǎo yi zhǎo gǔtou!",
+   "english": "Find the bones!"
+  },
+  "bone-want": {
+   "hanzi": "我要吃骨头！",
+   "pinyin": "Wǒ yào chī gǔtou!",
+   "english": "I want to eat bones!"
+  },
+  "cheese": {
+   "hanzi": "奶酪",
+   "pinyin": "nǎilào",
+   "english": "cheese"
+  },
+  "cheese-spy": {
+   "hanzi": "找一找奶酪！",
+   "pinyin": "Zhǎo yi zhǎo nǎilào!",
+   "english": "Find the cheese!"
+  },
+  "cheese-want": {
+   "hanzi": "我要吃奶酪！",
+   "pinyin": "Wǒ yào chī nǎilào!",
+   "english": "I want to eat cheese!"
+  },
+  "bamboo": {
+   "hanzi": "竹子",
+   "pinyin": "zhúzi",
+   "english": "bamboo"
+  },
+  "bamboo-spy": {
+   "hanzi": "找一找竹子！",
+   "pinyin": "Zhǎo yi zhǎo zhúzi!",
+   "english": "Find the bamboo!"
+  },
+  "bamboo-want": {
+   "hanzi": "我要吃竹子！",
+   "pinyin": "Wǒ yào chī zhúzi!",
+   "english": "I want to eat bamboo!"
+  },
+  "corn": {
+   "hanzi": "玉米",
+   "pinyin": "yùmǐ",
+   "english": "corn"
+  },
+  "corn-spy": {
+   "hanzi": "找一找玉米！",
+   "pinyin": "Zhǎo yi zhǎo yùmǐ!",
+   "english": "Find the corn!"
+  },
+  "corn-want": {
+   "hanzi": "我要吃玉米！",
+   "pinyin": "Wǒ yào chī yùmǐ!",
+   "english": "I want to eat corn!"
+  },
+  "cake": {
+   "hanzi": "蛋糕",
+   "pinyin": "dàngāo",
+   "english": "cake"
+  },
+  "cake-spy": {
+   "hanzi": "找一找蛋糕！",
+   "pinyin": "Zhǎo yi zhǎo dàngāo!",
+   "english": "Find the cake!"
+  },
+  "cake-want": {
+   "hanzi": "我要吃蛋糕！",
+   "pinyin": "Wǒ yào chī dàngāo!",
+   "english": "I want to eat cake!"
+  },
+  "yummy": {
+   "hanzi": "好吃！",
+   "pinyin": "Hǎochī!",
+   "english": "Yummy!"
+  }
+ }
+}
