@@ -1,0 +1,638 @@
+{
+ "animals-rabbit": {
+  "pinyin": "xiǎo tùzi",
+  "english": "rabbit",
+  "fingerprint": "0821a9537750a4c58dfd2b0e63620158eaf25b5de8203eca1cab6aa80ae1a04d",
+  "text": "小兔子",
+  "file": "assets/audio/catalog/animals-rabbit.m4a",
+  "speech": [
+   0.03,
+   0.89
+  ],
+  "speech_fingerprint": "0821a9537750a4c58dfd2b0e63620158eaf25b5de8203eca1cab6aa80ae1a04d"
+ },
+ "animals-horse": {
+  "pinyin": "xiǎo mǎ",
+  "english": "horse",
+  "fingerprint": "0e88fd7b975f3e4d06d1df28add29273b86b8bf0c3f008b423a8fdef417ea94a",
+  "text": "小马",
+  "file": "assets/audio/catalog/animals-horse.m4a",
+  "speech": [
+   0.03,
+   0.66
+  ],
+  "speech_fingerprint": "0e88fd7b975f3e4d06d1df28add29273b86b8bf0c3f008b423a8fdef417ea94a"
+ },
+ "animals-duck": {
+  "pinyin": "xiǎo yāzi",
+  "english": "duck",
+  "fingerprint": "fb607035eacd8a8b90f9a6860ddda484851a1ea0b0e1313dc68ea54f837355cd",
+  "text": "小鸭子",
+  "file": "assets/audio/catalog/animals-duck.m4a",
+  "speech": [
+   0.03,
+   0.81
+  ],
+  "speech_fingerprint": "fb607035eacd8a8b90f9a6860ddda484851a1ea0b0e1313dc68ea54f837355cd"
+ },
+ "animals-cow": {
+  "pinyin": "nǎiniú",
+  "english": "cow",
+  "fingerprint": "2b4b23bea64c51ff1c95822933a34002e11da7e976759ad84215a951d3ae9f0f",
+  "text": "奶牛",
+  "file": "assets/audio/catalog/animals-cow.m4a",
+  "speech": [
+   0.01,
+   0.64
+  ],
+  "speech_fingerprint": "2b4b23bea64c51ff1c95822933a34002e11da7e976759ad84215a951d3ae9f0f"
+ },
+ "animals-sheep": {
+  "pinyin": "xiǎo yáng",
+  "english": "sheep",
+  "fingerprint": "df5b1df7b5f035dfc5f1fdcf3bfceef2481405acabf25171ac010034cbcb4f04",
+  "text": "小羊",
+  "file": "assets/audio/catalog/animals-sheep.m4a",
+  "speech": [
+   0.03,
+   0.66
+  ],
+  "speech_fingerprint": "df5b1df7b5f035dfc5f1fdcf3bfceef2481405acabf25171ac010034cbcb4f04"
+ },
+ "animals-panda": {
+  "pinyin": "xióngmāo",
+  "english": "panda",
+  "fingerprint": "e532d93f40075dbfad9caf2575917b136f9981907f29bb3565f2728dd2aff9cd",
+  "text": "熊猫",
+  "file": "assets/audio/catalog/animals-panda.m4a",
+  "speech": [
+   0.03,
+   0.65
+  ],
+  "speech_fingerprint": "e532d93f40075dbfad9caf2575917b136f9981907f29bb3565f2728dd2aff9cd"
+ },
+ "animals-monkey": {
+  "pinyin": "xiǎo hóuzi",
+  "english": "monkey",
+  "fingerprint": "83477427981b718e1206a3c94be76668f1766c7c79974321ed67f55e55c4b5f9",
+  "text": "小猴子",
+  "file": "assets/audio/catalog/animals-monkey.m4a",
+  "speech": [
+   0.03,
+   0.93
+  ],
+  "speech_fingerprint": "83477427981b718e1206a3c94be76668f1766c7c79974321ed67f55e55c4b5f9"
+ },
+ "animals-dog": {
+  "pinyin": "xiǎo gǒu",
+  "english": "puppy",
+  "fingerprint": "9818b5f3c71b30f93adcdf5b41014cedba177ca4519736b8bc4b2a8aac4b7970",
+  "text": "小狗",
+  "file": "assets/audio/catalog/animals-dog.m4a",
+  "speech": [
+   0.03,
+   0.71
+  ],
+  "speech_fingerprint": "9818b5f3c71b30f93adcdf5b41014cedba177ca4519736b8bc4b2a8aac4b7970"
+ },
+ "animals-cat": {
+  "pinyin": "xiǎo māo",
+  "english": "kitten",
+  "fingerprint": "ed223cebb9576570a08c7986db19100c28b41fb7387636f5488480bc871001cb",
+  "text": "小猫",
+  "file": "assets/audio/catalog/animals-cat.m4a",
+  "speech": [
+   0.03,
+   0.66
+  ],
+  "speech_fingerprint": "ed223cebb9576570a08c7986db19100c28b41fb7387636f5488480bc871001cb"
+ },
+ "animals-mouse": {
+  "pinyin": "xiǎo lǎoshǔ",
+  "english": "mouse",
+  "fingerprint": "f17425c7b6b8e7b2072029db5b763bba4dec67280db0fef840074bb5b68eed7b",
+  "text": "小老鼠",
+  "file": "assets/audio/catalog/animals-mouse.m4a",
+  "speech": [
+   0.03,
+   0.92
+  ],
+  "speech_fingerprint": "f17425c7b6b8e7b2072029db5b763bba4dec67280db0fef840074bb5b68eed7b"
+ },
+ "animals-bird": {
+  "pinyin": "xiǎo niǎo",
+  "english": "little bird",
+  "fingerprint": "dde73ae9b1fa5988e706b044705c1f5f4bca7be37f80a1a62ab2caf5568b4546",
+  "text": "小鸟",
+  "file": "assets/audio/catalog/animals-bird.m4a",
+  "speech": [
+   0.03,
+   0.75
+  ],
+  "speech_fingerprint": "dde73ae9b1fa5988e706b044705c1f5f4bca7be37f80a1a62ab2caf5568b4546"
+ },
+ "animals-pig": {
+  "pinyin": "xiǎo zhū",
+  "english": "piglet",
+  "fingerprint": "612cbee700efd59ec40c9faa548f117d082d2621881fcb4fa9718828ac78e463",
+  "text": "小猪",
+  "file": "assets/audio/catalog/animals-pig.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "612cbee700efd59ec40c9faa548f117d082d2621881fcb4fa9718828ac78e463"
+ },
+ "animals-elephant": {
+  "pinyin": "dàxiàng",
+  "english": "elephant",
+  "fingerprint": "960a0011b6fc1e81c46737e6d278c4adfe03362cd4fca87982033fc03e39a24a",
+  "text": "大象",
+  "file": "assets/audio/catalog/animals-elephant.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "960a0011b6fc1e81c46737e6d278c4adfe03362cd4fca87982033fc03e39a24a"
+ },
+ "animals-lion": {
+  "pinyin": "shīzi",
+  "english": "lion",
+  "fingerprint": "6c5f5953b4dadc4a0c1ea7930cf64f556ea57171303f17fb75afd6fb418c75c6",
+  "text": "狮子",
+  "file": "assets/audio/catalog/animals-lion.m4a",
+  "speech": [
+   0.02,
+   0.56
+  ],
+  "speech_fingerprint": "6c5f5953b4dadc4a0c1ea7930cf64f556ea57171303f17fb75afd6fb418c75c6"
+ },
+ "animals-frog": {
+  "pinyin": "qīngwā",
+  "english": "frog",
+  "fingerprint": "a821dec2307f3733c6843ca6f8e18de847b733882e40f5b0ebf15abcbb19d458",
+  "text": "青蛙",
+  "file": "assets/audio/catalog/animals-frog.m4a",
+  "speech": [
+   0.03,
+   0.61
+  ],
+  "speech_fingerprint": "a821dec2307f3733c6843ca6f8e18de847b733882e40f5b0ebf15abcbb19d458"
+ },
+ "colours-red": {
+  "pinyin": "hóngsè",
+  "english": "red",
+  "fingerprint": "835e9b7b6a8a7d89d19791053bc4f9af79ad5544eded7b4bbd343e4407f044b4",
+  "text": "红色",
+  "file": "assets/audio/catalog/colours-red.m4a",
+  "speech": [
+   0.09,
+   0.63
+  ],
+  "speech_fingerprint": "835e9b7b6a8a7d89d19791053bc4f9af79ad5544eded7b4bbd343e4407f044b4"
+ },
+ "colours-yellow": {
+  "pinyin": "huángsè",
+  "english": "yellow",
+  "fingerprint": "3881c8c7dba55c7e753d4022b3876117dc886a5c618341bf66f5cab2aeb068a1",
+  "text": "黄色",
+  "file": "assets/audio/catalog/colours-yellow.m4a",
+  "speech": [
+   0.08,
+   0.65
+  ],
+  "speech_fingerprint": "3881c8c7dba55c7e753d4022b3876117dc886a5c618341bf66f5cab2aeb068a1"
+ },
+ "colours-blue": {
+  "pinyin": "lánsè",
+  "english": "blue",
+  "fingerprint": "744212f7438c42171361be8d1426b462142735723b8f7832ef4ffd3409dcc738",
+  "text": "蓝色",
+  "file": "assets/audio/catalog/colours-blue.m4a",
+  "speech": [
+   0.01,
+   0.61
+  ],
+  "speech_fingerprint": "744212f7438c42171361be8d1426b462142735723b8f7832ef4ffd3409dcc738"
+ },
+ "colours-green": {
+  "pinyin": "lǜsè",
+  "english": "green",
+  "fingerprint": "30c316f3694842f16a4a3c1599c79bc159f28149a9c55ef6df97f4983cbaa61a",
+  "text": "绿色",
+  "file": "assets/audio/catalog/colours-green.m4a",
+  "speech": [
+   0.01,
+   0.54
+  ],
+  "speech_fingerprint": "30c316f3694842f16a4a3c1599c79bc159f28149a9c55ef6df97f4983cbaa61a"
+ },
+ "colours-purple": {
+  "pinyin": "zǐsè",
+  "english": "purple",
+  "fingerprint": "81f9533ae600be5d8eb261dc8841783c1cd9adba7684c52cee6c186ef2f9ff88",
+  "text": "紫色",
+  "file": "assets/audio/catalog/colours-purple.m4a",
+  "speech": [
+   0.07,
+   0.52
+  ],
+  "speech_fingerprint": "81f9533ae600be5d8eb261dc8841783c1cd9adba7684c52cee6c186ef2f9ff88"
+ },
+ "colours-orange": {
+  "pinyin": "chéngsè",
+  "english": "orange",
+  "fingerprint": "ff3675ec9dc46ddcc64d422c63f10eb8516fd1a82a098baebe4e9c07e1306d84",
+  "text": "橙色",
+  "file": "assets/audio/catalog/colours-orange.m4a",
+  "speech": [
+   0.02,
+   0.61
+  ],
+  "speech_fingerprint": "ff3675ec9dc46ddcc64d422c63f10eb8516fd1a82a098baebe4e9c07e1306d84"
+ },
+ "places-farm": {
+  "pinyin": "nóngchǎng",
+  "english": "the farm",
+  "fingerprint": "36b0ee0e02885c205bd48dba70b081f6d6417cb70a0d0992b46c4d41d2fc9e27",
+  "text": "农场",
+  "file": "assets/audio/catalog/places-farm.m4a",
+  "speech": [
+   0.0,
+   0.63
+  ],
+  "speech_fingerprint": "36b0ee0e02885c205bd48dba70b081f6d6417cb70a0d0992b46c4d41d2fc9e27"
+ },
+ "places-zoo": {
+  "pinyin": "dòngwùyuán",
+  "english": "the zoo",
+  "fingerprint": "7a88be8c152ff4585d625605850924f5d49065ab85c21d16e2e6648f63ef61f7",
+  "text": "动物园",
+  "file": "assets/audio/catalog/places-zoo.m4a",
+  "speech": [
+   0.01,
+   0.81
+  ],
+  "speech_fingerprint": "7a88be8c152ff4585d625605850924f5d49065ab85c21d16e2e6648f63ef61f7"
+ },
+ "places-beach": {
+  "pinyin": "hǎibiān",
+  "english": "the beach",
+  "fingerprint": "9d0bd94f7a6462882decd4d9e6022fb7c8acc3b6389954fe5a161ca0c53ee357",
+  "text": "海边",
+  "file": "assets/audio/catalog/places-beach.m4a",
+  "speech": [
+   0.06,
+   0.7
+  ],
+  "speech_fingerprint": "9d0bd94f7a6462882decd4d9e6022fb7c8acc3b6389954fe5a161ca0c53ee357"
+ },
+ "places-forest": {
+  "pinyin": "sēnlín",
+  "english": "the forest",
+  "fingerprint": "20c00086ace6932a1a9d84e51378d72489a036eb06d930935a489cea66fd5ddf",
+  "text": "森林",
+  "file": "assets/audio/catalog/places-forest.m4a",
+  "speech": [
+   0.13,
+   0.68
+  ],
+  "speech_fingerprint": "20c00086ace6932a1a9d84e51378d72489a036eb06d930935a489cea66fd5ddf"
+ },
+ "places-park": {
+  "pinyin": "gōngyuán",
+  "english": "the park",
+  "fingerprint": "5e7846ee6719e1d732e761fa07a1b293cbe7429e5123d18697af3003643ef681",
+  "text": "公园",
+  "file": "assets/audio/catalog/places-park.m4a",
+  "speech": [
+   0.02,
+   0.66
+  ],
+  "speech_fingerprint": "5e7846ee6719e1d732e761fa07a1b293cbe7429e5123d18697af3003643ef681"
+ },
+ "places-school": {
+  "pinyin": "xuéxiào",
+  "english": "school",
+  "fingerprint": "b1c2db370d7c4bd8fa47d3cc965dc681ae64620d4bf8fecef08088439bdc8492",
+  "text": "学校",
+  "file": "assets/audio/catalog/places-school.m4a",
+  "speech": [
+   0.03,
+   0.66
+  ],
+  "speech_fingerprint": "b1c2db370d7c4bd8fa47d3cc965dc681ae64620d4bf8fecef08088439bdc8492"
+ },
+ "foods-noodles": {
+  "pinyin": "miàntiáo",
+  "english": "noodles",
+  "fingerprint": "359d0eab25e7d1d8fcb3b22bf0738a652641fc9ae93ee5d412e2149570843b26",
+  "text": "面条",
+  "file": "assets/audio/catalog/foods-noodles.m4a",
+  "speech": [
+   0.01,
+   0.7
+  ],
+  "speech_fingerprint": "359d0eab25e7d1d8fcb3b22bf0738a652641fc9ae93ee5d412e2149570843b26"
+ },
+ "foods-rice": {
+  "pinyin": "mǐfàn",
+  "english": "rice",
+  "fingerprint": "56d8b8261c7e7d198e3360e292398021484f5b268f5a998f2b5676b8badc985f",
+  "text": "米饭",
+  "file": "assets/audio/catalog/foods-rice.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "56d8b8261c7e7d198e3360e292398021484f5b268f5a998f2b5676b8badc985f"
+ },
+ "foods-dumplings": {
+  "pinyin": "jiǎozi",
+  "english": "dumplings",
+  "fingerprint": "db97f30735c436f1e2839fe8aa86ed523c13e4f540b1b4a9dfd422a506ad728c",
+  "text": "饺子",
+  "file": "assets/audio/catalog/foods-dumplings.m4a",
+  "speech": [
+   0.04,
+   0.54
+  ],
+  "speech_fingerprint": "db97f30735c436f1e2839fe8aa86ed523c13e4f540b1b4a9dfd422a506ad728c"
+ },
+ "foods-bun": {
+  "pinyin": "bāozi",
+  "english": "steamed bun",
+  "fingerprint": "91f2fa3017f404a4cf648a687cb1e5dc3643494f037a098044b31c9726feb452",
+  "text": "包子",
+  "file": "assets/audio/catalog/foods-bun.m4a",
+  "speech": [
+   0.01,
+   0.47
+  ],
+  "speech_fingerprint": "91f2fa3017f404a4cf648a687cb1e5dc3643494f037a098044b31c9726feb452"
+ },
+ "foods-soup": {
+  "pinyin": "tāng",
+  "english": "soup",
+  "fingerprint": "3d306e2ac2d8be6ce9208617ab3e2e91ab384e9f71ecb4a22f8bb537fd18489f",
+  "text": "汤",
+  "file": "assets/audio/catalog/foods-soup.m4a",
+  "speech": [
+   0.03,
+   0.36
+  ],
+  "speech_fingerprint": "3d306e2ac2d8be6ce9208617ab3e2e91ab384e9f71ecb4a22f8bb537fd18489f"
+ },
+ "foods-cake": {
+  "pinyin": "dàngāo",
+  "english": "cake",
+  "fingerprint": "40220c777ace6f3f0478ea86fb84d66ca62f8ce034ef6bf0b5255d9c831a6b3d",
+  "text": "蛋糕",
+  "file": "assets/audio/catalog/foods-cake.m4a",
+  "speech": [
+   0.01,
+   0.53
+  ],
+  "speech_fingerprint": "40220c777ace6f3f0478ea86fb84d66ca62f8ce034ef6bf0b5255d9c831a6b3d"
+ },
+ "foods-pizza": {
+  "pinyin": "pīsà",
+  "english": "pizza",
+  "fingerprint": "284ac3e78234e46e0ca2e2a59d472975eb6e3e3ac4455d4ee9fa0a1b707acdad",
+  "text": "披萨",
+  "file": "assets/audio/catalog/foods-pizza.m4a",
+  "speech": [
+   0.02,
+   0.6
+  ],
+  "speech_fingerprint": "284ac3e78234e46e0ca2e2a59d472975eb6e3e3ac4455d4ee9fa0a1b707acdad"
+ },
+ "foods-burger": {
+  "pinyin": "hànbǎo",
+  "english": "burger",
+  "fingerprint": "3f937ab87bb9f44cfc218c6a903b70307d690c1fb23bfef8bca853eb9169f4df",
+  "text": "汉堡",
+  "file": "assets/audio/catalog/foods-burger.m4a",
+  "speech": [
+   0.07,
+   0.6
+  ],
+  "speech_fingerprint": "3f937ab87bb9f44cfc218c6a903b70307d690c1fb23bfef8bca853eb9169f4df"
+ },
+ "foods-apple": {
+  "pinyin": "píngguǒ",
+  "english": "apple",
+  "fingerprint": "2293cc6964a67e845b13455dd1ed9139d3d2ea65a997b2216b210bd8354af625",
+  "text": "苹果",
+  "file": "assets/audio/catalog/foods-apple.m4a",
+  "speech": [
+   0.01,
+   0.6
+  ],
+  "speech_fingerprint": "2293cc6964a67e845b13455dd1ed9139d3d2ea65a997b2216b210bd8354af625"
+ },
+ "foods-banana": {
+  "pinyin": "xiāngjiāo",
+  "english": "banana",
+  "fingerprint": "9412c668ff9eb014d17c74c7dd9c4c57f9687cc28040ca03e23cd365bcf5491b",
+  "text": "香蕉",
+  "file": "assets/audio/catalog/foods-banana.m4a",
+  "speech": [
+   0.03,
+   0.74
+  ],
+  "speech_fingerprint": "9412c668ff9eb014d17c74c7dd9c4c57f9687cc28040ca03e23cd365bcf5491b"
+ },
+ "foods-icecream": {
+  "pinyin": "bīngqílín",
+  "english": "ice cream",
+  "fingerprint": "7f0a18df7bbbcef7271dcab69327a2e2855f952884cc3ae345e9d51049ec6b79",
+  "text": "冰淇淋",
+  "file": "assets/audio/catalog/foods-icecream.m4a",
+  "speech": [
+   0.01,
+   0.87
+  ],
+  "speech_fingerprint": "7f0a18df7bbbcef7271dcab69327a2e2855f952884cc3ae345e9d51049ec6b79"
+ },
+ "foods-egg": {
+  "pinyin": "jīdàn",
+  "english": "egg",
+  "fingerprint": "3913876be5c6cc32f49729bc67cdf2bc876df1f0fa80483a57103cd3ca7c6afe",
+  "text": "鸡蛋",
+  "file": "assets/audio/catalog/foods-egg.m4a",
+  "speech": [
+   0.04,
+   0.53
+  ],
+  "speech_fingerprint": "3913876be5c6cc32f49729bc67cdf2bc876df1f0fa80483a57103cd3ca7c6afe"
+ },
+ "drinks-milk": {
+  "pinyin": "niúnǎi",
+  "english": "milk",
+  "fingerprint": "e70da3f896293967ae9766ad76cdd6a0fc3a4df8f7c9c10539e3085f2d237899",
+  "text": "牛奶",
+  "file": "assets/audio/catalog/drinks-milk.m4a",
+  "speech": [
+   0.01,
+   0.58
+  ],
+  "speech_fingerprint": "e70da3f896293967ae9766ad76cdd6a0fc3a4df8f7c9c10539e3085f2d237899"
+ },
+ "drinks-juice": {
+  "pinyin": "chéngzhī",
+  "english": "orange juice",
+  "fingerprint": "f7e0a4c4c68f7b1173f3eabf05099ab6ebd7e77895776ab469e4e8d42b1fb626",
+  "text": "橙汁",
+  "file": "assets/audio/catalog/drinks-juice.m4a",
+  "speech": [
+   0.02,
+   0.64
+  ],
+  "speech_fingerprint": "f7e0a4c4c68f7b1173f3eabf05099ab6ebd7e77895776ab469e4e8d42b1fb626"
+ },
+ "drinks-water": {
+  "pinyin": "shuǐ",
+  "english": "water",
+  "fingerprint": "c1866bfc6aaf046ceb26559f602f19037eadc6cdf5504c041618f62ebf4a2b98",
+  "text": "水",
+  "file": "assets/audio/catalog/drinks-water.m4a",
+  "speech": [
+   0.02,
+   0.42
+  ],
+  "speech_fingerprint": "c1866bfc6aaf046ceb26559f602f19037eadc6cdf5504c041618f62ebf4a2b98"
+ },
+ "drinks-tea": {
+  "pinyin": "chá",
+  "english": "tea",
+  "fingerprint": "fa0da2a53a65847fac13f0fa442f7f4e3b9d182a0897a6de7e091160e62d66f7",
+  "text": "茶",
+  "file": "assets/audio/catalog/drinks-tea.m4a",
+  "speech": [
+   0.02,
+   0.35
+  ],
+  "speech_fingerprint": "fa0da2a53a65847fac13f0fa442f7f4e3b9d182a0897a6de7e091160e62d66f7"
+ },
+ "numbers-1": {
+  "pinyin": "yī",
+  "english": "1",
+  "fingerprint": "9dc50f54e1e4e972606be63732beda86907bcf2981082ce98c559a01e6b67f95",
+  "text": "一",
+  "file": "assets/audio/catalog/numbers-1.m4a",
+  "speech": [
+   0.01,
+   0.28
+  ],
+  "speech_fingerprint": "9dc50f54e1e4e972606be63732beda86907bcf2981082ce98c559a01e6b67f95"
+ },
+ "numbers-2": {
+  "pinyin": "liǎng",
+  "english": "2",
+  "fingerprint": "34d939e216489d36aa31f654b52dc82117d61a3a664342793d8d5b0e569f475e",
+  "text": "两",
+  "file": "assets/audio/catalog/numbers-2.m4a",
+  "speech": [
+   0.01,
+   0.34
+  ],
+  "speech_fingerprint": "34d939e216489d36aa31f654b52dc82117d61a3a664342793d8d5b0e569f475e"
+ },
+ "numbers-3": {
+  "pinyin": "sān",
+  "english": "3",
+  "fingerprint": "4fb560a77c9965c1307ae89459b20367d87022745cd491cb9320ca20a4de8b08",
+  "text": "三",
+  "file": "assets/audio/catalog/numbers-3.m4a",
+  "speech": [
+   0.12,
+   0.42
+  ],
+  "speech_fingerprint": "4fb560a77c9965c1307ae89459b20367d87022745cd491cb9320ca20a4de8b08"
+ },
+ "numbers-4": {
+  "pinyin": "sì",
+  "english": "4",
+  "fingerprint": "24604659e2bab5c16ed26c472e61b3a5e1308a6f2ca7349ae405bc30e159d858",
+  "text": "四",
+  "file": "assets/audio/catalog/numbers-4.m4a",
+  "speech": [
+   0.14,
+   0.34
+  ],
+  "speech_fingerprint": "24604659e2bab5c16ed26c472e61b3a5e1308a6f2ca7349ae405bc30e159d858"
+ },
+ "numbers-5": {
+  "pinyin": "wǔ",
+  "english": "5",
+  "fingerprint": "0a7229a4f569e0dfc549141d73bd2b57e93405aa3db157ba0a6909f70821fe17",
+  "text": "五",
+  "file": "assets/audio/catalog/numbers-5.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "0a7229a4f569e0dfc549141d73bd2b57e93405aa3db157ba0a6909f70821fe17"
+ },
+ "numbers-6": {
+  "pinyin": "liù",
+  "english": "6",
+  "fingerprint": "0ed449dd62dde72dc831675c901d05f6adad331440b654906fcbfe85aa11a2e2",
+  "text": "六",
+  "file": "assets/audio/catalog/numbers-6.m4a",
+  "speech": [
+   0.01,
+   0.38
+  ],
+  "speech_fingerprint": "0ed449dd62dde72dc831675c901d05f6adad331440b654906fcbfe85aa11a2e2"
+ },
+ "numbers-7": {
+  "pinyin": "qī",
+  "english": "7",
+  "fingerprint": "c2526d123df178954e6bec2986b852ced423489f6e29f18f71a7b6677374ab5c",
+  "text": "七",
+  "file": "assets/audio/catalog/numbers-7.m4a",
+  "speech": [
+   0.03,
+   0.39
+  ],
+  "speech_fingerprint": "c2526d123df178954e6bec2986b852ced423489f6e29f18f71a7b6677374ab5c"
+ },
+ "numbers-8": {
+  "pinyin": "bā",
+  "english": "8",
+  "fingerprint": "8f9b900bbce170bc543c1aa67affc7c1aa5610052b14665ad5c6670c9f1bfe78",
+  "text": "八",
+  "file": "assets/audio/catalog/numbers-8.m4a",
+  "speech": [
+   0.01,
+   0.26
+  ],
+  "speech_fingerprint": "8f9b900bbce170bc543c1aa67affc7c1aa5610052b14665ad5c6670c9f1bfe78"
+ },
+ "numbers-9": {
+  "pinyin": "jiǔ",
+  "english": "9",
+  "fingerprint": "ece1bb815af28229b7d7551cc2b88c438ed79fe7627c410a9d84df566734e4c1",
+  "text": "九",
+  "file": "assets/audio/catalog/numbers-9.m4a",
+  "speech": [
+   0.04,
+   0.37
+  ],
+  "speech_fingerprint": "ece1bb815af28229b7d7551cc2b88c438ed79fe7627c410a9d84df566734e4c1"
+ },
+ "numbers-10": {
+  "pinyin": "shí",
+  "english": "10",
+  "fingerprint": "9652506811fd78b1ea0a1ef39cee26bac78940007448ae6a1869810c1f29a27e",
+  "text": "十",
+  "file": "assets/audio/catalog/numbers-10.m4a",
+  "speech": [
+   0.02,
+   0.45
+  ],
+  "speech_fingerprint": "9652506811fd78b1ea0a1ef39cee26bac78940007448ae6a1869810c1f29a27e"
+ }
+}

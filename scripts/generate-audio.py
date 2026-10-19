@@ -98,6 +98,10 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
         old = json.loads(list_path.read_text()) if list_path.exists() else {}
         clips = {}
         for clip, text in wanted.items():
+            extra = {}
+            if isinstance(text, dict):
+                extra = {k: v for k, v in text.items() if k != 'hanzi'}
+                text = text['hanzi']
             fingerprint = hashlib.sha256(f"{VOICE}|{RATE}|{text}".encode()).hexdigest()
             destination = set_folder / f'{clip}.m4a'
             entry = old.get(clip, {})
@@ -106,7 +110,7 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
                 subprocess.run(['/usr/bin/say', '-v', VOICE, '-r', str(RATE), '-o', str(aiff), text], check=True)
                 subprocess.run(['/usr/bin/afconvert', '-f', 'm4af', '-d', 'aac ', str(aiff), str(destination)], check=True)
                 entry = {}
-            clips[clip] = {'fingerprint': fingerprint, 'text': text, 'file': f"assets/audio/{name}/{clip}.m4a",
+            clips[clip] = {**extra, 'fingerprint': fingerprint, 'text': text, 'file': f"assets/audio/{name}/{clip}.m4a",
                            'speech': entry.get('speech') if entry.get('speech_fingerprint') == fingerprint else speech_bounds(destination, Path(temporary) / 'measure.wav'),
                            'speech_fingerprint': fingerprint}
         for stale in set_folder.glob('*.m4a'):
@@ -121,10 +125,36 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
             record_set('stories/shared', {key: clip['hanzi'] for key, clip in story['clips'].items()})
             continue
         record_set(f"stories/{story['id']}", {**{key: line['hanzi'] for key, line in story['lines'].items()}, **{'word-' + word['id']: word['hanzi'] for word in story['words']}})
-    # Game topics: every word and every sentence the games say about it.
-    for topic_path in sorted((ROOT / 'data/topics').glob('*.json')):
-        topic = json.loads(topic_path.read_text())
-        record_set(f"topics/{topic['id']}", {key: clip['hanzi'] for key, clip in topic['clips'].items()})
+    # The situation games: every word in the catalogue, and every line and sentence each game can say. A template
+    # is expanded for every entry of the lists it names (or only the ones it lists), so adding an animal or a food
+    # to data/catalog.json records all its sentences.
+    catalog = json.loads((ROOT / 'data/catalog.json').read_text())
+    record_set('catalog', {f"{name}-{item['id']}": {'hanzi': item['hanzi'], 'pinyin': item['pinyin'], 'english': item['english']}
+                           for name, items in catalog.items() if isinstance(items, list) for item in items})
+    def fill(text, values, field):
+        for slot, item in values.items():
+            for key, value in item.items():
+                text = text.replace('{' + slot + '.' + key + '}', str(value))
+            text = text.replace('{' + slot + '}', item[field])
+        return text
+    def expand(name, template):
+        slots = list(template['slots'].items())
+        lists = [[i for i in catalog[list_name] if i['id'] in template.get('only', {}).get(slot, [i['id'] for i in catalog[list_name]])] for slot, list_name in slots]
+        for combo in itertools.product(*lists):
+            values = {slot: dict(item) for (slot, _), item in zip(slots, combo)}
+            if template.get('counting'):
+                values = {slot: {**item, **({'hanzi': '二', 'pinyin': 'èr'} if item['id'] == '2' else {})} for slot, item in values.items()}
+            pinyin = fill(template['pinyin'], values, 'pinyin')
+            yield name + '-' + '-'.join(item['id'] for item in combo), {
+                'hanzi': fill(template['hanzi'], values, 'hanzi'), 'pinyin': pinyin[:1].upper() + pinyin[1:],
+                'english': fill(template['english'], values, 'english').replace('  ', ' '), 'speaker': template['speaker']}
+    for scenario_path in sorted((ROOT / 'data/scenarios').glob('*.json')):
+        scenario = json.loads(scenario_path.read_text())
+        wanted = {key: {**line} for key, line in scenario['lines'].items()}
+        wanted.update({'chunk-' + key: {**chunk, 'speaker': 'narrator'} for key, chunk in scenario.get('chunks', {}).items()})
+        for name, template in scenario['templates'].items():
+            wanted.update(dict(expand(name, template)))
+        record_set(f"scenarios/{scenario['id']}", wanted)
     # Where speech starts and ends in each file, so the site can highlight each character as it is spoken.
     for entry in manifest.values():
         if entry.get('speech_fingerprint') != entry['fingerprint']:

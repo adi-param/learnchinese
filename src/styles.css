@@ -849,3 +849,64 @@ a{color:inherit}
 .your-story .hanzi{margin:10px 0 0;font-size:30px;color:var(--rose)}
 .your-story .meaning{margin:2px 0 0}
 @media(max-width:720px){.story-turn-mic{width:78px;height:78px}.story-turn-mic .icon{width:38px;height:38px}}
+/* Situation games: talking cards under the picture (choose a reply, build a sentence), the say-it panel that plays
+   her voice and then the right one, and Singapore dollar coins to count. */
+.game-panel{width:100%;padding:14px;border-radius:var(--r-lg);background:var(--surface);box-shadow:var(--shadow-md)}
+.game-panel[hidden]{display:none}
+.say-cards{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.say-card{position:relative;display:flex;flex-direction:column;align-items:center;gap:4px;min-width:120px;max-width:200px;padding:10px 14px 12px;border:3px solid transparent;border-radius:var(--r-md);background:var(--mint-soft);box-shadow:var(--shadow-sm);transition:transform .2s var(--spring),border-color .2s}
+.say-card:active{transform:scale(.95)}
+.say-card-pic{display:block;width:96px;height:77px}
+.say-card-pic svg{width:100%;height:100%}
+.say-card .hanzi{font-size:26px;line-height:1.2}
+.say-card-play{position:absolute;top:6px;right:8px;color:var(--mint);opacity:.7}
+.say-card-play .icon{width:18px;height:18px}
+.say-card.nope{animation:story-no .3s ease-in-out 2}
+.say-card.hint{border-color:#ffc233;animation:hint-bounce .9s ease-in-out 3}
+.say-card.right{border-color:var(--mint)}
+.say-card.placed{visibility:hidden}
+.build-slots{display:flex;justify-content:center;gap:10px;margin-bottom:14px}
+.build-slot2{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:110px;min-height:120px;padding:8px;border:3px dashed #d9cfc4;border-radius:var(--r-md);background:#fffaf3}
+.build-slot2.filled{border-style:solid;border-color:var(--mint);background:var(--mint-soft);animation:story-pop .5s var(--spring)}
+.build-slot2 .say-card-pic{width:80px;height:64px}
+.build-slot2 .say-card-play{display:none}
+.build-slot2 .hanzi{font-size:24px}
+.speak-panel{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
+.speak-mic{position:relative;display:grid;place-items:center;width:92px;height:92px;border:0;border-radius:50%;background:var(--rose);color:#fff;box-shadow:0 10px 24px #f0507a55,var(--press);animation:story-breathe 1.4s ease-in-out infinite;--level:0}
+.speak-mic .icon{position:relative;width:44px;height:44px}
+.speak-mic::before{content:'';position:absolute;inset:-8px;border-radius:50%;border:5px solid #f0507a;opacity:.35;transform:scale(calc(1 + var(--level)*.5));transition:transform .08s}
+.speak-mic.recording{animation:none;background:#e0365f}
+.speak-mic.again{animation:none}
+.speak-compare{display:flex;gap:10px}
+.speak-compare[hidden]{display:none}
+.speak-hear{display:flex;align-items:center;gap:8px;height:56px;padding:0 18px;border:3px solid transparent;border-radius:99px;background:var(--rose-soft);font-size:18px;font-weight:600}
+.speak-hear .icon{width:22px;height:22px}
+.speak-hear .hanzi,.speak-hear [lang]{font-family:var(--kai);font-size:22px}
+.speak-hear.playing{border-color:var(--rose)}
+.speak-next{display:grid;place-items:center;width:60px;height:60px;border:0;border-radius:50%;background:var(--primary);color:#fff;box-shadow:var(--shadow-md)}
+.speak-next .icon{width:30px;height:30px}
+.pay-panel{display:flex;flex-direction:column;align-items:center;gap:14px}
+.pay-tray{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;min-height:52px;padding:8px 14px;border-radius:99px;background:#fff2cc}
+.pay-spot{width:40px;height:40px;border:2px dashed #e5c46a;border-radius:50%}
+.pay-spot.filled{border:0;animation:story-pop .4s var(--spring)}
+.pay-spot svg,.pay-coin svg{width:100%;height:100%}
+.pay-purse{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.pay-coin{width:56px;height:56px;padding:0;border:0;border-radius:50%;background:none;filter:drop-shadow(0 3px 4px #1f1b3a33);transition:transform .2s var(--spring),opacity .3s}
+.pay-coin:active{transform:scale(.9)}
+.pay-coin.spent{opacity:0;pointer-events:none}
+@media(max-width:720px){
+ .say-card{min-width:96px;padding:8px 10px}
+ .say-card-pic{width:72px;height:58px}
+ .say-card .hanzi{font-size:21px}
+ .build-slot2{min-width:84px;min-height:100px}
+ .build-slot2 .say-card-pic{width:60px;height:48px}
+ .speak-mic{width:76px;height:76px}
+}
+/* In the situation games the picture, the line and the cards should all fit on one screen. */
+.game-player{gap:10px}
+.game-player .story-stage{width:100%;max-width:calc(40vh*1.6);margin:0 auto}
+.game-player .story-line{min-height:0;padding:8px 12px}
+.game-player .story-words .hanzi{font-size:28px}
+@media(max-width:720px){.game-player .story-stage{max-width:calc(30vh*1.6)}.game-player .story-words .hanzi{font-size:22px}.game-player .story-words .meaning{display:none}.game-panel{padding:10px}.game-player .say-card{min-width:84px}.game-player .say-card-pic{width:60px;height:48px}.game-player .build-slot2{min-width:76px;min-height:84px}}
+/* While a game is being played, the page header steps aside so the whole game fits on a phone. */
+.view-match:has(.game-player) .hero{display:none}

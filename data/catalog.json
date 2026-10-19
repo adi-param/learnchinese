@@ -1,0 +1,403 @@
+{
+ "note": "Every word the situation games use. Add an entry (and its picture in src/catalog-art.js), run scripts/generate-audio.py, and every game that uses that list picks it up, with all its sentences recorded.",
+ "animals": [
+  {
+   "id": "rabbit",
+   "hanzi": "小兔子",
+   "pinyin": "xiǎo tùzi",
+   "english": "rabbit"
+  },
+  {
+   "id": "horse",
+   "hanzi": "小马",
+   "pinyin": "xiǎo mǎ",
+   "english": "horse"
+  },
+  {
+   "id": "duck",
+   "hanzi": "小鸭子",
+   "pinyin": "xiǎo yāzi",
+   "english": "duck"
+  },
+  {
+   "id": "cow",
+   "hanzi": "奶牛",
+   "pinyin": "nǎiniú",
+   "english": "cow"
+  },
+  {
+   "id": "sheep",
+   "hanzi": "小羊",
+   "pinyin": "xiǎo yáng",
+   "english": "sheep"
+  },
+  {
+   "id": "panda",
+   "hanzi": "熊猫",
+   "pinyin": "xióngmāo",
+   "english": "panda"
+  },
+  {
+   "id": "monkey",
+   "hanzi": "小猴子",
+   "pinyin": "xiǎo hóuzi",
+   "english": "monkey"
+  },
+  {
+   "id": "dog",
+   "hanzi": "小狗",
+   "pinyin": "xiǎo gǒu",
+   "english": "puppy"
+  },
+  {
+   "id": "cat",
+   "hanzi": "小猫",
+   "pinyin": "xiǎo māo",
+   "english": "kitten"
+  },
+  {
+   "id": "mouse",
+   "hanzi": "小老鼠",
+   "pinyin": "xiǎo lǎoshǔ",
+   "english": "mouse"
+  },
+  {
+   "id": "bird",
+   "hanzi": "小鸟",
+   "pinyin": "xiǎo niǎo",
+   "english": "little bird"
+  },
+  {
+   "id": "pig",
+   "hanzi": "小猪",
+   "pinyin": "xiǎo zhū",
+   "english": "piglet"
+  },
+  {
+   "id": "elephant",
+   "hanzi": "大象",
+   "pinyin": "dàxiàng",
+   "english": "elephant"
+  },
+  {
+   "id": "lion",
+   "hanzi": "狮子",
+   "pinyin": "shīzi",
+   "english": "lion"
+  },
+  {
+   "id": "frog",
+   "hanzi": "青蛙",
+   "pinyin": "qīngwā",
+   "english": "frog"
+  }
+ ],
+ "colours": [
+  {
+   "id": "red",
+   "hanzi": "红色",
+   "pinyin": "hóngsè",
+   "english": "red",
+   "hex": "#ff4d4d"
+  },
+  {
+   "id": "yellow",
+   "hanzi": "黄色",
+   "pinyin": "huángsè",
+   "english": "yellow",
+   "hex": "#ffd34d"
+  },
+  {
+   "id": "blue",
+   "hanzi": "蓝色",
+   "pinyin": "lánsè",
+   "english": "blue",
+   "hex": "#3f8cff"
+  },
+  {
+   "id": "green",
+   "hanzi": "绿色",
+   "pinyin": "lǜsè",
+   "english": "green",
+   "hex": "#3ccf6e"
+  },
+  {
+   "id": "purple",
+   "hanzi": "紫色",
+   "pinyin": "zǐsè",
+   "english": "purple",
+   "hex": "#9b6ccf"
+  },
+  {
+   "id": "orange",
+   "hanzi": "橙色",
+   "pinyin": "chéngsè",
+   "english": "orange",
+   "hex": "#ff9a3c"
+  }
+ ],
+ "places": [
+  {
+   "id": "farm",
+   "hanzi": "农场",
+   "pinyin": "nóngchǎng",
+   "english": "the farm"
+  },
+  {
+   "id": "zoo",
+   "hanzi": "动物园",
+   "pinyin": "dòngwùyuán",
+   "english": "the zoo"
+  },
+  {
+   "id": "beach",
+   "hanzi": "海边",
+   "pinyin": "hǎibiān",
+   "english": "the beach"
+  },
+  {
+   "id": "forest",
+   "hanzi": "森林",
+   "pinyin": "sēnlín",
+   "english": "the forest"
+  },
+  {
+   "id": "park",
+   "hanzi": "公园",
+   "pinyin": "gōngyuán",
+   "english": "the park"
+  },
+  {
+   "id": "school",
+   "hanzi": "学校",
+   "pinyin": "xuéxiào",
+   "english": "school"
+  }
+ ],
+ "foods": [
+  {
+   "id": "noodles",
+   "hanzi": "面条",
+   "pinyin": "miàntiáo",
+   "english": "noodles",
+   "measure": "碗",
+   "measurePinyin": "wǎn",
+   "unit": "bowl of",
+   "price": 4
+  },
+  {
+   "id": "rice",
+   "hanzi": "米饭",
+   "pinyin": "mǐfàn",
+   "english": "rice",
+   "measure": "碗",
+   "measurePinyin": "wǎn",
+   "unit": "bowl of",
+   "price": 2
+  },
+  {
+   "id": "dumplings",
+   "hanzi": "饺子",
+   "pinyin": "jiǎozi",
+   "english": "dumplings",
+   "measure": "盘",
+   "measurePinyin": "pán",
+   "unit": "plate of",
+   "price": 5
+  },
+  {
+   "id": "bun",
+   "hanzi": "包子",
+   "pinyin": "bāozi",
+   "english": "steamed bun",
+   "measure": "个",
+   "measurePinyin": "gè",
+   "unit": "",
+   "price": 2
+  },
+  {
+   "id": "soup",
+   "hanzi": "汤",
+   "pinyin": "tāng",
+   "english": "soup",
+   "measure": "碗",
+   "measurePinyin": "wǎn",
+   "unit": "bowl of",
+   "price": 3
+  },
+  {
+   "id": "cake",
+   "hanzi": "蛋糕",
+   "pinyin": "dàngāo",
+   "english": "cake",
+   "measure": "块",
+   "measurePinyin": "kuài",
+   "unit": "piece of",
+   "price": 3
+  },
+  {
+   "id": "pizza",
+   "hanzi": "披萨",
+   "pinyin": "pīsà",
+   "english": "pizza",
+   "measure": "块",
+   "measurePinyin": "kuài",
+   "unit": "slice of",
+   "price": 3
+  },
+  {
+   "id": "burger",
+   "hanzi": "汉堡",
+   "pinyin": "hànbǎo",
+   "english": "burger",
+   "measure": "个",
+   "measurePinyin": "gè",
+   "unit": "",
+   "price": 4
+  },
+  {
+   "id": "apple",
+   "hanzi": "苹果",
+   "pinyin": "píngguǒ",
+   "english": "apple",
+   "measure": "个",
+   "measurePinyin": "gè",
+   "unit": "",
+   "price": 1
+  },
+  {
+   "id": "banana",
+   "hanzi": "香蕉",
+   "pinyin": "xiāngjiāo",
+   "english": "banana",
+   "measure": "根",
+   "measurePinyin": "gēn",
+   "unit": "",
+   "price": 1
+  },
+  {
+   "id": "icecream",
+   "hanzi": "冰淇淋",
+   "pinyin": "bīngqílín",
+   "english": "ice cream",
+   "measure": "个",
+   "measurePinyin": "gè",
+   "unit": "",
+   "price": 2
+  },
+  {
+   "id": "egg",
+   "hanzi": "鸡蛋",
+   "pinyin": "jīdàn",
+   "english": "egg",
+   "measure": "个",
+   "measurePinyin": "gè",
+   "unit": "",
+   "price": 1
+  }
+ ],
+ "drinks": [
+  {
+   "id": "milk",
+   "hanzi": "牛奶",
+   "pinyin": "niúnǎi",
+   "english": "milk",
+   "measure": "杯",
+   "measurePinyin": "bēi",
+   "unit": "glass of",
+   "price": 2
+  },
+  {
+   "id": "juice",
+   "hanzi": "橙汁",
+   "pinyin": "chéngzhī",
+   "english": "orange juice",
+   "measure": "杯",
+   "measurePinyin": "bēi",
+   "unit": "glass of",
+   "price": 2
+  },
+  {
+   "id": "water",
+   "hanzi": "水",
+   "pinyin": "shuǐ",
+   "english": "water",
+   "measure": "杯",
+   "measurePinyin": "bēi",
+   "unit": "glass of",
+   "price": 1
+  },
+  {
+   "id": "tea",
+   "hanzi": "茶",
+   "pinyin": "chá",
+   "english": "tea",
+   "measure": "杯",
+   "measurePinyin": "bēi",
+   "unit": "cup of",
+   "price": 1
+  }
+ ],
+ "numbers": [
+  {
+   "id": "1",
+   "hanzi": "一",
+   "pinyin": "yī",
+   "english": "1"
+  },
+  {
+   "id": "2",
+   "hanzi": "两",
+   "pinyin": "liǎng",
+   "english": "2"
+  },
+  {
+   "id": "3",
+   "hanzi": "三",
+   "pinyin": "sān",
+   "english": "3"
+  },
+  {
+   "id": "4",
+   "hanzi": "四",
+   "pinyin": "sì",
+   "english": "4"
+  },
+  {
+   "id": "5",
+   "hanzi": "五",
+   "pinyin": "wǔ",
+   "english": "5"
+  },
+  {
+   "id": "6",
+   "hanzi": "六",
+   "pinyin": "liù",
+   "english": "6"
+  },
+  {
+   "id": "7",
+   "hanzi": "七",
+   "pinyin": "qī",
+   "english": "7"
+  },
+  {
+   "id": "8",
+   "hanzi": "八",
+   "pinyin": "bā",
+   "english": "8"
+  },
+  {
+   "id": "9",
+   "hanzi": "九",
+   "pinyin": "jiǔ",
+   "english": "9"
+  },
+  {
+   "id": "10",
+   "hanzi": "十",
+   "pinyin": "shí",
+   "english": "10"
+  }
+ ]
+}

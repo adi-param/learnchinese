@@ -1,0 +1,938 @@
+{
+ "welcome": {
+  "speaker": "waiter",
+  "pinyin": "Nǐ hǎo! Huānyíng guānglín! Jǐ wèi?",
+  "english": "Hello! Welcome! How many of you?",
+  "fingerprint": "b32c24ed5235f50992a715bd8844e4d2b1581afbe1365fc9f33f8b653ef309b8",
+  "text": "你好！欢迎光临！几位？",
+  "file": "assets/audio/scenarios/cafe/welcome.m4a",
+  "speech": [
+   0.01,
+   2.93
+  ],
+  "speech_fingerprint": "b32c24ed5235f50992a715bd8844e4d2b1581afbe1365fc9f33f8b653ef309b8"
+ },
+ "sit": {
+  "speaker": "waiter",
+  "pinyin": "Qǐng zuò! Zhè shì càidān.",
+  "english": "Please sit down! Here’s the menu.",
+  "fingerprint": "c78f0bdc56add795dd26d307ba1911cf8d1f56b6d39f714059f3f846b5785b0f",
+  "text": "请坐！这是菜单。",
+  "file": "assets/audio/scenarios/cafe/sit.m4a",
+  "speech": [
+   0.03,
+   2.03
+  ],
+  "speech_fingerprint": "c78f0bdc56add795dd26d307ba1911cf8d1f56b6d39f714059f3f846b5785b0f"
+ },
+ "whatEat": {
+  "speaker": "waiter",
+  "pinyin": "Nǐ xiǎng chī shénme?",
+  "english": "What would you like to eat?",
+  "fingerprint": "54fd7fa19b9a21497d6ac88df7e049d1acbdf6837096cd7cfec17a825fe72142",
+  "text": "你想吃什么？",
+  "file": "assets/audio/scenarios/cafe/whatEat.m4a",
+  "speech": [
+   0.01,
+   1.28
+  ],
+  "speech_fingerprint": "54fd7fa19b9a21497d6ac88df7e049d1acbdf6837096cd7cfec17a825fe72142"
+ },
+ "whatDrink": {
+  "speaker": "waiter",
+  "pinyin": "Yào hē shénme?",
+  "english": "What would you like to drink?",
+  "fingerprint": "3751d99c4468e9c35d5386c66f43b38a68f02916697ed1b01956711c8a52c5f9",
+  "text": "要喝什么？",
+  "file": "assets/audio/scenarios/cafe/whatDrink.m4a",
+  "speech": [
+   0.01,
+   0.96
+  ],
+  "speech_fingerprint": "3751d99c4468e9c35d5386c66f43b38a68f02916697ed1b01956711c8a52c5f9"
+ },
+ "noDrink": {
+  "speaker": "ira",
+  "pinyin": "Bú yào, xièxie.",
+  "english": "No, thank you.",
+  "fingerprint": "4fbfaf0f50560fd394f1e0e6e37b0e10e33e411978f600ff35a1c47b056f91ce",
+  "text": "不要，谢谢。",
+  "file": "assets/audio/scenarios/cafe/noDrink.m4a",
+  "speech": [
+   0.02,
+   1.47
+  ],
+  "speech_fingerprint": "4fbfaf0f50560fd394f1e0e6e37b0e10e33e411978f600ff35a1c47b056f91ce"
+ },
+ "wait": {
+  "speaker": "waiter",
+  "pinyin": "Hǎo de, qǐng děng yíxià.",
+  "english": "OK, just a moment.",
+  "fingerprint": "3cb2f9450613c35cdd4e196562587260bf2cd00edab0a4beaa9f97a184d8ebdd",
+  "text": "好的，请等一下。",
+  "file": "assets/audio/scenarios/cafe/wait.m4a",
+  "speech": [
+   0.08,
+   1.99
+  ],
+  "speech_fingerprint": "3cb2f9450613c35cdd4e196562587260bf2cd00edab0a4beaa9f97a184d8ebdd"
+ },
+ "here": {
+  "speaker": "waiter",
+  "pinyin": "Gěi nǐ!",
+  "english": "Here you are!",
+  "fingerprint": "ba669af2815f86f3ce3e3e547c2bc0815ea48c192fe017b1bbc71f8c9ea921ea",
+  "text": "给你！",
+  "file": "assets/audio/scenarios/cafe/here.m4a",
+  "speech": [
+   0.02,
+   0.47
+  ],
+  "speech_fingerprint": "ba669af2815f86f3ce3e3e547c2bc0815ea48c192fe017b1bbc71f8c9ea921ea"
+ },
+ "thanks": {
+  "speaker": "ira",
+  "pinyin": "Xièxie!",
+  "english": "Thank you!",
+  "fingerprint": "1889168c501bdb35624df3eb59f7ff4f3afb7009a4f33faa7afe387452e22623",
+  "text": "谢谢！",
+  "file": "assets/audio/scenarios/cafe/thanks.m4a",
+  "speech": [
+   0.03,
+   0.65
+  ],
+  "speech_fingerprint": "1889168c501bdb35624df3eb59f7ff4f3afb7009a4f33faa7afe387452e22623"
+ },
+ "bye": {
+  "speaker": "ira",
+  "pinyin": "Zàijiàn!",
+  "english": "Goodbye!",
+  "fingerprint": "5ec0e23cc2f08b0ad9c857c2e78de59f19a72b104aecb6b7514203ccc3cf4f6b",
+  "text": "再见！",
+  "file": "assets/audio/scenarios/cafe/bye.m4a",
+  "speech": [
+   0.05,
+   0.61
+  ],
+  "speech_fingerprint": "5ec0e23cc2f08b0ad9c857c2e78de59f19a72b104aecb6b7514203ccc3cf4f6b"
+ },
+ "sorry": {
+  "speaker": "ira",
+  "pinyin": "Duìbuqǐ!",
+  "english": "Sorry!",
+  "fingerprint": "a372003df56d06160a3dcdc977e6bdce93775c8f27c8c12d52df795eff96d08d",
+  "text": "对不起！",
+  "file": "assets/audio/scenarios/cafe/sorry.m4a",
+  "speech": [
+   0.0,
+   0.75
+  ],
+  "speech_fingerprint": "a372003df56d06160a3dcdc977e6bdce93775c8f27c8c12d52df795eff96d08d"
+ },
+ "hello": {
+  "speaker": "ira",
+  "pinyin": "Nǐ hǎo!",
+  "english": "Hello!",
+  "fingerprint": "e02a09868c4a962ce81897eaecda6d1a3aea401e7c6fa39a9cfd84432691357b",
+  "text": "你好！",
+  "file": "assets/audio/scenarios/cafe/hello.m4a",
+  "speech": [
+   0.01,
+   0.61
+  ],
+  "speech_fingerprint": "e02a09868c4a962ce81897eaecda6d1a3aea401e7c6fa39a9cfd84432691357b"
+ },
+ "noSpoon": {
+  "speaker": "narrator",
+  "pinyin": "Méiyǒu sháozi!",
+  "english": "There’s no spoon!",
+  "fingerprint": "7c9cd1d1e4dfd464e01fc3f5c4a66a5311752cbf308a7f07b73970f2ec4b5277",
+  "text": "没有勺子！",
+  "file": "assets/audio/scenarios/cafe/noSpoon.m4a",
+  "speech": [
+   0.01,
+   0.98
+  ],
+  "speech_fingerprint": "7c9cd1d1e4dfd464e01fc3f5c4a66a5311752cbf308a7f07b73970f2ec4b5277"
+ },
+ "askSpoon": {
+  "speaker": "ira",
+  "pinyin": "Qǐng gěi wǒ yì bǎ sháozi.",
+  "english": "Please give me a spoon.",
+  "fingerprint": "06ac500d6ec651dcc8f6333482d56a88f0e89d5a89f3de4fbc3fb237ff7e1f8f",
+  "text": "请给我一把勺子。",
+  "file": "assets/audio/scenarios/cafe/askSpoon.m4a",
+  "speech": [
+   0.03,
+   1.78
+  ],
+  "speech_fingerprint": "06ac500d6ec651dcc8f6333482d56a88f0e89d5a89f3de4fbc3fb237ff7e1f8f"
+ },
+ "giveSpoon": {
+  "speaker": "waiter",
+  "pinyin": "Gěi nǐ sháozi.",
+  "english": "Here’s a spoon.",
+  "fingerprint": "0e2009518898820633ac84cd445a5bac4310c0786b1125b3b388b1430dc8b36a",
+  "text": "给你勺子。",
+  "file": "assets/audio/scenarios/cafe/giveSpoon.m4a",
+  "speech": [
+   0.02,
+   0.98
+  ],
+  "speech_fingerprint": "0e2009518898820633ac84cd445a5bac4310c0786b1125b3b388b1430dc8b36a"
+ },
+ "noChopsticks": {
+  "speaker": "narrator",
+  "pinyin": "Méiyǒu kuàizi!",
+  "english": "There are no chopsticks!",
+  "fingerprint": "20a3de5c7671c7f35f3a7c0e076025d489624fb31022e42ceb7294656d648bf0",
+  "text": "没有筷子！",
+  "file": "assets/audio/scenarios/cafe/noChopsticks.m4a",
+  "speech": [
+   0.01,
+   1.05
+  ],
+  "speech_fingerprint": "20a3de5c7671c7f35f3a7c0e076025d489624fb31022e42ceb7294656d648bf0"
+ },
+ "askChopsticks": {
+  "speaker": "ira",
+  "pinyin": "Qǐng gěi wǒ yì shuāng kuàizi.",
+  "english": "Please give me a pair of chopsticks.",
+  "fingerprint": "c76229c9bf1c08d9b967e0dabf1952da6f7162b5015b4d093afddab20226981c",
+  "text": "请给我一双筷子。",
+  "file": "assets/audio/scenarios/cafe/askChopsticks.m4a",
+  "speech": [
+   0.03,
+   1.95
+  ],
+  "speech_fingerprint": "c76229c9bf1c08d9b967e0dabf1952da6f7162b5015b4d093afddab20226981c"
+ },
+ "giveChopsticks": {
+  "speaker": "waiter",
+  "pinyin": "Gěi nǐ kuàizi.",
+  "english": "Here are some chopsticks.",
+  "fingerprint": "907a7d8d890e29c145e3ee435007cfbbdbe1b8cf86408b30466fb835718ff5cd",
+  "text": "给你筷子。",
+  "file": "assets/audio/scenarios/cafe/giveChopsticks.m4a",
+  "speech": [
+   0.02,
+   1.04
+  ],
+  "speech_fingerprint": "907a7d8d890e29c145e3ee435007cfbbdbe1b8cf86408b30466fb835718ff5cd"
+ },
+ "tasty": {
+  "speaker": "waiter",
+  "pinyin": "Hǎochī ma?",
+  "english": "Is it tasty?",
+  "fingerprint": "fae9c1bd37537ff6cf4d9cb1c55b948cea5ab19b9ed58efa8c787a5c80677918",
+  "text": "好吃吗？",
+  "file": "assets/audio/scenarios/cafe/tasty.m4a",
+  "speech": [
+   0.08,
+   0.82
+  ],
+  "speech_fingerprint": "fae9c1bd37537ff6cf4d9cb1c55b948cea5ab19b9ed58efa8c787a5c80677918"
+ },
+ "veryTasty": {
+  "speaker": "ira",
+  "pinyin": "Hěn hǎochī!",
+  "english": "It’s very tasty!",
+  "fingerprint": "fa921d762b363948c36aff02dbea180e039c87dd45cfa255087a894bf0de75ed",
+  "text": "很好吃！",
+  "file": "assets/audio/scenarios/cafe/veryTasty.m4a",
+  "speech": [
+   0.09,
+   0.97
+  ],
+  "speech_fingerprint": "fa921d762b363948c36aff02dbea180e039c87dd45cfa255087a894bf0de75ed"
+ },
+ "tooHot": {
+  "speaker": "narrator",
+  "pinyin": "Tài tàng le!",
+  "english": "It’s too hot!",
+  "fingerprint": "7850217fdd3c302ea8f18194e1f7ff997aec970b1b13560bbbbf1703f680ac04",
+  "text": "太烫了！",
+  "file": "assets/audio/scenarios/cafe/tooHot.m4a",
+  "speech": [
+   0.02,
+   0.76
+  ],
+  "speech_fingerprint": "7850217fdd3c302ea8f18194e1f7ff997aec970b1b13560bbbbf1703f680ac04"
+ },
+ "askWater": {
+  "speaker": "ira",
+  "pinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
+  "english": "Please give me a glass of water.",
+  "fingerprint": "38bd99f1126b81b43f0b5ffaf458f28aff3c90c952f571e9a76623bc89548462",
+  "text": "请给我一杯水。",
+  "file": "assets/audio/scenarios/cafe/askWater.m4a",
+  "speech": [
+   0.03,
+   1.67
+  ],
+  "speech_fingerprint": "38bd99f1126b81b43f0b5ffaf458f28aff3c90c952f571e9a76623bc89548462"
+ },
+ "giveWater": {
+  "speaker": "waiter",
+  "pinyin": "Gěi nǐ shuǐ.",
+  "english": "Here’s some water.",
+  "fingerprint": "cb2f86a4c5a1635a89959d45d0ab20b83774fd2039b61be6a9bd13348f8274d4",
+  "text": "给你水。",
+  "file": "assets/audio/scenarios/cafe/giveWater.m4a",
+  "speech": [
+   0.02,
+   0.82
+  ],
+  "speech_fingerprint": "cb2f86a4c5a1635a89959d45d0ab20b83774fd2039b61be6a9bd13348f8274d4"
+ },
+ "spilt": {
+  "speaker": "narrator",
+  "pinyin": "Āiyā, shuǐ sǎ le!",
+  "english": "Oops, the water spilt!",
+  "fingerprint": "31e56656bd5b62658e7a9690a6fec365c970a415bb7941a4781ec6c3dfeebf57",
+  "text": "哎呀，水洒了！",
+  "file": "assets/audio/scenarios/cafe/spilt.m4a",
+  "speech": [
+   0.02,
+   1.75
+  ],
+  "speech_fingerprint": "31e56656bd5b62658e7a9690a6fec365c970a415bb7941a4781ec6c3dfeebf57"
+ },
+ "noProblem": {
+  "speaker": "waiter",
+  "pinyin": "Méi guānxi!",
+  "english": "That’s OK!",
+  "fingerprint": "52bac6d71bff0d669639a0ec5f6dfb25319d463498c588e469e5079b29f732ea",
+  "text": "没关系！",
+  "file": "assets/audio/scenarios/cafe/noProblem.m4a",
+  "speech": [
+   0.01,
+   0.8
+  ],
+  "speech_fingerprint": "52bac6d71bff0d669639a0ec5f6dfb25319d463498c588e469e5079b29f732ea"
+ },
+ "full": {
+  "speaker": "ira",
+  "pinyin": "Wǒ chī bǎo le.",
+  "english": "I’m full.",
+  "fingerprint": "372a83930e9b6167f7906b0e880480c219d5c840896309016d01d99f040cf429",
+  "text": "我吃饱了。",
+  "file": "assets/audio/scenarios/cafe/full.m4a",
+  "speech": [
+   0.01,
+   0.97
+  ],
+  "speech_fingerprint": "372a83930e9b6167f7906b0e880480c219d5c840896309016d01d99f040cf429"
+ },
+ "howMuch": {
+  "speaker": "ira",
+  "pinyin": "Duōshao qián?",
+  "english": "How much is it?",
+  "fingerprint": "35c2870d0150f6e061b936babfebac67e5b64f7c34d7fd9138b0a547e5d72f85",
+  "text": "多少钱？",
+  "file": "assets/audio/scenarios/cafe/howMuch.m4a",
+  "speech": [
+   0.01,
+   1.01
+  ],
+  "speech_fingerprint": "35c2870d0150f6e061b936babfebac67e5b64f7c34d7fd9138b0a547e5d72f85"
+ },
+ "pay": {
+  "speaker": "ira",
+  "pinyin": "Gěi nǐ qián.",
+  "english": "Here’s the money.",
+  "fingerprint": "bc5a99bc522903a308c67edbdd181ea1f343ad321038e11e080e23d211be6fd0",
+  "text": "给你钱。",
+  "file": "assets/audio/scenarios/cafe/pay.m4a",
+  "speech": [
+   0.01,
+   0.9
+  ],
+  "speech_fingerprint": "bc5a99bc522903a308c67edbdd181ea1f343ad321038e11e080e23d211be6fd0"
+ },
+ "comeAgain": {
+  "speaker": "waiter",
+  "pinyin": "Xièxie! Huānyíng zài lái!",
+  "english": "Thank you! Come again!",
+  "fingerprint": "10dde336adf17354cad210bc1a17e4e63514b9232e72b80f1ef5f0be14f0f102",
+  "text": "谢谢！欢迎再来！",
+  "file": "assets/audio/scenarios/cafe/comeAgain.m4a",
+  "speech": [
+   0.03,
+   2.08
+  ],
+  "speech_fingerprint": "10dde336adf17354cad210bc1a17e4e63514b9232e72b80f1ef5f0be14f0f102"
+ },
+ "tapCoins": {
+  "speaker": "narrator",
+  "pinyin": "Shǔ yi shǔ qián!",
+  "english": "Count the money!",
+  "fingerprint": "432240303ac9afa3654ec64aba6e3e466a08ecd9e0e6a2adc6f253b84522eb3f",
+  "text": "数一数钱！",
+  "file": "assets/audio/scenarios/cafe/tapCoins.m4a",
+  "speech": [
+   0.03,
+   1.21
+  ],
+  "speech_fingerprint": "432240303ac9afa3654ec64aba6e3e466a08ecd9e0e6a2adc6f253b84522eb3f"
+ },
+ "chunk-woyao": {
+  "pinyin": "wǒ yào",
+  "english": "I’d like",
+  "speaker": "narrator",
+  "fingerprint": "af940d61ecc9207ccd80468342829c5bc8d2199b65f384f4bcdc37276f9866fb",
+  "text": "我要",
+  "file": "assets/audio/scenarios/cafe/chunk-woyao.m4a",
+  "speech": [
+   0.01,
+   0.46
+  ],
+  "speech_fingerprint": "af940d61ecc9207ccd80468342829c5bc8d2199b65f384f4bcdc37276f9866fb"
+ },
+ "chunk-yiwan": {
+  "pinyin": "yì wǎn",
+  "english": "a bowl of",
+  "speaker": "narrator",
+  "fingerprint": "6a4353ab6e89e8cb7d809480c6dbebece697db465819bc932be3f6b61ec01f2a",
+  "text": "一碗",
+  "file": "assets/audio/scenarios/cafe/chunk-yiwan.m4a",
+  "speech": [
+   0.01,
+   0.48
+  ],
+  "speech_fingerprint": "6a4353ab6e89e8cb7d809480c6dbebece697db465819bc932be3f6b61ec01f2a"
+ },
+ "chunk-yipan": {
+  "pinyin": "yì pán",
+  "english": "a plate of",
+  "speaker": "narrator",
+  "fingerprint": "1983caccc0e5dfb65c514d5f65c936e0a830c79bce9cc306bc01f1b318290e1a",
+  "text": "一盘",
+  "file": "assets/audio/scenarios/cafe/chunk-yipan.m4a",
+  "speech": [
+   0.01,
+   0.62
+  ],
+  "speech_fingerprint": "1983caccc0e5dfb65c514d5f65c936e0a830c79bce9cc306bc01f1b318290e1a"
+ },
+ "chunk-yige": {
+  "pinyin": "yí gè",
+  "english": "a",
+  "speaker": "narrator",
+  "fingerprint": "faf2a11f35193ffa6fa172484bac628f7d012bb67c8815fd3d974353d49c2708",
+  "text": "一个",
+  "file": "assets/audio/scenarios/cafe/chunk-yige.m4a",
+  "speech": [
+   0.01,
+   0.39
+  ],
+  "speech_fingerprint": "faf2a11f35193ffa6fa172484bac628f7d012bb67c8815fd3d974353d49c2708"
+ },
+ "chunk-yikuai": {
+  "pinyin": "yí kuài",
+  "english": "a piece of",
+  "speaker": "narrator",
+  "fingerprint": "a5b3ac3cf23d45a17ecacac2667afb3b828fac844b78ee4f52760b353a7576f0",
+  "text": "一块",
+  "file": "assets/audio/scenarios/cafe/chunk-yikuai.m4a",
+  "speech": [
+   0.01,
+   0.56
+  ],
+  "speech_fingerprint": "a5b3ac3cf23d45a17ecacac2667afb3b828fac844b78ee4f52760b353a7576f0"
+ },
+ "chunk-yibei": {
+  "pinyin": "yì bēi",
+  "english": "a glass of",
+  "speaker": "narrator",
+  "fingerprint": "50e5762e8f3e706e487d49cf40f18f33caaa03fe01c21a6e31b5c28f1ccc3b56",
+  "text": "一杯",
+  "file": "assets/audio/scenarios/cafe/chunk-yibei.m4a",
+  "speech": [
+   0.01,
+   0.47
+  ],
+  "speech_fingerprint": "50e5762e8f3e706e487d49cf40f18f33caaa03fe01c21a6e31b5c28f1ccc3b56"
+ },
+ "people-1": {
+  "pinyin": "Yī gè rén.",
+  "english": "1 of us.",
+  "speaker": "ira",
+  "fingerprint": "4376062557ceb22626f1b0de09d9ec0669757aa97c5915c98c92931d55311175",
+  "text": "一个人。",
+  "file": "assets/audio/scenarios/cafe/people-1.m4a",
+  "speech": [
+   0.01,
+   0.67
+  ],
+  "speech_fingerprint": "4376062557ceb22626f1b0de09d9ec0669757aa97c5915c98c92931d55311175"
+ },
+ "people-2": {
+  "pinyin": "Liǎng gè rén.",
+  "english": "2 of us.",
+  "speaker": "ira",
+  "fingerprint": "b39378bade0b9bcc6c86e428b9acaf81e6dae5c4b2a163ed8a38b582d86ee47c",
+  "text": "两个人。",
+  "file": "assets/audio/scenarios/cafe/people-2.m4a",
+  "speech": [
+   0.01,
+   0.76
+  ],
+  "speech_fingerprint": "b39378bade0b9bcc6c86e428b9acaf81e6dae5c4b2a163ed8a38b582d86ee47c"
+ },
+ "people-3": {
+  "pinyin": "Sān gè rén.",
+  "english": "3 of us.",
+  "speaker": "ira",
+  "fingerprint": "6fd4fb0e9511672da9d94a939761e158c357175e88195143a5b873883da50b4c",
+  "text": "三个人。",
+  "file": "assets/audio/scenarios/cafe/people-3.m4a",
+  "speech": [
+   0.13,
+   0.9
+  ],
+  "speech_fingerprint": "6fd4fb0e9511672da9d94a939761e158c357175e88195143a5b873883da50b4c"
+ },
+ "people-4": {
+  "pinyin": "Sì gè rén.",
+  "english": "4 of us.",
+  "speaker": "ira",
+  "fingerprint": "49dbf8530e1993d85c1f8bee7cc704c92e462eb6dc5e3ade14f1770988284e9c",
+  "text": "四个人。",
+  "file": "assets/audio/scenarios/cafe/people-4.m4a",
+  "speech": [
+   0.14,
+   0.87
+  ],
+  "speech_fingerprint": "49dbf8530e1993d85c1f8bee7cc704c92e462eb6dc5e3ade14f1770988284e9c"
+ },
+ "order-noodles": {
+  "pinyin": "Wǒ yào yì wǎn miàntiáo.",
+  "english": "I’d like a bowl of noodles.",
+  "speaker": "ira",
+  "fingerprint": "d71159a977550f60bd978ee1b4e3e05c18053ce8a030adbe15b58d51d43e3812",
+  "text": "我要一碗面条。",
+  "file": "assets/audio/scenarios/cafe/order-noodles.m4a",
+  "speech": [
+   0.01,
+   1.62
+  ],
+  "speech_fingerprint": "d71159a977550f60bd978ee1b4e3e05c18053ce8a030adbe15b58d51d43e3812"
+ },
+ "order-rice": {
+  "pinyin": "Wǒ yào yì wǎn mǐfàn.",
+  "english": "I’d like a bowl of rice.",
+  "speaker": "ira",
+  "fingerprint": "451d81c73be18dd253e2afd6292e525394b403625913eb111e55c0d4bd70f5c4",
+  "text": "我要一碗米饭。",
+  "file": "assets/audio/scenarios/cafe/order-rice.m4a",
+  "speech": [
+   0.01,
+   1.49
+  ],
+  "speech_fingerprint": "451d81c73be18dd253e2afd6292e525394b403625913eb111e55c0d4bd70f5c4"
+ },
+ "order-dumplings": {
+  "pinyin": "Wǒ yào yì pán jiǎozi.",
+  "english": "I’d like a plate of dumplings.",
+  "speaker": "ira",
+  "fingerprint": "e012c6964c5cb8f8600b5b1e692919b5115ea29ef41b18f1532c293855aad71f",
+  "text": "我要一盘饺子。",
+  "file": "assets/audio/scenarios/cafe/order-dumplings.m4a",
+  "speech": [
+   0.01,
+   1.55
+  ],
+  "speech_fingerprint": "e012c6964c5cb8f8600b5b1e692919b5115ea29ef41b18f1532c293855aad71f"
+ },
+ "order-bun": {
+  "pinyin": "Wǒ yào yì gè bāozi.",
+  "english": "I’d like a steamed bun.",
+  "speaker": "ira",
+  "fingerprint": "61ec1cc5615040fc1fc037084043b0708da165e7b11ea655f8a044e0f146b199",
+  "text": "我要一个包子。",
+  "file": "assets/audio/scenarios/cafe/order-bun.m4a",
+  "speech": [
+   0.01,
+   1.29
+  ],
+  "speech_fingerprint": "61ec1cc5615040fc1fc037084043b0708da165e7b11ea655f8a044e0f146b199"
+ },
+ "order-soup": {
+  "pinyin": "Wǒ yào yì wǎn tāng.",
+  "english": "I’d like a bowl of soup.",
+  "speaker": "ira",
+  "fingerprint": "0ed859ba73ca4ecf3a0291377971f48d577b5633458788946c80dadf28549867",
+  "text": "我要一碗汤。",
+  "file": "assets/audio/scenarios/cafe/order-soup.m4a",
+  "speech": [
+   0.01,
+   1.3
+  ],
+  "speech_fingerprint": "0ed859ba73ca4ecf3a0291377971f48d577b5633458788946c80dadf28549867"
+ },
+ "order-cake": {
+  "pinyin": "Wǒ yào yì kuài dàngāo.",
+  "english": "I’d like a piece of cake.",
+  "speaker": "ira",
+  "fingerprint": "d05697ea37029c82ad0360e571df89fd901cae40e010879e7a7087c10a526fc5",
+  "text": "我要一块蛋糕。",
+  "file": "assets/audio/scenarios/cafe/order-cake.m4a",
+  "speech": [
+   0.01,
+   1.57
+  ],
+  "speech_fingerprint": "d05697ea37029c82ad0360e571df89fd901cae40e010879e7a7087c10a526fc5"
+ },
+ "order-pizza": {
+  "pinyin": "Wǒ yào yì kuài pīsà.",
+  "english": "I’d like a slice of pizza.",
+  "speaker": "ira",
+  "fingerprint": "5f2f6c4c038922204116e27630b7741e4a3e7635d4229a4fb12404946748201e",
+  "text": "我要一块披萨。",
+  "file": "assets/audio/scenarios/cafe/order-pizza.m4a",
+  "speech": [
+   0.01,
+   1.61
+  ],
+  "speech_fingerprint": "5f2f6c4c038922204116e27630b7741e4a3e7635d4229a4fb12404946748201e"
+ },
+ "order-burger": {
+  "pinyin": "Wǒ yào yì gè hànbǎo.",
+  "english": "I’d like a burger.",
+  "speaker": "ira",
+  "fingerprint": "abd0f90954eb7a82fd6803f95ba198049b0db1e29cfa21592d160f72dcada150",
+  "text": "我要一个汉堡。",
+  "file": "assets/audio/scenarios/cafe/order-burger.m4a",
+  "speech": [
+   0.01,
+   1.42
+  ],
+  "speech_fingerprint": "abd0f90954eb7a82fd6803f95ba198049b0db1e29cfa21592d160f72dcada150"
+ },
+ "order-icecream": {
+  "pinyin": "Wǒ yào yì gè bīngqílín.",
+  "english": "I’d like a ice cream.",
+  "speaker": "ira",
+  "fingerprint": "348d317de81f1c40b013f6f279b095cdfedd605097738e1a42b78b81dd0b0ad0",
+  "text": "我要一个冰淇淋。",
+  "file": "assets/audio/scenarios/cafe/order-icecream.m4a",
+  "speech": [
+   0.01,
+   1.71
+  ],
+  "speech_fingerprint": "348d317de81f1c40b013f6f279b095cdfedd605097738e1a42b78b81dd0b0ad0"
+ },
+ "drink-milk": {
+  "pinyin": "Wǒ yào yì bēi niúnǎi.",
+  "english": "I’d like a glass of milk.",
+  "speaker": "ira",
+  "fingerprint": "c0a3c590e1652ff29f762da00ee7e688f4fea4db38a099290000dc55c34869a3",
+  "text": "我要一杯牛奶。",
+  "file": "assets/audio/scenarios/cafe/drink-milk.m4a",
+  "speech": [
+   0.01,
+   1.49
+  ],
+  "speech_fingerprint": "c0a3c590e1652ff29f762da00ee7e688f4fea4db38a099290000dc55c34869a3"
+ },
+ "drink-juice": {
+  "pinyin": "Wǒ yào yì bēi chéngzhī.",
+  "english": "I’d like a glass of orange juice.",
+  "speaker": "ira",
+  "fingerprint": "c31a80f70e4d327d4b85ca197f1d7ee733009a0854aca2e5712ac92ccd1b874f",
+  "text": "我要一杯橙汁。",
+  "file": "assets/audio/scenarios/cafe/drink-juice.m4a",
+  "speech": [
+   0.01,
+   1.55
+  ],
+  "speech_fingerprint": "c31a80f70e4d327d4b85ca197f1d7ee733009a0854aca2e5712ac92ccd1b874f"
+ },
+ "drink-water": {
+  "pinyin": "Wǒ yào yì bēi shuǐ.",
+  "english": "I’d like a glass of water.",
+  "speaker": "ira",
+  "fingerprint": "2ba5363b5027daca0d152b5d8fceb76b35cbf89952cd7f2dbf88e0fa41dd3808",
+  "text": "我要一杯水。",
+  "file": "assets/audio/scenarios/cafe/drink-water.m4a",
+  "speech": [
+   0.01,
+   1.3
+  ],
+  "speech_fingerprint": "2ba5363b5027daca0d152b5d8fceb76b35cbf89952cd7f2dbf88e0fa41dd3808"
+ },
+ "drink-tea": {
+  "pinyin": "Wǒ yào yì bēi chá.",
+  "english": "I’d like a cup of tea.",
+  "speaker": "ira",
+  "fingerprint": "324a367bcc03742544691084d054524ef167db7065829ea375264cd96cce61c5",
+  "text": "我要一杯茶。",
+  "file": "assets/audio/scenarios/cafe/drink-tea.m4a",
+  "speech": [
+   0.01,
+   1.27
+  ],
+  "speech_fingerprint": "324a367bcc03742544691084d054524ef167db7065829ea375264cd96cce61c5"
+ },
+ "total-1": {
+  "pinyin": "Yígòng yī kuài.",
+  "english": "That’s 1 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "99d9062fc439f9edeb446abd97ae36cc56cb5a91fa802fd368f9bef5917cb505",
+  "text": "一共一块。",
+  "file": "assets/audio/scenarios/cafe/total-1.m4a",
+  "speech": [
+   0.01,
+   1.01
+  ],
+  "speech_fingerprint": "99d9062fc439f9edeb446abd97ae36cc56cb5a91fa802fd368f9bef5917cb505"
+ },
+ "total-2": {
+  "pinyin": "Yígòng liǎng kuài.",
+  "english": "That’s 2 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "2e8f5762fce9cd0f996d2148a3ef22ee933932d4085109d847cace8b36be4fc8",
+  "text": "一共两块。",
+  "file": "assets/audio/scenarios/cafe/total-2.m4a",
+  "speech": [
+   0.01,
+   1.09
+  ],
+  "speech_fingerprint": "2e8f5762fce9cd0f996d2148a3ef22ee933932d4085109d847cace8b36be4fc8"
+ },
+ "total-3": {
+  "pinyin": "Yígòng sān kuài.",
+  "english": "That’s 3 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "5cff4a190f0a8a329fb9a216c5192141ae0ac7ab6d7cb9431ac537661bc6d76c",
+  "text": "一共三块。",
+  "file": "assets/audio/scenarios/cafe/total-3.m4a",
+  "speech": [
+   0.01,
+   1.1
+  ],
+  "speech_fingerprint": "5cff4a190f0a8a329fb9a216c5192141ae0ac7ab6d7cb9431ac537661bc6d76c"
+ },
+ "total-4": {
+  "pinyin": "Yígòng sì kuài.",
+  "english": "That’s 4 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "b84162939fb8042f862a74f8017d502754fb53b039abda9dea3ea80a67b53d35",
+  "text": "一共四块。",
+  "file": "assets/audio/scenarios/cafe/total-4.m4a",
+  "speech": [
+   0.01,
+   1.1
+  ],
+  "speech_fingerprint": "b84162939fb8042f862a74f8017d502754fb53b039abda9dea3ea80a67b53d35"
+ },
+ "total-5": {
+  "pinyin": "Yígòng wǔ kuài.",
+  "english": "That’s 5 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "258f50eccf0952ea25dbfb54d756bd8b83392ed54656478e1b20e860af796baf",
+  "text": "一共五块。",
+  "file": "assets/audio/scenarios/cafe/total-5.m4a",
+  "speech": [
+   0.01,
+   1.03
+  ],
+  "speech_fingerprint": "258f50eccf0952ea25dbfb54d756bd8b83392ed54656478e1b20e860af796baf"
+ },
+ "total-6": {
+  "pinyin": "Yígòng liù kuài.",
+  "english": "That’s 6 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "b608f87324f0875ca39976375adca56773199bec906462deb045d2a2c5c19afc",
+  "text": "一共六块。",
+  "file": "assets/audio/scenarios/cafe/total-6.m4a",
+  "speech": [
+   0.01,
+   1.06
+  ],
+  "speech_fingerprint": "b608f87324f0875ca39976375adca56773199bec906462deb045d2a2c5c19afc"
+ },
+ "total-7": {
+  "pinyin": "Yígòng qī kuài.",
+  "english": "That’s 7 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "bea1a06cd01eb2f7e63eef2ddfd0a1e9df3d4fe96c89a8c74b828b35c36e295a",
+  "text": "一共七块。",
+  "file": "assets/audio/scenarios/cafe/total-7.m4a",
+  "speech": [
+   0.01,
+   1.12
+  ],
+  "speech_fingerprint": "bea1a06cd01eb2f7e63eef2ddfd0a1e9df3d4fe96c89a8c74b828b35c36e295a"
+ },
+ "total-8": {
+  "pinyin": "Yígòng bā kuài.",
+  "english": "That’s 8 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "25ac8eaa4bc205eac312a803e07201272472831ac25274e2adb6ccfc18784c8e",
+  "text": "一共八块。",
+  "file": "assets/audio/scenarios/cafe/total-8.m4a",
+  "speech": [
+   0.01,
+   1.05
+  ],
+  "speech_fingerprint": "25ac8eaa4bc205eac312a803e07201272472831ac25274e2adb6ccfc18784c8e"
+ },
+ "total-9": {
+  "pinyin": "Yígòng jiǔ kuài.",
+  "english": "That’s 9 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "3c034e30ca98d4ee38b7aa4b5b4e0e9c2f202110d195454ab7823709c740ea87",
+  "text": "一共九块。",
+  "file": "assets/audio/scenarios/cafe/total-9.m4a",
+  "speech": [
+   0.01,
+   1.09
+  ],
+  "speech_fingerprint": "3c034e30ca98d4ee38b7aa4b5b4e0e9c2f202110d195454ab7823709c740ea87"
+ },
+ "total-10": {
+  "pinyin": "Yígòng shí kuài.",
+  "english": "That’s 10 dollars altogether.",
+  "speaker": "waiter",
+  "fingerprint": "f444f73edff70116189bf8475b35a8dbe9cf249e9bab31021e62a0128322c3f3",
+  "text": "一共十块。",
+  "file": "assets/audio/scenarios/cafe/total-10.m4a",
+  "speech": [
+   0.01,
+   1.11
+  ],
+  "speech_fingerprint": "f444f73edff70116189bf8475b35a8dbe9cf249e9bab31021e62a0128322c3f3"
+ },
+ "count-1": {
+  "pinyin": "Yī",
+  "english": "1",
+  "speaker": "narrator",
+  "fingerprint": "9dc50f54e1e4e972606be63732beda86907bcf2981082ce98c559a01e6b67f95",
+  "text": "一",
+  "file": "assets/audio/scenarios/cafe/count-1.m4a",
+  "speech": [
+   0.01,
+   0.28
+  ],
+  "speech_fingerprint": "9dc50f54e1e4e972606be63732beda86907bcf2981082ce98c559a01e6b67f95"
+ },
+ "count-2": {
+  "pinyin": "Èr",
+  "english": "2",
+  "speaker": "narrator",
+  "fingerprint": "50bdbe9ce878b3f8acda54cc122fba2d92db1d65ac5885bcdbf8cded2c9e6355",
+  "text": "二",
+  "file": "assets/audio/scenarios/cafe/count-2.m4a",
+  "speech": [
+   0.02,
+   0.31
+  ],
+  "speech_fingerprint": "50bdbe9ce878b3f8acda54cc122fba2d92db1d65ac5885bcdbf8cded2c9e6355"
+ },
+ "count-3": {
+  "pinyin": "Sān",
+  "english": "3",
+  "speaker": "narrator",
+  "fingerprint": "4fb560a77c9965c1307ae89459b20367d87022745cd491cb9320ca20a4de8b08",
+  "text": "三",
+  "file": "assets/audio/scenarios/cafe/count-3.m4a",
+  "speech": [
+   0.12,
+   0.42
+  ],
+  "speech_fingerprint": "4fb560a77c9965c1307ae89459b20367d87022745cd491cb9320ca20a4de8b08"
+ },
+ "count-4": {
+  "pinyin": "Sì",
+  "english": "4",
+  "speaker": "narrator",
+  "fingerprint": "24604659e2bab5c16ed26c472e61b3a5e1308a6f2ca7349ae405bc30e159d858",
+  "text": "四",
+  "file": "assets/audio/scenarios/cafe/count-4.m4a",
+  "speech": [
+   0.14,
+   0.34
+  ],
+  "speech_fingerprint": "24604659e2bab5c16ed26c472e61b3a5e1308a6f2ca7349ae405bc30e159d858"
+ },
+ "count-5": {
+  "pinyin": "Wǔ",
+  "english": "5",
+  "speaker": "narrator",
+  "fingerprint": "0a7229a4f569e0dfc549141d73bd2b57e93405aa3db157ba0a6909f70821fe17",
+  "text": "五",
+  "file": "assets/audio/scenarios/cafe/count-5.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "0a7229a4f569e0dfc549141d73bd2b57e93405aa3db157ba0a6909f70821fe17"
+ },
+ "count-6": {
+  "pinyin": "Liù",
+  "english": "6",
+  "speaker": "narrator",
+  "fingerprint": "0ed449dd62dde72dc831675c901d05f6adad331440b654906fcbfe85aa11a2e2",
+  "text": "六",
+  "file": "assets/audio/scenarios/cafe/count-6.m4a",
+  "speech": [
+   0.01,
+   0.38
+  ],
+  "speech_fingerprint": "0ed449dd62dde72dc831675c901d05f6adad331440b654906fcbfe85aa11a2e2"
+ },
+ "count-7": {
+  "pinyin": "Qī",
+  "english": "7",
+  "speaker": "narrator",
+  "fingerprint": "c2526d123df178954e6bec2986b852ced423489f6e29f18f71a7b6677374ab5c",
+  "text": "七",
+  "file": "assets/audio/scenarios/cafe/count-7.m4a",
+  "speech": [
+   0.03,
+   0.39
+  ],
+  "speech_fingerprint": "c2526d123df178954e6bec2986b852ced423489f6e29f18f71a7b6677374ab5c"
+ },
+ "count-8": {
+  "pinyin": "Bā",
+  "english": "8",
+  "speaker": "narrator",
+  "fingerprint": "8f9b900bbce170bc543c1aa67affc7c1aa5610052b14665ad5c6670c9f1bfe78",
+  "text": "八",
+  "file": "assets/audio/scenarios/cafe/count-8.m4a",
+  "speech": [
+   0.01,
+   0.26
+  ],
+  "speech_fingerprint": "8f9b900bbce170bc543c1aa67affc7c1aa5610052b14665ad5c6670c9f1bfe78"
+ },
+ "count-9": {
+  "pinyin": "Jiǔ",
+  "english": "9",
+  "speaker": "narrator",
+  "fingerprint": "ece1bb815af28229b7d7551cc2b88c438ed79fe7627c410a9d84df566734e4c1",
+  "text": "九",
+  "file": "assets/audio/scenarios/cafe/count-9.m4a",
+  "speech": [
+   0.04,
+   0.37
+  ],
+  "speech_fingerprint": "ece1bb815af28229b7d7551cc2b88c438ed79fe7627c410a9d84df566734e4c1"
+ },
+ "count-10": {
+  "pinyin": "Shí",
+  "english": "10",
+  "speaker": "narrator",
+  "fingerprint": "9652506811fd78b1ea0a1ef39cee26bac78940007448ae6a1869810c1f29a27e",
+  "text": "十",
+  "file": "assets/audio/scenarios/cafe/count-10.m4a",
+  "speech": [
+   0.02,
+   0.45
+  ],
+  "speech_fingerprint": "9652506811fd78b1ea0a1ef39cee26bac78940007448ae6a1869810c1f29a27e"
+ }
+}

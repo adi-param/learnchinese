@@ -6,6 +6,7 @@
 import {chime} from './sfx.js';
 import {icon,mascot} from './icons.js';
 import {STORIES} from './stories/index.js';
+import {record,canRecord,stopRecording} from './recorder.js';
 
 // Same name as in sw.js: a story's files go into the offline store the first time it is opened.
 const CACHE='learnchinese-v1';
@@ -42,7 +43,7 @@ const clipUrl=clip=>url(`assets/audio/stories/${story.id}/${clip}.m4a`);
 const voiceOf=speaker=>speaker==='narrator'?NARRATOR:story.voices[speaker];
 
 export function mountStories(element,options){root=element;celebrate=options.celebrate;showMenu();}
-export function stopStory(){token++;audio.pause();finishLine?.(false);cancelWait?.();stopMic();stopRecording?.();takeAudio.pause();cancelAnimationFrame(frame);}
+export function stopStory(){token++;audio.pause();finishLine?.(false);cancelWait?.();stopMic();stopRecording();takeAudio.pause();cancelAnimationFrame(frame);}
 
 function showMenu(){
  stopStory();forgetTakes();
@@ -265,8 +266,7 @@ function micButton(onPuff){
 // memory only: nothing is saved or sent anywhere, and they are gone when the story starts again.
 const TURNS_PER_LINE=2;
 const takeAudio=typeof Audio==='function'?new Audio():{pause(){}};
-let shared=null,takes=[],turns=new Map(),micBlocked=false,stopRecording=null;
-const canRecord=()=>!micBlocked&&!!navigator.mediaDevices?.getUserMedia&&typeof MediaRecorder==='function';
+let shared=null,takes=[],turns=new Map();
 function forgetTakes(){takes.forEach(take=>URL.revokeObjectURL(take.url));takes=[];turns=new Map();}
 // Her own voice, exactly as recorded: normal speed and pitch.
 function playTake(take){
@@ -276,30 +276,6 @@ function sayShared(key,t){
  alive(t);const clip=shared?.[key];if(!clip)return Promise.resolve();
  finishLine?.(false);
  return new Promise(resolve=>{audio.onended=audio.onerror=()=>resolve();audio.src=url(clip.file);audio.preservesPitch=audio.webkitPreservesPitch=true;audio.defaultPlaybackRate=audio.playbackRate=NARRATOR.rate*speed;audio.play().catch(()=>resolve());}).then(()=>alive(t));
-}
-// Records until she has spoken and then gone quiet (or 6 seconds). Resolves with the recording, or null if
-// she said nothing or the microphone is not allowed.
-async function record(onLevel){
- let stream;
- try{stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});}catch{micBlocked=true;return null;}
- const c=sound(),analyser=c.createAnalyser();analyser.fftSize=1024;c.createMediaStreamSource(stream).connect(analyser);
- const recorder=new MediaRecorder(stream),pieces=[],data=new Float32Array(analyser.fftSize);
- recorder.ondataavailable=e=>{if(e.data.size)pieces.push(e.data);};
- return new Promise(resolve=>{
-  let spoke=false,quietSince=0,watch=0,over=false;const started=performance.now();
-  const end=keep=>{if(over)return;over=true;stopRecording=null;clearTimeout(watch);
-   recorder.onstop=()=>{stream.getTracks().forEach(track=>track.stop());resolve(keep&&spoke&&pieces.length?new Blob(pieces,{type:recorder.mimeType}):null);};
-   if(recorder.state!=='inactive')recorder.stop();else recorder.onstop();};
-  stopRecording=()=>end(false);
-  const listen=()=>{
-   analyser.getFloatTimeDomainData(data);let sum=0;for(const v of data)sum+=v*v;const level=Math.sqrt(sum/data.length),now=performance.now();onLevel(Math.min(1,level*8));
-   if(level>.035){spoke=true;quietSince=0;}else if(spoke&&!quietSince)quietSince=now;
-   if((spoke&&quietSince&&now-quietSince>900)||now-started>6000){end(true);return;}
-   watch=setTimeout(listen,40);
-  };
-  // A plain timer, not the screen-refresh callback, so listening carries on even when the page is not being drawn.
-  recorder.start();listen();
- });
 }
 async function yourTurn(key,t){
 
@@ -311,16 +287,16 @@ async function yourTurn(key,t){
   let busy=false;
   const nudge=setInterval(()=>{if(!busy&&!finishLine&&t===token)sayShared('yourTurn',t).catch(()=>{});},9000);
   mic.onclick=async()=>{
-   if(busy){stopRecording?.();return;}
+   if(busy){stopRecording();return;}
    busy=true;audio.pause();mic.classList.add('recording');
    let blob=null;try{blob=await record(level=>mic.style.setProperty('--level',level.toFixed(2)));}catch{}
    mic.classList.remove('recording');mic.style.setProperty('--level',0);busy=false;
    if(t!==token)return;
    if(blob){take={key,speaker:line.speaker,url:URL.createObjectURL(blob),scene:snapshot()};done();}
-   else if(micBlocked)done();
+   else if(!canRecord())done();
   };
   $('#turn-skip').onclick=done;
-  return ()=>{clearInterval(nudge);mic.onclick=null;$('#turn-skip').onclick=null;stopRecording?.();};
+  return ()=>{clearInterval(nudge);mic.onclick=null;$('#turn-skip').onclick=null;stopRecording();};
  });
  panel.hidden=true;box.classList.remove('your-turn');
  if(take){takes.push(take);mic.blur();await playTake(take);alive(t);chime('yay');await wait(400,t);}

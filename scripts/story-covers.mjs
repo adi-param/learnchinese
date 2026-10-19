@@ -1,10 +1,16 @@
-// Writes each story's cover as a picture file, so the story list shows covers without loading any story.
+// Writes each story's and game's cover as a picture file, so the story list shows covers without loading any story.
 // Run after changing a story's pictures: node scripts/story-covers.mjs
 import {writeFile} from 'node:fs/promises';
 import {STORIES} from '../src/stories/index.js';
+import {GAMES} from '../src/games.js';
 import {standalone} from '../src/story-kit.js';
 for(const {id} of STORIES){
  const book=(await import(`../src/stories/${id}.js`)).default;
  await writeFile(new URL(`../assets/stories/${id}-cover.svg`,import.meta.url),standalone(book.cover())+'\n');
  console.log(`assets/stories/${id}-cover.svg`);
+}
+for(const {id} of GAMES){
+ const game=(await import(`../src/scenarios/${id}.js`)).default;
+ await writeFile(new URL(`../assets/games/${id}-cover.svg`,import.meta.url),standalone(game.cover())+'\n');
+ console.log(`assets/games/${id}-cover.svg`);
 }
