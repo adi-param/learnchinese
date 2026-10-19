@@ -663,5 +663,23 @@
       "pinyin": "gāoxìng",
       "english": "happy"
     }
-  ]
+  ],
+  "sounds": {
+    "achoo": {
+      "speaker": "wolf",
+      "hanzi": "阿嚏！"
+    },
+    "howl": {
+      "speaker": "wolf",
+      "hanzi": "嗷呜！"
+    },
+    "oink": {
+      "speaker": "pig",
+      "hanzi": "哼哼！"
+    },
+    "giggle": {
+      "speaker": "pig",
+      "hanzi": "嘻嘻！"
+    }
+  }
 }

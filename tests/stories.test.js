@@ -25,7 +25,7 @@ for(const {id,title} of STORIES){
   for(const tag of read(`assets/stories/${id}-cover.svg`).match(/<[a-zA-Z][^>]*>/g)){const names=[...tag.matchAll(/\s([\w:-]+)="/g)].map(m=>m[1]);assert.equal(new Set(names).size,names.length,`a picture file must not repeat an attribute: ${tag.slice(0,60)}`);}
  });
  test(`${id}: every line and word has its own recording, with speech timing for the karaoke`,()=>{
-  const wanted=[...Object.entries(story.lines).map(([key,line])=>[key,line.hanzi]),...story.words.map(w=>['word-'+w.id,w.hanzi])];
+  const wanted=[...Object.entries(story.lines).map(([key,line])=>[key,line.hanzi]),...story.words.map(w=>['word-'+w.id,w.hanzi]),...Object.entries(story.sounds||{}).map(([key,s])=>['snd-'+key,s.hanzi])];
   for(const [clip,text] of wanted){const entry=clips[clip];assert(entry,clip);assert.equal(entry.text,text,clip);assert(entry.speech,clip);assert(existsSync(new URL('../'+entry.file,import.meta.url)),entry.file);}
   assert.equal(Object.keys(clips).length,wanted.length,'no leftover recordings');
  });

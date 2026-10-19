@@ -968,3 +968,8 @@ a{color:inherit}
 .sayit.held .sayit-timer{display:none}
 @keyframes sayit-timer{from{transform:scaleX(1)}to{transform:scaleX(0)}}
 .games-list{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+/* The background sound button sits next to the speed buttons. */
+.story-controls{display:inline-flex;align-items:center;gap:8px}
+.story-music{display:grid;place-items:center;width:36px;height:36px;margin-top:6px;border:0;border-radius:50%;background:var(--sky);color:#fff;font-size:18px;box-shadow:var(--shadow-sm)}
+.story-music.off{background:var(--surface);color:var(--faint);text-decoration:line-through}
+.story-svg [data-fun]{cursor:pointer}

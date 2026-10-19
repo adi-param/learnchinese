@@ -10,10 +10,11 @@ const PIGS={red:['#ff8b84','#f0625a'],yellow:['#ffd166','#efad2f'],white:['#fffa
 
 // A pig standing, facing us. The face alone is used in the window and on the word cards.
 const pigHead=(fill,dark)=>`<path d="M-11.5 -36Q-17 -46 -12.5 -47.5Q-7 -46.5 -4 -41Z" fill="${fill}" ${L}/><path d="M11.5 -36Q17 -46 12.5 -47.5Q7 -46.5 4 -41Z" fill="${fill}" ${L}/>
-<circle cx="0" cy="-31" r="12.5" fill="${fill}" ${L}/><circle cx="-4.6" cy="-34" r="1.8" fill="${INK}"/><circle cx="4.6" cy="-34" r="1.8" fill="${INK}"/>
+<circle cx="0" cy="-31" r="12.5" fill="${fill}" ${L}/><g class="blink"><circle cx="-4.6" cy="-34" r="1.8" fill="${INK}"/><circle cx="4.6" cy="-34" r="1.8" fill="${INK}"/></g>
+<path class="pig-brows" d="M-8 -39.5l4.4 1.6M8 -39.5l-4.4 1.6" ${L} stroke-width="1.4"/>
 <circle cx="-8.6" cy="-27.6" r="2.4" fill="#ff9fb0" opacity=".85"/><circle cx="8.6" cy="-27.6" r="2.4" fill="#ff9fb0" opacity=".85"/>
 <ellipse cx="0" cy="-27.4" rx="5.6" ry="3.9" fill="${dark}" ${L}/><ellipse cx="-2" cy="-27.4" rx=".9" ry="1.4" fill="${INK}"/><ellipse cx="2" cy="-27.4" rx=".9" ry="1.4" fill="${INK}"/>
-<path d="M-3 -21.6q3 2.2 6 0" fill="none" ${L} stroke-width="1.6"/>`;
+<path class="pig-mouth" d="M-3 -21.6q3 2.2 6 0" fill="none" ${L} stroke-width="1.6"/><ellipse class="pig-talk" cx="0" cy="-21" rx="2.4" ry="2" fill="${INK}"/>`;
 const pig=(colour='red')=>{const [fill,dark]=PIGS[colour];return `<path d="M12 -15q8-1 7-7q-1-4-4.5-1.5" fill="none" ${L}/>
 <rect x="-9.5" y="-7" width="6.5" height="7.5" rx="2.6" fill="${dark}" ${L}/><rect x="3" y="-7" width="6.5" height="7.5" rx="2.6" fill="${dark}" ${L}/>
 <ellipse cx="0" cy="-13.5" rx="13.5" ry="10.5" fill="${fill}" ${L}/>${pigHead(fill,dark)}`;};
@@ -24,9 +25,9 @@ const wolfHead=`<path d="M-2 -70 0 -85 8 -72Z" fill="${WOLF}" ${L}/><path d="M7 
 <circle cx="3" cy="-60" r="13.5" fill="${WOLF}" ${L}/>
 <path d="M-6 -67Q-26 -66 -31 -58Q-29 -50 -6 -50Z" fill="${WOLF}" ${L}/><path d="M-8 -53Q-22 -52.5 -28 -55" fill="none" stroke="${WOLF_LIGHT}" stroke-width="3" stroke-linecap="round"/>
 <circle cx="-30" cy="-59" r="3.4" fill="${INK}"/>
-<g class="wolf-eye"><ellipse cx="-2" cy="-63" rx="3.2" ry="3.6" fill="#fff" ${L} stroke-width="1.6"/><circle cx="-3.2" cy="-62.4" r="1.7" fill="${INK}"/></g>
-<path d="M-8 -70 2 -67" ${L} stroke-width="2.6"/>
-<path class="wolf-grin" d="M-27 -53Q-17 -48 -7 -52" fill="none" ${L} stroke-width="1.8"/>
+<g class="wolf-eye blink"><ellipse cx="-2" cy="-63" rx="3.2" ry="3.6" fill="#fff" ${L} stroke-width="1.6"/><circle cx="-3.2" cy="-62.4" r="1.7" fill="${INK}"/></g>
+<path class="wolf-brow" d="M-8 -70 2 -67" ${L} stroke-width="2.6"/>
+<path class="wolf-grin" d="M-27 -53Q-17 -48 -7 -52" fill="none" ${L} stroke-width="1.8"/><path class="wolf-talk" d="M-27 -53Q-17 -42 -7 -52Z" fill="${INK}"/>
 <g class="wolf-o" opacity="0"><circle cx="-24" cy="-53" r="3" fill="${INK}"/></g>
 <g class="wolf-cheek" data-cue="cheeks"><circle cx="-12" cy="-54" r="5" fill="#b4b8c9" ${L} stroke-width="1.6"/></g>`;
 const wind=`<g class="wind" fill="none" stroke="#7cc3ff" stroke-width="3" stroke-linecap="round"><path d="M-38 -62q-10-5-22 0"/><path d="M-38 -54q-14 3-30-2"/><path d="M-38 -46q-10 5-22 2"/></g>`;
@@ -80,10 +81,17 @@ const miniDoor=(x,y)=>`<path d="M${x} ${y+22}V${y+6}a7 7 0 0 1 14 0V${y+22}Z" fi
 const bubbles=bubble('bubble-wolf',216,10,228,236,62,`<path d="M227 32V16a7 7 0 0 1 14 0V32Z" fill="#5a4a3a" ${L} stroke-width="1.4"/><path d="M227 32V16l8-3v22Z" fill="${DOOR}" ${L} stroke-width="1.4"/><path d="M246 24h10m-4-4 4 4-4 4" fill="none" stroke="#12a879" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>`)
  +bubble('bubble-pig',72,52,108,120,104,`${miniDoor(80,58)}<path d="M98 62 112 80M112 62 98 80" stroke="#f0507a" stroke-width="3.6" stroke-linecap="round"/>`);
 
+// Things to tap for fun in the meadow (they never move the story on).
+const sun=`<g data-fun="sun" class="fun-sun"><g class="rays" stroke="#ffc233" stroke-width="3" stroke-linecap="round">${Array.from({length:8},(_,i)=>{const a=i*Math.PI/4;return `<path d="M${44+Math.cos(a)*19} ${38+Math.sin(a)*19}L${44+Math.cos(a)*25} ${38+Math.sin(a)*25}"/>`;}).join('')}</g><circle cx="44" cy="38" r="15" fill="#ffd34d"/><circle cx="39" cy="35" r="1.6" fill="${INK}"/><path class="sun-eye" d="M47 35h4" stroke="${INK}" stroke-width="1.6" stroke-linecap="round"/><circle class="sun-open" cx="49" cy="35" r="1.6" fill="${INK}"/><path d="M38 41q6 5 12 0" fill="none" stroke="${INK}" stroke-width="1.6" stroke-linecap="round"/></g>`;
+const clouds=`<g data-fun="cloud" class="fun-cloud"><ellipse cx="110" cy="30" rx="18" ry="7" fill="#fff"/><ellipse cx="121" cy="25" rx="11" ry="7" fill="#fff"/></g><g data-fun="cloud" class="fun-cloud"><ellipse cx="236" cy="42" rx="16" ry="6" fill="#fff"/><ellipse cx="246" cy="38" rx="9" ry="6" fill="#fff"/></g>`;
+const bird=`<g class="bird"><path d="M0 0q5-6 10 0q5-6 10 0" fill="none" stroke="${INK}" stroke-width="2" stroke-linecap="round"/></g>`;
+const meadowFun=`${sun}${clouds}<circle data-fun="tree" cx="286" cy="106" r="22" fill="transparent"/><circle data-fun="tree" cx="22" cy="108" r="16" fill="transparent"/><g transform="translate(276 102)">${bird}</g>
+ ${[[40,182],[96,190],[210,186],[270,192],[150,196]].map(([x,y])=>`<g data-fun="flower" class="fun-flower"><circle cx="${x}" cy="${y}" r="6" fill="transparent"/><circle cx="${x}" cy="${y}" r="3.4" fill="#fff"/><circle cx="${x}" cy="${y}" r="1.4" fill="#ffc233"/></g>`).join('')}`;
+const funActors=svg=>svg.replace(/class="actor actor-(pig-\w+)"/g,'data-fun="pig" class="actor actor-$1"').replace(/class="actor actor-wolf"/,'data-fun="wolf" class="actor actor-wolf"');
 // One scene per house: the house being built (from `material`), with `faces` for whoever will end up in the window.
 function houseScene(material,faces){
  const m=MATERIALS[material];
- return scene(`The three little pigs and a ${material} house`,`${meadow}
+ return funActors(scene(`The three little pigs and a ${material} house`,`${meadow}${meadowFun}
  <g class="ghost" data-cue="ghost">${ghost}</g>
  <g class="house" data-cue="house">${house(material,faces)}</g>
  <g class="ruins" data-cue="ruins">${m.heap}</g>
@@ -93,7 +101,7 @@ function houseScene(material,faces){
  ${actor('pig-yellow',-60,168,pig('yellow'),'pigs pig-yellow')}${actor('pig-white',-60,168,pig('white'),'pigs pig-white')}${actor('pig-red',-60,168,pig('red'),'pigs pig-red')}
  ${actor('wolf',370,160,wolf,'wolf')}
  ${bubbles}${countPop()}
- ${target('pile',44,144,24,32)}${target('door',172,137,18,24)}${target('pig-window',133,116,23,25)}${target('wolf',240,112,30,44)}`);
+ ${target('pile',44,144,24,32)}${target('door',172,137,18,24)}${target('pig-window',133,116,23,25)}${target('wolf',240,112,30,44)}`).replace('class="pig-window"','data-fun="window" class="pig-window"'));
 }
 // Inside the brick house: the fireplace with a pot on the fire, and the chimney the wolf comes down.
 const flames=`<path d="M146 170Q140 156 148 146Q150 156 155 152Q152 140 160 130Q166 142 164 150Q170 146 170 138Q180 152 174 170Z" fill="#ff7a45" ${L} stroke-width="1.6"/><path d="M152 170Q150 160 156 154Q158 160 161 158Q160 150 164 146Q170 156 166 170Z" fill="#ffd34d"/>`;
@@ -104,7 +112,7 @@ const boilBubbles=[[150,123],[158,125],[166,122],[172,125],[154,126]].map(([x,y]
 const drops=[[-26,-30],[-14,-40],[0,-46],[14,-40],[26,-30],[-34,-14],[34,-14]].map(([dx,dy])=>`<circle class="drop" style="--dx:${dx}px;--dy:${dy}px" cx="160" cy="122" r="3" fill="#8fd0ff" stroke="${INK}" stroke-width="1"/>`).join('');
 const logs=`<g transform="translate(160 172)"><g transform="rotate(-12)">${log}</g><g transform="rotate(12) scale(-1 1)">${log}</g></g>`;
 function interiorScene(){
- return scene('Inside the brick house: a pot on the fire',`
+ return funActors(scene('Inside the brick house: a pot on the fire',`
  <rect width="320" height="172" fill="#fde3cf"/><g fill="#f8cfb4">${Array.from({length:40},(_,i)=>`<circle cx="${12+(i%10)*33}" cy="${14+Math.floor(i/10)*40+(i%2)*18}" r="2.5"/>`).join('')}</g>
  <rect x="22" y="36" width="54" height="44" rx="4" fill="#bfe3ff" ${L}/><path d="M49 36v44M22 58h54" ${L}/><circle cx="36" cy="48" r="5" fill="#ffd34d"/>
  <rect y="170" width="320" height="30" fill="#d9a066"/><path d="M0 170H320M0 184H320M70 170v14M190 170v14M130 184v16M260 184v16" stroke="#a8703f" stroke-width="1.6"/>
@@ -117,7 +125,7 @@ function interiorScene(){
  ${actor('wolf',160,-40,wolf,'wolf')}
  <g class="pot" data-cue="pot">${pot.front}</g>${steam}<g class="splash">${drops}</g>
  ${actor('pig-red',58,188,pig('red'),'pigs pig-red')}${actor('pig-yellow',250,188,pig('yellow'),'pigs pig-yellow')}${actor('pig-white',286,188,pig('white'),'pigs pig-white')}
- ${target('fire',160,162,22,32)}`);
+ ${target('fire',160,162,22,32)}`).replace('<g class="pot" data-cue="pot">','<g class="pot" data-cue="pot" data-fun="pot">'));
 }
 // Halfway: all three houses built, each pig at its window.
 function overviewScene(){
@@ -142,7 +150,7 @@ const pictures={
  chimney:box('140 54 66 54',`<path d="M140 108 170 82 206 108Z" fill="${ROOF_TILE}" ${L}/><rect x="166" y="66" width="14" height="22" fill="${BRICK}" ${L}/><rect x="164" y="62" width="18" height="5" rx="1" fill="#8e8a9e" ${L}/><path d="M176 58q-4-4 0-8t0-8" fill="none" stroke="#b6b3c4" stroke-width="2.4" stroke-linecap="round"/>`),
  fire:box('130 124 60 52',`${logs}${flames}`),
  hot:box('118 84 84 72',`${pot.back}${pot.front}${steam}<path d="M124 102q-4-6 0-12M196 102q4-6 0-12" fill="none" stroke="#f0507a" stroke-width="2.6" stroke-linecap="round"/>`),
- happy:box('-34 -56 68 60',`${pig('white').replace('M-3 -21.6q3 2.2 6 0','M-4 -22.5q4 4 8 0')}<path d="M-26 -44c-3-4-9 0-4 5l4 3 4-3c5-5-1-9-4-5zM26 -44c-3-4-9 0-4 5l4 3 4-3c5-5-1-9-4-5z" fill="#f0507a"/>`)
+ happy:box('-34 -56 68 60',`${pig('white').replace('class="pig-mouth" d="M-3 -21.6q3 2.2 6 0"','class="pig-mouth" d="M-4 -22.5q4 4 8 0"')}<path d="M-26 -44c-3-4-9 0-4 5l4 3 4-3c5-5-1-9-4-5zM26 -44c-3-4-9 0-4 5l4 3 4-3c5-5-1-9-4-5z" fill="#f0507a"/>`)
 };
 // The cover: the three houses in a row, each with the pig who built it.
 const cover=()=>box('0 0 320 200',`${meadow}${[['straw','red',-38],['wood','yellow',62],['brick','white',162]].map(([m,colour,x])=>`<g transform="translate(${x} 58) scale(.62)">${house(m,[])}</g><g transform="translate(${x+80} 180) scale(.7)">${pig(colour)}</g>`).join('')}`);
@@ -200,8 +208,8 @@ async function wolfKnocks(t){
  await api.tap('pig-window',t,'tapPig');
  flag('say-no');flag('pig-no');await say('no',t);await wait(400,t);flag('say-no',false);flag('pig-no',false);
  await wait(300,t);
- await say('blow',t);
- await say('blowNow',t);
+ flag('zoom-wolf');await say('blow',t);
+ await say('blowNow',t);flag('zoom-wolf',false);await wait(500,t);
 }
 // Puffs at the house, by microphone or by tapping the wolf: each one the wolf says 吹, the house wobbles by the
 // next amount in `wobbles` (degrees) and a few bits fly off. Resolves after the last puff.
@@ -287,7 +295,7 @@ async function wolfAtBrick(t){
  await say('chimneyPlan',t);
  move('wolf',214,134,900,.85);await wait(900,t);move('wolf',192,98,900,.65);await wait(900,t);move('wolf',173,64,800,.5);await wait(1000,t);
  flag('wolf-down');move('wolf',173,100,700,.5);await wait(700,t);
- await api.changeScene(t,interiorScene());
+ await api.changeScene(t,interiorScene());api.ambient('fire');
  await say('boil',t);
  await say('tapFire',t);
  await api.tap('fire',t,'tapFire');
@@ -299,24 +307,71 @@ async function wolfAtBrick(t){
  flag('ouch');await say('hot',t);
  move('wolf',160,-150,650);await wait(700,t);flag('ouch',false);
  await say('wolfRan',t);
- flag('dance');
+ flag('dance');api.ambient('music');
  await say('happy',t);
  await wait(800,t);
+}
+let oinks=0,sneezes=0;
+function fun(name,el,storyApi){
+ const a=storyApi,pop=(target,cls)=>a.replay(target,cls);
+ if(name==='sun'){pop(el,'wink');a.effect('twinkle');}
+ else if(name==='cloud'){pop(el,'drift');a.effect('swish');}
+ else if(name==='tree'){pop(a.stage().querySelector('.bird'),'fly');a.effect('tweet');}
+ else if(name==='flower'){pop(el,'boing');a.effect('boing');}
+ else if(name==='pig'||name==='window'){pop(el.querySelector('.cuebox')||el,'happy-hop');a.voice(oinks++%2?'giggle':'oink');}
+ else if(name==='wolf'){pop(el.querySelector('.cuebox'),'sneeze');a.voice(sneezes++%3===2?'howl':'achoo');}
+ else if(name==='pot'){pop(el,'bubble');a.effect('pop');}
 }
 const BUILD=[buildStraw,buildWood,buildBrick],WOLF_AT=[wolfAtStraw,wolfAtWood,wolfAtBrick];
 // First every pig builds a house; then the wolf comes to each house in turn.
 async function play(storyApi,t){
  api=storyApi;bitsGone=0;
+ api.ambient('music');
  for(let i=0;i<HOUSES.length;i++){if(i)await toHouse(t,i);await BUILD[i](t);}
  api.chapter(-1);await api.changeScene(t,overviewScene());await wait(300,t);
  await say('allBuilt',t);await wait(600,t);
+ api.ambient('birds');
  for(let i=0;i<HOUSES.length;i++){await toHouse(t,i,true);await WOLF_AT[i](t);}
 }
 
 const css=`
+.story-svg .blink{transform-box:fill-box;transform-origin:center;animation:pigs-blink 4.2s infinite}
+.story-svg .actor-pig-yellow .blink,.story-svg .face-yellow .blink{animation-delay:1.3s}.story-svg .actor-pig-white .blink,.story-svg .face-white .blink{animation-delay:2.6s}.story-svg .wolf-eye.blink{animation-delay:.7s;animation-duration:5s}
+@keyframes pigs-blink{0%,94%,100%{transform:none}97%{transform:scaleY(.1)}}
+.story-svg .pig-talk,.story-svg .wolf-talk,.story-svg .pig-brows{opacity:0}
+[data-talking="pig"] .pig-window .pig-talk{animation:pigs-talk .22s steps(2) infinite}
+[data-talking="pig"] .pig-window .pig-mouth{opacity:0}
+[data-talking="wolf"] .wolf-talk{animation:pigs-talk .24s steps(2) infinite}
+[data-talking="wolf"] .wolf-grin{opacity:0}
+@keyframes pigs-talk{0%{opacity:1}100%{opacity:0}}
+.scared .pig-brows,[data-talking="wolf"] .pig-brows,.say-no .pig-brows{opacity:1}
+.story-svg .wolf-brow{transform-box:fill-box;transform-origin:100% 50%;transition:transform .3s}
+.blowing .wolf-brow,.zoom-wolf .wolf-brow{transform:rotate(18deg)}
+.story-stage .story-svg{transform-origin:75% 50%}
+.zoom-wolf .story-svg{transform:scale(1.6);transition:transform .9s ease-in-out}
+.story-svg .fun-sun{transform-box:fill-box;transform-origin:center}
+.story-svg .sun-eye{opacity:0}
+.story-svg .fun-sun.wink .rays{animation:story-spin 1s ease-in-out}
+.story-svg .fun-sun.wink .sun-eye{animation:pigs-wink 1s}
+.story-svg .fun-sun.wink .sun-open{animation:pigs-unwink 1s}
+@keyframes pigs-wink{0%,100%{opacity:0}10%,80%{opacity:1}}
+@keyframes pigs-unwink{0%,100%{opacity:1}10%,80%{opacity:0}}
+.story-svg .fun-sun .rays{transform-box:fill-box;transform-origin:center}
+.story-svg .fun-cloud.drift{animation:pigs-drift 2.4s ease-in-out}
+@keyframes pigs-drift{50%{transform:translateX(26px)}}
+.story-svg .bird{opacity:0}
+.story-svg .bird.fly{animation:pigs-fly-bird 2.2s ease-out}
+@keyframes pigs-fly-bird{0%{opacity:1;transform:none}100%{opacity:0;transform:translate(-140px,-90px) scale(1.4)}}
+.story-svg .fun-flower{transform-box:fill-box;transform-origin:50% 100%}
+.story-svg .fun-flower.boing{animation:story-pop .6s var(--spring)}
+.story-svg .cuebox.happy-hop,.story-svg .pig-window.happy-hop{animation:story-hop .25s ease-in-out 4 alternate}
+.story-svg .cuebox.sneeze{transform-box:fill-box;transform-origin:50% 100%;animation:pigs-sneeze .6s ease-in-out}
+@keyframes pigs-sneeze{30%{transform:rotate(-6deg) translateY(-3px)}60%{transform:rotate(5deg) scaleY(.94)}}
+.story-svg .pot.bubble{transform-box:fill-box;transform-origin:50% 100%;animation:story-pop .5s var(--spring)}
 .story-svg .house,.story-svg .ruins,.story-svg .door,.story-svg .pile,.story-svg .ghost,.story-svg .pig-window,.story-svg .bit{transform-box:fill-box;transform-origin:50% 100%}
 .story-svg .wolf-cheek{transform-box:fill-box;transform-origin:center;transition:transform .12s}
 .story-svg .wolf-cheek.cue{animation:none;transform:scale(1.5)}
+.story-svg .wolf-cheek.lit{filter:none}
 .story-svg .ghost,.story-svg .pile,.story-svg .ruins,.story-svg .face,.story-svg .wolf-o,.story-svg .wind{opacity:0;transition:opacity .4s}
 .show-ghost .ghost,.show-pile .pile{opacity:1}
 .in-red .face-red,.in-yellow .face-yellow,.in-white .face-white{opacity:1}
@@ -379,6 +434,6 @@ const css=`
 export default {
  firstScene:()=>houseScene(HOUSES[0].material,HOUSES[0].faces),
  scenes:()=>[...HOUSES.map(h=>houseScene(h.material,h.faces)),overviewScene(),interiorScene()],
- play,pictures,cover,css,
+ play,pictures,cover,css,fun,
  avatars:{wolf:box('-36 -88 56 50',wolfHead),pig:box('-16 -50 32 32',pigFace('red'))}
 };

@@ -43,7 +43,7 @@ const clipUrl=clip=>url(`assets/audio/stories/${story.id}/${clip}.m4a`);
 const voiceOf=speaker=>speaker==='narrator'?NARRATOR:story.voices[speaker];
 
 export function mountStories(element,options){root=element;celebrate=options.celebrate;showMenu();}
-export function stopStory(){token++;audio.pause();finishLine?.(false);cancelWait?.();stopMic();stopRecording();takeAudio.pause();cancelAnimationFrame(frame);}
+export function stopStory(){token++;audio.pause();stopAmbient();finishLine?.(false);cancelWait?.();stopMic();stopRecording();takeAudio.pause();cancelAnimationFrame(frame);}
 
 function showMenu(){
  stopStory();forgetTakes();
@@ -67,7 +67,7 @@ async function keepOffline(id,timing){
  if(!('caches' in window))return;
  try{
   const cache=await caches.open(CACHE);
-  const files=[`src/stories/${id}.js`,`data/stories/${id}.json`,`assets/audio/stories/${id}/clips.json`,...Object.values(timing).map(c=>c.file),'assets/audio/stories/shared/clips.json','assets/audio/stories/shared/yourTurn.m4a'];
+  const files=[`src/stories/${id}.js`,`data/stories/${id}.json`,`assets/audio/stories/${id}/clips.json`,...Object.values(timing).map(c=>c.file),'assets/audio/stories/shared/clips.json',...SOUND_FILES,'assets/audio/stories/shared/yourTurn.m4a'];
   for(const file of files)await cache.add(new Request(url(file),{cache:'no-cache'})).catch(()=>{});
  }catch{}
 }
@@ -76,7 +76,7 @@ const chapterNames=index=>(story.chapters||[]).map((c,i)=>`<span class="story-do
 function renderPlayer(){
  stopStory();forgetTakes();
  root.innerHTML=`<div class="story-player">
- <div class="story-bar"><button class="round-button" id="story-back" aria-label="Back to stories">${icon('left')}</button><div class="story-title"><span class="hanzi" lang="zh-Hans">${escape(story.title)}</span><small>${escape(story.english)}</small><span class="story-dots" aria-hidden="true">${chapterNames(0)}</span><span class="story-speed" role="group" aria-label="Story speed">${SPEEDS.map(v=>`<button data-speed="${v}" class="${v===speed?'active':''}" aria-pressed="${v===speed}">${v}×</button>`).join('')}</span></div><button class="round-button" id="story-restart" aria-label="Start the story again">${icon('again')}</button></div>
+ <div class="story-bar"><button class="round-button" id="story-back" aria-label="Back to stories">${icon('left')}</button><div class="story-title"><span class="hanzi" lang="zh-Hans">${escape(story.title)}</span><small>${escape(story.english)}</small><span class="story-dots" aria-hidden="true">${chapterNames(0)}</span><span class="story-controls"><button class="story-music ${ambientOn?'':'off'}" id="story-music" aria-label="Background sound">♪</button><span class="story-speed" role="group" aria-label="Story speed">${SPEEDS.map(v=>`<button data-speed="${v}" class="${v===speed?'active':''}" aria-pressed="${v===speed}">${v}×</button>`).join('')}</span></span></div><button class="round-button" id="story-restart" aria-label="Start the story again">${icon('again')}</button></div>
  <div class="story-stage">${book.firstScene()}
   <button class="story-mic" id="story-mic" hidden aria-label="Blow into the microphone">${icon('mic')}</button>
   <div class="story-turn" hidden><button class="story-turn-mic" id="turn-mic" aria-label="Say it">${icon('mic')}</button><button class="story-turn-skip" id="turn-skip" aria-label="Skip">${icon('right')}</button></div>
@@ -87,6 +87,8 @@ function renderPlayer(){
  $('#story-restart').onclick=()=>{renderPlayer();begin();};
  $('#story-play').onclick=begin;
  root.querySelectorAll('[data-speed]').forEach(b=>b.onclick=()=>setSpeed(Number(b.dataset.speed)));
+ $('#story-music').onclick=toggleAmbient;
+ $('.story-stage').addEventListener('click',onFun);
  // Hearing a line again never moves the story on.
  $('#story-replay').onclick=()=>{if(current&&!finishLine)say(current,token).catch(()=>{});};
 }
@@ -95,6 +97,40 @@ function setSpeed(value){
  speed=value;try{localStorage.setItem('story-speed',String(value));}catch{}
  root.querySelectorAll('[data-speed]').forEach(b=>{const on=Number(b.dataset.speed)===value;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});
  if(current&&finishLine){const rate=voiceOf(story.lines[current].speaker).rate*speed;audio.defaultPlaybackRate=audio.playbackRate=rate;}
+}
+// ---- Background sound and little effects (local files made by scripts/make-sounds.py) ----
+// A scene can loop a soft background (birds, music, the fire), and taps can play a short effect. The music button
+// under the title turns background sound off and on, remembered on this device.
+const SOUNDS=['birds','music','fire','pop','boing','twinkle','tweet','swish'];
+const SOUND_FILES=SOUNDS.map(n=>`assets/audio/sounds/${n}.m4a`);
+const ambientAudio=typeof Audio==='function'?new Audio():null;if(ambientAudio){ambientAudio.loop=true;ambientAudio.volume=.22;}
+let ambientOn=(()=>{try{return localStorage.getItem('story-music')!=='off';}catch{return true;}})(),ambientName=null;
+function ambient(name){
+ ambientName=name;if(!ambientAudio)return;
+ if(!name||!ambientOn){ambientAudio.pause();return;}
+ const src=url(`assets/audio/sounds/${name}.m4a`);if(ambientAudio.src!==src)ambientAudio.src=src;
+ ambientAudio.volume=name==='music'?.16:.22;ambientAudio.play().catch(()=>{});
+}
+function stopAmbient(){ambientName=null;ambientAudio?.pause();}
+function toggleAmbient(){
+ ambientOn=!ambientOn;try{localStorage.setItem('story-music',ambientOn?'on':'off');}catch{}
+ $('#story-music')?.classList.toggle('off',!ambientOn);
+ if(ambientOn&&ambientName)ambient(ambientName);else ambientAudio?.pause();
+}
+const effectAudio=typeof Audio==='function'?[new Audio(),new Audio(),new Audio()]:[];let effectNext=0;
+function effect(name){const a=effectAudio[effectNext++%effectAudio.length];if(!a)return;a.src=url(`assets/audio/sounds/${name}.m4a`);a.volume=.7;a.play().catch(()=>{});}
+// A character's little sound (a sneeze, an oink), in its own voice. Only when nobody is talking.
+const voiceAudio=typeof Audio==='function'?new Audio():null;
+function voice(key){
+ const sound=story.sounds?.[key];if(!sound||finishLine||!voiceAudio)return;
+ const v=voiceOf(sound.speaker);voiceAudio.src=clipUrl('snd-'+key);voiceAudio.preservesPitch=voiceAudio.webkitPreservesPitch=v.keep;
+ voiceAudio.defaultPlaybackRate=voiceAudio.playbackRate=v.rate;voiceAudio.play().then(()=>{voiceAudio.playbackRate=v.rate;}).catch(()=>{});
+}
+// Tap anything: things in a scene marked data-fun react when tapped (the story's `fun` decides how), whenever
+// the story isn't waiting for that same tap. Just for fun; it never moves the story on.
+function onFun(e){
+ const el=e.target.closest('[data-fun]');if(!el||!book.fun||e.target.closest('.hit.active'))return;
+ book.fun(el.dataset.fun,el,api);
 }
 function begin(){
  $('.story-start')?.remove();
@@ -131,8 +167,9 @@ function say(key,t){
  finishLine?.(false);current=key;showLine(key);
  return new Promise(resolve=>{
   let settled=false;
-  const done=ok=>{if(settled)return;settled=true;finishLine=null;audio.onended=audio.onerror=null;stopKaraoke();resolve(ok);};
+  const done=ok=>{if(settled)return;settled=true;finishLine=null;audio.onended=audio.onerror=null;stopKaraoke();if(stage())delete stage().dataset.talking;resolve(ok);};
   finishLine=done;audio.onended=()=>done(true);audio.onerror=()=>done(false);
+  stage().dataset.talking=line.speaker;
   const rate=voice.rate*speed;
   audio.src=clipUrl(key);audio.preservesPitch=audio.webkitPreservesPitch=voice.keep;audio.defaultPlaybackRate=audio.playbackRate=rate;
   audio.play().then(()=>{audio.playbackRate=rate;karaoke(line,key);}).catch(()=>done(false));
@@ -326,7 +363,7 @@ async function playStory(button){
 
 // Everything a story's script can use.
 const api={
- say:sayWithTurn,wait,tap,waitFor,hint,move,flag,replay,stage,changeScene,count,chime,sounds,
+ say:sayWithTurn,wait,tap,waitFor,hint,move,flag,replay,stage,changeScene,count,chime,sounds,ambient,effect,voice,
  mic:micButton,listening:()=>!!mic,quiet:()=>!finishLine,
  chapter:index=>{const dots=$('.story-dots');if(dots)dots.innerHTML=chapterNames(index);}
 };

@@ -608,5 +608,45 @@
    0.6
   ],
   "speech_fingerprint": "23cba2094056836e8b531be6994fd56629a90ee218655dcb32d54e63cc6e54ff"
+ },
+ "snd-achoo": {
+  "fingerprint": "334a14db6defd06e0f69a4d2dc8c3241beac05f65148932a7a84005afaf0443c",
+  "text": "阿嚏！",
+  "file": "assets/audio/stories/three-pigs/snd-achoo.m4a",
+  "speech": [
+   0.01,
+   0.5
+  ],
+  "speech_fingerprint": "334a14db6defd06e0f69a4d2dc8c3241beac05f65148932a7a84005afaf0443c"
+ },
+ "snd-howl": {
+  "fingerprint": "8a885fb31a1cf41cf68038351847b26711774621394c86631b3471f69da93667",
+  "text": "嗷呜！",
+  "file": "assets/audio/stories/three-pigs/snd-howl.m4a",
+  "speech": [
+   0.02,
+   0.54
+  ],
+  "speech_fingerprint": "8a885fb31a1cf41cf68038351847b26711774621394c86631b3471f69da93667"
+ },
+ "snd-oink": {
+  "fingerprint": "09f1507393f88c6ba0e8a60fc5070d83edef4c5ad439ad274f0cc1b3316f4bbc",
+  "text": "哼哼！",
+  "file": "assets/audio/stories/three-pigs/snd-oink.m4a",
+  "speech": [
+   0.09,
+   0.65
+  ],
+  "speech_fingerprint": "09f1507393f88c6ba0e8a60fc5070d83edef4c5ad439ad274f0cc1b3316f4bbc"
+ },
+ "snd-giggle": {
+  "fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00",
+  "text": "嘻嘻！",
+  "file": "assets/audio/stories/three-pigs/snd-giggle.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00"
  }
 }

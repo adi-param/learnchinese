@@ -124,7 +124,8 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
         if story_path.stem == 'shared':
             record_set('stories/shared', {key: clip['hanzi'] for key, clip in story['clips'].items()})
             continue
-        record_set(f"stories/{story['id']}", {**{key: line['hanzi'] for key, line in story['lines'].items()}, **{'word-' + word['id']: word['hanzi'] for word in story['words']}})
+        record_set(f"stories/{story['id']}", {**{key: line['hanzi'] for key, line in story['lines'].items()}, **{'word-' + word['id']: word['hanzi'] for word in story['words']},
+                                               **{'snd-' + key: sound['hanzi'] for key, sound in story.get('sounds', {}).items()}})
     # The situation games: every word in the catalogue, and every line and sentence each game can say. A template
     # is expanded for every entry of the lists it names (or only the ones it lists), so adding an animal or a food
     # to data/catalog.json records all its sentences.
