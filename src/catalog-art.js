@@ -95,9 +95,8 @@ export function picture(list,item){
  if(list==='animals')return ANIMALS[id]?art(ANIMALS[id]):oldAnimal(id);
  if(list==='foods')return FOODS[id]?art(FOODS[id]):MORE_FOODS[id]?art(MORE_FOODS[id]):id==='cake'?illustrations.cake:oldFood(id);
  if(list==='drinks')return DRINKS[id]?art(DRINKS[id]):illustrations.milk;
- if(list==='places')return PLACES[id]?art(PLACES[id]):illustrations.school;
+ if(list==='places')return PLACES[id]?art(PLACES[id]):MORE_PLACES[id]?art(MORE_PLACES[id]):illustrations.school;
  if(list==='fruits')return FRUITS[id]?art(FRUITS[id]):oldFood(id);
- if(list==='places'&&MORE_PLACES[id])return art(MORE_PLACES[id]);
  if(list==='toys')return art(TOYS[id]);
  if(list==='clothes')return clothesPicture(id,'#ff7a45');
  if(list==='actions')return pandaPicture(id);

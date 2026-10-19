@@ -12,6 +12,10 @@ const lists=Object.entries(catalog).filter(([,v])=>Array.isArray(v));
 test('every catalogue word that shows as a picture has one',()=>{
  for(const [list,items] of lists){if(['body','spots'].includes(list))continue;for(const item of items)assert(picture(list,item)?.includes('<svg'),`${list}: ${item.id} needs a picture`);}
 });
+test('no two words in a list share a picture, so the choices never look the same',()=>{
+ for(const [list,items] of lists){if(['body','spots','actions','numbers'].includes(list))continue;
+  const seen=new Map();for(const item of items){const pic=picture(list,item);assert(!seen.has(pic),`${list}: ${item.id} looks the same as ${seen.get(pic)}`);seen.set(pic,item.id);}}
+});
 test('the main recording list holds no game clips',()=>assert(!Object.keys(json('assets/audio/manifest.json')).some(k=>k.startsWith('game'))));
 for(const {id,title} of GAMES){
  const data=json(`data/games/${id}.json`),clips=json(`assets/audio/games/${id}/clips.json`),source=read(`src/games/${id}.js`);
