@@ -30,14 +30,14 @@
   "speech_fingerprint": "71276c4a824ec9d463dc235a4124c31c6c4972fb44c4aaabb350944b92c305f3"
  },
  "team": {
-  "fingerprint": "3d04b9223ff79166f910db3faff899c3290eeb385afda32838b01793c462021b",
-  "text": "Spider-Man、Ghost-Spider、Spin，还有 Ira！",
+  "fingerprint": "f010a33276c2c83bd1375f225daad0519005f95e5e94a41eb892a89b5fde14cd",
+  "text": "Spider-Man、Ghost-Spider，还有 Spin！",
   "file": "assets/audio/stories/spidey-singapore/team.m4a",
   "speech": [
    0.04,
-   4.87
+   4.11
   ],
-  "speech_fingerprint": "3d04b9223ff79166f910db3faff899c3290eeb385afda32838b01793c462021b"
+  "speech_fingerprint": "f010a33276c2c83bd1375f225daad0519005f95e5e94a41eb892a89b5fde14cd"
  },
  "squad": {
   "fingerprint": "ff4d41db911aa8c2465ce9dcdefb59ac2c8891c230e5e764c9b7e4dab3e2bb62",
@@ -458,5 +458,35 @@
    0.73
   ],
   "speech_fingerprint": "d27913cf737d28ac07e117f4a98ce72cc7545fd768d2a90f4594ed9e232734f1"
+ },
+ "snd-cackle": {
+  "fingerprint": "038cb4443d3f0e66de7eff43fd6c9fd654e5d7393c8881e4e122e13dc25ce8da",
+  "text": "嘿嘿嘿！",
+  "file": "assets/audio/stories/spidey-singapore/snd-cackle.m4a",
+  "speech": [
+   0.07,
+   0.91
+  ],
+  "speech_fingerprint": "038cb4443d3f0e66de7eff43fd6c9fd654e5d7393c8881e4e122e13dc25ce8da"
+ },
+ "snd-roar": {
+  "fingerprint": "b22d862d94b185ae2cf4896d3cd6e36f01793c7ddac556c7e48656748257d69b",
+  "text": "嗷——！",
+  "file": "assets/audio/stories/spidey-singapore/snd-roar.m4a",
+  "speech": [
+   0.02,
+   0.36
+  ],
+  "speech_fingerprint": "b22d862d94b185ae2cf4896d3cd6e36f01793c7ddac556c7e48656748257d69b"
+ },
+ "snd-thwip": {
+  "fingerprint": "a19f145e900b3952fc2ce919434a3e7e1b00a4de6f2d927e68f9f0f509f6f2b7",
+  "text": "嗖！",
+  "file": "assets/audio/stories/spidey-singapore/snd-thwip.m4a",
+  "speech": [
+   0.03,
+   0.39
+  ],
+  "speech_fingerprint": "a19f145e900b3952fc2ce919434a3e7e1b00a4de6f2d927e68f9f0f509f6f2b7"
  }
 }

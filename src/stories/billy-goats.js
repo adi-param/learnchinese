@@ -2,7 +2,7 @@
 // lives under the bridge. She walks each goat across plank by plank; the monster pops up (谁在我的桥上？), the
 // small and middle goats send him to their bigger brother (哥哥更大！), and the big goat headbutts him into the
 // river. On the hill she feeds the goats until they are full.
-import {INK,L,scene,target,actor,box,meadow,star} from '../story-kit.js';
+import {INK,L,scene,target,actor,box,meadow,star,funSun,funCloud,funTree,funFlower,funActors} from '../story-kit.js';
 
 // ---- Pictures ----
 // A goat side on, facing right. Size changes the coat, the horns and how big it is drawn.
@@ -17,20 +17,23 @@ const goatBody=size=>{const {coat,dark,horns}=GOATS[size];return `<path d="M-18 
  <g class="goat-head"><path d="M9 -26Q12 -36 17 -40L24 -34Q19 -28 16 -20Z" fill="${coat}" ${L} stroke-width="1.6"/>
  ${horns}<path d="M13 -40q-8-1-10 3q6 2 11 0z" fill="${dark}" ${L} stroke-width="1.4"/>
  <path d="M15 -42Q23 -44 28 -36Q29 -31 25 -30Q19 -30 15 -34Z" fill="${coat}" ${L}/>
- <circle cx="21" cy="-38" r="1.6" fill="${INK}"/><circle cx="27" cy="-34" r=".9" fill="${INK}"/><path d="M23 -30l1 6 2-5z" fill="${dark}" ${L} stroke-width="1.2"/></g>`;};
+ <g class="blink"><circle cx="21" cy="-38" r="1.6" fill="${INK}"/></g><circle cx="27" cy="-34" r=".9" fill="${INK}"/><path d="M23 -30l1 6 2-5z" fill="${dark}" ${L} stroke-width="1.2"/>
+ <ellipse class="goat-talk" cx="25.5" cy="-31" rx="2" ry="1.6" fill="${INK}"/></g>`;};
 const goat=size=>`<g transform="scale(${GOATS[size].scale})">${goatBody(size)}</g>`;
 // The monster under the bridge: big, green and shaggy, more grumpy than scary.
 const trollHead=`<path d="M-14 -80-10 -92-5 -82ZM14 -80 10 -92 5 -82Z" fill="#e8dcc4" ${L} stroke-width="1.6"/>
  <ellipse cx="-22" cy="-64" rx="5" ry="7" fill="#6fb38a" ${L}/><ellipse cx="22" cy="-64" rx="5" ry="7" fill="#6fb38a" ${L}/>
  <circle cx="0" cy="-62" r="22" fill="#6fb38a" ${L}/>
  <path d="M-14 -73l9 3M14 -73l-9 3" ${L} stroke-width="3"/>
- <circle cx="-8" cy="-66" r="5" fill="#fff" ${L} stroke-width="1.6"/><circle cx="8" cy="-66" r="5" fill="#fff" ${L} stroke-width="1.6"/><circle cx="-7" cy="-65" r="2.2" fill="${INK}"/><circle cx="7" cy="-65" r="2.2" fill="${INK}"/>
+ <g class="blink"><circle cx="-8" cy="-66" r="5" fill="#fff" ${L} stroke-width="1.6"/><circle cx="8" cy="-66" r="5" fill="#fff" ${L} stroke-width="1.6"/><circle cx="-7" cy="-65" r="2.2" fill="${INK}"/><circle cx="7" cy="-65" r="2.2" fill="${INK}"/></g>
  <ellipse cx="0" cy="-57" rx="6" ry="5" fill="#4f8f68" ${L} stroke-width="1.6"/>
- <path d="M-11 -48Q0 -42 11 -48" fill="none" ${L}/><path d="M-8 -47.5l1.5-4 1.5 4zM8 -47.5l-1.5-4-1.5 4z" fill="#fff" ${L} stroke-width="1"/>`;
+ <path class="troll-mouth" d="M-11 -48Q0 -42 11 -48" fill="none" ${L}/><path class="troll-talk" d="M-11 -48Q0 -36 11 -48Z" fill="${INK}"/><path d="M-8 -47.5l1.5-4 1.5 4zM8 -47.5l-1.5-4-1.5 4z" fill="#fff" ${L} stroke-width="1"/>`;
 const troll=`<rect x="-14" y="-18" width="10" height="16" rx="4" fill="#5c9b76" ${L}/><rect x="4" y="-18" width="10" height="16" rx="4" fill="#5c9b76" ${L}/>
  <path d="M-22 -44Q-28 -14 -18 -14H18Q28 -14 22 -44Z" fill="#6fb38a" ${L}/><path d="M-12 -30q4-4 8 0M4 -26q4-4 8 0M-6 -20q4-4 8 0" fill="none" stroke="#4f8f68" stroke-width="1.6"/>
  <path d="M-22 -40-34 -54M22 -40 34 -54" stroke="${INK}" stroke-width="10" stroke-linecap="round"/><path d="M-22 -40-34 -54M22 -40 34 -54" stroke="#6fb38a" stroke-width="6.5" stroke-linecap="round"/>
  ${trollHead}`;
+const fish=`<g class="fish"><path d="M-10 0Q0 -8 10 0Q0 8 -10 0ZM10 0l7-5v10Z" fill="#ff9a3c" ${L} stroke-width="1.4"/><circle cx="-4" cy="-1" r="1.2" fill="${INK}"/></g>`;
+const goatActors=svg=>funActors(svg,{'goat-small':'goatSmall','goat-mid':'goatMid','goat-big':'goatBig',troll:'troll'});
 // The river, the wooden bridge across it and the grassy hill on the far side.
 const deckY=x=>130-18*Math.sin(Math.PI*(x-86)/148);
 const PLANKS=[125,160,195];
@@ -41,26 +44,25 @@ const bridge=`<g class="bridge" data-cue="bridge">
  ${[92,128,160,192,228].map(x=>`<path d="M${x} ${deckY(x)}v-12" ${L} stroke-width="2.6"/>`).join('')}<path d="M92 ${deckY(92)-10}Q160 ${deckY(160)-34} 228 ${deckY(228)-10}" fill="none" ${L} stroke-width="2.4"/></g>`;
 const tuft=(x,y,flower)=>`<path d="M${x-10} ${y}q2-12 4-2q1-14 5-1q2-13 5 0q3-10 5 3z" fill="#4fb33f" ${L} stroke-width="1.4"/>${flower?`<circle cx="${x+6}" cy="${y-10}" r="2.4" fill="${flower}" ${L} stroke-width="1"/>`:''}`;
 function riverScene(){
- return scene('Three goats and a bridge over the river',`<rect width="320" height="200" fill="#cfeaff"/><circle cx="270" cy="34" r="14" fill="#ffd34d"/>
- <g fill="#fff" opacity=".95"><ellipse cx="80" cy="30" rx="18" ry="7"/><ellipse cx="92" cy="25" rx="11" ry="7"/></g>
+ return goatActors(scene('Three goats and a bridge over the river',`<rect width="320" height="200" fill="#cfeaff"/>${funSun(270,34,14)}${funCloud(80,30)}${funCloud(170,22,.8)}
  <path d="M0 110Q80 92 160 104T320 98V200H0Z" fill="#b8e29a"/>
- <rect class="river" data-cue="river" y="128" width="320" height="72" fill="#5bb4ea"/><path d="M110 160q8-4 16 0M150 176q8-4 16 0M190 158q8-4 16 0M130 190q8-4 16 0" fill="none" stroke="#fff" stroke-width="1.6" opacity=".7"/>
+ <rect class="river" data-cue="river" data-fun="river" y="128" width="320" height="72" fill="#5bb4ea"/><g transform="translate(130 176)">${fish}</g><path d="M110 160q8-4 16 0M150 176q8-4 16 0M190 158q8-4 16 0M130 190q8-4 16 0" fill="none" stroke="#fff" stroke-width="1.6" opacity=".7"/>
  <path d="M0 140Q50 136 104 142L98 200H0Z" fill="#7cc867" ${L}/>
  <path d="M216 142Q260 120 320 112V200H222Z" fill="#7cc867" ${L}/>
- <g class="grass" data-cue="grass">${[[244,134,'#ff8cc6'],[268,126,''],[292,120,'#ffd34d'],[304,138,''],[252,154,'#fff'],[282,150,'']].map(([x,y,f])=>tuft(x,y,f)).join('')}</g>
+ <g class="grass" data-cue="grass">${[[244,134,'#ff8cc6'],[268,126,''],[292,120,'#ffd34d'],[304,138,''],[252,154,'#fff'],[282,150,'']].map(([x,y,f])=>tuft(x,y,f)).join('')}</g>${[[30,160],[64,176],[14,186]].map(([x,y])=>funFlower(x,y,'#ff8cc6')).join('')}
  ${bridge}
  ${actor('troll',160,252,troll,'troll')}
  <g class="ripples">${[0,1,2].map(i=>`<ellipse class="ripple" style="--d:${i*.25}s" cx="250" cy="176" rx="${10+i*8}" ry="${3+i*2}" fill="none" stroke="#fff" stroke-width="2"/>`).join('')}</g>
  ${actor('goat-big',20,146,goat('big'),'goats goat-big')}${actor('goat-mid',46,144,goat('mid'),'goats goat-mid')}${actor('goat-small',72,142,goat('small'),'goats goat-small')}
- ${PLANKS.map((x,i)=>target('plank-'+(i+1),x,deckY(x)-4,11,16)).join('')}${target('goat-big',160,78,22,30)}`);
+ ${PLANKS.map((x,i)=>target('plank-'+(i+1),x,deckY(x)-4,11,16)).join('')}${target('goat-big',160,78,22,30)}`));
 }
 // The hill on the far side, where the goats eat.
 const HILL=[['small',76],['mid',156],['big',232]];
 function hillScene(){
- return scene('The goats on the grassy hill',`${meadow}
+ return goatActors(scene('The goats on the grassy hill',`${meadow}${funSun(44,38)}${funCloud(110,30)}${funCloud(236,42,.9)}${funTree(286,106,22)}${funTree(22,108,16)}
  ${HILL.map(([size,x])=>actor('goat-'+size,x,176,goat(size),'goats goat-'+size)).join('')}
  <g class="grass" data-cue="grass">${HILL.map(([size,x],i)=>`<g class="tuft tuft-${i+1}">${tuft(x+30*GOATS[size].scale+10,186,['#ff8cc6','#ffd34d','#fff'][i])}</g>`).join('')}</g>
- ${HILL.map(([size,x],i)=>target('tuft-'+(i+1),x+30*GOATS[size].scale+10,178,13,18)).join('')}`);
+ ${HILL.map(([size,x],i)=>target('tuft-'+(i+1),x+30*GOATS[size].scale+10,178,13,18)).join('')}`));
 }
 const arrow=(x,tip)=>`<path d="M${x} ${tip-15}v6" stroke="#ff7a45" stroke-width="4" stroke-linecap="round"/><path d="M${x-6} ${tip-9}h12l-6 8z" fill="#ff7a45" stroke="#ff7a45" stroke-width="2" stroke-linejoin="round"/>`;
 const pictures={
@@ -143,11 +145,30 @@ async function onTheHill(t){
 }
 async function play(storyApi,t){
  api=storyApi;
+ api.ambient('birds');
  await atTheRiver(t);
+ api.ambient('music');
  await onTheHill(t);
+}
+const BAA={goatSmall:'baaSmall',goatMid:'baaMid',goatBig:'baaBig'};
+function fun(name,el,storyApi){
+ const a=storyApi;
+ if(BAA[name]){a.replay(el.querySelector('.cuebox'),'happy-hop');a.voice(BAA[name]);return true;}
+ if(name==='troll'){a.replay(el.querySelector('.cuebox'),'sneeze');a.voice('grumble');return true;}
+ if(name==='river'){a.replay(a.stage().querySelector('.fish'),'jump');a.sounds.whoosh(.4);return true;}
 }
 
 const css=`
+.story-svg .blink{transform-box:fill-box;transform-origin:center;animation:goats-blink 4.4s infinite}
+.story-svg .actor-goat-mid .blink{animation-delay:1.4s}.story-svg .actor-goat-big .blink{animation-delay:2.7s}.story-svg .actor-troll .blink{animation-delay:.6s;animation-duration:5.2s}
+@keyframes goats-blink{0%,94%,100%{transform:none}97%{transform:scaleY(.1)}}
+.story-svg .goat-talk,.story-svg .troll-talk{opacity:0}
+[data-talking="goatSmall"] .actor-goat-small .goat-talk,[data-talking="goatMid"] .actor-goat-mid .goat-talk,[data-talking="goatBig"] .actor-goat-big .goat-talk,[data-talking="troll"] .troll-talk{animation:goats-talk .22s steps(2) infinite}
+[data-talking="troll"] .troll-mouth{opacity:0}
+@keyframes goats-talk{0%{opacity:1}100%{opacity:0}}
+.story-svg .fish{opacity:0}
+.story-svg .fish.jump{animation:goats-fish 1.2s ease-out}
+@keyframes goats-fish{0%{opacity:1;transform:translate(0,10px) rotate(30deg)}50%{opacity:1;transform:translate(24px,-34px) rotate(-10deg)}100%{opacity:0;transform:translate(48px,10px) rotate(-60deg)}}
 .story-svg .actor-troll{transition:transform .7s ease-out}
 .peek .actor-troll .bob{animation:goats-peek 2s ease-in-out infinite}
 @keyframes goats-peek{50%{transform:translateY(-3px)}}
@@ -174,7 +195,7 @@ const css=`
 export default {
  firstScene:()=>riverScene(),
  scenes:()=>[riverScene(),hillScene()],
- play,pictures,cover,css,
+ play,pictures,cover,css,fun,
  avatars:{
   goatSmall:box('10 -50 24 24',goatBody('small')),goatMid:box('10 -50 24 24',goatBody('mid')),goatBig:box('2 -54 32 32',goatBody('big')),
   troll:box('-28 -94 56 52',trollHead)

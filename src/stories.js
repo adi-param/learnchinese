@@ -129,8 +129,16 @@ function voice(key){
 // Tap anything: things in a scene marked data-fun react when tapped (the story's `fun` decides how), whenever
 // the story isn't waiting for that same tap. Just for fun; it never moves the story on.
 function onFun(e){
- const el=e.target.closest('[data-fun]');if(!el||!book.fun||e.target.closest('.hit.active'))return;
- book.fun(el.dataset.fun,el,api);
+ const el=e.target.closest('[data-fun]');if(!el||e.target.closest('.hit.active'))return;
+ if(book.fun?.(el.dataset.fun,el,api)!==true)commonFun(el.dataset.fun,el);
+}
+// What the shared fun things do (see story-kit: funSun, funCloud, funTree, funFlower).
+function commonFun(name,el){
+ if(name==='sun'){replay(el,'wink');effect('twinkle');}
+ else if(name==='cloud'){replay(el,'drift');effect('swish');}
+ else if(name==='tree'){replay(el.nextElementSibling?.querySelector('.bird'),'fly');effect('tweet');}
+ else if(name==='flower'){replay(el,'boing');effect('boing');}
+ else{replay(el.querySelector('.cuebox')||el,'happy-hop');effect('pop');}
 }
 function begin(){
  $('.story-start')?.remove();

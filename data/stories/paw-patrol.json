@@ -557,5 +557,31 @@
       "pinyin": "yǒnggǎn",
       "english": "brave"
     }
-  ]
+  ],
+  "sounds": {
+    "barkChase": {
+      "speaker": "chase",
+      "hanzi": "汪！"
+    },
+    "barkRubble": {
+      "speaker": "rubble",
+      "hanzi": "汪汪！"
+    },
+    "barkSkye": {
+      "speaker": "skye",
+      "hanzi": "汪呜！"
+    },
+    "cluck": {
+      "speaker": "chicken",
+      "hanzi": "咯咯！"
+    },
+    "hiRyder": {
+      "speaker": "ryder",
+      "hanzi": "你好！"
+    },
+    "hiMayor": {
+      "speaker": "mayor",
+      "hanzi": "你好呀！"
+    }
+  }
 }

@@ -36,3 +36,12 @@ export const dots=n=>[[-14,-20],[14,-20],[-14,4],[14,4],[0,-8]].slice(0,n).map((
 // the one a page shows.
 const firstOfEach=tag=>{const seen=new Set();return tag.replace(/\s([\w:-]+)="[^"]*"/g,(attribute,name)=>seen.has(name)?'':(seen.add(name),attribute));};
 export const standalone=svg=>svg.replace('<svg class="art"','<svg xmlns="http://www.w3.org/2000/svg"').replace(/<[a-zA-Z][^>]*>/g,firstOfEach);
+
+// Things any scene can scatter about for her to tap for fun (the engine makes them react; they never move the
+// story on): a smiling sun that winks, clouds that drift, a tree a bird flies out of, flowers that boing.
+export const funSun=(x,y,r=15)=>`<g data-fun="sun" class="fun-sun"><g class="rays" stroke="#ffc233" stroke-width="3" stroke-linecap="round">${Array.from({length:8},(_,i)=>{const a=i*Math.PI/4;return `<path d="M${x+Math.cos(a)*(r+4)} ${y+Math.sin(a)*(r+4)}L${x+Math.cos(a)*(r+10)} ${y+Math.sin(a)*(r+10)}"/>`;}).join('')}</g><circle cx="${x}" cy="${y}" r="${r}" fill="#ffd34d"/><circle cx="${x-5}" cy="${y-3}" r="1.6" fill="${INK}"/><path class="sun-eye" d="M${x+3} ${y-3}h4" stroke="${INK}" stroke-width="1.6" stroke-linecap="round"/><circle class="sun-open" cx="${x+5}" cy="${y-3}" r="1.6" fill="${INK}"/><path d="M${x-6} ${y+3}q6 5 12 0" fill="none" stroke="${INK}" stroke-width="1.6" stroke-linecap="round"/></g>`;
+export const funCloud=(x,y,s=1)=>`<g data-fun="cloud" class="fun-cloud"><ellipse cx="${x}" cy="${y}" rx="${18*s}" ry="${7*s}" fill="#fff"/><ellipse cx="${x+11*s}" cy="${y-5*s}" rx="${11*s}" ry="${7*s}" fill="#fff"/></g>`;
+export const funTree=(x,y,r=20)=>`<circle data-fun="tree" cx="${x}" cy="${y}" r="${r}" fill="transparent"/><g transform="translate(${x-10} ${y-4})"><g class="bird"><path d="M0 0q5-6 10 0q5-6 10 0" fill="none" stroke="${INK}" stroke-width="2" stroke-linecap="round"/></g></g>`;
+export const funFlower=(x,y,c='#fff')=>`<g data-fun="flower" class="fun-flower"><circle cx="${x}" cy="${y}" r="7" fill="transparent"/><circle cx="${x}" cy="${y}" r="3.4" fill="${c}"/><circle cx="${x}" cy="${y}" r="1.4" fill="#ffc233"/></g>`;
+// Marks the actors in a scene as tappable for fun: `names` maps an actor's name to its fun name.
+export const funActors=(svg,names)=>Object.entries(names).reduce((out,[actor,fun])=>out.replace(new RegExp(`class="actor actor-${actor}"`,'g'),`data-fun="${fun}" class="actor actor-${actor}"`),svg);

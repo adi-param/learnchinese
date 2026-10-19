@@ -483,5 +483,23 @@
       "pinyin": "bǎo",
       "english": "full (after eating)"
     }
-  ]
+  ],
+  "sounds": {
+    "baaSmall": {
+      "speaker": "goatSmall",
+      "hanzi": "咩咩！"
+    },
+    "baaMid": {
+      "speaker": "goatMid",
+      "hanzi": "咩咩！"
+    },
+    "baaBig": {
+      "speaker": "goatBig",
+      "hanzi": "咩——！"
+    },
+    "grumble": {
+      "speaker": "troll",
+      "hanzi": "哼！"
+    }
+  }
 }

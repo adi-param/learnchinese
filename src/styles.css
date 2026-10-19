@@ -973,3 +973,28 @@ a{color:inherit}
 .story-music{display:grid;place-items:center;width:36px;height:36px;margin-top:6px;border:0;border-radius:50%;background:var(--sky);color:#fff;font-size:18px;box-shadow:var(--shadow-sm)}
 .story-music.off{background:var(--surface);color:var(--faint);text-decoration:line-through}
 .story-svg [data-fun]{cursor:pointer}
+/* Tap-anything fun shared by every story (story-kit: funSun, funCloud, funTree, funFlower). */
+.story-svg .fun-sun{transform-box:fill-box;transform-origin:center}
+.story-svg .sun-eye{opacity:0}
+.story-svg .fun-sun.wink .rays{animation:story-spin 1s ease-in-out}
+.story-svg .fun-sun.wink .sun-eye{animation:fun-wink 1s}
+.story-svg .fun-sun.wink .sun-open{animation:fun-unwink 1s}
+@keyframes fun-wink{0%,100%{opacity:0}10%,80%{opacity:1}}
+@keyframes fun-unwink{0%,100%{opacity:1}10%,80%{opacity:0}}
+.story-svg .fun-sun .rays{transform-box:fill-box;transform-origin:center}
+.story-svg .fun-cloud.drift{animation:fun-drift 2.4s ease-in-out}
+@keyframes fun-drift{50%{transform:translateX(26px)}}
+.story-svg .bird{opacity:0}
+.story-svg .bird.fly{animation:fun-fly-bird 2.2s ease-out}
+@keyframes fun-fly-bird{0%{opacity:1;transform:none}100%{opacity:0;transform:translate(-140px,-90px) scale(1.4)}}
+.story-svg .fun-flower{transform-box:fill-box;transform-origin:50% 100%}
+.story-svg .fun-flower.boing{animation:story-pop .6s var(--spring)}
+.story-svg .cuebox.happy-hop,.story-svg .pig-window.happy-hop{animation:story-hop .25s ease-in-out 4 alternate}
+.story-svg .cuebox.sneeze{transform-box:fill-box;transform-origin:50% 100%;animation:fun-sneeze .6s ease-in-out}
+@keyframes fun-sneeze{30%{transform:rotate(-6deg) translateY(-3px)}60%{transform:rotate(5deg) scaleY(.94)}}
+.story-stage .story-svg{transform-origin:75% 50%}
+.story-svg .fun-sun.wink .sun-eye{animation:fun-wink 1s}
+.story-svg .fun-sun.wink .sun-open{animation:fun-unwink 1s}
+.story-svg .fun-cloud.drift{animation:fun-drift 2.4s ease-in-out}
+.story-svg .bird.fly{animation:fun-fly-bird 2.2s ease-out}
+.story-svg .cuebox.sneeze{transform-box:fill-box;transform-origin:50% 100%;animation:fun-sneeze .6s ease-in-out}

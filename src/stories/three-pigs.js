@@ -1,7 +1,7 @@
 // 三只小猪 The three little pigs. First each pig builds a house (straw, wood, brick) and goes inside; then the wolf
 // comes to each house in turn. Straw and wood fall when he blows; the brick house stands, so he comes down the
 // chimney into a pot of boiling water and runs away for good.
-import {INK,L,scene,target,actor,bubble,countPop,box,star,meadow,blob,dots} from '../story-kit.js';
+import {INK,L,scene,target,actor,bubble,countPop,box,star,meadow,blob,dots,funSun,funCloud,funTree,funFlower,funActors} from '../story-kit.js';
 
 // ---- Pictures ----
 const STRAW='#f4c95d',STRAW_DARK='#cf9a2e',DOOR='#c98b4a',WOLF='#9599ad',WOLF_LIGHT='#d9dbe5';
@@ -82,16 +82,12 @@ const bubbles=bubble('bubble-wolf',216,10,228,236,62,`<path d="M227 32V16a7 7 0 
  +bubble('bubble-pig',72,52,108,120,104,`${miniDoor(80,58)}<path d="M98 62 112 80M112 62 98 80" stroke="#f0507a" stroke-width="3.6" stroke-linecap="round"/>`);
 
 // Things to tap for fun in the meadow (they never move the story on).
-const sun=`<g data-fun="sun" class="fun-sun"><g class="rays" stroke="#ffc233" stroke-width="3" stroke-linecap="round">${Array.from({length:8},(_,i)=>{const a=i*Math.PI/4;return `<path d="M${44+Math.cos(a)*19} ${38+Math.sin(a)*19}L${44+Math.cos(a)*25} ${38+Math.sin(a)*25}"/>`;}).join('')}</g><circle cx="44" cy="38" r="15" fill="#ffd34d"/><circle cx="39" cy="35" r="1.6" fill="${INK}"/><path class="sun-eye" d="M47 35h4" stroke="${INK}" stroke-width="1.6" stroke-linecap="round"/><circle class="sun-open" cx="49" cy="35" r="1.6" fill="${INK}"/><path d="M38 41q6 5 12 0" fill="none" stroke="${INK}" stroke-width="1.6" stroke-linecap="round"/></g>`;
-const clouds=`<g data-fun="cloud" class="fun-cloud"><ellipse cx="110" cy="30" rx="18" ry="7" fill="#fff"/><ellipse cx="121" cy="25" rx="11" ry="7" fill="#fff"/></g><g data-fun="cloud" class="fun-cloud"><ellipse cx="236" cy="42" rx="16" ry="6" fill="#fff"/><ellipse cx="246" cy="38" rx="9" ry="6" fill="#fff"/></g>`;
-const bird=`<g class="bird"><path d="M0 0q5-6 10 0q5-6 10 0" fill="none" stroke="${INK}" stroke-width="2" stroke-linecap="round"/></g>`;
-const meadowFun=`${sun}${clouds}<circle data-fun="tree" cx="286" cy="106" r="22" fill="transparent"/><circle data-fun="tree" cx="22" cy="108" r="16" fill="transparent"/><g transform="translate(276 102)">${bird}</g>
- ${[[40,182],[96,190],[210,186],[270,192],[150,196]].map(([x,y])=>`<g data-fun="flower" class="fun-flower"><circle cx="${x}" cy="${y}" r="6" fill="transparent"/><circle cx="${x}" cy="${y}" r="3.4" fill="#fff"/><circle cx="${x}" cy="${y}" r="1.4" fill="#ffc233"/></g>`).join('')}`;
-const funActors=svg=>svg.replace(/class="actor actor-(pig-\w+)"/g,'data-fun="pig" class="actor actor-$1"').replace(/class="actor actor-wolf"/,'data-fun="wolf" class="actor actor-wolf"');
+const meadowFun=`${funSun(44,38)}${funCloud(110,30)}${funCloud(236,42,.9)}${funTree(286,106,22)}${funTree(22,108,16)}${[[40,182],[96,190],[210,186],[270,192],[150,196]].map(([x,y])=>funFlower(x,y)).join('')}`;
+const pigActors=svg=>funActors(svg,{'pig-red':'pig','pig-yellow':'pig','pig-white':'pig',wolf:'wolf'});
 // One scene per house: the house being built (from `material`), with `faces` for whoever will end up in the window.
 function houseScene(material,faces){
  const m=MATERIALS[material];
- return funActors(scene(`The three little pigs and a ${material} house`,`${meadow}${meadowFun}
+ return pigActors(scene(`The three little pigs and a ${material} house`,`${meadow}${meadowFun}
  <g class="ghost" data-cue="ghost">${ghost}</g>
  <g class="house" data-cue="house">${house(material,faces)}</g>
  <g class="ruins" data-cue="ruins">${m.heap}</g>
@@ -112,7 +108,7 @@ const boilBubbles=[[150,123],[158,125],[166,122],[172,125],[154,126]].map(([x,y]
 const drops=[[-26,-30],[-14,-40],[0,-46],[14,-40],[26,-30],[-34,-14],[34,-14]].map(([dx,dy])=>`<circle class="drop" style="--dx:${dx}px;--dy:${dy}px" cx="160" cy="122" r="3" fill="#8fd0ff" stroke="${INK}" stroke-width="1"/>`).join('');
 const logs=`<g transform="translate(160 172)"><g transform="rotate(-12)">${log}</g><g transform="rotate(12) scale(-1 1)">${log}</g></g>`;
 function interiorScene(){
- return funActors(scene('Inside the brick house: a pot on the fire',`
+ return pigActors(scene('Inside the brick house: a pot on the fire',`
  <rect width="320" height="172" fill="#fde3cf"/><g fill="#f8cfb4">${Array.from({length:40},(_,i)=>`<circle cx="${12+(i%10)*33}" cy="${14+Math.floor(i/10)*40+(i%2)*18}" r="2.5"/>`).join('')}</g>
  <rect x="22" y="36" width="54" height="44" rx="4" fill="#bfe3ff" ${L}/><path d="M49 36v44M22 58h54" ${L}/><circle cx="36" cy="48" r="5" fill="#ffd34d"/>
  <rect y="170" width="320" height="30" fill="#d9a066"/><path d="M0 170H320M0 184H320M70 170v14M190 170v14M130 184v16M260 184v16" stroke="#a8703f" stroke-width="1.6"/>
@@ -313,14 +309,10 @@ async function wolfAtBrick(t){
 }
 let oinks=0,sneezes=0;
 function fun(name,el,storyApi){
- const a=storyApi,pop=(target,cls)=>a.replay(target,cls);
- if(name==='sun'){pop(el,'wink');a.effect('twinkle');}
- else if(name==='cloud'){pop(el,'drift');a.effect('swish');}
- else if(name==='tree'){pop(a.stage().querySelector('.bird'),'fly');a.effect('tweet');}
- else if(name==='flower'){pop(el,'boing');a.effect('boing');}
- else if(name==='pig'||name==='window'){pop(el.querySelector('.cuebox')||el,'happy-hop');a.voice(oinks++%2?'giggle':'oink');}
- else if(name==='wolf'){pop(el.querySelector('.cuebox'),'sneeze');a.voice(sneezes++%3===2?'howl':'achoo');}
- else if(name==='pot'){pop(el,'bubble');a.effect('pop');}
+ const a=storyApi;
+ if(name==='pig'||name==='window'){a.replay(el.querySelector('.cuebox')||el,'happy-hop');a.voice(oinks++%2?'giggle':'oink');return true;}
+ if(name==='wolf'){a.replay(el.querySelector('.cuebox'),'sneeze');a.voice(sneezes++%3===2?'howl':'achoo');return true;}
+ if(name==='pot'){a.replay(el,'bubble');a.effect('pop');return true;}
 }
 const BUILD=[buildStraw,buildWood,buildBrick],WOLF_AT=[wolfAtStraw,wolfAtWood,wolfAtBrick];
 // First every pig builds a house; then the wolf comes to each house in turn.
@@ -347,26 +339,7 @@ const css=`
 .scared .pig-brows,[data-talking="wolf"] .pig-brows,.say-no .pig-brows{opacity:1}
 .story-svg .wolf-brow{transform-box:fill-box;transform-origin:100% 50%;transition:transform .3s}
 .blowing .wolf-brow,.zoom-wolf .wolf-brow{transform:rotate(18deg)}
-.story-stage .story-svg{transform-origin:75% 50%}
 .zoom-wolf .story-svg{transform:scale(1.6);transition:transform .9s ease-in-out}
-.story-svg .fun-sun{transform-box:fill-box;transform-origin:center}
-.story-svg .sun-eye{opacity:0}
-.story-svg .fun-sun.wink .rays{animation:story-spin 1s ease-in-out}
-.story-svg .fun-sun.wink .sun-eye{animation:pigs-wink 1s}
-.story-svg .fun-sun.wink .sun-open{animation:pigs-unwink 1s}
-@keyframes pigs-wink{0%,100%{opacity:0}10%,80%{opacity:1}}
-@keyframes pigs-unwink{0%,100%{opacity:1}10%,80%{opacity:0}}
-.story-svg .fun-sun .rays{transform-box:fill-box;transform-origin:center}
-.story-svg .fun-cloud.drift{animation:pigs-drift 2.4s ease-in-out}
-@keyframes pigs-drift{50%{transform:translateX(26px)}}
-.story-svg .bird{opacity:0}
-.story-svg .bird.fly{animation:pigs-fly-bird 2.2s ease-out}
-@keyframes pigs-fly-bird{0%{opacity:1;transform:none}100%{opacity:0;transform:translate(-140px,-90px) scale(1.4)}}
-.story-svg .fun-flower{transform-box:fill-box;transform-origin:50% 100%}
-.story-svg .fun-flower.boing{animation:story-pop .6s var(--spring)}
-.story-svg .cuebox.happy-hop,.story-svg .pig-window.happy-hop{animation:story-hop .25s ease-in-out 4 alternate}
-.story-svg .cuebox.sneeze{transform-box:fill-box;transform-origin:50% 100%;animation:pigs-sneeze .6s ease-in-out}
-@keyframes pigs-sneeze{30%{transform:rotate(-6deg) translateY(-3px)}60%{transform:rotate(5deg) scaleY(.94)}}
 .story-svg .pot.bubble{transform-box:fill-box;transform-origin:50% 100%;animation:story-pop .5s var(--spring)}
 .story-svg .house,.story-svg .ruins,.story-svg .door,.story-svg .pile,.story-svg .ghost,.story-svg .pig-window,.story-svg .bit{transform-box:fill-box;transform-origin:50% 100%}
 .story-svg .wolf-cheek{transform-box:fill-box;transform-origin:center;transition:transform .12s}

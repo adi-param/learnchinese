@@ -478,5 +478,65 @@
    0.62
   ],
   "speech_fingerprint": "7e20793d8305e66b0f4ed48f13dfcd4eb9f18c453bc7eebb35b1290596900d4b"
+ },
+ "snd-barkChase": {
+  "fingerprint": "c5afa08c07433a4ebd102730c6564f98fca38d12ba5998d2e4c623adf9d75b17",
+  "text": "汪！",
+  "file": "assets/audio/stories/paw-patrol/snd-barkChase.m4a",
+  "speech": [
+   0.01,
+   0.31
+  ],
+  "speech_fingerprint": "c5afa08c07433a4ebd102730c6564f98fca38d12ba5998d2e4c623adf9d75b17"
+ },
+ "snd-barkRubble": {
+  "fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715",
+  "text": "汪汪！",
+  "file": "assets/audio/stories/paw-patrol/snd-barkRubble.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715"
+ },
+ "snd-barkSkye": {
+  "fingerprint": "96f3e2e3707fc7ba60dc28fe055fb425aae8ce7853bc38810971de95c296c6dc",
+  "text": "汪呜！",
+  "file": "assets/audio/stories/paw-patrol/snd-barkSkye.m4a",
+  "speech": [
+   0.01,
+   0.6
+  ],
+  "speech_fingerprint": "96f3e2e3707fc7ba60dc28fe055fb425aae8ce7853bc38810971de95c296c6dc"
+ },
+ "snd-cluck": {
+  "fingerprint": "fff7d6deabd5fc45c335dc57b79fd882ef33c22591331ce362e879660a9a2701",
+  "text": "咯咯！",
+  "file": "assets/audio/stories/paw-patrol/snd-cluck.m4a",
+  "speech": [
+   0.01,
+   0.54
+  ],
+  "speech_fingerprint": "fff7d6deabd5fc45c335dc57b79fd882ef33c22591331ce362e879660a9a2701"
+ },
+ "snd-hiRyder": {
+  "fingerprint": "e02a09868c4a962ce81897eaecda6d1a3aea401e7c6fa39a9cfd84432691357b",
+  "text": "你好！",
+  "file": "assets/audio/stories/paw-patrol/snd-hiRyder.m4a",
+  "speech": [
+   0.01,
+   0.61
+  ],
+  "speech_fingerprint": "e02a09868c4a962ce81897eaecda6d1a3aea401e7c6fa39a9cfd84432691357b"
+ },
+ "snd-hiMayor": {
+  "fingerprint": "5ac5e74344b523f469209ca908a268f63f9984a60250f38da7bb4e9d126b2e1d",
+  "text": "你好呀！",
+  "file": "assets/audio/stories/paw-patrol/snd-hiMayor.m4a",
+  "speech": [
+   0.01,
+   0.81
+  ],
+  "speech_fingerprint": "5ac5e74344b523f469209ca908a268f63f9984a60250f38da7bb4e9d126b2e1d"
  }
 }

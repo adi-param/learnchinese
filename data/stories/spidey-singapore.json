@@ -8,15 +8,20 @@
       "keep": true,
       "tint": "#ffe1e1"
     },
-    "ira": {
-      "rate": 1.15,
-      "keep": false,
-      "tint": "#f3e8ff"
-    },
     "goblin": {
       "rate": 0.7,
       "keep": false,
       "tint": "#e3f5d8"
+    },
+    "spidey": {
+      "rate": 0.95,
+      "keep": false,
+      "tint": "#ffe1e1"
+    },
+    "dino": {
+      "rate": 0.6,
+      "keep": false,
+      "tint": "#dfe8e3"
     }
   },
   "lines": {
@@ -58,9 +63,9 @@
     },
     "team": {
       "speaker": "narrator",
-      "hanzi": "Spider-Man、Ghost-Spider、Spin，还有 Ira！",
-      "pinyin": "Spider-Man, Ghost-Spider, Spin, hái yǒu Ira!",
-      "english": "Spider-Man, Ghost-Spider, Spin, and Ira!",
+      "hanzi": "Spider-Man、Ghost-Spider，还有 Spin！",
+      "pinyin": "Spider-Man, Ghost-Spider, hái yǒu Spin!",
+      "english": "Spider-Man, Ghost-Spider and Spin!",
       "cues": [
         [
           "Spider-Man",
@@ -73,10 +78,6 @@
         [
           "Spin",
           "spin"
-        ],
-        [
-          "Ira",
-          "ira"
         ]
       ]
     },
@@ -202,14 +203,14 @@
       ]
     },
     "swing": {
-      "speaker": "ira",
+      "speaker": "spidey",
       "hanzi": "荡过去！",
       "pinyin": "Dàng guòqù!",
       "english": "Swing across!",
       "cues": [
         [
           "荡",
-          "ira"
+          "spiderman"
         ]
       ]
     },
@@ -238,14 +239,14 @@
       ]
     },
     "web": {
-      "speaker": "ira",
+      "speaker": "spidey",
       "hanzi": "射网！",
       "pinyin": "Shè wǎng!",
       "english": "Shoot a web!",
       "cues": [
         [
           "网",
-          "ira"
+          "spiderman"
         ]
       ],
       "yourTurn": true
@@ -334,7 +335,7 @@
       ]
     },
     "caught": {
-      "speaker": "ira",
+      "speaker": "spidey",
       "hanzi": "抓住你了！",
       "pinyin": "Zhuā zhù nǐ le!",
       "english": "Got you!",
@@ -510,5 +511,19 @@
       "pinyin": "ānquán",
       "english": "safe"
     }
-  ]
+  ],
+  "sounds": {
+    "cackle": {
+      "speaker": "goblin",
+      "hanzi": "嘿嘿嘿！"
+    },
+    "roar": {
+      "speaker": "dino",
+      "hanzi": "嗷——！"
+    },
+    "thwip": {
+      "speaker": "spidey",
+      "hanzi": "嗖！"
+    }
+  }
 }

@@ -408,5 +408,45 @@
    0.29
   ],
   "speech_fingerprint": "243ab6a6ad207d41193edfd5cbc0952b4a2ba0fbcfac2074046998d2aa80b2f2"
+ },
+ "snd-baaSmall": {
+  "fingerprint": "2bb1b0e105f0f42710994ddb95d90b24c41b1f49d188caf2d9aa0bf4563e2332",
+  "text": "咩咩！",
+  "file": "assets/audio/stories/billy-goats/snd-baaSmall.m4a",
+  "speech": [
+   0.01,
+   0.59
+  ],
+  "speech_fingerprint": "2bb1b0e105f0f42710994ddb95d90b24c41b1f49d188caf2d9aa0bf4563e2332"
+ },
+ "snd-baaMid": {
+  "fingerprint": "2bb1b0e105f0f42710994ddb95d90b24c41b1f49d188caf2d9aa0bf4563e2332",
+  "text": "咩咩！",
+  "file": "assets/audio/stories/billy-goats/snd-baaMid.m4a",
+  "speech": [
+   0.01,
+   0.59
+  ],
+  "speech_fingerprint": "2bb1b0e105f0f42710994ddb95d90b24c41b1f49d188caf2d9aa0bf4563e2332"
+ },
+ "snd-baaBig": {
+  "fingerprint": "c9b97edf4a302e25e1f02fc213465dae1bad7552ef84a41fb953fcddff418d59",
+  "text": "咩——！",
+  "file": "assets/audio/stories/billy-goats/snd-baaBig.m4a",
+  "speech": [
+   0.01,
+   0.4
+  ],
+  "speech_fingerprint": "c9b97edf4a302e25e1f02fc213465dae1bad7552ef84a41fb953fcddff418d59"
+ },
+ "snd-grumble": {
+  "fingerprint": "6d4e8f5532d69b7efde36ff6bfa14b05173c0121983c01cc1ce7a39b97957b11",
+  "text": "哼！",
+  "file": "assets/audio/stories/billy-goats/snd-grumble.m4a",
+  "speech": [
+   0.09,
+   0.38
+  ],
+  "speech_fingerprint": "6d4e8f5532d69b7efde36ff6bfa14b05173c0121983c01cc1ce7a39b97957b11"
  }
 }
