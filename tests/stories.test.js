@@ -11,7 +11,9 @@ test('the main recording list holds no story clips, so installing the app never 
  assert(!/src\/stories\/(?!index)/.test(read('sw.js').match(/const SHELL=\[[^\]]*\]/s)[0]),'no single story is in the install list');
 });
 
-for(const {id,title} of STORIES){
+// STORY=<id> npm test checks one story that is not in the list yet, while it is being built.
+const BOOKS=process.env.STORY?[{id:process.env.STORY,title:JSON.parse(read(`data/stories/${process.env.STORY}.json`)).title}]:STORIES;
+for(const {id,title} of BOOKS){
  const story=JSON.parse(read(`data/stories/${id}.json`));
  const book=(await import(`../src/stories/${id}.js`)).default;
  const source=read(`src/stories/${id}.js`);

@@ -29,8 +29,8 @@ async function play(api,t){
  for(const [i,part] of parts.entries()){
   api.dots(parts.length,i);
   const key='wash-'+part.id;
-  await api.askIn(t,{say:key,selector:'.part',isRight:el=>el.dataset.part===part.id,hint:()=>api.stage().querySelectorAll(`.part[data-part="${part.id}"]`).forEach(e=>e.classList.add('hint'))});
-  const stage=api.stage();
+  await api.askIn(t,{say:key,selector:'.part',isRight:el=>el.dataset.part===part.id,hint:()=>api.stage().querySelectorAll(`.part[data-part="${part.id}"]`).forEach(e=>e.classList.add('glow'))});
+  const stage=api.stage();stage.querySelectorAll('.glow').forEach(e=>e.classList.remove('glow'));
   api.replay(stage.querySelector('.foam-'+part.id),'scrub');api.chime('ding');
   stage.querySelector('.mud-'+part.id).classList.add('clean');
   if(i%3===1){api.replay(stage.querySelector('.piglet'),'giggle');await api.say('tickle',t);}
@@ -42,14 +42,15 @@ async function play(api,t){
 }
 const cover=()=>box('0 0 320 200',`${room}${pig}${mud}${tub}`);
 const css=`
-.story-svg .foam{opacity:0}
+.story-svg .foam{opacity:0;pointer-events:none}
+.story-svg .mud,.story-svg .piglet{pointer-events:none}
 .story-svg .foam.scrub{animation:bath-foam 1.4s ease-out}
 @keyframes bath-foam{0%{opacity:0;transform:scale(.4)}25%{opacity:1;transform:scale(1.1)}70%{opacity:1}100%{opacity:0;transform:translateY(-10px)}}
 .story-svg .foam{transform-box:fill-box;transform-origin:center}
 .story-svg .mud{transition:opacity .6s}
 .story-svg .mud.clean{opacity:0}
 .story-svg .part{cursor:pointer}
-.story-svg .part.hint{fill:#ffc23355;stroke:#ff7a45;stroke-width:2}
+.story-svg .part.glow{fill:#ffc23355;stroke:#ff7a45;stroke-width:2}
 .story-svg .piglet{transform-box:fill-box;transform-origin:50% 100%}
 .story-svg .piglet.giggle{animation:story-no .2s ease-in-out 4}
 `;

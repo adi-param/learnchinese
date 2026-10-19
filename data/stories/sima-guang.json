@@ -1,0 +1,424 @@
+{
+  "id": "sima-guang",
+  "title": "司马光砸缸",
+  "english": "Sima Guang saves his friend",
+  "voices": {
+    "friend": {
+      "rate": 1.12,
+      "keep": false,
+      "tint": "#e1f0ff"
+    },
+    "kids": {
+      "rate": 1.05,
+      "keep": false,
+      "tint": "#fff2cc"
+    },
+    "sima": {
+      "rate": 0.98,
+      "keep": false,
+      "tint": "#ffe1e1"
+    }
+  },
+  "lines": {
+    "play": {
+      "speaker": "narrator",
+      "hanzi": "司马光和朋友一起玩。",
+      "pinyin": "Sīmǎ Guāng hé péngyou yìqǐ wán.",
+      "english": "Sima Guang and his friends are playing together.",
+      "cues": [
+        [
+          "司马光",
+          "sima"
+        ],
+        [
+          "朋友",
+          "kids"
+        ]
+      ]
+    },
+    "run": {
+      "speaker": "kids",
+      "hanzi": "你跑，我跑。",
+      "pinyin": "Nǐ pǎo, wǒ pǎo.",
+      "english": "You run, I run.",
+      "cues": [
+        [
+          "跑",
+          "kids"
+        ]
+      ]
+    },
+    "tapKids": {
+      "speaker": "narrator",
+      "hanzi": "点一点小朋友！",
+      "pinyin": "Diǎn yi diǎn xiǎopéngyou!",
+      "english": "Tap the children!",
+      "cues": [
+        [
+          "小朋友",
+          "kids"
+        ]
+      ]
+    },
+    "together": {
+      "speaker": "kids",
+      "hanzi": "大家一起玩！",
+      "pinyin": "Dàjiā yìqǐ wán!",
+      "english": "Let’s all play together!",
+      "cues": [
+        [
+          "大家",
+          "kids"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "jar": {
+      "speaker": "narrator",
+      "hanzi": "这里有一个大水缸。",
+      "pinyin": "Zhèlǐ yǒu yí gè dà shuǐgāng.",
+      "english": "There is a big water jar here.",
+      "cues": [
+        [
+          "大水缸",
+          "jar"
+        ]
+      ]
+    },
+    "big": {
+      "speaker": "narrator",
+      "hanzi": "水缸大大的。",
+      "pinyin": "Shuǐgāng dàdà de.",
+      "english": "The jar is very big.",
+      "cues": [
+        [
+          "水缸",
+          "jar"
+        ]
+      ]
+    },
+    "water": {
+      "speaker": "narrator",
+      "hanzi": "水缸里有水。",
+      "pinyin": "Shuǐgāng lǐ yǒu shuǐ.",
+      "english": "There is water in the jar.",
+      "cues": [
+        [
+          "水",
+          "water"
+        ]
+      ]
+    },
+    "fell": {
+      "speaker": "narrator",
+      "hanzi": "一个朋友掉进水缸里！",
+      "pinyin": "Yí gè péngyou diào jìn shuǐgāng lǐ!",
+      "english": "A friend falls into the water jar!",
+      "cues": [
+        [
+          "朋友",
+          "friend"
+        ],
+        [
+          "水缸",
+          "jar"
+        ]
+      ]
+    },
+    "splash": {
+      "speaker": "narrator",
+      "hanzi": "扑通！",
+      "pinyin": "Pūtōng!",
+      "english": "Splash!",
+      "cues": [
+        [
+          "扑通",
+          "water"
+        ]
+      ]
+    },
+    "help": {
+      "speaker": "friend",
+      "hanzi": "救命！救命！",
+      "pinyin": "Jiùmìng! Jiùmìng!",
+      "english": "Help! Help!",
+      "cues": [
+        [
+          "救命",
+          "friend"
+        ]
+      ]
+    },
+    "scared": {
+      "speaker": "narrator",
+      "hanzi": "朋友们很害怕。",
+      "pinyin": "Péngyou men hěn hàipà.",
+      "english": "The friends are very scared.",
+      "cues": [
+        [
+          "朋友们",
+          "kids"
+        ]
+      ]
+    },
+    "what": {
+      "speaker": "kids",
+      "hanzi": "怎么办？怎么办？",
+      "pinyin": "Zěnme bàn? Zěnme bàn?",
+      "english": "What do we do? What do we do?",
+      "cues": [
+        [
+          "怎么办",
+          "kids"
+        ]
+      ]
+    },
+    "quick": {
+      "speaker": "kids",
+      "hanzi": "快来！快来！",
+      "pinyin": "Kuài lái! Kuài lái!",
+      "english": "Come quickly! Come quickly!",
+      "cues": [
+        [
+          "快来",
+          "kids"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "think": {
+      "speaker": "narrator",
+      "hanzi": "司马光想一想。",
+      "pinyin": "Sīmǎ Guāng xiǎng yi xiǎng.",
+      "english": "Sima Guang thinks.",
+      "cues": [
+        [
+          "司马光",
+          "sima"
+        ]
+      ]
+    },
+    "look": {
+      "speaker": "narrator",
+      "hanzi": "看！大石头！",
+      "pinyin": "Kàn! Dà shítou!",
+      "english": "Look! A big stone!",
+      "cues": [
+        [
+          "大石头",
+          "stone"
+        ]
+      ]
+    },
+    "tapStone": {
+      "speaker": "narrator",
+      "hanzi": "点一点大石头！",
+      "pinyin": "Diǎn yi diǎn dà shítou!",
+      "english": "Tap the big stone!",
+      "cues": [
+        [
+          "大石头",
+          "stone"
+        ]
+      ]
+    },
+    "idea": {
+      "speaker": "narrator",
+      "hanzi": "司马光有办法了！",
+      "pinyin": "Sīmǎ Guāng yǒu bànfǎ le!",
+      "english": "Sima Guang has an idea!",
+      "cues": [
+        [
+          "司马光",
+          "sima"
+        ]
+      ]
+    },
+    "lift": {
+      "speaker": "narrator",
+      "hanzi": "司马光拿起大石头。",
+      "pinyin": "Sīmǎ Guāng ná qǐ dà shítou.",
+      "english": "Sima Guang picks up the big stone.",
+      "cues": [
+        [
+          "大石头",
+          "stone"
+        ]
+      ]
+    },
+    "tapJar": {
+      "speaker": "narrator",
+      "hanzi": "砸！砸！砸！",
+      "pinyin": "Zá! Zá! Zá!",
+      "english": "Smash! Smash! Smash!",
+      "cues": [
+        [
+          "砸",
+          "jar"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "za": {
+      "speaker": "sima",
+      "hanzi": "砸！",
+      "pinyin": "Zá!",
+      "english": "Smash!",
+      "cues": [
+        [
+          "砸",
+          "jar"
+        ]
+      ]
+    },
+    "bang": {
+      "speaker": "narrator",
+      "hanzi": "砰！水缸破了！",
+      "pinyin": "Pēng! Shuǐgāng pò le!",
+      "english": "Bang! The jar breaks!",
+      "cues": [
+        [
+          "水缸",
+          "jar"
+        ]
+      ]
+    },
+    "flow": {
+      "speaker": "narrator",
+      "hanzi": "水流出来了！",
+      "pinyin": "Shuǐ liú chūlái le!",
+      "english": "The water flows out!",
+      "cues": [
+        [
+          "水",
+          "water"
+        ]
+      ]
+    },
+    "out": {
+      "speaker": "narrator",
+      "hanzi": "朋友出来了！",
+      "pinyin": "Péngyou chūlái le!",
+      "english": "The friend comes out!",
+      "cues": [
+        [
+          "朋友",
+          "friend"
+        ]
+      ]
+    },
+    "great": {
+      "speaker": "kids",
+      "hanzi": "太好了！太好了！",
+      "pinyin": "Tài hǎo le! Tài hǎo le!",
+      "english": "Hooray! Hooray!",
+      "cues": [
+        [
+          "太好了",
+          "kids"
+        ]
+      ]
+    },
+    "thanks": {
+      "speaker": "friend",
+      "hanzi": "谢谢你，司马光！",
+      "pinyin": "Xièxie nǐ, Sīmǎ Guāng!",
+      "english": "Thank you, Sima Guang!",
+      "cues": [
+        [
+          "司马光",
+          "sima"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "smile": {
+      "speaker": "narrator",
+      "hanzi": "司马光笑了。",
+      "pinyin": "Sīmǎ Guāng xiào le.",
+      "english": "Sima Guang smiles.",
+      "cues": [
+        [
+          "司马光",
+          "sima"
+        ]
+      ]
+    },
+    "happy": {
+      "speaker": "narrator",
+      "hanzi": "大家都很开心！",
+      "pinyin": "Dàjiā dōu hěn kāixīn!",
+      "english": "Everyone is very happy!",
+      "cues": [
+        [
+          "大家",
+          "kids"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "play",
+      "hanzi": "玩",
+      "pinyin": "wán",
+      "english": "to play"
+    },
+    {
+      "id": "big",
+      "hanzi": "大",
+      "pinyin": "dà",
+      "english": "big"
+    },
+    {
+      "id": "water",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "english": "water"
+    },
+    {
+      "id": "friend",
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "english": "friend"
+    },
+    {
+      "id": "stone",
+      "hanzi": "石头",
+      "pinyin": "shítou",
+      "english": "stone"
+    },
+    {
+      "id": "scared",
+      "hanzi": "怕",
+      "pinyin": "pà",
+      "english": "scared"
+    },
+    {
+      "id": "help",
+      "hanzi": "救命",
+      "pinyin": "jiùmìng",
+      "english": "help!"
+    },
+    {
+      "id": "happy",
+      "hanzi": "开心",
+      "pinyin": "kāixīn",
+      "english": "happy"
+    }
+  ],
+  "sounds": {
+    "hi": {
+      "speaker": "sima",
+      "hanzi": "嘿！"
+    },
+    "laugh": {
+      "speaker": "kids",
+      "hanzi": "哈哈！"
+    },
+    "giggle": {
+      "speaker": "friend",
+      "hanzi": "嘻嘻！"
+    }
+  }
+}

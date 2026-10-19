@@ -36,3 +36,8 @@ for(const {id,title} of GAMES){
   assert.equal(read(`assets/games/${id}-cover.svg`),standalone(game.cover())+'\n','run node scripts/story-covers.mjs');
  });
 }
+// The story pictures' own .hint ring is invisible and ignores taps, so a game must not mark the right answer
+// in the picture with "hint" (it would vanish and stop working just when she needs it); games use "glow".
+test('games never mark a picture with the story hint class',()=>{
+ for(const {id} of GAMES)assert(!/classList\.add\('hint'\)/.test(read(`src/games/${id}.js`)),id);
+});

@@ -79,7 +79,7 @@ function renderPlayer(){
  <div class="story-bar"><button class="round-button" id="story-back" aria-label="Back to stories">${icon('left')}</button><div class="story-title"><span class="hanzi" lang="zh-Hans">${escape(story.title)}</span><small>${escape(story.english)}</small><span class="story-dots" aria-hidden="true">${chapterNames(0)}</span><span class="story-controls"><button class="story-music ${ambientOn?'':'off'}" id="story-music" aria-label="Background sound">♪</button><span class="story-speed" role="group" aria-label="Story speed">${SPEEDS.map(v=>`<button data-speed="${v}" class="${v===speed?'active':''}" aria-pressed="${v===speed}">${v}×</button>`).join('')}</span></span></div><button class="round-button" id="story-restart" aria-label="Start the story again">${icon('again')}</button></div>
  <div class="story-stage">${book.firstScene()}
   <button class="story-mic" id="story-mic" hidden aria-label="Blow into the microphone">${icon('mic')}</button>
-  <div class="story-turn" hidden><button class="story-turn-mic" id="turn-mic" aria-label="Say it">${icon('mic')}</button><button class="story-turn-skip" id="turn-skip" aria-label="Skip">${icon('right')}</button></div>
+  <div class="story-turn" hidden><button class="story-turn-mic" id="turn-mic" aria-label="Say it">${icon('mic')}</button><div class="story-turn-compare" hidden><button class="sayit-hear" id="turn-mine">${icon('speaker')}<span>Me</span></button><button class="sayit-hear" id="turn-right">${icon('speaker')}<span lang="zh-Hans" class="turn-right-text"></span></button></div><button class="story-turn-skip" id="turn-skip" aria-label="Next">${icon('right')}</button></div>
   <div class="story-start"><button class="story-play" id="story-play" aria-label="Start">${icon('play')}</button></div></div>
  <div class="story-line" hidden><span class="story-avatar" aria-hidden="true"></span><div class="story-words"><p class="hanzi" lang="zh-Hans"></p><p class="pinyin" lang="zh-Latn"></p><p class="meaning"></p></div><button class="round-button story-replay" id="story-replay" aria-label="Hear it again">${icon('speaker')}</button></div>
  <div class="story-end" hidden></div></div>`;
@@ -306,9 +306,10 @@ function micButton(onPuff){
 
 // ---- Say it with the panda ----
 // On a refrain (a line marked yourTurn), the story stops and the panda says 你来说！ She taps the mic and says
-// the line; recording stops by itself when she goes quiet, and her own voice plays straight back, exactly as she
-// said it. Each refrain asks at most twice a story. Recordings stay in this page's
-// memory only: nothing is saved or sent anywhere, and they are gone when the story starts again.
+// the line; recording stops by itself when she goes quiet. Then her own voice plays, exactly as she said it, and
+// the story's line after it, and both stay side by side (Me / the line) to tap and compare as often as she likes;
+// the mic records again, and ▶ carries the story on. Each refrain asks at most twice a story. Recordings stay in
+// this page's memory only: nothing is saved or sent anywhere, and they are gone when the story starts again.
 const TURNS_PER_LINE=2;
 const takeAudio=typeof Audio==='function'?new Audio():{pause(){}};
 let shared=null,takes=[],turns=new Map();
@@ -323,28 +324,37 @@ function sayShared(key,t){
  return new Promise(resolve=>{audio.onended=audio.onerror=()=>resolve();audio.src=url(clip.file);audio.preservesPitch=audio.webkitPreservesPitch=true;audio.defaultPlaybackRate=audio.playbackRate=NARRATOR.rate*speed;audio.play().catch(()=>resolve());}).then(()=>alive(t));
 }
 async function yourTurn(key,t){
-
- const line=story.lines[key],box=$('.story-line'),panel=$('.story-turn'),mic=$('#turn-mic');
- showLine(key);box.classList.add('your-turn');panel.hidden=false;mic.classList.remove('recording');
+ const line=story.lines[key],box=$('.story-line'),panel=$('.story-turn'),mic=$('#turn-mic'),compare=$('.story-turn-compare'),mine=$('#turn-mine'),right=$('#turn-right');
+ showLine(key);box.classList.add('your-turn');panel.hidden=false;compare.hidden=true;mic.classList.remove('recording');
+ $('.turn-right-text').textContent=line.hanzi;
  await sayShared('yourTurn',t);
  let take=null;
+ const hearMine=async()=>{if(!take)return;audio.pause();mine.classList.add('playing');await playTake(take);mine.classList.remove('playing');};
+ const hearRight=async()=>{takeAudio.pause();right.classList.add('playing');await say(key,t).catch(()=>{});right.classList.remove('playing');};
  await waitFor(t,done=>{
   let busy=false;
-  const nudge=setInterval(()=>{if(!busy&&!finishLine&&t===token)sayShared('yourTurn',t).catch(()=>{});},9000);
+  const nudge=setInterval(()=>{if(!busy&&!take&&!finishLine&&t===token)sayShared('yourTurn',t).catch(()=>{});},9000);
   mic.onclick=async()=>{
    if(busy){stopRecording();return;}
-   busy=true;audio.pause();mic.classList.add('recording');
+   busy=true;audio.pause();takeAudio.pause();mic.classList.add('recording');
    let blob=null;try{blob=await record(level=>mic.style.setProperty('--level',level.toFixed(2)));}catch{}
    mic.classList.remove('recording');mic.style.setProperty('--level',0);busy=false;
    if(t!==token)return;
-   if(blob){take={key,speaker:line.speaker,url:URL.createObjectURL(blob),scene:snapshot()};done();}
-   else if(!canRecord())done();
+   if(!blob){if(!canRecord())done();return;}
+   if(take)URL.revokeObjectURL(take.url);
+   take={key,speaker:line.speaker,url:URL.createObjectURL(blob),scene:snapshot()};
+   compare.hidden=false;mic.blur();chime('yay');
+   await hearMine();if(t!==token)return;
+   await new Promise(r=>setTimeout(r,250));if(t!==token)return;
+   await hearRight();
   };
+  mine.onclick=()=>{hearMine();};
+  right.onclick=()=>{hearRight();};
   $('#turn-skip').onclick=done;
-  return ()=>{clearInterval(nudge);mic.onclick=null;$('#turn-skip').onclick=null;stopRecording();};
+  return ()=>{clearInterval(nudge);mic.onclick=mine.onclick=right.onclick=null;$('#turn-skip').onclick=null;stopRecording();takeAudio.pause();};
  });
- panel.hidden=true;box.classList.remove('your-turn');
- if(take){takes.push(take);mic.blur();await playTake(take);alive(t);chime('yay');await wait(400,t);}
+ panel.hidden=true;compare.hidden=true;box.classList.remove('your-turn');
+ if(take)takes.push(take);
 }
 // The picture as it is now, for replaying her story at the end.
 function snapshot(){const s=stage();return `<div class="${s.className.replace(/\bscene-(in|out)\b/g,'')} story-snapshot">${s.querySelector('.story-svg').outerHTML}</div>`;}

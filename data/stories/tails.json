@@ -1,0 +1,323 @@
+{
+  "id": "tails",
+  "title": "谁的尾巴？",
+  "english": "Whose tail is it?",
+  "voices": {
+    "monkey": {
+      "rate": 1.15,
+      "keep": false,
+      "tint": "#f3e2cf"
+    },
+    "rabbit": {
+      "rate": 1.18,
+      "keep": false,
+      "tint": "#ffe9ef"
+    },
+    "squirrel": {
+      "rate": 1.25,
+      "keep": false,
+      "tint": "#ffe7d6"
+    },
+    "rooster": {
+      "rate": 1.0,
+      "keep": false,
+      "tint": "#ffe1e1"
+    },
+    "duck": {
+      "rate": 1.1,
+      "keep": false,
+      "tint": "#fff6c8"
+    },
+    "peacock": {
+      "rate": 0.95,
+      "keep": false,
+      "tint": "#dff3ff"
+    }
+  },
+  "lines": {
+    "intro": {
+      "speaker": "narrator",
+      "hanzi": "动物们来比尾巴。",
+      "pinyin": "Dòngwù men lái bǐ wěiba.",
+      "english": "The animals are comparing tails.",
+      "cues": [
+        [
+          "尾巴",
+          "tails"
+        ]
+      ]
+    },
+    "qLong": {
+      "speaker": "narrator",
+      "hanzi": "谁的尾巴长？",
+      "pinyin": "Shéi de wěiba cháng?",
+      "english": "Whose tail is long?",
+      "cues": [
+        [
+          "长",
+          "tails"
+        ]
+      ]
+    },
+    "qShort": {
+      "speaker": "narrator",
+      "hanzi": "谁的尾巴短？",
+      "pinyin": "Shéi de wěiba duǎn?",
+      "english": "Whose tail is short?",
+      "cues": [
+        [
+          "短",
+          "tails"
+        ]
+      ]
+    },
+    "qUmbrella": {
+      "speaker": "narrator",
+      "hanzi": "谁的尾巴好像一把伞？",
+      "pinyin": "Shéi de wěiba hǎoxiàng yì bǎ sǎn?",
+      "english": "Whose tail is like an umbrella?",
+      "cues": [
+        [
+          "伞",
+          "tails"
+        ]
+      ]
+    },
+    "qCurved": {
+      "speaker": "narrator",
+      "hanzi": "谁的尾巴弯？",
+      "pinyin": "Shéi de wěiba wān?",
+      "english": "Whose tail is curved?",
+      "cues": [
+        [
+          "弯",
+          "tails"
+        ]
+      ]
+    },
+    "qFlat": {
+      "speaker": "narrator",
+      "hanzi": "谁的尾巴扁？",
+      "pinyin": "Shéi de wěiba biǎn?",
+      "english": "Whose tail is flat?",
+      "cues": [
+        [
+          "扁",
+          "tails"
+        ]
+      ]
+    },
+    "qPretty": {
+      "speaker": "narrator",
+      "hanzi": "谁的尾巴最好看？",
+      "pinyin": "Shéi de wěiba zuì hǎokàn?",
+      "english": "Whose tail is the prettiest?",
+      "cues": [
+        [
+          "好看",
+          "tails"
+        ]
+      ]
+    },
+    "tapAnimal": {
+      "speaker": "narrator",
+      "hanzi": "点一点！",
+      "pinyin": "Diǎn yi diǎn!",
+      "english": "Tap it!",
+      "cues": [
+        [
+          "点",
+          "tails"
+        ]
+      ]
+    },
+    "aLong": {
+      "speaker": "narrator",
+      "hanzi": "猴子的尾巴长。",
+      "pinyin": "Hóuzi de wěiba cháng.",
+      "english": "The monkey’s tail is long.",
+      "cues": [
+        [
+          "猴子",
+          "monkey"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "aShort": {
+      "speaker": "narrator",
+      "hanzi": "兔子的尾巴短。",
+      "pinyin": "Tùzi de wěiba duǎn.",
+      "english": "The rabbit’s tail is short.",
+      "cues": [
+        [
+          "兔子",
+          "rabbit"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "aUmbrella": {
+      "speaker": "narrator",
+      "hanzi": "松鼠的尾巴好像一把伞。",
+      "pinyin": "Sōngshǔ de wěiba hǎoxiàng yì bǎ sǎn.",
+      "english": "The squirrel’s tail is like an umbrella.",
+      "cues": [
+        [
+          "松鼠",
+          "squirrel"
+        ]
+      ]
+    },
+    "aCurved": {
+      "speaker": "narrator",
+      "hanzi": "公鸡的尾巴弯。",
+      "pinyin": "Gōngjī de wěiba wān.",
+      "english": "The rooster’s tail is curved.",
+      "cues": [
+        [
+          "公鸡",
+          "rooster"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "aFlat": {
+      "speaker": "narrator",
+      "hanzi": "鸭子的尾巴扁。",
+      "pinyin": "Yāzi de wěiba biǎn.",
+      "english": "The duck’s tail is flat.",
+      "cues": [
+        [
+          "鸭子",
+          "duck"
+        ]
+      ]
+    },
+    "aPretty": {
+      "speaker": "narrator",
+      "hanzi": "孔雀的尾巴最好看。",
+      "pinyin": "Kǒngquè de wěiba zuì hǎokàn.",
+      "english": "The peacock’s tail is the prettiest.",
+      "cues": [
+        [
+          "孔雀",
+          "peacock"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "end": {
+      "speaker": "narrator",
+      "hanzi": "每个尾巴都很棒！",
+      "pinyin": "Měi gè wěiba dōu hěn bàng!",
+      "english": "Every tail is great!",
+      "cues": [
+        [
+          "尾巴",
+          "tails"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "tail",
+      "hanzi": "尾巴",
+      "pinyin": "wěiba",
+      "english": "tail"
+    },
+    {
+      "id": "long",
+      "hanzi": "长",
+      "pinyin": "cháng",
+      "english": "long"
+    },
+    {
+      "id": "short",
+      "hanzi": "短",
+      "pinyin": "duǎn",
+      "english": "short"
+    },
+    {
+      "id": "umbrella",
+      "hanzi": "伞",
+      "pinyin": "sǎn",
+      "english": "umbrella"
+    },
+    {
+      "id": "curved",
+      "hanzi": "弯",
+      "pinyin": "wān",
+      "english": "curved"
+    },
+    {
+      "id": "flat",
+      "hanzi": "扁",
+      "pinyin": "biǎn",
+      "english": "flat"
+    },
+    {
+      "id": "monkey",
+      "hanzi": "猴子",
+      "pinyin": "hóuzi",
+      "english": "monkey"
+    },
+    {
+      "id": "rabbit",
+      "hanzi": "兔子",
+      "pinyin": "tùzi",
+      "english": "rabbit"
+    },
+    {
+      "id": "squirrel",
+      "hanzi": "松鼠",
+      "pinyin": "sōngshǔ",
+      "english": "squirrel"
+    },
+    {
+      "id": "rooster",
+      "hanzi": "公鸡",
+      "pinyin": "gōngjī",
+      "english": "rooster"
+    },
+    {
+      "id": "duck",
+      "hanzi": "鸭子",
+      "pinyin": "yāzi",
+      "english": "duck"
+    },
+    {
+      "id": "peacock",
+      "hanzi": "孔雀",
+      "pinyin": "kǒngquè",
+      "english": "peacock"
+    }
+  ],
+  "sounds": {
+    "ooh": {
+      "speaker": "monkey",
+      "hanzi": "吱吱！"
+    },
+    "hop": {
+      "speaker": "rabbit",
+      "hanzi": "蹦蹦！"
+    },
+    "nut": {
+      "speaker": "squirrel",
+      "hanzi": "咔咔！"
+    },
+    "crow": {
+      "speaker": "rooster",
+      "hanzi": "喔喔喔！"
+    },
+    "quack": {
+      "speaker": "duck",
+      "hanzi": "嘎嘎！"
+    },
+    "wow": {
+      "speaker": "peacock",
+      "hanzi": "哇！"
+    }
+  }
+}

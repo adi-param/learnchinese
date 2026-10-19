@@ -130,11 +130,28 @@ const panel=html=>{const p=$('.game-panel');p.hidden=!html;p.innerHTML=html||'';
 // ---- Tapping the answer ----
 // Listens for taps on `selector` (inside `within`) from the moment it is asked, even while the sentence is still
 // being said. A wrong tap shakes and says 再试试, then the sentence again; after two misses the right one glows.
+// Small fingers miss, so a tap is matched by position rather than by whatever is drawn on top. Of the tap areas
+// the finger is on, the one whose middle is closest wins (the eyes, not the nose next to them); a tap just
+// beside them counts for the closest one within reach. Round areas count only inside their circle.
+const live=el=>!el.classList.contains('gone')&&getComputedStyle(el).pointerEvents!=='none';
+function nearest(within,selector,x,y,reach=30){
+ let best=null,bestGap=Infinity,bestCentre=Infinity;
+ for(const el of within.querySelectorAll(selector)){
+  if(!live(el))continue;
+  const r=el.getBoundingClientRect();if(!r.width)continue;
+  const cx=r.left+r.width/2,cy=r.top+r.height/2,centre=Math.hypot(cx-x,cy-y);
+  const gap=el.tagName==='circle'?Math.max(0,centre-r.width/2):Math.hypot(Math.max(r.left-x,0,x-r.right),Math.max(r.top-y,0,y-r.bottom));
+  if(gap>reach)continue;
+  if(gap<bestGap-.5||(Math.abs(gap-bestGap)<=.5&&centre<bestCentre)){best=el;bestGap=gap;bestCentre=centre;}
+ }
+ return best;
+}
 function listen(t,{within,selector,isRight,prompt,hint}){
  return waitFor(t,done=>{
   let misses=0;
   const on=e=>{
-   const el=e.target.closest(selector);if(!el||el.classList.contains('gone'))return;
+   const el=nearest(within,selector,e.clientX,e.clientY)||e.target.closest(selector);
+   if(!el||!within.contains(el)||!live(el))return;
    if(isRight(el)){chime('ding');done(el);return;}
    misses++;replay(el,'nope');chime('oops');
    const asked=current;praise('again').then(()=>{if(prompt&&!finishLine&&current===asked&&t===token)say(prompt,t).catch(()=>{});});
@@ -171,11 +188,13 @@ function fly(t,fromEl,svg,toEl,[fx,fy]=[.5,.5]){
    .finished.then(()=>{thing.remove();resolve();}).catch(()=>{thing.remove();resolve();});
  }).then(()=>alive(t));
 }
-// After a round: a small 🎤 to say the sentence and hear hers, then the right one. If she doesn't tap it, the
+// After a round: the sentence and a small 🎤 to say it, then hear hers and the right one. If she doesn't tap it, the
 // game moves on by itself after a few seconds; if she does, she taps ▶ when she is ready.
 function sayIt(t,key){
  if(!canRecord())return wait(1200,t);
- panel(`<div class="sayit"><button class="sayit-mic" id="sayit-mic" aria-label="Say it">${icon('mic')}</button><div class="sayit-compare" hidden><button class="sayit-hear" id="hear-mine">${icon('speaker')}<span>Me</span></button><button class="sayit-hear" id="hear-right">${icon('speaker')}<span lang="zh-Hans">${escape(clips[key].text)}</span></button></div><button class="sayit-next" id="sayit-next" aria-label="Next">${icon('right')}</button><span class="sayit-timer"></span></div>`);
+ panel(`<div class="sayit"><button class="sayit-mic" id="sayit-mic" aria-label="Say it">${icon('mic')}</button><div class="sayit-compare"><button class="sayit-hear" id="hear-mine" hidden>${icon('speaker')}<span>Me</span></button><button class="sayit-hear" id="hear-right">${icon('speaker')}<span lang="zh-Hans">${escape(clips[key].text)}</span></button></div><button class="sayit-next" id="sayit-next" aria-label="Next">${icon('right')}</button><span class="sayit-timer"></span></div>`);
+ // The sentence to say shows from the start, in the line above and on its ▶ button, not only after recording.
+ showLine(key);
  let take=null;
  return waitFor(t,done=>{
   const mic=$('#sayit-mic');let busy=false,auto=setTimeout(()=>done(),4500);
@@ -188,7 +207,7 @@ function sayIt(t,key){
    mic.classList.remove('recording');mic.style.setProperty('--level',0);busy=false;
    if(t!==token||!blob)return;
    if(take)URL.revokeObjectURL(take);take=URL.createObjectURL(blob);
-   $('.sayit-compare').hidden=false;
+   if(!$('#hear-mine'))return;$('#hear-mine').hidden=false;
    $('#hear-mine').classList.add('playing');await playUrl(mine,take);$('#hear-mine')?.classList.remove('playing');
    if(t!==token)return;await new Promise(r=>setTimeout(r,250));
    $('#hear-right')?.classList.add('playing');await say(key,t).catch(()=>{});$('#hear-right')?.classList.remove('playing');

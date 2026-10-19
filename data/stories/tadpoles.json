@@ -1,0 +1,427 @@
+{
+  "id": "tadpoles",
+  "title": "小蝌蚪找妈妈",
+  "english": "Little tadpoles look for their mother",
+  "voices": {
+    "tadpoles": {
+      "rate": 1.3,
+      "keep": false,
+      "tint": "#e1f0ff"
+    },
+    "duck": {
+      "rate": 1.05,
+      "keep": false,
+      "tint": "#fff6c8"
+    },
+    "fish": {
+      "rate": 1.12,
+      "keep": false,
+      "tint": "#ffe7d6"
+    },
+    "turtle": {
+      "rate": 0.78,
+      "keep": false,
+      "tint": "#dcf5ec"
+    },
+    "frog": {
+      "rate": 0.92,
+      "keep": false,
+      "tint": "#e3f6d8"
+    }
+  },
+  "lines": {
+    "spring": {
+      "speaker": "narrator",
+      "hanzi": "春天来了，池塘里有一群小蝌蚪。",
+      "pinyin": "Chūntiān lái le, chítáng lǐ yǒu yì qún xiǎo kēdǒu.",
+      "english": "Spring has come; there are little tadpoles in the pond.",
+      "cues": [
+        [
+          "小蝌蚪",
+          "tadpoles"
+        ],
+        [
+          "池塘",
+          "pond"
+        ]
+      ]
+    },
+    "look": {
+      "speaker": "narrator",
+      "hanzi": "大大的脑袋，黑黑的身子，长长的尾巴。",
+      "pinyin": "Dàdà de nǎodai, hēihēi de shēnzi, chángcháng de wěiba.",
+      "english": "Big heads, black bodies and long tails.",
+      "cues": [
+        [
+          "尾巴",
+          "tadpoles"
+        ]
+      ]
+    },
+    "where": {
+      "speaker": "tadpoles",
+      "hanzi": "我们的妈妈在哪里？",
+      "pinyin": "Wǒmen de māma zài nǎlǐ?",
+      "english": "Where is our mummy?",
+      "cues": [
+        [
+          "妈妈",
+          "tadpoles"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "tapSwim": {
+      "speaker": "narrator",
+      "hanzi": "游呀游！",
+      "pinyin": "Yóu ya yóu!",
+      "english": "Swim, swim!",
+      "cues": [
+        [
+          "游",
+          "tadpoles"
+        ]
+      ]
+    },
+    "seeDuck": {
+      "speaker": "narrator",
+      "hanzi": "小蝌蚪看见了鸭妈妈。",
+      "pinyin": "Xiǎo kēdǒu kànjiàn le yā māma.",
+      "english": "The tadpoles see a mother duck.",
+      "cues": [
+        [
+          "鸭妈妈",
+          "duck"
+        ]
+      ]
+    },
+    "seeFish": {
+      "speaker": "narrator",
+      "hanzi": "小蝌蚪看见了大鱼。",
+      "pinyin": "Xiǎo kēdǒu kànjiàn le dà yú.",
+      "english": "The tadpoles see a big fish.",
+      "cues": [
+        [
+          "大鱼",
+          "fish"
+        ]
+      ]
+    },
+    "seeTurtle": {
+      "speaker": "narrator",
+      "hanzi": "小蝌蚪看见了乌龟。",
+      "pinyin": "Xiǎo kēdǒu kànjiàn le wūguī.",
+      "english": "The tadpoles see a turtle.",
+      "cues": [
+        [
+          "乌龟",
+          "turtle"
+        ]
+      ]
+    },
+    "ask": {
+      "speaker": "tadpoles",
+      "hanzi": "你是我们的妈妈吗？",
+      "pinyin": "Nǐ shì wǒmen de māma ma?",
+      "english": "Are you our mummy?",
+      "cues": [
+        [
+          "妈妈",
+          "tadpoles"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "duckNo": {
+      "speaker": "duck",
+      "hanzi": "不是。你们的妈妈有两只大眼睛。",
+      "pinyin": "Bú shì. Nǐmen de māma yǒu liǎng zhī dà yǎnjing.",
+      "english": "No. Your mummy has two big eyes.",
+      "cues": [
+        [
+          "大眼睛",
+          "clue-eyes"
+        ]
+      ]
+    },
+    "fishNo": {
+      "speaker": "fish",
+      "hanzi": "不是。你们的妈妈有白白的肚子。",
+      "pinyin": "Bú shì. Nǐmen de māma yǒu báibái de dùzi.",
+      "english": "No. Your mummy has a white tummy.",
+      "cues": [
+        [
+          "肚子",
+          "clue-tummy"
+        ]
+      ]
+    },
+    "turtleNo": {
+      "speaker": "turtle",
+      "hanzi": "不是。你们的妈妈有四条腿。",
+      "pinyin": "Bú shì. Nǐmen de māma yǒu sì tiáo tuǐ.",
+      "english": "No. Your mummy has four legs.",
+      "cues": [
+        [
+          "四条腿",
+          "clue-legs"
+        ]
+      ]
+    },
+    "thanks": {
+      "speaker": "tadpoles",
+      "hanzi": "谢谢！",
+      "pinyin": "Xièxie!",
+      "english": "Thank you!",
+      "cues": [
+        [
+          "谢谢",
+          "tadpoles"
+        ]
+      ]
+    },
+    "frog": {
+      "speaker": "narrator",
+      "hanzi": "荷叶上坐着一只大青蛙。",
+      "pinyin": "Héyè shàng zuò zhe yì zhī dà qīngwā.",
+      "english": "A big frog is sitting on a lily pad.",
+      "cues": [
+        [
+          "大青蛙",
+          "frog"
+        ],
+        [
+          "荷叶",
+          "pad"
+        ]
+      ]
+    },
+    "sing": {
+      "speaker": "frog",
+      "hanzi": "呱呱呱！",
+      "pinyin": "Guā guā guā!",
+      "english": "Ribbit, ribbit, ribbit!",
+      "cues": [
+        [
+          "呱",
+          "frog"
+        ]
+      ]
+    },
+    "tapFrog": {
+      "speaker": "narrator",
+      "hanzi": "谁有大眼睛、白肚子、四条腿？",
+      "pinyin": "Shéi yǒu dà yǎnjing, bái dùzi, sì tiáo tuǐ?",
+      "english": "Who has big eyes, a white tummy and four legs?",
+      "cues": [
+        [
+          "大眼睛",
+          "clue-eyes"
+        ],
+        [
+          "白肚子",
+          "clue-tummy"
+        ],
+        [
+          "四条腿",
+          "clue-legs"
+        ]
+      ]
+    },
+    "mummy": {
+      "speaker": "tadpoles",
+      "hanzi": "妈妈！妈妈！",
+      "pinyin": "Māma! Māma!",
+      "english": "Mummy! Mummy!",
+      "cues": [
+        [
+          "妈妈",
+          "frog"
+        ]
+      ]
+    },
+    "children": {
+      "speaker": "frog",
+      "hanzi": "孩子们，我就是你们的妈妈！",
+      "pinyin": "Háizi men, wǒ jiù shì nǐmen de māma!",
+      "english": "Children, I am your mummy!",
+      "cues": [
+        [
+          "妈妈",
+          "frog"
+        ]
+      ]
+    },
+    "grow": {
+      "speaker": "narrator",
+      "hanzi": "小蝌蚪长呀长。",
+      "pinyin": "Xiǎo kēdǒu zhǎng ya zhǎng.",
+      "english": "The tadpoles grow and grow.",
+      "cues": [
+        [
+          "小蝌蚪",
+          "tadpoles"
+        ]
+      ]
+    },
+    "tapGrow": {
+      "speaker": "narrator",
+      "hanzi": "点一点小蝌蚪！",
+      "pinyin": "Diǎn yi diǎn xiǎo kēdǒu!",
+      "english": "Tap the tadpoles!",
+      "cues": [
+        [
+          "小蝌蚪",
+          "tadpoles"
+        ]
+      ]
+    },
+    "legs": {
+      "speaker": "narrator",
+      "hanzi": "长出了两条后腿。",
+      "pinyin": "Zhǎng chū le liǎng tiáo hòutuǐ.",
+      "english": "They grow two back legs.",
+      "cues": [
+        [
+          "后腿",
+          "tadpoles"
+        ]
+      ]
+    },
+    "front": {
+      "speaker": "narrator",
+      "hanzi": "又长出了两条前腿。",
+      "pinyin": "Yòu zhǎng chū le liǎng tiáo qiántuǐ.",
+      "english": "Then they grow two front legs.",
+      "cues": [
+        [
+          "前腿",
+          "tadpoles"
+        ]
+      ]
+    },
+    "tail": {
+      "speaker": "narrator",
+      "hanzi": "尾巴不见了！",
+      "pinyin": "Wěiba bú jiàn le!",
+      "english": "Their tails are gone!",
+      "cues": [
+        [
+          "尾巴",
+          "tadpoles"
+        ]
+      ]
+    },
+    "frogs": {
+      "speaker": "narrator",
+      "hanzi": "小蝌蚪变成了小青蛙！",
+      "pinyin": "Xiǎo kēdǒu biànchéng le xiǎo qīngwā!",
+      "english": "The tadpoles turned into little frogs!",
+      "cues": [
+        [
+          "小青蛙",
+          "tadpoles"
+        ]
+      ]
+    },
+    "ribbit": {
+      "speaker": "tadpoles",
+      "hanzi": "呱呱呱！",
+      "pinyin": "Guā guā guā!",
+      "english": "Ribbit, ribbit, ribbit!",
+      "cues": [
+        [
+          "呱",
+          "tadpoles"
+        ]
+      ],
+      "yourTurn": true
+    }
+  },
+  "words": [
+    {
+      "id": "tadpole",
+      "hanzi": "小蝌蚪",
+      "pinyin": "xiǎo kēdǒu",
+      "english": "tadpole"
+    },
+    {
+      "id": "mummy",
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "english": "mummy"
+    },
+    {
+      "id": "frog",
+      "hanzi": "青蛙",
+      "pinyin": "qīngwā",
+      "english": "frog"
+    },
+    {
+      "id": "duck",
+      "hanzi": "鸭子",
+      "pinyin": "yāzi",
+      "english": "duck"
+    },
+    {
+      "id": "fish",
+      "hanzi": "鱼",
+      "pinyin": "yú",
+      "english": "fish"
+    },
+    {
+      "id": "turtle",
+      "hanzi": "乌龟",
+      "pinyin": "wūguī",
+      "english": "turtle"
+    },
+    {
+      "id": "eyes",
+      "hanzi": "眼睛",
+      "pinyin": "yǎnjing",
+      "english": "eyes"
+    },
+    {
+      "id": "tummy",
+      "hanzi": "肚子",
+      "pinyin": "dùzi",
+      "english": "tummy"
+    },
+    {
+      "id": "legs",
+      "hanzi": "腿",
+      "pinyin": "tuǐ",
+      "english": "legs"
+    },
+    {
+      "id": "tail",
+      "hanzi": "尾巴",
+      "pinyin": "wěiba",
+      "english": "tail"
+    },
+    {
+      "id": "swim",
+      "hanzi": "游",
+      "pinyin": "yóu",
+      "english": "to swim"
+    }
+  ],
+  "sounds": {
+    "bubble": {
+      "speaker": "tadpoles",
+      "hanzi": "啵！"
+    },
+    "quack": {
+      "speaker": "duck",
+      "hanzi": "嘎嘎！"
+    },
+    "ribbitMum": {
+      "speaker": "frog",
+      "hanzi": "呱！"
+    },
+    "hm": {
+      "speaker": "turtle",
+      "hanzi": "嗯——"
+    }
+  }
+}

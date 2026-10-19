@@ -1,0 +1,502 @@
+{
+ "made": {
+  "fingerprint": "44f49fc9e5a153d59decd5e787c76a3da162055f134e46da98aeb5d751496460",
+  "text": "小熊做了四个蛋糕。",
+  "file": "assets/audio/stories/cake/made.m4a",
+  "speech": [
+   0.03,
+   2.18
+  ],
+  "speech_fingerprint": "44f49fc9e5a153d59decd5e787c76a3da162055f134e46da98aeb5d751496460"
+ },
+ "tapCake": {
+  "fingerprint": "34a269ceac86f6d3ead19dd9f6dd633fd18d8a27680dd020356e46247f776776",
+  "text": "点一点蛋糕！",
+  "file": "assets/audio/stories/cake/tapCake.m4a",
+  "speech": [
+   0.01,
+   1.35
+  ],
+  "speech_fingerprint": "34a269ceac86f6d3ead19dd9f6dd633fd18d8a27680dd020356e46247f776776"
+ },
+ "round": {
+  "fingerprint": "93f7bf76f7dc848f1a9582228a4e853432831c16cb4861b372ae8ece773d1381",
+  "text": "圆形！",
+  "file": "assets/audio/stories/cake/round.m4a",
+  "speech": [
+   0.01,
+   0.69
+  ],
+  "speech_fingerprint": "93f7bf76f7dc848f1a9582228a4e853432831c16cb4861b372ae8ece773d1381"
+ },
+ "square": {
+  "fingerprint": "78f6d6d9585243180bc292dcbbbaa72599e9d8d1b01fe00384f2118d92f30d6c",
+  "text": "正方形！",
+  "file": "assets/audio/stories/cake/square.m4a",
+  "speech": [
+   0.02,
+   0.93
+  ],
+  "speech_fingerprint": "78f6d6d9585243180bc292dcbbbaa72599e9d8d1b01fe00384f2118d92f30d6c"
+ },
+ "triangle": {
+  "fingerprint": "413b2a13a175620d26e2637bdaec14711cb594b09e810910f2ce4f91359d4aab",
+  "text": "三角形！",
+  "file": "assets/audio/stories/cake/triangle.m4a",
+  "speech": [
+   0.13,
+   1.03
+  ],
+  "speech_fingerprint": "413b2a13a175620d26e2637bdaec14711cb594b09e810910f2ce4f91359d4aab"
+ },
+ "oblong": {
+  "fingerprint": "9e9382007c4869d59070a5052938fc6feb96951a58527eaffc4bfa75c647f6f5",
+  "text": "长方形！",
+  "file": "assets/audio/stories/cake/oblong.m4a",
+  "speech": [
+   0.02,
+   0.96
+  ],
+  "speech_fingerprint": "9e9382007c4869d59070a5052938fc6feb96951a58527eaffc4bfa75c647f6f5"
+ },
+ "yummy": {
+  "fingerprint": "58fea2a42a38bf891eaebbd814b970b30f1deccfc0c9ca418cfe9a574b841e9c",
+  "text": "蛋糕又香又甜！",
+  "file": "assets/audio/stories/cake/yummy.m4a",
+  "speech": [
+   0.01,
+   1.76
+  ],
+  "speech_fingerprint": "58fea2a42a38bf891eaebbd814b970b30f1deccfc0c9ca418cfe9a574b841e9c"
+ },
+ "milk": {
+  "fingerprint": "ee02a2f2507aa02e53f9a6863ac8130efc0a6306d17f6af541fa03df35c99c65",
+  "text": "小熊去拿牛奶。",
+  "file": "assets/audio/stories/cake/milk.m4a",
+  "speech": [
+   0.03,
+   1.82
+  ],
+  "speech_fingerprint": "ee02a2f2507aa02e53f9a6863ac8130efc0a6306d17f6af541fa03df35c99c65"
+ },
+ "back": {
+  "fingerprint": "b5326428e73664e3387a411548b4c276c27bd4afa9abbabccd89451f9bfd4071",
+  "text": "回来一看……",
+  "file": "assets/audio/stories/cake/back.m4a",
+  "speech": [
+   0.06,
+   1.07
+  ],
+  "speech_fingerprint": "b5326428e73664e3387a411548b4c276c27bd4afa9abbabccd89451f9bfd4071"
+ },
+ "gone": {
+  "fingerprint": "b6fc11ada6155db6b7f70d4c03928f5d1b1f1df9d2f897e1eee68b422ca72301",
+  "text": "咦？圆形蛋糕不见了！",
+  "file": "assets/audio/stories/cake/gone.m4a",
+  "speech": [
+   0.01,
+   2.4
+  ],
+  "speech_fingerprint": "b6fc11ada6155db6b7f70d4c03928f5d1b1f1df9d2f897e1eee68b422ca72301"
+ },
+ "where": {
+  "fingerprint": "c9610dda39dbddc88c57365018f6aa7f114bfc74716212678735ef683e0e939b",
+  "text": "我的蛋糕呢？",
+  "file": "assets/audio/stories/cake/where.m4a",
+  "speech": [
+   0.01,
+   1.05
+  ],
+  "speech_fingerprint": "c9610dda39dbddc88c57365018f6aa7f114bfc74716212678735ef683e0e939b"
+ },
+ "seeRabbit": {
+  "fingerprint": "83527d98d76fe03d8d3320069c7efee965a8e284b5bb8daf0b8fab725d2d59a5",
+  "text": "小熊看见小兔子。",
+  "file": "assets/audio/stories/cake/seeRabbit.m4a",
+  "speech": [
+   0.03,
+   2.16
+  ],
+  "speech_fingerprint": "83527d98d76fe03d8d3320069c7efee965a8e284b5bb8daf0b8fab725d2d59a5"
+ },
+ "seeCat": {
+  "fingerprint": "98efb6fe688c0061656c1602210ebfc40765d98dcbcff08306eac3b31c4b5604",
+  "text": "小熊看见小猫。",
+  "file": "assets/audio/stories/cake/seeCat.m4a",
+  "speech": [
+   0.03,
+   1.92
+  ],
+  "speech_fingerprint": "98efb6fe688c0061656c1602210ebfc40765d98dcbcff08306eac3b31c4b5604"
+ },
+ "seeDog": {
+  "fingerprint": "883a0230f4a3f49877b7ca259711e57d6cd4524c83d2cbe8a9767f8b5b439d60",
+  "text": "小熊看见小狗。",
+  "file": "assets/audio/stories/cake/seeDog.m4a",
+  "speech": [
+   0.03,
+   1.96
+  ],
+  "speech_fingerprint": "883a0230f4a3f49877b7ca259711e57d6cd4524c83d2cbe8a9767f8b5b439d60"
+ },
+ "askRabbit": {
+  "fingerprint": "ed08f47cfd71eba289fe995699047a486a8a962165abdf6a7a29a1784064d885",
+  "text": "小兔子，你拿了我的蛋糕吗？",
+  "file": "assets/audio/stories/cake/askRabbit.m4a",
+  "speech": [
+   0.03,
+   3.04
+  ],
+  "speech_fingerprint": "ed08f47cfd71eba289fe995699047a486a8a962165abdf6a7a29a1784064d885"
+ },
+ "askCat": {
+  "fingerprint": "d825307ee7017d70f09b2d876144131b9f0c4be0538cf6742d372d89299ea185",
+  "text": "小猫，你拿了我的蛋糕吗？",
+  "file": "assets/audio/stories/cake/askCat.m4a",
+  "speech": [
+   0.03,
+   2.81
+  ],
+  "speech_fingerprint": "d825307ee7017d70f09b2d876144131b9f0c4be0538cf6742d372d89299ea185"
+ },
+ "askDog": {
+  "fingerprint": "016265c04012a411bf064885515165392379c652b816a46c512a3a9679268f81",
+  "text": "小狗，你拿了我的蛋糕吗？",
+  "file": "assets/audio/stories/cake/askDog.m4a",
+  "speech": [
+   0.03,
+   2.84
+  ],
+  "speech_fingerprint": "016265c04012a411bf064885515165392379c652b816a46c512a3a9679268f81"
+ },
+ "noRabbit": {
+  "fingerprint": "bc9eaa69b48bbef8e7bf3fcb06ce0719143d4fb4f901dccc992407c88f1d0cff",
+  "text": "没有！没有！我没有拿！",
+  "file": "assets/audio/stories/cake/noRabbit.m4a",
+  "speech": [
+   0.01,
+   2.5
+  ],
+  "speech_fingerprint": "bc9eaa69b48bbef8e7bf3fcb06ce0719143d4fb4f901dccc992407c88f1d0cff"
+ },
+ "noCat": {
+  "fingerprint": "bc9eaa69b48bbef8e7bf3fcb06ce0719143d4fb4f901dccc992407c88f1d0cff",
+  "text": "没有！没有！我没有拿！",
+  "file": "assets/audio/stories/cake/noCat.m4a",
+  "speech": [
+   0.01,
+   2.5
+  ],
+  "speech_fingerprint": "bc9eaa69b48bbef8e7bf3fcb06ce0719143d4fb4f901dccc992407c88f1d0cff"
+ },
+ "noDog": {
+  "fingerprint": "bc9eaa69b48bbef8e7bf3fcb06ce0719143d4fb4f901dccc992407c88f1d0cff",
+  "text": "没有！没有！我没有拿！",
+  "file": "assets/audio/stories/cake/noDog.m4a",
+  "speech": [
+   0.01,
+   2.5
+  ],
+  "speech_fingerprint": "bc9eaa69b48bbef8e7bf3fcb06ce0719143d4fb4f901dccc992407c88f1d0cff"
+ },
+ "sawMouse": {
+  "fingerprint": "a2f784f8cd0bda025d960576cfa23cf5cc7409abdfc2994cef266db385ad124f",
+  "text": "可是，我看见小老鼠了！",
+  "file": "assets/audio/stories/cake/sawMouse.m4a",
+  "speech": [
+   0.09,
+   2.75
+  ],
+  "speech_fingerprint": "a2f784f8cd0bda025d960576cfa23cf5cc7409abdfc2994cef266db385ad124f"
+ },
+ "tapFind": {
+  "fingerprint": "51fac253b6ffd6f68b34871e6a7a2e1332dbe9d1b46441f6973428512b5d2ea8",
+  "text": "小老鼠在哪里？找一找！",
+  "file": "assets/audio/stories/cake/tapFind.m4a",
+  "speech": [
+   0.03,
+   2.65
+  ],
+  "speech_fingerprint": "51fac253b6ffd6f68b34871e6a7a2e1332dbe9d1b46441f6973428512b5d2ea8"
+ },
+ "found": {
+  "fingerprint": "ad57373d633b4379e46d0377a1d421e3aae6a05e8f79ed2d7f8e234003a8cec0",
+  "text": "小熊找到小老鼠。",
+  "file": "assets/audio/stories/cake/found.m4a",
+  "speech": [
+   0.03,
+   2.11
+  ],
+  "speech_fingerprint": "ad57373d633b4379e46d0377a1d421e3aae6a05e8f79ed2d7f8e234003a8cec0"
+ },
+ "askMouse": {
+  "fingerprint": "9d88299e9cd7b6ded42f0ba95d33f8b97a81c5ce505658ebefab6904461121f8",
+  "text": "小老鼠，你拿了我的蛋糕吗？",
+  "file": "assets/audio/stories/cake/askMouse.m4a",
+  "speech": [
+   0.03,
+   3.04
+  ],
+  "speech_fingerprint": "9d88299e9cd7b6ded42f0ba95d33f8b97a81c5ce505658ebefab6904461121f8"
+ },
+ "me": {
+  "fingerprint": "f48ae57ad8d1335bf9ca40d37d06b26827a09f3a084bae43c7b6c127a2629b46",
+  "text": "是我！是我！",
+  "file": "assets/audio/stories/cake/me.m4a",
+  "speech": [
+   0.02,
+   1.5
+  ],
+  "speech_fingerprint": "f48ae57ad8d1335bf9ca40d37d06b26827a09f3a084bae43c7b6c127a2629b46"
+ },
+ "sorry": {
+  "fingerprint": "0ed232ab60c86ecaf48fe54f8c678631f1532a566accb81b24a59169b16e4ca1",
+  "text": "对不起，我太想吃蛋糕了！",
+  "file": "assets/audio/stories/cake/sorry.m4a",
+  "speech": [
+   0.01,
+   2.97
+  ],
+  "speech_fingerprint": "0ed232ab60c86ecaf48fe54f8c678631f1532a566accb81b24a59169b16e4ca1"
+ },
+ "ask": {
+  "fingerprint": "73831b73c54fe3ee4ffb3dec978390e602b6caac63655ab8c3d1b2e4044ac203",
+  "text": "下次要先问我哦！",
+  "file": "assets/audio/stories/cake/ask.m4a",
+  "speech": [
+   0.03,
+   1.97
+  ],
+  "speech_fingerprint": "73831b73c54fe3ee4ffb3dec978390e602b6caac63655ab8c3d1b2e4044ac203"
+ },
+ "ok": {
+  "fingerprint": "f8c8b4d124be1a7f7e5adc5e7065221c94f1f0ff0bb8bc18a7a0654bc1ea8c73",
+  "text": "好！好！",
+  "file": "assets/audio/stories/cake/ok.m4a",
+  "speech": [
+   0.08,
+   1.02
+  ],
+  "speech_fingerprint": "f8c8b4d124be1a7f7e5adc5e7065221c94f1f0ff0bb8bc18a7a0654bc1ea8c73"
+ },
+ "share": {
+  "fingerprint": "94e7d493953ea33cfef0b49999eb0bca5d20fde92794fd24d425b1c76bbad366",
+  "text": "小熊拿出巧克力和牛奶。",
+  "file": "assets/audio/stories/cake/share.m4a",
+  "speech": [
+   0.03,
+   2.96
+  ],
+  "speech_fingerprint": "94e7d493953ea33cfef0b49999eb0bca5d20fde92794fd24d425b1c76bbad366"
+ },
+ "together": {
+  "fingerprint": "f275cc0e610b4bbc4579b158dd4c3446d6e98f4915e64f6e0da8f424489cce4c",
+  "text": "我们一起吃蛋糕吧！",
+  "file": "assets/audio/stories/cake/together.m4a",
+  "speech": [
+   0.01,
+   1.92
+  ],
+  "speech_fingerprint": "f275cc0e610b4bbc4579b158dd4c3446d6e98f4915e64f6e0da8f424489cce4c"
+ },
+ "tapServe": {
+  "fingerprint": "21243079aa93185979549b112d4506a33fca9834eba9be53851f3cf5e34b2863",
+  "text": "点一点，给大家分蛋糕！",
+  "file": "assets/audio/stories/cake/tapServe.m4a",
+  "speech": [
+   0.01,
+   2.92
+  ],
+  "speech_fingerprint": "21243079aa93185979549b112d4506a33fca9834eba9be53851f3cf5e34b2863"
+ },
+ "eatRabbit": {
+  "fingerprint": "f3b848e6ee9c29aedb9cc7045d649ae3f02db4e54b283a4808d7df8628e22073",
+  "text": "小兔子吃三角形蛋糕。",
+  "file": "assets/audio/stories/cake/eatRabbit.m4a",
+  "speech": [
+   0.03,
+   2.67
+  ],
+  "speech_fingerprint": "f3b848e6ee9c29aedb9cc7045d649ae3f02db4e54b283a4808d7df8628e22073"
+ },
+ "eatCat": {
+  "fingerprint": "995c5e4a166b9d06cb53b3c7eafd8bda7424059cc5cb0de5fc7543876fb6be96",
+  "text": "小猫吃正方形蛋糕。",
+  "file": "assets/audio/stories/cake/eatCat.m4a",
+  "speech": [
+   0.03,
+   2.39
+  ],
+  "speech_fingerprint": "995c5e4a166b9d06cb53b3c7eafd8bda7424059cc5cb0de5fc7543876fb6be96"
+ },
+ "eatDog": {
+  "fingerprint": "30e87486dd50309c5cf341304d3c0a9ab1ac7d8f219dadb5929efdaf1ba6c237",
+  "text": "小狗吃长方形蛋糕。",
+  "file": "assets/audio/stories/cake/eatDog.m4a",
+  "speech": [
+   0.03,
+   2.52
+  ],
+  "speech_fingerprint": "30e87486dd50309c5cf341304d3c0a9ab1ac7d8f219dadb5929efdaf1ba6c237"
+ },
+ "eatBear": {
+  "fingerprint": "c59274114a0e51171d8194e7f7f7c8a1861942417f67bed1b5df5496243f6944",
+  "text": "小熊和小老鼠一起吃巧克力蛋糕。",
+  "file": "assets/audio/stories/cake/eatBear.m4a",
+  "speech": [
+   0.03,
+   4.1
+  ],
+  "speech_fingerprint": "c59274114a0e51171d8194e7f7f7c8a1861942417f67bed1b5df5496243f6944"
+ },
+ "tasty": {
+  "fingerprint": "9afd68a4157a55b5e8a5ebd6f04212143c9c3d9946cb1f430a59e410ce30e84a",
+  "text": "真好吃！又香又甜！",
+  "file": "assets/audio/stories/cake/tasty.m4a",
+  "speech": [
+   0.01,
+   2.51
+  ],
+  "speech_fingerprint": "9afd68a4157a55b5e8a5ebd6f04212143c9c3d9946cb1f430a59e410ce30e84a"
+ },
+ "happy": {
+  "fingerprint": "c1d04bac8492c6d415c40ebdb5cf2b3201c0902b8bc9411b3ff9425753abb5ea",
+  "text": "大家都很开心！",
+  "file": "assets/audio/stories/cake/happy.m4a",
+  "speech": [
+   0.01,
+   1.74
+  ],
+  "speech_fingerprint": "c1d04bac8492c6d415c40ebdb5cf2b3201c0902b8bc9411b3ff9425753abb5ea"
+ },
+ "word-cake": {
+  "fingerprint": "40220c777ace6f3f0478ea86fb84d66ca62f8ce034ef6bf0b5255d9c831a6b3d",
+  "text": "蛋糕",
+  "file": "assets/audio/stories/cake/word-cake.m4a",
+  "speech": [
+   0.01,
+   0.53
+  ],
+  "speech_fingerprint": "40220c777ace6f3f0478ea86fb84d66ca62f8ce034ef6bf0b5255d9c831a6b3d"
+ },
+ "word-circle": {
+  "fingerprint": "ed95a0158c84a5976d0b433bce397dd93dd7a69ca9ad94fc1c9ff6e9766502fd",
+  "text": "圆形",
+  "file": "assets/audio/stories/cake/word-circle.m4a",
+  "speech": [
+   0.01,
+   0.69
+  ],
+  "speech_fingerprint": "ed95a0158c84a5976d0b433bce397dd93dd7a69ca9ad94fc1c9ff6e9766502fd"
+ },
+ "word-square": {
+  "fingerprint": "1b21910551b05916cff8c983e3c927d5a79558e5bd4976f2eecdea8d373ab80c",
+  "text": "正方形",
+  "file": "assets/audio/stories/cake/word-square.m4a",
+  "speech": [
+   0.02,
+   0.93
+  ],
+  "speech_fingerprint": "1b21910551b05916cff8c983e3c927d5a79558e5bd4976f2eecdea8d373ab80c"
+ },
+ "word-triangle": {
+  "fingerprint": "cb22b057cdd2c97c062de4471a30d3294f5bb1fbaa832d6ed0183963d36d2ba1",
+  "text": "三角形",
+  "file": "assets/audio/stories/cake/word-triangle.m4a",
+  "speech": [
+   0.13,
+   1.03
+  ],
+  "speech_fingerprint": "cb22b057cdd2c97c062de4471a30d3294f5bb1fbaa832d6ed0183963d36d2ba1"
+ },
+ "word-rectangle": {
+  "fingerprint": "274a0129693b928da38f678eb81313697a64d785a8a0ad833784dd1a7d0a7100",
+  "text": "长方形",
+  "file": "assets/audio/stories/cake/word-rectangle.m4a",
+  "speech": [
+   0.02,
+   0.96
+  ],
+  "speech_fingerprint": "274a0129693b928da38f678eb81313697a64d785a8a0ad833784dd1a7d0a7100"
+ },
+ "word-chocolate": {
+  "fingerprint": "849104bc38a849eeacdb91804ceaefa10787ef4509e264c571e5debb6c143e5c",
+  "text": "巧克力",
+  "file": "assets/audio/stories/cake/word-chocolate.m4a",
+  "speech": [
+   0.03,
+   0.87
+  ],
+  "speech_fingerprint": "849104bc38a849eeacdb91804ceaefa10787ef4509e264c571e5debb6c143e5c"
+ },
+ "word-milk": {
+  "fingerprint": "e70da3f896293967ae9766ad76cdd6a0fc3a4df8f7c9c10539e3085f2d237899",
+  "text": "牛奶",
+  "file": "assets/audio/stories/cake/word-milk.m4a",
+  "speech": [
+   0.01,
+   0.58
+  ],
+  "speech_fingerprint": "e70da3f896293967ae9766ad76cdd6a0fc3a4df8f7c9c10539e3085f2d237899"
+ },
+ "word-sweet": {
+  "fingerprint": "8b53cf46534a5e580980746e33280a8a498116a1e9b2883fe7187ef80a01c8e5",
+  "text": "又香又甜",
+  "file": "assets/audio/stories/cake/word-sweet.m4a",
+  "speech": [
+   0.01,
+   1.27
+  ],
+  "speech_fingerprint": "8b53cf46534a5e580980746e33280a8a498116a1e9b2883fe7187ef80a01c8e5"
+ },
+ "snd-hmm": {
+  "fingerprint": "ee3eb52053093afa54998083917da1d971af7cbe2a607803c1c8cf6468a823de",
+  "text": "嗯？",
+  "file": "assets/audio/stories/cake/snd-hmm.m4a",
+  "speech": [
+   0.02,
+   0.25
+  ],
+  "speech_fingerprint": "ee3eb52053093afa54998083917da1d971af7cbe2a607803c1c8cf6468a823de"
+ },
+ "snd-giggle": {
+  "fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00",
+  "text": "嘻嘻！",
+  "file": "assets/audio/stories/cake/snd-giggle.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00"
+ },
+ "snd-mew": {
+  "fingerprint": "b0025febf81c5dfcd6ea070b6622c50703d3d7b614c82c05a896fd11506f6020",
+  "text": "喵！",
+  "file": "assets/audio/stories/cake/snd-mew.m4a",
+  "speech": [
+   0.01,
+   0.43
+  ],
+  "speech_fingerprint": "b0025febf81c5dfcd6ea070b6622c50703d3d7b614c82c05a896fd11506f6020"
+ },
+ "snd-woof": {
+  "fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715",
+  "text": "汪汪！",
+  "file": "assets/audio/stories/cake/snd-woof.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715"
+ },
+ "snd-squeak": {
+  "fingerprint": "4931380f85a4017d89c64088ade92ea2cd3350940c305d6ba5b543c966c03791",
+  "text": "吱吱！",
+  "file": "assets/audio/stories/cake/snd-squeak.m4a",
+  "speech": [
+   0.07,
+   0.55
+  ],
+  "speech_fingerprint": "4931380f85a4017d89c64088ade92ea2cd3350940c305d6ba5b543c966c03791"
+ }
+}

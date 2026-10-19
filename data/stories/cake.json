@@ -1,0 +1,568 @@
+{
+  "id": "cake",
+  "title": "谁拿走了我的蛋糕？",
+  "english": "Who took my cake?",
+  "voices": {
+    "bear": {
+      "rate": 0.9,
+      "keep": false,
+      "tint": "#f3e2cf"
+    },
+    "rabbit": {
+      "rate": 1.18,
+      "keep": false,
+      "tint": "#ffe9ef"
+    },
+    "cat": {
+      "rate": 1.1,
+      "keep": false,
+      "tint": "#fff2e0"
+    },
+    "dog": {
+      "rate": 0.95,
+      "keep": false,
+      "tint": "#f6ead3"
+    },
+    "mouse": {
+      "rate": 1.35,
+      "keep": false,
+      "tint": "#eceaf2"
+    },
+    "all": {
+      "rate": 1.0,
+      "keep": true,
+      "tint": "#fff2cc"
+    }
+  },
+  "lines": {
+    "made": {
+      "speaker": "narrator",
+      "hanzi": "小熊做了四个蛋糕。",
+      "pinyin": "Xiǎo xióng zuò le sì gè dàngāo.",
+      "english": "Little Bear made four cakes.",
+      "cues": [
+        [
+          "小熊",
+          "bear"
+        ],
+        [
+          "蛋糕",
+          "cakes"
+        ]
+      ]
+    },
+    "tapCake": {
+      "speaker": "narrator",
+      "hanzi": "点一点蛋糕！",
+      "pinyin": "Diǎn yi diǎn dàngāo!",
+      "english": "Tap a cake!",
+      "cues": [
+        [
+          "蛋糕",
+          "cakes"
+        ]
+      ]
+    },
+    "round": {
+      "speaker": "narrator",
+      "hanzi": "圆形！",
+      "pinyin": "Yuánxíng!",
+      "english": "A circle!",
+      "cues": [
+        [
+          "圆形",
+          "cake-round"
+        ]
+      ]
+    },
+    "square": {
+      "speaker": "narrator",
+      "hanzi": "正方形！",
+      "pinyin": "Zhèngfāngxíng!",
+      "english": "A square!",
+      "cues": [
+        [
+          "正方形",
+          "cake-square"
+        ]
+      ]
+    },
+    "triangle": {
+      "speaker": "narrator",
+      "hanzi": "三角形！",
+      "pinyin": "Sānjiǎoxíng!",
+      "english": "A triangle!",
+      "cues": [
+        [
+          "三角形",
+          "cake-triangle"
+        ]
+      ]
+    },
+    "oblong": {
+      "speaker": "narrator",
+      "hanzi": "长方形！",
+      "pinyin": "Chángfāngxíng!",
+      "english": "A rectangle!",
+      "cues": [
+        [
+          "长方形",
+          "cake-oblong"
+        ]
+      ]
+    },
+    "yummy": {
+      "speaker": "bear",
+      "hanzi": "蛋糕又香又甜！",
+      "pinyin": "Dàngāo yòu xiāng yòu tián!",
+      "english": "The cakes smell good and taste sweet!",
+      "cues": [
+        [
+          "又香又甜",
+          "cakes"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "milk": {
+      "speaker": "narrator",
+      "hanzi": "小熊去拿牛奶。",
+      "pinyin": "Xiǎo xióng qù ná niúnǎi.",
+      "english": "Little Bear goes to get some milk.",
+      "cues": [
+        [
+          "牛奶",
+          "milk"
+        ]
+      ]
+    },
+    "back": {
+      "speaker": "narrator",
+      "hanzi": "回来一看……",
+      "pinyin": "Huílái yí kàn……",
+      "english": "Back again, he looks…",
+      "cues": [
+        [
+          "看",
+          "cakes"
+        ]
+      ]
+    },
+    "gone": {
+      "speaker": "bear",
+      "hanzi": "咦？圆形蛋糕不见了！",
+      "pinyin": "Yí? Yuánxíng dàngāo bú jiàn le!",
+      "english": "Huh? The round cake is gone!",
+      "cues": [
+        [
+          "圆形",
+          "cake-round"
+        ]
+      ]
+    },
+    "where": {
+      "speaker": "bear",
+      "hanzi": "我的蛋糕呢？",
+      "pinyin": "Wǒ de dàngāo ne?",
+      "english": "Where is my cake?",
+      "cues": [
+        [
+          "蛋糕",
+          "cakes"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "seeRabbit": {
+      "speaker": "narrator",
+      "hanzi": "小熊看见小兔子。",
+      "pinyin": "Xiǎo xióng kànjiàn xiǎo tùzi.",
+      "english": "Little Bear sees the bunny.",
+      "cues": [
+        [
+          "小兔子",
+          "rabbit"
+        ]
+      ]
+    },
+    "seeCat": {
+      "speaker": "narrator",
+      "hanzi": "小熊看见小猫。",
+      "pinyin": "Xiǎo xióng kànjiàn xiǎo māo.",
+      "english": "Little Bear sees the kitten.",
+      "cues": [
+        [
+          "小猫",
+          "cat"
+        ]
+      ]
+    },
+    "seeDog": {
+      "speaker": "narrator",
+      "hanzi": "小熊看见小狗。",
+      "pinyin": "Xiǎo xióng kànjiàn xiǎo gǒu.",
+      "english": "Little Bear sees the puppy.",
+      "cues": [
+        [
+          "小狗",
+          "dog"
+        ]
+      ]
+    },
+    "askRabbit": {
+      "speaker": "bear",
+      "hanzi": "小兔子，你拿了我的蛋糕吗？",
+      "pinyin": "Xiǎo tùzi, nǐ ná le wǒ de dàngāo ma?",
+      "english": "Bunny, did you take my cake?",
+      "cues": [
+        [
+          "小兔子",
+          "rabbit"
+        ]
+      ]
+    },
+    "askCat": {
+      "speaker": "bear",
+      "hanzi": "小猫，你拿了我的蛋糕吗？",
+      "pinyin": "Xiǎo māo, nǐ ná le wǒ de dàngāo ma?",
+      "english": "Kitten, did you take my cake?",
+      "cues": [
+        [
+          "小猫",
+          "cat"
+        ]
+      ]
+    },
+    "askDog": {
+      "speaker": "bear",
+      "hanzi": "小狗，你拿了我的蛋糕吗？",
+      "pinyin": "Xiǎo gǒu, nǐ ná le wǒ de dàngāo ma?",
+      "english": "Puppy, did you take my cake?",
+      "cues": [
+        [
+          "小狗",
+          "dog"
+        ]
+      ]
+    },
+    "noRabbit": {
+      "speaker": "rabbit",
+      "hanzi": "没有！没有！我没有拿！",
+      "pinyin": "Méiyǒu! Méiyǒu! Wǒ méiyǒu ná!",
+      "english": "No! No! I didn’t take it!",
+      "cues": [
+        [
+          "没有",
+          "rabbit"
+        ]
+      ]
+    },
+    "noCat": {
+      "speaker": "cat",
+      "hanzi": "没有！没有！我没有拿！",
+      "pinyin": "Méiyǒu! Méiyǒu! Wǒ méiyǒu ná!",
+      "english": "No! No! I didn’t take it!",
+      "cues": [
+        [
+          "没有",
+          "cat"
+        ]
+      ]
+    },
+    "noDog": {
+      "speaker": "dog",
+      "hanzi": "没有！没有！我没有拿！",
+      "pinyin": "Méiyǒu! Méiyǒu! Wǒ méiyǒu ná!",
+      "english": "No! No! I didn’t take it!",
+      "cues": [
+        [
+          "没有",
+          "dog"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "sawMouse": {
+      "speaker": "dog",
+      "hanzi": "可是，我看见小老鼠了！",
+      "pinyin": "Kěshì, wǒ kànjiàn xiǎo lǎoshǔ le!",
+      "english": "But I saw the little mouse!",
+      "cues": [
+        [
+          "小老鼠",
+          "mouse"
+        ]
+      ]
+    },
+    "tapFind": {
+      "speaker": "narrator",
+      "hanzi": "小老鼠在哪里？找一找！",
+      "pinyin": "Xiǎo lǎoshǔ zài nǎlǐ? Zhǎo yi zhǎo!",
+      "english": "Where is the little mouse? Find it!",
+      "cues": [
+        [
+          "小老鼠",
+          "mouse"
+        ]
+      ]
+    },
+    "found": {
+      "speaker": "narrator",
+      "hanzi": "小熊找到小老鼠。",
+      "pinyin": "Xiǎo xióng zhǎodào xiǎo lǎoshǔ.",
+      "english": "Little Bear finds the little mouse.",
+      "cues": [
+        [
+          "小老鼠",
+          "mouse"
+        ]
+      ]
+    },
+    "askMouse": {
+      "speaker": "bear",
+      "hanzi": "小老鼠，你拿了我的蛋糕吗？",
+      "pinyin": "Xiǎo lǎoshǔ, nǐ ná le wǒ de dàngāo ma?",
+      "english": "Little mouse, did you take my cake?",
+      "cues": [
+        [
+          "小老鼠",
+          "mouse"
+        ]
+      ]
+    },
+    "me": {
+      "speaker": "mouse",
+      "hanzi": "是我！是我！",
+      "pinyin": "Shì wǒ! Shì wǒ!",
+      "english": "It was me! It was me!",
+      "cues": [
+        [
+          "是我",
+          "mouse"
+        ]
+      ]
+    },
+    "sorry": {
+      "speaker": "mouse",
+      "hanzi": "对不起，我太想吃蛋糕了！",
+      "pinyin": "Duìbuqǐ, wǒ tài xiǎng chī dàngāo le!",
+      "english": "Sorry, I wanted to eat cake so much!",
+      "cues": [
+        [
+          "对不起",
+          "mouse"
+        ]
+      ]
+    },
+    "ask": {
+      "speaker": "bear",
+      "hanzi": "下次要先问我哦！",
+      "pinyin": "Xià cì yào xiān wèn wǒ o!",
+      "english": "Next time, ask me first!",
+      "cues": [
+        [
+          "问",
+          "bear"
+        ]
+      ]
+    },
+    "ok": {
+      "speaker": "mouse",
+      "hanzi": "好！好！",
+      "pinyin": "Hǎo! Hǎo!",
+      "english": "OK! OK!",
+      "cues": [
+        [
+          "好",
+          "mouse"
+        ]
+      ]
+    },
+    "share": {
+      "speaker": "narrator",
+      "hanzi": "小熊拿出巧克力和牛奶。",
+      "pinyin": "Xiǎo xióng ná chū qiǎokèlì hé niúnǎi.",
+      "english": "Little Bear brings out chocolate and milk.",
+      "cues": [
+        [
+          "巧克力",
+          "choc"
+        ],
+        [
+          "牛奶",
+          "milk"
+        ]
+      ]
+    },
+    "together": {
+      "speaker": "bear",
+      "hanzi": "我们一起吃蛋糕吧！",
+      "pinyin": "Wǒmen yìqǐ chī dàngāo ba!",
+      "english": "Let’s eat cake together!",
+      "cues": [
+        [
+          "蛋糕",
+          "cakes"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "tapServe": {
+      "speaker": "narrator",
+      "hanzi": "点一点，给大家分蛋糕！",
+      "pinyin": "Diǎn yi diǎn, gěi dàjiā fēn dàngāo!",
+      "english": "Tap to share the cake with everyone!",
+      "cues": [
+        [
+          "蛋糕",
+          "cakes"
+        ]
+      ]
+    },
+    "eatRabbit": {
+      "speaker": "narrator",
+      "hanzi": "小兔子吃三角形蛋糕。",
+      "pinyin": "Xiǎo tùzi chī sānjiǎoxíng dàngāo.",
+      "english": "Bunny eats the triangle cake.",
+      "cues": [
+        [
+          "三角形",
+          "cake-triangle"
+        ]
+      ]
+    },
+    "eatCat": {
+      "speaker": "narrator",
+      "hanzi": "小猫吃正方形蛋糕。",
+      "pinyin": "Xiǎo māo chī zhèngfāngxíng dàngāo.",
+      "english": "Kitten eats the square cake.",
+      "cues": [
+        [
+          "正方形",
+          "cake-square"
+        ]
+      ]
+    },
+    "eatDog": {
+      "speaker": "narrator",
+      "hanzi": "小狗吃长方形蛋糕。",
+      "pinyin": "Xiǎo gǒu chī chángfāngxíng dàngāo.",
+      "english": "Puppy eats the rectangle cake.",
+      "cues": [
+        [
+          "长方形",
+          "cake-oblong"
+        ]
+      ]
+    },
+    "eatBear": {
+      "speaker": "narrator",
+      "hanzi": "小熊和小老鼠一起吃巧克力蛋糕。",
+      "pinyin": "Xiǎo xióng hé xiǎo lǎoshǔ yìqǐ chī qiǎokèlì dàngāo.",
+      "english": "Little Bear and the mouse eat chocolate cake together.",
+      "cues": [
+        [
+          "巧克力",
+          "choc"
+        ]
+      ]
+    },
+    "tasty": {
+      "speaker": "all",
+      "hanzi": "真好吃！又香又甜！",
+      "pinyin": "Zhēn hǎochī! Yòu xiāng yòu tián!",
+      "english": "Yummy! Smells good and tastes sweet!",
+      "cues": [
+        [
+          "又香又甜",
+          "cakes"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "happy": {
+      "speaker": "narrator",
+      "hanzi": "大家都很开心！",
+      "pinyin": "Dàjiā dōu hěn kāixīn!",
+      "english": "Everyone is very happy!",
+      "cues": [
+        [
+          "大家",
+          "friends"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "cake",
+      "hanzi": "蛋糕",
+      "pinyin": "dàngāo",
+      "english": "cake"
+    },
+    {
+      "id": "circle",
+      "hanzi": "圆形",
+      "pinyin": "yuánxíng",
+      "english": "circle"
+    },
+    {
+      "id": "square",
+      "hanzi": "正方形",
+      "pinyin": "zhèngfāngxíng",
+      "english": "square"
+    },
+    {
+      "id": "triangle",
+      "hanzi": "三角形",
+      "pinyin": "sānjiǎoxíng",
+      "english": "triangle"
+    },
+    {
+      "id": "rectangle",
+      "hanzi": "长方形",
+      "pinyin": "chángfāngxíng",
+      "english": "rectangle"
+    },
+    {
+      "id": "chocolate",
+      "hanzi": "巧克力",
+      "pinyin": "qiǎokèlì",
+      "english": "chocolate"
+    },
+    {
+      "id": "milk",
+      "hanzi": "牛奶",
+      "pinyin": "niúnǎi",
+      "english": "milk"
+    },
+    {
+      "id": "sweet",
+      "hanzi": "又香又甜",
+      "pinyin": "yòu xiāng yòu tián",
+      "english": "smells good, tastes sweet"
+    }
+  ],
+  "sounds": {
+    "hmm": {
+      "speaker": "bear",
+      "hanzi": "嗯？"
+    },
+    "giggle": {
+      "speaker": "rabbit",
+      "hanzi": "嘻嘻！"
+    },
+    "mew": {
+      "speaker": "cat",
+      "hanzi": "喵！"
+    },
+    "woof": {
+      "speaker": "dog",
+      "hanzi": "汪汪！"
+    },
+    "squeak": {
+      "speaker": "mouse",
+      "hanzi": "吱吱！"
+    }
+  }
+}

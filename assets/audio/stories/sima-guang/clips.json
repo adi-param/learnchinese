@@ -1,0 +1,382 @@
+{
+ "play": {
+  "fingerprint": "f71b97b7f92eaeaa243edf43a303a47dba75fa44359af1a134fe330ffcc39824",
+  "text": "司马光和朋友一起玩。",
+  "file": "assets/audio/stories/sima-guang/play.m4a",
+  "speech": [
+   0.14,
+   2.45
+  ],
+  "speech_fingerprint": "f71b97b7f92eaeaa243edf43a303a47dba75fa44359af1a134fe330ffcc39824"
+ },
+ "run": {
+  "fingerprint": "3457892ab3429b3fd94a5ffc67684fe832f5bbcb7462db00fc2ca61b2aa97e9f",
+  "text": "你跑，我跑。",
+  "file": "assets/audio/stories/sima-guang/run.m4a",
+  "speech": [
+   0.01,
+   1.47
+  ],
+  "speech_fingerprint": "3457892ab3429b3fd94a5ffc67684fe832f5bbcb7462db00fc2ca61b2aa97e9f"
+ },
+ "tapKids": {
+  "fingerprint": "8155c57fcd9195501fff400e84d2594b20c4cebae2739a01d579ef0a81a1f3de",
+  "text": "点一点小朋友！",
+  "file": "assets/audio/stories/sima-guang/tapKids.m4a",
+  "speech": [
+   0.01,
+   1.72
+  ],
+  "speech_fingerprint": "8155c57fcd9195501fff400e84d2594b20c4cebae2739a01d579ef0a81a1f3de"
+ },
+ "together": {
+  "fingerprint": "a0582be025bdd7116bfea362de583223aa919a51c65f825602c867826de02b26",
+  "text": "大家一起玩！",
+  "file": "assets/audio/stories/sima-guang/together.m4a",
+  "speech": [
+   0.01,
+   1.39
+  ],
+  "speech_fingerprint": "a0582be025bdd7116bfea362de583223aa919a51c65f825602c867826de02b26"
+ },
+ "jar": {
+  "fingerprint": "7e3aa22c5d9d852ea5833691200bcdb1ac7920b7c6f105a3c7d42604b2d05bac",
+  "text": "这里有一个大水缸。",
+  "file": "assets/audio/stories/sima-guang/jar.m4a",
+  "speech": [
+   0.02,
+   1.85
+  ],
+  "speech_fingerprint": "7e3aa22c5d9d852ea5833691200bcdb1ac7920b7c6f105a3c7d42604b2d05bac"
+ },
+ "big": {
+  "fingerprint": "7d67f8d075b3d58cbb61d26e70d70321fcd93ddac86343cbe4b09d646f3d4a2a",
+  "text": "水缸大大的。",
+  "file": "assets/audio/stories/sima-guang/big.m4a",
+  "speech": [
+   0.03,
+   1.32
+  ],
+  "speech_fingerprint": "7d67f8d075b3d58cbb61d26e70d70321fcd93ddac86343cbe4b09d646f3d4a2a"
+ },
+ "water": {
+  "fingerprint": "46c8496c1aa17dbac313a406429c3e70ebdfefe369c83a47245145ac45fdb377",
+  "text": "水缸里有水。",
+  "file": "assets/audio/stories/sima-guang/water.m4a",
+  "speech": [
+   0.03,
+   1.47
+  ],
+  "speech_fingerprint": "46c8496c1aa17dbac313a406429c3e70ebdfefe369c83a47245145ac45fdb377"
+ },
+ "fell": {
+  "fingerprint": "0e165586ddd35bdf9b9157911a9360bc1c50550ca8848f42920dd710cd94bf5d",
+  "text": "一个朋友掉进水缸里！",
+  "file": "assets/audio/stories/sima-guang/fell.m4a",
+  "speech": [
+   0.01,
+   2.3
+  ],
+  "speech_fingerprint": "0e165586ddd35bdf9b9157911a9360bc1c50550ca8848f42920dd710cd94bf5d"
+ },
+ "splash": {
+  "fingerprint": "a04206009442a330f2da08916527c47d55afc6e1080378d019f554c9ea8715d5",
+  "text": "扑通！",
+  "file": "assets/audio/stories/sima-guang/splash.m4a",
+  "speech": [
+   0.09,
+   0.57
+  ],
+  "speech_fingerprint": "a04206009442a330f2da08916527c47d55afc6e1080378d019f554c9ea8715d5"
+ },
+ "help": {
+  "fingerprint": "3976f56c9c18fa540481bbdfe814e472f2449032060b8bcf4f633859edc1b314",
+  "text": "救命！救命！",
+  "file": "assets/audio/stories/sima-guang/help.m4a",
+  "speech": [
+   0.04,
+   1.47
+  ],
+  "speech_fingerprint": "3976f56c9c18fa540481bbdfe814e472f2449032060b8bcf4f633859edc1b314"
+ },
+ "scared": {
+  "fingerprint": "990507898b83e1ad07a634a0662c454452309f82388396137a0cb7b1d8cfb4e8",
+  "text": "朋友们很害怕。",
+  "file": "assets/audio/stories/sima-guang/scared.m4a",
+  "speech": [
+   0.09,
+   1.65
+  ],
+  "speech_fingerprint": "990507898b83e1ad07a634a0662c454452309f82388396137a0cb7b1d8cfb4e8"
+ },
+ "what": {
+  "fingerprint": "b0aa21ec8de3c50d9c4b7b92454014ffaba0d78bf0f42aa860af00c420c0fe0a",
+  "text": "怎么办？怎么办？",
+  "file": "assets/audio/stories/sima-guang/what.m4a",
+  "speech": [
+   0.07,
+   1.66
+  ],
+  "speech_fingerprint": "b0aa21ec8de3c50d9c4b7b92454014ffaba0d78bf0f42aa860af00c420c0fe0a"
+ },
+ "quick": {
+  "fingerprint": "6e6f55c76b20a850861efe00bd2c1f65bb57b62da347b92f246347939b43f585",
+  "text": "快来！快来！",
+  "file": "assets/audio/stories/sima-guang/quick.m4a",
+  "speech": [
+   0.09,
+   1.63
+  ],
+  "speech_fingerprint": "6e6f55c76b20a850861efe00bd2c1f65bb57b62da347b92f246347939b43f585"
+ },
+ "think": {
+  "fingerprint": "b52c164626a6bcf4f8cf9acf1b0fb67085d9b9bf4f0f381d122dedd25c18a990",
+  "text": "司马光想一想。",
+  "file": "assets/audio/stories/sima-guang/think.m4a",
+  "speech": [
+   0.14,
+   1.67
+  ],
+  "speech_fingerprint": "b52c164626a6bcf4f8cf9acf1b0fb67085d9b9bf4f0f381d122dedd25c18a990"
+ },
+ "look": {
+  "fingerprint": "522c8890f94f1529de9140b9b7bebdab861dd0e1ae9c1b96ce05034c898086ad",
+  "text": "看！大石头！",
+  "file": "assets/audio/stories/sima-guang/look.m4a",
+  "speech": [
+   0.03,
+   1.46
+  ],
+  "speech_fingerprint": "522c8890f94f1529de9140b9b7bebdab861dd0e1ae9c1b96ce05034c898086ad"
+ },
+ "tapStone": {
+  "fingerprint": "7b8f61f1035ae167f99eca43baa6caf283f2dffab560a00856def2b9f38a9544",
+  "text": "点一点大石头！",
+  "file": "assets/audio/stories/sima-guang/tapStone.m4a",
+  "speech": [
+   0.01,
+   1.61
+  ],
+  "speech_fingerprint": "7b8f61f1035ae167f99eca43baa6caf283f2dffab560a00856def2b9f38a9544"
+ },
+ "idea": {
+  "fingerprint": "f758bd560f0f732b6f22c167b157dc7642d5a70f9476d2db1f78714e07a60132",
+  "text": "司马光有办法了！",
+  "file": "assets/audio/stories/sima-guang/idea.m4a",
+  "speech": [
+   0.14,
+   1.78
+  ],
+  "speech_fingerprint": "f758bd560f0f732b6f22c167b157dc7642d5a70f9476d2db1f78714e07a60132"
+ },
+ "lift": {
+  "fingerprint": "9c362a242ba15077cde8060930e592cedbbe3fddca8f43015b53c6a4b012cc36",
+  "text": "司马光拿起大石头。",
+  "file": "assets/audio/stories/sima-guang/lift.m4a",
+  "speech": [
+   0.14,
+   2.15
+  ],
+  "speech_fingerprint": "9c362a242ba15077cde8060930e592cedbbe3fddca8f43015b53c6a4b012cc36"
+ },
+ "tapJar": {
+  "fingerprint": "d0de45815fc317b4f19acc7ec277d6ffe3c29d43c5be311d1e6de9903601878a",
+  "text": "砸！砸！砸！",
+  "file": "assets/audio/stories/sima-guang/tapJar.m4a",
+  "speech": [
+   0.05,
+   1.42
+  ],
+  "speech_fingerprint": "d0de45815fc317b4f19acc7ec277d6ffe3c29d43c5be311d1e6de9903601878a"
+ },
+ "za": {
+  "fingerprint": "deb3d6b0012db5c0aed8826dbb79d6bf4a924d5879072d745dbb4ff3d44fc4dc",
+  "text": "砸！",
+  "file": "assets/audio/stories/sima-guang/za.m4a",
+  "speech": [
+   0.05,
+   0.29
+  ],
+  "speech_fingerprint": "deb3d6b0012db5c0aed8826dbb79d6bf4a924d5879072d745dbb4ff3d44fc4dc"
+ },
+ "bang": {
+  "fingerprint": "bf8301689802e8a64b3c5f7473be44cfd05ca68bf314d00410f5efb7ecee6011",
+  "text": "砰！水缸破了！",
+  "file": "assets/audio/stories/sima-guang/bang.m4a",
+  "speech": [
+   0.06,
+   1.76
+  ],
+  "speech_fingerprint": "bf8301689802e8a64b3c5f7473be44cfd05ca68bf314d00410f5efb7ecee6011"
+ },
+ "flow": {
+  "fingerprint": "c59762d9426fc2ea79161ddb4a7e0e079610e840473d33640c7f9774f77e2773",
+  "text": "水流出来了！",
+  "file": "assets/audio/stories/sima-guang/flow.m4a",
+  "speech": [
+   0.04,
+   1.32
+  ],
+  "speech_fingerprint": "c59762d9426fc2ea79161ddb4a7e0e079610e840473d33640c7f9774f77e2773"
+ },
+ "out": {
+  "fingerprint": "87469d02d25f3fa661fab7ca12d1a4a6f90fba3feb468aa74376bce5de38f157",
+  "text": "朋友出来了！",
+  "file": "assets/audio/stories/sima-guang/out.m4a",
+  "speech": [
+   0.09,
+   1.16
+  ],
+  "speech_fingerprint": "87469d02d25f3fa661fab7ca12d1a4a6f90fba3feb468aa74376bce5de38f157"
+ },
+ "great": {
+  "fingerprint": "32d6e598696092a8f54c544047029fee724f2ecf99a5e2ee24c3c3e637433dba",
+  "text": "太好了！太好了！",
+  "file": "assets/audio/stories/sima-guang/great.m4a",
+  "speech": [
+   0.02,
+   1.85
+  ],
+  "speech_fingerprint": "32d6e598696092a8f54c544047029fee724f2ecf99a5e2ee24c3c3e637433dba"
+ },
+ "thanks": {
+  "fingerprint": "0a6b0eba54414dd7b71899b9fec517891c51d7c6074895b65a1ca28b888008f3",
+  "text": "谢谢你，司马光！",
+  "file": "assets/audio/stories/sima-guang/thanks.m4a",
+  "speech": [
+   0.03,
+   2.06
+  ],
+  "speech_fingerprint": "0a6b0eba54414dd7b71899b9fec517891c51d7c6074895b65a1ca28b888008f3"
+ },
+ "smile": {
+  "fingerprint": "2c05fbdf831f17d664a8ec4b3f0d7dbdcbf766c4069d3a49ed7abc97ff27aa52",
+  "text": "司马光笑了。",
+  "file": "assets/audio/stories/sima-guang/smile.m4a",
+  "speech": [
+   0.14,
+   1.28
+  ],
+  "speech_fingerprint": "2c05fbdf831f17d664a8ec4b3f0d7dbdcbf766c4069d3a49ed7abc97ff27aa52"
+ },
+ "happy": {
+  "fingerprint": "c1d04bac8492c6d415c40ebdb5cf2b3201c0902b8bc9411b3ff9425753abb5ea",
+  "text": "大家都很开心！",
+  "file": "assets/audio/stories/sima-guang/happy.m4a",
+  "speech": [
+   0.01,
+   1.74
+  ],
+  "speech_fingerprint": "c1d04bac8492c6d415c40ebdb5cf2b3201c0902b8bc9411b3ff9425753abb5ea"
+ },
+ "word-play": {
+  "fingerprint": "38e380d3fd9ef9482d8c41aeb313ae1495fb4ffcb5b1588229f269c6e84c7eeb",
+  "text": "玩",
+  "file": "assets/audio/stories/sima-guang/word-play.m4a",
+  "speech": [
+   0.01,
+   0.39
+  ],
+  "speech_fingerprint": "38e380d3fd9ef9482d8c41aeb313ae1495fb4ffcb5b1588229f269c6e84c7eeb"
+ },
+ "word-big": {
+  "fingerprint": "d6eb3a3bdfbbbf22d30f08062bc2bd9a64edc7deefb83af64badc80a9735d794",
+  "text": "大",
+  "file": "assets/audio/stories/sima-guang/word-big.m4a",
+  "speech": [
+   0.01,
+   0.25
+  ],
+  "speech_fingerprint": "d6eb3a3bdfbbbf22d30f08062bc2bd9a64edc7deefb83af64badc80a9735d794"
+ },
+ "word-water": {
+  "fingerprint": "c1866bfc6aaf046ceb26559f602f19037eadc6cdf5504c041618f62ebf4a2b98",
+  "text": "水",
+  "file": "assets/audio/stories/sima-guang/word-water.m4a",
+  "speech": [
+   0.02,
+   0.42
+  ],
+  "speech_fingerprint": "c1866bfc6aaf046ceb26559f602f19037eadc6cdf5504c041618f62ebf4a2b98"
+ },
+ "word-friend": {
+  "fingerprint": "d78b7f80c94dfac9b48962b6bb03f3091adbed79074472c9d1a6f9205e5a678f",
+  "text": "朋友",
+  "file": "assets/audio/stories/sima-guang/word-friend.m4a",
+  "speech": [
+   0.06,
+   0.6
+  ],
+  "speech_fingerprint": "d78b7f80c94dfac9b48962b6bb03f3091adbed79074472c9d1a6f9205e5a678f"
+ },
+ "word-stone": {
+  "fingerprint": "15bf0f385fa136a22c24517113ffda6f3276a510083d34b714e4f4663bc50946",
+  "text": "石头",
+  "file": "assets/audio/stories/sima-guang/word-stone.m4a",
+  "speech": [
+   0.03,
+   0.61
+  ],
+  "speech_fingerprint": "15bf0f385fa136a22c24517113ffda6f3276a510083d34b714e4f4663bc50946"
+ },
+ "word-scared": {
+  "fingerprint": "fd274aae101f089b39f50af9659cb1769aa8fb6ea90cc438abaa6881927824b0",
+  "text": "怕",
+  "file": "assets/audio/stories/sima-guang/word-scared.m4a",
+  "speech": [
+   0.03,
+   0.33
+  ],
+  "speech_fingerprint": "fd274aae101f089b39f50af9659cb1769aa8fb6ea90cc438abaa6881927824b0"
+ },
+ "word-help": {
+  "fingerprint": "c6754d92363aa8a57fa58d6a15df014bd35202bddf72eeb63b29e61c0f4ce0d6",
+  "text": "救命",
+  "file": "assets/audio/stories/sima-guang/word-help.m4a",
+  "speech": [
+   0.04,
+   0.59
+  ],
+  "speech_fingerprint": "c6754d92363aa8a57fa58d6a15df014bd35202bddf72eeb63b29e61c0f4ce0d6"
+ },
+ "word-happy": {
+  "fingerprint": "963104d2830a26b26bc607b0004d03d146140fae1d861283e69f63b0fb79daf3",
+  "text": "开心",
+  "file": "assets/audio/stories/sima-guang/word-happy.m4a",
+  "speech": [
+   0.02,
+   0.68
+  ],
+  "speech_fingerprint": "963104d2830a26b26bc607b0004d03d146140fae1d861283e69f63b0fb79daf3"
+ },
+ "snd-hi": {
+  "fingerprint": "5966c914b677fc0b9edaf538c4a6007f5e34854a8b2c2fb756a48c8ce548d9b3",
+  "text": "嘿！",
+  "file": "assets/audio/stories/sima-guang/snd-hi.m4a",
+  "speech": [
+   0.08,
+   0.35
+  ],
+  "speech_fingerprint": "5966c914b677fc0b9edaf538c4a6007f5e34854a8b2c2fb756a48c8ce548d9b3"
+ },
+ "snd-laugh": {
+  "fingerprint": "8da4aadebac068fef9ead7380fd39f2a3bded330a281d0ccac1c604295ef6e88",
+  "text": "哈哈！",
+  "file": "assets/audio/stories/sima-guang/snd-laugh.m4a",
+  "speech": [
+   0.06,
+   0.65
+  ],
+  "speech_fingerprint": "8da4aadebac068fef9ead7380fd39f2a3bded330a281d0ccac1c604295ef6e88"
+ },
+ "snd-giggle": {
+  "fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00",
+  "text": "嘻嘻！",
+  "file": "assets/audio/stories/sima-guang/snd-giggle.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00"
+ }
+}

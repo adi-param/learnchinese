@@ -1,0 +1,352 @@
+{
+ "wake": {
+  "fingerprint": "661069dba6d9521c371c9d147b4689a95a26f770c5773526317f906200cd795d",
+  "text": "小猫醒来了。",
+  "file": "assets/audio/stories/kitten-mummy/wake.m4a",
+  "speech": [
+   0.04,
+   1.37
+  ],
+  "speech_fingerprint": "661069dba6d9521c371c9d147b4689a95a26f770c5773526317f906200cd795d"
+ },
+ "callMum": {
+  "fingerprint": "a8b059010679f2836090af757fe1d271d87b7553bc3f3fe2b133b5d3153ed46a",
+  "text": "妈妈！妈妈！",
+  "file": "assets/audio/stories/kitten-mummy/callMum.m4a",
+  "speech": [
+   0.01,
+   1.3
+  ],
+  "speech_fingerprint": "a8b059010679f2836090af757fe1d271d87b7553bc3f3fe2b133b5d3153ed46a"
+ },
+ "where": {
+  "fingerprint": "40468ed88c409c4f76d1dabcf0fec87f0b0630cb3ffd0eed283d6656dbc2aab4",
+  "text": "妈妈在哪里？",
+  "file": "assets/audio/stories/kitten-mummy/where.m4a",
+  "speech": [
+   0.01,
+   1.16
+  ],
+  "speech_fingerprint": "40468ed88c409c4f76d1dabcf0fec87f0b0630cb3ffd0eed283d6656dbc2aab4"
+ },
+ "walk": {
+  "fingerprint": "880a52b9ac0e60664b55804a543d0d76595817d7def194e10093b28d9767736e",
+  "text": "小猫走呀走。",
+  "file": "assets/audio/stories/kitten-mummy/walk.m4a",
+  "speech": [
+   0.03,
+   1.37
+  ],
+  "speech_fingerprint": "880a52b9ac0e60664b55804a543d0d76595817d7def194e10093b28d9767736e"
+ },
+ "tapKitten": {
+  "fingerprint": "53ce337a333f43172ef9bead42730e94117bbf2464be1863fc5da2ed1a6cb1a0",
+  "text": "点一点小猫！",
+  "file": "assets/audio/stories/kitten-mummy/tapKitten.m4a",
+  "speech": [
+   0.01,
+   1.4
+  ],
+  "speech_fingerprint": "53ce337a333f43172ef9bead42730e94117bbf2464be1863fc5da2ed1a6cb1a0"
+ },
+ "seeDog": {
+  "fingerprint": "967f36e09a347b7148080a16e80e79898c2399963c4c92bfc08cf2a28a1ae28a",
+  "text": "看见一只小狗。",
+  "file": "assets/audio/stories/kitten-mummy/seeDog.m4a",
+  "speech": [
+   0.02,
+   1.7
+  ],
+  "speech_fingerprint": "967f36e09a347b7148080a16e80e79898c2399963c4c92bfc08cf2a28a1ae28a"
+ },
+ "seeDuck": {
+  "fingerprint": "ee692b2df6f2001aafe002150511cff96662397770a65e34725e666b060ffd7d",
+  "text": "看见一只小鸭。",
+  "file": "assets/audio/stories/kitten-mummy/seeDuck.m4a",
+  "speech": [
+   0.04,
+   1.64
+  ],
+  "speech_fingerprint": "ee692b2df6f2001aafe002150511cff96662397770a65e34725e666b060ffd7d"
+ },
+ "seeRabbit": {
+  "fingerprint": "4384d1e45d3de1917045c5a1ea280ee55a0f15d333fb42fd03ac2c48f8aa12cf",
+  "text": "看见一只小兔。",
+  "file": "assets/audio/stories/kitten-mummy/seeRabbit.m4a",
+  "speech": [
+   0.02,
+   1.7
+  ],
+  "speech_fingerprint": "4384d1e45d3de1917045c5a1ea280ee55a0f15d333fb42fd03ac2c48f8aa12cf"
+ },
+ "ask": {
+  "fingerprint": "839fb5b04f18f91a33650ef651f05074c8a1067bc276030518ed553d9abe359d",
+  "text": "你是我的妈妈吗？",
+  "file": "assets/audio/stories/kitten-mummy/ask.m4a",
+  "speech": [
+   0.01,
+   1.5
+  ],
+  "speech_fingerprint": "839fb5b04f18f91a33650ef651f05074c8a1067bc276030518ed553d9abe359d"
+ },
+ "noDog": {
+  "fingerprint": "44c9d658e945120493f328f33e0cbcc71062e36b194ebda653dd819764b74dce",
+  "text": "不是，不是！",
+  "file": "assets/audio/stories/kitten-mummy/noDog.m4a",
+  "speech": [
+   0.02,
+   1.44
+  ],
+  "speech_fingerprint": "44c9d658e945120493f328f33e0cbcc71062e36b194ebda653dd819764b74dce"
+ },
+ "noDuck": {
+  "fingerprint": "44c9d658e945120493f328f33e0cbcc71062e36b194ebda653dd819764b74dce",
+  "text": "不是，不是！",
+  "file": "assets/audio/stories/kitten-mummy/noDuck.m4a",
+  "speech": [
+   0.02,
+   1.44
+  ],
+  "speech_fingerprint": "44c9d658e945120493f328f33e0cbcc71062e36b194ebda653dd819764b74dce"
+ },
+ "noRabbit": {
+  "fingerprint": "44c9d658e945120493f328f33e0cbcc71062e36b194ebda653dd819764b74dce",
+  "text": "不是，不是！",
+  "file": "assets/audio/stories/kitten-mummy/noRabbit.m4a",
+  "speech": [
+   0.02,
+   1.44
+  ],
+  "speech_fingerprint": "44c9d658e945120493f328f33e0cbcc71062e36b194ebda653dd819764b74dce"
+ },
+ "search": {
+  "fingerprint": "7816be41efa1efccf66d673c34ce36af84bc36f83de574ae2da9d139fee28788",
+  "text": "小猫找呀找。",
+  "file": "assets/audio/stories/kitten-mummy/search.m4a",
+  "speech": [
+   0.03,
+   1.38
+  ],
+  "speech_fingerprint": "7816be41efa1efccf66d673c34ce36af84bc36f83de574ae2da9d139fee28788"
+ },
+ "whereKitten": {
+  "fingerprint": "40468ed88c409c4f76d1dabcf0fec87f0b0630cb3ffd0eed283d6656dbc2aab4",
+  "text": "妈妈在哪里？",
+  "file": "assets/audio/stories/kitten-mummy/whereKitten.m4a",
+  "speech": [
+   0.01,
+   1.16
+  ],
+  "speech_fingerprint": "40468ed88c409c4f76d1dabcf0fec87f0b0630cb3ffd0eed283d6656dbc2aab4"
+ },
+ "hear": {
+  "fingerprint": "9633145b9621107bbc0ca68d5c3328c08ceed427651f9d5eb273fe8c4b88c6da",
+  "text": "小猫听见一个声音。",
+  "file": "assets/audio/stories/kitten-mummy/hear.m4a",
+  "speech": [
+   0.03,
+   2.17
+  ],
+  "speech_fingerprint": "9633145b9621107bbc0ca68d5c3328c08ceed427651f9d5eb273fe8c4b88c6da"
+ },
+ "meow": {
+  "fingerprint": "4451233ae11f7190482033e604597d3fa9ba0e2abe3bb0e01ff84b770dd9c1bd",
+  "text": "喵！喵！喵！",
+  "file": "assets/audio/stories/kitten-mummy/meow.m4a",
+  "speech": [
+   0.01,
+   1.88
+  ],
+  "speech_fingerprint": "4451233ae11f7190482033e604597d3fa9ba0e2abe3bb0e01ff84b770dd9c1bd"
+ },
+ "who": {
+  "fingerprint": "0e7e8c5c1d9eb29b9859d18846425f45df69ad5a302de7dadb75666fa3d1d3f6",
+  "text": "是谁在叫？",
+  "file": "assets/audio/stories/kitten-mummy/who.m4a",
+  "speech": [
+   0.03,
+   1.26
+  ],
+  "speech_fingerprint": "0e7e8c5c1d9eb29b9859d18846425f45df69ad5a302de7dadb75666fa3d1d3f6"
+ },
+ "run": {
+  "fingerprint": "4658cad0af58a8a50bf3cfb7d20503c33ba6c7c5c07fa017ff39b1c78671ce79",
+  "text": "小猫跑呀跑。",
+  "file": "assets/audio/stories/kitten-mummy/run.m4a",
+  "speech": [
+   0.03,
+   1.43
+  ],
+  "speech_fingerprint": "4658cad0af58a8a50bf3cfb7d20503c33ba6c7c5c07fa017ff39b1c78671ce79"
+ },
+ "seeCat": {
+  "fingerprint": "28f42e5f3dff87672c39ccd3a04bdd793a467e7613fa7162e11edf81ef5b25a8",
+  "text": "看见一只大猫。",
+  "file": "assets/audio/stories/kitten-mummy/seeCat.m4a",
+  "speech": [
+   0.04,
+   1.6
+  ],
+  "speech_fingerprint": "28f42e5f3dff87672c39ccd3a04bdd793a467e7613fa7162e11edf81ef5b25a8"
+ },
+ "baby": {
+  "fingerprint": "98f3109282a58cccf790a9188fc54ec9317a3d99c9258118e7910e704486d216",
+  "text": "我的小宝贝！",
+  "file": "assets/audio/stories/kitten-mummy/baby.m4a",
+  "speech": [
+   0.01,
+   1.2
+  ],
+  "speech_fingerprint": "98f3109282a58cccf790a9188fc54ec9317a3d99c9258118e7910e704486d216"
+ },
+ "hug": {
+  "fingerprint": "14230a06ac9050b14f9c8f4069dc0fd9037a0078bd33040d8ab2c99f50d80974",
+  "text": "妈妈，抱抱！",
+  "file": "assets/audio/stories/kitten-mummy/hug.m4a",
+  "speech": [
+   0.01,
+   1.4
+  ],
+  "speech_fingerprint": "14230a06ac9050b14f9c8f4069dc0fd9037a0078bd33040d8ab2c99f50d80974"
+ },
+ "found": {
+  "fingerprint": "bba3f1fbbd153942b4674a88f13c67db085a865ea4f7fd424a75ae8aa7307847",
+  "text": "小猫找到妈妈了！",
+  "file": "assets/audio/stories/kitten-mummy/found.m4a",
+  "speech": [
+   0.03,
+   1.76
+  ],
+  "speech_fingerprint": "bba3f1fbbd153942b4674a88f13c67db085a865ea4f7fd424a75ae8aa7307847"
+ },
+ "word-kitten": {
+  "fingerprint": "ed223cebb9576570a08c7986db19100c28b41fb7387636f5488480bc871001cb",
+  "text": "小猫",
+  "file": "assets/audio/stories/kitten-mummy/word-kitten.m4a",
+  "speech": [
+   0.03,
+   0.66
+  ],
+  "speech_fingerprint": "ed223cebb9576570a08c7986db19100c28b41fb7387636f5488480bc871001cb"
+ },
+ "word-mummy": {
+  "fingerprint": "fd56d43c90f4dd93114a23b35d74f4bb9c9252a1e920f631936407340bace277",
+  "text": "妈妈",
+  "file": "assets/audio/stories/kitten-mummy/word-mummy.m4a",
+  "speech": [
+   0.01,
+   0.52
+  ],
+  "speech_fingerprint": "fd56d43c90f4dd93114a23b35d74f4bb9c9252a1e920f631936407340bace277"
+ },
+ "word-puppy": {
+  "fingerprint": "9818b5f3c71b30f93adcdf5b41014cedba177ca4519736b8bc4b2a8aac4b7970",
+  "text": "小狗",
+  "file": "assets/audio/stories/kitten-mummy/word-puppy.m4a",
+  "speech": [
+   0.03,
+   0.71
+  ],
+  "speech_fingerprint": "9818b5f3c71b30f93adcdf5b41014cedba177ca4519736b8bc4b2a8aac4b7970"
+ },
+ "word-duckling": {
+  "fingerprint": "7d15232ba22a133c9481358b951928ef3fddc7ddd6e9c4cbdf33dc7f656dad69",
+  "text": "小鸭",
+  "file": "assets/audio/stories/kitten-mummy/word-duckling.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "7d15232ba22a133c9481358b951928ef3fddc7ddd6e9c4cbdf33dc7f656dad69"
+ },
+ "word-bunny": {
+  "fingerprint": "f51ebd1e991e3378074ffdaeab93c87bb71ba505d9919f4b722ce38891d66f75",
+  "text": "小兔",
+  "file": "assets/audio/stories/kitten-mummy/word-bunny.m4a",
+  "speech": [
+   0.03,
+   0.7
+  ],
+  "speech_fingerprint": "f51ebd1e991e3378074ffdaeab93c87bb71ba505d9919f4b722ce38891d66f75"
+ },
+ "word-find": {
+  "fingerprint": "cd22cd4fc497880ab535ef55c635ca89a8f3682e54be1e1ed3577d18bd85b775",
+  "text": "找",
+  "file": "assets/audio/stories/kitten-mummy/word-find.m4a",
+  "speech": [
+   0.01,
+   0.31
+  ],
+  "speech_fingerprint": "cd22cd4fc497880ab535ef55c635ca89a8f3682e54be1e1ed3577d18bd85b775"
+ },
+ "word-walk": {
+  "fingerprint": "3b35c371db41ecdaa7859e9baa6e7f03781241ac2ad339aea207a01efe1caab9",
+  "text": "走",
+  "file": "assets/audio/stories/kitten-mummy/word-walk.m4a",
+  "speech": [
+   0.06,
+   0.33
+  ],
+  "speech_fingerprint": "3b35c371db41ecdaa7859e9baa6e7f03781241ac2ad339aea207a01efe1caab9"
+ },
+ "word-run": {
+  "fingerprint": "c320be5dcc543e2a82cb32ce8e3ab8be3568b4de51524e6bd96132699ddce4cc",
+  "text": "跑",
+  "file": "assets/audio/stories/kitten-mummy/word-run.m4a",
+  "speech": [
+   0.04,
+   0.29
+  ],
+  "speech_fingerprint": "c320be5dcc543e2a82cb32ce8e3ab8be3568b4de51524e6bd96132699ddce4cc"
+ },
+ "snd-mew": {
+  "fingerprint": "b0025febf81c5dfcd6ea070b6622c50703d3d7b614c82c05a896fd11506f6020",
+  "text": "喵！",
+  "file": "assets/audio/stories/kitten-mummy/snd-mew.m4a",
+  "speech": [
+   0.01,
+   0.43
+  ],
+  "speech_fingerprint": "b0025febf81c5dfcd6ea070b6622c50703d3d7b614c82c05a896fd11506f6020"
+ },
+ "snd-woof": {
+  "fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715",
+  "text": "汪汪！",
+  "file": "assets/audio/stories/kitten-mummy/snd-woof.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715"
+ },
+ "snd-quack": {
+  "fingerprint": "c82c0631af918c1624780969585196a5781984be4b911bcbb96f8a3143d4ab3b",
+  "text": "嘎嘎！",
+  "file": "assets/audio/stories/kitten-mummy/snd-quack.m4a",
+  "speech": [
+   0.02,
+   0.49
+  ],
+  "speech_fingerprint": "c82c0631af918c1624780969585196a5781984be4b911bcbb96f8a3143d4ab3b"
+ },
+ "snd-giggle": {
+  "fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00",
+  "text": "嘻嘻！",
+  "file": "assets/audio/stories/kitten-mummy/snd-giggle.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00"
+ },
+ "snd-purr": {
+  "fingerprint": "570d916a02ea4d5b7494da610108af5e582a14a6e67cacf1b347633cac74af27",
+  "text": "喵呜！",
+  "file": "assets/audio/stories/kitten-mummy/snd-purr.m4a",
+  "speech": [
+   0.01,
+   0.55
+  ],
+  "speech_fingerprint": "570d916a02ea4d5b7494da610108af5e582a14a6e67cacf1b347633cac74af27"
+ }
+}

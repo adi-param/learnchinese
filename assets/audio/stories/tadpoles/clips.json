@@ -1,0 +1,392 @@
+{
+ "spring": {
+  "fingerprint": "275c38d1f6d3340ac73bc657740fa93e752e146e68b9dc2ba75f703cd6477e96",
+  "text": "春天来了，池塘里有一群小蝌蚪。",
+  "file": "assets/audio/stories/tadpoles/spring.m4a",
+  "speech": [
+   0.03,
+   4.02
+  ],
+  "speech_fingerprint": "275c38d1f6d3340ac73bc657740fa93e752e146e68b9dc2ba75f703cd6477e96"
+ },
+ "look": {
+  "fingerprint": "55489336cc757d03e988a2e51727faa3a743ca1ec1ff2530d861bacd0afca7e2",
+  "text": "大大的脑袋，黑黑的身子，长长的尾巴。",
+  "file": "assets/audio/stories/tadpoles/look.m4a",
+  "speech": [
+   0.01,
+   4.49
+  ],
+  "speech_fingerprint": "55489336cc757d03e988a2e51727faa3a743ca1ec1ff2530d861bacd0afca7e2"
+ },
+ "where": {
+  "fingerprint": "d3e807718c94569a1f666b9e3166510c0450dbac24a35344574d7bc484571e40",
+  "text": "我们的妈妈在哪里？",
+  "file": "assets/audio/stories/tadpoles/where.m4a",
+  "speech": [
+   0.01,
+   1.61
+  ],
+  "speech_fingerprint": "d3e807718c94569a1f666b9e3166510c0450dbac24a35344574d7bc484571e40"
+ },
+ "tapSwim": {
+  "fingerprint": "df3d634efb640605da64a6a63b44a7a3f513516641a3d78f687dd9dc986271fb",
+  "text": "游呀游！",
+  "file": "assets/audio/stories/tadpoles/tapSwim.m4a",
+  "speech": [
+   0.01,
+   0.78
+  ],
+  "speech_fingerprint": "df3d634efb640605da64a6a63b44a7a3f513516641a3d78f687dd9dc986271fb"
+ },
+ "seeDuck": {
+  "fingerprint": "d3d1c7dfa13d6cc5d3b937198457d54bc96f6af1a25329d6a0893317ec39f772",
+  "text": "小蝌蚪看见了鸭妈妈。",
+  "file": "assets/audio/stories/tadpoles/seeDuck.m4a",
+  "speech": [
+   0.03,
+   2.35
+  ],
+  "speech_fingerprint": "d3d1c7dfa13d6cc5d3b937198457d54bc96f6af1a25329d6a0893317ec39f772"
+ },
+ "seeFish": {
+  "fingerprint": "e3eafbf646e2fbe2f6e011cad4b119edbd73690653599a9e46146d755bbada92",
+  "text": "小蝌蚪看见了大鱼。",
+  "file": "assets/audio/stories/tadpoles/seeFish.m4a",
+  "speech": [
+   0.03,
+   2.13
+  ],
+  "speech_fingerprint": "e3eafbf646e2fbe2f6e011cad4b119edbd73690653599a9e46146d755bbada92"
+ },
+ "seeTurtle": {
+  "fingerprint": "19e70b99ed5a96e46248072fb6311e310bd8aa2fea4388d20481e2923bc147f8",
+  "text": "小蝌蚪看见了乌龟。",
+  "file": "assets/audio/stories/tadpoles/seeTurtle.m4a",
+  "speech": [
+   0.03,
+   2.18
+  ],
+  "speech_fingerprint": "19e70b99ed5a96e46248072fb6311e310bd8aa2fea4388d20481e2923bc147f8"
+ },
+ "ask": {
+  "fingerprint": "6912f460f7161e43c1b3f3eb11e81e2358e63bf386cd84564d1216028cb4ce60",
+  "text": "你是我们的妈妈吗？",
+  "file": "assets/audio/stories/tadpoles/ask.m4a",
+  "speech": [
+   0.01,
+   1.62
+  ],
+  "speech_fingerprint": "6912f460f7161e43c1b3f3eb11e81e2358e63bf386cd84564d1216028cb4ce60"
+ },
+ "duckNo": {
+  "fingerprint": "bf6c7f446798e3bcd29d60aeecfdca38b8e320c486c207a547c7b4b94e2fd49c",
+  "text": "不是。你们的妈妈有两只大眼睛。",
+  "file": "assets/audio/stories/tadpoles/duckNo.m4a",
+  "speech": [
+   0.02,
+   3.36
+  ],
+  "speech_fingerprint": "bf6c7f446798e3bcd29d60aeecfdca38b8e320c486c207a547c7b4b94e2fd49c"
+ },
+ "fishNo": {
+  "fingerprint": "29d9e5b78127c316c838c03b1e3dc40ba31112ed9080f8aca1329f641b0acb3e",
+  "text": "不是。你们的妈妈有白白的肚子。",
+  "file": "assets/audio/stories/tadpoles/fishNo.m4a",
+  "speech": [
+   0.02,
+   3.01
+  ],
+  "speech_fingerprint": "29d9e5b78127c316c838c03b1e3dc40ba31112ed9080f8aca1329f641b0acb3e"
+ },
+ "turtleNo": {
+  "fingerprint": "471299545301546e141a6801a7090ac4392e250e1a393b8e88bf1ca20f3a68b2",
+  "text": "不是。你们的妈妈有四条腿。",
+  "file": "assets/audio/stories/tadpoles/turtleNo.m4a",
+  "speech": [
+   0.02,
+   2.95
+  ],
+  "speech_fingerprint": "471299545301546e141a6801a7090ac4392e250e1a393b8e88bf1ca20f3a68b2"
+ },
+ "thanks": {
+  "fingerprint": "1889168c501bdb35624df3eb59f7ff4f3afb7009a4f33faa7afe387452e22623",
+  "text": "谢谢！",
+  "file": "assets/audio/stories/tadpoles/thanks.m4a",
+  "speech": [
+   0.03,
+   0.65
+  ],
+  "speech_fingerprint": "1889168c501bdb35624df3eb59f7ff4f3afb7009a4f33faa7afe387452e22623"
+ },
+ "frog": {
+  "fingerprint": "7e87e34d2afff1bfa3cfca6e8d925d557c118881ca95ae4b35a3e2505d5dd145",
+  "text": "荷叶上坐着一只大青蛙。",
+  "file": "assets/audio/stories/tadpoles/frog.m4a",
+  "speech": [
+   0.09,
+   2.73
+  ],
+  "speech_fingerprint": "7e87e34d2afff1bfa3cfca6e8d925d557c118881ca95ae4b35a3e2505d5dd145"
+ },
+ "sing": {
+  "fingerprint": "95d99c9c11e765109bdd24b0b689e5c3e46afa7949f3e78aeb4c8541fd0ecf46",
+  "text": "呱呱呱！",
+  "file": "assets/audio/stories/tadpoles/sing.m4a",
+  "speech": [
+   0.03,
+   0.88
+  ],
+  "speech_fingerprint": "95d99c9c11e765109bdd24b0b689e5c3e46afa7949f3e78aeb4c8541fd0ecf46"
+ },
+ "tapFrog": {
+  "fingerprint": "239615442864ff66d787a3f1b1ba02ee4dc9ba6e0bcf137f115fbd0e7f89da4f",
+  "text": "谁有大眼睛、白肚子、四条腿？",
+  "file": "assets/audio/stories/tadpoles/tapFrog.m4a",
+  "speech": [
+   0.03,
+   4.03
+  ],
+  "speech_fingerprint": "239615442864ff66d787a3f1b1ba02ee4dc9ba6e0bcf137f115fbd0e7f89da4f"
+ },
+ "mummy": {
+  "fingerprint": "a8b059010679f2836090af757fe1d271d87b7553bc3f3fe2b133b5d3153ed46a",
+  "text": "妈妈！妈妈！",
+  "file": "assets/audio/stories/tadpoles/mummy.m4a",
+  "speech": [
+   0.01,
+   1.3
+  ],
+  "speech_fingerprint": "a8b059010679f2836090af757fe1d271d87b7553bc3f3fe2b133b5d3153ed46a"
+ },
+ "children": {
+  "fingerprint": "13ba1aa47f78b43803c89e5a396c8430929e601573b496b41033d0260920377e",
+  "text": "孩子们，我就是你们的妈妈！",
+  "file": "assets/audio/stories/tadpoles/children.m4a",
+  "speech": [
+   0.06,
+   2.85
+  ],
+  "speech_fingerprint": "13ba1aa47f78b43803c89e5a396c8430929e601573b496b41033d0260920377e"
+ },
+ "grow": {
+  "fingerprint": "63e9b4c83a7011d3fad56721bcaf8337b14b7a3dde786fade0307704be9ef5ee",
+  "text": "小蝌蚪长呀长。",
+  "file": "assets/audio/stories/tadpoles/grow.m4a",
+  "speech": [
+   0.03,
+   1.8
+  ],
+  "speech_fingerprint": "63e9b4c83a7011d3fad56721bcaf8337b14b7a3dde786fade0307704be9ef5ee"
+ },
+ "tapGrow": {
+  "fingerprint": "e57cb4df7c65d596c559689d5c627a7587aa4ed042ed22ae1d0f0c941db6faf1",
+  "text": "点一点小蝌蚪！",
+  "file": "assets/audio/stories/tadpoles/tapGrow.m4a",
+  "speech": [
+   0.01,
+   1.69
+  ],
+  "speech_fingerprint": "e57cb4df7c65d596c559689d5c627a7587aa4ed042ed22ae1d0f0c941db6faf1"
+ },
+ "legs": {
+  "fingerprint": "e287f8fb0db474bbe7899920a0eb0bc36479a5d560051bc24ec975e6bd83547c",
+  "text": "长出了两条后腿。",
+  "file": "assets/audio/stories/tadpoles/legs.m4a",
+  "speech": [
+   0.02,
+   2.14
+  ],
+  "speech_fingerprint": "e287f8fb0db474bbe7899920a0eb0bc36479a5d560051bc24ec975e6bd83547c"
+ },
+ "front": {
+  "fingerprint": "228002bea47d7087110dcb8341e533ab83db903ab75d19d8a341bcf4eebf2fb8",
+  "text": "又长出了两条前腿。",
+  "file": "assets/audio/stories/tadpoles/front.m4a",
+  "speech": [
+   0.01,
+   2.52
+  ],
+  "speech_fingerprint": "228002bea47d7087110dcb8341e533ab83db903ab75d19d8a341bcf4eebf2fb8"
+ },
+ "tail": {
+  "fingerprint": "d485db983125e4e0801dcebb7d29e66b94b980f88a8e861e6e23b3ca447b2762",
+  "text": "尾巴不见了！",
+  "file": "assets/audio/stories/tadpoles/tail.m4a",
+  "speech": [
+   0.01,
+   1.21
+  ],
+  "speech_fingerprint": "d485db983125e4e0801dcebb7d29e66b94b980f88a8e861e6e23b3ca447b2762"
+ },
+ "frogs": {
+  "fingerprint": "0e5c5fc27623301badff12883b4c22b059b3c2b0a96d436919d861b4d59173ae",
+  "text": "小蝌蚪变成了小青蛙！",
+  "file": "assets/audio/stories/tadpoles/frogs.m4a",
+  "speech": [
+   0.03,
+   2.61
+  ],
+  "speech_fingerprint": "0e5c5fc27623301badff12883b4c22b059b3c2b0a96d436919d861b4d59173ae"
+ },
+ "ribbit": {
+  "fingerprint": "95d99c9c11e765109bdd24b0b689e5c3e46afa7949f3e78aeb4c8541fd0ecf46",
+  "text": "呱呱呱！",
+  "file": "assets/audio/stories/tadpoles/ribbit.m4a",
+  "speech": [
+   0.03,
+   0.88
+  ],
+  "speech_fingerprint": "95d99c9c11e765109bdd24b0b689e5c3e46afa7949f3e78aeb4c8541fd0ecf46"
+ },
+ "word-tadpole": {
+  "fingerprint": "a0f23552224c151455a5b5dc36ce4e29ea1d846cdfefee9129c15c5a24999ace",
+  "text": "小蝌蚪",
+  "file": "assets/audio/stories/tadpoles/word-tadpole.m4a",
+  "speech": [
+   0.03,
+   0.93
+  ],
+  "speech_fingerprint": "a0f23552224c151455a5b5dc36ce4e29ea1d846cdfefee9129c15c5a24999ace"
+ },
+ "word-mummy": {
+  "fingerprint": "fd56d43c90f4dd93114a23b35d74f4bb9c9252a1e920f631936407340bace277",
+  "text": "妈妈",
+  "file": "assets/audio/stories/tadpoles/word-mummy.m4a",
+  "speech": [
+   0.01,
+   0.52
+  ],
+  "speech_fingerprint": "fd56d43c90f4dd93114a23b35d74f4bb9c9252a1e920f631936407340bace277"
+ },
+ "word-frog": {
+  "fingerprint": "a821dec2307f3733c6843ca6f8e18de847b733882e40f5b0ebf15abcbb19d458",
+  "text": "青蛙",
+  "file": "assets/audio/stories/tadpoles/word-frog.m4a",
+  "speech": [
+   0.03,
+   0.61
+  ],
+  "speech_fingerprint": "a821dec2307f3733c6843ca6f8e18de847b733882e40f5b0ebf15abcbb19d458"
+ },
+ "word-duck": {
+  "fingerprint": "e5ac568364bb5b8438e0e13ccb9e3f0dc5721bb72e241d7583929f1aee6cf9c0",
+  "text": "鸭子",
+  "file": "assets/audio/stories/tadpoles/word-duck.m4a",
+  "speech": [
+   0.01,
+   0.47
+  ],
+  "speech_fingerprint": "e5ac568364bb5b8438e0e13ccb9e3f0dc5721bb72e241d7583929f1aee6cf9c0"
+ },
+ "word-fish": {
+  "fingerprint": "5a2076bed1fb221e0cd45489ff7a7ab5577fdf321e43db38ff7fbf1af854cce9",
+  "text": "鱼",
+  "file": "assets/audio/stories/tadpoles/word-fish.m4a",
+  "speech": [
+   0.01,
+   0.29
+  ],
+  "speech_fingerprint": "5a2076bed1fb221e0cd45489ff7a7ab5577fdf321e43db38ff7fbf1af854cce9"
+ },
+ "word-turtle": {
+  "fingerprint": "bdf953d440882e40b6b852a6241c26404c9652f23e5df6d6ae3df04758710958",
+  "text": "乌龟",
+  "file": "assets/audio/stories/tadpoles/word-turtle.m4a",
+  "speech": [
+   0.01,
+   0.53
+  ],
+  "speech_fingerprint": "bdf953d440882e40b6b852a6241c26404c9652f23e5df6d6ae3df04758710958"
+ },
+ "word-eyes": {
+  "fingerprint": "028e59d52c35d308b9c942be4e65421f2239a361aceaadaf54b1b69102b547ec",
+  "text": "眼睛",
+  "file": "assets/audio/stories/tadpoles/word-eyes.m4a",
+  "speech": [
+   0.01,
+   0.65
+  ],
+  "speech_fingerprint": "028e59d52c35d308b9c942be4e65421f2239a361aceaadaf54b1b69102b547ec"
+ },
+ "word-tummy": {
+  "fingerprint": "38c79305e398ee23086f06a3e75de35ef1b936251d05860fc074c156e9bf89c1",
+  "text": "肚子",
+  "file": "assets/audio/stories/tadpoles/word-tummy.m4a",
+  "speech": [
+   0.01,
+   0.46
+  ],
+  "speech_fingerprint": "38c79305e398ee23086f06a3e75de35ef1b936251d05860fc074c156e9bf89c1"
+ },
+ "word-legs": {
+  "fingerprint": "f4b3a700809de3605cfdd092571d4424596041b04c41324c46e7d883ad93dae5",
+  "text": "腿",
+  "file": "assets/audio/stories/tadpoles/word-legs.m4a",
+  "speech": [
+   0.09,
+   0.36
+  ],
+  "speech_fingerprint": "f4b3a700809de3605cfdd092571d4424596041b04c41324c46e7d883ad93dae5"
+ },
+ "word-tail": {
+  "fingerprint": "d8cfdff8c2aa14797adfde08cc8e1a42d773bcab9aee09d39010d79364f437d3",
+  "text": "尾巴",
+  "file": "assets/audio/stories/tadpoles/word-tail.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "d8cfdff8c2aa14797adfde08cc8e1a42d773bcab9aee09d39010d79364f437d3"
+ },
+ "word-swim": {
+  "fingerprint": "39edbfc41863728081d579f4451905fc427c7714df8b815fa38d75f942656183",
+  "text": "游",
+  "file": "assets/audio/stories/tadpoles/word-swim.m4a",
+  "speech": [
+   0.01,
+   0.36
+  ],
+  "speech_fingerprint": "39edbfc41863728081d579f4451905fc427c7714df8b815fa38d75f942656183"
+ },
+ "snd-bubble": {
+  "fingerprint": "02dc7bb6437d4ca450c5ffa93df9c71865cf2b3e6b8a405e8add029a42ab6657",
+  "text": "啵！",
+  "file": "assets/audio/stories/tadpoles/snd-bubble.m4a",
+  "speech": [
+   0.0,
+   0.27
+  ],
+  "speech_fingerprint": "02dc7bb6437d4ca450c5ffa93df9c71865cf2b3e6b8a405e8add029a42ab6657"
+ },
+ "snd-quack": {
+  "fingerprint": "c82c0631af918c1624780969585196a5781984be4b911bcbb96f8a3143d4ab3b",
+  "text": "嘎嘎！",
+  "file": "assets/audio/stories/tadpoles/snd-quack.m4a",
+  "speech": [
+   0.02,
+   0.49
+  ],
+  "speech_fingerprint": "c82c0631af918c1624780969585196a5781984be4b911bcbb96f8a3143d4ab3b"
+ },
+ "snd-ribbitMum": {
+  "fingerprint": "2e9c55c5f505d0962fc4c5cf159829f757aa17c3710e61761d05091d72bef34d",
+  "text": "呱！",
+  "file": "assets/audio/stories/tadpoles/snd-ribbitMum.m4a",
+  "speech": [
+   0.03,
+   0.32
+  ],
+  "speech_fingerprint": "2e9c55c5f505d0962fc4c5cf159829f757aa17c3710e61761d05091d72bef34d"
+ },
+ "snd-hm": {
+  "fingerprint": "9b697f86c7f3e2b25933ab6bd3160565939790e743796ade088676aa4271813e",
+  "text": "嗯——",
+  "file": "assets/audio/stories/tadpoles/snd-hm.m4a",
+  "speech": [
+   0.02,
+   0.26
+  ],
+  "speech_fingerprint": "9b697f86c7f3e2b25933ab6bd3160565939790e743796ade088676aa4271813e"
+ }
+}

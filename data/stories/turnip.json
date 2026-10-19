@@ -1,0 +1,407 @@
+{
+  "id": "turnip",
+  "title": "拔萝卜",
+  "english": "Let’s pull out the turnip",
+  "voices": {
+    "grandpa": {
+      "rate": 0.8,
+      "keep": false,
+      "tint": "#e8eef5"
+    },
+    "grandma": {
+      "rate": 0.9,
+      "keep": false,
+      "tint": "#f3e8ff"
+    },
+    "girl": {
+      "rate": 1.15,
+      "keep": false,
+      "tint": "#ffe1ef"
+    },
+    "dog": {
+      "rate": 0.95,
+      "keep": false,
+      "tint": "#f6ead3"
+    },
+    "cat": {
+      "rate": 1.1,
+      "keep": false,
+      "tint": "#fff2e0"
+    },
+    "mouse": {
+      "rate": 1.35,
+      "keep": false,
+      "tint": "#eceaf2"
+    },
+    "all": {
+      "rate": 1.0,
+      "keep": true,
+      "tint": "#fff2cc"
+    }
+  },
+  "lines": {
+    "plant": {
+      "speaker": "narrator",
+      "hanzi": "老爷爷种了一个萝卜。",
+      "pinyin": "Lǎo yéye zhòng le yí gè luóbo.",
+      "english": "Grandpa planted a turnip.",
+      "cues": [
+        [
+          "老爷爷",
+          "grandpa"
+        ],
+        [
+          "萝卜",
+          "turnip"
+        ]
+      ]
+    },
+    "tapWater": {
+      "speaker": "narrator",
+      "hanzi": "浇浇水！",
+      "pinyin": "Jiāojiao shuǐ!",
+      "english": "Water it!",
+      "cues": [
+        [
+          "水",
+          "can"
+        ]
+      ]
+    },
+    "grow": {
+      "speaker": "narrator",
+      "hanzi": "萝卜长呀长，长得好大好大！",
+      "pinyin": "Luóbo zhǎng ya zhǎng, zhǎng de hǎo dà hǎo dà!",
+      "english": "The turnip grew and grew, very very big!",
+      "cues": [
+        [
+          "萝卜",
+          "turnip"
+        ]
+      ]
+    },
+    "pullGrandpa": {
+      "speaker": "narrator",
+      "hanzi": "老爷爷来拔萝卜。",
+      "pinyin": "Lǎo yéye lái bá luóbo.",
+      "english": "Grandpa comes to pull up the turnip.",
+      "cues": [
+        [
+          "老爷爷",
+          "grandpa"
+        ],
+        [
+          "萝卜",
+          "turnip"
+        ]
+      ]
+    },
+    "tapPull": {
+      "speaker": "narrator",
+      "hanzi": "拔萝卜！",
+      "pinyin": "Bá luóbo!",
+      "english": "Pull the turnip!",
+      "cues": [
+        [
+          "萝卜",
+          "turnip"
+        ]
+      ]
+    },
+    "heave": {
+      "speaker": "all",
+      "hanzi": "嗨哟，嗨哟，拔不动！",
+      "pinyin": "Hāiyō, hāiyō, bá bú dòng!",
+      "english": "Heave-ho, heave-ho, it won’t budge!",
+      "cues": [
+        [
+          "嗨哟",
+          "turnip"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "callGrandma": {
+      "speaker": "grandpa",
+      "hanzi": "老奶奶，快来帮忙！",
+      "pinyin": "Lǎo nǎinai, kuài lái bāngmáng!",
+      "english": "Grandma, come and help!",
+      "cues": [
+        [
+          "老奶奶",
+          "grandma"
+        ]
+      ]
+    },
+    "callGirl": {
+      "speaker": "grandma",
+      "hanzi": "小姑娘，快来帮忙！",
+      "pinyin": "Xiǎo gūniang, kuài lái bāngmáng!",
+      "english": "Little girl, come and help!",
+      "cues": [
+        [
+          "小姑娘",
+          "girl"
+        ]
+      ]
+    },
+    "callDog": {
+      "speaker": "girl",
+      "hanzi": "小狗，快来帮忙！",
+      "pinyin": "Xiǎo gǒu, kuài lái bāngmáng!",
+      "english": "Puppy, come and help!",
+      "cues": [
+        [
+          "小狗",
+          "dog"
+        ]
+      ]
+    },
+    "callCat": {
+      "speaker": "dog",
+      "hanzi": "小猫，快来帮忙！",
+      "pinyin": "Xiǎo māo, kuài lái bāngmáng!",
+      "english": "Kitten, come and help!",
+      "cues": [
+        [
+          "小猫",
+          "cat"
+        ]
+      ]
+    },
+    "callMouse": {
+      "speaker": "cat",
+      "hanzi": "小老鼠，快来帮忙！",
+      "pinyin": "Xiǎo lǎoshǔ, kuài lái bāngmáng!",
+      "english": "Little mouse, come and help!",
+      "cues": [
+        [
+          "小老鼠",
+          "mouse"
+        ]
+      ]
+    },
+    "tapHelper": {
+      "speaker": "narrator",
+      "hanzi": "点一点，快来帮忙！",
+      "pinyin": "Diǎn yi diǎn, kuài lái bāngmáng!",
+      "english": "Tap, come and help!",
+      "cues": [
+        [
+          "帮忙",
+          "helper"
+        ]
+      ]
+    },
+    "comeGrandma": {
+      "speaker": "narrator",
+      "hanzi": "老奶奶来了。",
+      "pinyin": "Lǎo nǎinai lái le.",
+      "english": "Here comes Grandma.",
+      "cues": [
+        [
+          "老奶奶",
+          "grandma"
+        ]
+      ]
+    },
+    "comeGirl": {
+      "speaker": "narrator",
+      "hanzi": "小姑娘来了。",
+      "pinyin": "Xiǎo gūniang lái le.",
+      "english": "Here comes the little girl.",
+      "cues": [
+        [
+          "小姑娘",
+          "girl"
+        ]
+      ]
+    },
+    "comeDog": {
+      "speaker": "narrator",
+      "hanzi": "小狗来了。",
+      "pinyin": "Xiǎo gǒu lái le.",
+      "english": "Here comes the puppy.",
+      "cues": [
+        [
+          "小狗",
+          "dog"
+        ]
+      ]
+    },
+    "comeCat": {
+      "speaker": "narrator",
+      "hanzi": "小猫来了。",
+      "pinyin": "Xiǎo māo lái le.",
+      "english": "Here comes the kitten.",
+      "cues": [
+        [
+          "小猫",
+          "cat"
+        ]
+      ]
+    },
+    "comeMouse": {
+      "speaker": "narrator",
+      "hanzi": "小老鼠也来了！",
+      "pinyin": "Xiǎo lǎoshǔ yě lái le!",
+      "english": "The little mouse comes too!",
+      "cues": [
+        [
+          "小老鼠",
+          "mouse"
+        ]
+      ]
+    },
+    "still": {
+      "speaker": "all",
+      "hanzi": "嗨哟，嗨哟，还是拔不动！",
+      "pinyin": "Hāiyō, hāiyō, háishi bá bú dòng!",
+      "english": "Heave-ho, heave-ho, it still won’t budge!",
+      "cues": [
+        [
+          "嗨哟",
+          "turnip"
+        ]
+      ]
+    },
+    "heaveLast": {
+      "speaker": "all",
+      "hanzi": "嗨哟！嗨哟！",
+      "pinyin": "Hāiyō! Hāiyō!",
+      "english": "Heave-ho! Heave-ho!",
+      "cues": [
+        [
+          "嗨哟",
+          "turnip"
+        ]
+      ]
+    },
+    "out": {
+      "speaker": "narrator",
+      "hanzi": "拔出来了！",
+      "pinyin": "Bá chūlái le!",
+      "english": "It’s out!",
+      "cues": [
+        [
+          "拔",
+          "turnip"
+        ]
+      ]
+    },
+    "tumble": {
+      "speaker": "narrator",
+      "hanzi": "大家都摔倒了，哈哈哈！",
+      "pinyin": "Dàjiā dōu shuāidǎo le, hāhāhā!",
+      "english": "Everyone tumbles over, ha ha ha!",
+      "cues": [
+        [
+          "大家",
+          "helper"
+        ]
+      ]
+    },
+    "eat": {
+      "speaker": "narrator",
+      "hanzi": "大家一起吃萝卜！",
+      "pinyin": "Dàjiā yìqǐ chī luóbo!",
+      "english": "Everyone eats the turnip together!",
+      "cues": [
+        [
+          "萝卜",
+          "turnip"
+        ]
+      ]
+    },
+    "sweet": {
+      "speaker": "all",
+      "hanzi": "真甜！",
+      "pinyin": "Zhēn tián!",
+      "english": "So sweet!",
+      "cues": [
+        [
+          "甜",
+          "turnip"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "turnip",
+      "hanzi": "萝卜",
+      "pinyin": "luóbo",
+      "english": "turnip"
+    },
+    {
+      "id": "pull",
+      "hanzi": "拔",
+      "pinyin": "bá",
+      "english": "to pull up"
+    },
+    {
+      "id": "grandpa",
+      "hanzi": "爷爷",
+      "pinyin": "yéye",
+      "english": "grandpa"
+    },
+    {
+      "id": "grandma",
+      "hanzi": "奶奶",
+      "pinyin": "nǎinai",
+      "english": "grandma"
+    },
+    {
+      "id": "girl",
+      "hanzi": "小姑娘",
+      "pinyin": "xiǎo gūniang",
+      "english": "little girl"
+    },
+    {
+      "id": "dog",
+      "hanzi": "小狗",
+      "pinyin": "xiǎo gǒu",
+      "english": "puppy"
+    },
+    {
+      "id": "cat",
+      "hanzi": "小猫",
+      "pinyin": "xiǎo māo",
+      "english": "kitten"
+    },
+    {
+      "id": "mouse",
+      "hanzi": "小老鼠",
+      "pinyin": "xiǎo lǎoshǔ",
+      "english": "little mouse"
+    },
+    {
+      "id": "help",
+      "hanzi": "帮忙",
+      "pinyin": "bāngmáng",
+      "english": "to help"
+    }
+  ],
+  "sounds": {
+    "hmm": {
+      "speaker": "grandpa",
+      "hanzi": "嗯！"
+    },
+    "woof": {
+      "speaker": "dog",
+      "hanzi": "汪汪！"
+    },
+    "mew": {
+      "speaker": "cat",
+      "hanzi": "喵！"
+    },
+    "squeak": {
+      "speaker": "mouse",
+      "hanzi": "吱吱！"
+    },
+    "giggle": {
+      "speaker": "girl",
+      "hanzi": "嘻嘻！"
+    }
+  }
+}

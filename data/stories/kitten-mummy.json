@@ -1,0 +1,377 @@
+{
+  "id": "kitten-mummy",
+  "title": "小猫找妈妈",
+  "english": "Little kitten looks for mummy",
+  "voices": {
+    "kitten": {
+      "rate": 1.22,
+      "keep": false,
+      "tint": "#fff2e0"
+    },
+    "dog": {
+      "rate": 0.92,
+      "keep": false,
+      "tint": "#f6ead3"
+    },
+    "duck": {
+      "rate": 1.15,
+      "keep": false,
+      "tint": "#fff6c8"
+    },
+    "rabbit": {
+      "rate": 1.18,
+      "keep": false,
+      "tint": "#ffe9ef"
+    },
+    "mum": {
+      "rate": 0.86,
+      "keep": false,
+      "tint": "#ffe7d6"
+    }
+  },
+  "lines": {
+    "wake": {
+      "speaker": "narrator",
+      "hanzi": "小猫醒来了。",
+      "pinyin": "Xiǎo māo xǐng lái le.",
+      "english": "The kitten wakes up.",
+      "cues": [
+        [
+          "小猫",
+          "kitten"
+        ]
+      ]
+    },
+    "callMum": {
+      "speaker": "kitten",
+      "hanzi": "妈妈！妈妈！",
+      "pinyin": "Māma! Māma!",
+      "english": "Mummy! Mummy!",
+      "cues": [
+        [
+          "妈妈",
+          "kitten"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "where": {
+      "speaker": "narrator",
+      "hanzi": "妈妈在哪里？",
+      "pinyin": "Māma zài nǎlǐ?",
+      "english": "Where is Mummy?",
+      "cues": [
+        [
+          "妈妈",
+          "kitten"
+        ]
+      ]
+    },
+    "walk": {
+      "speaker": "narrator",
+      "hanzi": "小猫走呀走。",
+      "pinyin": "Xiǎo māo zǒu ya zǒu.",
+      "english": "The kitten walks and walks.",
+      "cues": [
+        [
+          "小猫",
+          "kitten"
+        ]
+      ]
+    },
+    "tapKitten": {
+      "speaker": "narrator",
+      "hanzi": "点一点小猫！",
+      "pinyin": "Diǎn yi diǎn xiǎo māo!",
+      "english": "Tap the kitten!",
+      "cues": [
+        [
+          "小猫",
+          "kitten"
+        ]
+      ]
+    },
+    "seeDog": {
+      "speaker": "narrator",
+      "hanzi": "看见一只小狗。",
+      "pinyin": "Kànjiàn yì zhī xiǎo gǒu.",
+      "english": "It sees a puppy.",
+      "cues": [
+        [
+          "小狗",
+          "dog"
+        ]
+      ]
+    },
+    "seeDuck": {
+      "speaker": "narrator",
+      "hanzi": "看见一只小鸭。",
+      "pinyin": "Kànjiàn yì zhī xiǎo yā.",
+      "english": "It sees a duckling.",
+      "cues": [
+        [
+          "小鸭",
+          "duck"
+        ]
+      ]
+    },
+    "seeRabbit": {
+      "speaker": "narrator",
+      "hanzi": "看见一只小兔。",
+      "pinyin": "Kànjiàn yì zhī xiǎo tù.",
+      "english": "It sees a bunny.",
+      "cues": [
+        [
+          "小兔",
+          "rabbit"
+        ]
+      ]
+    },
+    "ask": {
+      "speaker": "kitten",
+      "hanzi": "你是我的妈妈吗？",
+      "pinyin": "Nǐ shì wǒ de māma ma?",
+      "english": "Are you my mummy?",
+      "cues": [
+        [
+          "你",
+          "friend"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "noDog": {
+      "speaker": "dog",
+      "hanzi": "不是，不是！",
+      "pinyin": "Bú shì, bú shì!",
+      "english": "No, I’m not!",
+      "cues": [
+        [
+          "不是",
+          "dog"
+        ]
+      ]
+    },
+    "noDuck": {
+      "speaker": "duck",
+      "hanzi": "不是，不是！",
+      "pinyin": "Bú shì, bú shì!",
+      "english": "No, I’m not!",
+      "cues": [
+        [
+          "不是",
+          "duck"
+        ]
+      ]
+    },
+    "noRabbit": {
+      "speaker": "rabbit",
+      "hanzi": "不是，不是！",
+      "pinyin": "Bú shì, bú shì!",
+      "english": "No, I’m not!",
+      "cues": [
+        [
+          "不是",
+          "rabbit"
+        ]
+      ]
+    },
+    "search": {
+      "speaker": "narrator",
+      "hanzi": "小猫找呀找。",
+      "pinyin": "Xiǎo māo zhǎo ya zhǎo.",
+      "english": "The kitten looks and looks.",
+      "cues": [
+        [
+          "小猫",
+          "kitten"
+        ]
+      ]
+    },
+    "whereKitten": {
+      "speaker": "kitten",
+      "hanzi": "妈妈在哪里？",
+      "pinyin": "Māma zài nǎlǐ?",
+      "english": "Where is Mummy?",
+      "cues": [
+        [
+          "妈妈",
+          "kitten"
+        ]
+      ]
+    },
+    "hear": {
+      "speaker": "narrator",
+      "hanzi": "小猫听见一个声音。",
+      "pinyin": "Xiǎo māo tīngjiàn yí gè shēngyīn.",
+      "english": "The kitten hears a sound.",
+      "cues": [
+        [
+          "声音",
+          "bush"
+        ]
+      ]
+    },
+    "meow": {
+      "speaker": "mum",
+      "hanzi": "喵！喵！喵！",
+      "pinyin": "Miāo! Miāo! Miāo!",
+      "english": "Meow! Meow! Meow!",
+      "cues": [
+        [
+          "喵",
+          "bush"
+        ]
+      ]
+    },
+    "who": {
+      "speaker": "narrator",
+      "hanzi": "是谁在叫？",
+      "pinyin": "Shì shéi zài jiào?",
+      "english": "Who is calling?",
+      "cues": [
+        [
+          "谁",
+          "bush"
+        ]
+      ]
+    },
+    "run": {
+      "speaker": "narrator",
+      "hanzi": "小猫跑呀跑。",
+      "pinyin": "Xiǎo māo pǎo ya pǎo.",
+      "english": "The kitten runs and runs.",
+      "cues": [
+        [
+          "小猫",
+          "kitten"
+        ]
+      ]
+    },
+    "seeCat": {
+      "speaker": "narrator",
+      "hanzi": "看见一只大猫。",
+      "pinyin": "Kànjiàn yì zhī dà māo.",
+      "english": "It sees a big cat.",
+      "cues": [
+        [
+          "大猫",
+          "mum"
+        ]
+      ]
+    },
+    "baby": {
+      "speaker": "mum",
+      "hanzi": "我的小宝贝！",
+      "pinyin": "Wǒ de xiǎo bǎobèi!",
+      "english": "My little baby!",
+      "cues": [
+        [
+          "小宝贝",
+          "kitten"
+        ]
+      ]
+    },
+    "hug": {
+      "speaker": "kitten",
+      "hanzi": "妈妈，抱抱！",
+      "pinyin": "Māma, bàobao!",
+      "english": "Mummy, a hug!",
+      "cues": [
+        [
+          "抱抱",
+          "mum"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "found": {
+      "speaker": "narrator",
+      "hanzi": "小猫找到妈妈了！",
+      "pinyin": "Xiǎo māo zhǎodào māma le!",
+      "english": "The kitten found its mummy!",
+      "cues": [
+        [
+          "小猫",
+          "kitten"
+        ],
+        [
+          "妈妈",
+          "mum"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "kitten",
+      "hanzi": "小猫",
+      "pinyin": "xiǎo māo",
+      "english": "kitten"
+    },
+    {
+      "id": "mummy",
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "english": "mummy"
+    },
+    {
+      "id": "puppy",
+      "hanzi": "小狗",
+      "pinyin": "xiǎo gǒu",
+      "english": "puppy"
+    },
+    {
+      "id": "duckling",
+      "hanzi": "小鸭",
+      "pinyin": "xiǎo yā",
+      "english": "duckling"
+    },
+    {
+      "id": "bunny",
+      "hanzi": "小兔",
+      "pinyin": "xiǎo tù",
+      "english": "bunny"
+    },
+    {
+      "id": "find",
+      "hanzi": "找",
+      "pinyin": "zhǎo",
+      "english": "to look for"
+    },
+    {
+      "id": "walk",
+      "hanzi": "走",
+      "pinyin": "zǒu",
+      "english": "to walk"
+    },
+    {
+      "id": "run",
+      "hanzi": "跑",
+      "pinyin": "pǎo",
+      "english": "to run"
+    }
+  ],
+  "sounds": {
+    "mew": {
+      "speaker": "kitten",
+      "hanzi": "喵！"
+    },
+    "woof": {
+      "speaker": "dog",
+      "hanzi": "汪汪！"
+    },
+    "quack": {
+      "speaker": "duck",
+      "hanzi": "嘎嘎！"
+    },
+    "giggle": {
+      "speaker": "rabbit",
+      "hanzi": "嘻嘻！"
+    },
+    "purr": {
+      "speaker": "mum",
+      "hanzi": "喵呜！"
+    }
+  }
+}

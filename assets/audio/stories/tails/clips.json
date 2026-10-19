@@ -1,0 +1,332 @@
+{
+ "intro": {
+  "fingerprint": "ce07b8dd2d39519f3c84da53bb4e061b230489ea8f2a4d2165002d0150871f72",
+  "text": "动物们来比尾巴。",
+  "file": "assets/audio/stories/tails/intro.m4a",
+  "speech": [
+   0.01,
+   1.72
+  ],
+  "speech_fingerprint": "ce07b8dd2d39519f3c84da53bb4e061b230489ea8f2a4d2165002d0150871f72"
+ },
+ "qLong": {
+  "fingerprint": "53c0ae0613c701fb3021cd560653b307ed3f90745107524e69400ac99ac50eee",
+  "text": "谁的尾巴长？",
+  "file": "assets/audio/stories/tails/qLong.m4a",
+  "speech": [
+   0.03,
+   1.44
+  ],
+  "speech_fingerprint": "53c0ae0613c701fb3021cd560653b307ed3f90745107524e69400ac99ac50eee"
+ },
+ "qShort": {
+  "fingerprint": "9a70a4ec156a59f05ff07b2fd1b4f0fdabf7bed11f7c3f8ec2e689e6c3dd350c",
+  "text": "谁的尾巴短？",
+  "file": "assets/audio/stories/tails/qShort.m4a",
+  "speech": [
+   0.03,
+   1.39
+  ],
+  "speech_fingerprint": "9a70a4ec156a59f05ff07b2fd1b4f0fdabf7bed11f7c3f8ec2e689e6c3dd350c"
+ },
+ "qUmbrella": {
+  "fingerprint": "ea5a7c4e4023fd6b6f85cfd93bb29086672514851afb1688e802c2db174db442",
+  "text": "谁的尾巴好像一把伞？",
+  "file": "assets/audio/stories/tails/qUmbrella.m4a",
+  "speech": [
+   0.03,
+   2.44
+  ],
+  "speech_fingerprint": "ea5a7c4e4023fd6b6f85cfd93bb29086672514851afb1688e802c2db174db442"
+ },
+ "qCurved": {
+  "fingerprint": "bf4ebadd82d06a90dd9b67fd6113f2a6992cb4eb317d7189f8221403995ca696",
+  "text": "谁的尾巴弯？",
+  "file": "assets/audio/stories/tails/qCurved.m4a",
+  "speech": [
+   0.03,
+   1.36
+  ],
+  "speech_fingerprint": "bf4ebadd82d06a90dd9b67fd6113f2a6992cb4eb317d7189f8221403995ca696"
+ },
+ "qFlat": {
+  "fingerprint": "eea649d6ec9acafe8c7a63610f7152a34f23c4068a6d30d3eab98db8e82e658e",
+  "text": "谁的尾巴扁？",
+  "file": "assets/audio/stories/tails/qFlat.m4a",
+  "speech": [
+   0.03,
+   1.39
+  ],
+  "speech_fingerprint": "eea649d6ec9acafe8c7a63610f7152a34f23c4068a6d30d3eab98db8e82e658e"
+ },
+ "qPretty": {
+  "fingerprint": "9016f920b89dc987ce44e5744edc686fc4ea1422f936ca116619a2926b82ee93",
+  "text": "谁的尾巴最好看？",
+  "file": "assets/audio/stories/tails/qPretty.m4a",
+  "speech": [
+   0.03,
+   2.02
+  ],
+  "speech_fingerprint": "9016f920b89dc987ce44e5744edc686fc4ea1422f936ca116619a2926b82ee93"
+ },
+ "tapAnimal": {
+  "fingerprint": "b05994316dd53e6dfccb033d7edb45c04193edfa05fe0af9d38997bb871f9a10",
+  "text": "点一点！",
+  "file": "assets/audio/stories/tails/tapAnimal.m4a",
+  "speech": [
+   0.0,
+   0.79
+  ],
+  "speech_fingerprint": "b05994316dd53e6dfccb033d7edb45c04193edfa05fe0af9d38997bb871f9a10"
+ },
+ "aLong": {
+  "fingerprint": "cd0b28d92f09f45da91eac1f4be1be59d377177b43a7512c3735cd7409ef77e4",
+  "text": "猴子的尾巴长。",
+  "file": "assets/audio/stories/tails/aLong.m4a",
+  "speech": [
+   0.1,
+   1.59
+  ],
+  "speech_fingerprint": "cd0b28d92f09f45da91eac1f4be1be59d377177b43a7512c3735cd7409ef77e4"
+ },
+ "aShort": {
+  "fingerprint": "463a4e010467df25b1f709e21e2f1067705eb6a24d6a651fc61098bb42bf9b52",
+  "text": "兔子的尾巴短。",
+  "file": "assets/audio/stories/tails/aShort.m4a",
+  "speech": [
+   0.09,
+   1.42
+  ],
+  "speech_fingerprint": "463a4e010467df25b1f709e21e2f1067705eb6a24d6a651fc61098bb42bf9b52"
+ },
+ "aUmbrella": {
+  "fingerprint": "bc5f0ada07bf75cdfa40c052c2e71ff5dee5d5eab97ae4a3650eaee59096aa10",
+  "text": "松鼠的尾巴好像一把伞。",
+  "file": "assets/audio/stories/tails/aUmbrella.m4a",
+  "speech": [
+   0.04,
+   2.57
+  ],
+  "speech_fingerprint": "bc5f0ada07bf75cdfa40c052c2e71ff5dee5d5eab97ae4a3650eaee59096aa10"
+ },
+ "aCurved": {
+  "fingerprint": "140638b194d80617e6dbab7c6dcaf90bb13b833ad9d6d16d47b8bbb8ebe0b5a0",
+  "text": "公鸡的尾巴弯。",
+  "file": "assets/audio/stories/tails/aCurved.m4a",
+  "speech": [
+   0.02,
+   1.46
+  ],
+  "speech_fingerprint": "140638b194d80617e6dbab7c6dcaf90bb13b833ad9d6d16d47b8bbb8ebe0b5a0"
+ },
+ "aFlat": {
+  "fingerprint": "d33800059464d123c14be92c28bcc299f538c4223d537498aa7e38cbea076387",
+  "text": "鸭子的尾巴扁。",
+  "file": "assets/audio/stories/tails/aFlat.m4a",
+  "speech": [
+   0.01,
+   1.4
+  ],
+  "speech_fingerprint": "d33800059464d123c14be92c28bcc299f538c4223d537498aa7e38cbea076387"
+ },
+ "aPretty": {
+  "fingerprint": "b1ab7f352b8fdf7391e5ec53782f790bc4dd456a0bdf6e3d2f0a507c198e6460",
+  "text": "孔雀的尾巴最好看。",
+  "file": "assets/audio/stories/tails/aPretty.m4a",
+  "speech": [
+   0.06,
+   2.21
+  ],
+  "speech_fingerprint": "b1ab7f352b8fdf7391e5ec53782f790bc4dd456a0bdf6e3d2f0a507c198e6460"
+ },
+ "end": {
+  "fingerprint": "3c57df5bf107a3f08773dab636f78fc10818e042a78422a11e419d3ce2edfa41",
+  "text": "每个尾巴都很棒！",
+  "file": "assets/audio/stories/tails/end.m4a",
+  "speech": [
+   0.01,
+   1.82
+  ],
+  "speech_fingerprint": "3c57df5bf107a3f08773dab636f78fc10818e042a78422a11e419d3ce2edfa41"
+ },
+ "word-tail": {
+  "fingerprint": "d8cfdff8c2aa14797adfde08cc8e1a42d773bcab9aee09d39010d79364f437d3",
+  "text": "尾巴",
+  "file": "assets/audio/stories/tails/word-tail.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "d8cfdff8c2aa14797adfde08cc8e1a42d773bcab9aee09d39010d79364f437d3"
+ },
+ "word-long": {
+  "fingerprint": "38a54ef5b7ec1defe378987321f3fb0a4f1e328404bf62f9dc2c077d4be3f86b",
+  "text": "长",
+  "file": "assets/audio/stories/tails/word-long.m4a",
+  "speech": [
+   0.02,
+   0.41
+  ],
+  "speech_fingerprint": "38a54ef5b7ec1defe378987321f3fb0a4f1e328404bf62f9dc2c077d4be3f86b"
+ },
+ "word-short": {
+  "fingerprint": "b3dd7f5ecbe99e68b64c3ee4e1e8d11cce0ecabfe1f0cae5c9b050827cc4e87d",
+  "text": "短",
+  "file": "assets/audio/stories/tails/word-short.m4a",
+  "speech": [
+   0.01,
+   0.33
+  ],
+  "speech_fingerprint": "b3dd7f5ecbe99e68b64c3ee4e1e8d11cce0ecabfe1f0cae5c9b050827cc4e87d"
+ },
+ "word-umbrella": {
+  "fingerprint": "2f82974460aa3743438db0db62a4e24d0eaca907114d2d7a1f8fbc858d05e7aa",
+  "text": "伞",
+  "file": "assets/audio/stories/tails/word-umbrella.m4a",
+  "speech": [
+   0.12,
+   0.39
+  ],
+  "speech_fingerprint": "2f82974460aa3743438db0db62a4e24d0eaca907114d2d7a1f8fbc858d05e7aa"
+ },
+ "word-curved": {
+  "fingerprint": "207d51b03d6e7701c208b8a4cd70105ceff52dd9fb4114a22c7a189569b571d9",
+  "text": "弯",
+  "file": "assets/audio/stories/tails/word-curved.m4a",
+  "speech": [
+   0.01,
+   0.34
+  ],
+  "speech_fingerprint": "207d51b03d6e7701c208b8a4cd70105ceff52dd9fb4114a22c7a189569b571d9"
+ },
+ "word-flat": {
+  "fingerprint": "4d5c51d9388bbc18149e7769203f060a4c625be4352bd32276618904ab859096",
+  "text": "扁",
+  "file": "assets/audio/stories/tails/word-flat.m4a",
+  "speech": [
+   0.02,
+   0.33
+  ],
+  "speech_fingerprint": "4d5c51d9388bbc18149e7769203f060a4c625be4352bd32276618904ab859096"
+ },
+ "word-monkey": {
+  "fingerprint": "741e7117db20593721a9f4f9bb235cb6fb33f70bdacba03bda6d2e5979d58520",
+  "text": "猴子",
+  "file": "assets/audio/stories/tails/word-monkey.m4a",
+  "speech": [
+   0.09,
+   0.53
+  ],
+  "speech_fingerprint": "741e7117db20593721a9f4f9bb235cb6fb33f70bdacba03bda6d2e5979d58520"
+ },
+ "word-rabbit": {
+  "fingerprint": "10dd118c17ba6f1a579290dbb0cf87d379034d9c94c6250aa849b190a2a89a9d",
+  "text": "兔子",
+  "file": "assets/audio/stories/tails/word-rabbit.m4a",
+  "speech": [
+   0.09,
+   0.49
+  ],
+  "speech_fingerprint": "10dd118c17ba6f1a579290dbb0cf87d379034d9c94c6250aa849b190a2a89a9d"
+ },
+ "word-squirrel": {
+  "fingerprint": "46e1beb8621c4aabe4c81904af34ee3b7ad598868cf98fc71c49167063711f6f",
+  "text": "松鼠",
+  "file": "assets/audio/stories/tails/word-squirrel.m4a",
+  "speech": [
+   0.03,
+   0.68
+  ],
+  "speech_fingerprint": "46e1beb8621c4aabe4c81904af34ee3b7ad598868cf98fc71c49167063711f6f"
+ },
+ "word-rooster": {
+  "fingerprint": "23f5fb49622e4fdbf9097bb4a0b0dacfb64aa37a8bcb5a48b467acfb99632b1d",
+  "text": "公鸡",
+  "file": "assets/audio/stories/tails/word-rooster.m4a",
+  "speech": [
+   0.02,
+   0.55
+  ],
+  "speech_fingerprint": "23f5fb49622e4fdbf9097bb4a0b0dacfb64aa37a8bcb5a48b467acfb99632b1d"
+ },
+ "word-duck": {
+  "fingerprint": "e5ac568364bb5b8438e0e13ccb9e3f0dc5721bb72e241d7583929f1aee6cf9c0",
+  "text": "鸭子",
+  "file": "assets/audio/stories/tails/word-duck.m4a",
+  "speech": [
+   0.01,
+   0.47
+  ],
+  "speech_fingerprint": "e5ac568364bb5b8438e0e13ccb9e3f0dc5721bb72e241d7583929f1aee6cf9c0"
+ },
+ "word-peacock": {
+  "fingerprint": "92362abf228a358f196d1f88743497e9fe063f80fe6b05360d8c818d126ee23b",
+  "text": "孔雀",
+  "file": "assets/audio/stories/tails/word-peacock.m4a",
+  "speech": [
+   0.04,
+   0.67
+  ],
+  "speech_fingerprint": "92362abf228a358f196d1f88743497e9fe063f80fe6b05360d8c818d126ee23b"
+ },
+ "snd-ooh": {
+  "fingerprint": "4931380f85a4017d89c64088ade92ea2cd3350940c305d6ba5b543c966c03791",
+  "text": "吱吱！",
+  "file": "assets/audio/stories/tails/snd-ooh.m4a",
+  "speech": [
+   0.07,
+   0.55
+  ],
+  "speech_fingerprint": "4931380f85a4017d89c64088ade92ea2cd3350940c305d6ba5b543c966c03791"
+ },
+ "snd-hop": {
+  "fingerprint": "76341d9909493daf21d44c6ea69d448caa250708f0fae613d08e9aee23aa1295",
+  "text": "蹦蹦！",
+  "file": "assets/audio/stories/tails/snd-hop.m4a",
+  "speech": [
+   0.01,
+   0.52
+  ],
+  "speech_fingerprint": "76341d9909493daf21d44c6ea69d448caa250708f0fae613d08e9aee23aa1295"
+ },
+ "snd-nut": {
+  "fingerprint": "14ec91128245903735bf1dea49b2d62121bed59449903175a0f7c548cbbaf3a7",
+  "text": "咔咔！",
+  "file": "assets/audio/stories/tails/snd-nut.m4a",
+  "speech": [
+   0.02,
+   0.64
+  ],
+  "speech_fingerprint": "14ec91128245903735bf1dea49b2d62121bed59449903175a0f7c548cbbaf3a7"
+ },
+ "snd-crow": {
+  "fingerprint": "f1cc7e455dc634e5b7d4e654ce4050964e4efbbc282f9b43d204f16cd304cc66",
+  "text": "喔喔喔！",
+  "file": "assets/audio/stories/tails/snd-crow.m4a",
+  "speech": [
+   0.01,
+   0.71
+  ],
+  "speech_fingerprint": "f1cc7e455dc634e5b7d4e654ce4050964e4efbbc282f9b43d204f16cd304cc66"
+ },
+ "snd-quack": {
+  "fingerprint": "c82c0631af918c1624780969585196a5781984be4b911bcbb96f8a3143d4ab3b",
+  "text": "嘎嘎！",
+  "file": "assets/audio/stories/tails/snd-quack.m4a",
+  "speech": [
+   0.02,
+   0.49
+  ],
+  "speech_fingerprint": "c82c0631af918c1624780969585196a5781984be4b911bcbb96f8a3143d4ab3b"
+ },
+ "snd-wow": {
+  "fingerprint": "26bd294dc4e25217a8d8613049fe638c2565c0de8ab454440ddafff039e0d82e",
+  "text": "哇！",
+  "file": "assets/audio/stories/tails/snd-wow.m4a",
+  "speech": [
+   0.01,
+   0.32
+  ],
+  "speech_fingerprint": "26bd294dc4e25217a8d8613049fe638c2565c0de8ab454440ddafff039e0d82e"
+ }
+}

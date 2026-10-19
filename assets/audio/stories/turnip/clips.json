@@ -1,0 +1,372 @@
+{
+ "plant": {
+  "fingerprint": "e07e1b85c75ce46134a944a32954e3e380188ffd186e1b208be394ed713b276d",
+  "text": "老爷爷种了一个萝卜。",
+  "file": "assets/audio/stories/turnip/plant.m4a",
+  "speech": [
+   0.01,
+   2.12
+  ],
+  "speech_fingerprint": "e07e1b85c75ce46134a944a32954e3e380188ffd186e1b208be394ed713b276d"
+ },
+ "tapWater": {
+  "fingerprint": "e5fa1669f7167f84b586fbd0c11cd27da72c8df0b3367cac2c931d6b00f68fb0",
+  "text": "浇浇水！",
+  "file": "assets/audio/stories/turnip/tapWater.m4a",
+  "speech": [
+   0.04,
+   0.96
+  ],
+  "speech_fingerprint": "e5fa1669f7167f84b586fbd0c11cd27da72c8df0b3367cac2c931d6b00f68fb0"
+ },
+ "grow": {
+  "fingerprint": "468a00a43159ab8a9318c8d0865ada61b76c2f935a3591b8d35e221661ade685",
+  "text": "萝卜长呀长，长得好大好大！",
+  "file": "assets/audio/stories/turnip/grow.m4a",
+  "speech": [
+   0.01,
+   3.42
+  ],
+  "speech_fingerprint": "468a00a43159ab8a9318c8d0865ada61b76c2f935a3591b8d35e221661ade685"
+ },
+ "pullGrandpa": {
+  "fingerprint": "931ca60f697d1446c7c32b6252c1ae0437b1e160eb1feb2c843b7df6401d6951",
+  "text": "老爷爷来拔萝卜。",
+  "file": "assets/audio/stories/turnip/pullGrandpa.m4a",
+  "speech": [
+   0.01,
+   1.82
+  ],
+  "speech_fingerprint": "931ca60f697d1446c7c32b6252c1ae0437b1e160eb1feb2c843b7df6401d6951"
+ },
+ "tapPull": {
+  "fingerprint": "a6e4ec7cf0a6fdbcba4806f9e0c38110b9a898bed226f12726b756169c9bbfd4",
+  "text": "拔萝卜！",
+  "file": "assets/audio/stories/turnip/tapPull.m4a",
+  "speech": [
+   0.01,
+   0.8
+  ],
+  "speech_fingerprint": "a6e4ec7cf0a6fdbcba4806f9e0c38110b9a898bed226f12726b756169c9bbfd4"
+ },
+ "heave": {
+  "fingerprint": "5c0991d4ef5c260003cf0cf21693c2ea779796eb58c7c9b5780e2507ff301e96",
+  "text": "嗨哟，嗨哟，拔不动！",
+  "file": "assets/audio/stories/turnip/heave.m4a",
+  "speech": [
+   0.06,
+   2.64
+  ],
+  "speech_fingerprint": "5c0991d4ef5c260003cf0cf21693c2ea779796eb58c7c9b5780e2507ff301e96"
+ },
+ "callGrandma": {
+  "fingerprint": "4c25d50f348c3f309c2ff9b40aaffcb8ee007164c42e89e29ca8228fee7d92a9",
+  "text": "老奶奶，快来帮忙！",
+  "file": "assets/audio/stories/turnip/callGrandma.m4a",
+  "speech": [
+   0.01,
+   2.36
+  ],
+  "speech_fingerprint": "4c25d50f348c3f309c2ff9b40aaffcb8ee007164c42e89e29ca8228fee7d92a9"
+ },
+ "callGirl": {
+  "fingerprint": "5275920007fe858e245e6aecea88f8135b6b0718e59e35a528a227c425f61da5",
+  "text": "小姑娘，快来帮忙！",
+  "file": "assets/audio/stories/turnip/callGirl.m4a",
+  "speech": [
+   0.03,
+   2.54
+  ],
+  "speech_fingerprint": "5275920007fe858e245e6aecea88f8135b6b0718e59e35a528a227c425f61da5"
+ },
+ "callDog": {
+  "fingerprint": "75c8de9aaa42ac4ce90c7dc13b427d9b34d12b36d6add5285dc7530c2b150ff5",
+  "text": "小狗，快来帮忙！",
+  "file": "assets/audio/stories/turnip/callDog.m4a",
+  "speech": [
+   0.03,
+   2.21
+  ],
+  "speech_fingerprint": "75c8de9aaa42ac4ce90c7dc13b427d9b34d12b36d6add5285dc7530c2b150ff5"
+ },
+ "callCat": {
+  "fingerprint": "344320f6a8bf4a3855d8821261c2700ef076c101b828775707673e0f376c5e7a",
+  "text": "小猫，快来帮忙！",
+  "file": "assets/audio/stories/turnip/callCat.m4a",
+  "speech": [
+   0.03,
+   2.19
+  ],
+  "speech_fingerprint": "344320f6a8bf4a3855d8821261c2700ef076c101b828775707673e0f376c5e7a"
+ },
+ "callMouse": {
+  "fingerprint": "7f2ffa55362f02060f109633d79920fe81a7c35d24999ff11e5f4d99a0cc3e6c",
+  "text": "小老鼠，快来帮忙！",
+  "file": "assets/audio/stories/turnip/callMouse.m4a",
+  "speech": [
+   0.03,
+   2.42
+  ],
+  "speech_fingerprint": "7f2ffa55362f02060f109633d79920fe81a7c35d24999ff11e5f4d99a0cc3e6c"
+ },
+ "tapHelper": {
+  "fingerprint": "360ced48d5fa1ecfac718da287a12825423394ca8fa663bf19545a76187338e9",
+  "text": "点一点，快来帮忙！",
+  "file": "assets/audio/stories/turnip/tapHelper.m4a",
+  "speech": [
+   0.01,
+   2.35
+  ],
+  "speech_fingerprint": "360ced48d5fa1ecfac718da287a12825423394ca8fa663bf19545a76187338e9"
+ },
+ "comeGrandma": {
+  "fingerprint": "4b65cdcad2b22838ce464697451f3de9ebf21e71d0359c3a74208e739ba2d8b5",
+  "text": "老奶奶来了。",
+  "file": "assets/audio/stories/turnip/comeGrandma.m4a",
+  "speech": [
+   0.01,
+   1.2
+  ],
+  "speech_fingerprint": "4b65cdcad2b22838ce464697451f3de9ebf21e71d0359c3a74208e739ba2d8b5"
+ },
+ "comeGirl": {
+  "fingerprint": "eb02dbd03b072c28a9b346a66d0cfe94003490ab6e0fe90241d69c97a5b32cf2",
+  "text": "小姑娘来了。",
+  "file": "assets/audio/stories/turnip/comeGirl.m4a",
+  "speech": [
+   0.04,
+   1.37
+  ],
+  "speech_fingerprint": "eb02dbd03b072c28a9b346a66d0cfe94003490ab6e0fe90241d69c97a5b32cf2"
+ },
+ "comeDog": {
+  "fingerprint": "444238f274b746860cbef1677f4bff1a4b7f6370fc3df38e74e2f9b0764e768a",
+  "text": "小狗来了。",
+  "file": "assets/audio/stories/turnip/comeDog.m4a",
+  "speech": [
+   0.04,
+   1.05
+  ],
+  "speech_fingerprint": "444238f274b746860cbef1677f4bff1a4b7f6370fc3df38e74e2f9b0764e768a"
+ },
+ "comeCat": {
+  "fingerprint": "bec07ef82d66b94e096eb71d3f95f84285744d4df0d7643e96c72045ae2eceba",
+  "text": "小猫来了。",
+  "file": "assets/audio/stories/turnip/comeCat.m4a",
+  "speech": [
+   0.03,
+   1.01
+  ],
+  "speech_fingerprint": "bec07ef82d66b94e096eb71d3f95f84285744d4df0d7643e96c72045ae2eceba"
+ },
+ "comeMouse": {
+  "fingerprint": "f093d1193cb60a1ebcc8b77853c28f7d24eefbc78c521f6b75d8b9abb2b0b2d6",
+  "text": "小老鼠也来了！",
+  "file": "assets/audio/stories/turnip/comeMouse.m4a",
+  "speech": [
+   0.03,
+   1.51
+  ],
+  "speech_fingerprint": "f093d1193cb60a1ebcc8b77853c28f7d24eefbc78c521f6b75d8b9abb2b0b2d6"
+ },
+ "still": {
+  "fingerprint": "0bbdc3433f94801df371da9a8422769e0a047e06bdea0e472098174c1ea9bc70",
+  "text": "嗨哟，嗨哟，还是拔不动！",
+  "file": "assets/audio/stories/turnip/still.m4a",
+  "speech": [
+   0.06,
+   3.11
+  ],
+  "speech_fingerprint": "0bbdc3433f94801df371da9a8422769e0a047e06bdea0e472098174c1ea9bc70"
+ },
+ "heaveLast": {
+  "fingerprint": "472081606621094be6597c242d373e07546ed2ab0e3c7a94c96d451c3545bff4",
+  "text": "嗨哟！嗨哟！",
+  "file": "assets/audio/stories/turnip/heaveLast.m4a",
+  "speech": [
+   0.05,
+   1.44
+  ],
+  "speech_fingerprint": "472081606621094be6597c242d373e07546ed2ab0e3c7a94c96d451c3545bff4"
+ },
+ "out": {
+  "fingerprint": "a3c1995369c49866cf585a9bd3ab17ad581382b99930ff6e51e491b53b72e94c",
+  "text": "拔出来了！",
+  "file": "assets/audio/stories/turnip/out.m4a",
+  "speech": [
+   0.01,
+   0.91
+  ],
+  "speech_fingerprint": "a3c1995369c49866cf585a9bd3ab17ad581382b99930ff6e51e491b53b72e94c"
+ },
+ "tumble": {
+  "fingerprint": "15b010a3354cfc887e00f19765b9d9f84f957c9e94f80ac24970a0c057f0d447",
+  "text": "大家都摔倒了，哈哈哈！",
+  "file": "assets/audio/stories/turnip/tumble.m4a",
+  "speech": [
+   0.01,
+   2.91
+  ],
+  "speech_fingerprint": "15b010a3354cfc887e00f19765b9d9f84f957c9e94f80ac24970a0c057f0d447"
+ },
+ "eat": {
+  "fingerprint": "d959d77b3a18e3da62df4cfaf8e31cad71d54afadde678661405c487cd28e7c7",
+  "text": "大家一起吃萝卜！",
+  "file": "assets/audio/stories/turnip/eat.m4a",
+  "speech": [
+   0.01,
+   1.92
+  ],
+  "speech_fingerprint": "d959d77b3a18e3da62df4cfaf8e31cad71d54afadde678661405c487cd28e7c7"
+ },
+ "sweet": {
+  "fingerprint": "2af892df53ce12b0a3a50c7a0893b3efc7fa8b5d9d7a4505c1529a49b2a3dd64",
+  "text": "真甜！",
+  "file": "assets/audio/stories/turnip/sweet.m4a",
+  "speech": [
+   0.01,
+   0.7
+  ],
+  "speech_fingerprint": "2af892df53ce12b0a3a50c7a0893b3efc7fa8b5d9d7a4505c1529a49b2a3dd64"
+ },
+ "word-turnip": {
+  "fingerprint": "a6a235850648819304f60dc02628c582ce0f5059d698459e405bd18bc43669ca",
+  "text": "萝卜",
+  "file": "assets/audio/stories/turnip/word-turnip.m4a",
+  "speech": [
+   0.01,
+   0.59
+  ],
+  "speech_fingerprint": "a6a235850648819304f60dc02628c582ce0f5059d698459e405bd18bc43669ca"
+ },
+ "word-pull": {
+  "fingerprint": "7dd715473b7819f448969cd834db451047a64e4d4c4e143fd1d822938eee295e",
+  "text": "拔",
+  "file": "assets/audio/stories/turnip/word-pull.m4a",
+  "speech": [
+   0.01,
+   0.25
+  ],
+  "speech_fingerprint": "7dd715473b7819f448969cd834db451047a64e4d4c4e143fd1d822938eee295e"
+ },
+ "word-grandpa": {
+  "fingerprint": "a561afe6ee04d29dacde82349a4905466fd257f632387c00847608024bdd11f1",
+  "text": "爷爷",
+  "file": "assets/audio/stories/turnip/word-grandpa.m4a",
+  "speech": [
+   0.01,
+   0.55
+  ],
+  "speech_fingerprint": "a561afe6ee04d29dacde82349a4905466fd257f632387c00847608024bdd11f1"
+ },
+ "word-grandma": {
+  "fingerprint": "759e8f4c4735adaf12bee7e21a9c0f7d688287c1752a03e085c3258517277836",
+  "text": "奶奶",
+  "file": "assets/audio/stories/turnip/word-grandma.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "759e8f4c4735adaf12bee7e21a9c0f7d688287c1752a03e085c3258517277836"
+ },
+ "word-girl": {
+  "fingerprint": "85ec3ee0e6b6457cd91ca0552b2e8fdf8c9c49c5e85cd12300dfa2ffab2b8021",
+  "text": "小姑娘",
+  "file": "assets/audio/stories/turnip/word-girl.m4a",
+  "speech": [
+   0.03,
+   1.01
+  ],
+  "speech_fingerprint": "85ec3ee0e6b6457cd91ca0552b2e8fdf8c9c49c5e85cd12300dfa2ffab2b8021"
+ },
+ "word-dog": {
+  "fingerprint": "9818b5f3c71b30f93adcdf5b41014cedba177ca4519736b8bc4b2a8aac4b7970",
+  "text": "小狗",
+  "file": "assets/audio/stories/turnip/word-dog.m4a",
+  "speech": [
+   0.03,
+   0.71
+  ],
+  "speech_fingerprint": "9818b5f3c71b30f93adcdf5b41014cedba177ca4519736b8bc4b2a8aac4b7970"
+ },
+ "word-cat": {
+  "fingerprint": "ed223cebb9576570a08c7986db19100c28b41fb7387636f5488480bc871001cb",
+  "text": "小猫",
+  "file": "assets/audio/stories/turnip/word-cat.m4a",
+  "speech": [
+   0.03,
+   0.66
+  ],
+  "speech_fingerprint": "ed223cebb9576570a08c7986db19100c28b41fb7387636f5488480bc871001cb"
+ },
+ "word-mouse": {
+  "fingerprint": "f17425c7b6b8e7b2072029db5b763bba4dec67280db0fef840074bb5b68eed7b",
+  "text": "小老鼠",
+  "file": "assets/audio/stories/turnip/word-mouse.m4a",
+  "speech": [
+   0.03,
+   0.92
+  ],
+  "speech_fingerprint": "f17425c7b6b8e7b2072029db5b763bba4dec67280db0fef840074bb5b68eed7b"
+ },
+ "word-help": {
+  "fingerprint": "9a8b0316f8c3886dce520ac16ec204cafdb2b2b8b636f4ba6120117919b69183",
+  "text": "帮忙",
+  "file": "assets/audio/stories/turnip/word-help.m4a",
+  "speech": [
+   0.01,
+   0.56
+  ],
+  "speech_fingerprint": "9a8b0316f8c3886dce520ac16ec204cafdb2b2b8b636f4ba6120117919b69183"
+ },
+ "snd-hmm": {
+  "fingerprint": "5b646efaede8aacc523609064774a10d76da26370d18ef18086b2ba767d0de38",
+  "text": "嗯！",
+  "file": "assets/audio/stories/turnip/snd-hmm.m4a",
+  "speech": [
+   0.02,
+   0.26
+  ],
+  "speech_fingerprint": "5b646efaede8aacc523609064774a10d76da26370d18ef18086b2ba767d0de38"
+ },
+ "snd-woof": {
+  "fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715",
+  "text": "汪汪！",
+  "file": "assets/audio/stories/turnip/snd-woof.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "0ee39835351804d6bd7a9ee130aa4b662bc7985176000408476251f678346715"
+ },
+ "snd-mew": {
+  "fingerprint": "b0025febf81c5dfcd6ea070b6622c50703d3d7b614c82c05a896fd11506f6020",
+  "text": "喵！",
+  "file": "assets/audio/stories/turnip/snd-mew.m4a",
+  "speech": [
+   0.01,
+   0.43
+  ],
+  "speech_fingerprint": "b0025febf81c5dfcd6ea070b6622c50703d3d7b614c82c05a896fd11506f6020"
+ },
+ "snd-squeak": {
+  "fingerprint": "4931380f85a4017d89c64088ade92ea2cd3350940c305d6ba5b543c966c03791",
+  "text": "吱吱！",
+  "file": "assets/audio/stories/turnip/snd-squeak.m4a",
+  "speech": [
+   0.07,
+   0.55
+  ],
+  "speech_fingerprint": "4931380f85a4017d89c64088ade92ea2cd3350940c305d6ba5b543c966c03791"
+ },
+ "snd-giggle": {
+  "fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00",
+  "text": "嘻嘻！",
+  "file": "assets/audio/stories/turnip/snd-giggle.m4a",
+  "speech": [
+   0.03,
+   0.67
+  ],
+  "speech_fingerprint": "b06df42bece9b31be5ed07f744a02a14d252425687a149ed4057b7c8a771ec00"
+ }
+}
