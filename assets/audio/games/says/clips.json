@@ -1,0 +1,197 @@
+{
+ "doing-run": {
+  "pinyin": "Xióngmāo zài pǎobù.",
+  "english": "The panda is running.",
+  "speaker": "narrator",
+  "fingerprint": "d517349ab536eafef6a99198f4d923e77cd318a081375d079d8e025e40892e56",
+  "text": "熊猫在跑步。",
+  "file": "assets/audio/games/says/doing-run.m4a",
+  "speech": [
+   0.03,
+   1.47
+  ],
+  "speech_fingerprint": "d517349ab536eafef6a99198f4d923e77cd318a081375d079d8e025e40892e56"
+ },
+ "doing-jump": {
+  "pinyin": "Xióngmāo zài tiào.",
+  "english": "The panda is jumping.",
+  "speaker": "narrator",
+  "fingerprint": "9855efd5b9759caf936cb687d96cab5ef9f0c9fa4ef3d5cdbf1207ea52da0b40",
+  "text": "熊猫在跳。",
+  "file": "assets/audio/games/says/doing-jump.m4a",
+  "speech": [
+   0.03,
+   1.25
+  ],
+  "speech_fingerprint": "9855efd5b9759caf936cb687d96cab5ef9f0c9fa4ef3d5cdbf1207ea52da0b40"
+ },
+ "doing-walk": {
+  "pinyin": "Xióngmāo zài zǒulù.",
+  "english": "The panda is walking.",
+  "speaker": "narrator",
+  "fingerprint": "8c2df0ae4f9b48215e02e7b5f34da88fc26aa8522015bacd26765bcdfd8b83b4",
+  "text": "熊猫在走路。",
+  "file": "assets/audio/games/says/doing-walk.m4a",
+  "speech": [
+   0.03,
+   1.43
+  ],
+  "speech_fingerprint": "8c2df0ae4f9b48215e02e7b5f34da88fc26aa8522015bacd26765bcdfd8b83b4"
+ },
+ "doing-clap": {
+  "pinyin": "Xióngmāo zài pāi shǒu.",
+  "english": "The panda is clapping.",
+  "speaker": "narrator",
+  "fingerprint": "4a813f9b9bd3837c9771c9d4862b7f8d6bfc20fe9af3907035a83fe7178d1192",
+  "text": "熊猫在拍手。",
+  "file": "assets/audio/games/says/doing-clap.m4a",
+  "speech": [
+   0.03,
+   1.57
+  ],
+  "speech_fingerprint": "4a813f9b9bd3837c9771c9d4862b7f8d6bfc20fe9af3907035a83fe7178d1192"
+ },
+ "doing-sleep": {
+  "pinyin": "Xióngmāo zài shuìjiào.",
+  "english": "The panda is sleeping.",
+  "speaker": "narrator",
+  "fingerprint": "6eaac36e44ab45be4a2b7d957cc66465a5e3a4ad944635c73fc5fb09eb50c886",
+  "text": "熊猫在睡觉。",
+  "file": "assets/audio/games/says/doing-sleep.m4a",
+  "speech": [
+   0.03,
+   1.52
+  ],
+  "speech_fingerprint": "6eaac36e44ab45be4a2b7d957cc66465a5e3a4ad944635c73fc5fb09eb50c886"
+ },
+ "doing-eat": {
+  "pinyin": "Xióngmāo zài chīfàn.",
+  "english": "The panda is eating.",
+  "speaker": "narrator",
+  "fingerprint": "2a67c99b7ce5ad60b6b1f255a4e2d24b2e4ea90bd25c5812894e4a2f194b1bc4",
+  "text": "熊猫在吃饭。",
+  "file": "assets/audio/games/says/doing-eat.m4a",
+  "speech": [
+   0.03,
+   1.52
+  ],
+  "speech_fingerprint": "2a67c99b7ce5ad60b6b1f255a4e2d24b2e4ea90bd25c5812894e4a2f194b1bc4"
+ },
+ "doing-drink": {
+  "pinyin": "Xióngmāo zài hē shuǐ.",
+  "english": "The panda is drinking water.",
+  "speaker": "narrator",
+  "fingerprint": "cdc45e9c4114b4c45086e5a509a405dfb2460abeec423ee2d21bfabfa8d8c20a",
+  "text": "熊猫在喝水。",
+  "file": "assets/audio/games/says/doing-drink.m4a",
+  "speech": [
+   0.03,
+   1.57
+  ],
+  "speech_fingerprint": "cdc45e9c4114b4c45086e5a509a405dfb2460abeec423ee2d21bfabfa8d8c20a"
+ },
+ "doing-laugh": {
+  "pinyin": "Xióngmāo zài xiào.",
+  "english": "The panda is laughing.",
+  "speaker": "narrator",
+  "fingerprint": "f306020d9573556ded4c2de88736b584d371a56ef77deaca25fda08f209d8963",
+  "text": "熊猫在笑。",
+  "file": "assets/audio/games/says/doing-laugh.m4a",
+  "speech": [
+   0.03,
+   1.24
+  ],
+  "speech_fingerprint": "f306020d9573556ded4c2de88736b584d371a56ef77deaca25fda08f209d8963"
+ },
+ "doing-cry": {
+  "pinyin": "Xióngmāo zài kū.",
+  "english": "The panda is crying.",
+  "speaker": "narrator",
+  "fingerprint": "f608c54c26c6d0b483e5b14341fa00cfe1a5fbcc10224135532cca51b0eb3a0d",
+  "text": "熊猫在哭。",
+  "file": "assets/audio/games/says/doing-cry.m4a",
+  "speech": [
+   0.03,
+   1.26
+  ],
+  "speech_fingerprint": "f608c54c26c6d0b483e5b14341fa00cfe1a5fbcc10224135532cca51b0eb3a0d"
+ },
+ "doing-sing": {
+  "pinyin": "Xióngmāo zài chànggē.",
+  "english": "The panda is singing.",
+  "speaker": "narrator",
+  "fingerprint": "d9e3991a6e22fe52f6f9780d3d59da42e0c20ca281d0a929a83a045cac3b919c",
+  "text": "熊猫在唱歌。",
+  "file": "assets/audio/games/says/doing-sing.m4a",
+  "speech": [
+   0.03,
+   1.52
+  ],
+  "speech_fingerprint": "d9e3991a6e22fe52f6f9780d3d59da42e0c20ca281d0a929a83a045cac3b919c"
+ },
+ "doing-dance": {
+  "pinyin": "Xióngmāo zài tiàowǔ.",
+  "english": "The panda is dancing.",
+  "speaker": "narrator",
+  "fingerprint": "22e47ddffbc82c71f3d0a5b575b126ec8555b50d8dbe914bdab04ce265b8bfc2",
+  "text": "熊猫在跳舞。",
+  "file": "assets/audio/games/says/doing-dance.m4a",
+  "speech": [
+   0.03,
+   1.52
+  ],
+  "speech_fingerprint": "22e47ddffbc82c71f3d0a5b575b126ec8555b50d8dbe914bdab04ce265b8bfc2"
+ },
+ "doing-brush": {
+  "pinyin": "Xióngmāo zài shuāyá.",
+  "english": "The panda is brushing teeth.",
+  "speaker": "narrator",
+  "fingerprint": "98d2520f056de6499c0ab662e4f223c172defa2841e78e2744c5c4cd509e1dfc",
+  "text": "熊猫在刷牙。",
+  "file": "assets/audio/games/says/doing-brush.m4a",
+  "speech": [
+   0.03,
+   1.56
+  ],
+  "speech_fingerprint": "98d2520f056de6499c0ab662e4f223c172defa2841e78e2744c5c4cd509e1dfc"
+ },
+ "doing-washhands": {
+  "pinyin": "Xióngmāo zài xǐ shǒu.",
+  "english": "The panda is washing hands.",
+  "speaker": "narrator",
+  "fingerprint": "84bed504964a46466eba82c4601fb3e189d44084c3c96d52101c3c364a76005b",
+  "text": "熊猫在洗手。",
+  "file": "assets/audio/games/says/doing-washhands.m4a",
+  "speech": [
+   0.03,
+   1.56
+  ],
+  "speech_fingerprint": "84bed504964a46466eba82c4601fb3e189d44084c3c96d52101c3c364a76005b"
+ },
+ "doing-bath": {
+  "pinyin": "Xióngmāo zài xǐzǎo.",
+  "english": "The panda is having a bath.",
+  "speaker": "narrator",
+  "fingerprint": "76a871431b188d4751a736bcf9551b0243e5f50ac0b9e26243fbed2974433386",
+  "text": "熊猫在洗澡。",
+  "file": "assets/audio/games/says/doing-bath.m4a",
+  "speech": [
+   0.03,
+   1.52
+  ],
+  "speech_fingerprint": "76a871431b188d4751a736bcf9551b0243e5f50ac0b9e26243fbed2974433386"
+ },
+ "doing-read": {
+  "pinyin": "Xióngmāo zài kàn shū.",
+  "english": "The panda is reading.",
+  "speaker": "narrator",
+  "fingerprint": "23aaa9726ffab182f878f94b1e690f4725e848aa7c07675071fee2aabde099a5",
+  "text": "熊猫在看书。",
+  "file": "assets/audio/games/says/doing-read.m4a",
+  "speech": [
+   0.03,
+   1.55
+  ],
+  "speech_fingerprint": "23aaa9726ffab182f878f94b1e690f4725e848aa7c07675071fee2aabde099a5"
+ }
+}

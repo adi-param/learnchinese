@@ -1,0 +1,132 @@
+{
+ "tickle": {
+  "speaker": "pig",
+  "pinyin": "Hāhā, hǎo yǎng!",
+  "english": "Ha ha, that tickles!",
+  "fingerprint": "21b5235752d775c7f1a7ec90c4eea7811849e596dbd9e4b130eeb4aebe61d1fc",
+  "text": "哈哈，好痒！",
+  "file": "assets/audio/games/bath/tickle.m4a",
+  "speech": [
+   0.06,
+   1.63
+  ],
+  "speech_fingerprint": "21b5235752d775c7f1a7ec90c4eea7811849e596dbd9e4b130eeb4aebe61d1fc"
+ },
+ "clean": {
+  "speaker": "narrator",
+  "pinyin": "Xiǎo zhū gānjìng le!",
+  "english": "The piglet is clean!",
+  "fingerprint": "b043a99fe1267be7914cc1dafce80f7c16e5a8d6786c7452b2b9faa2625483f7",
+  "text": "小猪干净了！",
+  "file": "assets/audio/games/bath/clean.m4a",
+  "speech": [
+   0.03,
+   1.31
+  ],
+  "speech_fingerprint": "b043a99fe1267be7914cc1dafce80f7c16e5a8d6786c7452b2b9faa2625483f7"
+ },
+ "wash-head": {
+  "pinyin": "Xǐxi xiǎo zhū de tóu.",
+  "english": "Wash the piglet’s head.",
+  "speaker": "narrator",
+  "fingerprint": "696ccb701a87230be071ebb4b1e4c7f8effdd3b391e5c7eab167175e9cf4015f",
+  "text": "洗洗小猪的头。",
+  "file": "assets/audio/games/bath/wash-head.m4a",
+  "speech": [
+   0.03,
+   1.7
+  ],
+  "speech_fingerprint": "696ccb701a87230be071ebb4b1e4c7f8effdd3b391e5c7eab167175e9cf4015f"
+ },
+ "wash-ears": {
+  "pinyin": "Xǐxi xiǎo zhū de ěrduo.",
+  "english": "Wash the piglet’s ears.",
+  "speaker": "narrator",
+  "fingerprint": "6aa416ed819ab6397b7a6d6f2b6c9fba0bba2e80b8bace1c2dbb54f57f625138",
+  "text": "洗洗小猪的耳朵。",
+  "file": "assets/audio/games/bath/wash-ears.m4a",
+  "speech": [
+   0.03,
+   1.84
+  ],
+  "speech_fingerprint": "6aa416ed819ab6397b7a6d6f2b6c9fba0bba2e80b8bace1c2dbb54f57f625138"
+ },
+ "wash-eyes": {
+  "pinyin": "Xǐxi xiǎo zhū de yǎnjing.",
+  "english": "Wash the piglet’s eyes.",
+  "speaker": "narrator",
+  "fingerprint": "3bd6a29e3768227d6aca36ae2ab9e4b198748a5b45be41045932bf91d020aad1",
+  "text": "洗洗小猪的眼睛。",
+  "file": "assets/audio/games/bath/wash-eyes.m4a",
+  "speech": [
+   0.03,
+   1.96
+  ],
+  "speech_fingerprint": "3bd6a29e3768227d6aca36ae2ab9e4b198748a5b45be41045932bf91d020aad1"
+ },
+ "wash-nose": {
+  "pinyin": "Xǐxi xiǎo zhū de bízi.",
+  "english": "Wash the piglet’s nose.",
+  "speaker": "narrator",
+  "fingerprint": "caf9fcad5bf5421f26bbc4f0aae139f4fdd08316567c8a8f82ea9efddc8220be",
+  "text": "洗洗小猪的鼻子。",
+  "file": "assets/audio/games/bath/wash-nose.m4a",
+  "speech": [
+   0.03,
+   1.79
+  ],
+  "speech_fingerprint": "caf9fcad5bf5421f26bbc4f0aae139f4fdd08316567c8a8f82ea9efddc8220be"
+ },
+ "wash-mouth": {
+  "pinyin": "Xǐxi xiǎo zhū de zuǐba.",
+  "english": "Wash the piglet’s mouth.",
+  "speaker": "narrator",
+  "fingerprint": "bb5fa4224e66d4146cb1a8bb10f50a7fe3c21101d2f445eccdf3034e6e74eccb",
+  "text": "洗洗小猪的嘴巴。",
+  "file": "assets/audio/games/bath/wash-mouth.m4a",
+  "speech": [
+   0.03,
+   1.9
+  ],
+  "speech_fingerprint": "bb5fa4224e66d4146cb1a8bb10f50a7fe3c21101d2f445eccdf3034e6e74eccb"
+ },
+ "wash-hands": {
+  "pinyin": "Xǐxi xiǎo zhū de shǒu.",
+  "english": "Wash the piglet’s hands.",
+  "speaker": "narrator",
+  "fingerprint": "763bab1f9b65c1b4e3f2aac572a375b4dfdb91af8edbbe7bd7842e6c63a4af61",
+  "text": "洗洗小猪的手。",
+  "file": "assets/audio/games/bath/wash-hands.m4a",
+  "speech": [
+   0.03,
+   1.69
+  ],
+  "speech_fingerprint": "763bab1f9b65c1b4e3f2aac572a375b4dfdb91af8edbbe7bd7842e6c63a4af61"
+ },
+ "wash-tummy": {
+  "pinyin": "Xǐxi xiǎo zhū de dùzi.",
+  "english": "Wash the piglet’s tummy.",
+  "speaker": "narrator",
+  "fingerprint": "ba732387068fa2785cb680f2ab316280b66e70931643ac2c3a15230ea86def63",
+  "text": "洗洗小猪的肚子。",
+  "file": "assets/audio/games/bath/wash-tummy.m4a",
+  "speech": [
+   0.03,
+   1.81
+  ],
+  "speech_fingerprint": "ba732387068fa2785cb680f2ab316280b66e70931643ac2c3a15230ea86def63"
+ },
+ "wash-feet": {
+  "pinyin": "Xǐxi xiǎo zhū de jiǎo.",
+  "english": "Wash the piglet’s feet.",
+  "speaker": "narrator",
+  "fingerprint": "65db3c946bc73c133e80fba02d4a832f91663d50e7e0c1f39d1b141623da8933",
+  "text": "洗洗小猪的脚。",
+  "file": "assets/audio/games/bath/wash-feet.m4a",
+  "speech": [
+   0.03,
+   1.69
+  ],
+  "speech_fingerprint": "65db3c946bc73c133e80fba02d4a832f91663d50e7e0c1f39d1b141623da8933"
+ }
+}

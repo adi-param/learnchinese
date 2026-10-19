@@ -1,5 +1,5 @@
 {
- "note": "Every word the situation games use. Add an entry (and its picture in src/catalog-art.js), run scripts/generate-audio.py, and every game that uses that list picks it up, with all its sentences recorded.",
+ "note": "Every word the games use. Add an entry (and its picture in src/catalog-art.js, or the game's own art), run scripts/generate-audio.py, and every game that uses that list picks it up, with all its sentences recorded.",
  "animals": [
   {
    "id": "rabbit",
@@ -141,37 +141,109 @@
    "id": "farm",
    "hanzi": "农场",
    "pinyin": "nóngchǎng",
-   "english": "the farm"
+   "english": "the farm",
+   "go": "去农场",
+   "goPinyin": "qù nóngchǎng",
+   "goEnglish": "go to the farm",
+   "arrive": "农场到了！",
+   "arrivePinyin": "Nóngchǎng dào le!",
+   "arriveEnglish": "Here’s the farm!"
   },
   {
    "id": "zoo",
    "hanzi": "动物园",
    "pinyin": "dòngwùyuán",
-   "english": "the zoo"
+   "english": "the zoo",
+   "go": "去动物园",
+   "goPinyin": "qù dòngwùyuán",
+   "goEnglish": "go to the zoo",
+   "arrive": "动物园到了！",
+   "arrivePinyin": "Dòngwùyuán dào le!",
+   "arriveEnglish": "Here’s the zoo!"
   },
   {
    "id": "beach",
    "hanzi": "海边",
    "pinyin": "hǎibiān",
-   "english": "the beach"
+   "english": "the beach",
+   "go": "去海边",
+   "goPinyin": "qù hǎibiān",
+   "goEnglish": "go to the beach",
+   "arrive": "海边到了！",
+   "arrivePinyin": "Hǎibiān dào le!",
+   "arriveEnglish": "Here’s the beach!"
   },
   {
    "id": "forest",
    "hanzi": "森林",
    "pinyin": "sēnlín",
-   "english": "the forest"
+   "english": "the forest",
+   "go": "去森林",
+   "goPinyin": "qù sēnlín",
+   "goEnglish": "go to the forest",
+   "arrive": "森林到了！",
+   "arrivePinyin": "Sēnlín dào le!",
+   "arriveEnglish": "Here’s the forest!"
   },
   {
    "id": "park",
    "hanzi": "公园",
    "pinyin": "gōngyuán",
-   "english": "the park"
+   "english": "the park",
+   "go": "去公园",
+   "goPinyin": "qù gōngyuán",
+   "goEnglish": "go to the park",
+   "arrive": "公园到了！",
+   "arrivePinyin": "Gōngyuán dào le!",
+   "arriveEnglish": "Here’s the park!"
   },
   {
    "id": "school",
    "hanzi": "学校",
    "pinyin": "xuéxiào",
-   "english": "school"
+   "english": "school",
+   "go": "去学校",
+   "goPinyin": "qù xuéxiào",
+   "goEnglish": "go to school",
+   "arrive": "学校到了！",
+   "arrivePinyin": "Xuéxiào dào le!",
+   "arriveEnglish": "Here’s school!"
+  },
+  {
+   "id": "supermarket",
+   "hanzi": "超市",
+   "pinyin": "chāoshì",
+   "english": "the supermarket",
+   "go": "去超市",
+   "goPinyin": "qù chāoshì",
+   "goEnglish": "go to the supermarket",
+   "arrive": "超市到了！",
+   "arrivePinyin": "Chāoshì dào le!",
+   "arriveEnglish": "Here’s the supermarket!"
+  },
+  {
+   "id": "hospital",
+   "hanzi": "医院",
+   "pinyin": "yīyuàn",
+   "english": "the hospital",
+   "go": "去医院",
+   "goPinyin": "qù yīyuàn",
+   "goEnglish": "go to the hospital",
+   "arrive": "医院到了！",
+   "arrivePinyin": "Yīyuàn dào le!",
+   "arriveEnglish": "Here’s the hospital!"
+  },
+  {
+   "id": "home",
+   "hanzi": "家",
+   "pinyin": "jiā",
+   "english": "home",
+   "go": "回家",
+   "goPinyin": "huí jiā",
+   "goEnglish": "go home",
+   "arrive": "到家了！",
+   "arrivePinyin": "Dào jiā le!",
+   "arriveEnglish": "We’re home!"
   }
  ],
  "foods": [
@@ -294,6 +366,46 @@
    "measurePinyin": "gè",
    "unit": "",
    "price": 1
+  },
+  {
+   "id": "tomato",
+   "hanzi": "西红柿",
+   "pinyin": "xīhóngshì",
+   "english": "tomato",
+   "measure": "个",
+   "measurePinyin": "gè",
+   "unit": "",
+   "price": 1
+  },
+  {
+   "id": "potato",
+   "hanzi": "土豆",
+   "pinyin": "tǔdòu",
+   "english": "potato",
+   "measure": "个",
+   "measurePinyin": "gè",
+   "unit": "",
+   "price": 1
+  },
+  {
+   "id": "mushroom",
+   "hanzi": "蘑菇",
+   "pinyin": "mógu",
+   "english": "mushroom",
+   "measure": "个",
+   "measurePinyin": "gè",
+   "unit": "",
+   "price": 1
+  },
+  {
+   "id": "carrot",
+   "hanzi": "胡萝卜",
+   "pinyin": "húluóbo",
+   "english": "carrot",
+   "measure": "根",
+   "measurePinyin": "gēn",
+   "unit": "",
+   "price": 1
   }
  ],
  "drinks": [
@@ -398,6 +510,357 @@
    "hanzi": "十",
    "pinyin": "shí",
    "english": "10"
+  }
+ ],
+ "fruits": [
+  {
+   "id": "apple",
+   "hanzi": "苹果",
+   "pinyin": "píngguǒ",
+   "english": "an apple"
+  },
+  {
+   "id": "banana",
+   "hanzi": "香蕉",
+   "pinyin": "xiāngjiāo",
+   "english": "a banana"
+  },
+  {
+   "id": "orange",
+   "hanzi": "橙子",
+   "pinyin": "chéngzi",
+   "english": "an orange"
+  },
+  {
+   "id": "pear",
+   "hanzi": "梨",
+   "pinyin": "lí",
+   "english": "a pear"
+  },
+  {
+   "id": "grapes",
+   "hanzi": "葡萄",
+   "pinyin": "pútao",
+   "english": "grapes"
+  },
+  {
+   "id": "strawberry",
+   "hanzi": "草莓",
+   "pinyin": "cǎoméi",
+   "english": "strawberries"
+  },
+  {
+   "id": "watermelon",
+   "hanzi": "西瓜",
+   "pinyin": "xīguā",
+   "english": "a watermelon"
+  },
+  {
+   "id": "mango",
+   "hanzi": "芒果",
+   "pinyin": "mángguǒ",
+   "english": "a mango"
+  },
+  {
+   "id": "peach",
+   "hanzi": "桃子",
+   "pinyin": "táozi",
+   "english": "a peach"
+  }
+ ],
+ "clothes": [
+  {
+   "id": "shoes",
+   "hanzi": "鞋子",
+   "pinyin": "xiézi",
+   "english": "shoes",
+   "verb": "穿",
+   "verbPinyin": "chuān",
+   "verbEnglish": "wear"
+  },
+  {
+   "id": "socks",
+   "hanzi": "袜子",
+   "pinyin": "wàzi",
+   "english": "socks",
+   "verb": "穿",
+   "verbPinyin": "chuān",
+   "verbEnglish": "wear"
+  },
+  {
+   "id": "hat",
+   "hanzi": "帽子",
+   "pinyin": "màozi",
+   "english": "hat",
+   "verb": "戴",
+   "verbPinyin": "dài",
+   "verbEnglish": "wear"
+  },
+  {
+   "id": "shirt",
+   "hanzi": "T恤",
+   "pinyin": "T xù",
+   "english": "T-shirt",
+   "verb": "穿",
+   "verbPinyin": "chuān",
+   "verbEnglish": "wear"
+  },
+  {
+   "id": "dress",
+   "hanzi": "裙子",
+   "pinyin": "qúnzi",
+   "english": "dress",
+   "verb": "穿",
+   "verbPinyin": "chuān",
+   "verbEnglish": "wear"
+  },
+  {
+   "id": "trousers",
+   "hanzi": "裤子",
+   "pinyin": "kùzi",
+   "english": "trousers",
+   "verb": "穿",
+   "verbPinyin": "chuān",
+   "verbEnglish": "wear"
+  },
+  {
+   "id": "coat",
+   "hanzi": "外套",
+   "pinyin": "wàitào",
+   "english": "coat",
+   "verb": "穿",
+   "verbPinyin": "chuān",
+   "verbEnglish": "wear"
+  }
+ ],
+ "toys": [
+  {
+   "id": "ball",
+   "hanzi": "球",
+   "pinyin": "qiú",
+   "english": "ball"
+  },
+  {
+   "id": "blocks",
+   "hanzi": "积木",
+   "pinyin": "jīmù",
+   "english": "blocks"
+  },
+  {
+   "id": "doll",
+   "hanzi": "娃娃",
+   "pinyin": "wáwa",
+   "english": "doll"
+  },
+  {
+   "id": "car",
+   "hanzi": "小汽车",
+   "pinyin": "xiǎo qìchē",
+   "english": "toy car"
+  },
+  {
+   "id": "book",
+   "hanzi": "书",
+   "pinyin": "shū",
+   "english": "book"
+  },
+  {
+   "id": "drum",
+   "hanzi": "鼓",
+   "pinyin": "gǔ",
+   "english": "drum"
+  },
+  {
+   "id": "robot",
+   "hanzi": "机器人",
+   "pinyin": "jīqìrén",
+   "english": "robot"
+  },
+  {
+   "id": "duck",
+   "hanzi": "小鸭子",
+   "pinyin": "xiǎo yāzi",
+   "english": "rubber duck"
+  },
+  {
+   "id": "kite",
+   "hanzi": "风筝",
+   "pinyin": "fēngzheng",
+   "english": "kite"
+  }
+ ],
+ "spots": [
+  {
+   "id": "box",
+   "hanzi": "进箱子里",
+   "pinyin": "jìn xiāngzi lǐ",
+   "english": "in the box"
+  },
+  {
+   "id": "bed",
+   "hanzi": "在床上",
+   "pinyin": "zài chuáng shang",
+   "english": "on the bed"
+  },
+  {
+   "id": "table",
+   "hanzi": "在桌子上",
+   "pinyin": "zài zhuōzi shang",
+   "english": "on the table"
+  },
+  {
+   "id": "under",
+   "hanzi": "在桌子下面",
+   "pinyin": "zài zhuōzi xiàmian",
+   "english": "under the table"
+  },
+  {
+   "id": "chair",
+   "hanzi": "在椅子上",
+   "pinyin": "zài yǐzi shang",
+   "english": "on the chair"
+  }
+ ],
+ "actions": [
+  {
+   "id": "run",
+   "hanzi": "跑步",
+   "pinyin": "pǎobù",
+   "english": "running"
+  },
+  {
+   "id": "jump",
+   "hanzi": "跳",
+   "pinyin": "tiào",
+   "english": "jumping"
+  },
+  {
+   "id": "walk",
+   "hanzi": "走路",
+   "pinyin": "zǒulù",
+   "english": "walking"
+  },
+  {
+   "id": "clap",
+   "hanzi": "拍手",
+   "pinyin": "pāi shǒu",
+   "english": "clapping"
+  },
+  {
+   "id": "sleep",
+   "hanzi": "睡觉",
+   "pinyin": "shuìjiào",
+   "english": "sleeping"
+  },
+  {
+   "id": "eat",
+   "hanzi": "吃饭",
+   "pinyin": "chīfàn",
+   "english": "eating"
+  },
+  {
+   "id": "drink",
+   "hanzi": "喝水",
+   "pinyin": "hē shuǐ",
+   "english": "drinking water"
+  },
+  {
+   "id": "laugh",
+   "hanzi": "笑",
+   "pinyin": "xiào",
+   "english": "laughing"
+  },
+  {
+   "id": "cry",
+   "hanzi": "哭",
+   "pinyin": "kū",
+   "english": "crying"
+  },
+  {
+   "id": "sing",
+   "hanzi": "唱歌",
+   "pinyin": "chànggē",
+   "english": "singing"
+  },
+  {
+   "id": "dance",
+   "hanzi": "跳舞",
+   "pinyin": "tiàowǔ",
+   "english": "dancing"
+  },
+  {
+   "id": "brush",
+   "hanzi": "刷牙",
+   "pinyin": "shuāyá",
+   "english": "brushing teeth"
+  },
+  {
+   "id": "washhands",
+   "hanzi": "洗手",
+   "pinyin": "xǐ shǒu",
+   "english": "washing hands"
+  },
+  {
+   "id": "bath",
+   "hanzi": "洗澡",
+   "pinyin": "xǐzǎo",
+   "english": "having a bath"
+  },
+  {
+   "id": "read",
+   "hanzi": "看书",
+   "pinyin": "kàn shū",
+   "english": "reading"
+  }
+ ],
+ "body": [
+  {
+   "id": "head",
+   "hanzi": "头",
+   "pinyin": "tóu",
+   "english": "head"
+  },
+  {
+   "id": "ears",
+   "hanzi": "耳朵",
+   "pinyin": "ěrduo",
+   "english": "ears"
+  },
+  {
+   "id": "eyes",
+   "hanzi": "眼睛",
+   "pinyin": "yǎnjing",
+   "english": "eyes"
+  },
+  {
+   "id": "nose",
+   "hanzi": "鼻子",
+   "pinyin": "bízi",
+   "english": "nose"
+  },
+  {
+   "id": "mouth",
+   "hanzi": "嘴巴",
+   "pinyin": "zuǐba",
+   "english": "mouth"
+  },
+  {
+   "id": "hands",
+   "hanzi": "手",
+   "pinyin": "shǒu",
+   "english": "hands"
+  },
+  {
+   "id": "tummy",
+   "hanzi": "肚子",
+   "pinyin": "dùzi",
+   "english": "tummy"
+  },
+  {
+   "id": "feet",
+   "hanzi": "脚",
+   "pinyin": "jiǎo",
+   "english": "feet"
   }
  ]
 }

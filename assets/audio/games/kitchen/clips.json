@@ -1,0 +1,405 @@
+{
+ "done": {
+  "speaker": "cat",
+  "pinyin": "Tāng zuò hǎo le! Hǎo xiāng!",
+  "english": "The soup is ready! It smells good!",
+  "fingerprint": "6f7c03caf1b0483e8decce114d7f962e67b78964c53a89dca3d7c275353adbdf",
+  "text": "汤做好了！好香！",
+  "file": "assets/audio/games/kitchen/done.m4a",
+  "speech": [
+   0.04,
+   2.02
+  ],
+  "speech_fingerprint": "6f7c03caf1b0483e8decce114d7f962e67b78964c53a89dca3d7c275353adbdf"
+ },
+ "add-1-bun": {
+  "pinyin": "Fàng yī gè bāozi.",
+  "english": "Put in 1 steamed bun.",
+  "speaker": "cat",
+  "fingerprint": "27916f65e7631193a9b9e4e023f6d377817d3fd9e91721752414a484c2ef91b6",
+  "text": "放一个包子。",
+  "file": "assets/audio/games/kitchen/add-1-bun.m4a",
+  "speech": [
+   0.1,
+   1.15
+  ],
+  "speech_fingerprint": "27916f65e7631193a9b9e4e023f6d377817d3fd9e91721752414a484c2ef91b6"
+ },
+ "add-1-apple": {
+  "pinyin": "Fàng yī gè píngguǒ.",
+  "english": "Put in 1 apple.",
+  "speaker": "cat",
+  "fingerprint": "7beb81be0601146c647ce03f0f4a5a0f29b6009ba4d9efd958968bdb6059531c",
+  "text": "放一个苹果。",
+  "file": "assets/audio/games/kitchen/add-1-apple.m4a",
+  "speech": [
+   0.1,
+   1.28
+  ],
+  "speech_fingerprint": "7beb81be0601146c647ce03f0f4a5a0f29b6009ba4d9efd958968bdb6059531c"
+ },
+ "add-1-egg": {
+  "pinyin": "Fàng yī gè jīdàn.",
+  "english": "Put in 1 egg.",
+  "speaker": "cat",
+  "fingerprint": "20d5184c8dddd2b33df159229548e9a2a6043cb21d7a4557fc45ffd2f7985025",
+  "text": "放一个鸡蛋。",
+  "file": "assets/audio/games/kitchen/add-1-egg.m4a",
+  "speech": [
+   0.1,
+   1.18
+  ],
+  "speech_fingerprint": "20d5184c8dddd2b33df159229548e9a2a6043cb21d7a4557fc45ffd2f7985025"
+ },
+ "add-1-tomato": {
+  "pinyin": "Fàng yī gè xīhóngshì.",
+  "english": "Put in 1 tomato.",
+  "speaker": "cat",
+  "fingerprint": "a9ca4620a67293f13667d7e2149b733713a89bc68e6e7a0f4dbf6b8bd4e7f8e8",
+  "text": "放一个西红柿。",
+  "file": "assets/audio/games/kitchen/add-1-tomato.m4a",
+  "speech": [
+   0.1,
+   1.53
+  ],
+  "speech_fingerprint": "a9ca4620a67293f13667d7e2149b733713a89bc68e6e7a0f4dbf6b8bd4e7f8e8"
+ },
+ "add-1-potato": {
+  "pinyin": "Fàng yī gè tǔdòu.",
+  "english": "Put in 1 potato.",
+  "speaker": "cat",
+  "fingerprint": "aa8d51f8e380f0af33a9543e23cdd97b5178a90fb9f2a8b92bafb02bb474a363",
+  "text": "放一个土豆。",
+  "file": "assets/audio/games/kitchen/add-1-potato.m4a",
+  "speech": [
+   0.1,
+   1.2
+  ],
+  "speech_fingerprint": "aa8d51f8e380f0af33a9543e23cdd97b5178a90fb9f2a8b92bafb02bb474a363"
+ },
+ "add-1-mushroom": {
+  "pinyin": "Fàng yī gè mógu.",
+  "english": "Put in 1 mushroom.",
+  "speaker": "cat",
+  "fingerprint": "af7d7aa7ceab50b40f3fd79caab355152b237efa5524759e07a73c253f9db32f",
+  "text": "放一个蘑菇。",
+  "file": "assets/audio/games/kitchen/add-1-mushroom.m4a",
+  "speech": [
+   0.1,
+   1.14
+  ],
+  "speech_fingerprint": "af7d7aa7ceab50b40f3fd79caab355152b237efa5524759e07a73c253f9db32f"
+ },
+ "add-2-bun": {
+  "pinyin": "Fàng liǎng gè bāozi.",
+  "english": "Put in 2 steamed bun.",
+  "speaker": "cat",
+  "fingerprint": "a6dfaf2797fdaddc9c23ccafe5f06b2f615a84b3bb702ffee22d4f918fa5a465",
+  "text": "放两个包子。",
+  "file": "assets/audio/games/kitchen/add-2-bun.m4a",
+  "speech": [
+   0.1,
+   1.3
+  ],
+  "speech_fingerprint": "a6dfaf2797fdaddc9c23ccafe5f06b2f615a84b3bb702ffee22d4f918fa5a465"
+ },
+ "add-2-apple": {
+  "pinyin": "Fàng liǎng gè píngguǒ.",
+  "english": "Put in 2 apple.",
+  "speaker": "cat",
+  "fingerprint": "7b60b111fd68d4853f8f11954d80a2e81dca1deba84bbbcd58e7e42ce3e9baba",
+  "text": "放两个苹果。",
+  "file": "assets/audio/games/kitchen/add-2-apple.m4a",
+  "speech": [
+   0.1,
+   1.43
+  ],
+  "speech_fingerprint": "7b60b111fd68d4853f8f11954d80a2e81dca1deba84bbbcd58e7e42ce3e9baba"
+ },
+ "add-2-egg": {
+  "pinyin": "Fàng liǎng gè jīdàn.",
+  "english": "Put in 2 egg.",
+  "speaker": "cat",
+  "fingerprint": "070adad0ecd5399ea03bf0caeca4c91d94132db090c062b27a2c7a83b0c776f2",
+  "text": "放两个鸡蛋。",
+  "file": "assets/audio/games/kitchen/add-2-egg.m4a",
+  "speech": [
+   0.1,
+   1.33
+  ],
+  "speech_fingerprint": "070adad0ecd5399ea03bf0caeca4c91d94132db090c062b27a2c7a83b0c776f2"
+ },
+ "add-2-tomato": {
+  "pinyin": "Fàng liǎng gè xīhóngshì.",
+  "english": "Put in 2 tomato.",
+  "speaker": "cat",
+  "fingerprint": "b3b366f1b83189b2d395d25c41c8f822134ac64ae9e7a703211f4828b7712951",
+  "text": "放两个西红柿。",
+  "file": "assets/audio/games/kitchen/add-2-tomato.m4a",
+  "speech": [
+   0.1,
+   1.68
+  ],
+  "speech_fingerprint": "b3b366f1b83189b2d395d25c41c8f822134ac64ae9e7a703211f4828b7712951"
+ },
+ "add-2-potato": {
+  "pinyin": "Fàng liǎng gè tǔdòu.",
+  "english": "Put in 2 potato.",
+  "speaker": "cat",
+  "fingerprint": "524b086280370409eaba8c3a28d89eaedd41ce2bb0e4ea18be3ef8a290685fa2",
+  "text": "放两个土豆。",
+  "file": "assets/audio/games/kitchen/add-2-potato.m4a",
+  "speech": [
+   0.1,
+   1.35
+  ],
+  "speech_fingerprint": "524b086280370409eaba8c3a28d89eaedd41ce2bb0e4ea18be3ef8a290685fa2"
+ },
+ "add-2-mushroom": {
+  "pinyin": "Fàng liǎng gè mógu.",
+  "english": "Put in 2 mushroom.",
+  "speaker": "cat",
+  "fingerprint": "df2516b36bc3e9d61b05cb8087abfde810209a97db368478d9fe7ea940ca4f33",
+  "text": "放两个蘑菇。",
+  "file": "assets/audio/games/kitchen/add-2-mushroom.m4a",
+  "speech": [
+   0.1,
+   1.29
+  ],
+  "speech_fingerprint": "df2516b36bc3e9d61b05cb8087abfde810209a97db368478d9fe7ea940ca4f33"
+ },
+ "add-3-bun": {
+  "pinyin": "Fàng sān gè bāozi.",
+  "english": "Put in 3 steamed bun.",
+  "speaker": "cat",
+  "fingerprint": "65d215b83e584a2f30018bced067b8b2fee87f492ae40fba83fae33a7ae5be91",
+  "text": "放三个包子。",
+  "file": "assets/audio/games/kitchen/add-3-bun.m4a",
+  "speech": [
+   0.1,
+   1.33
+  ],
+  "speech_fingerprint": "65d215b83e584a2f30018bced067b8b2fee87f492ae40fba83fae33a7ae5be91"
+ },
+ "add-3-apple": {
+  "pinyin": "Fàng sān gè píngguǒ.",
+  "english": "Put in 3 apple.",
+  "speaker": "cat",
+  "fingerprint": "f91344b1631921254ab4ea36bc869626b32a2a33e8312bab0826ad44ea8311d7",
+  "text": "放三个苹果。",
+  "file": "assets/audio/games/kitchen/add-3-apple.m4a",
+  "speech": [
+   0.1,
+   1.46
+  ],
+  "speech_fingerprint": "f91344b1631921254ab4ea36bc869626b32a2a33e8312bab0826ad44ea8311d7"
+ },
+ "add-3-egg": {
+  "pinyin": "Fàng sān gè jīdàn.",
+  "english": "Put in 3 egg.",
+  "speaker": "cat",
+  "fingerprint": "700a1276cb84539643617fe89748d4d97139f927bc1e81e89afdb895b2a52c5c",
+  "text": "放三个鸡蛋。",
+  "file": "assets/audio/games/kitchen/add-3-egg.m4a",
+  "speech": [
+   0.1,
+   1.36
+  ],
+  "speech_fingerprint": "700a1276cb84539643617fe89748d4d97139f927bc1e81e89afdb895b2a52c5c"
+ },
+ "add-3-tomato": {
+  "pinyin": "Fàng sān gè xīhóngshì.",
+  "english": "Put in 3 tomato.",
+  "speaker": "cat",
+  "fingerprint": "17d952095c6fcc9f1279ff90f0f3a5dd545b756af85187d537711f9515482c4e",
+  "text": "放三个西红柿。",
+  "file": "assets/audio/games/kitchen/add-3-tomato.m4a",
+  "speech": [
+   0.1,
+   1.71
+  ],
+  "speech_fingerprint": "17d952095c6fcc9f1279ff90f0f3a5dd545b756af85187d537711f9515482c4e"
+ },
+ "add-3-potato": {
+  "pinyin": "Fàng sān gè tǔdòu.",
+  "english": "Put in 3 potato.",
+  "speaker": "cat",
+  "fingerprint": "71d20d1cfe026ff531ff4f5f2a9009499ad6a8fd1b505d5b02b9dd5f7ffd8aa9",
+  "text": "放三个土豆。",
+  "file": "assets/audio/games/kitchen/add-3-potato.m4a",
+  "speech": [
+   0.1,
+   1.37
+  ],
+  "speech_fingerprint": "71d20d1cfe026ff531ff4f5f2a9009499ad6a8fd1b505d5b02b9dd5f7ffd8aa9"
+ },
+ "add-3-mushroom": {
+  "pinyin": "Fàng sān gè mógu.",
+  "english": "Put in 3 mushroom.",
+  "speaker": "cat",
+  "fingerprint": "97d9568f72928b0854be5eb5b77b59a69adf27cb528aebb367c60a7486c6f283",
+  "text": "放三个蘑菇。",
+  "file": "assets/audio/games/kitchen/add-3-mushroom.m4a",
+  "speech": [
+   0.1,
+   1.31
+  ],
+  "speech_fingerprint": "97d9568f72928b0854be5eb5b77b59a69adf27cb528aebb367c60a7486c6f283"
+ },
+ "add-4-bun": {
+  "pinyin": "Fàng sì gè bāozi.",
+  "english": "Put in 4 steamed bun.",
+  "speaker": "cat",
+  "fingerprint": "5757be75e226de56f03b2cecae6d24bba79fe0ae09e8f244bca080b21bd0bb2f",
+  "text": "放四个包子。",
+  "file": "assets/audio/games/kitchen/add-4-bun.m4a",
+  "speech": [
+   0.1,
+   1.27
+  ],
+  "speech_fingerprint": "5757be75e226de56f03b2cecae6d24bba79fe0ae09e8f244bca080b21bd0bb2f"
+ },
+ "add-4-apple": {
+  "pinyin": "Fàng sì gè píngguǒ.",
+  "english": "Put in 4 apple.",
+  "speaker": "cat",
+  "fingerprint": "0ab6382bf7d8e484c890a1f10f3017ccb5247bac40eeedb1025ac79faf0ca519",
+  "text": "放四个苹果。",
+  "file": "assets/audio/games/kitchen/add-4-apple.m4a",
+  "speech": [
+   0.1,
+   1.4
+  ],
+  "speech_fingerprint": "0ab6382bf7d8e484c890a1f10f3017ccb5247bac40eeedb1025ac79faf0ca519"
+ },
+ "add-4-egg": {
+  "pinyin": "Fàng sì gè jīdàn.",
+  "english": "Put in 4 egg.",
+  "speaker": "cat",
+  "fingerprint": "3e6a20ba45f53a44d6d39e44abcc6346ec903f7137250442356df350d0ac3ef5",
+  "text": "放四个鸡蛋。",
+  "file": "assets/audio/games/kitchen/add-4-egg.m4a",
+  "speech": [
+   0.1,
+   1.3
+  ],
+  "speech_fingerprint": "3e6a20ba45f53a44d6d39e44abcc6346ec903f7137250442356df350d0ac3ef5"
+ },
+ "add-4-tomato": {
+  "pinyin": "Fàng sì gè xīhóngshì.",
+  "english": "Put in 4 tomato.",
+  "speaker": "cat",
+  "fingerprint": "6705907b7c8f66d328951c8e192a7d2d8c91723f9529eef46bd93a3138ba5e4d",
+  "text": "放四个西红柿。",
+  "file": "assets/audio/games/kitchen/add-4-tomato.m4a",
+  "speech": [
+   0.1,
+   1.66
+  ],
+  "speech_fingerprint": "6705907b7c8f66d328951c8e192a7d2d8c91723f9529eef46bd93a3138ba5e4d"
+ },
+ "add-4-potato": {
+  "pinyin": "Fàng sì gè tǔdòu.",
+  "english": "Put in 4 potato.",
+  "speaker": "cat",
+  "fingerprint": "b66a95dd5d6545c0d9707211286da249d9beeeb03671441edf990b180174e777",
+  "text": "放四个土豆。",
+  "file": "assets/audio/games/kitchen/add-4-potato.m4a",
+  "speech": [
+   0.1,
+   1.32
+  ],
+  "speech_fingerprint": "b66a95dd5d6545c0d9707211286da249d9beeeb03671441edf990b180174e777"
+ },
+ "add-4-mushroom": {
+  "pinyin": "Fàng sì gè mógu.",
+  "english": "Put in 4 mushroom.",
+  "speaker": "cat",
+  "fingerprint": "e825b3b9b6e57a0ce150eccea1b5d7819c05a99e86f7acf1f50b4a43d1ceae9d",
+  "text": "放四个蘑菇。",
+  "file": "assets/audio/games/kitchen/add-4-mushroom.m4a",
+  "speech": [
+   0.1,
+   1.26
+  ],
+  "speech_fingerprint": "e825b3b9b6e57a0ce150eccea1b5d7819c05a99e86f7acf1f50b4a43d1ceae9d"
+ },
+ "add-5-bun": {
+  "pinyin": "Fàng wǔ gè bāozi.",
+  "english": "Put in 5 steamed bun.",
+  "speaker": "cat",
+  "fingerprint": "68be1d85e15bde118b63bc1b41d9cb618e649dbaf03760545bb52181141c1553",
+  "text": "放五个包子。",
+  "file": "assets/audio/games/kitchen/add-5-bun.m4a",
+  "speech": [
+   0.1,
+   1.25
+  ],
+  "speech_fingerprint": "68be1d85e15bde118b63bc1b41d9cb618e649dbaf03760545bb52181141c1553"
+ },
+ "add-5-apple": {
+  "pinyin": "Fàng wǔ gè píngguǒ.",
+  "english": "Put in 5 apple.",
+  "speaker": "cat",
+  "fingerprint": "63889c45e4d35afb972cf501f26778e5cd2dacefbea2c25d47d3afb6a9bca241",
+  "text": "放五个苹果。",
+  "file": "assets/audio/games/kitchen/add-5-apple.m4a",
+  "speech": [
+   0.1,
+   1.38
+  ],
+  "speech_fingerprint": "63889c45e4d35afb972cf501f26778e5cd2dacefbea2c25d47d3afb6a9bca241"
+ },
+ "add-5-egg": {
+  "pinyin": "Fàng wǔ gè jīdàn.",
+  "english": "Put in 5 egg.",
+  "speaker": "cat",
+  "fingerprint": "b3755dca9c48ad826e3d41a75a8454d749c12de378fa89cf3513e2c077a86b91",
+  "text": "放五个鸡蛋。",
+  "file": "assets/audio/games/kitchen/add-5-egg.m4a",
+  "speech": [
+   0.1,
+   1.28
+  ],
+  "speech_fingerprint": "b3755dca9c48ad826e3d41a75a8454d749c12de378fa89cf3513e2c077a86b91"
+ },
+ "add-5-tomato": {
+  "pinyin": "Fàng wǔ gè xīhóngshì.",
+  "english": "Put in 5 tomato.",
+  "speaker": "cat",
+  "fingerprint": "e921c0ab4d8f32c5f0d8149500c37cc9643e9fab7bed49e4fd9c3548464ded10",
+  "text": "放五个西红柿。",
+  "file": "assets/audio/games/kitchen/add-5-tomato.m4a",
+  "speech": [
+   0.1,
+   1.63
+  ],
+  "speech_fingerprint": "e921c0ab4d8f32c5f0d8149500c37cc9643e9fab7bed49e4fd9c3548464ded10"
+ },
+ "add-5-potato": {
+  "pinyin": "Fàng wǔ gè tǔdòu.",
+  "english": "Put in 5 potato.",
+  "speaker": "cat",
+  "fingerprint": "dd394a1bc1303731c2e0355d7a2c8bb6f55531cdc189e990c85a0a800f2cb5c3",
+  "text": "放五个土豆。",
+  "file": "assets/audio/games/kitchen/add-5-potato.m4a",
+  "speech": [
+   0.1,
+   1.29
+  ],
+  "speech_fingerprint": "dd394a1bc1303731c2e0355d7a2c8bb6f55531cdc189e990c85a0a800f2cb5c3"
+ },
+ "add-5-mushroom": {
+  "pinyin": "Fàng wǔ gè mógu.",
+  "english": "Put in 5 mushroom.",
+  "speaker": "cat",
+  "fingerprint": "ae1a2649fafef01a124054ed7bdc69f0b6797d96929f15d0a10978419514d5da",
+  "text": "放五个蘑菇。",
+  "file": "assets/audio/games/kitchen/add-5-mushroom.m4a",
+  "speech": [
+   0.1,
+   1.24
+  ],
+  "speech_fingerprint": "ae1a2649fafef01a124054ed7bdc69f0b6797d96929f15d0a10978419514d5da"
+ }
+}

@@ -910,3 +910,61 @@ a{color:inherit}
 @media(max-width:720px){.game-player .story-stage{max-width:calc(30vh*1.6)}.game-player .story-words .hanzi{font-size:22px}.game-player .story-words .meaning{display:none}.game-panel{padding:10px}.game-player .say-card{min-width:84px}.game-player .say-card-pic{width:60px;height:48px}.game-player .build-slot2{min-width:76px;min-height:84px}}
 /* While a game is being played, the page header steps aside so the whole game fits on a phone. */
 .view-match:has(.game-player) .hero{display:none}
+.story-menu+.menu-heading{margin-top:28px}
+/* Answer cards are words only: big characters, nothing else to go on. */
+.say-card{justify-content:center;min-height:88px}
+.say-card .hanzi{font-size:34px}
+.build-slot2{min-height:88px}
+.build-slot2 .hanzi{font-size:30px}
+@media(max-width:720px){.say-card .hanzi,.game-player .say-card .hanzi{font-size:26px}.say-card{min-height:72px}.build-slot2,.game-player .build-slot2{min-height:72px}}
+/* Units: four steps (watch, learn, practise, act it out) and the big card the learn and practise steps use. */
+.story-bar-space{width:58px}
+.unit-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.unit-step{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;padding:22px 12px;border:3px solid transparent;border-radius:var(--r-lg);background:var(--surface);box-shadow:var(--shadow-md);transition:transform .2s var(--spring)}
+.unit-step:active{transform:scale(.96)}
+.unit-step-num{display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:var(--mint-soft);color:var(--mint);font-size:22px;font-weight:700}
+.unit-step-num .icon{width:26px;height:26px}
+.unit-step.done{border-color:var(--mint)}
+.unit-step.done .unit-step-num{background:var(--mint);color:#fff}
+.unit-step .hanzi{font-size:30px}
+.unit-step small{font-size:14px;font-weight:600;color:var(--muted)}
+.drill-card{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%;padding:18px;border-radius:var(--r-xl);background:linear-gradient(180deg,#fff2cc,#fff8f0);box-shadow:var(--shadow-md);text-align:center}
+.drill-card.arrive{animation:story-pop .5s var(--spring)}
+.drill-pic{display:grid;place-items:center;min-height:150px}
+.drill-pic svg{width:min(60vw,220px);height:auto}
+.drill-pic:empty{min-height:0}
+.drill-words p{margin:0}
+.drill-words .hanzi{font-size:44px}
+.drill-words .pinyin{font-size:18px}
+.drill-words[hidden]{display:none}
+.pic-card{padding:10px}
+.pic-card .say-card-pic{width:120px;height:96px}
+.game-player:not(.watching) .story-line[hidden]{display:none}
+@media(max-width:720px){.drill-words .hanzi{font-size:34px}.drill-pic{min-height:110px}.drill-pic svg{width:min(48vw,170px)}.pic-card .say-card-pic{width:96px;height:77px}}
+.drill-card[hidden]{display:none}
+.drill-learn .story-line{display:none}
+/* Simple games: big picture cards to tap, and a small optional say-it panel after each round. */
+.pick-cards{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.pick-card{display:grid;place-items:center;width:clamp(96px,28vw,170px);aspect-ratio:1.25;padding:8px;border:3px solid transparent;border-radius:var(--r-md);background:var(--surface);box-shadow:var(--shadow-md);transition:transform .2s var(--spring)}
+.pick-card svg{width:100%;height:100%}
+.pick-card:active{transform:scale(.94)}
+.pick-card.nope{animation:story-no .3s ease-in-out 2}
+.pick-card.hint{border-color:#ffc233;animation:hint-bounce .9s ease-in-out 3}
+.pick-card.chosen{visibility:hidden}
+.game-panel:has(.pick-cards){background:none;box-shadow:none;padding:4px 0}
+.sayit{position:relative;display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap}
+.sayit-mic{position:relative;display:grid;place-items:center;width:64px;height:64px;border:0;border-radius:50%;background:var(--rose);color:#fff;box-shadow:0 6px 16px #f0507a44;--level:0}
+.sayit-mic .icon{position:relative;width:30px;height:30px}
+.sayit-mic::before{content:'';position:absolute;inset:-6px;border-radius:50%;border:4px solid #f0507a;opacity:.3;transform:scale(calc(1 + var(--level)*.5))}
+.sayit-mic.recording{background:#e0365f}
+.sayit-compare{display:flex;gap:8px}
+.sayit-compare[hidden]{display:none}
+.sayit-hear{display:flex;align-items:center;gap:6px;height:48px;padding:0 14px;border:3px solid transparent;border-radius:99px;background:var(--rose-soft);font-size:16px;font-weight:600}
+.sayit-hear [lang]{font-family:var(--kai);font-size:19px}
+.sayit-hear.playing{border-color:var(--rose)}
+.sayit-next{display:grid;place-items:center;width:56px;height:56px;border:0;border-radius:50%;background:var(--primary);color:#fff;box-shadow:var(--shadow-md)}
+.sayit-next .icon{width:28px;height:28px}
+.sayit-timer{position:absolute;left:10%;right:10%;bottom:-8px;height:4px;border-radius:2px;background:var(--primary);transform-origin:left;animation:sayit-timer linear forwards}
+.sayit.held .sayit-timer{display:none}
+@keyframes sayit-timer{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+.games-list{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}

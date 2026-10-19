@@ -1,0 +1,600 @@
+{
+ "tidy": {
+  "speaker": "narrator",
+  "pinyin": "Fángjiān gānjìng le!",
+  "english": "The room is tidy!",
+  "fingerprint": "e08304f44fa21820c610d3eb08cb46a97edf73e450cc00cf57874cc9cdaf27da",
+  "text": "房间干净了！",
+  "file": "assets/audio/games/tidy/tidy.m4a",
+  "speech": [
+   0.1,
+   1.31
+  ],
+  "speech_fingerprint": "e08304f44fa21820c610d3eb08cb46a97edf73e450cc00cf57874cc9cdaf27da"
+ },
+ "put-ball-box": {
+  "pinyin": "Bǎ qiú fàng jìn xiāngzi lǐ.",
+  "english": "Put the ball in the box.",
+  "speaker": "narrator",
+  "fingerprint": "70295ae2bf013d3f08ca8be5f959d76927e6d0c40cff597ea15ca5119555c96a",
+  "text": "把球放进箱子里。",
+  "file": "assets/audio/games/tidy/put-ball-box.m4a",
+  "speech": [
+   0.01,
+   1.92
+  ],
+  "speech_fingerprint": "70295ae2bf013d3f08ca8be5f959d76927e6d0c40cff597ea15ca5119555c96a"
+ },
+ "put-ball-bed": {
+  "pinyin": "Bǎ qiú fàng zài chuáng shang.",
+  "english": "Put the ball on the bed.",
+  "speaker": "narrator",
+  "fingerprint": "f2403157f6afb25ba9507b9a1b06d3b6947c4b4461f600e86786ad3ccf60f593",
+  "text": "把球放在床上。",
+  "file": "assets/audio/games/tidy/put-ball-bed.m4a",
+  "speech": [
+   0.01,
+   1.83
+  ],
+  "speech_fingerprint": "f2403157f6afb25ba9507b9a1b06d3b6947c4b4461f600e86786ad3ccf60f593"
+ },
+ "put-ball-table": {
+  "pinyin": "Bǎ qiú fàng zài zhuōzi shang.",
+  "english": "Put the ball on the table.",
+  "speaker": "narrator",
+  "fingerprint": "9ecae72fbf841c545391f499cf2193c0907fdaedd846917483b14b843852b0aa",
+  "text": "把球放在桌子上。",
+  "file": "assets/audio/games/tidy/put-ball-table.m4a",
+  "speech": [
+   0.01,
+   1.94
+  ],
+  "speech_fingerprint": "9ecae72fbf841c545391f499cf2193c0907fdaedd846917483b14b843852b0aa"
+ },
+ "put-ball-under": {
+  "pinyin": "Bǎ qiú fàng zài zhuōzi xiàmian.",
+  "english": "Put the ball under the table.",
+  "speaker": "narrator",
+  "fingerprint": "f55e060f7b1deefe67ba2c1095ab74e23e4cfd943ae0783341e23254ceb11a17",
+  "text": "把球放在桌子下面。",
+  "file": "assets/audio/games/tidy/put-ball-under.m4a",
+  "speech": [
+   0.01,
+   2.29
+  ],
+  "speech_fingerprint": "f55e060f7b1deefe67ba2c1095ab74e23e4cfd943ae0783341e23254ceb11a17"
+ },
+ "put-ball-chair": {
+  "pinyin": "Bǎ qiú fàng zài yǐzi shang.",
+  "english": "Put the ball on the chair.",
+  "speaker": "narrator",
+  "fingerprint": "da3c924029b6627ea2a96ff0a77f3530f0eb9bc0cc8aa3ca37c42d4b4cb190b7",
+  "text": "把球放在椅子上。",
+  "file": "assets/audio/games/tidy/put-ball-chair.m4a",
+  "speech": [
+   0.01,
+   1.86
+  ],
+  "speech_fingerprint": "da3c924029b6627ea2a96ff0a77f3530f0eb9bc0cc8aa3ca37c42d4b4cb190b7"
+ },
+ "put-blocks-box": {
+  "pinyin": "Bǎ jīmù fàng jìn xiāngzi lǐ.",
+  "english": "Put the blocks in the box.",
+  "speaker": "narrator",
+  "fingerprint": "5204307484e4b1e3d75792802879bcdca1c6c1eef9d29e4f40cb89f633bf5c5b",
+  "text": "把积木放进箱子里。",
+  "file": "assets/audio/games/tidy/put-blocks-box.m4a",
+  "speech": [
+   0.01,
+   2.07
+  ],
+  "speech_fingerprint": "5204307484e4b1e3d75792802879bcdca1c6c1eef9d29e4f40cb89f633bf5c5b"
+ },
+ "put-blocks-bed": {
+  "pinyin": "Bǎ jīmù fàng zài chuáng shang.",
+  "english": "Put the blocks on the bed.",
+  "speaker": "narrator",
+  "fingerprint": "9d6298794734f8a840e992c1d209e7ef246b5a60b3ec89b2d4b99e3575f5eda8",
+  "text": "把积木放在床上。",
+  "file": "assets/audio/games/tidy/put-blocks-bed.m4a",
+  "speech": [
+   0.01,
+   1.99
+  ],
+  "speech_fingerprint": "9d6298794734f8a840e992c1d209e7ef246b5a60b3ec89b2d4b99e3575f5eda8"
+ },
+ "put-blocks-table": {
+  "pinyin": "Bǎ jīmù fàng zài zhuōzi shang.",
+  "english": "Put the blocks on the table.",
+  "speaker": "narrator",
+  "fingerprint": "c93f11230d229b59d3c4cb82cd02dab29711360c1ab605ca9058a8a5a633b185",
+  "text": "把积木放在桌子上。",
+  "file": "assets/audio/games/tidy/put-blocks-table.m4a",
+  "speech": [
+   0.01,
+   2.1
+  ],
+  "speech_fingerprint": "c93f11230d229b59d3c4cb82cd02dab29711360c1ab605ca9058a8a5a633b185"
+ },
+ "put-blocks-under": {
+  "pinyin": "Bǎ jīmù fàng zài zhuōzi xiàmian.",
+  "english": "Put the blocks under the table.",
+  "speaker": "narrator",
+  "fingerprint": "33f64fc9b51f5d9a0386f5d39a5e95bd9307504473407f67b52754edd42dfcc2",
+  "text": "把积木放在桌子下面。",
+  "file": "assets/audio/games/tidy/put-blocks-under.m4a",
+  "speech": [
+   0.01,
+   2.45
+  ],
+  "speech_fingerprint": "33f64fc9b51f5d9a0386f5d39a5e95bd9307504473407f67b52754edd42dfcc2"
+ },
+ "put-blocks-chair": {
+  "pinyin": "Bǎ jīmù fàng zài yǐzi shang.",
+  "english": "Put the blocks on the chair.",
+  "speaker": "narrator",
+  "fingerprint": "eefd86b6f54a951ae4e2f02f16908c0fe0c146b9c063f4c7a4bb35cb6dea9dcf",
+  "text": "把积木放在椅子上。",
+  "file": "assets/audio/games/tidy/put-blocks-chair.m4a",
+  "speech": [
+   0.01,
+   2.02
+  ],
+  "speech_fingerprint": "eefd86b6f54a951ae4e2f02f16908c0fe0c146b9c063f4c7a4bb35cb6dea9dcf"
+ },
+ "put-doll-box": {
+  "pinyin": "Bǎ wáwa fàng jìn xiāngzi lǐ.",
+  "english": "Put the doll in the box.",
+  "speaker": "narrator",
+  "fingerprint": "e8629d67421cdc87ebd0579dbcec98e747c46a99b239fcba8c89a3ab87bf4004",
+  "text": "把娃娃放进箱子里。",
+  "file": "assets/audio/games/tidy/put-doll-box.m4a",
+  "speech": [
+   0.01,
+   2.07
+  ],
+  "speech_fingerprint": "e8629d67421cdc87ebd0579dbcec98e747c46a99b239fcba8c89a3ab87bf4004"
+ },
+ "put-doll-bed": {
+  "pinyin": "Bǎ wáwa fàng zài chuáng shang.",
+  "english": "Put the doll on the bed.",
+  "speaker": "narrator",
+  "fingerprint": "9dcfe4ff177ba7062ad150fdf6dbf89b7566020f87d2175f69806fba030d10c0",
+  "text": "把娃娃放在床上。",
+  "file": "assets/audio/games/tidy/put-doll-bed.m4a",
+  "speech": [
+   0.01,
+   1.99
+  ],
+  "speech_fingerprint": "9dcfe4ff177ba7062ad150fdf6dbf89b7566020f87d2175f69806fba030d10c0"
+ },
+ "put-doll-table": {
+  "pinyin": "Bǎ wáwa fàng zài zhuōzi shang.",
+  "english": "Put the doll on the table.",
+  "speaker": "narrator",
+  "fingerprint": "54616a8437d68a3492888069d6fcfd26083c59bf251b91a6c3483cba2ae00d0b",
+  "text": "把娃娃放在桌子上。",
+  "file": "assets/audio/games/tidy/put-doll-table.m4a",
+  "speech": [
+   0.01,
+   2.09
+  ],
+  "speech_fingerprint": "54616a8437d68a3492888069d6fcfd26083c59bf251b91a6c3483cba2ae00d0b"
+ },
+ "put-doll-under": {
+  "pinyin": "Bǎ wáwa fàng zài zhuōzi xiàmian.",
+  "english": "Put the doll under the table.",
+  "speaker": "narrator",
+  "fingerprint": "39c8d5c0fbdfdfd83bfc8bbf8b46a3a50f8e0dc90910abafcbc8dc78786dd10e",
+  "text": "把娃娃放在桌子下面。",
+  "file": "assets/audio/games/tidy/put-doll-under.m4a",
+  "speech": [
+   0.01,
+   2.44
+  ],
+  "speech_fingerprint": "39c8d5c0fbdfdfd83bfc8bbf8b46a3a50f8e0dc90910abafcbc8dc78786dd10e"
+ },
+ "put-doll-chair": {
+  "pinyin": "Bǎ wáwa fàng zài yǐzi shang.",
+  "english": "Put the doll on the chair.",
+  "speaker": "narrator",
+  "fingerprint": "eaef5e37c37570b9c97b7ace022e5811951953ce83f94545a3f2b49988bbb0c8",
+  "text": "把娃娃放在椅子上。",
+  "file": "assets/audio/games/tidy/put-doll-chair.m4a",
+  "speech": [
+   0.01,
+   2.01
+  ],
+  "speech_fingerprint": "eaef5e37c37570b9c97b7ace022e5811951953ce83f94545a3f2b49988bbb0c8"
+ },
+ "put-car-box": {
+  "pinyin": "Bǎ xiǎo qìchē fàng jìn xiāngzi lǐ.",
+  "english": "Put the toy car in the box.",
+  "speaker": "narrator",
+  "fingerprint": "d8b3f2cdc4c62fc5f70066e057d4b9cee7fb205bc5f9e234709156276464e23e",
+  "text": "把小汽车放进箱子里。",
+  "file": "assets/audio/games/tidy/put-car-box.m4a",
+  "speech": [
+   0.01,
+   2.47
+  ],
+  "speech_fingerprint": "d8b3f2cdc4c62fc5f70066e057d4b9cee7fb205bc5f9e234709156276464e23e"
+ },
+ "put-car-bed": {
+  "pinyin": "Bǎ xiǎo qìchē fàng zài chuáng shang.",
+  "english": "Put the toy car on the bed.",
+  "speaker": "narrator",
+  "fingerprint": "c784168188900150f40020f57a21c7c82a34275ae8a406f53257877aa8293372",
+  "text": "把小汽车放在床上。",
+  "file": "assets/audio/games/tidy/put-car-bed.m4a",
+  "speech": [
+   0.01,
+   2.39
+  ],
+  "speech_fingerprint": "c784168188900150f40020f57a21c7c82a34275ae8a406f53257877aa8293372"
+ },
+ "put-car-table": {
+  "pinyin": "Bǎ xiǎo qìchē fàng zài zhuōzi shang.",
+  "english": "Put the toy car on the table.",
+  "speaker": "narrator",
+  "fingerprint": "d38657f53eb12436fc22b0692a8f1a35285643ce9d843cd62a0d7dba51407864",
+  "text": "把小汽车放在桌子上。",
+  "file": "assets/audio/games/tidy/put-car-table.m4a",
+  "speech": [
+   0.01,
+   2.49
+  ],
+  "speech_fingerprint": "d38657f53eb12436fc22b0692a8f1a35285643ce9d843cd62a0d7dba51407864"
+ },
+ "put-car-under": {
+  "pinyin": "Bǎ xiǎo qìchē fàng zài zhuōzi xiàmian.",
+  "english": "Put the toy car under the table.",
+  "speaker": "narrator",
+  "fingerprint": "54e659ce0e37bae96ac5fb710b3ce35bc3253cd94986003b8c4275a6ec2b423c",
+  "text": "把小汽车放在桌子下面。",
+  "file": "assets/audio/games/tidy/put-car-under.m4a",
+  "speech": [
+   0.01,
+   2.85
+  ],
+  "speech_fingerprint": "54e659ce0e37bae96ac5fb710b3ce35bc3253cd94986003b8c4275a6ec2b423c"
+ },
+ "put-car-chair": {
+  "pinyin": "Bǎ xiǎo qìchē fàng zài yǐzi shang.",
+  "english": "Put the toy car on the chair.",
+  "speaker": "narrator",
+  "fingerprint": "3683e676cb8ce2c7ea93c44da46b8d42be39d64fdf9d7fbc5c1a518daa021f06",
+  "text": "把小汽车放在椅子上。",
+  "file": "assets/audio/games/tidy/put-car-chair.m4a",
+  "speech": [
+   0.01,
+   2.42
+  ],
+  "speech_fingerprint": "3683e676cb8ce2c7ea93c44da46b8d42be39d64fdf9d7fbc5c1a518daa021f06"
+ },
+ "put-book-box": {
+  "pinyin": "Bǎ shū fàng jìn xiāngzi lǐ.",
+  "english": "Put the book in the box.",
+  "speaker": "narrator",
+  "fingerprint": "997b5dd827bc0da6b960febfc37e05bc7edadd1a6afcabeca8987e45f24b9c4c",
+  "text": "把书放进箱子里。",
+  "file": "assets/audio/games/tidy/put-book-box.m4a",
+  "speech": [
+   0.01,
+   1.85
+  ],
+  "speech_fingerprint": "997b5dd827bc0da6b960febfc37e05bc7edadd1a6afcabeca8987e45f24b9c4c"
+ },
+ "put-book-bed": {
+  "pinyin": "Bǎ shū fàng zài chuáng shang.",
+  "english": "Put the book on the bed.",
+  "speaker": "narrator",
+  "fingerprint": "aa615c1aaccf0098c172fda783f3e712d0632f59e70e0ea1a21be75549b51215",
+  "text": "把书放在床上。",
+  "file": "assets/audio/games/tidy/put-book-bed.m4a",
+  "speech": [
+   0.01,
+   1.77
+  ],
+  "speech_fingerprint": "aa615c1aaccf0098c172fda783f3e712d0632f59e70e0ea1a21be75549b51215"
+ },
+ "put-book-table": {
+  "pinyin": "Bǎ shū fàng zài zhuōzi shang.",
+  "english": "Put the book on the table.",
+  "speaker": "narrator",
+  "fingerprint": "47a72e693a872c7d4bea2da3ddc50855d559484fb2af28e35fa5a45f88c0e288",
+  "text": "把书放在桌子上。",
+  "file": "assets/audio/games/tidy/put-book-table.m4a",
+  "speech": [
+   0.01,
+   1.87
+  ],
+  "speech_fingerprint": "47a72e693a872c7d4bea2da3ddc50855d559484fb2af28e35fa5a45f88c0e288"
+ },
+ "put-book-under": {
+  "pinyin": "Bǎ shū fàng zài zhuōzi xiàmian.",
+  "english": "Put the book under the table.",
+  "speaker": "narrator",
+  "fingerprint": "0fd242f46e82530dd6e8ab82313df6babf30cd57dae1b0b861dd45373a426ccd",
+  "text": "把书放在桌子下面。",
+  "file": "assets/audio/games/tidy/put-book-under.m4a",
+  "speech": [
+   0.01,
+   2.22
+  ],
+  "speech_fingerprint": "0fd242f46e82530dd6e8ab82313df6babf30cd57dae1b0b861dd45373a426ccd"
+ },
+ "put-book-chair": {
+  "pinyin": "Bǎ shū fàng zài yǐzi shang.",
+  "english": "Put the book on the chair.",
+  "speaker": "narrator",
+  "fingerprint": "a4dc2b067cdfb9064150dacbc68421f4d004bd2fad9ed037ee63428fd20fee29",
+  "text": "把书放在椅子上。",
+  "file": "assets/audio/games/tidy/put-book-chair.m4a",
+  "speech": [
+   0.01,
+   1.79
+  ],
+  "speech_fingerprint": "a4dc2b067cdfb9064150dacbc68421f4d004bd2fad9ed037ee63428fd20fee29"
+ },
+ "put-drum-box": {
+  "pinyin": "Bǎ gǔ fàng jìn xiāngzi lǐ.",
+  "english": "Put the drum in the box.",
+  "speaker": "narrator",
+  "fingerprint": "4aa9bfef8f53379ee312e72bcada51a63a88297d95a20c99845ad54680ac723d",
+  "text": "把鼓放进箱子里。",
+  "file": "assets/audio/games/tidy/put-drum-box.m4a",
+  "speech": [
+   0.01,
+   1.81
+  ],
+  "speech_fingerprint": "4aa9bfef8f53379ee312e72bcada51a63a88297d95a20c99845ad54680ac723d"
+ },
+ "put-drum-bed": {
+  "pinyin": "Bǎ gǔ fàng zài chuáng shang.",
+  "english": "Put the drum on the bed.",
+  "speaker": "narrator",
+  "fingerprint": "a43dd5b8b7c030380bac9ec26747802b5d27991bdec29175340fd0b3cd0151f8",
+  "text": "把鼓放在床上。",
+  "file": "assets/audio/games/tidy/put-drum-bed.m4a",
+  "speech": [
+   0.01,
+   1.73
+  ],
+  "speech_fingerprint": "a43dd5b8b7c030380bac9ec26747802b5d27991bdec29175340fd0b3cd0151f8"
+ },
+ "put-drum-table": {
+  "pinyin": "Bǎ gǔ fàng zài zhuōzi shang.",
+  "english": "Put the drum on the table.",
+  "speaker": "narrator",
+  "fingerprint": "12c46905e819e59a2e3fe73bd001aa96a53739a4e61ac6edb542b045650daa39",
+  "text": "把鼓放在桌子上。",
+  "file": "assets/audio/games/tidy/put-drum-table.m4a",
+  "speech": [
+   0.01,
+   1.83
+  ],
+  "speech_fingerprint": "12c46905e819e59a2e3fe73bd001aa96a53739a4e61ac6edb542b045650daa39"
+ },
+ "put-drum-under": {
+  "pinyin": "Bǎ gǔ fàng zài zhuōzi xiàmian.",
+  "english": "Put the drum under the table.",
+  "speaker": "narrator",
+  "fingerprint": "978736286efc51603fd6117cb5bf1b525f20e88edb023dc773bacb14d3d0c62e",
+  "text": "把鼓放在桌子下面。",
+  "file": "assets/audio/games/tidy/put-drum-under.m4a",
+  "speech": [
+   0.01,
+   2.17
+  ],
+  "speech_fingerprint": "978736286efc51603fd6117cb5bf1b525f20e88edb023dc773bacb14d3d0c62e"
+ },
+ "put-drum-chair": {
+  "pinyin": "Bǎ gǔ fàng zài yǐzi shang.",
+  "english": "Put the drum on the chair.",
+  "speaker": "narrator",
+  "fingerprint": "b87d273cb18499944b3aed7c1241fb1be1890a111a4c14f6659261d31fedae88",
+  "text": "把鼓放在椅子上。",
+  "file": "assets/audio/games/tidy/put-drum-chair.m4a",
+  "speech": [
+   0.01,
+   1.75
+  ],
+  "speech_fingerprint": "b87d273cb18499944b3aed7c1241fb1be1890a111a4c14f6659261d31fedae88"
+ },
+ "put-robot-box": {
+  "pinyin": "Bǎ jīqìrén fàng jìn xiāngzi lǐ.",
+  "english": "Put the robot in the box.",
+  "speaker": "narrator",
+  "fingerprint": "03a1719685ff0bce8e307cd0ec522f5e89e74fc63d29fd30a008c193d3578e17",
+  "text": "把机器人放进箱子里。",
+  "file": "assets/audio/games/tidy/put-robot-box.m4a",
+  "speech": [
+   0.01,
+   2.32
+  ],
+  "speech_fingerprint": "03a1719685ff0bce8e307cd0ec522f5e89e74fc63d29fd30a008c193d3578e17"
+ },
+ "put-robot-bed": {
+  "pinyin": "Bǎ jīqìrén fàng zài chuáng shang.",
+  "english": "Put the robot on the bed.",
+  "speaker": "narrator",
+  "fingerprint": "ea7cb67a5e896bc6844b130acf4df4ceb6e353d6b60ad85487950bb59994ad20",
+  "text": "把机器人放在床上。",
+  "file": "assets/audio/games/tidy/put-robot-bed.m4a",
+  "speech": [
+   0.01,
+   2.24
+  ],
+  "speech_fingerprint": "ea7cb67a5e896bc6844b130acf4df4ceb6e353d6b60ad85487950bb59994ad20"
+ },
+ "put-robot-table": {
+  "pinyin": "Bǎ jīqìrén fàng zài zhuōzi shang.",
+  "english": "Put the robot on the table.",
+  "speaker": "narrator",
+  "fingerprint": "2208cafb277ff79c47e53ff03bbf4da6a3e85e98d0ccde273f448cfe82e0512f",
+  "text": "把机器人放在桌子上。",
+  "file": "assets/audio/games/tidy/put-robot-table.m4a",
+  "speech": [
+   0.01,
+   2.35
+  ],
+  "speech_fingerprint": "2208cafb277ff79c47e53ff03bbf4da6a3e85e98d0ccde273f448cfe82e0512f"
+ },
+ "put-robot-under": {
+  "pinyin": "Bǎ jīqìrén fàng zài zhuōzi xiàmian.",
+  "english": "Put the robot under the table.",
+  "speaker": "narrator",
+  "fingerprint": "081c38c73141b1f8c981d2d3dcb6f5cc81cd861c0293b6dfc6532c1fc4ce9c97",
+  "text": "把机器人放在桌子下面。",
+  "file": "assets/audio/games/tidy/put-robot-under.m4a",
+  "speech": [
+   0.01,
+   2.69
+  ],
+  "speech_fingerprint": "081c38c73141b1f8c981d2d3dcb6f5cc81cd861c0293b6dfc6532c1fc4ce9c97"
+ },
+ "put-robot-chair": {
+  "pinyin": "Bǎ jīqìrén fàng zài yǐzi shang.",
+  "english": "Put the robot on the chair.",
+  "speaker": "narrator",
+  "fingerprint": "a6c9a491852173469d1eaa6392625978bb554b6161e81c8f54b68d524870f763",
+  "text": "把机器人放在椅子上。",
+  "file": "assets/audio/games/tidy/put-robot-chair.m4a",
+  "speech": [
+   0.01,
+   2.27
+  ],
+  "speech_fingerprint": "a6c9a491852173469d1eaa6392625978bb554b6161e81c8f54b68d524870f763"
+ },
+ "put-duck-box": {
+  "pinyin": "Bǎ xiǎo yāzi fàng jìn xiāngzi lǐ.",
+  "english": "Put the rubber duck in the box.",
+  "speaker": "narrator",
+  "fingerprint": "7d974fbf4a9b146bf64b6762ba932c58aa6df77fd2115a8282fac2ecd4656818",
+  "text": "把小鸭子放进箱子里。",
+  "file": "assets/audio/games/tidy/put-duck-box.m4a",
+  "speech": [
+   0.01,
+   2.32
+  ],
+  "speech_fingerprint": "7d974fbf4a9b146bf64b6762ba932c58aa6df77fd2115a8282fac2ecd4656818"
+ },
+ "put-duck-bed": {
+  "pinyin": "Bǎ xiǎo yāzi fàng zài chuáng shang.",
+  "english": "Put the rubber duck on the bed.",
+  "speaker": "narrator",
+  "fingerprint": "1b933a8057487e6084d89afe9584b0cd2546db388ebce7b8f4cb1e095cd91c00",
+  "text": "把小鸭子放在床上。",
+  "file": "assets/audio/games/tidy/put-duck-bed.m4a",
+  "speech": [
+   0.01,
+   2.24
+  ],
+  "speech_fingerprint": "1b933a8057487e6084d89afe9584b0cd2546db388ebce7b8f4cb1e095cd91c00"
+ },
+ "put-duck-table": {
+  "pinyin": "Bǎ xiǎo yāzi fàng zài zhuōzi shang.",
+  "english": "Put the rubber duck on the table.",
+  "speaker": "narrator",
+  "fingerprint": "01493160e9c875a526b365c309299a36d1d82bc52ab3fd0041b7d5177cd1cbc5",
+  "text": "把小鸭子放在桌子上。",
+  "file": "assets/audio/games/tidy/put-duck-table.m4a",
+  "speech": [
+   0.01,
+   2.34
+  ],
+  "speech_fingerprint": "01493160e9c875a526b365c309299a36d1d82bc52ab3fd0041b7d5177cd1cbc5"
+ },
+ "put-duck-under": {
+  "pinyin": "Bǎ xiǎo yāzi fàng zài zhuōzi xiàmian.",
+  "english": "Put the rubber duck under the table.",
+  "speaker": "narrator",
+  "fingerprint": "d382f5765423abf463eabf4fb011c2a092b7df59cd09e6aa0e94143307070dc2",
+  "text": "把小鸭子放在桌子下面。",
+  "file": "assets/audio/games/tidy/put-duck-under.m4a",
+  "speech": [
+   0.01,
+   2.69
+  ],
+  "speech_fingerprint": "d382f5765423abf463eabf4fb011c2a092b7df59cd09e6aa0e94143307070dc2"
+ },
+ "put-duck-chair": {
+  "pinyin": "Bǎ xiǎo yāzi fàng zài yǐzi shang.",
+  "english": "Put the rubber duck on the chair.",
+  "speaker": "narrator",
+  "fingerprint": "14f1d7ff1ddd6c5c1da7569db5e5e0348c00b567402b9f29c4de2102af519804",
+  "text": "把小鸭子放在椅子上。",
+  "file": "assets/audio/games/tidy/put-duck-chair.m4a",
+  "speech": [
+   0.01,
+   2.27
+  ],
+  "speech_fingerprint": "14f1d7ff1ddd6c5c1da7569db5e5e0348c00b567402b9f29c4de2102af519804"
+ },
+ "put-kite-box": {
+  "pinyin": "Bǎ fēngzheng fàng jìn xiāngzi lǐ.",
+  "english": "Put the kite in the box.",
+  "speaker": "narrator",
+  "fingerprint": "a74dc8eda1fc87cb15dcea3c869cf7687b9c3275daa6e54867fc201f86f095c2",
+  "text": "把风筝放进箱子里。",
+  "file": "assets/audio/games/tidy/put-kite-box.m4a",
+  "speech": [
+   0.01,
+   2.13
+  ],
+  "speech_fingerprint": "a74dc8eda1fc87cb15dcea3c869cf7687b9c3275daa6e54867fc201f86f095c2"
+ },
+ "put-kite-bed": {
+  "pinyin": "Bǎ fēngzheng fàng zài chuáng shang.",
+  "english": "Put the kite on the bed.",
+  "speaker": "narrator",
+  "fingerprint": "a35451522ceb24d706b13b9a5b39fd3940b7b1c951d24cf226e9a5fff95f4d91",
+  "text": "把风筝放在床上。",
+  "file": "assets/audio/games/tidy/put-kite-bed.m4a",
+  "speech": [
+   0.01,
+   2.05
+  ],
+  "speech_fingerprint": "a35451522ceb24d706b13b9a5b39fd3940b7b1c951d24cf226e9a5fff95f4d91"
+ },
+ "put-kite-table": {
+  "pinyin": "Bǎ fēngzheng fàng zài zhuōzi shang.",
+  "english": "Put the kite on the table.",
+  "speaker": "narrator",
+  "fingerprint": "e2e30298bb55e67f992af3a1479c86b118f0583803d287dce8cabb2278411db0",
+  "text": "把风筝放在桌子上。",
+  "file": "assets/audio/games/tidy/put-kite-table.m4a",
+  "speech": [
+   0.01,
+   2.15
+  ],
+  "speech_fingerprint": "e2e30298bb55e67f992af3a1479c86b118f0583803d287dce8cabb2278411db0"
+ },
+ "put-kite-under": {
+  "pinyin": "Bǎ fēngzheng fàng zài zhuōzi xiàmian.",
+  "english": "Put the kite under the table.",
+  "speaker": "narrator",
+  "fingerprint": "eca4568c0f4c08807519013da7df07fb4239c26bbd48791bd510d5e5b075d06b",
+  "text": "把风筝放在桌子下面。",
+  "file": "assets/audio/games/tidy/put-kite-under.m4a",
+  "speech": [
+   0.01,
+   2.5
+  ],
+  "speech_fingerprint": "eca4568c0f4c08807519013da7df07fb4239c26bbd48791bd510d5e5b075d06b"
+ },
+ "put-kite-chair": {
+  "pinyin": "Bǎ fēngzheng fàng zài yǐzi shang.",
+  "english": "Put the kite on the chair.",
+  "speaker": "narrator",
+  "fingerprint": "2b34a94b4dedeee3155e3846432eb1c3171e6e885181f7196207d901cf94ac58",
+  "text": "把风筝放在椅子上。",
+  "file": "assets/audio/games/tidy/put-kite-chair.m4a",
+  "speech": [
+   0.01,
+   2.07
+  ],
+  "speech_fingerprint": "2b34a94b4dedeee3155e3846432eb1c3171e6e885181f7196207d901cf94ac58"
+ }
+}

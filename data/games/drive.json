@@ -1,0 +1,39 @@
+{
+ "id": "drive",
+ "title": "开车去",
+ "english": "Drive there",
+ "voices": {
+  "dog": {
+   "rate": 1.05,
+   "keep": false
+  }
+ },
+ "lines": {
+  "honk": {
+   "speaker": "dog",
+   "hanzi": "嘀嘀！出发！",
+   "pinyin": "Dīdī! Chūfā!",
+   "english": "Beep beep! Let’s go!"
+  }
+ },
+ "templates": {
+  "go": {
+   "speaker": "dog",
+   "hanzi": "我们{place.go}。",
+   "pinyin": "Wǒmen {place.goPinyin}.",
+   "english": "Let’s {place.goEnglish}.",
+   "slots": {
+    "place": "places"
+   }
+  },
+  "arrive": {
+   "speaker": "narrator",
+   "hanzi": "{place.arrive}",
+   "pinyin": "{place.arrivePinyin}",
+   "english": "{place.arriveEnglish}",
+   "slots": {
+    "place": "places"
+   }
+  }
+ }
+}

@@ -323,6 +323,42 @@
   ],
   "speech_fingerprint": "b1c2db370d7c4bd8fa47d3cc965dc681ae64620d4bf8fecef08088439bdc8492"
  },
+ "places-supermarket": {
+  "pinyin": "chāoshì",
+  "english": "the supermarket",
+  "fingerprint": "b0b6daf1c7e5b928e9f37d124dc47c2dadd47087ae2db1732b4231ca663d812e",
+  "text": "超市",
+  "file": "assets/audio/catalog/places-supermarket.m4a",
+  "speech": [
+   0.02,
+   0.66
+  ],
+  "speech_fingerprint": "b0b6daf1c7e5b928e9f37d124dc47c2dadd47087ae2db1732b4231ca663d812e"
+ },
+ "places-hospital": {
+  "pinyin": "yīyuàn",
+  "english": "the hospital",
+  "fingerprint": "9727f8afb524929775c00d9f7cfaa2e470b2a55ff79a2e6e54d11bbf37af8bfd",
+  "text": "医院",
+  "file": "assets/audio/catalog/places-hospital.m4a",
+  "speech": [
+   0.01,
+   0.58
+  ],
+  "speech_fingerprint": "9727f8afb524929775c00d9f7cfaa2e470b2a55ff79a2e6e54d11bbf37af8bfd"
+ },
+ "places-home": {
+  "pinyin": "jiā",
+  "english": "home",
+  "fingerprint": "e06b5e4f5ba8b8f606f34b0ca5b67c46d60205a0ecaeadf2e9de9ce5069b858e",
+  "text": "家",
+  "file": "assets/audio/catalog/places-home.m4a",
+  "speech": [
+   0.04,
+   0.35
+  ],
+  "speech_fingerprint": "e06b5e4f5ba8b8f606f34b0ca5b67c46d60205a0ecaeadf2e9de9ce5069b858e"
+ },
  "foods-noodles": {
   "pinyin": "miàntiáo",
   "english": "noodles",
@@ -466,6 +502,54 @@
    0.53
   ],
   "speech_fingerprint": "3913876be5c6cc32f49729bc67cdf2bc876df1f0fa80483a57103cd3ca7c6afe"
+ },
+ "foods-tomato": {
+  "pinyin": "xīhóngshì",
+  "english": "tomato",
+  "fingerprint": "e0cb4d61c7e2f0366aff52ff7c6b6394d8324516f07e866eaf5ba243868e76c2",
+  "text": "西红柿",
+  "file": "assets/audio/catalog/foods-tomato.m4a",
+  "speech": [
+   0.03,
+   0.93
+  ],
+  "speech_fingerprint": "e0cb4d61c7e2f0366aff52ff7c6b6394d8324516f07e866eaf5ba243868e76c2"
+ },
+ "foods-potato": {
+  "pinyin": "tǔdòu",
+  "english": "potato",
+  "fingerprint": "8bf317fec34c775bfba2c88c2abd96174b415c60ec610b5cc35f9218eba8b7eb",
+  "text": "土豆",
+  "file": "assets/audio/catalog/foods-potato.m4a",
+  "speech": [
+   0.09,
+   0.56
+  ],
+  "speech_fingerprint": "8bf317fec34c775bfba2c88c2abd96174b415c60ec610b5cc35f9218eba8b7eb"
+ },
+ "foods-mushroom": {
+  "pinyin": "mógu",
+  "english": "mushroom",
+  "fingerprint": "f8c5686aaa512a52d24b5ba721a737c02af6338570e4149a02008e37d2a9c99f",
+  "text": "蘑菇",
+  "file": "assets/audio/catalog/foods-mushroom.m4a",
+  "speech": [
+   0.01,
+   0.42
+  ],
+  "speech_fingerprint": "f8c5686aaa512a52d24b5ba721a737c02af6338570e4149a02008e37d2a9c99f"
+ },
+ "foods-carrot": {
+  "pinyin": "húluóbo",
+  "english": "carrot",
+  "fingerprint": "27d5f4a1ec70ca21c46301d70294acb530582b11dfc3554f8467fe097711c46d",
+  "text": "胡萝卜",
+  "file": "assets/audio/catalog/foods-carrot.m4a",
+  "speech": [
+   0.07,
+   0.79
+  ],
+  "speech_fingerprint": "27d5f4a1ec70ca21c46301d70294acb530582b11dfc3554f8467fe097711c46d"
  },
  "drinks-milk": {
   "pinyin": "niúnǎi",
@@ -634,5 +718,641 @@
    0.45
   ],
   "speech_fingerprint": "9652506811fd78b1ea0a1ef39cee26bac78940007448ae6a1869810c1f29a27e"
+ },
+ "fruits-apple": {
+  "pinyin": "píngguǒ",
+  "english": "an apple",
+  "fingerprint": "2293cc6964a67e845b13455dd1ed9139d3d2ea65a997b2216b210bd8354af625",
+  "text": "苹果",
+  "file": "assets/audio/catalog/fruits-apple.m4a",
+  "speech": [
+   0.01,
+   0.6
+  ],
+  "speech_fingerprint": "2293cc6964a67e845b13455dd1ed9139d3d2ea65a997b2216b210bd8354af625"
+ },
+ "fruits-banana": {
+  "pinyin": "xiāngjiāo",
+  "english": "a banana",
+  "fingerprint": "9412c668ff9eb014d17c74c7dd9c4c57f9687cc28040ca03e23cd365bcf5491b",
+  "text": "香蕉",
+  "file": "assets/audio/catalog/fruits-banana.m4a",
+  "speech": [
+   0.03,
+   0.74
+  ],
+  "speech_fingerprint": "9412c668ff9eb014d17c74c7dd9c4c57f9687cc28040ca03e23cd365bcf5491b"
+ },
+ "fruits-orange": {
+  "pinyin": "chéngzi",
+  "english": "an orange",
+  "fingerprint": "77672a1ab65b92f836f9ab1cd98f82e82b2eb54835e117c8aff5b00d9d400f34",
+  "text": "橙子",
+  "file": "assets/audio/catalog/fruits-orange.m4a",
+  "speech": [
+   0.02,
+   0.51
+  ],
+  "speech_fingerprint": "77672a1ab65b92f836f9ab1cd98f82e82b2eb54835e117c8aff5b00d9d400f34"
+ },
+ "fruits-pear": {
+  "pinyin": "lí",
+  "english": "a pear",
+  "fingerprint": "2e0c33308b385fa7f696e414f3458a93607f52bfe8eae03642432de98dd7b1be",
+  "text": "梨",
+  "file": "assets/audio/catalog/fruits-pear.m4a",
+  "speech": [
+   0.0,
+   0.36
+  ],
+  "speech_fingerprint": "2e0c33308b385fa7f696e414f3458a93607f52bfe8eae03642432de98dd7b1be"
+ },
+ "fruits-grapes": {
+  "pinyin": "pútao",
+  "english": "grapes",
+  "fingerprint": "6c5c03981fb628daf48a17fbfe85b9463b2aa39667a614479d85b6e0177e0172",
+  "text": "葡萄",
+  "file": "assets/audio/catalog/fruits-grapes.m4a",
+  "speech": [
+   0.08,
+   0.61
+  ],
+  "speech_fingerprint": "6c5c03981fb628daf48a17fbfe85b9463b2aa39667a614479d85b6e0177e0172"
+ },
+ "fruits-strawberry": {
+  "pinyin": "cǎoméi",
+  "english": "strawberries",
+  "fingerprint": "c82babcc8bc01d164623c55684d76bc8662b3211218ecefe164b7572123900ea",
+  "text": "草莓",
+  "file": "assets/audio/catalog/fruits-strawberry.m4a",
+  "speech": [
+   0.06,
+   0.59
+  ],
+  "speech_fingerprint": "c82babcc8bc01d164623c55684d76bc8662b3211218ecefe164b7572123900ea"
+ },
+ "fruits-watermelon": {
+  "pinyin": "xīguā",
+  "english": "a watermelon",
+  "fingerprint": "ea5986b6e4d2807f90629a609ebe6ad52efd252d50ec6f412c1f95961cb6d2de",
+  "text": "西瓜",
+  "file": "assets/audio/catalog/fruits-watermelon.m4a",
+  "speech": [
+   0.03,
+   0.65
+  ],
+  "speech_fingerprint": "ea5986b6e4d2807f90629a609ebe6ad52efd252d50ec6f412c1f95961cb6d2de"
+ },
+ "fruits-mango": {
+  "pinyin": "mángguǒ",
+  "english": "a mango",
+  "fingerprint": "ae1ca3db9ec4abc6ab5cd341e4e60d5dbb7c19a4959f2afca57050a9f3f6f8f5",
+  "text": "芒果",
+  "file": "assets/audio/catalog/fruits-mango.m4a",
+  "speech": [
+   0.01,
+   0.6
+  ],
+  "speech_fingerprint": "ae1ca3db9ec4abc6ab5cd341e4e60d5dbb7c19a4959f2afca57050a9f3f6f8f5"
+ },
+ "fruits-peach": {
+  "pinyin": "táozi",
+  "english": "a peach",
+  "fingerprint": "96ef5c2295871074bea514002c1c16646bd3cc11b78f39f2b980b17a66bbc6db",
+  "text": "桃子",
+  "file": "assets/audio/catalog/fruits-peach.m4a",
+  "speech": [
+   0.03,
+   0.53
+  ],
+  "speech_fingerprint": "96ef5c2295871074bea514002c1c16646bd3cc11b78f39f2b980b17a66bbc6db"
+ },
+ "clothes-shoes": {
+  "pinyin": "xiézi",
+  "english": "shoes",
+  "fingerprint": "73ca2a611464b5669e1816e3631af79f3fcadf694ff5d38314db954bf708430b",
+  "text": "鞋子",
+  "file": "assets/audio/catalog/clothes-shoes.m4a",
+  "speech": [
+   0.03,
+   0.56
+  ],
+  "speech_fingerprint": "73ca2a611464b5669e1816e3631af79f3fcadf694ff5d38314db954bf708430b"
+ },
+ "clothes-socks": {
+  "pinyin": "wàzi",
+  "english": "socks",
+  "fingerprint": "b536d833b16903c003083fd2f000f6ec549217ffad83eb14fff2c060cad45946",
+  "text": "袜子",
+  "file": "assets/audio/catalog/clothes-socks.m4a",
+  "speech": [
+   0.01,
+   0.52
+  ],
+  "speech_fingerprint": "b536d833b16903c003083fd2f000f6ec549217ffad83eb14fff2c060cad45946"
+ },
+ "clothes-hat": {
+  "pinyin": "màozi",
+  "english": "hat",
+  "fingerprint": "b3d6dcd9590debda08a5a1b4fd2dd45c789317bcd8f630e7f49e1d5702cbe998",
+  "text": "帽子",
+  "file": "assets/audio/catalog/clothes-hat.m4a",
+  "speech": [
+   0.01,
+   0.51
+  ],
+  "speech_fingerprint": "b3d6dcd9590debda08a5a1b4fd2dd45c789317bcd8f630e7f49e1d5702cbe998"
+ },
+ "clothes-shirt": {
+  "pinyin": "T xù",
+  "english": "T-shirt",
+  "fingerprint": "af6ac6a919f4216e64650a37d53c99a27c49d226510ad3ee8d138e5abfc2cab8",
+  "text": "T恤",
+  "file": "assets/audio/catalog/clothes-shirt.m4a",
+  "speech": [
+   0.0,
+   0.93
+  ],
+  "speech_fingerprint": "af6ac6a919f4216e64650a37d53c99a27c49d226510ad3ee8d138e5abfc2cab8"
+ },
+ "clothes-dress": {
+  "pinyin": "qúnzi",
+  "english": "dress",
+  "fingerprint": "9915609388321c028b57bd51e5c8073050f29f0e9c8784e2b7d769551f60676f",
+  "text": "裙子",
+  "file": "assets/audio/catalog/clothes-dress.m4a",
+  "speech": [
+   0.03,
+   0.57
+  ],
+  "speech_fingerprint": "9915609388321c028b57bd51e5c8073050f29f0e9c8784e2b7d769551f60676f"
+ },
+ "clothes-trousers": {
+  "pinyin": "kùzi",
+  "english": "trousers",
+  "fingerprint": "ad984d2d3bc522698e589cff571e34fe9bb7f16156e65e41ca46b4b2133fd196",
+  "text": "裤子",
+  "file": "assets/audio/catalog/clothes-trousers.m4a",
+  "speech": [
+   0.06,
+   0.49
+  ],
+  "speech_fingerprint": "ad984d2d3bc522698e589cff571e34fe9bb7f16156e65e41ca46b4b2133fd196"
+ },
+ "clothes-coat": {
+  "pinyin": "wàitào",
+  "english": "coat",
+  "fingerprint": "dc0ee0a68f6f69167b2dce2d0e1a449d70403bef04b2d000d64980cdca199c99",
+  "text": "外套",
+  "file": "assets/audio/catalog/clothes-coat.m4a",
+  "speech": [
+   0.01,
+   0.62
+  ],
+  "speech_fingerprint": "dc0ee0a68f6f69167b2dce2d0e1a449d70403bef04b2d000d64980cdca199c99"
+ },
+ "toys-ball": {
+  "pinyin": "qiú",
+  "english": "ball",
+  "fingerprint": "ea2de67303c812da1bc5f9739eed399563918303b915112049d263ae317b57f7",
+  "text": "球",
+  "file": "assets/audio/catalog/toys-ball.m4a",
+  "speech": [
+   0.03,
+   0.44
+  ],
+  "speech_fingerprint": "ea2de67303c812da1bc5f9739eed399563918303b915112049d263ae317b57f7"
+ },
+ "toys-blocks": {
+  "pinyin": "jīmù",
+  "english": "blocks",
+  "fingerprint": "3bab4c4c6f48dcc8407659b77ca066a9cecb248a36c8fd74f806192116563e66",
+  "text": "积木",
+  "file": "assets/audio/catalog/toys-blocks.m4a",
+  "speech": [
+   0.04,
+   0.52
+  ],
+  "speech_fingerprint": "3bab4c4c6f48dcc8407659b77ca066a9cecb248a36c8fd74f806192116563e66"
+ },
+ "toys-doll": {
+  "pinyin": "wáwa",
+  "english": "doll",
+  "fingerprint": "cf05ca4ebe6f1a07bae55c186637ea2b008f20008a43b291129e559e07f3e8de",
+  "text": "娃娃",
+  "file": "assets/audio/catalog/toys-doll.m4a",
+  "speech": [
+   0.01,
+   0.57
+  ],
+  "speech_fingerprint": "cf05ca4ebe6f1a07bae55c186637ea2b008f20008a43b291129e559e07f3e8de"
+ },
+ "toys-car": {
+  "pinyin": "xiǎo qìchē",
+  "english": "toy car",
+  "fingerprint": "c98a6c715d2c3867b26ceac0a8477d07c280abfbeadef26b019d9f0d4937e042",
+  "text": "小汽车",
+  "file": "assets/audio/catalog/toys-car.m4a",
+  "speech": [
+   0.03,
+   1.02
+  ],
+  "speech_fingerprint": "c98a6c715d2c3867b26ceac0a8477d07c280abfbeadef26b019d9f0d4937e042"
+ },
+ "toys-book": {
+  "pinyin": "shū",
+  "english": "book",
+  "fingerprint": "63cad60e045744783dc7d01fd65b23a3b769d666ca66e086cbc4e366dcadda75",
+  "text": "书",
+  "file": "assets/audio/catalog/toys-book.m4a",
+  "speech": [
+   0.02,
+   0.38
+  ],
+  "speech_fingerprint": "63cad60e045744783dc7d01fd65b23a3b769d666ca66e086cbc4e366dcadda75"
+ },
+ "toys-drum": {
+  "pinyin": "gǔ",
+  "english": "drum",
+  "fingerprint": "519096cb1316c0c3b7478b7d278fb66b2aef079ac1ad0db98e5a842f10f5330c",
+  "text": "鼓",
+  "file": "assets/audio/catalog/toys-drum.m4a",
+  "speech": [
+   0.01,
+   0.27
+  ],
+  "speech_fingerprint": "519096cb1316c0c3b7478b7d278fb66b2aef079ac1ad0db98e5a842f10f5330c"
+ },
+ "toys-robot": {
+  "pinyin": "jīqìrén",
+  "english": "robot",
+  "fingerprint": "5a24d2ae36e65b626b3ffddddf0ae9de337ce109335692af78532fc5de57dfd2",
+  "text": "机器人",
+  "file": "assets/audio/catalog/toys-robot.m4a",
+  "speech": [
+   0.04,
+   0.85
+  ],
+  "speech_fingerprint": "5a24d2ae36e65b626b3ffddddf0ae9de337ce109335692af78532fc5de57dfd2"
+ },
+ "toys-duck": {
+  "pinyin": "xiǎo yāzi",
+  "english": "rubber duck",
+  "fingerprint": "fb607035eacd8a8b90f9a6860ddda484851a1ea0b0e1313dc68ea54f837355cd",
+  "text": "小鸭子",
+  "file": "assets/audio/catalog/toys-duck.m4a",
+  "speech": [
+   0.03,
+   0.81
+  ],
+  "speech_fingerprint": "fb607035eacd8a8b90f9a6860ddda484851a1ea0b0e1313dc68ea54f837355cd"
+ },
+ "toys-kite": {
+  "pinyin": "fēngzheng",
+  "english": "kite",
+  "fingerprint": "befaccf27a674d87fba696928d148f3984c6589db05b0a5703b3d3fd577c382e",
+  "text": "风筝",
+  "file": "assets/audio/catalog/toys-kite.m4a",
+  "speech": [
+   0.11,
+   0.63
+  ],
+  "speech_fingerprint": "befaccf27a674d87fba696928d148f3984c6589db05b0a5703b3d3fd577c382e"
+ },
+ "spots-box": {
+  "pinyin": "jìn xiāngzi lǐ",
+  "english": "in the box",
+  "fingerprint": "c27eb8c1aa40779cd408ef6df4a4d2b86903364ad5ed8e6df92949b08ee9e76c",
+  "text": "进箱子里",
+  "file": "assets/audio/catalog/spots-box.m4a",
+  "speech": [
+   0.04,
+   1.07
+  ],
+  "speech_fingerprint": "c27eb8c1aa40779cd408ef6df4a4d2b86903364ad5ed8e6df92949b08ee9e76c"
+ },
+ "spots-bed": {
+  "pinyin": "zài chuáng shang",
+  "english": "on the bed",
+  "fingerprint": "fd3758d4cf051baf23200ec06d724c37cac83219ca3ef6734053118a318d36bd",
+  "text": "在床上",
+  "file": "assets/audio/catalog/spots-bed.m4a",
+  "speech": [
+   0.05,
+   1.0
+  ],
+  "speech_fingerprint": "fd3758d4cf051baf23200ec06d724c37cac83219ca3ef6734053118a318d36bd"
+ },
+ "spots-table": {
+  "pinyin": "zài zhuōzi shang",
+  "english": "on the table",
+  "fingerprint": "df8c8fab6b6761017ba2ba41bb2f2b0d0bb87ba48d56936aa637ad856b60eadf",
+  "text": "在桌子上",
+  "file": "assets/audio/catalog/spots-table.m4a",
+  "speech": [
+   0.06,
+   1.11
+  ],
+  "speech_fingerprint": "df8c8fab6b6761017ba2ba41bb2f2b0d0bb87ba48d56936aa637ad856b60eadf"
+ },
+ "spots-under": {
+  "pinyin": "zài zhuōzi xiàmian",
+  "english": "under the table",
+  "fingerprint": "fb13b3e6620e19705b8aa25c838a539d3492bd037f47e1da4536d992a91ed014",
+  "text": "在桌子下面",
+  "file": "assets/audio/catalog/spots-under.m4a",
+  "speech": [
+   0.05,
+   1.44
+  ],
+  "speech_fingerprint": "fb13b3e6620e19705b8aa25c838a539d3492bd037f47e1da4536d992a91ed014"
+ },
+ "spots-chair": {
+  "pinyin": "zài yǐzi shang",
+  "english": "on the chair",
+  "fingerprint": "368aca3393d07b96877681cf3018a2a8c22a24f9a33f550639f8787d3a44e1bf",
+  "text": "在椅子上",
+  "file": "assets/audio/catalog/spots-chair.m4a",
+  "speech": [
+   0.06,
+   1.0
+  ],
+  "speech_fingerprint": "368aca3393d07b96877681cf3018a2a8c22a24f9a33f550639f8787d3a44e1bf"
+ },
+ "actions-run": {
+  "pinyin": "pǎobù",
+  "english": "running",
+  "fingerprint": "4abdb803a98564665721b4e2709340f1e35c571b49c5cab9b3e891e29115b11f",
+  "text": "跑步",
+  "file": "assets/audio/catalog/actions-run.m4a",
+  "speech": [
+   0.04,
+   0.55
+  ],
+  "speech_fingerprint": "4abdb803a98564665721b4e2709340f1e35c571b49c5cab9b3e891e29115b11f"
+ },
+ "actions-jump": {
+  "pinyin": "tiào",
+  "english": "jumping",
+  "fingerprint": "0a1de37f566e3e1ceaec554f258a8856368cf8979213a26264d20835df3d2a92",
+  "text": "跳",
+  "file": "assets/audio/catalog/actions-jump.m4a",
+  "speech": [
+   0.0,
+   0.34
+  ],
+  "speech_fingerprint": "0a1de37f566e3e1ceaec554f258a8856368cf8979213a26264d20835df3d2a92"
+ },
+ "actions-walk": {
+  "pinyin": "zǒulù",
+  "english": "walking",
+  "fingerprint": "148a75dd8af320808f1f662db8bf1cc52171dbd63171ce12b3aa5efd93111162",
+  "text": "走路",
+  "file": "assets/audio/catalog/actions-walk.m4a",
+  "speech": [
+   0.06,
+   0.53
+  ],
+  "speech_fingerprint": "148a75dd8af320808f1f662db8bf1cc52171dbd63171ce12b3aa5efd93111162"
+ },
+ "actions-clap": {
+  "pinyin": "pāi shǒu",
+  "english": "clapping",
+  "fingerprint": "aeda351449e340fe816c54690a9306dcfef06127a3e1344896f990db034859db",
+  "text": "拍手",
+  "file": "assets/audio/catalog/actions-clap.m4a",
+  "speech": [
+   0.02,
+   0.65
+  ],
+  "speech_fingerprint": "aeda351449e340fe816c54690a9306dcfef06127a3e1344896f990db034859db"
+ },
+ "actions-sleep": {
+  "pinyin": "shuìjiào",
+  "english": "sleeping",
+  "fingerprint": "9f6edcc9bc9ac37656a7669ff66f60481637964e0f2843dda53689d94d2cb43d",
+  "text": "睡觉",
+  "file": "assets/audio/catalog/actions-sleep.m4a",
+  "speech": [
+   0.03,
+   0.64
+  ],
+  "speech_fingerprint": "9f6edcc9bc9ac37656a7669ff66f60481637964e0f2843dda53689d94d2cb43d"
+ },
+ "actions-eat": {
+  "pinyin": "chīfàn",
+  "english": "eating",
+  "fingerprint": "6a844d0959604c712a401093ca9e2cb65c721078667a72fcd77d588a43944fcb",
+  "text": "吃饭",
+  "file": "assets/audio/catalog/actions-eat.m4a",
+  "speech": [
+   0.02,
+   0.61
+  ],
+  "speech_fingerprint": "6a844d0959604c712a401093ca9e2cb65c721078667a72fcd77d588a43944fcb"
+ },
+ "actions-drink": {
+  "pinyin": "hē shuǐ",
+  "english": "drinking water",
+  "fingerprint": "effe4378b938a103ab08a45fa093a70f39a1ca237f8ebe73f4457c8e6e6840cc",
+  "text": "喝水",
+  "file": "assets/audio/catalog/actions-drink.m4a",
+  "speech": [
+   0.09,
+   0.65
+  ],
+  "speech_fingerprint": "effe4378b938a103ab08a45fa093a70f39a1ca237f8ebe73f4457c8e6e6840cc"
+ },
+ "actions-laugh": {
+  "pinyin": "xiào",
+  "english": "laughing",
+  "fingerprint": "a2328230c4268d422195ecbe56c728d98039bfd2f84e67669755463b751e83a8",
+  "text": "笑",
+  "file": "assets/audio/catalog/actions-laugh.m4a",
+  "speech": [
+   0.03,
+   0.39
+  ],
+  "speech_fingerprint": "a2328230c4268d422195ecbe56c728d98039bfd2f84e67669755463b751e83a8"
+ },
+ "actions-cry": {
+  "pinyin": "kū",
+  "english": "crying",
+  "fingerprint": "e30f31df62cf86a5b9926ce8fa0a33445247a381fc89b1bcd6fe6ad646ef4873",
+  "text": "哭",
+  "file": "assets/audio/catalog/actions-cry.m4a",
+  "speech": [
+   0.02,
+   0.33
+  ],
+  "speech_fingerprint": "e30f31df62cf86a5b9926ce8fa0a33445247a381fc89b1bcd6fe6ad646ef4873"
+ },
+ "actions-sing": {
+  "pinyin": "chànggē",
+  "english": "singing",
+  "fingerprint": "36803a0fba0cf968d6d7551454dd1d791c9609481f6343d29e616f8bc4268f2e",
+  "text": "唱歌",
+  "file": "assets/audio/catalog/actions-sing.m4a",
+  "speech": [
+   0.02,
+   0.61
+  ],
+  "speech_fingerprint": "36803a0fba0cf968d6d7551454dd1d791c9609481f6343d29e616f8bc4268f2e"
+ },
+ "actions-dance": {
+  "pinyin": "tiàowǔ",
+  "english": "dancing",
+  "fingerprint": "3f0a03aa2dacfd4078cc7b5244181fc1c4ae7a01ea1aff798b62808a8dfe1254",
+  "text": "跳舞",
+  "file": "assets/audio/catalog/actions-dance.m4a",
+  "speech": [
+   0.01,
+   0.61
+  ],
+  "speech_fingerprint": "3f0a03aa2dacfd4078cc7b5244181fc1c4ae7a01ea1aff798b62808a8dfe1254"
+ },
+ "actions-brush": {
+  "pinyin": "shuāyá",
+  "english": "brushing teeth",
+  "fingerprint": "9df3a82c564d2fe88a77f68de4c25f6bde444019820b883b3dfb98444aa58106",
+  "text": "刷牙",
+  "file": "assets/audio/catalog/actions-brush.m4a",
+  "speech": [
+   0.03,
+   0.69
+  ],
+  "speech_fingerprint": "9df3a82c564d2fe88a77f68de4c25f6bde444019820b883b3dfb98444aa58106"
+ },
+ "actions-washhands": {
+  "pinyin": "xǐ shǒu",
+  "english": "washing hands",
+  "fingerprint": "64464fb56cd80a88eed2f6c138b4530ac6c20704a4512c124c3d7db8eeaf63f3",
+  "text": "洗手",
+  "file": "assets/audio/catalog/actions-washhands.m4a",
+  "speech": [
+   0.03,
+   0.7
+  ],
+  "speech_fingerprint": "64464fb56cd80a88eed2f6c138b4530ac6c20704a4512c124c3d7db8eeaf63f3"
+ },
+ "actions-bath": {
+  "pinyin": "xǐzǎo",
+  "english": "having a bath",
+  "fingerprint": "654cff3c42e959df5595b4ee7a2ae2be7d275032456652af0204059b0ed405c5",
+  "text": "洗澡",
+  "file": "assets/audio/catalog/actions-bath.m4a",
+  "speech": [
+   0.03,
+   0.65
+  ],
+  "speech_fingerprint": "654cff3c42e959df5595b4ee7a2ae2be7d275032456652af0204059b0ed405c5"
+ },
+ "actions-read": {
+  "pinyin": "kàn shū",
+  "english": "reading",
+  "fingerprint": "76f12d09ceccf1e28421ddaecf723eda18406c50b677207ece6cabc16841cc84",
+  "text": "看书",
+  "file": "assets/audio/catalog/actions-read.m4a",
+  "speech": [
+   0.02,
+   0.62
+  ],
+  "speech_fingerprint": "76f12d09ceccf1e28421ddaecf723eda18406c50b677207ece6cabc16841cc84"
+ },
+ "body-head": {
+  "pinyin": "tóu",
+  "english": "head",
+  "fingerprint": "98804054a5f0190e8da6f346e3ea7814937d271213074cb36592d36d2d450353",
+  "text": "头",
+  "file": "assets/audio/catalog/body-head.m4a",
+  "speech": [
+   0.04,
+   0.35
+  ],
+  "speech_fingerprint": "98804054a5f0190e8da6f346e3ea7814937d271213074cb36592d36d2d450353"
+ },
+ "body-ears": {
+  "pinyin": "ěrduo",
+  "english": "ears",
+  "fingerprint": "0660d1db73bc63fdc2121bf7f8704b5790c0b0ea63aa5e9b4c0abdaf2ee62182",
+  "text": "耳朵",
+  "file": "assets/audio/catalog/body-ears.m4a",
+  "speech": [
+   0.01,
+   0.53
+  ],
+  "speech_fingerprint": "0660d1db73bc63fdc2121bf7f8704b5790c0b0ea63aa5e9b4c0abdaf2ee62182"
+ },
+ "body-eyes": {
+  "pinyin": "yǎnjing",
+  "english": "eyes",
+  "fingerprint": "028e59d52c35d308b9c942be4e65421f2239a361aceaadaf54b1b69102b547ec",
+  "text": "眼睛",
+  "file": "assets/audio/catalog/body-eyes.m4a",
+  "speech": [
+   0.01,
+   0.65
+  ],
+  "speech_fingerprint": "028e59d52c35d308b9c942be4e65421f2239a361aceaadaf54b1b69102b547ec"
+ },
+ "body-nose": {
+  "pinyin": "bízi",
+  "english": "nose",
+  "fingerprint": "44b0ccbe4126cf8669dc09b3d134f1d2a4f2594fbfad572de856519710646560",
+  "text": "鼻子",
+  "file": "assets/audio/catalog/body-nose.m4a",
+  "speech": [
+   0.01,
+   0.45
+  ],
+  "speech_fingerprint": "44b0ccbe4126cf8669dc09b3d134f1d2a4f2594fbfad572de856519710646560"
+ },
+ "body-mouth": {
+  "pinyin": "zuǐba",
+  "english": "mouth",
+  "fingerprint": "aefebe6d77635a616e012e97c553a6d1dbcf675e7d0ef0c9d582c2b37e1179fe",
+  "text": "嘴巴",
+  "file": "assets/audio/catalog/body-mouth.m4a",
+  "speech": [
+   0.03,
+   0.57
+  ],
+  "speech_fingerprint": "aefebe6d77635a616e012e97c553a6d1dbcf675e7d0ef0c9d582c2b37e1179fe"
+ },
+ "body-hands": {
+  "pinyin": "shǒu",
+  "english": "hands",
+  "fingerprint": "31b28d05e3e157639fbb0628c93df92a8e9027c95d33c8c6ba34a027c9d0f117",
+  "text": "手",
+  "file": "assets/audio/catalog/body-hands.m4a",
+  "speech": [
+   0.02,
+   0.4
+  ],
+  "speech_fingerprint": "31b28d05e3e157639fbb0628c93df92a8e9027c95d33c8c6ba34a027c9d0f117"
+ },
+ "body-tummy": {
+  "pinyin": "dùzi",
+  "english": "tummy",
+  "fingerprint": "38c79305e398ee23086f06a3e75de35ef1b936251d05860fc074c156e9bf89c1",
+  "text": "肚子",
+  "file": "assets/audio/catalog/body-tummy.m4a",
+  "speech": [
+   0.01,
+   0.46
+  ],
+  "speech_fingerprint": "38c79305e398ee23086f06a3e75de35ef1b936251d05860fc074c156e9bf89c1"
+ },
+ "body-feet": {
+  "pinyin": "jiǎo",
+  "english": "feet",
+  "fingerprint": "648141c9af0bdbf1e91dda6dac647ed789c107243a1cd2ebc205bde3ff567141",
+  "text": "脚",
+  "file": "assets/audio/catalog/body-feet.m4a",
+  "speech": [
+   0.04,
+   0.36
+  ],
+  "speech_fingerprint": "648141c9af0bdbf1e91dda6dac647ed789c107243a1cd2ebc205bde3ff567141"
  }
 }

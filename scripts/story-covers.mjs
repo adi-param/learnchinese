@@ -10,7 +10,7 @@ for(const {id} of STORIES){
  console.log(`assets/stories/${id}-cover.svg`);
 }
 for(const {id} of GAMES){
- const game=(await import(`../src/scenarios/${id}.js`)).default;
+ const game=(await import(`../src/games/${id}.js`)).default;
  await writeFile(new URL(`../assets/games/${id}-cover.svg`,import.meta.url),standalone(game.cover())+'\n');
  console.log(`assets/games/${id}-cover.svg`);
 }

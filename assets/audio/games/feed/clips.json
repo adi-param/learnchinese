@@ -1,0 +1,3148 @@
+{
+ "yum": {
+  "speaker": "animal",
+  "pinyin": "Hǎochī! Hǎochī!",
+  "english": "Yummy, yummy!",
+  "fingerprint": "a077266b3b3ba54b3c30d78b2a736f9828190e65412525d8e57384121cb4a3be",
+  "text": "好吃！好吃！",
+  "file": "assets/audio/games/feed/yum.m4a",
+  "speech": [
+   0.07,
+   1.66
+  ],
+  "speech_fingerprint": "a077266b3b3ba54b3c30d78b2a736f9828190e65412525d8e57384121cb4a3be"
+ },
+ "full": {
+  "speaker": "narrator",
+  "pinyin": "Dàjiā dōu chī bǎo le!",
+  "english": "Everyone is full!",
+  "fingerprint": "7773d763e077aafb982684be972dfd3ab2c71b1c7858d7236ef095f5aa966a85",
+  "text": "大家都吃饱了！",
+  "file": "assets/audio/games/feed/full.m4a",
+  "speech": [
+   0.01,
+   1.52
+  ],
+  "speech_fingerprint": "7773d763e077aafb982684be972dfd3ab2c71b1c7858d7236ef095f5aa966a85"
+ },
+ "want-rabbit-noodles": {
+  "pinyin": "Xiǎo tùzi yào chī miàntiáo.",
+  "english": "The rabbit wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "730884921fe95bb7c3fe432fe384209d06288c9000bf68d20be131cf650cb790",
+  "text": "小兔子要吃面条。",
+  "file": "assets/audio/games/feed/want-rabbit-noodles.m4a",
+  "speech": [
+   0.03,
+   2.15
+  ],
+  "speech_fingerprint": "730884921fe95bb7c3fe432fe384209d06288c9000bf68d20be131cf650cb790"
+ },
+ "want-rabbit-rice": {
+  "pinyin": "Xiǎo tùzi yào chī mǐfàn.",
+  "english": "The rabbit wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "0d8992b8be5d5e6d55a550f690d38d49a0cb835fa892c9edccf76e4391a20b52",
+  "text": "小兔子要吃米饭。",
+  "file": "assets/audio/games/feed/want-rabbit-rice.m4a",
+  "speech": [
+   0.03,
+   2.01
+  ],
+  "speech_fingerprint": "0d8992b8be5d5e6d55a550f690d38d49a0cb835fa892c9edccf76e4391a20b52"
+ },
+ "want-rabbit-dumplings": {
+  "pinyin": "Xiǎo tùzi yào chī jiǎozi.",
+  "english": "The rabbit wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "5d466f79d24eb13d1e2b2913e1f1d84b78f58b677fa5f191da7fd55076344681",
+  "text": "小兔子要吃饺子。",
+  "file": "assets/audio/games/feed/want-rabbit-dumplings.m4a",
+  "speech": [
+   0.03,
+   2.02
+  ],
+  "speech_fingerprint": "5d466f79d24eb13d1e2b2913e1f1d84b78f58b677fa5f191da7fd55076344681"
+ },
+ "want-rabbit-bun": {
+  "pinyin": "Xiǎo tùzi yào chī bāozi.",
+  "english": "The rabbit wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "0f2754c182d903adaa1980d8337cc09369e2f06115ee43a16ed93a07d1977d3b",
+  "text": "小兔子要吃包子。",
+  "file": "assets/audio/games/feed/want-rabbit-bun.m4a",
+  "speech": [
+   0.03,
+   1.95
+  ],
+  "speech_fingerprint": "0f2754c182d903adaa1980d8337cc09369e2f06115ee43a16ed93a07d1977d3b"
+ },
+ "want-rabbit-soup": {
+  "pinyin": "Xiǎo tùzi yào chī tāng.",
+  "english": "The rabbit wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "2dc26edf3d928e12bf0f5272613e74faf8ff57cf779608c685e019e42fa23e2e",
+  "text": "小兔子要吃汤。",
+  "file": "assets/audio/games/feed/want-rabbit-soup.m4a",
+  "speech": [
+   0.03,
+   1.85
+  ],
+  "speech_fingerprint": "2dc26edf3d928e12bf0f5272613e74faf8ff57cf779608c685e019e42fa23e2e"
+ },
+ "want-rabbit-cake": {
+  "pinyin": "Xiǎo tùzi yào chī dàngāo.",
+  "english": "The rabbit wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "c396fe8927f6083249c97071c7b5905bc1d07ccb68b6d429e5b13188b71410d4",
+  "text": "小兔子要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-rabbit-cake.m4a",
+  "speech": [
+   0.03,
+   2.03
+  ],
+  "speech_fingerprint": "c396fe8927f6083249c97071c7b5905bc1d07ccb68b6d429e5b13188b71410d4"
+ },
+ "want-rabbit-pizza": {
+  "pinyin": "Xiǎo tùzi yào chī pīsà.",
+  "english": "The rabbit wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "fd6c96164ed82bf5b373f07fbd138465538662a50558746c9a956a4fa3c6fea5",
+  "text": "小兔子要吃披萨。",
+  "file": "assets/audio/games/feed/want-rabbit-pizza.m4a",
+  "speech": [
+   0.03,
+   2.08
+  ],
+  "speech_fingerprint": "fd6c96164ed82bf5b373f07fbd138465538662a50558746c9a956a4fa3c6fea5"
+ },
+ "want-rabbit-burger": {
+  "pinyin": "Xiǎo tùzi yào chī hànbǎo.",
+  "english": "The rabbit wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "966fd95a36536b9c3ae12e7319952302d9f9e3cb330956537eaea254672c48dd",
+  "text": "小兔子要吃汉堡。",
+  "file": "assets/audio/games/feed/want-rabbit-burger.m4a",
+  "speech": [
+   0.03,
+   2.07
+  ],
+  "speech_fingerprint": "966fd95a36536b9c3ae12e7319952302d9f9e3cb330956537eaea254672c48dd"
+ },
+ "want-rabbit-apple": {
+  "pinyin": "Xiǎo tùzi yào chī píngguǒ.",
+  "english": "The rabbit wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "dfd36f78f05360b6d2e6ce62f2a6c2d824a3b53480f408ad14109dc81df6f399",
+  "text": "小兔子要吃苹果。",
+  "file": "assets/audio/games/feed/want-rabbit-apple.m4a",
+  "speech": [
+   0.03,
+   2.09
+  ],
+  "speech_fingerprint": "dfd36f78f05360b6d2e6ce62f2a6c2d824a3b53480f408ad14109dc81df6f399"
+ },
+ "want-rabbit-banana": {
+  "pinyin": "Xiǎo tùzi yào chī xiāngjiāo.",
+  "english": "The rabbit wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "211222026d227533a7dd85877c8167d855d255e68a27f04b6d77327124cd64e7",
+  "text": "小兔子要吃香蕉。",
+  "file": "assets/audio/games/feed/want-rabbit-banana.m4a",
+  "speech": [
+   0.03,
+   2.14
+  ],
+  "speech_fingerprint": "211222026d227533a7dd85877c8167d855d255e68a27f04b6d77327124cd64e7"
+ },
+ "want-rabbit-icecream": {
+  "pinyin": "Xiǎo tùzi yào chī bīngqílín.",
+  "english": "The rabbit wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "5c5f3e90be6d3bcefa48cb531b76eddd3f2d28fd78604d651ab989ec3b75bbcd",
+  "text": "小兔子要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-rabbit-icecream.m4a",
+  "speech": [
+   0.03,
+   2.36
+  ],
+  "speech_fingerprint": "5c5f3e90be6d3bcefa48cb531b76eddd3f2d28fd78604d651ab989ec3b75bbcd"
+ },
+ "want-rabbit-egg": {
+  "pinyin": "Xiǎo tùzi yào chī jīdàn.",
+  "english": "The rabbit wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "f1b9fcf31bfc8184bcf61874d7e6a98be0aaa8da3d3ccb96299454de363be012",
+  "text": "小兔子要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-rabbit-egg.m4a",
+  "speech": [
+   0.03,
+   2.0
+  ],
+  "speech_fingerprint": "f1b9fcf31bfc8184bcf61874d7e6a98be0aaa8da3d3ccb96299454de363be012"
+ },
+ "want-rabbit-tomato": {
+  "pinyin": "Xiǎo tùzi yào chī xīhóngshì.",
+  "english": "The rabbit wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "1cab86463877f8cdc05c58a284e564664ce95b33242ed83fc59ddab92d0827fe",
+  "text": "小兔子要吃西红柿。",
+  "file": "assets/audio/games/feed/want-rabbit-tomato.m4a",
+  "speech": [
+   0.03,
+   2.32
+  ],
+  "speech_fingerprint": "1cab86463877f8cdc05c58a284e564664ce95b33242ed83fc59ddab92d0827fe"
+ },
+ "want-rabbit-potato": {
+  "pinyin": "Xiǎo tùzi yào chī tǔdòu.",
+  "english": "The rabbit wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "910e72050097df4b60edd0537772c7458cfa12bf48397041efcd233d48678caa",
+  "text": "小兔子要吃土豆。",
+  "file": "assets/audio/games/feed/want-rabbit-potato.m4a",
+  "speech": [
+   0.03,
+   2.0
+  ],
+  "speech_fingerprint": "910e72050097df4b60edd0537772c7458cfa12bf48397041efcd233d48678caa"
+ },
+ "want-rabbit-mushroom": {
+  "pinyin": "Xiǎo tùzi yào chī mógu.",
+  "english": "The rabbit wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "0045b1f0f4e4ad421dffb4b586bc67fc8edd294396ac34addb083ce8c0defea7",
+  "text": "小兔子要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-rabbit-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.94
+  ],
+  "speech_fingerprint": "0045b1f0f4e4ad421dffb4b586bc67fc8edd294396ac34addb083ce8c0defea7"
+ },
+ "want-rabbit-carrot": {
+  "pinyin": "Xiǎo tùzi yào chī húluóbo.",
+  "english": "The rabbit wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "42c4c3289b9a6ca75485ed0182d9df22ac9c352f74196c7270178a96bb75994f",
+  "text": "小兔子要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-rabbit-carrot.m4a",
+  "speech": [
+   0.03,
+   2.26
+  ],
+  "speech_fingerprint": "42c4c3289b9a6ca75485ed0182d9df22ac9c352f74196c7270178a96bb75994f"
+ },
+ "want-horse-noodles": {
+  "pinyin": "Xiǎo mǎ yào chī miàntiáo.",
+  "english": "The horse wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "a6b9c0af6528caebabd8f78f4418dd2d0c599f8f43dabf7f8d9fc3e269060c6c",
+  "text": "小马要吃面条。",
+  "file": "assets/audio/games/feed/want-horse-noodles.m4a",
+  "speech": [
+   0.03,
+   1.91
+  ],
+  "speech_fingerprint": "a6b9c0af6528caebabd8f78f4418dd2d0c599f8f43dabf7f8d9fc3e269060c6c"
+ },
+ "want-horse-rice": {
+  "pinyin": "Xiǎo mǎ yào chī mǐfàn.",
+  "english": "The horse wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "11e51fa22d9acbc15baa7c70388d1a11feff24a4438f0ea08a047b27a08ef4b5",
+  "text": "小马要吃米饭。",
+  "file": "assets/audio/games/feed/want-horse-rice.m4a",
+  "speech": [
+   0.03,
+   1.77
+  ],
+  "speech_fingerprint": "11e51fa22d9acbc15baa7c70388d1a11feff24a4438f0ea08a047b27a08ef4b5"
+ },
+ "want-horse-dumplings": {
+  "pinyin": "Xiǎo mǎ yào chī jiǎozi.",
+  "english": "The horse wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "94fa8bb7d2cfe67f730f15eb23af7b305025db942a8561197333bb020a2b0371",
+  "text": "小马要吃饺子。",
+  "file": "assets/audio/games/feed/want-horse-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.76
+  ],
+  "speech_fingerprint": "94fa8bb7d2cfe67f730f15eb23af7b305025db942a8561197333bb020a2b0371"
+ },
+ "want-horse-bun": {
+  "pinyin": "Xiǎo mǎ yào chī bāozi.",
+  "english": "The horse wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "1d914909466ed3bdab737189ecb46950bd5214f20d2f6166da763a400b4fb58e",
+  "text": "小马要吃包子。",
+  "file": "assets/audio/games/feed/want-horse-bun.m4a",
+  "speech": [
+   0.03,
+   1.68
+  ],
+  "speech_fingerprint": "1d914909466ed3bdab737189ecb46950bd5214f20d2f6166da763a400b4fb58e"
+ },
+ "want-horse-soup": {
+  "pinyin": "Xiǎo mǎ yào chī tāng.",
+  "english": "The horse wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "c001ae2ebd56b768c150e488bde7f83240ea6876138eda839f9b0be56959b1cc",
+  "text": "小马要吃汤。",
+  "file": "assets/audio/games/feed/want-horse-soup.m4a",
+  "speech": [
+   0.03,
+   1.58
+  ],
+  "speech_fingerprint": "c001ae2ebd56b768c150e488bde7f83240ea6876138eda839f9b0be56959b1cc"
+ },
+ "want-horse-cake": {
+  "pinyin": "Xiǎo mǎ yào chī dàngāo.",
+  "english": "The horse wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "e59eb079974444bce76d46758de313f94c141069d1e72db7970aa5d619b9802e",
+  "text": "小马要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-horse-cake.m4a",
+  "speech": [
+   0.03,
+   1.76
+  ],
+  "speech_fingerprint": "e59eb079974444bce76d46758de313f94c141069d1e72db7970aa5d619b9802e"
+ },
+ "want-horse-pizza": {
+  "pinyin": "Xiǎo mǎ yào chī pīsà.",
+  "english": "The horse wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "a3815bd78b0c13d8de647101470ec73eb484c7cecf547125f90cd57a15314153",
+  "text": "小马要吃披萨。",
+  "file": "assets/audio/games/feed/want-horse-pizza.m4a",
+  "speech": [
+   0.04,
+   1.81
+  ],
+  "speech_fingerprint": "a3815bd78b0c13d8de647101470ec73eb484c7cecf547125f90cd57a15314153"
+ },
+ "want-horse-burger": {
+  "pinyin": "Xiǎo mǎ yào chī hànbǎo.",
+  "english": "The horse wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "6cb5faa84bd6452045bf861d0804380c3c8b7ebe1cff151be7929fcd45c65fd4",
+  "text": "小马要吃汉堡。",
+  "file": "assets/audio/games/feed/want-horse-burger.m4a",
+  "speech": [
+   0.03,
+   1.84
+  ],
+  "speech_fingerprint": "6cb5faa84bd6452045bf861d0804380c3c8b7ebe1cff151be7929fcd45c65fd4"
+ },
+ "want-horse-apple": {
+  "pinyin": "Xiǎo mǎ yào chī píngguǒ.",
+  "english": "The horse wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "411c218c60e3873a8d3cace59648aa430926aee8407d2e36d89a847b6a9d59bd",
+  "text": "小马要吃苹果。",
+  "file": "assets/audio/games/feed/want-horse-apple.m4a",
+  "speech": [
+   0.03,
+   1.82
+  ],
+  "speech_fingerprint": "411c218c60e3873a8d3cace59648aa430926aee8407d2e36d89a847b6a9d59bd"
+ },
+ "want-horse-banana": {
+  "pinyin": "Xiǎo mǎ yào chī xiāngjiāo.",
+  "english": "The horse wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "f5a449380b9536b38e8e67ca0e5889b66a2b396824537dd035952c78135be4c6",
+  "text": "小马要吃香蕉。",
+  "file": "assets/audio/games/feed/want-horse-banana.m4a",
+  "speech": [
+   0.03,
+   1.87
+  ],
+  "speech_fingerprint": "f5a449380b9536b38e8e67ca0e5889b66a2b396824537dd035952c78135be4c6"
+ },
+ "want-horse-icecream": {
+  "pinyin": "Xiǎo mǎ yào chī bīngqílín.",
+  "english": "The horse wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "a0ff641505eb4d5f79fc234a987efb5f6b7248bb27b298c9efba05d0518bd8c3",
+  "text": "小马要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-horse-icecream.m4a",
+  "speech": [
+   0.03,
+   2.09
+  ],
+  "speech_fingerprint": "a0ff641505eb4d5f79fc234a987efb5f6b7248bb27b298c9efba05d0518bd8c3"
+ },
+ "want-horse-egg": {
+  "pinyin": "Xiǎo mǎ yào chī jīdàn.",
+  "english": "The horse wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "fb8dd0edc1e8fee348579fda86909c26f75dfb63218991a5ce1a628dda695ac4",
+  "text": "小马要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-horse-egg.m4a",
+  "speech": [
+   0.03,
+   1.73
+  ],
+  "speech_fingerprint": "fb8dd0edc1e8fee348579fda86909c26f75dfb63218991a5ce1a628dda695ac4"
+ },
+ "want-horse-tomato": {
+  "pinyin": "Xiǎo mǎ yào chī xīhóngshì.",
+  "english": "The horse wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "9ed6cbbbab343b52c1991c34740bc7388dfb401cf774e12125af5e0f71aa9f24",
+  "text": "小马要吃西红柿。",
+  "file": "assets/audio/games/feed/want-horse-tomato.m4a",
+  "speech": [
+   0.03,
+   2.07
+  ],
+  "speech_fingerprint": "9ed6cbbbab343b52c1991c34740bc7388dfb401cf774e12125af5e0f71aa9f24"
+ },
+ "want-horse-potato": {
+  "pinyin": "Xiǎo mǎ yào chī tǔdòu.",
+  "english": "The horse wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "ce7f20e9617e2cac8179319aa87116ff07264efb9eb3e043d8704617bf4b84d0",
+  "text": "小马要吃土豆。",
+  "file": "assets/audio/games/feed/want-horse-potato.m4a",
+  "speech": [
+   0.03,
+   1.73
+  ],
+  "speech_fingerprint": "ce7f20e9617e2cac8179319aa87116ff07264efb9eb3e043d8704617bf4b84d0"
+ },
+ "want-horse-mushroom": {
+  "pinyin": "Xiǎo mǎ yào chī mógu.",
+  "english": "The horse wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "464a0e3bdb4d0d6c17589249a3fe23a30756b661570b1ded5abbca03746a5ced",
+  "text": "小马要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-horse-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.7
+  ],
+  "speech_fingerprint": "464a0e3bdb4d0d6c17589249a3fe23a30756b661570b1ded5abbca03746a5ced"
+ },
+ "want-horse-carrot": {
+  "pinyin": "Xiǎo mǎ yào chī húluóbo.",
+  "english": "The horse wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "87af5ef8cfbb342c951a4800216e55ef5a45c3b215c913f15967ab3c3023a8f2",
+  "text": "小马要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-horse-carrot.m4a",
+  "speech": [
+   0.03,
+   2.02
+  ],
+  "speech_fingerprint": "87af5ef8cfbb342c951a4800216e55ef5a45c3b215c913f15967ab3c3023a8f2"
+ },
+ "want-duck-noodles": {
+  "pinyin": "Xiǎo yāzi yào chī miàntiáo.",
+  "english": "The duck wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "12f8741df7edb1714470db0f36d98979aa2e1f4a80735c64ff19c7b94cf20bfe",
+  "text": "小鸭子要吃面条。",
+  "file": "assets/audio/games/feed/want-duck-noodles.m4a",
+  "speech": [
+   0.03,
+   2.07
+  ],
+  "speech_fingerprint": "12f8741df7edb1714470db0f36d98979aa2e1f4a80735c64ff19c7b94cf20bfe"
+ },
+ "want-duck-rice": {
+  "pinyin": "Xiǎo yāzi yào chī mǐfàn.",
+  "english": "The duck wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "66a2623b71784f8089a493e11b2e8eb7021ab95a39e7472ce32675265ce836cb",
+  "text": "小鸭子要吃米饭。",
+  "file": "assets/audio/games/feed/want-duck-rice.m4a",
+  "speech": [
+   0.03,
+   1.92
+  ],
+  "speech_fingerprint": "66a2623b71784f8089a493e11b2e8eb7021ab95a39e7472ce32675265ce836cb"
+ },
+ "want-duck-dumplings": {
+  "pinyin": "Xiǎo yāzi yào chī jiǎozi.",
+  "english": "The duck wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "b96f614356fd1692f9c1773bf3b0b6d1ced104fb1f94441b38ee62229991a270",
+  "text": "小鸭子要吃饺子。",
+  "file": "assets/audio/games/feed/want-duck-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.94
+  ],
+  "speech_fingerprint": "b96f614356fd1692f9c1773bf3b0b6d1ced104fb1f94441b38ee62229991a270"
+ },
+ "want-duck-bun": {
+  "pinyin": "Xiǎo yāzi yào chī bāozi.",
+  "english": "The duck wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "bba3eea6c8be158fd1726dcf6ad538e6e0f56acec09bee9de4a73143ba665182",
+  "text": "小鸭子要吃包子。",
+  "file": "assets/audio/games/feed/want-duck-bun.m4a",
+  "speech": [
+   0.03,
+   1.87
+  ],
+  "speech_fingerprint": "bba3eea6c8be158fd1726dcf6ad538e6e0f56acec09bee9de4a73143ba665182"
+ },
+ "want-duck-soup": {
+  "pinyin": "Xiǎo yāzi yào chī tāng.",
+  "english": "The duck wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "e3cee20ab62819dd88fd1fb9b0c7aa06ca71365879670c8cb1c4edda42f5d944",
+  "text": "小鸭子要吃汤。",
+  "file": "assets/audio/games/feed/want-duck-soup.m4a",
+  "speech": [
+   0.03,
+   1.76
+  ],
+  "speech_fingerprint": "e3cee20ab62819dd88fd1fb9b0c7aa06ca71365879670c8cb1c4edda42f5d944"
+ },
+ "want-duck-cake": {
+  "pinyin": "Xiǎo yāzi yào chī dàngāo.",
+  "english": "The duck wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "c32cab4ec8f56316fbff87d9db596cc8970ca7d8c638bd11bda1e3d7863cc23c",
+  "text": "小鸭子要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-duck-cake.m4a",
+  "speech": [
+   0.03,
+   1.94
+  ],
+  "speech_fingerprint": "c32cab4ec8f56316fbff87d9db596cc8970ca7d8c638bd11bda1e3d7863cc23c"
+ },
+ "want-duck-pizza": {
+  "pinyin": "Xiǎo yāzi yào chī pīsà.",
+  "english": "The duck wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "cd6765632da717e20205848fa1d8d76be491426748d40405080613d895ffa993",
+  "text": "小鸭子要吃披萨。",
+  "file": "assets/audio/games/feed/want-duck-pizza.m4a",
+  "speech": [
+   0.04,
+   1.99
+  ],
+  "speech_fingerprint": "cd6765632da717e20205848fa1d8d76be491426748d40405080613d895ffa993"
+ },
+ "want-duck-burger": {
+  "pinyin": "Xiǎo yāzi yào chī hànbǎo.",
+  "english": "The duck wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "99425d274e9173ce1947ac8bc1e293ed38348229d4ea3814dfbb251ff1749b2b",
+  "text": "小鸭子要吃汉堡。",
+  "file": "assets/audio/games/feed/want-duck-burger.m4a",
+  "speech": [
+   0.04,
+   2.0
+  ],
+  "speech_fingerprint": "99425d274e9173ce1947ac8bc1e293ed38348229d4ea3814dfbb251ff1749b2b"
+ },
+ "want-duck-apple": {
+  "pinyin": "Xiǎo yāzi yào chī píngguǒ.",
+  "english": "The duck wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "50c5ecb7f85e5aec154b5619a1f80987583d505f83708c1392312ba5ff1adaa9",
+  "text": "小鸭子要吃苹果。",
+  "file": "assets/audio/games/feed/want-duck-apple.m4a",
+  "speech": [
+   0.03,
+   2.0
+  ],
+  "speech_fingerprint": "50c5ecb7f85e5aec154b5619a1f80987583d505f83708c1392312ba5ff1adaa9"
+ },
+ "want-duck-banana": {
+  "pinyin": "Xiǎo yāzi yào chī xiāngjiāo.",
+  "english": "The duck wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "1b70ecd1f2be47fc5ca5628dd893effd694a0f272c3e63ecb7b29d04c4c313de",
+  "text": "小鸭子要吃香蕉。",
+  "file": "assets/audio/games/feed/want-duck-banana.m4a",
+  "speech": [
+   0.03,
+   2.06
+  ],
+  "speech_fingerprint": "1b70ecd1f2be47fc5ca5628dd893effd694a0f272c3e63ecb7b29d04c4c313de"
+ },
+ "want-duck-icecream": {
+  "pinyin": "Xiǎo yāzi yào chī bīngqílín.",
+  "english": "The duck wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "b6e27cababafb4cb79d7f98f68c4e6de8d7a52d6fdb561892fb37a9068e1f673",
+  "text": "小鸭子要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-duck-icecream.m4a",
+  "speech": [
+   0.03,
+   2.28
+  ],
+  "speech_fingerprint": "b6e27cababafb4cb79d7f98f68c4e6de8d7a52d6fdb561892fb37a9068e1f673"
+ },
+ "want-duck-egg": {
+  "pinyin": "Xiǎo yāzi yào chī jīdàn.",
+  "english": "The duck wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "93299a2fd957d53a84c1e934cf7f405719b766193de70307098caf51465eb9db",
+  "text": "小鸭子要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-duck-egg.m4a",
+  "speech": [
+   0.03,
+   1.91
+  ],
+  "speech_fingerprint": "93299a2fd957d53a84c1e934cf7f405719b766193de70307098caf51465eb9db"
+ },
+ "want-duck-tomato": {
+  "pinyin": "Xiǎo yāzi yào chī xīhóngshì.",
+  "english": "The duck wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "16a6069d42fc3327a28e3053ece7e254fecb672569d06870953767bf47ecf637",
+  "text": "小鸭子要吃西红柿。",
+  "file": "assets/audio/games/feed/want-duck-tomato.m4a",
+  "speech": [
+   0.03,
+   2.23
+  ],
+  "speech_fingerprint": "16a6069d42fc3327a28e3053ece7e254fecb672569d06870953767bf47ecf637"
+ },
+ "want-duck-potato": {
+  "pinyin": "Xiǎo yāzi yào chī tǔdòu.",
+  "english": "The duck wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "9b6161110c48da4a2c0a79203e6e74b2f4c0059969f2d0162c2db79a5194b0cd",
+  "text": "小鸭子要吃土豆。",
+  "file": "assets/audio/games/feed/want-duck-potato.m4a",
+  "speech": [
+   0.03,
+   1.92
+  ],
+  "speech_fingerprint": "9b6161110c48da4a2c0a79203e6e74b2f4c0059969f2d0162c2db79a5194b0cd"
+ },
+ "want-duck-mushroom": {
+  "pinyin": "Xiǎo yāzi yào chī mógu.",
+  "english": "The duck wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "6b8212ec638eb025759fa403d1bda78711dcba85c9f7ad01fb27678e6a067175",
+  "text": "小鸭子要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-duck-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.85
+  ],
+  "speech_fingerprint": "6b8212ec638eb025759fa403d1bda78711dcba85c9f7ad01fb27678e6a067175"
+ },
+ "want-duck-carrot": {
+  "pinyin": "Xiǎo yāzi yào chī húluóbo.",
+  "english": "The duck wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "e38c7239440bd4d11f061837ed08782351bb314f532f12fd5308a273e7fee14e",
+  "text": "小鸭子要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-duck-carrot.m4a",
+  "speech": [
+   0.03,
+   2.17
+  ],
+  "speech_fingerprint": "e38c7239440bd4d11f061837ed08782351bb314f532f12fd5308a273e7fee14e"
+ },
+ "want-cow-noodles": {
+  "pinyin": "Nǎiniú yào chī miàntiáo.",
+  "english": "The cow wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "8c81271b39a00458b5b73041d8f84b53e4a2adcdf4ff8bfa7b4d8e4b2bb4da73",
+  "text": "奶牛要吃面条。",
+  "file": "assets/audio/games/feed/want-cow-noodles.m4a",
+  "speech": [
+   0.01,
+   1.84
+  ],
+  "speech_fingerprint": "8c81271b39a00458b5b73041d8f84b53e4a2adcdf4ff8bfa7b4d8e4b2bb4da73"
+ },
+ "want-cow-rice": {
+  "pinyin": "Nǎiniú yào chī mǐfàn.",
+  "english": "The cow wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "433d4dd0c223a6f724885c665eac6a89471402bc24f1ffc170f7141dbe034ac5",
+  "text": "奶牛要吃米饭。",
+  "file": "assets/audio/games/feed/want-cow-rice.m4a",
+  "speech": [
+   0.01,
+   1.7
+  ],
+  "speech_fingerprint": "433d4dd0c223a6f724885c665eac6a89471402bc24f1ffc170f7141dbe034ac5"
+ },
+ "want-cow-dumplings": {
+  "pinyin": "Nǎiniú yào chī jiǎozi.",
+  "english": "The cow wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "25b9f40d75cd8f06255c3d99c1ede000b0d8509471fad394ce74ab4e77cee691",
+  "text": "奶牛要吃饺子。",
+  "file": "assets/audio/games/feed/want-cow-dumplings.m4a",
+  "speech": [
+   0.01,
+   1.72
+  ],
+  "speech_fingerprint": "25b9f40d75cd8f06255c3d99c1ede000b0d8509471fad394ce74ab4e77cee691"
+ },
+ "want-cow-bun": {
+  "pinyin": "Nǎiniú yào chī bāozi.",
+  "english": "The cow wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "958d9a28a86d422576fb4c3585264c1495c3b1ed9ad006d019e21a975b0bef59",
+  "text": "奶牛要吃包子。",
+  "file": "assets/audio/games/feed/want-cow-bun.m4a",
+  "speech": [
+   0.01,
+   1.64
+  ],
+  "speech_fingerprint": "958d9a28a86d422576fb4c3585264c1495c3b1ed9ad006d019e21a975b0bef59"
+ },
+ "want-cow-soup": {
+  "pinyin": "Nǎiniú yào chī tāng.",
+  "english": "The cow wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "6696bdd599a46c792fa97a52be1101bd2417821190781515e24100c9cdab4070",
+  "text": "奶牛要吃汤。",
+  "file": "assets/audio/games/feed/want-cow-soup.m4a",
+  "speech": [
+   0.01,
+   1.54
+  ],
+  "speech_fingerprint": "6696bdd599a46c792fa97a52be1101bd2417821190781515e24100c9cdab4070"
+ },
+ "want-cow-cake": {
+  "pinyin": "Nǎiniú yào chī dàngāo.",
+  "english": "The cow wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "bc91b8f1e344837d61e175a928eb7f116e6c1443107653d4a26678e0730f2ee1",
+  "text": "奶牛要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-cow-cake.m4a",
+  "speech": [
+   0.01,
+   1.71
+  ],
+  "speech_fingerprint": "bc91b8f1e344837d61e175a928eb7f116e6c1443107653d4a26678e0730f2ee1"
+ },
+ "want-cow-pizza": {
+  "pinyin": "Nǎiniú yào chī pīsà.",
+  "english": "The cow wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "a158d3c943b67e567b7d909089b44b722d9bc052bb2a38862d48b0aa4cb8ca0f",
+  "text": "奶牛要吃披萨。",
+  "file": "assets/audio/games/feed/want-cow-pizza.m4a",
+  "speech": [
+   0.01,
+   1.77
+  ],
+  "speech_fingerprint": "a158d3c943b67e567b7d909089b44b722d9bc052bb2a38862d48b0aa4cb8ca0f"
+ },
+ "want-cow-burger": {
+  "pinyin": "Nǎiniú yào chī hànbǎo.",
+  "english": "The cow wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "1db57157103bc7d16f76ce145825b7d0e34f432f183225c9cae002e6ba83e2c7",
+  "text": "奶牛要吃汉堡。",
+  "file": "assets/audio/games/feed/want-cow-burger.m4a",
+  "speech": [
+   0.01,
+   1.76
+  ],
+  "speech_fingerprint": "1db57157103bc7d16f76ce145825b7d0e34f432f183225c9cae002e6ba83e2c7"
+ },
+ "want-cow-apple": {
+  "pinyin": "Nǎiniú yào chī píngguǒ.",
+  "english": "The cow wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "2d779cb2889d2b20f90d7ada09023f79b975481b89110c0ae83d170280daea8b",
+  "text": "奶牛要吃苹果。",
+  "file": "assets/audio/games/feed/want-cow-apple.m4a",
+  "speech": [
+   0.01,
+   1.77
+  ],
+  "speech_fingerprint": "2d779cb2889d2b20f90d7ada09023f79b975481b89110c0ae83d170280daea8b"
+ },
+ "want-cow-banana": {
+  "pinyin": "Nǎiniú yào chī xiāngjiāo.",
+  "english": "The cow wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "a045b6261beb13f5a759325c1b2707e26a4019367698386b408913bc83a7d197",
+  "text": "奶牛要吃香蕉。",
+  "file": "assets/audio/games/feed/want-cow-banana.m4a",
+  "speech": [
+   0.01,
+   1.83
+  ],
+  "speech_fingerprint": "a045b6261beb13f5a759325c1b2707e26a4019367698386b408913bc83a7d197"
+ },
+ "want-cow-icecream": {
+  "pinyin": "Nǎiniú yào chī bīngqílín.",
+  "english": "The cow wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "6e22e404f35c9365f38559abd2db4bed7c4bcb406dabde18976c95f9c3247c36",
+  "text": "奶牛要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-cow-icecream.m4a",
+  "speech": [
+   0.01,
+   2.06
+  ],
+  "speech_fingerprint": "6e22e404f35c9365f38559abd2db4bed7c4bcb406dabde18976c95f9c3247c36"
+ },
+ "want-cow-egg": {
+  "pinyin": "Nǎiniú yào chī jīdàn.",
+  "english": "The cow wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "a9f8d576c78e8cd0d78f2d5e1a214b4e0e3c7ccf65ce951108bf72621c3598c4",
+  "text": "奶牛要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-cow-egg.m4a",
+  "speech": [
+   0.01,
+   1.69
+  ],
+  "speech_fingerprint": "a9f8d576c78e8cd0d78f2d5e1a214b4e0e3c7ccf65ce951108bf72621c3598c4"
+ },
+ "want-cow-tomato": {
+  "pinyin": "Nǎiniú yào chī xīhóngshì.",
+  "english": "The cow wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "7a7bbfa044404c2ceadfc964f83a20d66c07ff3624f865efaa2df937cbfade88",
+  "text": "奶牛要吃西红柿。",
+  "file": "assets/audio/games/feed/want-cow-tomato.m4a",
+  "speech": [
+   0.01,
+   2.01
+  ],
+  "speech_fingerprint": "7a7bbfa044404c2ceadfc964f83a20d66c07ff3624f865efaa2df937cbfade88"
+ },
+ "want-cow-potato": {
+  "pinyin": "Nǎiniú yào chī tǔdòu.",
+  "english": "The cow wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "18943949a1df37def28f714816b3fcee026e183391816bf612d550e318be3153",
+  "text": "奶牛要吃土豆。",
+  "file": "assets/audio/games/feed/want-cow-potato.m4a",
+  "speech": [
+   0.01,
+   1.69
+  ],
+  "speech_fingerprint": "18943949a1df37def28f714816b3fcee026e183391816bf612d550e318be3153"
+ },
+ "want-cow-mushroom": {
+  "pinyin": "Nǎiniú yào chī mógu.",
+  "english": "The cow wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "f86dd9bc124148f2a4e43720c1a696cbb62e1fec2bca00b45be8227b6444a40f",
+  "text": "奶牛要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-cow-mushroom.m4a",
+  "speech": [
+   0.01,
+   1.62
+  ],
+  "speech_fingerprint": "f86dd9bc124148f2a4e43720c1a696cbb62e1fec2bca00b45be8227b6444a40f"
+ },
+ "want-cow-carrot": {
+  "pinyin": "Nǎiniú yào chī húluóbo.",
+  "english": "The cow wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "b712ab4e31fc5a4cb13e6a1ee864372b54b09ed9eb68ad7604974d9ecdf94551",
+  "text": "奶牛要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-cow-carrot.m4a",
+  "speech": [
+   0.01,
+   1.95
+  ],
+  "speech_fingerprint": "b712ab4e31fc5a4cb13e6a1ee864372b54b09ed9eb68ad7604974d9ecdf94551"
+ },
+ "want-sheep-noodles": {
+  "pinyin": "Xiǎo yáng yào chī miàntiáo.",
+  "english": "The sheep wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "565b8e2d0c76bdef4dd7fbc61115eb21c5134e592675ff4a0432e45e549b5150",
+  "text": "小羊要吃面条。",
+  "file": "assets/audio/games/feed/want-sheep-noodles.m4a",
+  "speech": [
+   0.03,
+   1.91
+  ],
+  "speech_fingerprint": "565b8e2d0c76bdef4dd7fbc61115eb21c5134e592675ff4a0432e45e549b5150"
+ },
+ "want-sheep-rice": {
+  "pinyin": "Xiǎo yáng yào chī mǐfàn.",
+  "english": "The sheep wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "f32c052056dc2adec71558a52f14f9dabf32d8a7272f9fba434c77c7cd39d36d",
+  "text": "小羊要吃米饭。",
+  "file": "assets/audio/games/feed/want-sheep-rice.m4a",
+  "speech": [
+   0.03,
+   1.77
+  ],
+  "speech_fingerprint": "f32c052056dc2adec71558a52f14f9dabf32d8a7272f9fba434c77c7cd39d36d"
+ },
+ "want-sheep-dumplings": {
+  "pinyin": "Xiǎo yáng yào chī jiǎozi.",
+  "english": "The sheep wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "e0bc5c34dd30f3a8e68b7e650995aa957cb268ea3bedd72113f0fd635c38f560",
+  "text": "小羊要吃饺子。",
+  "file": "assets/audio/games/feed/want-sheep-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.76
+  ],
+  "speech_fingerprint": "e0bc5c34dd30f3a8e68b7e650995aa957cb268ea3bedd72113f0fd635c38f560"
+ },
+ "want-sheep-bun": {
+  "pinyin": "Xiǎo yáng yào chī bāozi.",
+  "english": "The sheep wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "f0254bb2db8f8bd328dd3d2b258d5944e2ae5bef58b8fb74715cacddd33491e6",
+  "text": "小羊要吃包子。",
+  "file": "assets/audio/games/feed/want-sheep-bun.m4a",
+  "speech": [
+   0.03,
+   1.69
+  ],
+  "speech_fingerprint": "f0254bb2db8f8bd328dd3d2b258d5944e2ae5bef58b8fb74715cacddd33491e6"
+ },
+ "want-sheep-soup": {
+  "pinyin": "Xiǎo yáng yào chī tāng.",
+  "english": "The sheep wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "ce3765c5bd0779f30a750d36e48bd6b4ace0449aa21a9f5782e496065b76ec88",
+  "text": "小羊要吃汤。",
+  "file": "assets/audio/games/feed/want-sheep-soup.m4a",
+  "speech": [
+   0.03,
+   1.58
+  ],
+  "speech_fingerprint": "ce3765c5bd0779f30a750d36e48bd6b4ace0449aa21a9f5782e496065b76ec88"
+ },
+ "want-sheep-cake": {
+  "pinyin": "Xiǎo yáng yào chī dàngāo.",
+  "english": "The sheep wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "389422f623a242049eaf6572fea00ea38979d5d81d8c81508467fd412c810f2d",
+  "text": "小羊要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-sheep-cake.m4a",
+  "speech": [
+   0.03,
+   1.76
+  ],
+  "speech_fingerprint": "389422f623a242049eaf6572fea00ea38979d5d81d8c81508467fd412c810f2d"
+ },
+ "want-sheep-pizza": {
+  "pinyin": "Xiǎo yáng yào chī pīsà.",
+  "english": "The sheep wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "3a77719e38a4181e88b4cf5c3b62c7f6ddbbf80edd1624e6b2ba497fe7618315",
+  "text": "小羊要吃披萨。",
+  "file": "assets/audio/games/feed/want-sheep-pizza.m4a",
+  "speech": [
+   0.03,
+   1.81
+  ],
+  "speech_fingerprint": "3a77719e38a4181e88b4cf5c3b62c7f6ddbbf80edd1624e6b2ba497fe7618315"
+ },
+ "want-sheep-burger": {
+  "pinyin": "Xiǎo yáng yào chī hànbǎo.",
+  "english": "The sheep wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "07b1a278ad406325de3222c4ed257b259e882cf105d396bafcfce47290e1bafe",
+  "text": "小羊要吃汉堡。",
+  "file": "assets/audio/games/feed/want-sheep-burger.m4a",
+  "speech": [
+   0.03,
+   1.83
+  ],
+  "speech_fingerprint": "07b1a278ad406325de3222c4ed257b259e882cf105d396bafcfce47290e1bafe"
+ },
+ "want-sheep-apple": {
+  "pinyin": "Xiǎo yáng yào chī píngguǒ.",
+  "english": "The sheep wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "a768a260d55da636dd8589cb3ccf4f463a320a0594735c4085fe6d619962d746",
+  "text": "小羊要吃苹果。",
+  "file": "assets/audio/games/feed/want-sheep-apple.m4a",
+  "speech": [
+   0.03,
+   1.82
+  ],
+  "speech_fingerprint": "a768a260d55da636dd8589cb3ccf4f463a320a0594735c4085fe6d619962d746"
+ },
+ "want-sheep-banana": {
+  "pinyin": "Xiǎo yáng yào chī xiāngjiāo.",
+  "english": "The sheep wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "3a2522010ad9e598c2d0e17863e57b2dfeaacb4ccc921c118c7ca51da59c0cae",
+  "text": "小羊要吃香蕉。",
+  "file": "assets/audio/games/feed/want-sheep-banana.m4a",
+  "speech": [
+   0.03,
+   1.87
+  ],
+  "speech_fingerprint": "3a2522010ad9e598c2d0e17863e57b2dfeaacb4ccc921c118c7ca51da59c0cae"
+ },
+ "want-sheep-icecream": {
+  "pinyin": "Xiǎo yáng yào chī bīngqílín.",
+  "english": "The sheep wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "8e206ee758c6acf21a35fad8d01c149470c3aa29b9e79c519a3b2b83ac6e254e",
+  "text": "小羊要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-sheep-icecream.m4a",
+  "speech": [
+   0.03,
+   2.09
+  ],
+  "speech_fingerprint": "8e206ee758c6acf21a35fad8d01c149470c3aa29b9e79c519a3b2b83ac6e254e"
+ },
+ "want-sheep-egg": {
+  "pinyin": "Xiǎo yáng yào chī jīdàn.",
+  "english": "The sheep wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "c2a15753a17fb7ba5516662cec0ff1382030fe86f63d9c346b9f7304bf64f9da",
+  "text": "小羊要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-sheep-egg.m4a",
+  "speech": [
+   0.03,
+   1.73
+  ],
+  "speech_fingerprint": "c2a15753a17fb7ba5516662cec0ff1382030fe86f63d9c346b9f7304bf64f9da"
+ },
+ "want-sheep-tomato": {
+  "pinyin": "Xiǎo yáng yào chī xīhóngshì.",
+  "english": "The sheep wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "36273f360336f1b4c4925a41a58e6b3b85a0ee975ccb7fc715ccc0d990650d24",
+  "text": "小羊要吃西红柿。",
+  "file": "assets/audio/games/feed/want-sheep-tomato.m4a",
+  "speech": [
+   0.03,
+   2.07
+  ],
+  "speech_fingerprint": "36273f360336f1b4c4925a41a58e6b3b85a0ee975ccb7fc715ccc0d990650d24"
+ },
+ "want-sheep-potato": {
+  "pinyin": "Xiǎo yáng yào chī tǔdòu.",
+  "english": "The sheep wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "a5fb38187c7cdd13146661c1524706f4e09c220c7403d7b2d3d03659dbc9c887",
+  "text": "小羊要吃土豆。",
+  "file": "assets/audio/games/feed/want-sheep-potato.m4a",
+  "speech": [
+   0.03,
+   1.72
+  ],
+  "speech_fingerprint": "a5fb38187c7cdd13146661c1524706f4e09c220c7403d7b2d3d03659dbc9c887"
+ },
+ "want-sheep-mushroom": {
+  "pinyin": "Xiǎo yáng yào chī mógu.",
+  "english": "The sheep wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "c3833aa72b7f437e5c3405ac02da4100d74e11968c9e4042eb43e90b70a7a614",
+  "text": "小羊要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-sheep-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.7
+  ],
+  "speech_fingerprint": "c3833aa72b7f437e5c3405ac02da4100d74e11968c9e4042eb43e90b70a7a614"
+ },
+ "want-sheep-carrot": {
+  "pinyin": "Xiǎo yáng yào chī húluóbo.",
+  "english": "The sheep wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "d713a88421e351d18887c35b63c0f694c3ff7401293345d407be55c182e036e6",
+  "text": "小羊要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-sheep-carrot.m4a",
+  "speech": [
+   0.03,
+   2.02
+  ],
+  "speech_fingerprint": "d713a88421e351d18887c35b63c0f694c3ff7401293345d407be55c182e036e6"
+ },
+ "want-panda-noodles": {
+  "pinyin": "Xióngmāo yào chī miàntiáo.",
+  "english": "The panda wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "fc0a42679e9e8c0a27c4c58b6d854ec6842c12c8b15f69855154fadac1a6721f",
+  "text": "熊猫要吃面条。",
+  "file": "assets/audio/games/feed/want-panda-noodles.m4a",
+  "speech": [
+   0.03,
+   1.87
+  ],
+  "speech_fingerprint": "fc0a42679e9e8c0a27c4c58b6d854ec6842c12c8b15f69855154fadac1a6721f"
+ },
+ "want-panda-rice": {
+  "pinyin": "Xióngmāo yào chī mǐfàn.",
+  "english": "The panda wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "c6b67f36aa75cb77f020b8cac21791813c6bc38b8f157871f3b5a2267db8d17b",
+  "text": "熊猫要吃米饭。",
+  "file": "assets/audio/games/feed/want-panda-rice.m4a",
+  "speech": [
+   0.03,
+   1.73
+  ],
+  "speech_fingerprint": "c6b67f36aa75cb77f020b8cac21791813c6bc38b8f157871f3b5a2267db8d17b"
+ },
+ "want-panda-dumplings": {
+  "pinyin": "Xióngmāo yào chī jiǎozi.",
+  "english": "The panda wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "04589ccc13c72551896212242abcb7d2090eadeedabf4b6851ff3386b834d952",
+  "text": "熊猫要吃饺子。",
+  "file": "assets/audio/games/feed/want-panda-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.75
+  ],
+  "speech_fingerprint": "04589ccc13c72551896212242abcb7d2090eadeedabf4b6851ff3386b834d952"
+ },
+ "want-panda-bun": {
+  "pinyin": "Xióngmāo yào chī bāozi.",
+  "english": "The panda wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "b42f4ad9d233ceb823d530c3ca71d8408b6ce06702dd9a41d7174cdd6a0b6662",
+  "text": "熊猫要吃包子。",
+  "file": "assets/audio/games/feed/want-panda-bun.m4a",
+  "speech": [
+   0.03,
+   1.68
+  ],
+  "speech_fingerprint": "b42f4ad9d233ceb823d530c3ca71d8408b6ce06702dd9a41d7174cdd6a0b6662"
+ },
+ "want-panda-soup": {
+  "pinyin": "Xióngmāo yào chī tāng.",
+  "english": "The panda wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "40bdab7e13dbe487c7c80f8c25007840df1e00476957a5049deefd548530c50f",
+  "text": "熊猫要吃汤。",
+  "file": "assets/audio/games/feed/want-panda-soup.m4a",
+  "speech": [
+   0.03,
+   1.57
+  ],
+  "speech_fingerprint": "40bdab7e13dbe487c7c80f8c25007840df1e00476957a5049deefd548530c50f"
+ },
+ "want-panda-cake": {
+  "pinyin": "Xióngmāo yào chī dàngāo.",
+  "english": "The panda wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "25b9bab9c72eb1282d3f1fdf5cbb72b4d3bc745b0e5fb7e37c906e6c5af96e18",
+  "text": "熊猫要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-panda-cake.m4a",
+  "speech": [
+   0.03,
+   1.75
+  ],
+  "speech_fingerprint": "25b9bab9c72eb1282d3f1fdf5cbb72b4d3bc745b0e5fb7e37c906e6c5af96e18"
+ },
+ "want-panda-pizza": {
+  "pinyin": "Xióngmāo yào chī pīsà.",
+  "english": "The panda wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "b5021b081901e57eb966243846c67e5b436d43a464e3bc3b3503f3f33be7148b",
+  "text": "熊猫要吃披萨。",
+  "file": "assets/audio/games/feed/want-panda-pizza.m4a",
+  "speech": [
+   0.03,
+   1.8
+  ],
+  "speech_fingerprint": "b5021b081901e57eb966243846c67e5b436d43a464e3bc3b3503f3f33be7148b"
+ },
+ "want-panda-burger": {
+  "pinyin": "Xióngmāo yào chī hànbǎo.",
+  "english": "The panda wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "e141ea75f97c48676a649025eb0936fb75ab5e0fc7c7c8900a9c6696a393969e",
+  "text": "熊猫要吃汉堡。",
+  "file": "assets/audio/games/feed/want-panda-burger.m4a",
+  "speech": [
+   0.03,
+   1.79
+  ],
+  "speech_fingerprint": "e141ea75f97c48676a649025eb0936fb75ab5e0fc7c7c8900a9c6696a393969e"
+ },
+ "want-panda-apple": {
+  "pinyin": "Xióngmāo yào chī píngguǒ.",
+  "english": "The panda wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "f926d3a71a045507d95445215a868b3e8d1b3ce99d92c98879f06ee4675e1237",
+  "text": "熊猫要吃苹果。",
+  "file": "assets/audio/games/feed/want-panda-apple.m4a",
+  "speech": [
+   0.03,
+   1.8
+  ],
+  "speech_fingerprint": "f926d3a71a045507d95445215a868b3e8d1b3ce99d92c98879f06ee4675e1237"
+ },
+ "want-panda-banana": {
+  "pinyin": "Xióngmāo yào chī xiāngjiāo.",
+  "english": "The panda wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "f4f9467fba42a02bdc27ad8a6da79a96082673fa6d3d9d86258d6fa96ef193b4",
+  "text": "熊猫要吃香蕉。",
+  "file": "assets/audio/games/feed/want-panda-banana.m4a",
+  "speech": [
+   0.03,
+   1.86
+  ],
+  "speech_fingerprint": "f4f9467fba42a02bdc27ad8a6da79a96082673fa6d3d9d86258d6fa96ef193b4"
+ },
+ "want-panda-icecream": {
+  "pinyin": "Xióngmāo yào chī bīngqílín.",
+  "english": "The panda wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "5e40186461e659b3caf55d17be8e526944f96e829f3f25ed648022ae123229c2",
+  "text": "熊猫要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-panda-icecream.m4a",
+  "speech": [
+   0.03,
+   2.09
+  ],
+  "speech_fingerprint": "5e40186461e659b3caf55d17be8e526944f96e829f3f25ed648022ae123229c2"
+ },
+ "want-panda-egg": {
+  "pinyin": "Xióngmāo yào chī jīdàn.",
+  "english": "The panda wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "54c1a4eb836e27b3b41bbcd2198d20b869b0081126e6a6f33700ab750d8d24ee",
+  "text": "熊猫要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-panda-egg.m4a",
+  "speech": [
+   0.03,
+   1.72
+  ],
+  "speech_fingerprint": "54c1a4eb836e27b3b41bbcd2198d20b869b0081126e6a6f33700ab750d8d24ee"
+ },
+ "want-panda-tomato": {
+  "pinyin": "Xióngmāo yào chī xīhóngshì.",
+  "english": "The panda wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "10e33d65e8813736c9474056f072e197eb86ba04499d722215f3d26076cf59b2",
+  "text": "熊猫要吃西红柿。",
+  "file": "assets/audio/games/feed/want-panda-tomato.m4a",
+  "speech": [
+   0.03,
+   2.04
+  ],
+  "speech_fingerprint": "10e33d65e8813736c9474056f072e197eb86ba04499d722215f3d26076cf59b2"
+ },
+ "want-panda-potato": {
+  "pinyin": "Xióngmāo yào chī tǔdòu.",
+  "english": "The panda wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "6214b6ecaa9d79cdcac3eb11e4edc4909581883f91de29274da6a046e31bf1cc",
+  "text": "熊猫要吃土豆。",
+  "file": "assets/audio/games/feed/want-panda-potato.m4a",
+  "speech": [
+   0.03,
+   1.72
+  ],
+  "speech_fingerprint": "6214b6ecaa9d79cdcac3eb11e4edc4909581883f91de29274da6a046e31bf1cc"
+ },
+ "want-panda-mushroom": {
+  "pinyin": "Xióngmāo yào chī mógu.",
+  "english": "The panda wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "ddc1c1a8a9ef622fad6ad8038f0bef0bc68a7603cc30eac6bc75d8c5283ba3b4",
+  "text": "熊猫要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-panda-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.66
+  ],
+  "speech_fingerprint": "ddc1c1a8a9ef622fad6ad8038f0bef0bc68a7603cc30eac6bc75d8c5283ba3b4"
+ },
+ "want-panda-carrot": {
+  "pinyin": "Xióngmāo yào chī húluóbo.",
+  "english": "The panda wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "0b1eff9b296e0d22cfcf32d57a4ae5de8dd27bd480458d019d69dd5a77b030e4",
+  "text": "熊猫要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-panda-carrot.m4a",
+  "speech": [
+   0.03,
+   1.98
+  ],
+  "speech_fingerprint": "0b1eff9b296e0d22cfcf32d57a4ae5de8dd27bd480458d019d69dd5a77b030e4"
+ },
+ "want-monkey-noodles": {
+  "pinyin": "Xiǎo hóuzi yào chī miàntiáo.",
+  "english": "The monkey wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "78c615c3dbc8672d475ac1eb9b352d8188cd90d5fc08508fa9555e37ee5987fe",
+  "text": "小猴子要吃面条。",
+  "file": "assets/audio/games/feed/want-monkey-noodles.m4a",
+  "speech": [
+   0.03,
+   2.18
+  ],
+  "speech_fingerprint": "78c615c3dbc8672d475ac1eb9b352d8188cd90d5fc08508fa9555e37ee5987fe"
+ },
+ "want-monkey-rice": {
+  "pinyin": "Xiǎo hóuzi yào chī mǐfàn.",
+  "english": "The monkey wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "c0312ba4bde4fb39fb9a25632a92ae0ab7f65fe9eb341303169c141e7409888b",
+  "text": "小猴子要吃米饭。",
+  "file": "assets/audio/games/feed/want-monkey-rice.m4a",
+  "speech": [
+   0.03,
+   2.03
+  ],
+  "speech_fingerprint": "c0312ba4bde4fb39fb9a25632a92ae0ab7f65fe9eb341303169c141e7409888b"
+ },
+ "want-monkey-dumplings": {
+  "pinyin": "Xiǎo hóuzi yào chī jiǎozi.",
+  "english": "The monkey wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "d2860d300a8db3ffe6e676b8b38544fc1231e50a7762f94b0bb55c6eabae73d2",
+  "text": "小猴子要吃饺子。",
+  "file": "assets/audio/games/feed/want-monkey-dumplings.m4a",
+  "speech": [
+   0.03,
+   2.05
+  ],
+  "speech_fingerprint": "d2860d300a8db3ffe6e676b8b38544fc1231e50a7762f94b0bb55c6eabae73d2"
+ },
+ "want-monkey-bun": {
+  "pinyin": "Xiǎo hóuzi yào chī bāozi.",
+  "english": "The monkey wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "c701e426088240f2eca5e8bfc97119cc705548d82314ebee250dd4f48df3d876",
+  "text": "小猴子要吃包子。",
+  "file": "assets/audio/games/feed/want-monkey-bun.m4a",
+  "speech": [
+   0.03,
+   1.98
+  ],
+  "speech_fingerprint": "c701e426088240f2eca5e8bfc97119cc705548d82314ebee250dd4f48df3d876"
+ },
+ "want-monkey-soup": {
+  "pinyin": "Xiǎo hóuzi yào chī tāng.",
+  "english": "The monkey wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "e466fc7e4726192f5aa66b22f2d921eee07896c45065f6235d8ec5db1414ffe2",
+  "text": "小猴子要吃汤。",
+  "file": "assets/audio/games/feed/want-monkey-soup.m4a",
+  "speech": [
+   0.03,
+   1.88
+  ],
+  "speech_fingerprint": "e466fc7e4726192f5aa66b22f2d921eee07896c45065f6235d8ec5db1414ffe2"
+ },
+ "want-monkey-cake": {
+  "pinyin": "Xiǎo hóuzi yào chī dàngāo.",
+  "english": "The monkey wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "d32bd1f505920010aac5e0302f98b0c30da15f39a1ac6834a077d9af6834ea8f",
+  "text": "小猴子要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-monkey-cake.m4a",
+  "speech": [
+   0.03,
+   2.06
+  ],
+  "speech_fingerprint": "d32bd1f505920010aac5e0302f98b0c30da15f39a1ac6834a077d9af6834ea8f"
+ },
+ "want-monkey-pizza": {
+  "pinyin": "Xiǎo hóuzi yào chī pīsà.",
+  "english": "The monkey wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "bcc28ffe4f8d05f00a0485b05a12cd75c37b1e14245efba2b74c950f8b1aa210",
+  "text": "小猴子要吃披萨。",
+  "file": "assets/audio/games/feed/want-monkey-pizza.m4a",
+  "speech": [
+   0.03,
+   2.11
+  ],
+  "speech_fingerprint": "bcc28ffe4f8d05f00a0485b05a12cd75c37b1e14245efba2b74c950f8b1aa210"
+ },
+ "want-monkey-burger": {
+  "pinyin": "Xiǎo hóuzi yào chī hànbǎo.",
+  "english": "The monkey wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "fb952212dd081ab046b1d0dc9a8ede0bc4ad48dc6286b80840730e066c4e4fd9",
+  "text": "小猴子要吃汉堡。",
+  "file": "assets/audio/games/feed/want-monkey-burger.m4a",
+  "speech": [
+   0.04,
+   2.1
+  ],
+  "speech_fingerprint": "fb952212dd081ab046b1d0dc9a8ede0bc4ad48dc6286b80840730e066c4e4fd9"
+ },
+ "want-monkey-apple": {
+  "pinyin": "Xiǎo hóuzi yào chī píngguǒ.",
+  "english": "The monkey wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "793177299f439d9a7c2a6fe11642188da06550348647f72160e6c22f2fde511d",
+  "text": "小猴子要吃苹果。",
+  "file": "assets/audio/games/feed/want-monkey-apple.m4a",
+  "speech": [
+   0.03,
+   2.12
+  ],
+  "speech_fingerprint": "793177299f439d9a7c2a6fe11642188da06550348647f72160e6c22f2fde511d"
+ },
+ "want-monkey-banana": {
+  "pinyin": "Xiǎo hóuzi yào chī xiāngjiāo.",
+  "english": "The monkey wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "3cc40edf66d12181723b25fcfd2b9761e8fdba67a71635199074d4a18e1a2f4a",
+  "text": "小猴子要吃香蕉。",
+  "file": "assets/audio/games/feed/want-monkey-banana.m4a",
+  "speech": [
+   0.03,
+   2.17
+  ],
+  "speech_fingerprint": "3cc40edf66d12181723b25fcfd2b9761e8fdba67a71635199074d4a18e1a2f4a"
+ },
+ "want-monkey-icecream": {
+  "pinyin": "Xiǎo hóuzi yào chī bīngqílín.",
+  "english": "The monkey wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "a385f9c581c9eec839aca9b6ff14da518103d431b1e3d04e6bb6a157ce400cf2",
+  "text": "小猴子要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-monkey-icecream.m4a",
+  "speech": [
+   0.03,
+   2.39
+  ],
+  "speech_fingerprint": "a385f9c581c9eec839aca9b6ff14da518103d431b1e3d04e6bb6a157ce400cf2"
+ },
+ "want-monkey-egg": {
+  "pinyin": "Xiǎo hóuzi yào chī jīdàn.",
+  "english": "The monkey wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "3e666e7f594d5743741e73cbbdb3ffb93e8638bdf536e4e0c33e4bd6882211cb",
+  "text": "小猴子要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-monkey-egg.m4a",
+  "speech": [
+   0.03,
+   2.03
+  ],
+  "speech_fingerprint": "3e666e7f594d5743741e73cbbdb3ffb93e8638bdf536e4e0c33e4bd6882211cb"
+ },
+ "want-monkey-tomato": {
+  "pinyin": "Xiǎo hóuzi yào chī xīhóngshì.",
+  "english": "The monkey wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "6d1c9c938a61fd34a2b71c0300ca5d0930e3988854f1069f27a45b2e23c90ed9",
+  "text": "小猴子要吃西红柿。",
+  "file": "assets/audio/games/feed/want-monkey-tomato.m4a",
+  "speech": [
+   0.03,
+   2.35
+  ],
+  "speech_fingerprint": "6d1c9c938a61fd34a2b71c0300ca5d0930e3988854f1069f27a45b2e23c90ed9"
+ },
+ "want-monkey-potato": {
+  "pinyin": "Xiǎo hóuzi yào chī tǔdòu.",
+  "english": "The monkey wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "e0595c62c53517d709f42d73d8e33488655be951d32104d3cb9f7ad0713ff3fa",
+  "text": "小猴子要吃土豆。",
+  "file": "assets/audio/games/feed/want-monkey-potato.m4a",
+  "speech": [
+   0.03,
+   2.02
+  ],
+  "speech_fingerprint": "e0595c62c53517d709f42d73d8e33488655be951d32104d3cb9f7ad0713ff3fa"
+ },
+ "want-monkey-mushroom": {
+  "pinyin": "Xiǎo hóuzi yào chī mógu.",
+  "english": "The monkey wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "dd74ba7ae37b731a8fae2ba0bec6edd2a763194cebf22b2738f15e831a35babe",
+  "text": "小猴子要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-monkey-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.97
+  ],
+  "speech_fingerprint": "dd74ba7ae37b731a8fae2ba0bec6edd2a763194cebf22b2738f15e831a35babe"
+ },
+ "want-monkey-carrot": {
+  "pinyin": "Xiǎo hóuzi yào chī húluóbo.",
+  "english": "The monkey wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "a248904b5eb8c227da3b5a180bd12fa1c4113552da6227a874211378383c5694",
+  "text": "小猴子要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-monkey-carrot.m4a",
+  "speech": [
+   0.03,
+   2.29
+  ],
+  "speech_fingerprint": "a248904b5eb8c227da3b5a180bd12fa1c4113552da6227a874211378383c5694"
+ },
+ "want-dog-noodles": {
+  "pinyin": "Xiǎo gǒu yào chī miàntiáo.",
+  "english": "The puppy wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "3b115d71ccf08042be4bad83f51ce684dbae4456e680d30140c7f88b6138602c",
+  "text": "小狗要吃面条。",
+  "file": "assets/audio/games/feed/want-dog-noodles.m4a",
+  "speech": [
+   0.03,
+   1.91
+  ],
+  "speech_fingerprint": "3b115d71ccf08042be4bad83f51ce684dbae4456e680d30140c7f88b6138602c"
+ },
+ "want-dog-rice": {
+  "pinyin": "Xiǎo gǒu yào chī mǐfàn.",
+  "english": "The puppy wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "709990abdadcb2faf7a18325834ec0034da10a44b22255240055bbf710c47534",
+  "text": "小狗要吃米饭。",
+  "file": "assets/audio/games/feed/want-dog-rice.m4a",
+  "speech": [
+   0.03,
+   1.76
+  ],
+  "speech_fingerprint": "709990abdadcb2faf7a18325834ec0034da10a44b22255240055bbf710c47534"
+ },
+ "want-dog-dumplings": {
+  "pinyin": "Xiǎo gǒu yào chī jiǎozi.",
+  "english": "The puppy wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "11c555cdf8a40198b99ce30adcf2ec945e5c14aac1e6704f26e6e01aeddf4e21",
+  "text": "小狗要吃饺子。",
+  "file": "assets/audio/games/feed/want-dog-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.78
+  ],
+  "speech_fingerprint": "11c555cdf8a40198b99ce30adcf2ec945e5c14aac1e6704f26e6e01aeddf4e21"
+ },
+ "want-dog-bun": {
+  "pinyin": "Xiǎo gǒu yào chī bāozi.",
+  "english": "The puppy wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "2aa5960f577a476827bee54468573f4d4f72536fcf2d4ff314fca45e4b1e017b",
+  "text": "小狗要吃包子。",
+  "file": "assets/audio/games/feed/want-dog-bun.m4a",
+  "speech": [
+   0.03,
+   1.71
+  ],
+  "speech_fingerprint": "2aa5960f577a476827bee54468573f4d4f72536fcf2d4ff314fca45e4b1e017b"
+ },
+ "want-dog-soup": {
+  "pinyin": "Xiǎo gǒu yào chī tāng.",
+  "english": "The puppy wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "af10ecc5000c9c14a016f30c838124e2b7a1eb67222a438b5a8de39bd81d9209",
+  "text": "小狗要吃汤。",
+  "file": "assets/audio/games/feed/want-dog-soup.m4a",
+  "speech": [
+   0.03,
+   1.61
+  ],
+  "speech_fingerprint": "af10ecc5000c9c14a016f30c838124e2b7a1eb67222a438b5a8de39bd81d9209"
+ },
+ "want-dog-cake": {
+  "pinyin": "Xiǎo gǒu yào chī dàngāo.",
+  "english": "The puppy wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "b72bd5bed8ad049cbca207627eee5bd6d8de61a3ed1b8ecfebac9d2f27257c8c",
+  "text": "小狗要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-dog-cake.m4a",
+  "speech": [
+   0.03,
+   1.78
+  ],
+  "speech_fingerprint": "b72bd5bed8ad049cbca207627eee5bd6d8de61a3ed1b8ecfebac9d2f27257c8c"
+ },
+ "want-dog-pizza": {
+  "pinyin": "Xiǎo gǒu yào chī pīsà.",
+  "english": "The puppy wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "363921051a57a0137901b724fe506cbaa73941e45cf299d8a52b112196e90998",
+  "text": "小狗要吃披萨。",
+  "file": "assets/audio/games/feed/want-dog-pizza.m4a",
+  "speech": [
+   0.04,
+   1.83
+  ],
+  "speech_fingerprint": "363921051a57a0137901b724fe506cbaa73941e45cf299d8a52b112196e90998"
+ },
+ "want-dog-burger": {
+  "pinyin": "Xiǎo gǒu yào chī hànbǎo.",
+  "english": "The puppy wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "f825a2d463732083f8d310f996e2aa06cfbdc3e978d18938d1edafbe0b3269df",
+  "text": "小狗要吃汉堡。",
+  "file": "assets/audio/games/feed/want-dog-burger.m4a",
+  "speech": [
+   0.04,
+   1.82
+  ],
+  "speech_fingerprint": "f825a2d463732083f8d310f996e2aa06cfbdc3e978d18938d1edafbe0b3269df"
+ },
+ "want-dog-apple": {
+  "pinyin": "Xiǎo gǒu yào chī píngguǒ.",
+  "english": "The puppy wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "d4aa1d70943625743b24a63cf1a7172f78d53ee69ec326dd8460e4a34cce3310",
+  "text": "小狗要吃苹果。",
+  "file": "assets/audio/games/feed/want-dog-apple.m4a",
+  "speech": [
+   0.03,
+   1.84
+  ],
+  "speech_fingerprint": "d4aa1d70943625743b24a63cf1a7172f78d53ee69ec326dd8460e4a34cce3310"
+ },
+ "want-dog-banana": {
+  "pinyin": "Xiǎo gǒu yào chī xiāngjiāo.",
+  "english": "The puppy wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "e728e2057e39a435c5efcd6cb7aa0156293f7f1c5b3ba406a410168e3c7f4a31",
+  "text": "小狗要吃香蕉。",
+  "file": "assets/audio/games/feed/want-dog-banana.m4a",
+  "speech": [
+   0.03,
+   1.9
+  ],
+  "speech_fingerprint": "e728e2057e39a435c5efcd6cb7aa0156293f7f1c5b3ba406a410168e3c7f4a31"
+ },
+ "want-dog-icecream": {
+  "pinyin": "Xiǎo gǒu yào chī bīngqílín.",
+  "english": "The puppy wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "cac9fe53c472b61d731721990a1c008a1dd018b58603546ccd8cdec4d3881132",
+  "text": "小狗要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-dog-icecream.m4a",
+  "speech": [
+   0.03,
+   2.12
+  ],
+  "speech_fingerprint": "cac9fe53c472b61d731721990a1c008a1dd018b58603546ccd8cdec4d3881132"
+ },
+ "want-dog-egg": {
+  "pinyin": "Xiǎo gǒu yào chī jīdàn.",
+  "english": "The puppy wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "a0f1c8634b382a785d26aa17de00ffe372eaf118bffd986f30299af59c36afba",
+  "text": "小狗要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-dog-egg.m4a",
+  "speech": [
+   0.03,
+   1.75
+  ],
+  "speech_fingerprint": "a0f1c8634b382a785d26aa17de00ffe372eaf118bffd986f30299af59c36afba"
+ },
+ "want-dog-tomato": {
+  "pinyin": "Xiǎo gǒu yào chī xīhóngshì.",
+  "english": "The puppy wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "cc438a1d0fe2f90d84ac37c3ace3687b8c2f2ece66e9ddd4a10b38babcc53a4c",
+  "text": "小狗要吃西红柿。",
+  "file": "assets/audio/games/feed/want-dog-tomato.m4a",
+  "speech": [
+   0.03,
+   2.07
+  ],
+  "speech_fingerprint": "cc438a1d0fe2f90d84ac37c3ace3687b8c2f2ece66e9ddd4a10b38babcc53a4c"
+ },
+ "want-dog-potato": {
+  "pinyin": "Xiǎo gǒu yào chī tǔdòu.",
+  "english": "The puppy wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "1a548f9f12c0bacda25116c842743883e7fe009ec71c3fc172f162b21c47e589",
+  "text": "小狗要吃土豆。",
+  "file": "assets/audio/games/feed/want-dog-potato.m4a",
+  "speech": [
+   0.03,
+   1.75
+  ],
+  "speech_fingerprint": "1a548f9f12c0bacda25116c842743883e7fe009ec71c3fc172f162b21c47e589"
+ },
+ "want-dog-mushroom": {
+  "pinyin": "Xiǎo gǒu yào chī mógu.",
+  "english": "The puppy wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "b431cdba06f6b6ec14248f67510261a2ff0b70af47bc07cdd64b49533b729f2f",
+  "text": "小狗要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-dog-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.69
+  ],
+  "speech_fingerprint": "b431cdba06f6b6ec14248f67510261a2ff0b70af47bc07cdd64b49533b729f2f"
+ },
+ "want-dog-carrot": {
+  "pinyin": "Xiǎo gǒu yào chī húluóbo.",
+  "english": "The puppy wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "9b80f8da83a8f05f50710b1f481f29e52c642852c8602c77999fb2a9c36a1c92",
+  "text": "小狗要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-dog-carrot.m4a",
+  "speech": [
+   0.03,
+   2.01
+  ],
+  "speech_fingerprint": "9b80f8da83a8f05f50710b1f481f29e52c642852c8602c77999fb2a9c36a1c92"
+ },
+ "want-cat-noodles": {
+  "pinyin": "Xiǎo māo yào chī miàntiáo.",
+  "english": "The kitten wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "e3eeac763d3bf11cfedd8dfd69294537ff3a12bfa2db10997272ec14f39036ad",
+  "text": "小猫要吃面条。",
+  "file": "assets/audio/games/feed/want-cat-noodles.m4a",
+  "speech": [
+   0.03,
+   1.85
+  ],
+  "speech_fingerprint": "e3eeac763d3bf11cfedd8dfd69294537ff3a12bfa2db10997272ec14f39036ad"
+ },
+ "want-cat-rice": {
+  "pinyin": "Xiǎo māo yào chī mǐfàn.",
+  "english": "The kitten wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "52603c6a297be26d86011fc817cbbfe5f7cc6938db5bd3f256e7fc47634214df",
+  "text": "小猫要吃米饭。",
+  "file": "assets/audio/games/feed/want-cat-rice.m4a",
+  "speech": [
+   0.03,
+   1.71
+  ],
+  "speech_fingerprint": "52603c6a297be26d86011fc817cbbfe5f7cc6938db5bd3f256e7fc47634214df"
+ },
+ "want-cat-dumplings": {
+  "pinyin": "Xiǎo māo yào chī jiǎozi.",
+  "english": "The kitten wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "504c6c2a5cb2a0126d9bed10bef0922b694229e05ed3c7a9f325194ae5b62336",
+  "text": "小猫要吃饺子。",
+  "file": "assets/audio/games/feed/want-cat-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.72
+  ],
+  "speech_fingerprint": "504c6c2a5cb2a0126d9bed10bef0922b694229e05ed3c7a9f325194ae5b62336"
+ },
+ "want-cat-bun": {
+  "pinyin": "Xiǎo māo yào chī bāozi.",
+  "english": "The kitten wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "5a277382b29ec20a104cab54a78b49ab540b57fd84f3bb669450eeadc5d78fe6",
+  "text": "小猫要吃包子。",
+  "file": "assets/audio/games/feed/want-cat-bun.m4a",
+  "speech": [
+   0.03,
+   1.65
+  ],
+  "speech_fingerprint": "5a277382b29ec20a104cab54a78b49ab540b57fd84f3bb669450eeadc5d78fe6"
+ },
+ "want-cat-soup": {
+  "pinyin": "Xiǎo māo yào chī tāng.",
+  "english": "The kitten wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "44ad87205cf1763174f57cddef013390522dd192a4540b90608adcaab36be4d8",
+  "text": "小猫要吃汤。",
+  "file": "assets/audio/games/feed/want-cat-soup.m4a",
+  "speech": [
+   0.03,
+   1.54
+  ],
+  "speech_fingerprint": "44ad87205cf1763174f57cddef013390522dd192a4540b90608adcaab36be4d8"
+ },
+ "want-cat-cake": {
+  "pinyin": "Xiǎo māo yào chī dàngāo.",
+  "english": "The kitten wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "33b43d0e22123292774917df0f096c698fb4ee7207ca9c75cfdd5ec8224822ad",
+  "text": "小猫要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-cat-cake.m4a",
+  "speech": [
+   0.03,
+   1.72
+  ],
+  "speech_fingerprint": "33b43d0e22123292774917df0f096c698fb4ee7207ca9c75cfdd5ec8224822ad"
+ },
+ "want-cat-pizza": {
+  "pinyin": "Xiǎo māo yào chī pīsà.",
+  "english": "The kitten wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "8250041a1988a0cbdd91a19fa17e9c62bd9294e644e8f42dc23086219cc6653e",
+  "text": "小猫要吃披萨。",
+  "file": "assets/audio/games/feed/want-cat-pizza.m4a",
+  "speech": [
+   0.03,
+   1.77
+  ],
+  "speech_fingerprint": "8250041a1988a0cbdd91a19fa17e9c62bd9294e644e8f42dc23086219cc6653e"
+ },
+ "want-cat-burger": {
+  "pinyin": "Xiǎo māo yào chī hànbǎo.",
+  "english": "The kitten wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "70ff3bce86c71c95ca90de9d6da7e9f3da8e84bf8bf0fa9704a57dde41a58398",
+  "text": "小猫要吃汉堡。",
+  "file": "assets/audio/games/feed/want-cat-burger.m4a",
+  "speech": [
+   0.04,
+   1.77
+  ],
+  "speech_fingerprint": "70ff3bce86c71c95ca90de9d6da7e9f3da8e84bf8bf0fa9704a57dde41a58398"
+ },
+ "want-cat-apple": {
+  "pinyin": "Xiǎo māo yào chī píngguǒ.",
+  "english": "The kitten wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "efe0ef1295a6c1b138d8b5cbc17334db9bf7a4a885c0e7e610dd1a3faf08a187",
+  "text": "小猫要吃苹果。",
+  "file": "assets/audio/games/feed/want-cat-apple.m4a",
+  "speech": [
+   0.03,
+   1.78
+  ],
+  "speech_fingerprint": "efe0ef1295a6c1b138d8b5cbc17334db9bf7a4a885c0e7e610dd1a3faf08a187"
+ },
+ "want-cat-banana": {
+  "pinyin": "Xiǎo māo yào chī xiāngjiāo.",
+  "english": "The kitten wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "9b64464288060ebf9beaa8710d6b52209e29fcad2a84271a7fb4bef97ce3f736",
+  "text": "小猫要吃香蕉。",
+  "file": "assets/audio/games/feed/want-cat-banana.m4a",
+  "speech": [
+   0.03,
+   1.84
+  ],
+  "speech_fingerprint": "9b64464288060ebf9beaa8710d6b52209e29fcad2a84271a7fb4bef97ce3f736"
+ },
+ "want-cat-icecream": {
+  "pinyin": "Xiǎo māo yào chī bīngqílín.",
+  "english": "The kitten wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "bee7d21f75099ae73bafa904c698417ff89a09fb0679e0b5ee8b6f17c4645180",
+  "text": "小猫要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-cat-icecream.m4a",
+  "speech": [
+   0.03,
+   2.06
+  ],
+  "speech_fingerprint": "bee7d21f75099ae73bafa904c698417ff89a09fb0679e0b5ee8b6f17c4645180"
+ },
+ "want-cat-egg": {
+  "pinyin": "Xiǎo māo yào chī jīdàn.",
+  "english": "The kitten wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "9722b06ea6dc5794808faea3f760fca36d0af10f3c992b47c70786cf40d1c72f",
+  "text": "小猫要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-cat-egg.m4a",
+  "speech": [
+   0.03,
+   1.69
+  ],
+  "speech_fingerprint": "9722b06ea6dc5794808faea3f760fca36d0af10f3c992b47c70786cf40d1c72f"
+ },
+ "want-cat-tomato": {
+  "pinyin": "Xiǎo māo yào chī xīhóngshì.",
+  "english": "The kitten wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "3c7e6dc9ab33bd0ca78fdd9dd80fe02c074b7c91280965b9031da5b80a542f58",
+  "text": "小猫要吃西红柿。",
+  "file": "assets/audio/games/feed/want-cat-tomato.m4a",
+  "speech": [
+   0.03,
+   2.01
+  ],
+  "speech_fingerprint": "3c7e6dc9ab33bd0ca78fdd9dd80fe02c074b7c91280965b9031da5b80a542f58"
+ },
+ "want-cat-potato": {
+  "pinyin": "Xiǎo māo yào chī tǔdòu.",
+  "english": "The kitten wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "b74113834ea9a1b94daa36074834a38c0299dcc55f69dc8ba4af221990c45032",
+  "text": "小猫要吃土豆。",
+  "file": "assets/audio/games/feed/want-cat-potato.m4a",
+  "speech": [
+   0.03,
+   1.7
+  ],
+  "speech_fingerprint": "b74113834ea9a1b94daa36074834a38c0299dcc55f69dc8ba4af221990c45032"
+ },
+ "want-cat-mushroom": {
+  "pinyin": "Xiǎo māo yào chī mógu.",
+  "english": "The kitten wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "0eaa6d21f5679e61e946b29d6da3aef26bcb195289352dff130627fb6e9591e6",
+  "text": "小猫要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-cat-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.63
+  ],
+  "speech_fingerprint": "0eaa6d21f5679e61e946b29d6da3aef26bcb195289352dff130627fb6e9591e6"
+ },
+ "want-cat-carrot": {
+  "pinyin": "Xiǎo māo yào chī húluóbo.",
+  "english": "The kitten wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "fbc04481718e56bd08c042dc11d534642c1b16356bf3f51ac9101ced6d5d87df",
+  "text": "小猫要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-cat-carrot.m4a",
+  "speech": [
+   0.03,
+   1.95
+  ],
+  "speech_fingerprint": "fbc04481718e56bd08c042dc11d534642c1b16356bf3f51ac9101ced6d5d87df"
+ },
+ "want-mouse-noodles": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī miàntiáo.",
+  "english": "The mouse wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "eac9e17f11bc1d720854dc00a6bbc3f64af3b4401fdecfff472f00bcb37ee27e",
+  "text": "小老鼠要吃面条。",
+  "file": "assets/audio/games/feed/want-mouse-noodles.m4a",
+  "speech": [
+   0.03,
+   2.09
+  ],
+  "speech_fingerprint": "eac9e17f11bc1d720854dc00a6bbc3f64af3b4401fdecfff472f00bcb37ee27e"
+ },
+ "want-mouse-rice": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī mǐfàn.",
+  "english": "The mouse wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "2e5a76da8fc1adf620124b64cec52b4641e8466d59412dd1cac8d8a9268a4bf2",
+  "text": "小老鼠要吃米饭。",
+  "file": "assets/audio/games/feed/want-mouse-rice.m4a",
+  "speech": [
+   0.03,
+   1.94
+  ],
+  "speech_fingerprint": "2e5a76da8fc1adf620124b64cec52b4641e8466d59412dd1cac8d8a9268a4bf2"
+ },
+ "want-mouse-dumplings": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī jiǎozi.",
+  "english": "The mouse wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "25b8e4aaf787a090db5d583b1574eb3fcb8bee40496748f508a975fea887ebd2",
+  "text": "小老鼠要吃饺子。",
+  "file": "assets/audio/games/feed/want-mouse-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.96
+  ],
+  "speech_fingerprint": "25b8e4aaf787a090db5d583b1574eb3fcb8bee40496748f508a975fea887ebd2"
+ },
+ "want-mouse-bun": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī bāozi.",
+  "english": "The mouse wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "676711e270502488717314439e690b52478b3088d0f1eeb6fb257518309d9024",
+  "text": "小老鼠要吃包子。",
+  "file": "assets/audio/games/feed/want-mouse-bun.m4a",
+  "speech": [
+   0.03,
+   1.89
+  ],
+  "speech_fingerprint": "676711e270502488717314439e690b52478b3088d0f1eeb6fb257518309d9024"
+ },
+ "want-mouse-soup": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī tāng.",
+  "english": "The mouse wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "c7cc5abf2bcfcbc88f0d9b656dd87281f05e4c76ceb57ee654e4f72f79db36d5",
+  "text": "小老鼠要吃汤。",
+  "file": "assets/audio/games/feed/want-mouse-soup.m4a",
+  "speech": [
+   0.03,
+   1.78
+  ],
+  "speech_fingerprint": "c7cc5abf2bcfcbc88f0d9b656dd87281f05e4c76ceb57ee654e4f72f79db36d5"
+ },
+ "want-mouse-cake": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī dàngāo.",
+  "english": "The mouse wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "2e88c44d061ba26b91d872d8c8cfb155cb979c03115f085cee89f2cb6337148b",
+  "text": "小老鼠要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-mouse-cake.m4a",
+  "speech": [
+   0.03,
+   1.96
+  ],
+  "speech_fingerprint": "2e88c44d061ba26b91d872d8c8cfb155cb979c03115f085cee89f2cb6337148b"
+ },
+ "want-mouse-pizza": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī pīsà.",
+  "english": "The mouse wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "471ba7c5f1571cbb143e01cc1dd6ef03ba28408b8e673659ae88826d88ea7617",
+  "text": "小老鼠要吃披萨。",
+  "file": "assets/audio/games/feed/want-mouse-pizza.m4a",
+  "speech": [
+   0.03,
+   2.01
+  ],
+  "speech_fingerprint": "471ba7c5f1571cbb143e01cc1dd6ef03ba28408b8e673659ae88826d88ea7617"
+ },
+ "want-mouse-burger": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī hànbǎo.",
+  "english": "The mouse wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "0496ec1cfb89acaee8c471b18196711109ea8463ea884938cf07c95479734959",
+  "text": "小老鼠要吃汉堡。",
+  "file": "assets/audio/games/feed/want-mouse-burger.m4a",
+  "speech": [
+   0.03,
+   2.0
+  ],
+  "speech_fingerprint": "0496ec1cfb89acaee8c471b18196711109ea8463ea884938cf07c95479734959"
+ },
+ "want-mouse-apple": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī píngguǒ.",
+  "english": "The mouse wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "a59b3c23c2d9c332bb510710350b709d6569c326f6a721bab10461b92d667bfd",
+  "text": "小老鼠要吃苹果。",
+  "file": "assets/audio/games/feed/want-mouse-apple.m4a",
+  "speech": [
+   0.03,
+   2.02
+  ],
+  "speech_fingerprint": "a59b3c23c2d9c332bb510710350b709d6569c326f6a721bab10461b92d667bfd"
+ },
+ "want-mouse-banana": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī xiāngjiāo.",
+  "english": "The mouse wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "066edafcfffe87ae3c49e49b372c420d0d887e5c95a4112b22228891d5796a05",
+  "text": "小老鼠要吃香蕉。",
+  "file": "assets/audio/games/feed/want-mouse-banana.m4a",
+  "speech": [
+   0.03,
+   2.07
+  ],
+  "speech_fingerprint": "066edafcfffe87ae3c49e49b372c420d0d887e5c95a4112b22228891d5796a05"
+ },
+ "want-mouse-icecream": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī bīngqílín.",
+  "english": "The mouse wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "e9982d2a51447a65dbea76d33a07260aa9492db9b8706fa808283300025c9162",
+  "text": "小老鼠要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-mouse-icecream.m4a",
+  "speech": [
+   0.03,
+   2.3
+  ],
+  "speech_fingerprint": "e9982d2a51447a65dbea76d33a07260aa9492db9b8706fa808283300025c9162"
+ },
+ "want-mouse-egg": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī jīdàn.",
+  "english": "The mouse wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "0766ead6ce72ccff011b319cd5eb342bd874a41ed432c3e4582b6d65c2560e85",
+  "text": "小老鼠要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-mouse-egg.m4a",
+  "speech": [
+   0.03,
+   1.93
+  ],
+  "speech_fingerprint": "0766ead6ce72ccff011b319cd5eb342bd874a41ed432c3e4582b6d65c2560e85"
+ },
+ "want-mouse-tomato": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī xīhóngshì.",
+  "english": "The mouse wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "be9bb8959f8276bd2db410458132e6d7509d700496fa57aae7e7128a837b78ac",
+  "text": "小老鼠要吃西红柿。",
+  "file": "assets/audio/games/feed/want-mouse-tomato.m4a",
+  "speech": [
+   0.03,
+   2.25
+  ],
+  "speech_fingerprint": "be9bb8959f8276bd2db410458132e6d7509d700496fa57aae7e7128a837b78ac"
+ },
+ "want-mouse-potato": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī tǔdòu.",
+  "english": "The mouse wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "47b86e2761da5c48ed6da7cbb9177a0ae3d776598e8d4896b9cc5a04c2273691",
+  "text": "小老鼠要吃土豆。",
+  "file": "assets/audio/games/feed/want-mouse-potato.m4a",
+  "speech": [
+   0.03,
+   1.93
+  ],
+  "speech_fingerprint": "47b86e2761da5c48ed6da7cbb9177a0ae3d776598e8d4896b9cc5a04c2273691"
+ },
+ "want-mouse-mushroom": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī mógu.",
+  "english": "The mouse wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "7d5d88ad88931497e36d9649b8685ffc6ed7587eb3ede807fd58dcd2f5fe7e80",
+  "text": "小老鼠要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-mouse-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.87
+  ],
+  "speech_fingerprint": "7d5d88ad88931497e36d9649b8685ffc6ed7587eb3ede807fd58dcd2f5fe7e80"
+ },
+ "want-mouse-carrot": {
+  "pinyin": "Xiǎo lǎoshǔ yào chī húluóbo.",
+  "english": "The mouse wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "19071ca7e1657e622fe38e20cad6bbb90647171c9694cae39fef23ff26a3e54a",
+  "text": "小老鼠要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-mouse-carrot.m4a",
+  "speech": [
+   0.03,
+   2.19
+  ],
+  "speech_fingerprint": "19071ca7e1657e622fe38e20cad6bbb90647171c9694cae39fef23ff26a3e54a"
+ },
+ "want-bird-noodles": {
+  "pinyin": "Xiǎo niǎo yào chī miàntiáo.",
+  "english": "The little bird wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "347110cc853183bfc5fce19783abc053c1fe420a6f4d1644e9635f1d30f55769",
+  "text": "小鸟要吃面条。",
+  "file": "assets/audio/games/feed/want-bird-noodles.m4a",
+  "speech": [
+   0.03,
+   1.93
+  ],
+  "speech_fingerprint": "347110cc853183bfc5fce19783abc053c1fe420a6f4d1644e9635f1d30f55769"
+ },
+ "want-bird-rice": {
+  "pinyin": "Xiǎo niǎo yào chī mǐfàn.",
+  "english": "The little bird wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "947005b913c6c23c618fc123a3a91e0752947cd3121c06d0039752cfb7d1642f",
+  "text": "小鸟要吃米饭。",
+  "file": "assets/audio/games/feed/want-bird-rice.m4a",
+  "speech": [
+   0.03,
+   1.79
+  ],
+  "speech_fingerprint": "947005b913c6c23c618fc123a3a91e0752947cd3121c06d0039752cfb7d1642f"
+ },
+ "want-bird-dumplings": {
+  "pinyin": "Xiǎo niǎo yào chī jiǎozi.",
+  "english": "The little bird wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "c5ef151e5e55abe6c3370586604393ba3840d513a214fc71a99a377b7ebdde89",
+  "text": "小鸟要吃饺子。",
+  "file": "assets/audio/games/feed/want-bird-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.8
+  ],
+  "speech_fingerprint": "c5ef151e5e55abe6c3370586604393ba3840d513a214fc71a99a377b7ebdde89"
+ },
+ "want-bird-bun": {
+  "pinyin": "Xiǎo niǎo yào chī bāozi.",
+  "english": "The little bird wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "0efbf71ffd6cbdb7f245476fba4e4f285ab38cf7cd201b750729b2c289916425",
+  "text": "小鸟要吃包子。",
+  "file": "assets/audio/games/feed/want-bird-bun.m4a",
+  "speech": [
+   0.03,
+   1.74
+  ],
+  "speech_fingerprint": "0efbf71ffd6cbdb7f245476fba4e4f285ab38cf7cd201b750729b2c289916425"
+ },
+ "want-bird-soup": {
+  "pinyin": "Xiǎo niǎo yào chī tāng.",
+  "english": "The little bird wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "55475712152c870b3e50822d4da7324b4c47f5d27eb7323396bff4bf610796df",
+  "text": "小鸟要吃汤。",
+  "file": "assets/audio/games/feed/want-bird-soup.m4a",
+  "speech": [
+   0.03,
+   1.63
+  ],
+  "speech_fingerprint": "55475712152c870b3e50822d4da7324b4c47f5d27eb7323396bff4bf610796df"
+ },
+ "want-bird-cake": {
+  "pinyin": "Xiǎo niǎo yào chī dàngāo.",
+  "english": "The little bird wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "e515b7353dff62020dc3772696cb78b257ef6d5c71c59bcba76bee61a8bc3d6f",
+  "text": "小鸟要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-bird-cake.m4a",
+  "speech": [
+   0.03,
+   1.81
+  ],
+  "speech_fingerprint": "e515b7353dff62020dc3772696cb78b257ef6d5c71c59bcba76bee61a8bc3d6f"
+ },
+ "want-bird-pizza": {
+  "pinyin": "Xiǎo niǎo yào chī pīsà.",
+  "english": "The little bird wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "41c93c34e66a0f66831731cb112257d73fffc282f3e665b053b2b204d294b85a",
+  "text": "小鸟要吃披萨。",
+  "file": "assets/audio/games/feed/want-bird-pizza.m4a",
+  "speech": [
+   0.03,
+   1.86
+  ],
+  "speech_fingerprint": "41c93c34e66a0f66831731cb112257d73fffc282f3e665b053b2b204d294b85a"
+ },
+ "want-bird-burger": {
+  "pinyin": "Xiǎo niǎo yào chī hànbǎo.",
+  "english": "The little bird wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "b439efff416fad3d18af6172ff049a88d8365eed3e276060930eb4be5a1cd59c",
+  "text": "小鸟要吃汉堡。",
+  "file": "assets/audio/games/feed/want-bird-burger.m4a",
+  "speech": [
+   0.04,
+   1.85
+  ],
+  "speech_fingerprint": "b439efff416fad3d18af6172ff049a88d8365eed3e276060930eb4be5a1cd59c"
+ },
+ "want-bird-apple": {
+  "pinyin": "Xiǎo niǎo yào chī píngguǒ.",
+  "english": "The little bird wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "07aabc996191cd3441125f09d1b388aaa0cec676a993f9c53c3042eea98faeab",
+  "text": "小鸟要吃苹果。",
+  "file": "assets/audio/games/feed/want-bird-apple.m4a",
+  "speech": [
+   0.03,
+   1.86
+  ],
+  "speech_fingerprint": "07aabc996191cd3441125f09d1b388aaa0cec676a993f9c53c3042eea98faeab"
+ },
+ "want-bird-banana": {
+  "pinyin": "Xiǎo niǎo yào chī xiāngjiāo.",
+  "english": "The little bird wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "95c0b0dabddea1566aa16166fc0c04f60aadc769d594ddef04058586b0ec52ad",
+  "text": "小鸟要吃香蕉。",
+  "file": "assets/audio/games/feed/want-bird-banana.m4a",
+  "speech": [
+   0.03,
+   1.92
+  ],
+  "speech_fingerprint": "95c0b0dabddea1566aa16166fc0c04f60aadc769d594ddef04058586b0ec52ad"
+ },
+ "want-bird-icecream": {
+  "pinyin": "Xiǎo niǎo yào chī bīngqílín.",
+  "english": "The little bird wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "43f0a9877e2d81f10e50884ac6bed17c64eb1a0efa936b7f7728e22823a8da09",
+  "text": "小鸟要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-bird-icecream.m4a",
+  "speech": [
+   0.03,
+   2.14
+  ],
+  "speech_fingerprint": "43f0a9877e2d81f10e50884ac6bed17c64eb1a0efa936b7f7728e22823a8da09"
+ },
+ "want-bird-egg": {
+  "pinyin": "Xiǎo niǎo yào chī jīdàn.",
+  "english": "The little bird wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "b54c7ac7af0e6001ea43da184e1dc66def7d95e745203916d35d3681b8b00985",
+  "text": "小鸟要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-bird-egg.m4a",
+  "speech": [
+   0.03,
+   1.78
+  ],
+  "speech_fingerprint": "b54c7ac7af0e6001ea43da184e1dc66def7d95e745203916d35d3681b8b00985"
+ },
+ "want-bird-tomato": {
+  "pinyin": "Xiǎo niǎo yào chī xīhóngshì.",
+  "english": "The little bird wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "4b1d00a50778f16703de9cb83cccbe0207365fe456f486c029d183cef4f17f50",
+  "text": "小鸟要吃西红柿。",
+  "file": "assets/audio/games/feed/want-bird-tomato.m4a",
+  "speech": [
+   0.03,
+   2.1
+  ],
+  "speech_fingerprint": "4b1d00a50778f16703de9cb83cccbe0207365fe456f486c029d183cef4f17f50"
+ },
+ "want-bird-potato": {
+  "pinyin": "Xiǎo niǎo yào chī tǔdòu.",
+  "english": "The little bird wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "1da364742a0d0e40691a841dfcc897d5daf33a3e60447754644d52418797625f",
+  "text": "小鸟要吃土豆。",
+  "file": "assets/audio/games/feed/want-bird-potato.m4a",
+  "speech": [
+   0.03,
+   1.78
+  ],
+  "speech_fingerprint": "1da364742a0d0e40691a841dfcc897d5daf33a3e60447754644d52418797625f"
+ },
+ "want-bird-mushroom": {
+  "pinyin": "Xiǎo niǎo yào chī mógu.",
+  "english": "The little bird wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "5e2edc86cde3a8aa0c57e6c1e859974bd640dd3cb55ca392b33c4c4c8d9549fa",
+  "text": "小鸟要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-bird-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.72
+  ],
+  "speech_fingerprint": "5e2edc86cde3a8aa0c57e6c1e859974bd640dd3cb55ca392b33c4c4c8d9549fa"
+ },
+ "want-bird-carrot": {
+  "pinyin": "Xiǎo niǎo yào chī húluóbo.",
+  "english": "The little bird wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "cdf75d3535cdf7be4665bdd283949e4ecd71d6a5fc910f8a6f9cba479022263a",
+  "text": "小鸟要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-bird-carrot.m4a",
+  "speech": [
+   0.03,
+   2.04
+  ],
+  "speech_fingerprint": "cdf75d3535cdf7be4665bdd283949e4ecd71d6a5fc910f8a6f9cba479022263a"
+ },
+ "want-pig-noodles": {
+  "pinyin": "Xiǎo zhū yào chī miàntiáo.",
+  "english": "The piglet wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "8a6c7069786b56127f12e262de05f6c9925a5041c0614edd6bbae6a99a67c965",
+  "text": "小猪要吃面条。",
+  "file": "assets/audio/games/feed/want-pig-noodles.m4a",
+  "speech": [
+   0.03,
+   1.91
+  ],
+  "speech_fingerprint": "8a6c7069786b56127f12e262de05f6c9925a5041c0614edd6bbae6a99a67c965"
+ },
+ "want-pig-rice": {
+  "pinyin": "Xiǎo zhū yào chī mǐfàn.",
+  "english": "The piglet wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "a82f0c81fe6d13385e0208a1b2dbc9d2af21e4c83a82aef38072703158777c45",
+  "text": "小猪要吃米饭。",
+  "file": "assets/audio/games/feed/want-pig-rice.m4a",
+  "speech": [
+   0.03,
+   1.77
+  ],
+  "speech_fingerprint": "a82f0c81fe6d13385e0208a1b2dbc9d2af21e4c83a82aef38072703158777c45"
+ },
+ "want-pig-dumplings": {
+  "pinyin": "Xiǎo zhū yào chī jiǎozi.",
+  "english": "The piglet wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "78e41bce2edc4ae430fae5f9867f4e12877318af60527ecec9b8654b02b33af8",
+  "text": "小猪要吃饺子。",
+  "file": "assets/audio/games/feed/want-pig-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.76
+  ],
+  "speech_fingerprint": "78e41bce2edc4ae430fae5f9867f4e12877318af60527ecec9b8654b02b33af8"
+ },
+ "want-pig-bun": {
+  "pinyin": "Xiǎo zhū yào chī bāozi.",
+  "english": "The piglet wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "a9f00714a137f5383c2c4599643f2410b511786c55f97db3d7da525a16e07a59",
+  "text": "小猪要吃包子。",
+  "file": "assets/audio/games/feed/want-pig-bun.m4a",
+  "speech": [
+   0.03,
+   1.69
+  ],
+  "speech_fingerprint": "a9f00714a137f5383c2c4599643f2410b511786c55f97db3d7da525a16e07a59"
+ },
+ "want-pig-soup": {
+  "pinyin": "Xiǎo zhū yào chī tāng.",
+  "english": "The piglet wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "7567de21ef865c88c70f05d9a22baa6556c1a594fe3b49d72823d518972d7832",
+  "text": "小猪要吃汤。",
+  "file": "assets/audio/games/feed/want-pig-soup.m4a",
+  "speech": [
+   0.03,
+   1.58
+  ],
+  "speech_fingerprint": "7567de21ef865c88c70f05d9a22baa6556c1a594fe3b49d72823d518972d7832"
+ },
+ "want-pig-cake": {
+  "pinyin": "Xiǎo zhū yào chī dàngāo.",
+  "english": "The piglet wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "b0b15435f6d6bf7d62743162f6e3996a76926824cd85d3f1e7553315d11025a1",
+  "text": "小猪要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-pig-cake.m4a",
+  "speech": [
+   0.03,
+   1.76
+  ],
+  "speech_fingerprint": "b0b15435f6d6bf7d62743162f6e3996a76926824cd85d3f1e7553315d11025a1"
+ },
+ "want-pig-pizza": {
+  "pinyin": "Xiǎo zhū yào chī pīsà.",
+  "english": "The piglet wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "0059a4d5cf71756de6863751bf825674a6473c69fb61069b32443ac4dbb4e091",
+  "text": "小猪要吃披萨。",
+  "file": "assets/audio/games/feed/want-pig-pizza.m4a",
+  "speech": [
+   0.03,
+   1.81
+  ],
+  "speech_fingerprint": "0059a4d5cf71756de6863751bf825674a6473c69fb61069b32443ac4dbb4e091"
+ },
+ "want-pig-burger": {
+  "pinyin": "Xiǎo zhū yào chī hànbǎo.",
+  "english": "The piglet wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "162a5e2ae02e61a27f652201e879187b9594ba31d3163e0b824336d45478b507",
+  "text": "小猪要吃汉堡。",
+  "file": "assets/audio/games/feed/want-pig-burger.m4a",
+  "speech": [
+   0.03,
+   1.84
+  ],
+  "speech_fingerprint": "162a5e2ae02e61a27f652201e879187b9594ba31d3163e0b824336d45478b507"
+ },
+ "want-pig-apple": {
+  "pinyin": "Xiǎo zhū yào chī píngguǒ.",
+  "english": "The piglet wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "f4e91efc4e0fd0180883d1dc96aca70f127eb27e27f3a6a24e3e302ea85d82e7",
+  "text": "小猪要吃苹果。",
+  "file": "assets/audio/games/feed/want-pig-apple.m4a",
+  "speech": [
+   0.03,
+   1.82
+  ],
+  "speech_fingerprint": "f4e91efc4e0fd0180883d1dc96aca70f127eb27e27f3a6a24e3e302ea85d82e7"
+ },
+ "want-pig-banana": {
+  "pinyin": "Xiǎo zhū yào chī xiāngjiāo.",
+  "english": "The piglet wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "ed356d62711d58f32379ec490fe34f47ef6463435dcc2cb1706ead8a85c5d273",
+  "text": "小猪要吃香蕉。",
+  "file": "assets/audio/games/feed/want-pig-banana.m4a",
+  "speech": [
+   0.03,
+   1.87
+  ],
+  "speech_fingerprint": "ed356d62711d58f32379ec490fe34f47ef6463435dcc2cb1706ead8a85c5d273"
+ },
+ "want-pig-icecream": {
+  "pinyin": "Xiǎo zhū yào chī bīngqílín.",
+  "english": "The piglet wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "b6a80f83e3734070f3b1f9486e2b9f39e9bf52f576824d2701a89217afee9306",
+  "text": "小猪要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-pig-icecream.m4a",
+  "speech": [
+   0.03,
+   2.09
+  ],
+  "speech_fingerprint": "b6a80f83e3734070f3b1f9486e2b9f39e9bf52f576824d2701a89217afee9306"
+ },
+ "want-pig-egg": {
+  "pinyin": "Xiǎo zhū yào chī jīdàn.",
+  "english": "The piglet wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "e8fbe183958d1c02891f967ca7e60c413cfb03b3bb6b2935c0d370ff408aa565",
+  "text": "小猪要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-pig-egg.m4a",
+  "speech": [
+   0.03,
+   1.73
+  ],
+  "speech_fingerprint": "e8fbe183958d1c02891f967ca7e60c413cfb03b3bb6b2935c0d370ff408aa565"
+ },
+ "want-pig-tomato": {
+  "pinyin": "Xiǎo zhū yào chī xīhóngshì.",
+  "english": "The piglet wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "00d33354ae5ae948e6b06043ee0b82d4400134b11b4102fc8fdd75d52d4ba2d5",
+  "text": "小猪要吃西红柿。",
+  "file": "assets/audio/games/feed/want-pig-tomato.m4a",
+  "speech": [
+   0.03,
+   2.07
+  ],
+  "speech_fingerprint": "00d33354ae5ae948e6b06043ee0b82d4400134b11b4102fc8fdd75d52d4ba2d5"
+ },
+ "want-pig-potato": {
+  "pinyin": "Xiǎo zhū yào chī tǔdòu.",
+  "english": "The piglet wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "1e680037f9c0f4b0f199e5135b9efb26ca6a162356bb16bf7e3e6d5418d14cae",
+  "text": "小猪要吃土豆。",
+  "file": "assets/audio/games/feed/want-pig-potato.m4a",
+  "speech": [
+   0.03,
+   1.73
+  ],
+  "speech_fingerprint": "1e680037f9c0f4b0f199e5135b9efb26ca6a162356bb16bf7e3e6d5418d14cae"
+ },
+ "want-pig-mushroom": {
+  "pinyin": "Xiǎo zhū yào chī mógu.",
+  "english": "The piglet wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "2adb6bc22f5ec8b5e355a3aa33cdd4797402f21fbda3f4c26d2f1a5a8000bafc",
+  "text": "小猪要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-pig-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.7
+  ],
+  "speech_fingerprint": "2adb6bc22f5ec8b5e355a3aa33cdd4797402f21fbda3f4c26d2f1a5a8000bafc"
+ },
+ "want-pig-carrot": {
+  "pinyin": "Xiǎo zhū yào chī húluóbo.",
+  "english": "The piglet wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "aeb3356328dd89c095b9f065f0da450097668337382aca965931a1d19aea1e47",
+  "text": "小猪要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-pig-carrot.m4a",
+  "speech": [
+   0.03,
+   2.02
+  ],
+  "speech_fingerprint": "aeb3356328dd89c095b9f065f0da450097668337382aca965931a1d19aea1e47"
+ },
+ "want-elephant-noodles": {
+  "pinyin": "Dàxiàng yào chī miàntiáo.",
+  "english": "The elephant wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "1a57b879bb8b4bf0a9e475be26082d81f083c239d19967b2b0bccaa9ec9a376a",
+  "text": "大象要吃面条。",
+  "file": "assets/audio/games/feed/want-elephant-noodles.m4a",
+  "speech": [
+   0.01,
+   1.83
+  ],
+  "speech_fingerprint": "1a57b879bb8b4bf0a9e475be26082d81f083c239d19967b2b0bccaa9ec9a376a"
+ },
+ "want-elephant-rice": {
+  "pinyin": "Dàxiàng yào chī mǐfàn.",
+  "english": "The elephant wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "3fc8e0fb6cbe70037b72c6f8462c69eb90ba759c61284f49a53c2c144c506444",
+  "text": "大象要吃米饭。",
+  "file": "assets/audio/games/feed/want-elephant-rice.m4a",
+  "speech": [
+   0.01,
+   1.69
+  ],
+  "speech_fingerprint": "3fc8e0fb6cbe70037b72c6f8462c69eb90ba759c61284f49a53c2c144c506444"
+ },
+ "want-elephant-dumplings": {
+  "pinyin": "Dàxiàng yào chī jiǎozi.",
+  "english": "The elephant wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "e9bdc19650258a686c555eebc654ddfc27c28c1704d42b5404db96cd9f26dc20",
+  "text": "大象要吃饺子。",
+  "file": "assets/audio/games/feed/want-elephant-dumplings.m4a",
+  "speech": [
+   0.01,
+   1.71
+  ],
+  "speech_fingerprint": "e9bdc19650258a686c555eebc654ddfc27c28c1704d42b5404db96cd9f26dc20"
+ },
+ "want-elephant-bun": {
+  "pinyin": "Dàxiàng yào chī bāozi.",
+  "english": "The elephant wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "e7f3d549e207d868b05b6e0976a539f2d8830a5ec88a4070fda09d98992507b6",
+  "text": "大象要吃包子。",
+  "file": "assets/audio/games/feed/want-elephant-bun.m4a",
+  "speech": [
+   0.01,
+   1.64
+  ],
+  "speech_fingerprint": "e7f3d549e207d868b05b6e0976a539f2d8830a5ec88a4070fda09d98992507b6"
+ },
+ "want-elephant-soup": {
+  "pinyin": "Dàxiàng yào chī tāng.",
+  "english": "The elephant wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "39bd3b2d303116f4f6c33c265f5bfa4b135d03bded0092e9dcb34e5e07069573",
+  "text": "大象要吃汤。",
+  "file": "assets/audio/games/feed/want-elephant-soup.m4a",
+  "speech": [
+   0.01,
+   1.53
+  ],
+  "speech_fingerprint": "39bd3b2d303116f4f6c33c265f5bfa4b135d03bded0092e9dcb34e5e07069573"
+ },
+ "want-elephant-cake": {
+  "pinyin": "Dàxiàng yào chī dàngāo.",
+  "english": "The elephant wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "40df024a1f222bae871b2f7294507218c5fa7e3a68678cd0b5f8f731a70e0651",
+  "text": "大象要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-elephant-cake.m4a",
+  "speech": [
+   0.01,
+   1.71
+  ],
+  "speech_fingerprint": "40df024a1f222bae871b2f7294507218c5fa7e3a68678cd0b5f8f731a70e0651"
+ },
+ "want-elephant-pizza": {
+  "pinyin": "Dàxiàng yào chī pīsà.",
+  "english": "The elephant wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "12a35824c3fb13038a8627e5a39ac88cf5e76a549ecff4eae65fbfd550ab5cae",
+  "text": "大象要吃披萨。",
+  "file": "assets/audio/games/feed/want-elephant-pizza.m4a",
+  "speech": [
+   0.01,
+   1.76
+  ],
+  "speech_fingerprint": "12a35824c3fb13038a8627e5a39ac88cf5e76a549ecff4eae65fbfd550ab5cae"
+ },
+ "want-elephant-burger": {
+  "pinyin": "Dàxiàng yào chī hànbǎo.",
+  "english": "The elephant wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "97f42388470632a49d30f49718f4da8df4e384770a0bc45b4be66163b97fa133",
+  "text": "大象要吃汉堡。",
+  "file": "assets/audio/games/feed/want-elephant-burger.m4a",
+  "speech": [
+   0.01,
+   1.76
+  ],
+  "speech_fingerprint": "97f42388470632a49d30f49718f4da8df4e384770a0bc45b4be66163b97fa133"
+ },
+ "want-elephant-apple": {
+  "pinyin": "Dàxiàng yào chī píngguǒ.",
+  "english": "The elephant wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "ca4c0e5c1c7f4536ce2754379aa57e06ab38fe24a6f1f724b7f464da8d37adc2",
+  "text": "大象要吃苹果。",
+  "file": "assets/audio/games/feed/want-elephant-apple.m4a",
+  "speech": [
+   0.01,
+   1.77
+  ],
+  "speech_fingerprint": "ca4c0e5c1c7f4536ce2754379aa57e06ab38fe24a6f1f724b7f464da8d37adc2"
+ },
+ "want-elephant-banana": {
+  "pinyin": "Dàxiàng yào chī xiāngjiāo.",
+  "english": "The elephant wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "58b7539080a094454bf7a93d609db63a411157e0b94512dd9a442ea66f0cd809",
+  "text": "大象要吃香蕉。",
+  "file": "assets/audio/games/feed/want-elephant-banana.m4a",
+  "speech": [
+   0.01,
+   1.83
+  ],
+  "speech_fingerprint": "58b7539080a094454bf7a93d609db63a411157e0b94512dd9a442ea66f0cd809"
+ },
+ "want-elephant-icecream": {
+  "pinyin": "Dàxiàng yào chī bīngqílín.",
+  "english": "The elephant wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "354d302edf639c17e56d02fff5c6607811781b5a95c7fe9dd7b6222f833f3240",
+  "text": "大象要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-elephant-icecream.m4a",
+  "speech": [
+   0.01,
+   2.05
+  ],
+  "speech_fingerprint": "354d302edf639c17e56d02fff5c6607811781b5a95c7fe9dd7b6222f833f3240"
+ },
+ "want-elephant-egg": {
+  "pinyin": "Dàxiàng yào chī jīdàn.",
+  "english": "The elephant wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "dfafac9500de6a4f4d40049c23340369c0f0dedd699cf80142802e9d1e5a46db",
+  "text": "大象要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-elephant-egg.m4a",
+  "speech": [
+   0.01,
+   1.68
+  ],
+  "speech_fingerprint": "dfafac9500de6a4f4d40049c23340369c0f0dedd699cf80142802e9d1e5a46db"
+ },
+ "want-elephant-tomato": {
+  "pinyin": "Dàxiàng yào chī xīhóngshì.",
+  "english": "The elephant wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "4af5cbd447d373b81c7ae07f93b76576d1c2335960e58061210fc0cc4609f482",
+  "text": "大象要吃西红柿。",
+  "file": "assets/audio/games/feed/want-elephant-tomato.m4a",
+  "speech": [
+   0.01,
+   2.0
+  ],
+  "speech_fingerprint": "4af5cbd447d373b81c7ae07f93b76576d1c2335960e58061210fc0cc4609f482"
+ },
+ "want-elephant-potato": {
+  "pinyin": "Dàxiàng yào chī tǔdòu.",
+  "english": "The elephant wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "7aba75045bf2363f006db855ce1c8db9749fe74866ff8931be28e92296b8566e",
+  "text": "大象要吃土豆。",
+  "file": "assets/audio/games/feed/want-elephant-potato.m4a",
+  "speech": [
+   0.01,
+   1.68
+  ],
+  "speech_fingerprint": "7aba75045bf2363f006db855ce1c8db9749fe74866ff8931be28e92296b8566e"
+ },
+ "want-elephant-mushroom": {
+  "pinyin": "Dàxiàng yào chī mógu.",
+  "english": "The elephant wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "a5b688109770932aa9de64c2bb2c96b44736b13366814fd5abb671f9bc79a77d",
+  "text": "大象要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-elephant-mushroom.m4a",
+  "speech": [
+   0.01,
+   1.62
+  ],
+  "speech_fingerprint": "a5b688109770932aa9de64c2bb2c96b44736b13366814fd5abb671f9bc79a77d"
+ },
+ "want-elephant-carrot": {
+  "pinyin": "Dàxiàng yào chī húluóbo.",
+  "english": "The elephant wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "27c1441f374d091aad181932a3033545c4da8f9318b0b7665a3aaeea13529ffa",
+  "text": "大象要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-elephant-carrot.m4a",
+  "speech": [
+   0.01,
+   1.94
+  ],
+  "speech_fingerprint": "27c1441f374d091aad181932a3033545c4da8f9318b0b7665a3aaeea13529ffa"
+ },
+ "want-lion-noodles": {
+  "pinyin": "Shīzi yào chī miàntiáo.",
+  "english": "The lion wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "89354354f1902c7c6d890b53715c3eb77f643ac7a549835ecfd9d7241a3edb28",
+  "text": "狮子要吃面条。",
+  "file": "assets/audio/games/feed/want-lion-noodles.m4a",
+  "speech": [
+   0.03,
+   1.8
+  ],
+  "speech_fingerprint": "89354354f1902c7c6d890b53715c3eb77f643ac7a549835ecfd9d7241a3edb28"
+ },
+ "want-lion-rice": {
+  "pinyin": "Shīzi yào chī mǐfàn.",
+  "english": "The lion wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "927a1c24d33deabf0095aee1c60e26ae2396d271558fa9334971c9d690b1e3fc",
+  "text": "狮子要吃米饭。",
+  "file": "assets/audio/games/feed/want-lion-rice.m4a",
+  "speech": [
+   0.03,
+   1.66
+  ],
+  "speech_fingerprint": "927a1c24d33deabf0095aee1c60e26ae2396d271558fa9334971c9d690b1e3fc"
+ },
+ "want-lion-dumplings": {
+  "pinyin": "Shīzi yào chī jiǎozi.",
+  "english": "The lion wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "c2d6e57186c544d8c4a02abe4c945147667ddc44832d90cb6197dcd4e935bd54",
+  "text": "狮子要吃饺子。",
+  "file": "assets/audio/games/feed/want-lion-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.67
+  ],
+  "speech_fingerprint": "c2d6e57186c544d8c4a02abe4c945147667ddc44832d90cb6197dcd4e935bd54"
+ },
+ "want-lion-bun": {
+  "pinyin": "Shīzi yào chī bāozi.",
+  "english": "The lion wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "6e58e76e186a6ca4254f9ce16157849e5afa873d9d3c3032ea2496fed4c4fa6a",
+  "text": "狮子要吃包子。",
+  "file": "assets/audio/games/feed/want-lion-bun.m4a",
+  "speech": [
+   0.03,
+   1.61
+  ],
+  "speech_fingerprint": "6e58e76e186a6ca4254f9ce16157849e5afa873d9d3c3032ea2496fed4c4fa6a"
+ },
+ "want-lion-soup": {
+  "pinyin": "Shīzi yào chī tāng.",
+  "english": "The lion wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "7912cd8b1466d5645a8557eb26e83eb4d1d858c5ecec27c0612fedfe6ba8ed15",
+  "text": "狮子要吃汤。",
+  "file": "assets/audio/games/feed/want-lion-soup.m4a",
+  "speech": [
+   0.03,
+   1.49
+  ],
+  "speech_fingerprint": "7912cd8b1466d5645a8557eb26e83eb4d1d858c5ecec27c0612fedfe6ba8ed15"
+ },
+ "want-lion-cake": {
+  "pinyin": "Shīzi yào chī dàngāo.",
+  "english": "The lion wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "074ceae4ea2ffafa8843c5c449dbd98bef42a770d924a63d191f9cc9ee4f0638",
+  "text": "狮子要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-lion-cake.m4a",
+  "speech": [
+   0.03,
+   1.67
+  ],
+  "speech_fingerprint": "074ceae4ea2ffafa8843c5c449dbd98bef42a770d924a63d191f9cc9ee4f0638"
+ },
+ "want-lion-pizza": {
+  "pinyin": "Shīzi yào chī pīsà.",
+  "english": "The lion wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "a7a19b1b10f00be74ee6b9fdc8d5d012ba7124645c1cd35ea611a8b43ed0a0c5",
+  "text": "狮子要吃披萨。",
+  "file": "assets/audio/games/feed/want-lion-pizza.m4a",
+  "speech": [
+   0.03,
+   1.73
+  ],
+  "speech_fingerprint": "a7a19b1b10f00be74ee6b9fdc8d5d012ba7124645c1cd35ea611a8b43ed0a0c5"
+ },
+ "want-lion-burger": {
+  "pinyin": "Shīzi yào chī hànbǎo.",
+  "english": "The lion wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "43cc670a906d21ddc7c66a5f067d4b2871416d4dc070fe3db4c46ab6d1b2cff7",
+  "text": "狮子要吃汉堡。",
+  "file": "assets/audio/games/feed/want-lion-burger.m4a",
+  "speech": [
+   0.03,
+   1.71
+  ],
+  "speech_fingerprint": "43cc670a906d21ddc7c66a5f067d4b2871416d4dc070fe3db4c46ab6d1b2cff7"
+ },
+ "want-lion-apple": {
+  "pinyin": "Shīzi yào chī píngguǒ.",
+  "english": "The lion wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "fb93eb1e6643cdd33c04b74638bb12a1a1b6695ef701c39b4102c5944c330a70",
+  "text": "狮子要吃苹果。",
+  "file": "assets/audio/games/feed/want-lion-apple.m4a",
+  "speech": [
+   0.03,
+   1.73
+  ],
+  "speech_fingerprint": "fb93eb1e6643cdd33c04b74638bb12a1a1b6695ef701c39b4102c5944c330a70"
+ },
+ "want-lion-banana": {
+  "pinyin": "Shīzi yào chī xiāngjiāo.",
+  "english": "The lion wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "64ea812d8d5c726d6ddd0baa9428da8f8cdb27a09ebea0a847cc7db068cbc3aa",
+  "text": "狮子要吃香蕉。",
+  "file": "assets/audio/games/feed/want-lion-banana.m4a",
+  "speech": [
+   0.03,
+   1.79
+  ],
+  "speech_fingerprint": "64ea812d8d5c726d6ddd0baa9428da8f8cdb27a09ebea0a847cc7db068cbc3aa"
+ },
+ "want-lion-icecream": {
+  "pinyin": "Shīzi yào chī bīngqílín.",
+  "english": "The lion wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "bec2c5d622f9a53a651ae02a835ed1878d00d6bb8eee4819efcaf96f1de1b9e4",
+  "text": "狮子要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-lion-icecream.m4a",
+  "speech": [
+   0.03,
+   2.01
+  ],
+  "speech_fingerprint": "bec2c5d622f9a53a651ae02a835ed1878d00d6bb8eee4819efcaf96f1de1b9e4"
+ },
+ "want-lion-egg": {
+  "pinyin": "Shīzi yào chī jīdàn.",
+  "english": "The lion wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "aa01671dfc8f47ae196066ab429213a4f77a0f3fe5c5ecdc1e10f21c421c01a9",
+  "text": "狮子要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-lion-egg.m4a",
+  "speech": [
+   0.03,
+   1.65
+  ],
+  "speech_fingerprint": "aa01671dfc8f47ae196066ab429213a4f77a0f3fe5c5ecdc1e10f21c421c01a9"
+ },
+ "want-lion-tomato": {
+  "pinyin": "Shīzi yào chī xīhóngshì.",
+  "english": "The lion wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "b371096391b7b0bbfbabdfd87f7d198a787af0cfcd0f0153f703754165968ba8",
+  "text": "狮子要吃西红柿。",
+  "file": "assets/audio/games/feed/want-lion-tomato.m4a",
+  "speech": [
+   0.03,
+   1.96
+  ],
+  "speech_fingerprint": "b371096391b7b0bbfbabdfd87f7d198a787af0cfcd0f0153f703754165968ba8"
+ },
+ "want-lion-potato": {
+  "pinyin": "Shīzi yào chī tǔdòu.",
+  "english": "The lion wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "c26220c1b6ba28cdef7d64b20c123273d0a153a1ebd00a41db2202b5a85c09eb",
+  "text": "狮子要吃土豆。",
+  "file": "assets/audio/games/feed/want-lion-potato.m4a",
+  "speech": [
+   0.03,
+   1.65
+  ],
+  "speech_fingerprint": "c26220c1b6ba28cdef7d64b20c123273d0a153a1ebd00a41db2202b5a85c09eb"
+ },
+ "want-lion-mushroom": {
+  "pinyin": "Shīzi yào chī mógu.",
+  "english": "The lion wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "5b6650358039b87d8baef73e8c9370725051c21c64f9890a9703d1850915432e",
+  "text": "狮子要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-lion-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.59
+  ],
+  "speech_fingerprint": "5b6650358039b87d8baef73e8c9370725051c21c64f9890a9703d1850915432e"
+ },
+ "want-lion-carrot": {
+  "pinyin": "Shīzi yào chī húluóbo.",
+  "english": "The lion wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "c28caeed32215ea4f5be707c5699c87876408c8f41803b39693d7cc10c68265c",
+  "text": "狮子要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-lion-carrot.m4a",
+  "speech": [
+   0.03,
+   1.91
+  ],
+  "speech_fingerprint": "c28caeed32215ea4f5be707c5699c87876408c8f41803b39693d7cc10c68265c"
+ },
+ "want-frog-noodles": {
+  "pinyin": "Qīngwā yào chī miàntiáo.",
+  "english": "The frog wants to eat noodles.",
+  "speaker": "narrator",
+  "fingerprint": "fa128b0cf1ea00b35194f865358ed0f121ffe95bf9d6d103629117ebbf207302",
+  "text": "青蛙要吃面条。",
+  "file": "assets/audio/games/feed/want-frog-noodles.m4a",
+  "speech": [
+   0.03,
+   1.82
+  ],
+  "speech_fingerprint": "fa128b0cf1ea00b35194f865358ed0f121ffe95bf9d6d103629117ebbf207302"
+ },
+ "want-frog-rice": {
+  "pinyin": "Qīngwā yào chī mǐfàn.",
+  "english": "The frog wants to eat rice.",
+  "speaker": "narrator",
+  "fingerprint": "5b31ad870efe85a7eb6131df98ebcc6bffb2628b841ce496b3c5db6c85dbd26f",
+  "text": "青蛙要吃米饭。",
+  "file": "assets/audio/games/feed/want-frog-rice.m4a",
+  "speech": [
+   0.03,
+   1.67
+  ],
+  "speech_fingerprint": "5b31ad870efe85a7eb6131df98ebcc6bffb2628b841ce496b3c5db6c85dbd26f"
+ },
+ "want-frog-dumplings": {
+  "pinyin": "Qīngwā yào chī jiǎozi.",
+  "english": "The frog wants to eat dumplings.",
+  "speaker": "narrator",
+  "fingerprint": "0204bd4d7bdf8be435cdf05d0bddffbb035f4c2861711a732eb781bd625543d7",
+  "text": "青蛙要吃饺子。",
+  "file": "assets/audio/games/feed/want-frog-dumplings.m4a",
+  "speech": [
+   0.03,
+   1.69
+  ],
+  "speech_fingerprint": "0204bd4d7bdf8be435cdf05d0bddffbb035f4c2861711a732eb781bd625543d7"
+ },
+ "want-frog-bun": {
+  "pinyin": "Qīngwā yào chī bāozi.",
+  "english": "The frog wants to eat steamed bun.",
+  "speaker": "narrator",
+  "fingerprint": "4b0e6addf015b72d60520c3969affdfe9313b2cfa63c75ca847ec6f0bb1dec1a",
+  "text": "青蛙要吃包子。",
+  "file": "assets/audio/games/feed/want-frog-bun.m4a",
+  "speech": [
+   0.03,
+   1.62
+  ],
+  "speech_fingerprint": "4b0e6addf015b72d60520c3969affdfe9313b2cfa63c75ca847ec6f0bb1dec1a"
+ },
+ "want-frog-soup": {
+  "pinyin": "Qīngwā yào chī tāng.",
+  "english": "The frog wants to eat soup.",
+  "speaker": "narrator",
+  "fingerprint": "0fe1fae20bbc7b9550ee4544122ad87ae0782bc2802f4c88a3981371125de91e",
+  "text": "青蛙要吃汤。",
+  "file": "assets/audio/games/feed/want-frog-soup.m4a",
+  "speech": [
+   0.03,
+   1.51
+  ],
+  "speech_fingerprint": "0fe1fae20bbc7b9550ee4544122ad87ae0782bc2802f4c88a3981371125de91e"
+ },
+ "want-frog-cake": {
+  "pinyin": "Qīngwā yào chī dàngāo.",
+  "english": "The frog wants to eat cake.",
+  "speaker": "narrator",
+  "fingerprint": "2e10bdd7c2cea759b8e439ae79a6d129f53c30084b16aa3c87022d51a75d3c74",
+  "text": "青蛙要吃蛋糕。",
+  "file": "assets/audio/games/feed/want-frog-cake.m4a",
+  "speech": [
+   0.03,
+   1.69
+  ],
+  "speech_fingerprint": "2e10bdd7c2cea759b8e439ae79a6d129f53c30084b16aa3c87022d51a75d3c74"
+ },
+ "want-frog-pizza": {
+  "pinyin": "Qīngwā yào chī pīsà.",
+  "english": "The frog wants to eat pizza.",
+  "speaker": "narrator",
+  "fingerprint": "861faf6687047a14e677be4225ea94ce601e815f90c4693f1d760104b8841f9d",
+  "text": "青蛙要吃披萨。",
+  "file": "assets/audio/games/feed/want-frog-pizza.m4a",
+  "speech": [
+   0.03,
+   1.74
+  ],
+  "speech_fingerprint": "861faf6687047a14e677be4225ea94ce601e815f90c4693f1d760104b8841f9d"
+ },
+ "want-frog-burger": {
+  "pinyin": "Qīngwā yào chī hànbǎo.",
+  "english": "The frog wants to eat burger.",
+  "speaker": "narrator",
+  "fingerprint": "40ea3cc7781aafabd5f7876eb7e98fc63b46b1600769710802810b16c98e0644",
+  "text": "青蛙要吃汉堡。",
+  "file": "assets/audio/games/feed/want-frog-burger.m4a",
+  "speech": [
+   0.03,
+   1.73
+  ],
+  "speech_fingerprint": "40ea3cc7781aafabd5f7876eb7e98fc63b46b1600769710802810b16c98e0644"
+ },
+ "want-frog-apple": {
+  "pinyin": "Qīngwā yào chī píngguǒ.",
+  "english": "The frog wants to eat apple.",
+  "speaker": "narrator",
+  "fingerprint": "2af17017207a5ca9e95270c02acbbe1146dd951904f50ad3cf7d7d3dfa4bab73",
+  "text": "青蛙要吃苹果。",
+  "file": "assets/audio/games/feed/want-frog-apple.m4a",
+  "speech": [
+   0.03,
+   1.75
+  ],
+  "speech_fingerprint": "2af17017207a5ca9e95270c02acbbe1146dd951904f50ad3cf7d7d3dfa4bab73"
+ },
+ "want-frog-banana": {
+  "pinyin": "Qīngwā yào chī xiāngjiāo.",
+  "english": "The frog wants to eat banana.",
+  "speaker": "narrator",
+  "fingerprint": "26155814fde9098b691d6cf94b735735fc18633d61c8089163cf1a4888b36cc8",
+  "text": "青蛙要吃香蕉。",
+  "file": "assets/audio/games/feed/want-frog-banana.m4a",
+  "speech": [
+   0.03,
+   1.81
+  ],
+  "speech_fingerprint": "26155814fde9098b691d6cf94b735735fc18633d61c8089163cf1a4888b36cc8"
+ },
+ "want-frog-icecream": {
+  "pinyin": "Qīngwā yào chī bīngqílín.",
+  "english": "The frog wants to eat ice cream.",
+  "speaker": "narrator",
+  "fingerprint": "412f66edadf1e0d62e623731168b62d723e8f4938b216482ae67da43377a6958",
+  "text": "青蛙要吃冰淇淋。",
+  "file": "assets/audio/games/feed/want-frog-icecream.m4a",
+  "speech": [
+   0.03,
+   2.03
+  ],
+  "speech_fingerprint": "412f66edadf1e0d62e623731168b62d723e8f4938b216482ae67da43377a6958"
+ },
+ "want-frog-egg": {
+  "pinyin": "Qīngwā yào chī jīdàn.",
+  "english": "The frog wants to eat egg.",
+  "speaker": "narrator",
+  "fingerprint": "33e13a8008572c235cb9d9e8c191834680af6f4ed36c7afc8ffe3bdcfd81bf37",
+  "text": "青蛙要吃鸡蛋。",
+  "file": "assets/audio/games/feed/want-frog-egg.m4a",
+  "speech": [
+   0.03,
+   1.66
+  ],
+  "speech_fingerprint": "33e13a8008572c235cb9d9e8c191834680af6f4ed36c7afc8ffe3bdcfd81bf37"
+ },
+ "want-frog-tomato": {
+  "pinyin": "Qīngwā yào chī xīhóngshì.",
+  "english": "The frog wants to eat tomato.",
+  "speaker": "narrator",
+  "fingerprint": "36adb092f37a8c7117098b7a8e2370b7cd7fc9ee291b52b031294259499f9cb1",
+  "text": "青蛙要吃西红柿。",
+  "file": "assets/audio/games/feed/want-frog-tomato.m4a",
+  "speech": [
+   0.03,
+   1.98
+  ],
+  "speech_fingerprint": "36adb092f37a8c7117098b7a8e2370b7cd7fc9ee291b52b031294259499f9cb1"
+ },
+ "want-frog-potato": {
+  "pinyin": "Qīngwā yào chī tǔdòu.",
+  "english": "The frog wants to eat potato.",
+  "speaker": "narrator",
+  "fingerprint": "a77c8ddcba1c7c6b3bcacf96b1dc1bf8058b2e8a9b1fcec540ac1bbe7da1c7fc",
+  "text": "青蛙要吃土豆。",
+  "file": "assets/audio/games/feed/want-frog-potato.m4a",
+  "speech": [
+   0.03,
+   1.66
+  ],
+  "speech_fingerprint": "a77c8ddcba1c7c6b3bcacf96b1dc1bf8058b2e8a9b1fcec540ac1bbe7da1c7fc"
+ },
+ "want-frog-mushroom": {
+  "pinyin": "Qīngwā yào chī mógu.",
+  "english": "The frog wants to eat mushroom.",
+  "speaker": "narrator",
+  "fingerprint": "2d5361e6e837c814a0704c28a56e3b8d924c562befed4174dc21a863e0c3cd8f",
+  "text": "青蛙要吃蘑菇。",
+  "file": "assets/audio/games/feed/want-frog-mushroom.m4a",
+  "speech": [
+   0.03,
+   1.6
+  ],
+  "speech_fingerprint": "2d5361e6e837c814a0704c28a56e3b8d924c562befed4174dc21a863e0c3cd8f"
+ },
+ "want-frog-carrot": {
+  "pinyin": "Qīngwā yào chī húluóbo.",
+  "english": "The frog wants to eat carrot.",
+  "speaker": "narrator",
+  "fingerprint": "7b54be7300ea0ef062fc9f933229ddda76661611dd31b3ce0865348d1b232037",
+  "text": "青蛙要吃胡萝卜。",
+  "file": "assets/audio/games/feed/want-frog-carrot.m4a",
+  "speech": [
+   0.03,
+   1.92
+  ],
+  "speech_fingerprint": "7b54be7300ea0ef062fc9f933229ddda76661611dd31b3ce0865348d1b232037"
+ }
+}

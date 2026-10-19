@@ -1,0 +1,37 @@
+{
+ "id": "feed",
+ "title": "喂动物",
+ "english": "Feed the animals",
+ "voices": {
+  "animal": {
+   "rate": 1.05,
+   "keep": false
+  }
+ },
+ "lines": {
+  "yum": {
+   "speaker": "animal",
+   "hanzi": "好吃！好吃！",
+   "pinyin": "Hǎochī! Hǎochī!",
+   "english": "Yummy, yummy!"
+  },
+  "full": {
+   "speaker": "narrator",
+   "hanzi": "大家都吃饱了！",
+   "pinyin": "Dàjiā dōu chī bǎo le!",
+   "english": "Everyone is full!"
+  }
+ },
+ "templates": {
+  "want": {
+   "speaker": "narrator",
+   "hanzi": "{animal}要吃{food}。",
+   "pinyin": "{animal} yào chī {food}.",
+   "english": "The {animal} wants to eat {food}.",
+   "slots": {
+    "animal": "animals",
+    "food": "foods"
+   }
+  }
+ }
+}

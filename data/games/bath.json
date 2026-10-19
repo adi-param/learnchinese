@@ -1,0 +1,36 @@
+{
+ "id": "bath",
+ "title": "洗澡",
+ "english": "Bath time",
+ "voices": {
+  "pig": {
+   "rate": 1.15,
+   "keep": false
+  }
+ },
+ "lines": {
+  "tickle": {
+   "speaker": "pig",
+   "hanzi": "哈哈，好痒！",
+   "pinyin": "Hāhā, hǎo yǎng!",
+   "english": "Ha ha, that tickles!"
+  },
+  "clean": {
+   "speaker": "narrator",
+   "hanzi": "小猪干净了！",
+   "pinyin": "Xiǎo zhū gānjìng le!",
+   "english": "The piglet is clean!"
+  }
+ },
+ "templates": {
+  "wash": {
+   "speaker": "narrator",
+   "hanzi": "洗洗小猪的{part}。",
+   "pinyin": "Xǐxi xiǎo zhū de {part}.",
+   "english": "Wash the piglet’s {part}.",
+   "slots": {
+    "part": "body"
+   }
+  }
+ }
+}

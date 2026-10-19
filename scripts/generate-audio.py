@@ -148,13 +148,12 @@ with tempfile.TemporaryDirectory(prefix='chinese-audio-') as temporary:
             yield name + '-' + '-'.join(item['id'] for item in combo), {
                 'hanzi': fill(template['hanzi'], values, 'hanzi'), 'pinyin': pinyin[:1].upper() + pinyin[1:],
                 'english': fill(template['english'], values, 'english').replace('  ', ' '), 'speaker': template['speaker']}
-    for scenario_path in sorted((ROOT / 'data/scenarios').glob('*.json')):
+    for scenario_path in sorted((ROOT / 'data/games').glob('*.json')):
         scenario = json.loads(scenario_path.read_text())
         wanted = {key: {**line} for key, line in scenario['lines'].items()}
-        wanted.update({'chunk-' + key: {**chunk, 'speaker': 'narrator'} for key, chunk in scenario.get('chunks', {}).items()})
         for name, template in scenario['templates'].items():
             wanted.update(dict(expand(name, template)))
-        record_set(f"scenarios/{scenario['id']}", wanted)
+        record_set(f"games/{scenario['id']}", wanted)
     # Where speech starts and ends in each file, so the site can highlight each character as it is spoken.
     for entry in manifest.values():
         if entry.get('speech_fingerprint') != entry['fingerprint']:

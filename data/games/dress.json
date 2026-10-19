@@ -1,0 +1,49 @@
+{
+ "id": "dress",
+ "title": "穿衣服",
+ "english": "Dress up",
+ "voices": {
+  "rabbit": {
+   "rate": 1.1,
+   "keep": false
+  }
+ },
+ "lines": {
+  "pretty": {
+   "speaker": "rabbit",
+   "hanzi": "真漂亮！",
+   "pinyin": "Zhēn piàoliang!",
+   "english": "So pretty!"
+  },
+  "rain": {
+   "speaker": "narrator",
+   "hanzi": "下雨了！小兔子要打雨伞。",
+   "pinyin": "Xià yǔ le! Xiǎo tùzi yào dǎ yǔsǎn.",
+   "english": "It’s raining! The rabbit needs an umbrella."
+  },
+  "sun": {
+   "speaker": "narrator",
+   "hanzi": "太阳好大！小兔子要戴太阳镜。",
+   "pinyin": "Tàiyáng hǎo dà! Xiǎo tùzi yào dài tàiyángjìng.",
+   "english": "The sun is so bright! The rabbit needs sunglasses."
+  },
+  "cold": {
+   "speaker": "narrator",
+   "hanzi": "好冷啊！小兔子要戴围巾。",
+   "pinyin": "Hǎo lěng a! Xiǎo tùzi yào dài wéijīn.",
+   "english": "It’s so cold! The rabbit needs a scarf."
+  }
+ },
+ "templates": {
+  "wear": {
+   "speaker": "narrator",
+   "hanzi": "小兔子要{clothes.verb}{colour}的{clothes}。",
+   "pinyin": "Xiǎo tùzi yào {clothes.verbPinyin} {colour} de {clothes}.",
+   "english": "The rabbit wants to wear the {colour} {clothes}.",
+   "slots": {
+    "clothes": "clothes",
+    "colour": "colours"
+   }
+  }
+ }
+}

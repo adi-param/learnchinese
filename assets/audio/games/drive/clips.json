@@ -1,0 +1,249 @@
+{
+ "honk": {
+  "speaker": "dog",
+  "pinyin": "Dīdī! Chūfā!",
+  "english": "Beep beep! Let’s go!",
+  "fingerprint": "672e55835680c71acbdd446ab4b112ca3eac2d9cd53c75379356bed5188d0024",
+  "text": "嘀嘀！出发！",
+  "file": "assets/audio/games/drive/honk.m4a",
+  "speech": [
+   0.01,
+   1.37
+  ],
+  "speech_fingerprint": "672e55835680c71acbdd446ab4b112ca3eac2d9cd53c75379356bed5188d0024"
+ },
+ "go-farm": {
+  "pinyin": "Wǒmen qù nóngchǎng.",
+  "english": "Let’s go to the farm.",
+  "speaker": "dog",
+  "fingerprint": "7c0c35c2a54ea592c456ccc3ab7a2d062117902f2ee624771f26cd5837289184",
+  "text": "我们去农场。",
+  "file": "assets/audio/games/drive/go-farm.m4a",
+  "speech": [
+   0.01,
+   1.23
+  ],
+  "speech_fingerprint": "7c0c35c2a54ea592c456ccc3ab7a2d062117902f2ee624771f26cd5837289184"
+ },
+ "go-zoo": {
+  "pinyin": "Wǒmen qù dòngwùyuán.",
+  "english": "Let’s go to the zoo.",
+  "speaker": "dog",
+  "fingerprint": "39eba075ee3967192bbd46074dcffb4133467a07824d21f25ba895dd54f0e1c9",
+  "text": "我们去动物园。",
+  "file": "assets/audio/games/drive/go-zoo.m4a",
+  "speech": [
+   0.01,
+   1.45
+  ],
+  "speech_fingerprint": "39eba075ee3967192bbd46074dcffb4133467a07824d21f25ba895dd54f0e1c9"
+ },
+ "go-beach": {
+  "pinyin": "Wǒmen qù hǎibiān.",
+  "english": "Let’s go to the beach.",
+  "speaker": "dog",
+  "fingerprint": "f9a0feebb6a2f99a2f7dd188fda5438367914434a35db90d5af405e9869402bd",
+  "text": "我们去海边。",
+  "file": "assets/audio/games/drive/go-beach.m4a",
+  "speech": [
+   0.01,
+   1.32
+  ],
+  "speech_fingerprint": "f9a0feebb6a2f99a2f7dd188fda5438367914434a35db90d5af405e9869402bd"
+ },
+ "go-forest": {
+  "pinyin": "Wǒmen qù sēnlín.",
+  "english": "Let’s go to the forest.",
+  "speaker": "dog",
+  "fingerprint": "51909c15a7c3891f15164b8f41e6a6402337a40eb722b4161b94d8fad8852bf3",
+  "text": "我们去森林。",
+  "file": "assets/audio/games/drive/go-forest.m4a",
+  "speech": [
+   0.01,
+   1.26
+  ],
+  "speech_fingerprint": "51909c15a7c3891f15164b8f41e6a6402337a40eb722b4161b94d8fad8852bf3"
+ },
+ "go-park": {
+  "pinyin": "Wǒmen qù gōngyuán.",
+  "english": "Let’s go to the park.",
+  "speaker": "dog",
+  "fingerprint": "b6730e01f18c0204f8fb7c43ca119c3822efcca433e0bc9662d81eef1f1224b0",
+  "text": "我们去公园。",
+  "file": "assets/audio/games/drive/go-park.m4a",
+  "speech": [
+   0.01,
+   1.28
+  ],
+  "speech_fingerprint": "b6730e01f18c0204f8fb7c43ca119c3822efcca433e0bc9662d81eef1f1224b0"
+ },
+ "go-school": {
+  "pinyin": "Wǒmen qù xuéxiào.",
+  "english": "Let’s go to school.",
+  "speaker": "dog",
+  "fingerprint": "aeab1e8999f2afd054b927b909f0d79c196fdd5c4476100bddd1171fa6297e14",
+  "text": "我们去学校。",
+  "file": "assets/audio/games/drive/go-school.m4a",
+  "speech": [
+   0.01,
+   1.27
+  ],
+  "speech_fingerprint": "aeab1e8999f2afd054b927b909f0d79c196fdd5c4476100bddd1171fa6297e14"
+ },
+ "go-supermarket": {
+  "pinyin": "Wǒmen qù chāoshì.",
+  "english": "Let’s go to the supermarket.",
+  "speaker": "dog",
+  "fingerprint": "33176fdde2e475a893dcc23c28a7f3711739454f742425e88e0cefea3e13a028",
+  "text": "我们去超市。",
+  "file": "assets/audio/games/drive/go-supermarket.m4a",
+  "speech": [
+   0.01,
+   1.28
+  ],
+  "speech_fingerprint": "33176fdde2e475a893dcc23c28a7f3711739454f742425e88e0cefea3e13a028"
+ },
+ "go-hospital": {
+  "pinyin": "Wǒmen qù yīyuàn.",
+  "english": "Let’s go to the hospital.",
+  "speaker": "dog",
+  "fingerprint": "642988104226defb5c6f9197b9fa0aa517fbe0399b3c22b0f9541bc0612ab178",
+  "text": "我们去医院。",
+  "file": "assets/audio/games/drive/go-hospital.m4a",
+  "speech": [
+   0.01,
+   1.16
+  ],
+  "speech_fingerprint": "642988104226defb5c6f9197b9fa0aa517fbe0399b3c22b0f9541bc0612ab178"
+ },
+ "go-home": {
+  "pinyin": "Wǒmen huí jiā.",
+  "english": "Let’s go home.",
+  "speaker": "dog",
+  "fingerprint": "30ef9deb69b0440330882e999cfb20d89575521114fbf29b3db09d505ed91351",
+  "text": "我们回家。",
+  "file": "assets/audio/games/drive/go-home.m4a",
+  "speech": [
+   0.01,
+   0.98
+  ],
+  "speech_fingerprint": "30ef9deb69b0440330882e999cfb20d89575521114fbf29b3db09d505ed91351"
+ },
+ "arrive-farm": {
+  "pinyin": "Nóngchǎng dào le!",
+  "english": "Here’s the farm!",
+  "speaker": "narrator",
+  "fingerprint": "b9d24dbd86982ad4c0937ecf023d7f727ed738d497654eab60b6acc17274c07d",
+  "text": "农场到了！",
+  "file": "assets/audio/games/drive/arrive-farm.m4a",
+  "speech": [
+   0.01,
+   1.05
+  ],
+  "speech_fingerprint": "b9d24dbd86982ad4c0937ecf023d7f727ed738d497654eab60b6acc17274c07d"
+ },
+ "arrive-zoo": {
+  "pinyin": "Dòngwùyuán dào le!",
+  "english": "Here’s the zoo!",
+  "speaker": "narrator",
+  "fingerprint": "49b633674fb5f68c2bf764cd13805a0cc4b6b55d619068c7db427e85b61e22e3",
+  "text": "动物园到了！",
+  "file": "assets/audio/games/drive/arrive-zoo.m4a",
+  "speech": [
+   0.01,
+   1.14
+  ],
+  "speech_fingerprint": "49b633674fb5f68c2bf764cd13805a0cc4b6b55d619068c7db427e85b61e22e3"
+ },
+ "arrive-beach": {
+  "pinyin": "Hǎibiān dào le!",
+  "english": "Here’s the beach!",
+  "speaker": "narrator",
+  "fingerprint": "f3b1ca9a25cb36388e456902ca3e4143572af507b1a2bbfbbbeb8d53284c6616",
+  "text": "海边到了！",
+  "file": "assets/audio/games/drive/arrive-beach.m4a",
+  "speech": [
+   0.06,
+   1.03
+  ],
+  "speech_fingerprint": "f3b1ca9a25cb36388e456902ca3e4143572af507b1a2bbfbbbeb8d53284c6616"
+ },
+ "arrive-forest": {
+  "pinyin": "Sēnlín dào le!",
+  "english": "Here’s the forest!",
+  "speaker": "narrator",
+  "fingerprint": "1033aa101658ee9dc16b012345eeff864e4b840a9a05fd31cacc618574877a44",
+  "text": "森林到了！",
+  "file": "assets/audio/games/drive/arrive-forest.m4a",
+  "speech": [
+   0.13,
+   1.02
+  ],
+  "speech_fingerprint": "1033aa101658ee9dc16b012345eeff864e4b840a9a05fd31cacc618574877a44"
+ },
+ "arrive-park": {
+  "pinyin": "Gōngyuán dào le!",
+  "english": "Here’s the park!",
+  "speaker": "narrator",
+  "fingerprint": "69da3572b50182acf4f679a20ea0d2a7d2a1c1d5768d941677dd108c00883386",
+  "text": "公园到了！",
+  "file": "assets/audio/games/drive/arrive-park.m4a",
+  "speech": [
+   0.02,
+   0.96
+  ],
+  "speech_fingerprint": "69da3572b50182acf4f679a20ea0d2a7d2a1c1d5768d941677dd108c00883386"
+ },
+ "arrive-school": {
+  "pinyin": "Xuéxiào dào le!",
+  "english": "Here’s school!",
+  "speaker": "narrator",
+  "fingerprint": "bca3d17d33ccd0819c5a14733d507e91c4047f3f95fe7acdb4e119be4e1e3664",
+  "text": "学校到了！",
+  "file": "assets/audio/games/drive/arrive-school.m4a",
+  "speech": [
+   0.03,
+   1.1
+  ],
+  "speech_fingerprint": "bca3d17d33ccd0819c5a14733d507e91c4047f3f95fe7acdb4e119be4e1e3664"
+ },
+ "arrive-supermarket": {
+  "pinyin": "Chāoshì dào le!",
+  "english": "Here’s the supermarket!",
+  "speaker": "narrator",
+  "fingerprint": "c7394075ff551f543f82f147085251c3b6287304aa85de6ff3c1ff47079f9297",
+  "text": "超市到了！",
+  "file": "assets/audio/games/drive/arrive-supermarket.m4a",
+  "speech": [
+   0.02,
+   1.02
+  ],
+  "speech_fingerprint": "c7394075ff551f543f82f147085251c3b6287304aa85de6ff3c1ff47079f9297"
+ },
+ "arrive-hospital": {
+  "pinyin": "Yīyuàn dào le!",
+  "english": "Here’s the hospital!",
+  "speaker": "narrator",
+  "fingerprint": "f857afeffde5edc91f5d6326bb4e75562c950f2ece73dcefa5c5791bf0c53d8e",
+  "text": "医院到了！",
+  "file": "assets/audio/games/drive/arrive-hospital.m4a",
+  "speech": [
+   0.01,
+   0.92
+  ],
+  "speech_fingerprint": "f857afeffde5edc91f5d6326bb4e75562c950f2ece73dcefa5c5791bf0c53d8e"
+ },
+ "arrive-home": {
+  "pinyin": "Dào jiā le!",
+  "english": "We’re home!",
+  "speaker": "narrator",
+  "fingerprint": "0425990d56dfbe4db738b4bd3a5c818bc5d7e9ece8dd186242049c7eec6c47d8",
+  "text": "到家了！",
+  "file": "assets/audio/games/drive/arrive-home.m4a",
+  "speech": [
+   0.01,
+   0.69
+  ],
+  "speech_fingerprint": "0425990d56dfbe4db738b4bd3a5c818bc5d7e9ece8dd186242049c7eec6c47d8"
+ }
+}

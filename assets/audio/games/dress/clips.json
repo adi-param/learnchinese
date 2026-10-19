@@ -1,0 +1,600 @@
+{
+ "pretty": {
+  "speaker": "rabbit",
+  "pinyin": "Zhēn piàoliang!",
+  "english": "So pretty!",
+  "fingerprint": "501abd059c46b7b9bffbc1eff3d485e04a1549697966e14bafb0acbd556c4413",
+  "text": "真漂亮！",
+  "file": "assets/audio/games/dress/pretty.m4a",
+  "speech": [
+   0.02,
+   0.9
+  ],
+  "speech_fingerprint": "501abd059c46b7b9bffbc1eff3d485e04a1549697966e14bafb0acbd556c4413"
+ },
+ "rain": {
+  "speaker": "narrator",
+  "pinyin": "Xià yǔ le! Xiǎo tùzi yào dǎ yǔsǎn.",
+  "english": "It’s raining! The rabbit needs an umbrella.",
+  "fingerprint": "319f607d0b0e2b32004033e9874ee5d98309509404df77ee3a10c3f21acda365",
+  "text": "下雨了！小兔子要打雨伞。",
+  "file": "assets/audio/games/dress/rain.m4a",
+  "speech": [
+   0.03,
+   2.92
+  ],
+  "speech_fingerprint": "319f607d0b0e2b32004033e9874ee5d98309509404df77ee3a10c3f21acda365"
+ },
+ "sun": {
+  "speaker": "narrator",
+  "pinyin": "Tàiyáng hǎo dà! Xiǎo tùzi yào dài tàiyángjìng.",
+  "english": "The sun is so bright! The rabbit needs sunglasses.",
+  "fingerprint": "009adabd4737bba4cf19ac27f80eee51af749feb00fac399842a0ac1ce7b10bc",
+  "text": "太阳好大！小兔子要戴太阳镜。",
+  "file": "assets/audio/games/dress/sun.m4a",
+  "speech": [
+   0.04,
+   3.63
+  ],
+  "speech_fingerprint": "009adabd4737bba4cf19ac27f80eee51af749feb00fac399842a0ac1ce7b10bc"
+ },
+ "cold": {
+  "speaker": "narrator",
+  "pinyin": "Hǎo lěng a! Xiǎo tùzi yào dài wéijīn.",
+  "english": "It’s so cold! The rabbit needs a scarf.",
+  "fingerprint": "f0992add83921c78e9fd103551c9193fe4b47d34aeb289b63590124c4c25980e",
+  "text": "好冷啊！小兔子要戴围巾。",
+  "file": "assets/audio/games/dress/cold.m4a",
+  "speech": [
+   0.08,
+   3.0
+  ],
+  "speech_fingerprint": "f0992add83921c78e9fd103551c9193fe4b47d34aeb289b63590124c4c25980e"
+ },
+ "wear-shoes-red": {
+  "pinyin": "Xiǎo tùzi yào chuān hóngsè de xiézi.",
+  "english": "The rabbit wants to wear the red shoes.",
+  "speaker": "narrator",
+  "fingerprint": "1d7f77db40702b4bd3880263e5678538a097c186f75e086f059ef4754e4d930d",
+  "text": "小兔子要穿红色的鞋子。",
+  "file": "assets/audio/games/dress/wear-shoes-red.m4a",
+  "speech": [
+   0.03,
+   2.73
+  ],
+  "speech_fingerprint": "1d7f77db40702b4bd3880263e5678538a097c186f75e086f059ef4754e4d930d"
+ },
+ "wear-shoes-yellow": {
+  "pinyin": "Xiǎo tùzi yào chuān huángsè de xiézi.",
+  "english": "The rabbit wants to wear the yellow shoes.",
+  "speaker": "narrator",
+  "fingerprint": "3e44b4df84456a366b5c27cbf4c9f3d1afc1fcafc03a89dc56e37ceeb4248470",
+  "text": "小兔子要穿黄色的鞋子。",
+  "file": "assets/audio/games/dress/wear-shoes-yellow.m4a",
+  "speech": [
+   0.03,
+   2.76
+  ],
+  "speech_fingerprint": "3e44b4df84456a366b5c27cbf4c9f3d1afc1fcafc03a89dc56e37ceeb4248470"
+ },
+ "wear-shoes-blue": {
+  "pinyin": "Xiǎo tùzi yào chuān lánsè de xiézi.",
+  "english": "The rabbit wants to wear the blue shoes.",
+  "speaker": "narrator",
+  "fingerprint": "0a726fec0ac1dd5e077bf2c0292e2723a5d46b9adb9e0f9a20697dd23a02e1ea",
+  "text": "小兔子要穿蓝色的鞋子。",
+  "file": "assets/audio/games/dress/wear-shoes-blue.m4a",
+  "speech": [
+   0.03,
+   2.68
+  ],
+  "speech_fingerprint": "0a726fec0ac1dd5e077bf2c0292e2723a5d46b9adb9e0f9a20697dd23a02e1ea"
+ },
+ "wear-shoes-green": {
+  "pinyin": "Xiǎo tùzi yào chuān lǜsè de xiézi.",
+  "english": "The rabbit wants to wear the green shoes.",
+  "speaker": "narrator",
+  "fingerprint": "2a3cd2d3cfa62aa98d997798315e8c7b73e3985698d24cfd2b9aea288ca4fe82",
+  "text": "小兔子要穿绿色的鞋子。",
+  "file": "assets/audio/games/dress/wear-shoes-green.m4a",
+  "speech": [
+   0.03,
+   2.63
+  ],
+  "speech_fingerprint": "2a3cd2d3cfa62aa98d997798315e8c7b73e3985698d24cfd2b9aea288ca4fe82"
+ },
+ "wear-shoes-purple": {
+  "pinyin": "Xiǎo tùzi yào chuān zǐsè de xiézi.",
+  "english": "The rabbit wants to wear the purple shoes.",
+  "speaker": "narrator",
+  "fingerprint": "e32dc74d6460154c274b603d60fe15b703e0436d57efd106ed08491e088efbb6",
+  "text": "小兔子要穿紫色的鞋子。",
+  "file": "assets/audio/games/dress/wear-shoes-purple.m4a",
+  "speech": [
+   0.03,
+   2.65
+  ],
+  "speech_fingerprint": "e32dc74d6460154c274b603d60fe15b703e0436d57efd106ed08491e088efbb6"
+ },
+ "wear-shoes-orange": {
+  "pinyin": "Xiǎo tùzi yào chuān chéngsè de xiézi.",
+  "english": "The rabbit wants to wear the orange shoes.",
+  "speaker": "narrator",
+  "fingerprint": "563ccc5955dd44f16624ba479d0cfebb252585e72bc4df951c5798265493e6b8",
+  "text": "小兔子要穿橙色的鞋子。",
+  "file": "assets/audio/games/dress/wear-shoes-orange.m4a",
+  "speech": [
+   0.03,
+   2.76
+  ],
+  "speech_fingerprint": "563ccc5955dd44f16624ba479d0cfebb252585e72bc4df951c5798265493e6b8"
+ },
+ "wear-socks-red": {
+  "pinyin": "Xiǎo tùzi yào chuān hóngsè de wàzi.",
+  "english": "The rabbit wants to wear the red socks.",
+  "speaker": "narrator",
+  "fingerprint": "ffe7cc25aa44aa14c06d57158974ce624c2606e96442096fe217328af0e2ae71",
+  "text": "小兔子要穿红色的袜子。",
+  "file": "assets/audio/games/dress/wear-socks-red.m4a",
+  "speech": [
+   0.03,
+   2.74
+  ],
+  "speech_fingerprint": "ffe7cc25aa44aa14c06d57158974ce624c2606e96442096fe217328af0e2ae71"
+ },
+ "wear-socks-yellow": {
+  "pinyin": "Xiǎo tùzi yào chuān huángsè de wàzi.",
+  "english": "The rabbit wants to wear the yellow socks.",
+  "speaker": "narrator",
+  "fingerprint": "1fd2d97e86dac3151cac7825847c6c64e9b06ae6f20966123963919b28c00491",
+  "text": "小兔子要穿黄色的袜子。",
+  "file": "assets/audio/games/dress/wear-socks-yellow.m4a",
+  "speech": [
+   0.03,
+   2.77
+  ],
+  "speech_fingerprint": "1fd2d97e86dac3151cac7825847c6c64e9b06ae6f20966123963919b28c00491"
+ },
+ "wear-socks-blue": {
+  "pinyin": "Xiǎo tùzi yào chuān lánsè de wàzi.",
+  "english": "The rabbit wants to wear the blue socks.",
+  "speaker": "narrator",
+  "fingerprint": "53238b8526ab85f172054dd73586362eb3166090002eaade80cc369146cb302e",
+  "text": "小兔子要穿蓝色的袜子。",
+  "file": "assets/audio/games/dress/wear-socks-blue.m4a",
+  "speech": [
+   0.03,
+   2.68
+  ],
+  "speech_fingerprint": "53238b8526ab85f172054dd73586362eb3166090002eaade80cc369146cb302e"
+ },
+ "wear-socks-green": {
+  "pinyin": "Xiǎo tùzi yào chuān lǜsè de wàzi.",
+  "english": "The rabbit wants to wear the green socks.",
+  "speaker": "narrator",
+  "fingerprint": "eab8444d654bcf4ba66114fb390e3c00f82835bb7ce31a5303a547203ab10f89",
+  "text": "小兔子要穿绿色的袜子。",
+  "file": "assets/audio/games/dress/wear-socks-green.m4a",
+  "speech": [
+   0.03,
+   2.64
+  ],
+  "speech_fingerprint": "eab8444d654bcf4ba66114fb390e3c00f82835bb7ce31a5303a547203ab10f89"
+ },
+ "wear-socks-purple": {
+  "pinyin": "Xiǎo tùzi yào chuān zǐsè de wàzi.",
+  "english": "The rabbit wants to wear the purple socks.",
+  "speaker": "narrator",
+  "fingerprint": "6ad384b854f24c48a4e5b63c813d36a01bc5c505f3fe2818947fbafd9d6deae6",
+  "text": "小兔子要穿紫色的袜子。",
+  "file": "assets/audio/games/dress/wear-socks-purple.m4a",
+  "speech": [
+   0.03,
+   2.66
+  ],
+  "speech_fingerprint": "6ad384b854f24c48a4e5b63c813d36a01bc5c505f3fe2818947fbafd9d6deae6"
+ },
+ "wear-socks-orange": {
+  "pinyin": "Xiǎo tùzi yào chuān chéngsè de wàzi.",
+  "english": "The rabbit wants to wear the orange socks.",
+  "speaker": "narrator",
+  "fingerprint": "0702368d56b69bcf4d2f3c676ad72dbd748daa2aaec137884b9fb10d95738023",
+  "text": "小兔子要穿橙色的袜子。",
+  "file": "assets/audio/games/dress/wear-socks-orange.m4a",
+  "speech": [
+   0.03,
+   2.77
+  ],
+  "speech_fingerprint": "0702368d56b69bcf4d2f3c676ad72dbd748daa2aaec137884b9fb10d95738023"
+ },
+ "wear-hat-red": {
+  "pinyin": "Xiǎo tùzi yào dài hóngsè de màozi.",
+  "english": "The rabbit wants to wear the red hat.",
+  "speaker": "narrator",
+  "fingerprint": "c95ac220c7ab7f113379387c8db783f245b192b30bdd67ecc1402834a5112ac1",
+  "text": "小兔子要戴红色的帽子。",
+  "file": "assets/audio/games/dress/wear-hat-red.m4a",
+  "speech": [
+   0.03,
+   2.6
+  ],
+  "speech_fingerprint": "c95ac220c7ab7f113379387c8db783f245b192b30bdd67ecc1402834a5112ac1"
+ },
+ "wear-hat-yellow": {
+  "pinyin": "Xiǎo tùzi yào dài huángsè de màozi.",
+  "english": "The rabbit wants to wear the yellow hat.",
+  "speaker": "narrator",
+  "fingerprint": "ea5cd90efa64b3d32696698097aec8477caa6c14f42de96a0e2625aa54ff1dc9",
+  "text": "小兔子要戴黄色的帽子。",
+  "file": "assets/audio/games/dress/wear-hat-yellow.m4a",
+  "speech": [
+   0.03,
+   2.63
+  ],
+  "speech_fingerprint": "ea5cd90efa64b3d32696698097aec8477caa6c14f42de96a0e2625aa54ff1dc9"
+ },
+ "wear-hat-blue": {
+  "pinyin": "Xiǎo tùzi yào dài lánsè de màozi.",
+  "english": "The rabbit wants to wear the blue hat.",
+  "speaker": "narrator",
+  "fingerprint": "2e3efe45cd573be7467e25283e25b782cc19f3fc9cae7ef07fc91be7fd86b3d8",
+  "text": "小兔子要戴蓝色的帽子。",
+  "file": "assets/audio/games/dress/wear-hat-blue.m4a",
+  "speech": [
+   0.03,
+   2.55
+  ],
+  "speech_fingerprint": "2e3efe45cd573be7467e25283e25b782cc19f3fc9cae7ef07fc91be7fd86b3d8"
+ },
+ "wear-hat-green": {
+  "pinyin": "Xiǎo tùzi yào dài lǜsè de màozi.",
+  "english": "The rabbit wants to wear the green hat.",
+  "speaker": "narrator",
+  "fingerprint": "8d16c60a229ff7adaa696879cc599841758c4f2e5444e77f88b01be587d4b187",
+  "text": "小兔子要戴绿色的帽子。",
+  "file": "assets/audio/games/dress/wear-hat-green.m4a",
+  "speech": [
+   0.03,
+   2.51
+  ],
+  "speech_fingerprint": "8d16c60a229ff7adaa696879cc599841758c4f2e5444e77f88b01be587d4b187"
+ },
+ "wear-hat-purple": {
+  "pinyin": "Xiǎo tùzi yào dài zǐsè de màozi.",
+  "english": "The rabbit wants to wear the purple hat.",
+  "speaker": "narrator",
+  "fingerprint": "b820cbc6155e59ea017fdead40ec36b57e762bc2a4b3bcbb1c6b5b6a8979db3e",
+  "text": "小兔子要戴紫色的帽子。",
+  "file": "assets/audio/games/dress/wear-hat-purple.m4a",
+  "speech": [
+   0.03,
+   2.54
+  ],
+  "speech_fingerprint": "b820cbc6155e59ea017fdead40ec36b57e762bc2a4b3bcbb1c6b5b6a8979db3e"
+ },
+ "wear-hat-orange": {
+  "pinyin": "Xiǎo tùzi yào dài chéngsè de màozi.",
+  "english": "The rabbit wants to wear the orange hat.",
+  "speaker": "narrator",
+  "fingerprint": "ff4047c24181884d6f5196d332bb5d1e5d783c701e1382b29f2f5cc897181447",
+  "text": "小兔子要戴橙色的帽子。",
+  "file": "assets/audio/games/dress/wear-hat-orange.m4a",
+  "speech": [
+   0.03,
+   2.65
+  ],
+  "speech_fingerprint": "ff4047c24181884d6f5196d332bb5d1e5d783c701e1382b29f2f5cc897181447"
+ },
+ "wear-shirt-red": {
+  "pinyin": "Xiǎo tùzi yào chuān hóngsè de T xù.",
+  "english": "The rabbit wants to wear the red T-shirt.",
+  "speaker": "narrator",
+  "fingerprint": "9043d3f766efabfedac810a0a6d14a31e3affc234ca1b23237763c6889146504",
+  "text": "小兔子要穿红色的T恤。",
+  "file": "assets/audio/games/dress/wear-shirt-red.m4a",
+  "speech": [
+   0.03,
+   3.38
+  ],
+  "speech_fingerprint": "9043d3f766efabfedac810a0a6d14a31e3affc234ca1b23237763c6889146504"
+ },
+ "wear-shirt-yellow": {
+  "pinyin": "Xiǎo tùzi yào chuān huángsè de T xù.",
+  "english": "The rabbit wants to wear the yellow T-shirt.",
+  "speaker": "narrator",
+  "fingerprint": "50c7c3e27d5b1ce00c0ac17bb79f13573ec396268b562f228ed1aaa6daf23da5",
+  "text": "小兔子要穿黄色的T恤。",
+  "file": "assets/audio/games/dress/wear-shirt-yellow.m4a",
+  "speech": [
+   0.03,
+   3.41
+  ],
+  "speech_fingerprint": "50c7c3e27d5b1ce00c0ac17bb79f13573ec396268b562f228ed1aaa6daf23da5"
+ },
+ "wear-shirt-blue": {
+  "pinyin": "Xiǎo tùzi yào chuān lánsè de T xù.",
+  "english": "The rabbit wants to wear the blue T-shirt.",
+  "speaker": "narrator",
+  "fingerprint": "43c0921f9285dadf0d8158a05534aa6c3ada0271dd4898d7c33656f817a36530",
+  "text": "小兔子要穿蓝色的T恤。",
+  "file": "assets/audio/games/dress/wear-shirt-blue.m4a",
+  "speech": [
+   0.03,
+   3.33
+  ],
+  "speech_fingerprint": "43c0921f9285dadf0d8158a05534aa6c3ada0271dd4898d7c33656f817a36530"
+ },
+ "wear-shirt-green": {
+  "pinyin": "Xiǎo tùzi yào chuān lǜsè de T xù.",
+  "english": "The rabbit wants to wear the green T-shirt.",
+  "speaker": "narrator",
+  "fingerprint": "dbe28761785f95b6532fb9ca8ac8021479ce0b5207fbee2dd9d42dd0e907600e",
+  "text": "小兔子要穿绿色的T恤。",
+  "file": "assets/audio/games/dress/wear-shirt-green.m4a",
+  "speech": [
+   0.03,
+   3.28
+  ],
+  "speech_fingerprint": "dbe28761785f95b6532fb9ca8ac8021479ce0b5207fbee2dd9d42dd0e907600e"
+ },
+ "wear-shirt-purple": {
+  "pinyin": "Xiǎo tùzi yào chuān zǐsè de T xù.",
+  "english": "The rabbit wants to wear the purple T-shirt.",
+  "speaker": "narrator",
+  "fingerprint": "778e2e204a4354bfe940bf06c49a29f7e20288a30b2884b0b17412bb5d1cf752",
+  "text": "小兔子要穿紫色的T恤。",
+  "file": "assets/audio/games/dress/wear-shirt-purple.m4a",
+  "speech": [
+   0.03,
+   3.31
+  ],
+  "speech_fingerprint": "778e2e204a4354bfe940bf06c49a29f7e20288a30b2884b0b17412bb5d1cf752"
+ },
+ "wear-shirt-orange": {
+  "pinyin": "Xiǎo tùzi yào chuān chéngsè de T xù.",
+  "english": "The rabbit wants to wear the orange T-shirt.",
+  "speaker": "narrator",
+  "fingerprint": "b17e440c0e0ac53d5446ddf9f3a87154afd4685f9d46070e74164ef69e7ec32b",
+  "text": "小兔子要穿橙色的T恤。",
+  "file": "assets/audio/games/dress/wear-shirt-orange.m4a",
+  "speech": [
+   0.03,
+   3.41
+  ],
+  "speech_fingerprint": "b17e440c0e0ac53d5446ddf9f3a87154afd4685f9d46070e74164ef69e7ec32b"
+ },
+ "wear-dress-red": {
+  "pinyin": "Xiǎo tùzi yào chuān hóngsè de qúnzi.",
+  "english": "The rabbit wants to wear the red dress.",
+  "speaker": "narrator",
+  "fingerprint": "3083c730d3253f2f9649050be91921d202b1dd6d3eebfb448cf1c50ba09c2615",
+  "text": "小兔子要穿红色的裙子。",
+  "file": "assets/audio/games/dress/wear-dress-red.m4a",
+  "speech": [
+   0.03,
+   2.76
+  ],
+  "speech_fingerprint": "3083c730d3253f2f9649050be91921d202b1dd6d3eebfb448cf1c50ba09c2615"
+ },
+ "wear-dress-yellow": {
+  "pinyin": "Xiǎo tùzi yào chuān huángsè de qúnzi.",
+  "english": "The rabbit wants to wear the yellow dress.",
+  "speaker": "narrator",
+  "fingerprint": "5338377388a59fdee9bfefc888302ef246fc254ff664a29a38b22ab674a8c571",
+  "text": "小兔子要穿黄色的裙子。",
+  "file": "assets/audio/games/dress/wear-dress-yellow.m4a",
+  "speech": [
+   0.03,
+   2.79
+  ],
+  "speech_fingerprint": "5338377388a59fdee9bfefc888302ef246fc254ff664a29a38b22ab674a8c571"
+ },
+ "wear-dress-blue": {
+  "pinyin": "Xiǎo tùzi yào chuān lánsè de qúnzi.",
+  "english": "The rabbit wants to wear the blue dress.",
+  "speaker": "narrator",
+  "fingerprint": "41f5ed3fb52be2adb523eb8bb56e303a2b6af84951960a81388fc61aa993859b",
+  "text": "小兔子要穿蓝色的裙子。",
+  "file": "assets/audio/games/dress/wear-dress-blue.m4a",
+  "speech": [
+   0.03,
+   2.7
+  ],
+  "speech_fingerprint": "41f5ed3fb52be2adb523eb8bb56e303a2b6af84951960a81388fc61aa993859b"
+ },
+ "wear-dress-green": {
+  "pinyin": "Xiǎo tùzi yào chuān lǜsè de qúnzi.",
+  "english": "The rabbit wants to wear the green dress.",
+  "speaker": "narrator",
+  "fingerprint": "e8abda3b8330f86d9676fd4210e07b024465c55b6a5e3af5ceda7e73392135ae",
+  "text": "小兔子要穿绿色的裙子。",
+  "file": "assets/audio/games/dress/wear-dress-green.m4a",
+  "speech": [
+   0.03,
+   2.65
+  ],
+  "speech_fingerprint": "e8abda3b8330f86d9676fd4210e07b024465c55b6a5e3af5ceda7e73392135ae"
+ },
+ "wear-dress-purple": {
+  "pinyin": "Xiǎo tùzi yào chuān zǐsè de qúnzi.",
+  "english": "The rabbit wants to wear the purple dress.",
+  "speaker": "narrator",
+  "fingerprint": "f088bb02bf646d23adeb73060a049fb1152c09b3d4b75a0abab0bb3bcf55c928",
+  "text": "小兔子要穿紫色的裙子。",
+  "file": "assets/audio/games/dress/wear-dress-purple.m4a",
+  "speech": [
+   0.03,
+   2.68
+  ],
+  "speech_fingerprint": "f088bb02bf646d23adeb73060a049fb1152c09b3d4b75a0abab0bb3bcf55c928"
+ },
+ "wear-dress-orange": {
+  "pinyin": "Xiǎo tùzi yào chuān chéngsè de qúnzi.",
+  "english": "The rabbit wants to wear the orange dress.",
+  "speaker": "narrator",
+  "fingerprint": "c67c6a656e180c8a87d7c96ede15564a3a7c47aa622d8ed7e0b3d94e58dbec84",
+  "text": "小兔子要穿橙色的裙子。",
+  "file": "assets/audio/games/dress/wear-dress-orange.m4a",
+  "speech": [
+   0.03,
+   2.78
+  ],
+  "speech_fingerprint": "c67c6a656e180c8a87d7c96ede15564a3a7c47aa622d8ed7e0b3d94e58dbec84"
+ },
+ "wear-trousers-red": {
+  "pinyin": "Xiǎo tùzi yào chuān hóngsè de kùzi.",
+  "english": "The rabbit wants to wear the red trousers.",
+  "speaker": "narrator",
+  "fingerprint": "51618b12fe05ea506e41ee0ca765675a4fa2e23ac979995d5780d7952b8147b1",
+  "text": "小兔子要穿红色的裤子。",
+  "file": "assets/audio/games/dress/wear-trousers-red.m4a",
+  "speech": [
+   0.03,
+   2.7
+  ],
+  "speech_fingerprint": "51618b12fe05ea506e41ee0ca765675a4fa2e23ac979995d5780d7952b8147b1"
+ },
+ "wear-trousers-yellow": {
+  "pinyin": "Xiǎo tùzi yào chuān huángsè de kùzi.",
+  "english": "The rabbit wants to wear the yellow trousers.",
+  "speaker": "narrator",
+  "fingerprint": "d4a43e4883047d8414e26c3feccca7ccbec5b1745114288addb2da28d3cc7add",
+  "text": "小兔子要穿黄色的裤子。",
+  "file": "assets/audio/games/dress/wear-trousers-yellow.m4a",
+  "speech": [
+   0.03,
+   2.73
+  ],
+  "speech_fingerprint": "d4a43e4883047d8414e26c3feccca7ccbec5b1745114288addb2da28d3cc7add"
+ },
+ "wear-trousers-blue": {
+  "pinyin": "Xiǎo tùzi yào chuān lánsè de kùzi.",
+  "english": "The rabbit wants to wear the blue trousers.",
+  "speaker": "narrator",
+  "fingerprint": "e1808cc98dfa44019fab36e824197dcc2227e081c90a9cc62c00d9843d96527f",
+  "text": "小兔子要穿蓝色的裤子。",
+  "file": "assets/audio/games/dress/wear-trousers-blue.m4a",
+  "speech": [
+   0.03,
+   2.64
+  ],
+  "speech_fingerprint": "e1808cc98dfa44019fab36e824197dcc2227e081c90a9cc62c00d9843d96527f"
+ },
+ "wear-trousers-green": {
+  "pinyin": "Xiǎo tùzi yào chuān lǜsè de kùzi.",
+  "english": "The rabbit wants to wear the green trousers.",
+  "speaker": "narrator",
+  "fingerprint": "0978670cf47b0331d6c4177c060988e4e82d4796484e90b69ffb3dec171472be",
+  "text": "小兔子要穿绿色的裤子。",
+  "file": "assets/audio/games/dress/wear-trousers-green.m4a",
+  "speech": [
+   0.03,
+   2.6
+  ],
+  "speech_fingerprint": "0978670cf47b0331d6c4177c060988e4e82d4796484e90b69ffb3dec171472be"
+ },
+ "wear-trousers-purple": {
+  "pinyin": "Xiǎo tùzi yào chuān zǐsè de kùzi.",
+  "english": "The rabbit wants to wear the purple trousers.",
+  "speaker": "narrator",
+  "fingerprint": "d3766f2257bdba5a07d8475a1d3e86c60dfa4b7a266617abbe003ab78ecb2a76",
+  "text": "小兔子要穿紫色的裤子。",
+  "file": "assets/audio/games/dress/wear-trousers-purple.m4a",
+  "speech": [
+   0.03,
+   2.62
+  ],
+  "speech_fingerprint": "d3766f2257bdba5a07d8475a1d3e86c60dfa4b7a266617abbe003ab78ecb2a76"
+ },
+ "wear-trousers-orange": {
+  "pinyin": "Xiǎo tùzi yào chuān chéngsè de kùzi.",
+  "english": "The rabbit wants to wear the orange trousers.",
+  "speaker": "narrator",
+  "fingerprint": "f365eafb4c391d5afa40894659fa8dc1110307b61e7651b6c11970c6ad7ba621",
+  "text": "小兔子要穿橙色的裤子。",
+  "file": "assets/audio/games/dress/wear-trousers-orange.m4a",
+  "speech": [
+   0.03,
+   2.72
+  ],
+  "speech_fingerprint": "f365eafb4c391d5afa40894659fa8dc1110307b61e7651b6c11970c6ad7ba621"
+ },
+ "wear-coat-red": {
+  "pinyin": "Xiǎo tùzi yào chuān hóngsè de wàitào.",
+  "english": "The rabbit wants to wear the red coat.",
+  "speaker": "narrator",
+  "fingerprint": "51c54fafe892ad57d0da39c8f062e3b716e2359e28f32dc5c71bd4d3fe6eebb9",
+  "text": "小兔子要穿红色的外套。",
+  "file": "assets/audio/games/dress/wear-coat-red.m4a",
+  "speech": [
+   0.03,
+   2.83
+  ],
+  "speech_fingerprint": "51c54fafe892ad57d0da39c8f062e3b716e2359e28f32dc5c71bd4d3fe6eebb9"
+ },
+ "wear-coat-yellow": {
+  "pinyin": "Xiǎo tùzi yào chuān huángsè de wàitào.",
+  "english": "The rabbit wants to wear the yellow coat.",
+  "speaker": "narrator",
+  "fingerprint": "276415ca38b145ec4cc6035ff876f0ffdbda6d8a9eece30cca2ff5b93e41fa33",
+  "text": "小兔子要穿黄色的外套。",
+  "file": "assets/audio/games/dress/wear-coat-yellow.m4a",
+  "speech": [
+   0.03,
+   2.85
+  ],
+  "speech_fingerprint": "276415ca38b145ec4cc6035ff876f0ffdbda6d8a9eece30cca2ff5b93e41fa33"
+ },
+ "wear-coat-blue": {
+  "pinyin": "Xiǎo tùzi yào chuān lánsè de wàitào.",
+  "english": "The rabbit wants to wear the blue coat.",
+  "speaker": "narrator",
+  "fingerprint": "d7acac04e60b7ce9baf24fd24b8f8abb899f68fb881ba64acd57e920dc6b21fc",
+  "text": "小兔子要穿蓝色的外套。",
+  "file": "assets/audio/games/dress/wear-coat-blue.m4a",
+  "speech": [
+   0.03,
+   2.77
+  ],
+  "speech_fingerprint": "d7acac04e60b7ce9baf24fd24b8f8abb899f68fb881ba64acd57e920dc6b21fc"
+ },
+ "wear-coat-green": {
+  "pinyin": "Xiǎo tùzi yào chuān lǜsè de wàitào.",
+  "english": "The rabbit wants to wear the green coat.",
+  "speaker": "narrator",
+  "fingerprint": "594b58938059060cade9c1a51c4cd8cd04a55e372ae8fae589eeb4f378018e50",
+  "text": "小兔子要穿绿色的外套。",
+  "file": "assets/audio/games/dress/wear-coat-green.m4a",
+  "speech": [
+   0.03,
+   2.73
+  ],
+  "speech_fingerprint": "594b58938059060cade9c1a51c4cd8cd04a55e372ae8fae589eeb4f378018e50"
+ },
+ "wear-coat-purple": {
+  "pinyin": "Xiǎo tùzi yào chuān zǐsè de wàitào.",
+  "english": "The rabbit wants to wear the purple coat.",
+  "speaker": "narrator",
+  "fingerprint": "4ce0f3ba8a78e41b0ac33f4eaf976b8e4c1ee2094f781ed7b74f9583c92a016c",
+  "text": "小兔子要穿紫色的外套。",
+  "file": "assets/audio/games/dress/wear-coat-purple.m4a",
+  "speech": [
+   0.03,
+   2.74
+  ],
+  "speech_fingerprint": "4ce0f3ba8a78e41b0ac33f4eaf976b8e4c1ee2094f781ed7b74f9583c92a016c"
+ },
+ "wear-coat-orange": {
+  "pinyin": "Xiǎo tùzi yào chuān chéngsè de wàitào.",
+  "english": "The rabbit wants to wear the orange coat.",
+  "speaker": "narrator",
+  "fingerprint": "1f77dd720fbb69c0aa7c9d4cc8493ffd6cfbc6edae7112ec737e2c360fb9ccde",
+  "text": "小兔子要穿橙色的外套。",
+  "file": "assets/audio/games/dress/wear-coat-orange.m4a",
+  "speech": [
+   0.03,
+   2.85
+  ],
+  "speech_fingerprint": "1f77dd720fbb69c0aa7c9d4cc8493ffd6cfbc6edae7112ec737e2c360fb9ccde"
+ }
+}

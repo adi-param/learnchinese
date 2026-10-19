@@ -1,0 +1,48 @@
+{
+ "id": "kitchen",
+ "title": "做饭",
+ "english": "The silly kitchen",
+ "voices": {
+  "cat": {
+   "rate": 1.05,
+   "keep": false
+  }
+ },
+ "lines": {
+  "done": {
+   "speaker": "cat",
+   "hanzi": "汤做好了！好香！",
+   "pinyin": "Tāng zuò hǎo le! Hǎo xiāng!",
+   "english": "The soup is ready! It smells good!"
+  }
+ },
+ "templates": {
+  "add": {
+   "speaker": "cat",
+   "hanzi": "放{number}个{food}。",
+   "pinyin": "Fàng {number} gè {food}.",
+   "english": "Put in {number} {food}.",
+   "slots": {
+    "number": "numbers",
+    "food": "foods"
+   },
+   "only": {
+    "number": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "food": [
+     "egg",
+     "apple",
+     "tomato",
+     "potato",
+     "mushroom",
+     "bun"
+    ]
+   }
+  }
+ }
+}
