@@ -1,26 +1,26 @@
-// 蜘蛛小队救新加坡 Team Spidey saves Singapore. Spider-Man, Ghost-Spider and Spin set off from Marina Bay; at
-// Gardens by the Bay Green Goblin's big robot dinosaur puts out the Supertrees' lights, Spider-Man swings across
-// them, webs the dinosaur and presses the red button to put it to sleep; up Marina Bay Sands he catches Green
-// Goblin, and the story ends with fireworks over the bay. Names stay in English.
+// 蜘蛛小队救新加坡 Team Spidey saves Singapore. Ira (purple and pink) is in the team with Spider-Man, Ghost-Spider
+// and Spin. They set off from Marina Bay; at Gardens by the Bay Green Goblin's big robot dinosaur puts out the
+// Supertrees' lights, Ira swings across them, webs the dinosaur and presses the red button to put it to sleep; up
+// Marina Bay Sands she catches Green Goblin, and the story ends with fireworks over the bay. Names stay in English.
 // Tap anything for fun: the Merlion sprays, boats sail, Supertrees twinkle, heroes pose, the Goblin cackles.
 import {INK,L,scene,target,actor,box,star,blob,funSun,funCloud,funFlower,funActors} from '../story-kit.js';
 
 // ---- Pictures ----
-const RED='#e23b3b',RED_DARK='#b8262b',BLUE='#2b5fd9',BLUE_DARK='#1d45a8',GOLD='#ffc233';
+const PINK='#ff8cc6',PURPLE='#8b5cf6',RED='#e23b3b',RED_DARK='#b8262b',BLUE='#2b5fd9',BLUE_DARK='#1d45a8',GOLD='#ffc233';
 const limb=(x1,y1,x2,y2,colour,w=5)=>`<path d="M${x1} ${y1}L${x2} ${y2}" stroke="${INK}" stroke-width="${w+3.4}" stroke-linecap="round"/><path d="M${x1} ${y1}L${x2} ${y2}" stroke="${colour}" stroke-width="${w}" stroke-linecap="round"/>`;
 // The web pattern on a mask: lines out from the middle and rings round it, kept inside the head.
 const maskWeb=c=>`<g stroke="${c}" stroke-width=".8" fill="none" opacity=".8">${Array.from({length:8},(_,i)=>{const a=i*Math.PI/4;return `<path d="M0 -56L${(Math.cos(a)*13.4).toFixed(1)} ${(-56+Math.sin(a)*13.4).toFixed(1)}"/>`;}).join('')}<circle cx="0" cy="-56" r="4.5"/><circle cx="0" cy="-56" r="8.5"/><circle cx="0" cy="-56" r="12"/></g>`;
 const bodyWeb=c=>`<g stroke="${c}" stroke-width=".7" fill="none" opacity=".7"><path d="M0 -42V-22M-8 -40l8 6 8-6M-9 -32l9 4 9-4M-8 -25l8 3 8-3"/></g>`;
 const emblem=c=>`<ellipse cx="0" cy="-34" rx="2.2" ry="3.2" fill="${c}"/><circle cx="0" cy="-38" r="1.6" fill="${c}"/><path d="M-1.6 -35-6.5 -39M-1.6 -33.5-7 -33M-1.6 -32-6 -28M1.6 -35 6.5 -39M1.6 -33.5 7 -33M1.6 -32 6 -28" stroke="${c}" stroke-width="1" stroke-linecap="round"/>`;
 // A spider hero, chibi style, facing us, feet at (0,0). Arms are separate so poses can lift them.
-function hero({suit,side,legs,boots,mask,web,eyeRing='#1f1b3a',back='',front=''}){
+function hero({suit,side,legs,boots,mask,web,eyeRing='#1f1b3a',back='',waist='',front=''}){
  return `<ellipse cx="0" cy="1" rx="15" ry="3" fill="${INK}" opacity=".15"/>${back}
  <path d="M-8 -22L-8.5 -4H-1.5L-1 -22ZM1 -22 1.5 -4H8.5L8 -22Z" fill="${legs}" ${L}/>
  <path d="M-9.5 -6H-.5V-1Q-.5 1 -3 1H-10Q-12 1 -11.5 -2Z" fill="${boots}" ${L} stroke-width="1.6"/><path d="M9.5 -6H.5V-1Q.5 1 3 1H10Q12 1 11.5 -2Z" fill="${boots}" ${L} stroke-width="1.6"/>
  <g class="arm arm-l">${limb(-9,-40,-15,-24,suit)}<circle cx="-15.5" cy="-23" r="3.4" fill="${suit}" ${L} stroke-width="1.6"/></g>
  <g class="arm arm-r">${limb(9,-40,15,-24,suit)}<circle cx="15.5" cy="-23" r="3.4" fill="${suit}" ${L} stroke-width="1.6"/></g>
  <path d="M-10 -43Q0 -46 10 -43L9 -22Q0 -19 -9 -22Z" fill="${suit}" ${L}/>
- ${side?`<path d="M-10 -36 -9 -22Q-6 -21 -5 -21L-6.5 -34ZM10 -36 9 -22Q6 -21 5 -21L6.5 -34Z" fill="${side}"/>`:''}${bodyWeb(web)}${emblem(web===INK?INK:web)}
+ ${side?`<path d="M-10 -36 -9 -22Q-6 -21 -5 -21L-6.5 -34ZM10 -36 9 -22Q6 -21 5 -21L6.5 -34Z" fill="${side}"/>`:''}${bodyWeb(web)}${emblem(web===INK?INK:web)}${waist}
  <g class="hero-head"><circle cx="0" cy="-56" r="14" fill="${mask}" ${L}/>${maskWeb(web)}<circle cx="0" cy="-56" r="14" fill="none" ${L}/>
  <g class="lenses"><path d="M-1.5 -57Q-3.5 -65 -11.5 -62Q-12 -53 -3 -52Z" fill="#fff" stroke="${eyeRing}" stroke-width="2.2" stroke-linejoin="round"/><path d="M1.5 -57Q3.5 -65 11.5 -62Q12 -53 3 -52Z" fill="#fff" stroke="${eyeRing}" stroke-width="2.2" stroke-linejoin="round"/><ellipse cx="-7" cy="-60" rx="1.6" ry="1" fill="#dff3ff"/><ellipse cx="7" cy="-60" rx="1.6" ry="1" fill="#dff3ff"/></g>
  ${front}</g>`;
@@ -29,6 +29,11 @@ const spiderman=hero({suit:RED,side:BLUE,legs:BLUE,boots:RED,mask:RED,web:INK});
 const ghost=hero({suit:'#f7f7fb',side:'#24242e',legs:'#f7f7fb',boots:'#5ad1c8',mask:'#f7f7fb',web:'#ff5fa2',
  back:`<path d="M-17 -54Q-18 -76 0 -76Q18 -76 17 -54Q16 -40 10 -37H-10Q-16 -40 -17 -54Z" fill="#fff" ${L}/><path d="M-14.5 -54Q-15 -72 0 -72Q15 -72 14.5 -54Q13 -44 9 -41" fill="none" stroke="#ff5fa2" stroke-width="3"/>`});
 const spin=hero({suit:'#26262f',legs:'#26262f',boots:RED,mask:'#26262f',web:RED,eyeRing:RED});
+// Ira: purple and pink, with pink puffs either side of her mask, a bow and a little skirt so she is easy to spot.
+const ira=hero({suit:PURPLE,side:PINK,legs:PURPLE,boots:PINK,mask:PURPLE,web:PINK,eyeRing:'#5b2a9e',
+ back:`<circle cx="-15" cy="-61" r="5.6" fill="${PINK}" ${L}/><circle cx="15" cy="-61" r="5.6" fill="${PINK}" ${L}/>`,
+ waist:`<path d="M-10 -25H10L14 -15Q0 -12 -14 -15Z" fill="${PINK}" ${L} stroke-width="1.6"/><path d="M-5 -24-6.5 -15M0 -24V-14M5 -24 6.5 -15" stroke="#e86aa8" stroke-width="1"/>`,
+ front:`<path d="M0 -70-8 -75V-65ZM0 -70 8 -75V-65Z" fill="${PINK}" ${L} stroke-width="1.6"/><circle cx="0" cy="-70" r="2.4" fill="${PINK}" ${L} stroke-width="1.4"/>`});
 // Green Goblin on his bat-winged glider, grinning. The web wrap shows once he is caught.
 const glider=`<path d="M-34 0Q-26 -8 -14 -5Q-8 -9 0 -6Q8 -9 14 -5Q26 -8 34 0Q24 -2 18 4Q10 0 0 3Q-10 0 -18 4Q-24 -2 -34 0Z" fill="#5d6b58" ${L}/><path d="M-20 -1h40" stroke="#8b9a86" stroke-width="1.4"/><circle cx="-16" cy="-1" r="2.2" fill="#ffd34d"/><circle cx="16" cy="-1" r="2.2" fill="#ffd34d"/>
  <g class="jets"><path d="M-7 3q-3 9 0 13q3-4 0-13zM7 3q-3 9 0 13q3-4 0-13z" fill="#ff9a3c"/><path d="M-7 5q-1.4 5 0 7q1.4-2 0-7zM7 5q-1.4 5 0 7q1.4-2 0-7z" fill="#ffe066"/></g>`;
@@ -81,8 +86,8 @@ const boat=(x,y)=>`<g class="boat" data-fun="boat" transform="translate(${x} ${y
 const water=night=>`<rect y="118" width="320" height="44" fill="url(#${night?'sea-night':'sea-day'})"/><g class="sparkles" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity="${night?.4:.7}">${[[10,130],[120,142],[220,128],[262,150],[170,152],[70,154]].map(([x,y],i)=>`<path class="spark" style="--d:${i*.35}s" d="M${x} ${y}h14"/>`).join('')}</g>`;
 const promenade=`<rect y="160" width="320" height="40" fill="#d9d4cc"/><path d="M0 160H320" stroke="#b8b2a8" stroke-width="2"/>${Array.from({length:9},(_,i)=>`<path d="M${i*40} 160V200" stroke="#c9c3b8" stroke-width="1.2"/>`).join('')}<path d="M0 180H320" stroke="#c9c3b8" stroke-width="1.2"/>`;
 const burst=(name,x,y,colour)=>`<g transform="translate(${x} ${y})"><g class="fw fw-${name}" data-cue="fw-${name}">${Array.from({length:14},(_,i)=>{const a=i*Math.PI/7;return `<path d="M${(Math.cos(a)*6).toFixed(1)} ${(Math.sin(a)*6).toFixed(1)}L${(Math.cos(a)*24).toFixed(1)} ${(Math.sin(a)*24).toFixed(1)}" stroke="${colour}" stroke-width="3" stroke-linecap="round"/><circle cx="${(Math.cos(a)*27).toFixed(1)}" cy="${(Math.sin(a)*27).toFixed(1)}" r="2.2" fill="${colour}"/>`;}).join('')}<circle r="4" fill="#fff"/></g></g>`;
-const team=(y=192)=>`${actor('spiderman',134,y,spiderman,'team spiderman')}${actor('ghost',176,y,ghost,'team ghost')}${actor('spin',218,y,spin,'team spin')}`;
-const heroActors=svg=>funActors(svg,{spiderman:'hero',ghost:'hero',spin:'hero',goblin:'goblin',dino:'dino'});
+const team=(y=192)=>`${actor('spiderman',120,y,spiderman,'team spiderman')}${actor('ghost',158,y,ghost,'team ghost')}${actor('spin',196,y,spin,'team spin')}${actor('ira',234,y,ira,'team ira')}`;
+const heroActors=svg=>funActors(svg,{spiderman:'hero',ghost:'hero',spin:'hero',ira:'hero',goblin:'goblin',dino:'dino'});
 function marinaScene(night=false){
  return heroActors(scene(night?'Fireworks over Marina Bay at night':'Team Spidey at Marina Bay, Singapore',`${sky('sky-day',[[0,'#8fd0ff'],[1,'#e3f6ff']])}${sky('sky-night',[[0,'#141d4a'],[1,'#3a2f6e']])}${sky('sea-day',[[0,'#3f97dc'],[1,'#5bb4ea']])}${sky('sea-night',[[0,'#1d3366'],[1,'#2b4a86']])}
  <rect width="320" height="200" fill="url(#${night?'sky-night':'sky-day'})"/>
@@ -92,7 +97,7 @@ function marinaScene(night=false){
  ${merlion}${promenade}
  ${night?`${burst('red',110,40,'#ff4d4d')}${burst('blue',196,30,'#59b6ff')}${burst('yellow',272,60,'#ffd34d')}<g class="sky" data-cue="sky"><rect width="320" height="1" fill="none"/></g>`:''}
  ${team()}
- ${night?target('sky',190,48,26,70):target('team',176,160,44,58)}`));
+ ${night?target('sky',190,48,26,70):target('team',177,160,54,66)}`));
 }
 // Gardens by the Bay: Supertrees (lattice trunks, glowing canopies, the skyway between them) and the glass domes.
 const TREES=[[60,52],[124,36],[188,56]];
@@ -115,7 +120,7 @@ function gardensScene(){
  ${webLine('web-leg1',214,166,234,168)}${webLine('web-leg2',214,166,270,168)}${webLine('web-tail',214,166,318,152)}
  ${actor('dino',380,188,dinosaur,'dino')}
  ${actor('goblin',380,40,goblin,'goblin')}
- ${actor('spiderman',30,192,spiderman,'team spiderman')}
+ ${actor('spiderman',22,192,spiderman,'team spiderman')}${actor('ira',44,192,ira,'team ira')}
  ${TREES.map(([x,top],i)=>target('tree-'+(i+1),x,top+4,18,24)).join('')}
  ${target('leg1',234,168,14,18)}${target('leg2',270,168,14,18)}${target('tail',314,150,16,20)}
  ${target('btn-red',249,107,9,12)}${target('btn-blue',264,106,9,12)}${target('btn-yellow',278,110,9,12)}`));
@@ -129,7 +134,7 @@ function mbsScene(){
  <rect y="182" width="320" height="18" fill="#4f7fc0"/><path d="M20 190h20M120 194h24M240 188h18" stroke="#fff" stroke-width="1.6" opacity=".6"/>
  ${webLine('web-goblin',104,56,232,26)}
  ${actor('goblin',380,20,goblin,'goblin')}
- ${actor('spiderman',62,192,spiderman,'team spiderman')}
+ ${actor('spiderman',62,192,spiderman,'team spiderman')}${actor('ira',96,192,ira,'team ira')}
  ${target('tower',92,120,22,30)}${target('goblin',238,24,22,28)}`));
 }
 const pictures={
@@ -141,14 +146,14 @@ const pictures={
  web:box('-22 -22 44 44',`<g stroke="${INK}" stroke-width="1.4" fill="none"><path d="M0 -20V20M-20 0H20M-14 -14 14 14M14 -14-14 14"/><circle r="6"/><circle r="12"/><circle r="18"/></g>`),
  button:box('-16 -16 32 32',`<rect x="-14" y="-6" width="28" height="12" rx="3" fill="#b6b3c4" ${L}/><circle cx="0" cy="-4" r="8" fill="${RED}" ${L}/><circle cx="-2.4" cy="-6.6" r="2.2" fill="#fff" opacity=".7"/>`),
  red:box('-28 -30 56 44',blob('#ff4d4d')),
- climb:box('-22 -78 50 82',`<rect x="6" y="-78" width="20" height="82" fill="#eef3f8" ${L}/>${spiderman}`),
+ climb:box('-22 -78 50 82',`<rect x="6" y="-78" width="20" height="82" fill="#eef3f8" ${L}/>${ira}`),
  building:box('40 36 270 160',`<g>${[70,140,210].map(x=>`<path d="M${x-4} 190 ${x} 66H${x+40}L${x+44} 190Z" fill="#eef3f8" ${L}/>`).join('')}</g><path d="M48 54H278Q294 52 302 42L298 64H50Z" fill="#dfe8f1" ${L}/>`),
  sky:box('0 0 60 40',`<rect width="60" height="40" rx="6" fill="#cdeefc"/><circle cx="14" cy="13" r="7" fill="#ffd34d"/><g fill="#fff"><ellipse cx="38" cy="20" rx="12" ry="5"/><ellipse cx="44" cy="16" rx="7" ry="5"/></g>`),
  fireworks:box('-32 -32 64 64',`<rect x="-32" y="-32" width="64" height="64" rx="8" fill="#1e2a5a"/>${burst('pic',0,0,'#ff8cc6').replace('class="fw fw-pic" ','').replace('data-cue="fw-pic"','')}`),
  safe:box('-20 -24 40 46',`<path d="M0 -22 16 -16V-2Q16 12 0 20Q-16 12 -16 -2V-16Z" fill="${RED}" ${L}/><path d="M-7 -1 -1 5 9 -7" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>`)
 };
 const cover=()=>box('0 0 320 200',`${sky('c-dusk',[[0,'#6c5fd0'],[.6,'#f59ab0'],[1,'#ffc98a']])}<rect width="320" height="200" fill="url(#c-dusk)"/>${skyline(false)}${mbs(194,48,1,false)}<rect y="118" width="320" height="44" fill="#4f7fc0"/>${merlion}${promenade}
- <g transform="translate(130 192) scale(1.1)">${spiderman}</g><g transform="translate(174 192) scale(1.1)">${ghost}</g><g transform="translate(218 192) scale(1.1)">${spin}</g><g transform="translate(286 92) scale(.8)">${goblin.replace('class="wrap"','class="wrap" opacity="0"')}</g>`);
+ <g transform="translate(112 192) scale(1.1)">${spiderman}</g><g transform="translate(152 192) scale(1.1)">${ghost}</g><g transform="translate(192 192) scale(1.1)">${spin}</g><g transform="translate(236 192) scale(1.2)">${ira}</g><g transform="translate(286 92) scale(.8)">${goblin.replace('class="wrap"','class="wrap" opacity="0"')}</g>`);
 
 // ---- The story ----
 let api;
@@ -177,12 +182,12 @@ async function atTheGardens(t){
  flag('stomping');api.sounds.crash();await say('stomp',t);flag('stomping',false);
  flag('dark');await say('laugh',t);
  await say('dark',t);
- // Spider-Man swings from Supertree to Supertree, and each one lights up again.
+ // Ira swings from Supertree to Supertree, and each one lights up again.
  await say('tapTree',t);
  for(let i=1;i<=3;i++){
   await api.tap('tree-'+i,t,'tapTree');
   await shoot(t,'web-'+i);
-  const [x,top]=TREES[i-1];move('spiderman',x,top+90,380);await wait(380,t);flag('lit-'+i);move('spiderman',x+24,192,450);await wait(450,t);
+  const [x,top]=TREES[i-1];move('ira',x,top+90,380);await wait(380,t);flag('lit-'+i);move('ira',x+24,192,450);await wait(450,t);
   await say('swing',t);
  }
  await say('lightsOn',t);
@@ -208,7 +213,7 @@ async function upMarinaBaySands(t){
  move('goblin',238,52,1600,.7);await wait(1700,t);
  await say('flyUp',t);
  await say('tapClimb',t);
- for(const y of [150,110,74]){await api.tap('tower',t,'tapClimb');api.sounds.thwip();move('spiderman',92,y,700);await wait(800,t);}
+ for(const y of [150,110,74]){await api.tap('tower',t,'tapClimb');api.sounds.thwip();move('ira',96,y,700);move('spiderman',66,y+16,800);await wait(800,t);}
  await say('tapGoblin',t);
  await api.tap('goblin',t,'tapGoblin');
  await say('web',t);await shoot(t,'web-goblin');
@@ -246,21 +251,21 @@ const css=`
 .story-svg .hero-head,.story-svg .arm{transform-box:fill-box}
 .story-svg .arm-l{transform-origin:100% 0}.story-svg .arm-r{transform-origin:0 0}
 .story-svg .lenses{transform-box:fill-box;transform-origin:center;animation:spidey-blink 4.6s infinite}
-.story-svg .actor-ghost .lenses{animation-delay:1.5s}.story-svg .actor-spin .lenses{animation-delay:3s}
+.story-svg .actor-ghost .lenses{animation-delay:1.5s}.story-svg .actor-spin .lenses{animation-delay:3s}.story-svg .actor-ira .lenses{animation-delay:2.2s}
 .story-svg .blink{transform-box:fill-box;transform-origin:center;animation:spidey-blink 5s .8s infinite}
 @keyframes spidey-blink{0%,94%,100%{transform:none}97%{transform:scaleY(.15)}}
 .cheer .arm-l,.dance .arm-l,.cuebox.pose .arm-l{transform:rotate(130deg)}
 .cheer .arm-r,.dance .arm-r,.cuebox.pose .arm-r{transform:rotate(-130deg)}
 .story-svg .arm{transition:transform .25s var(--spring)}
 .story-svg .cuebox.pose{animation:story-hop .25s ease-in-out 4 alternate}
-[data-talking="spidey"] .actor-spiderman .hero-head,[data-talking="team"] .hero-head{transform-origin:50% 100%;animation:spidey-nod .26s ease-in-out infinite alternate}
+[data-talking="spidey"] .actor-spiderman .hero-head,[data-talking="ira"] .actor-ira .hero-head,[data-talking="team"] .hero-head{transform-origin:50% 100%;animation:spidey-nod .26s ease-in-out infinite alternate}
 @keyframes spidey-nod{to{transform:rotate(4deg) translateY(-1px)}}
 .story-svg .goblin-talk{opacity:0}
 [data-talking="goblin"] .goblin-talk{animation:spidey-talk .22s steps(2) infinite}
 [data-talking="goblin"] .goblin-mouth{opacity:0}
 @keyframes spidey-talk{0%{opacity:1}100%{opacity:0}}
-.cheer .actor-spiderman .bob,.cheer .actor-ghost .bob,.cheer .actor-spin .bob,.dance .actor-spiderman .bob,.dance .actor-ghost .bob,.dance .actor-spin .bob{animation:story-hop .35s ease-in-out infinite alternate}
-.cheer .actor-ghost .bob,.dance .actor-ghost .bob{animation-delay:.12s}.cheer .actor-spin .bob,.dance .actor-spin .bob{animation-delay:.24s}
+.cheer .actor-spiderman .bob,.cheer .actor-ghost .bob,.cheer .actor-spin .bob,.cheer .actor-ira .bob,.dance .actor-spiderman .bob,.dance .actor-ghost .bob,.dance .actor-spin .bob,.dance .actor-ira .bob{animation:story-hop .35s ease-in-out infinite alternate}
+.cheer .actor-ghost .bob,.dance .actor-ghost .bob{animation-delay:.12s}.cheer .actor-spin .bob,.dance .actor-spin .bob{animation-delay:.24s}.cheer .actor-ira .bob,.dance .actor-ira .bob{animation-delay:.36s}
 .story-svg .spout{stroke-dasharray:4 5;animation:spidey-spout .6s linear infinite}
 .story-svg .spout-big{opacity:0;stroke-dasharray:5 6}
 .story-svg .merlion.splash .spout-big{animation:spidey-big-spout 1.4s linear}
@@ -317,7 +322,8 @@ export default {
  scenes:()=>[marinaScene(),gardensScene(),mbsScene(),marinaScene(true)],
  play,pictures,cover,css,fun,
  avatars:{
-  team:box('-46 -72 92 42',`<g transform="translate(-26 0)">${spiderman}</g><g transform="translate(0 0)">${ghost}</g><g transform="translate(26 0)">${spin}</g>`),
+  team:box('-63 -76 126 46',`<g transform="translate(-39 0)">${spiderman}</g><g transform="translate(-13 0)">${ghost}</g><g transform="translate(13 0)">${spin}</g><g transform="translate(39 0)">${ira}</g>`),
+  ira:box('-22 -78 44 42',ira),
   spidey:box('-18 -74 36 36',spiderman),
   goblin:box('-22 -82 44 44',goblinHead),
   dino:box('-94 -106 50 48',dinosaur)

@@ -6,7 +6,7 @@
 import {chime} from './sfx.js';
 import {icon,mascot} from './icons.js';
 import {STORIES} from './stories/index.js';
-import {record,canRecord,stopRecording} from './recorder.js';
+import {record,canRecord,stopRecording,playRecording,stopPlayback} from './recorder.js';
 
 // Same name as in sw.js: a story's files go into the offline store the first time it is opened.
 const CACHE='learnchinese-v1';
@@ -43,7 +43,7 @@ const clipUrl=clip=>url(`assets/audio/stories/${story.id}/${clip}.m4a`);
 const voiceOf=speaker=>speaker==='narrator'?NARRATOR:story.voices[speaker];
 
 export function mountStories(element,options){root=element;celebrate=options.celebrate;showMenu();}
-export function stopStory(){token++;audio.pause();stopAmbient();finishLine?.(false);cancelWait?.();stopMic();stopRecording();takeAudio.pause();cancelAnimationFrame(frame);}
+export function stopStory(){token++;audio.pause();stopAmbient();finishLine?.(false);cancelWait?.();stopMic();stopRecording();stopPlayback();cancelAnimationFrame(frame);}
 
 function showMenu(){
  stopStory();forgetTakes();
@@ -311,13 +311,10 @@ function micButton(onPuff){
 // the mic records again, and ▶ carries the story on. Each refrain asks at most twice a story. Recordings stay in
 // this page's memory only: nothing is saved or sent anywhere, and they are gone when the story starts again.
 const TURNS_PER_LINE=2;
-const takeAudio=typeof Audio==='function'?new Audio():{pause(){}};
 let shared=null,takes=[],turns=new Map();
-function forgetTakes(){takes.forEach(take=>URL.revokeObjectURL(take.url));takes=[];turns=new Map();}
+function forgetTakes(){takes=[];turns=new Map();}
 // Her own voice, exactly as recorded: normal speed and pitch.
-function playTake(take){
- return new Promise(resolve=>{takeAudio.onended=takeAudio.onerror=()=>resolve();takeAudio.src=take.url;takeAudio.preservesPitch=takeAudio.webkitPreservesPitch=true;takeAudio.defaultPlaybackRate=takeAudio.playbackRate=1;takeAudio.play().catch(()=>resolve());});
-}
+const playTake=take=>playRecording(take.blob);
 function sayShared(key,t){
  alive(t);const clip=shared?.[key];if(!clip)return Promise.resolve();
  finishLine?.(false);
@@ -330,19 +327,18 @@ async function yourTurn(key,t){
  await sayShared('yourTurn',t);
  let take=null;
  const hearMine=async()=>{if(!take)return;audio.pause();mine.classList.add('playing');await playTake(take);mine.classList.remove('playing');};
- const hearRight=async()=>{takeAudio.pause();right.classList.add('playing');await say(key,t).catch(()=>{});right.classList.remove('playing');};
+ const hearRight=async()=>{stopPlayback();right.classList.add('playing');await say(key,t).catch(()=>{});right.classList.remove('playing');};
  await waitFor(t,done=>{
   let busy=false;
   const nudge=setInterval(()=>{if(!busy&&!take&&!finishLine&&t===token)sayShared('yourTurn',t).catch(()=>{});},9000);
   mic.onclick=async()=>{
    if(busy){stopRecording();return;}
-   busy=true;audio.pause();takeAudio.pause();mic.classList.add('recording');
+   busy=true;audio.pause();mic.classList.add('recording');
    let blob=null;try{blob=await record(level=>mic.style.setProperty('--level',level.toFixed(2)));}catch{}
    mic.classList.remove('recording');mic.style.setProperty('--level',0);busy=false;
    if(t!==token)return;
    if(!blob){if(!canRecord())done();return;}
-   if(take)URL.revokeObjectURL(take.url);
-   take={key,speaker:line.speaker,url:URL.createObjectURL(blob),scene:snapshot()};
+   take={key,speaker:line.speaker,blob,scene:snapshot()};
    compare.hidden=false;mic.blur();chime('yay');
    await hearMine();if(t!==token)return;
    await new Promise(r=>setTimeout(r,250));if(t!==token)return;
@@ -351,7 +347,7 @@ async function yourTurn(key,t){
   mine.onclick=()=>{hearMine();};
   right.onclick=()=>{hearRight();};
   $('#turn-skip').onclick=done;
-  return ()=>{clearInterval(nudge);mic.onclick=mine.onclick=right.onclick=null;$('#turn-skip').onclick=null;stopRecording();takeAudio.pause();};
+  return ()=>{clearInterval(nudge);mic.onclick=mine.onclick=right.onclick=null;$('#turn-skip').onclick=null;stopRecording();stopPlayback();};
  });
  panel.hidden=true;compare.hidden=true;box.classList.remove('your-turn');
  if(take)takes.push(take);

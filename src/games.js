@@ -6,7 +6,7 @@
 // Each game is a module in src/games/ with its sentences in data/games/; a game loads only when it is opened.
 import {chime} from './sfx.js';
 import {icon,mascot} from './icons.js';
-import {record,canRecord,stopRecording,playUrl} from './recorder.js';
+import {record,canRecord,stopRecording,playUrl,playRecording,stopPlayback} from './recorder.js';
 
 const CACHE='learnchinese-v1';
 export const GAMES=[
@@ -26,7 +26,7 @@ const chars=text=>units(text).reduce((g,c)=>{const span=`<span class="ch">${esca
 const url=path=>new URL('../'+path,import.meta.url).href;
 export const shuffle=list=>{const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 // (No Audio outside a browser, so the tests can read this module's game list.)
-const audio=typeof Audio==='function'?new Audio():null,mine=typeof Audio==='function'?new Audio():null;
+const audio=typeof Audio==='function'?new Audio():null;
 let root=null,celebrate=()=>{},token=0,frame=0,finishLine=null,cancelWait=null;
 let game=null,module=null,clips={},catalog=null,current=null;
 const loaded=new Map();
@@ -37,7 +37,7 @@ const $=selector=>root.querySelector(selector);
 const replay=(el,cls)=>{if(!el)return;el.classList.remove(cls);void el.getBoundingClientRect();el.classList.add(cls);};
 
 export function mountGames(element,options){root=element;celebrate=options.celebrate;showMenu();}
-export function stopGames(){token++;cancelWait?.();stopRecording();audio?.pause();mine?.pause();finishLine?.(false);cancelAnimationFrame(frame);}
+export function stopGames(){token++;cancelWait?.();stopRecording();audio?.pause();stopPlayback();finishLine?.(false);cancelAnimationFrame(frame);}
 
 function showMenu(){
  stopGames();
@@ -202,21 +202,21 @@ function sayIt(t,key){
   mic.onclick=async()=>{
    clearTimeout(auto);$('.sayit').classList.add('held');
    if(busy){stopRecording();return;}
-   busy=true;audio.pause();mine.pause();mic.classList.add('recording');
+   busy=true;audio.pause();mic.classList.add('recording');
    const blob=await record(level=>mic.style.setProperty('--level',level.toFixed(2)));
    mic.classList.remove('recording');mic.style.setProperty('--level',0);busy=false;
    if(t!==token||!blob)return;
-   if(take)URL.revokeObjectURL(take);take=URL.createObjectURL(blob);
+   take=blob;
    if(!$('#hear-mine'))return;$('#hear-mine').hidden=false;
-   $('#hear-mine').classList.add('playing');await playUrl(mine,take);$('#hear-mine')?.classList.remove('playing');
+   $('#hear-mine').classList.add('playing');await playRecording(take);$('#hear-mine')?.classList.remove('playing');
    if(t!==token)return;await new Promise(r=>setTimeout(r,250));
    $('#hear-right')?.classList.add('playing');await say(key,t).catch(()=>{});$('#hear-right')?.classList.remove('playing');
   };
-  $('#hear-mine').onclick=()=>take&&playUrl(mine,take);
-  $('#hear-right').onclick=()=>say(key,t).catch(()=>{});
+  $('#hear-mine').onclick=()=>{if(!take)return;audio.pause();playRecording(take);};
+  $('#hear-right').onclick=()=>{stopPlayback();say(key,t).catch(()=>{});};
   $('#sayit-next').onclick=()=>done();
-  return ()=>{clearTimeout(auto);stopRecording();mic.onclick=null;mine.pause();};
- }).then(()=>{if(take)URL.revokeObjectURL(take);panel('');});
+  return ()=>{clearTimeout(auto);stopRecording();mic.onclick=null;stopPlayback();};
+ }).then(()=>panel(''));
 }
 const dots=(n,done)=>{$('.game-dots').innerHTML=Array.from({length:n},(_,i)=>`<span class="pop-dot ${i<done?'on':''}"></span>`).join('');};
 const flag=(name,on=true)=>$('.story-stage').classList.toggle(name,on);

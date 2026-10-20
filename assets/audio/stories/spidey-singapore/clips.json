@@ -30,14 +30,14 @@
   "speech_fingerprint": "71276c4a824ec9d463dc235a4124c31c6c4972fb44c4aaabb350944b92c305f3"
  },
  "team": {
-  "fingerprint": "f010a33276c2c83bd1375f225daad0519005f95e5e94a41eb892a89b5fde14cd",
-  "text": "Spider-Man、Ghost-Spider，还有 Spin！",
+  "fingerprint": "3d04b9223ff79166f910db3faff899c3290eeb385afda32838b01793c462021b",
+  "text": "Spider-Man、Ghost-Spider、Spin，还有 Ira！",
   "file": "assets/audio/stories/spidey-singapore/team.m4a",
   "speech": [
    0.04,
-   4.11
+   4.87
   ],
-  "speech_fingerprint": "f010a33276c2c83bd1375f225daad0519005f95e5e94a41eb892a89b5fde14cd"
+  "speech_fingerprint": "3d04b9223ff79166f910db3faff899c3290eeb385afda32838b01793c462021b"
  },
  "squad": {
   "fingerprint": "ff4d41db911aa8c2465ce9dcdefb59ac2c8891c230e5e764c9b7e4dab3e2bb62",

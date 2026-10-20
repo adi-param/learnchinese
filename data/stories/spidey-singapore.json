@@ -8,6 +8,11 @@
       "keep": true,
       "tint": "#ffe1e1"
     },
+    "ira": {
+      "rate": 1.15,
+      "keep": false,
+      "tint": "#f3e8ff"
+    },
     "goblin": {
       "rate": 0.7,
       "keep": false,
@@ -63,9 +68,9 @@
     },
     "team": {
       "speaker": "narrator",
-      "hanzi": "Spider-Man、Ghost-Spider，还有 Spin！",
-      "pinyin": "Spider-Man, Ghost-Spider, hái yǒu Spin!",
-      "english": "Spider-Man, Ghost-Spider and Spin!",
+      "hanzi": "Spider-Man、Ghost-Spider、Spin，还有 Ira！",
+      "pinyin": "Spider-Man, Ghost-Spider, Spin, hái yǒu Ira!",
+      "english": "Spider-Man, Ghost-Spider, Spin, and Ira!",
       "cues": [
         [
           "Spider-Man",
@@ -78,6 +83,10 @@
         [
           "Spin",
           "spin"
+        ],
+        [
+          "Ira",
+          "ira"
         ]
       ]
     },
@@ -203,14 +212,14 @@
       ]
     },
     "swing": {
-      "speaker": "spidey",
+      "speaker": "ira",
       "hanzi": "荡过去！",
       "pinyin": "Dàng guòqù!",
       "english": "Swing across!",
       "cues": [
         [
           "荡",
-          "spiderman"
+          "ira"
         ]
       ]
     },
@@ -239,14 +248,14 @@
       ]
     },
     "web": {
-      "speaker": "spidey",
+      "speaker": "ira",
       "hanzi": "射网！",
       "pinyin": "Shè wǎng!",
       "english": "Shoot a web!",
       "cues": [
         [
           "网",
-          "spiderman"
+          "ira"
         ]
       ],
       "yourTurn": true
@@ -335,7 +344,7 @@
       ]
     },
     "caught": {
-      "speaker": "spidey",
+      "speaker": "ira",
       "hanzi": "抓住你了！",
       "pinyin": "Zhuā zhù nǐ le!",
       "english": "Got you!",
