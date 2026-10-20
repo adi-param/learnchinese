@@ -1,0 +1,402 @@
+{
+ "here": {
+  "fingerprint": "308447c65a9185f766c3e4c1ab0f0e407191b8ad026ab8c3374c58c278b0d708",
+  "text": "这是首尔。",
+  "file": "assets/audio/stories/demon-hunters/here.m4a",
+  "speech": [
+   0.02,
+   1.06
+  ],
+  "speech_fingerprint": "308447c65a9185f766c3e4c1ab0f0e407191b8ad026ab8c3374c58c278b0d708"
+ },
+ "tower": {
+  "fingerprint": "fcc884d8137cff083a2d89c89860f218407e797d5adf6cac4b7629ff86c24f7b",
+  "text": "这是首尔塔。",
+  "file": "assets/audio/stories/demon-hunters/tower.m4a",
+  "speech": [
+   0.02,
+   1.34
+  ],
+  "speech_fingerprint": "fcc884d8137cff083a2d89c89860f218407e797d5adf6cac4b7629ff86c24f7b"
+ },
+ "team": {
+  "fingerprint": "9a80a3b5e5a056cc0097d3ebf095fb6a86cd279c1e0b4a76eb965c173b3fa21d",
+  "text": "Rumi、Mira、Zoey，还有 Ira！",
+  "file": "assets/audio/stories/demon-hunters/team.m4a",
+  "speech": [
+   0.01,
+   3.37
+  ],
+  "speech_fingerprint": "9a80a3b5e5a056cc0097d3ebf095fb6a86cd279c1e0b4a76eb965c173b3fa21d"
+ },
+ "hunters": {
+  "fingerprint": "4cd1adad0390cb44218153891a5eab678e1e5d09561191865ed79faaa987bd58",
+  "text": "她们是 Huntrix！",
+  "file": "assets/audio/stories/demon-hunters/hunters.m4a",
+  "speech": [
+   0.02,
+   1.53
+  ],
+  "speech_fingerprint": "4cd1adad0390cb44218153891a5eab678e1e5d09561191865ed79faaa987bd58"
+ },
+ "singers": {
+  "fingerprint": "905f00d5e2bbcf22c6b3c6ac596ac0c5039f06617e10f757f4b748f39adef648",
+  "text": "她们会唱歌，也会打怪物。",
+  "file": "assets/audio/stories/demon-hunters/singers.m4a",
+  "speech": [
+   0.04,
+   3.03
+  ],
+  "speech_fingerprint": "905f00d5e2bbcf22c6b3c6ac596ac0c5039f06617e10f757f4b748f39adef648"
+ },
+ "shield": {
+  "fingerprint": "5614443836f0da2dcbe0ddf6eb2373c8aa58459880d79bcc2185779531390edd",
+  "text": "她们一唱歌，天上就有金色的保护罩。",
+  "file": "assets/audio/stories/demon-hunters/shield.m4a",
+  "speech": [
+   0.04,
+   4.25
+  ],
+  "speech_fingerprint": "5614443836f0da2dcbe0ddf6eb2373c8aa58459880d79bcc2185779531390edd"
+ },
+ "tapSing": {
+  "fingerprint": "377c0ce8bccc080205fae2d57bff68a84a02d3757365fa82a8d12559c71cabf9",
+  "text": "点一点，一起唱！",
+  "file": "assets/audio/stories/demon-hunters/tapSing.m4a",
+  "speech": [
+   0.0,
+   2.05
+  ],
+  "speech_fingerprint": "377c0ce8bccc080205fae2d57bff68a84a02d3757365fa82a8d12559c71cabf9"
+ },
+ "lala": {
+  "fingerprint": "d9bfa20b6c7faed5f174308bd0c7bb6c4e7276586290d2cb0996096f8f1745f3",
+  "text": "啦啦啦！",
+  "file": "assets/audio/stories/demon-hunters/lala.m4a",
+  "speech": [
+   0.01,
+   0.76
+  ],
+  "speech_fingerprint": "d9bfa20b6c7faed5f174308bd0c7bb6c4e7276586290d2cb0996096f8f1745f3"
+ },
+ "sparkle": {
+  "fingerprint": "00346394d5fc89d5fbf197e943427db3015328ef1a948755bd0757bc3fcdc57e",
+  "text": "金光闪闪！",
+  "file": "assets/audio/stories/demon-hunters/sparkle.m4a",
+  "speech": [
+   0.04,
+   1.22
+  ],
+  "speech_fingerprint": "00346394d5fc89d5fbf197e943427db3015328ef1a948755bd0757bc3fcdc57e"
+ },
+ "oh": {
+  "fingerprint": "69c3c6dd8f8c350af7da5f00ae1c880be66092e889af25e64a4806b30882c977",
+  "text": "哎呀！怪物来了！",
+  "file": "assets/audio/stories/demon-hunters/oh.m4a",
+  "speech": [
+   0.02,
+   1.74
+  ],
+  "speech_fingerprint": "69c3c6dd8f8c350af7da5f00ae1c880be66092e889af25e64a4806b30882c977"
+ },
+ "crack": {
+  "fingerprint": "3cc8dfc2d4f556b30bf9c45b616ea42cb7e046c8a3e11043dffa525da9ce2c17",
+  "text": "咔嚓！保护罩破了！",
+  "file": "assets/audio/stories/demon-hunters/crack.m4a",
+  "speech": [
+   0.04,
+   2.26
+  ],
+  "speech_fingerprint": "3cc8dfc2d4f556b30bf9c45b616ea42cb7e046c8a3e11043dffa525da9ce2c17"
+ },
+ "helpers": {
+  "fingerprint": "74892020a7fe40beec680e89d3662be5c6ce9015962235d7f96ebc8a6c0f4138",
+  "text": "老虎 Derpy 和小鸟 Sussie 来帮忙！",
+  "file": "assets/audio/stories/demon-hunters/helpers.m4a",
+  "speech": [
+   0.01,
+   3.27
+  ],
+  "speech_fingerprint": "74892020a7fe40beec680e89d3662be5c6ce9015962235d7f96ebc8a6c0f4138"
+ },
+ "tapDerpy": {
+  "fingerprint": "657bb8a6ead25841a1a11478e25fc035ae91092b63d5d28c927cd5ad76ad0995",
+  "text": "点一点 Derpy！",
+  "file": "assets/audio/stories/demon-hunters/tapDerpy.m4a",
+  "speech": [
+   0.0,
+   1.34
+  ],
+  "speech_fingerprint": "657bb8a6ead25841a1a11478e25fc035ae91092b63d5d28c927cd5ad76ad0995"
+ },
+ "there": {
+  "fingerprint": "1b0ac193a4a523ad792a5d75d5f6028344bf3c1d3b329af871ce84a4981169e1",
+  "text": "看！怪物在那儿！",
+  "file": "assets/audio/stories/demon-hunters/there.m4a",
+  "speech": [
+   0.02,
+   1.7
+  ],
+  "speech_fingerprint": "1b0ac193a4a523ad792a5d75d5f6028344bf3c1d3b329af871ce84a4981169e1"
+ },
+ "tapDemon": {
+  "fingerprint": "6ee4c38164bc7125e9176fd788aa7569a2399bea3094a92aaa0fe41b8ce7e976",
+  "text": "点一点怪物！",
+  "file": "assets/audio/stories/demon-hunters/tapDemon.m4a",
+  "speech": [
+   0.01,
+   1.35
+  ],
+  "speech_fingerprint": "6ee4c38164bc7125e9176fd788aa7569a2399bea3094a92aaa0fe41b8ce7e976"
+ },
+ "goAway": {
+  "fingerprint": "975cd515c5a1a2023237f1a7db7c3b9b01d1c390b5b8e28d76ecfc5803be5780",
+  "text": "走开！",
+  "file": "assets/audio/stories/demon-hunters/goAway.m4a",
+  "speech": [
+   0.06,
+   0.69
+  ],
+  "speech_fingerprint": "975cd515c5a1a2023237f1a7db7c3b9b01d1c390b5b8e28d76ecfc5803be5780"
+ },
+ "silly": {
+  "fingerprint": "696f8c7ecb35e777ae9d98a8b1686fa80f4e14e3e9688bb5d81bb193987b866a",
+  "text": "这个怪物打了个喷嚏，跑掉了！",
+  "file": "assets/audio/stories/demon-hunters/silly.m4a",
+  "speech": [
+   0.02,
+   3.27
+  ],
+  "speech_fingerprint": "696f8c7ecb35e777ae9d98a8b1686fa80f4e14e3e9688bb5d81bb193987b866a"
+ },
+ "stage": {
+  "fingerprint": "27e695b9d72a69649c7e8ad89eebc3541186e805b55422235147353ad0a4a4d9",
+  "text": "回到舞台上！",
+  "file": "assets/audio/stories/demon-hunters/stage.m4a",
+  "speech": [
+   0.06,
+   1.38
+  ],
+  "speech_fingerprint": "27e695b9d72a69649c7e8ad89eebc3541186e805b55422235147353ad0a4a4d9"
+ },
+ "together": {
+  "fingerprint": "1369ade352c82f5034d4365e19f97c7154bf8f21a78a9ad3cf733c752a9e1632",
+  "text": "我们一起唱！",
+  "file": "assets/audio/stories/demon-hunters/together.m4a",
+  "speech": [
+   0.01,
+   1.16
+  ],
+  "speech_fingerprint": "1369ade352c82f5034d4365e19f97c7154bf8f21a78a9ad3cf733c752a9e1632"
+ },
+ "tapStage": {
+  "fingerprint": "f803f6c9f3a35da4330f23dca5b54e7a96cf25489296920d5d14466b01eacf0a",
+  "text": "点一点舞台！",
+  "file": "assets/audio/stories/demon-hunters/tapStage.m4a",
+  "speech": [
+   0.01,
+   1.44
+  ],
+  "speech_fingerprint": "f803f6c9f3a35da4330f23dca5b54e7a96cf25489296920d5d14466b01eacf0a"
+ },
+ "fixed": {
+  "fingerprint": "3943cf102848709da6e9e31ed17fa0c3ca5c9e8d92f95bed78ebe185d9e3f826",
+  "text": "保护罩好了！金色的！",
+  "file": "assets/audio/stories/demon-hunters/fixed.m4a",
+  "speech": [
+   0.01,
+   2.22
+  ],
+  "speech_fingerprint": "3943cf102848709da6e9e31ed17fa0c3ca5c9e8d92f95bed78ebe185d9e3f826"
+ },
+ "tapSky": {
+  "fingerprint": "5526cf814df534d862a7b32184442d3398539c199a8c1e481583a5c6dcd5240f",
+  "text": "点一点天空！",
+  "file": "assets/audio/stories/demon-hunters/tapSky.m4a",
+  "speech": [
+   0.0,
+   1.48
+  ],
+  "speech_fingerprint": "5526cf814df534d862a7b32184442d3398539c199a8c1e481583a5c6dcd5240f"
+ },
+ "pink": {
+  "fingerprint": "07e6204c7631fb419ee425647c81a122df03058c226083fab098d189498c95dc",
+  "text": "粉色！",
+  "file": "assets/audio/stories/demon-hunters/pink.m4a",
+  "speech": [
+   0.11,
+   0.63
+  ],
+  "speech_fingerprint": "07e6204c7631fb419ee425647c81a122df03058c226083fab098d189498c95dc"
+ },
+ "purple": {
+  "fingerprint": "25829e74490d1ccf0df4c65e891ad6b3348fb375966767caf9e70f9ab1bedbc4",
+  "text": "紫色！",
+  "file": "assets/audio/stories/demon-hunters/purple.m4a",
+  "speech": [
+   0.07,
+   0.52
+  ],
+  "speech_fingerprint": "25829e74490d1ccf0df4c65e891ad6b3348fb375966767caf9e70f9ab1bedbc4"
+ },
+ "gold": {
+  "fingerprint": "829c2d7bf9bee891ebd14e9ba2339d0710464bcf93b967aebda28c421f987166",
+  "text": "金色！",
+  "file": "assets/audio/stories/demon-hunters/gold.m4a",
+  "speech": [
+   0.04,
+   0.59
+  ],
+  "speech_fingerprint": "829c2d7bf9bee891ebd14e9ba2339d0710464bcf93b967aebda28c421f987166"
+ },
+ "bravo": {
+  "fingerprint": "5ebaea2c7069d856212cd8188e8b980f57c0ce95f0fdab46a85cb29236f1c405",
+  "text": "太棒了！她们救了首尔！",
+  "file": "assets/audio/stories/demon-hunters/bravo.m4a",
+  "speech": [
+   0.04,
+   2.41
+  ],
+  "speech_fingerprint": "5ebaea2c7069d856212cd8188e8b980f57c0ce95f0fdab46a85cb29236f1c405"
+ },
+ "word-seoul": {
+  "fingerprint": "67fb3c7fc6451774b81cd78d7ca5d1e4489cb0da18ed9e7e655e3bf25dfd8832",
+  "text": "首尔",
+  "file": "assets/audio/stories/demon-hunters/word-seoul.m4a",
+  "speech": [
+   0.03,
+   0.59
+  ],
+  "speech_fingerprint": "67fb3c7fc6451774b81cd78d7ca5d1e4489cb0da18ed9e7e655e3bf25dfd8832"
+ },
+ "word-tower": {
+  "fingerprint": "18344d9c7f186b8d4c7c55832bb1314222bd194fe0e77e43a1bf43287e8048ea",
+  "text": "塔",
+  "file": "assets/audio/stories/demon-hunters/word-tower.m4a",
+  "speech": [
+   0.02,
+   0.32
+  ],
+  "speech_fingerprint": "18344d9c7f186b8d4c7c55832bb1314222bd194fe0e77e43a1bf43287e8048ea"
+ },
+ "word-sing": {
+  "fingerprint": "36803a0fba0cf968d6d7551454dd1d791c9609481f6343d29e616f8bc4268f2e",
+  "text": "唱歌",
+  "file": "assets/audio/stories/demon-hunters/word-sing.m4a",
+  "speech": [
+   0.02,
+   0.61
+  ],
+  "speech_fingerprint": "36803a0fba0cf968d6d7551454dd1d791c9609481f6343d29e616f8bc4268f2e"
+ },
+ "word-gold": {
+  "fingerprint": "27e54355199c012d16b06b9c8cb0db3317e2f6407d6870d20f47929e167fbcf3",
+  "text": "金色",
+  "file": "assets/audio/stories/demon-hunters/word-gold.m4a",
+  "speech": [
+   0.04,
+   0.59
+  ],
+  "speech_fingerprint": "27e54355199c012d16b06b9c8cb0db3317e2f6407d6870d20f47929e167fbcf3"
+ },
+ "word-monster": {
+  "fingerprint": "38149ceda4e36beca7045f64a3a8a2e9263fef1f3677d5f4a3799962b3a71d83",
+  "text": "怪物",
+  "file": "assets/audio/stories/demon-hunters/word-monster.m4a",
+  "speech": [
+   0.03,
+   0.57
+  ],
+  "speech_fingerprint": "38149ceda4e36beca7045f64a3a8a2e9263fef1f3677d5f4a3799962b3a71d83"
+ },
+ "word-tiger": {
+  "fingerprint": "949c768b9f425d1376799d4470e3cbcfd8a61842c0747c78ba60a3b4c8133675",
+  "text": "老虎",
+  "file": "assets/audio/stories/demon-hunters/word-tiger.m4a",
+  "speech": [
+   0.01,
+   0.6
+  ],
+  "speech_fingerprint": "949c768b9f425d1376799d4470e3cbcfd8a61842c0747c78ba60a3b4c8133675"
+ },
+ "word-bird": {
+  "fingerprint": "dde73ae9b1fa5988e706b044705c1f5f4bca7be37f80a1a62ab2caf5568b4546",
+  "text": "小鸟",
+  "file": "assets/audio/stories/demon-hunters/word-bird.m4a",
+  "speech": [
+   0.03,
+   0.75
+  ],
+  "speech_fingerprint": "dde73ae9b1fa5988e706b044705c1f5f4bca7be37f80a1a62ab2caf5568b4546"
+ },
+ "word-stage": {
+  "fingerprint": "6e35078d3c9ccad36f931b65f31f21e3b918976ebd4bd9b99aa567071608bf4a",
+  "text": "舞台",
+  "file": "assets/audio/stories/demon-hunters/word-stage.m4a",
+  "speech": [
+   0.01,
+   0.64
+  ],
+  "speech_fingerprint": "6e35078d3c9ccad36f931b65f31f21e3b918976ebd4bd9b99aa567071608bf4a"
+ },
+ "word-together": {
+  "fingerprint": "014cfd82db05160d11789105a67b0e80cea0ed788d2f2524c51b456bb119be36",
+  "text": "一起",
+  "file": "assets/audio/stories/demon-hunters/word-together.m4a",
+  "speech": [
+   0.01,
+   0.58
+  ],
+  "speech_fingerprint": "014cfd82db05160d11789105a67b0e80cea0ed788d2f2524c51b456bb119be36"
+ },
+ "word-pink": {
+  "fingerprint": "f169296692da6925aa5bde7cc26cbcb3caee726fec7f42d702b45b6c047e53b3",
+  "text": "粉色",
+  "file": "assets/audio/stories/demon-hunters/word-pink.m4a",
+  "speech": [
+   0.11,
+   0.63
+  ],
+  "speech_fingerprint": "f169296692da6925aa5bde7cc26cbcb3caee726fec7f42d702b45b6c047e53b3"
+ },
+ "word-purple": {
+  "fingerprint": "81f9533ae600be5d8eb261dc8841783c1cd9adba7684c52cee6c186ef2f9ff88",
+  "text": "紫色",
+  "file": "assets/audio/stories/demon-hunters/word-purple.m4a",
+  "speech": [
+   0.07,
+   0.52
+  ],
+  "speech_fingerprint": "81f9533ae600be5d8eb261dc8841783c1cd9adba7684c52cee6c186ef2f9ff88"
+ },
+ "snd-giggle": {
+  "fingerprint": "729994581c0679d45d54973a8aa5e9100f388d8bc77643a42c9bdfc335f6f668",
+  "text": "嘻嘻嘻！",
+  "file": "assets/audio/stories/demon-hunters/snd-giggle.m4a",
+  "speech": [
+   0.03,
+   0.92
+  ],
+  "speech_fingerprint": "729994581c0679d45d54973a8aa5e9100f388d8bc77643a42c9bdfc335f6f668"
+ },
+ "snd-roar": {
+  "fingerprint": "8a885fb31a1cf41cf68038351847b26711774621394c86631b3471f69da93667",
+  "text": "嗷呜！",
+  "file": "assets/audio/stories/demon-hunters/snd-roar.m4a",
+  "speech": [
+   0.02,
+   0.54
+  ],
+  "speech_fingerprint": "8a885fb31a1cf41cf68038351847b26711774621394c86631b3471f69da93667"
+ },
+ "snd-chirp": {
+  "fingerprint": "e5ae067cd34af0d1a989fd2060685575d9853cec81d5f4d2012d08929ee72c97",
+  "text": "叽叽喳喳！",
+  "file": "assets/audio/stories/demon-hunters/snd-chirp.m4a",
+  "speech": [
+   0.05,
+   1.04
+  ],
+  "speech_fingerprint": "e5ae067cd34af0d1a989fd2060685575d9853cec81d5f4d2012d08929ee72c97"
+ }
+}

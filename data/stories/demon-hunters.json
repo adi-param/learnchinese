@@ -1,0 +1,442 @@
+{
+  "id": "demon-hunters",
+  "title": "KPop 猎魔女团救首尔",
+  "english": "KPop Demon Hunters save Seoul",
+  "voices": {
+    "team": {
+      "rate": 1.0,
+      "keep": true,
+      "tint": "#f3e8ff"
+    },
+    "rumi": {
+      "rate": 0.95,
+      "keep": false,
+      "tint": "#e9e3ff"
+    },
+    "ira": {
+      "rate": 1.15,
+      "keep": false,
+      "tint": "#ffe1ef"
+    },
+    "demon": {
+      "rate": 0.75,
+      "keep": false,
+      "tint": "#dfe6ff"
+    },
+    "derpy": {
+      "rate": 0.6,
+      "keep": false,
+      "tint": "#dfe9ff"
+    },
+    "sussie": {
+      "rate": 1.5,
+      "keep": false,
+      "tint": "#eef3f8"
+    }
+  },
+  "lines": {
+    "here": {
+      "speaker": "narrator",
+      "hanzi": "这是首尔。",
+      "pinyin": "Zhè shì Shǒu’ěr.",
+      "english": "This is Seoul.",
+      "cues": [
+        [
+          "首尔",
+          "city"
+        ]
+      ]
+    },
+    "tower": {
+      "speaker": "narrator",
+      "hanzi": "这是首尔塔。",
+      "pinyin": "Zhè shì Shǒu’ěr Tǎ.",
+      "english": "This is N Seoul Tower.",
+      "cues": [
+        [
+          "首尔塔",
+          "tower"
+        ]
+      ]
+    },
+    "team": {
+      "speaker": "narrator",
+      "hanzi": "Rumi、Mira、Zoey，还有 Ira！",
+      "pinyin": "Rumi, Mira, Zoey, hái yǒu Ira!",
+      "english": "Rumi, Mira, Zoey, and Ira!",
+      "cues": [
+        [
+          "Rumi",
+          "rumi"
+        ],
+        [
+          "Mira",
+          "mira"
+        ],
+        [
+          "Zoey",
+          "zoey"
+        ],
+        [
+          "Ira",
+          "ira"
+        ]
+      ]
+    },
+    "hunters": {
+      "speaker": "narrator",
+      "hanzi": "她们是 Huntrix！",
+      "pinyin": "Tāmen shì Huntrix!",
+      "english": "They are Huntrix!",
+      "cues": [
+        [
+          "Huntrix",
+          "team"
+        ]
+      ]
+    },
+    "singers": {
+      "speaker": "narrator",
+      "hanzi": "她们会唱歌，也会打怪物。",
+      "pinyin": "Tāmen huì chànggē, yě huì dǎ guàiwu.",
+      "english": "They can sing, and they can fight monsters too.",
+      "cues": [
+        [
+          "唱歌",
+          "team"
+        ]
+      ]
+    },
+    "shield": {
+      "speaker": "narrator",
+      "hanzi": "她们一唱歌，天上就有金色的保护罩。",
+      "pinyin": "Tāmen yí chànggē, tiānshang jiù yǒu jīnsè de bǎohùzhào.",
+      "english": "When they sing, a golden shield shines in the sky.",
+      "cues": [
+        [
+          "保护罩",
+          "shield"
+        ]
+      ]
+    },
+    "tapSing": {
+      "speaker": "narrator",
+      "hanzi": "点一点，一起唱！",
+      "pinyin": "Diǎn yi diǎn, yìqǐ chàng!",
+      "english": "Tap them to sing together!",
+      "cues": [
+        [
+          "唱",
+          "team"
+        ]
+      ]
+    },
+    "lala": {
+      "speaker": "team",
+      "hanzi": "啦啦啦！",
+      "pinyin": "Lā lā lā!",
+      "english": "La la la!",
+      "cues": []
+    },
+    "sparkle": {
+      "speaker": "ira",
+      "hanzi": "金光闪闪！",
+      "pinyin": "Jīnguāng shǎnshǎn!",
+      "english": "Sparkly gold!",
+      "cues": [
+        [
+          "金光",
+          "shield"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "oh": {
+      "speaker": "narrator",
+      "hanzi": "哎呀！怪物来了！",
+      "pinyin": "Āiyā! Guàiwu lái le!",
+      "english": "Oh no! The monsters are here!",
+      "cues": [
+        [
+          "怪物",
+          "demons"
+        ]
+      ]
+    },
+    "crack": {
+      "speaker": "narrator",
+      "hanzi": "咔嚓！保护罩破了！",
+      "pinyin": "Kāchā! Bǎohùzhào pò le!",
+      "english": "Crack! The shield is broken!",
+      "cues": [
+        [
+          "保护罩",
+          "shield"
+        ]
+      ]
+    },
+    "helpers": {
+      "speaker": "narrator",
+      "hanzi": "老虎 Derpy 和小鸟 Sussie 来帮忙！",
+      "pinyin": "Lǎohǔ Derpy hé xiǎoniǎo Sussie lái bāngmáng!",
+      "english": "Derpy the tiger and Sussie the bird come to help!",
+      "cues": [
+        [
+          "老虎",
+          "derpy"
+        ],
+        [
+          "小鸟",
+          "sussie"
+        ]
+      ]
+    },
+    "tapDerpy": {
+      "speaker": "narrator",
+      "hanzi": "点一点 Derpy！",
+      "pinyin": "Diǎn yi diǎn Derpy!",
+      "english": "Tap Derpy!",
+      "cues": [
+        [
+          "Derpy",
+          "derpy"
+        ]
+      ]
+    },
+    "there": {
+      "speaker": "narrator",
+      "hanzi": "看！怪物在那儿！",
+      "pinyin": "Kàn! Guàiwu zài nàr!",
+      "english": "Look! The monsters are over there!",
+      "cues": [
+        [
+          "怪物",
+          "demons"
+        ]
+      ]
+    },
+    "tapDemon": {
+      "speaker": "narrator",
+      "hanzi": "点一点怪物！",
+      "pinyin": "Diǎn yi diǎn guàiwu!",
+      "english": "Tap a monster!",
+      "cues": [
+        [
+          "怪物",
+          "demons"
+        ]
+      ]
+    },
+    "goAway": {
+      "speaker": "team",
+      "hanzi": "走开！",
+      "pinyin": "Zǒukāi!",
+      "english": "Go away!",
+      "cues": [],
+      "yourTurn": true
+    },
+    "silly": {
+      "speaker": "narrator",
+      "hanzi": "这个怪物打了个喷嚏，跑掉了！",
+      "pinyin": "Zhège guàiwu dǎ le ge pēntì, pǎodiào le!",
+      "english": "This monster sneezed and ran away!",
+      "cues": [
+        [
+          "怪物",
+          "demon3"
+        ]
+      ]
+    },
+    "stage": {
+      "speaker": "narrator",
+      "hanzi": "回到舞台上！",
+      "pinyin": "Huí dào wǔtái shang!",
+      "english": "Back to the stage!",
+      "cues": [
+        [
+          "舞台",
+          "stage"
+        ]
+      ]
+    },
+    "together": {
+      "speaker": "rumi",
+      "hanzi": "我们一起唱！",
+      "pinyin": "Wǒmen yìqǐ chàng!",
+      "english": "Let’s sing together!",
+      "cues": [
+        [
+          "我们",
+          "team"
+        ]
+      ],
+      "yourTurn": true
+    },
+    "tapStage": {
+      "speaker": "narrator",
+      "hanzi": "点一点舞台！",
+      "pinyin": "Diǎn yi diǎn wǔtái!",
+      "english": "Tap the stage!",
+      "cues": [
+        [
+          "舞台",
+          "stage"
+        ]
+      ]
+    },
+    "fixed": {
+      "speaker": "narrator",
+      "hanzi": "保护罩好了！金色的！",
+      "pinyin": "Bǎohùzhào hǎo le! Jīnsè de!",
+      "english": "The shield is fixed! It’s golden!",
+      "cues": [
+        [
+          "保护罩",
+          "shield"
+        ]
+      ]
+    },
+    "tapSky": {
+      "speaker": "narrator",
+      "hanzi": "点一点天空！",
+      "pinyin": "Diǎn yi diǎn tiānkōng!",
+      "english": "Tap the sky!",
+      "cues": [
+        [
+          "天空",
+          "sky"
+        ]
+      ]
+    },
+    "pink": {
+      "speaker": "narrator",
+      "hanzi": "粉色！",
+      "pinyin": "Fěnsè!",
+      "english": "Pink!",
+      "cues": [
+        [
+          "粉色",
+          "fw-pink"
+        ]
+      ]
+    },
+    "purple": {
+      "speaker": "narrator",
+      "hanzi": "紫色！",
+      "pinyin": "Zǐsè!",
+      "english": "Purple!",
+      "cues": [
+        [
+          "紫色",
+          "fw-purple"
+        ]
+      ]
+    },
+    "gold": {
+      "speaker": "narrator",
+      "hanzi": "金色！",
+      "pinyin": "Jīnsè!",
+      "english": "Gold!",
+      "cues": [
+        [
+          "金色",
+          "fw-gold"
+        ]
+      ]
+    },
+    "bravo": {
+      "speaker": "narrator",
+      "hanzi": "太棒了！她们救了首尔！",
+      "pinyin": "Tài bàng le! Tāmen jiù le Shǒu’ěr!",
+      "english": "Well done! They saved Seoul!",
+      "cues": [
+        [
+          "首尔",
+          "city"
+        ]
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "seoul",
+      "hanzi": "首尔",
+      "pinyin": "Shǒu’ěr",
+      "english": "Seoul"
+    },
+    {
+      "id": "tower",
+      "hanzi": "塔",
+      "pinyin": "tǎ",
+      "english": "tower"
+    },
+    {
+      "id": "sing",
+      "hanzi": "唱歌",
+      "pinyin": "chànggē",
+      "english": "to sing"
+    },
+    {
+      "id": "gold",
+      "hanzi": "金色",
+      "pinyin": "jīnsè",
+      "english": "gold"
+    },
+    {
+      "id": "monster",
+      "hanzi": "怪物",
+      "pinyin": "guàiwu",
+      "english": "monster"
+    },
+    {
+      "id": "tiger",
+      "hanzi": "老虎",
+      "pinyin": "lǎohǔ",
+      "english": "tiger"
+    },
+    {
+      "id": "bird",
+      "hanzi": "小鸟",
+      "pinyin": "xiǎoniǎo",
+      "english": "little bird"
+    },
+    {
+      "id": "stage",
+      "hanzi": "舞台",
+      "pinyin": "wǔtái",
+      "english": "stage"
+    },
+    {
+      "id": "together",
+      "hanzi": "一起",
+      "pinyin": "yìqǐ",
+      "english": "together"
+    },
+    {
+      "id": "pink",
+      "hanzi": "粉色",
+      "pinyin": "fěnsè",
+      "english": "pink"
+    },
+    {
+      "id": "purple",
+      "hanzi": "紫色",
+      "pinyin": "zǐsè",
+      "english": "purple"
+    }
+  ],
+  "sounds": {
+    "giggle": {
+      "speaker": "demon",
+      "hanzi": "嘻嘻嘻！"
+    },
+    "roar": {
+      "speaker": "derpy",
+      "hanzi": "嗷呜！"
+    },
+    "chirp": {
+      "speaker": "sussie",
+      "hanzi": "叽叽喳喳！"
+    }
+  }
+}

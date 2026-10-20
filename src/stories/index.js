@@ -5,6 +5,7 @@
 export const STORIES=[
  {id:'three-pigs',title:'三只小猪',english:'The three little pigs'},
  {id:'spidey-singapore',title:'蜘蛛小队救新加坡',english:'Team Spidey saves Singapore'},
+ {id:'demon-hunters',title:'KPop 猎魔女团救首尔',english:'KPop Demon Hunters save Seoul'},
  {id:'billy-goats',title:'三只山羊过桥',english:'The three billy goats'},
  {id:'paw-patrol',title:'PAW Patrol 救小鸡',english:'PAW Patrol saves the chicken'},
  {id:'kitten-mummy',title:'小猫找妈妈',english:'Little kitten looks for mummy'},
